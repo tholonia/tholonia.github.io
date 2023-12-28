@@ -1,0 +1,5 @@
+_the_book/assets/latest/THOLONIA_THE_BOOK.md.zip filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.html.zip filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.pdf filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.epub filter=lfs diff=lfs merge=lfs -text
+_material/assets/book*.zip filter=lfs diff=lfs merge=lfs -text
