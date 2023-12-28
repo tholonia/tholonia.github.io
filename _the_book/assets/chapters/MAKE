@@ -1,0 +1,4 @@
+# run first
+ls *jpg |awk -F "." '{print "convert "$0" -channel RGB -negate "$1"-dark.jpg"}' 
+# then run
+ls *-dark.jpg |awk -F "." '{print "convert "$0" -fuzz 20% -transparent black "$1"-trans.png"}' >> RUN

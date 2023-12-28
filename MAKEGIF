@@ -1,0 +1,7 @@
+#!/bin/bash -x 
+
+# ytgrab https://www.youtube.com/watch\?v\=${1} ${1}
+ffmpeg -y -loglevel panic -ss 0 -t 15 -i ~/Videos/${1}.mp4 -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse"  -loop 0 "${1}.gif"
+
+#gifski --fps 10 --width 320 -o ${1}.gif ~/Videos/${1}.mp4
+#ffmpeg -y -loglevel panic -ss 3 -to 8 -i ~/Videos/.mp4  -filter_complex "fps=8,scale=360:-1[s]; [s]split[a][b]; [a]palettegen[palette]; [b][palette]paletteuse" ${1}.gif

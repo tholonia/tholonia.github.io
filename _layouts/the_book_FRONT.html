@@ -1,0 +1,61 @@
+---
+layout: page
+title: Book
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/the_book_home.html -->
+
+<style>
+  #botoes li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+    vertical-align: middle;
+  }
+
+  .dlimgs {
+    border: 2px solid red !important;
+    width: 20px !important;
+  }
+  .chimg {
+    width:8em !important;
+    width:20%;
+  }
+</style>
+
+<ul id="botoes">
+  <li>
+    <a
+      href="https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/latest/THOLONIA_THE_BOOK.pdf?download=">
+      <img alt="Download PDF" src="/the_book/assets/latest/tholonia_the_book_PDF.jpg" class="chimg">
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/latest/THOLONIA_THE_BOOK.md.zip?download=">
+      <img alt="Download MD" src="/the_book/assets/latest/tholonia_the_book_MD.jpg" class="chimg">
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/latest/THOLONIA_THE_BOOK.html.zip?download=">
+      <img alt="Download HTML" src="/the_book/assets/latest/tholonia_the_book_HTML.jpg" class="chimg">
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/latest/THOLONIA_THE_BOOK.epub?download=">
+      <img alt="Download ePub" src="/the_book/assets/latest/tholonia_the_book_ePub.jpg" class="chimg">
+    </a>
+  </li>
+</ul>
+
+<H2>Individual Chapters</H2>
+
+{% for chapter in site.the_book %}
+<div class="the_book">
+  <a href="{{ chapter.url }}" target="_blank"><img class="left-img-25" src="{{ chapter.image }}" alt="{{ chapter.title }}" /></a>
+  <h2><a href="{{ chapter.url }}" target="_blank">{{ chapter.title }}</a></h2>
+  {{ chapter.excerpt }}
+</div>
+<div class="clearfix"></div>
+{% endfor %}
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/the_book_home.html -->

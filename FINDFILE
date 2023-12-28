@@ -1,0 +1,4 @@
+#!/bin/bash
+clear
+find ./ -type f |grep -i -F "${1}"  |grep -v _site |grep -v ZPROJECT
+

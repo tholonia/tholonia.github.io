@@ -1,0 +1,24 @@
+---
+layout: page
+title: Interactive
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/interactive_home.html -->
+
+{{ page.content }}
+
+<h2>Click to view fullscreen, then activate and control the image by moving your mouse over the screen.  </h2>
+
+{% assign pages = site.pages |sort: "order" %}
+
+
+{% for this_page in site.interactive %}
+    <div class="interactive">
+      <a href="{{ this_page.url }}"><img alt="the_book.title" src="{{ this_page.image }}"
+          class="left-img-25" />
+        <h2>{{ this_page.title }}</h2>
+      </a>
+      {{this_page.excerpt}}
+    </div>
+    <div class="clearfix"></div>
+{% endfor %}
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/interactive_home.html -->

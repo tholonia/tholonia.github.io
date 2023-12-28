@@ -1,0 +1,985 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        id="svg"
+        class="svg"
+        viewBox="-960 -540 1920 1080"
+        width="99%"
+        height="99%"
+        fill="black"
+        style="border:1px solid #444; background-color: #000;"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke="white"
+        stroke-width="3"
+        xml:space="preserve"
+        align="center"
+>
+
+    <!--         viewBox="-540 -960 1080 1920" -->
+    <!--         viewBox="-960 -540 1920 1080" -->
+    <!--         viewBox="-960 -540 1920 1080" -->
+    <!--        transform="translate(0 -0) rotate(-90) "-->
+    <!--        transform="translate(450 -400) rotate(-90) "-->
+    <!--        transform="rotate(-90 50 100)"-->
+    <!--        <rect x="0" y="0" width="400" height="400"  style="stroke: #ffffff; fill:none;"/>-->
+    <!--        width="400"-->
+    <!--        height="400"-->
+    <!--        version="1.1"-->
+    <!--        fill-rule="evenodd"-->
+    <!--        zoomAndPan="magnify" width="1150" height="767"-->
+
+    <!-- you must wrap scripts in CDATA tags as SVG should be valid XML -->
+    <script type="text/javascript"><![CDATA[
+
+
+    <!-- ------------------------------------------------------------- -->
+    class Node {
+        constructor(a, b) {
+            this.x = a;
+            this.y = b;
+        }
+
+        toString() {
+            return "(" + this.x.toFixed(2) + ", " + this.y.toFixed(2) + ")";
+        }
+    }
+    <!--  connections between nodes in a graph -->
+    <!-- ------------------------------------------------------------- -->
+    class Edge {
+        constructor(node_a, node_b) {
+            this.node_1 = node_a;
+            this.node_2 = node_b;
+        }
+        toString() {
+            return "[" + this.node_1.toString() + ", " + this.node_2.toString() + "]";
+        }
+    }
+    <!--  Javascript math library trig functions take radians and not degrees by default -->
+    <!-- ------------------------------------------------------------- -->
+    function toRadians(angle) {
+        return angle * Math.PI / 180;
+    }
+    <!--  recursive collection of nodes and edges that form a tree -->
+    <!-- ------------------------------------------------------------- -->
+    // var tlevel = 0+
+    function sleep(milliseconds) {
+      const date = Date.now();
+      let currentDate = null;
+      do {
+        currentDate = Date.now();
+      } while (currentDate - date < milliseconds);
+    }
+
+    var flip = 0
+    class Tree {
+        <!--  constructor(gens, m, x, y, a, t) {  // renamed to match my old code  -->
+        constructor(gens, lineLength, x, y, angle, rotation) {
+            <!--  all trees have a base node -->
+            this.base_node = new Node(x, y);
+            <!--  check if we are at end of tree -->
+
+
+            // lineLength = maxlength
+                //lengths[lOrder[tlevel]]
+            // console.log(tlevel, lOrder[tlevel], lineLength)
+
+            if (gens > 0) {
+                // let Rangle = angle * (vy/1000)
+                // let Langle = angle * (vy/1000)
+
+                let Rangle = angle // * (current_y/1000)
+                let Langle = angle //* (current_x/1000)
+
+                this.xcR = Math.cos(toRadians(Rangle - rotation))
+                this.ycR = Math.sin(toRadians(Rangle - rotation))
+                this.xcL = Math.cos(toRadians(Langle + rotation))
+                this.ycL = Math.sin(toRadians(Langle + rotation))
+                <!--  determine next node to the right in the tree with trig -->
+                this.right_node = new Node(
+                    x + lineLength * this.xcR,
+                    y + lineLength * this.ycR
+                );
+
+                // tline( x, y, this.xcR, this.ycR, tlevel, angle,length)
+                // tline( x, y, this.xcL, this.ycL, tlevel, angle,length)
+
+                <!--  determine next node to the left in the tree with trig -->
+                    this.left_node = new Node(
+                    x + lineLength * this.xcL,
+                    y + lineLength * this.ycL
+                );
+
+                <!--  create edges in the graph that connect the base node to the following nodes -->
+                this.right_branch = new Edge(this.base_node, this.right_node);
+                this.left_branch = new Edge(this.base_node, this.left_node);
+
+                <!--  generate a tree beginning at the left node, with a lower depth and new start angle -->
+                this.left_tree = new Tree(
+                    gens - 1,
+                    lineLength,
+                    this.left_node.x,
+                    this.left_node.y,
+                    angle + rotation,
+                    rotation
+                );
+
+
+                <!--  generate a tree beginning at the right node, with a lower depth and new start angle -->
+                this.right_tree = new Tree(
+                    gens - 1,
+                    lineLength,
+                    this.right_node.x,
+                    this.right_node.y,
+                    angle - rotation,
+                    rotation
+                );
+
+                tline( x, y, this.left_node.x, this.left_node.y, current_level, angle,length)
+                tline( x, y, this.right_node.x, this.right_node.y, tlevel, angle,length)
+
+            }
+        }
+    }
+    <!-- ------------------------------------------------------------- -->
+    function getColorScheme(n, c ) {
+        let colorscheme = {}
+        if (n === 0) {
+            let offset_1 = "0%";
+            let offset_2 = "50%";
+            let offset_3 = "100%";
+
+            <!--  objectBoundingBox vs userSpaceOnUse  -->
+
+            colorscheme = {
+                0: {
+                    'stops': [{"color": c[0], "offset": offset_1}, {
+                        "color": c[1],
+                        "offset": "50%"
+                    }, {"color": c[2], "offset": "100%"}],
+                    'box': 'userSpaceOnUse'
+                },
+                1: {
+                    'stops': [{"color": c[1], "offset": offset_1}, {
+                        "color": c[2],
+                        "offset": offset_2
+                    }, {"color": c[3], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                2: {
+                    'stops': [{"color": c[2], "offset": offset_1}, {
+                        "color": c[3],
+                        "offset": offset_2
+                    }, {"color": c[4], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                3: {
+                    'stops': [{"color": c[3], "offset": offset_1}, {
+                        "color": c[4],
+                        "offset": offset_2
+                    }, {"color": c[5], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                4: {
+                    'stops': [{"color": c[4], "offset": offset_1}, {
+                        "color": c[5],
+                        "offset": offset_2
+                    }, {"color": c[6], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                5: {
+                    'stops': [{"color": c[5], "offset": offset_1}, {
+                        "color": c[5],
+                        "offset": offset_2
+                    }, {"color": c[7], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                6: {
+                    'stops': [{"color": c[6], "offset": offset_1}, {
+                        "color": c[7],
+                        "offset": offset_2
+                    }, {"color": c[8], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                7: {
+                    'stops': [{"color": c[7], "offset": offset_1}, {
+                        "color": c[8],
+                        "offset": "50%"
+                    }, {"color": c[9], "offset": "100%"}],
+                    'box': 'userSpaceOnUse'
+                },
+                8: {
+                    'stops': [{"color": c[9], "offset": offset_1}, {
+                        "color": c[10],
+                        "offset": offset_2
+                    }, {"color": c[11], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                9: {
+                    'stops': [{"color": c[10], "offset": offset_1}, {
+                        "color": c[11],
+                        "offset": offset_2
+                    }, {"color": c[12], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+            }
+        }
+        if (n === 1) {
+            let offset_1 = "0%";
+            let offset_2 = "100%";
+            colorscheme = {
+                0: {
+                    'stops': [{"color": c[0], "offset": offset_1}, {"color": c[1], "offset": "50%"}],
+                    'box': 'objectBoundingBox'
+                },
+                1: {
+                    'stops': [{"color": c[1], "offset": offset_1}, {"color": c[2], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                2: {
+                    'stops': [{"color": c[2], "offset": offset_1}, {"color": c[3], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                3: {
+                    'stops': [{"color": c[3], "offset": offset_1}, {"color": c[4], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                4: {
+                    'stops': [{"color": c[4], "offset": offset_1}, {"color": c[5], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                5: {
+                    'stops': [{"color": c[5], "offset": offset_1}, {"color": c[6], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                6: {
+                    'stops': [{"color": c[6], "offset": offset_1}, {"color": c[7], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                }
+            }
+        }
+        if (n === 2) {
+            let offset_1 = "0%";
+            let offset_2 = "25%";
+            let offset_3 = "50%";
+            let offset_4 = "75%";
+            colorscheme = {
+                0: {
+                    'stops': [
+                        {"color": c[0], "offset": offset_1},
+                        {"color": c[1], "offset": offset_2},
+                        {"color": c[2], "offset": offset_3},
+                        {"color": c[3], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                },
+                1: {
+                    'stops': [
+                        {"color": c[1], "offset": offset_1},
+                        {"color": c[2], "offset": offset_2},
+                        {"color": c[3], "offset": offset_3},
+                        {"color": c[4], "offset": offset_4}
+                    ],
+                    'box': 'userSpaceOnUse'
+                },
+                2: {
+                    'stops': [
+                        {"color": c[2], "offset": offset_1},
+                        {"color": c[3], "offset": offset_2},
+                        {"color": c[4], "offset": offset_3},
+                        {"color": c[5], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                },
+                3: {
+                    'stops': [
+                        {"color": c[3], "offset": offset_1},
+                        {"color": c[4], "offset": offset_2},
+                        {"color": c[5], "offset": offset_3},
+                        {"color": c[6], "offset": offset_4}
+                    ],
+                    'box': 'userSpaceOnUse'
+                },
+                4: {
+                    'stops': [
+                        {"color": c[4], "offset": offset_1},
+                        {"color": c[5], "offset": offset_2},
+                        {"color": c[6], "offset": offset_3},
+                        {"color": c[7], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                },
+                5: {
+                    'stops': [
+                        {"color": c[5], "offset": offset_1},
+                        {"color": c[6], "offset": offset_2},
+                        {"color": c[7], "offset": offset_3},
+                        {"color": c[8], "offset": offset_4}
+                    ],
+                    'box': 'userSpaceOnUse'
+                },
+                6: {
+                    'stops': [
+                        {"color": c[6], "offset": offset_1},
+                        {"color": c[7], "offset": offset_2},
+                        {"color": c[8], "offset": offset_3},
+                        {"color": c[9], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                }
+            }
+        }
+        return (colorscheme)
+    }
+    <!--  traverse a tree object and return the edges in the form of a list -->
+    <!-- ------------------------------------------------------------- -->
+
+    function getTreeEdges(tree) {
+        tlevel++
+        cOrder.push(tlevel)
+        if (tree.left_tree) {
+            var edges = getTreeEdges(tree.right_tree).concat(getTreeEdges(tree.left_tree));
+            edges.push(tree.left_branch);
+            edgeNum++
+            edges.push(tree.right_branch);
+            edgeNum++
+            return edges;
+        } else {
+            return [];
+        }
+        tlevel--
+
+    }
+    <!-- ------------------------------------------------------------- -->
+    function drawLine(args) {
+        let line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.id = args['idname'];
+
+        line.setAttribute("x1", args['x1']);
+        line.setAttribute("y1", args['y1']);
+        line.setAttribute("x2", args['x2']);
+        line.setAttribute("y2", args['y2']);
+        line.setAttribute("stroke", args['color']);
+        line.setAttribute("stroke-width", args['width']);
+        line.setAttribute("style", args['style']);
+        line.setAttribute("class", args['classname']);
+        line.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(line);
+        return (document.getElementById(args['idname']));
+    }
+    function drawArrow(args) {
+        let arrow = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        arrow.id = args['idname'];
+
+        arrow.setAttribute("x1", args['x2'] );
+        arrow.setAttribute("y1", args['y2'] );
+        arrow.setAttribute("x2", args['x2']+30 );
+        arrow.setAttribute("y2", args['y2']+30 );
+        arrow.setAttribute("stroke", args['color']);
+        arrow.setAttribute("stroke-width", args['width']);
+        arrow.setAttribute("style", args['style']);
+        arrow.setAttribute("class", args['classname']);
+        arrow.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(arrow);
+        return (document.getElementById(args['idname']));
+    }
+
+    <!-- ------------------------------------------------------------- -->
+    function drawCircle_end(args) {
+        let circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+
+        circle.id = args['idname'];
+
+        circle.setAttribute("cx", String(Math.round(args['cx'])));
+        circle.setAttribute("cy", String(Math.round(args['cy'])));
+        circle.setAttribute("r", String(Math.round(args['radius'])));
+        circle.setAttribute("fill", args['color']);
+        circle.setAttribute("stroke", args['bordercolor']);
+        circle.setAttribute("stroke-width", args['borderwidth']);
+        circle.setAttribute("style", args['style']);
+        circle.setAttribute("class", args['classname']);
+        circle.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(circle);
+        return (document.getElementById(args['idname']));
+    }
+    <!-- ------------------------------------------------------------- -->
+    function drawPoly1(args) {
+        let poly1 = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+
+        // color = args['color']
+        color = args['color']
+
+
+        // console.log("color",color)
+        <!--    TO MAKE ONE SIDED: alength1 = 0 -->
+        let alength = Math.round(args['length'] / .5);
+        let alength1 = alength;
+        let alength2 = alength;
+
+        let level = args['level'];
+        // console.log("level",level)
+
+        let cxs = args['cxs'];
+        let cys = args['cys'];
+        let cxt = args['cxt'];
+        let cyt = args['cyt'];
+        let angle = args['angle'];
+
+        // console.log("angle",angle)
+
+        let rangle = deg2rad(angle);
+        <!-- get the angle of the line -->
+        let this_angle_rad = Math.atan2(cyt - cys, cxt - cxs);
+
+        let opacity = "0.3"
+
+        <!--    create the pairs -->
+        let ptsary = [];
+
+        // cdiv2 = current_x/5000
+
+        if (leaf_mode === 0) {
+            colorSchemeIndex = 0
+            paletteIndex = 0
+            colors = colors2[paletteIndex]
+            colorScheme = getColorScheme(colorSchemeIndex, colors)
+            pensize = pensizes[6]
+
+            <!--    calc 1st corner point    -->
+            let p2x = alength1 * (Math.cos(rangle ) * +10) + cxs;
+            // p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            let p2y = alength1 * (Math.sin(rangle ) * +10) + cys;
+            // p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+            <!--    calc 2nd corner point    -->
+            let p3x = alength2 * (Math.cos(rangle ) * -10) + cxs;
+            // p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            let p3y = alength2 * (Math.sin(rangle ) * -10) + cys;
+            // p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            p2x = randfloat(p2x,p2x+cdiv2)
+            p2y = randfloat(p2y,p2y+cdiv2)
+            p3x = randfloat(p3x,p3x+cdiv2)
+            p3y = randfloat(p3y,p3y+cdiv2)
+
+
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(p2x+","+p2y)
+            ptsary.push(p3x+","+p3y)
+            ptsary.push(cxt+","+cyt)
+
+            opacity = "0.3"
+
+            // console.log(ptsary)
+        }
+        <!--    fireball-->
+        if (leaf_mode === 10) {
+            // colors = colors2[3]
+            // pensize = pensizes[6]
+
+            nlength = 5
+
+
+            // console.log(current_x)
+            cdiv = vx*60
+            cdiv2 = vx*60
+            rangle = deg2rad(randint(angle,angle+cdiv));
+            // rangle = randint(rangle,rangle+current_x)
+
+            <!--    calc 1st corner point    -->
+            let p2x = nlength * (Math.cos(rangle) * +10) + cxs;
+            // p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            let p2y = nlength * (Math.sin(rangle) * +10) + cys;
+            // p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+            <!--    calc 2nd corner point    -->
+            let p3x = nlength * (Math.cos(rangle) * -10) + cxs;
+            // p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            let p3y = nlength * (Math.sin(rangle) * -10) + cys;
+            // p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            p2x = randfloat(p2x,p2x+cdiv2)
+            p2y = randfloat(p2y,p2y+cdiv2)
+            p3x = randfloat(p3x,p3x+cdiv2)
+            p3y = randfloat(p3y,p3y+cdiv2)
+
+            ptsary.push(cxt + "," + cyt)
+            ptsary.push(p2x + "," + p2y)
+            ptsary.push(p3x + "," + p3y)
+            ptsary.push(cxt + "," + cyt)
+
+            opacity = "0.3"
+
+            // console.log(ptsary)
+        }
+        if (leaf_mode === 1) {
+            alength1 = alength*3
+            p2x = alength1 * (Math.cos(rangle + this_angle_rad) * +1) + cxs;
+            p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            p2y = alength1 * (Math.sin(rangle + this_angle_rad) * +1) + cys;
+            p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+
+            alength2 = alength*3
+            p3x = alength2 * (Math.cos(rangle + this_angle_rad) * -1) + cxs;
+            p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            p3y = alength2 * (Math.sin(rangle + this_angle_rad) * -1) + cys;
+            p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(p2x+","+p2y)
+            ptsary.push(p3x+","+p3y)
+            ptsary.push(cxt+","+cyt)
+
+
+        }
+
+        if (leaf_mode === 2) {
+            alength1 = alength*3
+            p2x = alength1 * (Math.cos(rangle) * +1) + cxs;
+            p2x = alength1 * (Math.cos(rangle) * +1) + cxs;
+            p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            p2y = alength1 * (Math.sin(rangle) * +1) + cys;
+            p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+
+            alength2 = alength*30
+            p3x = alength2 * (Math.cos(rangle + (this_angle_rad * level)) * -1) + cxs;
+            p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            p3y = alength2 * (Math.sin(rangle + (this_angle_rad * level)) * -1) + cys;
+            p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(p2x+","+p2y)
+            ptsary.push(p3x+","+p3y)
+            ptsary.push(cxt+","+cyt)
+        }
+
+        if (leaf_mode === 3) {
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(randint(cxt,p2y)+","+randint(p2x,cyt))
+            ptsary.push(randint(p2x,p3y)+","+randint(p3x,p2y))
+            ptsary.push(randint(p3x,cyt)+","+randint(cxt,p3y))
+            ptsary.push(randint(cxt,p2y)+","+randint(p2x,cyt))
+            ptsary.push(randint(p2x,p3y)+","+randint(p3x,p2y))
+            ptsary.push(randint(p3x,cyt)+","+randint(cxt,p3y))
+            ptsary.push(cxt+","+cyt)
+        }
+
+        if (leaf_mode === 4) {
+            let a1 = cxt * level;
+            let a2 = cyt * level;
+            let b1 = p2x * level;
+            let b2 = p2y * level;
+            let c1 = p3x * level;
+            let c2 = p3y * level;
+
+            ptsary.push(a1 + "," + a2);
+            ptsary.push(randint(a1, a2) + "," + randint(a1, a2));
+            ptsary.push(b1 + "," + b2);
+            ptsary.push(randint(b1, b2) + "," + randint(b1, b2));
+            ptsary.push(c1 + "," + c2);
+            ptsary.push(randint(c1, c2) + "," + randint(c1, c2));
+            ptsary.push(a1 + "," + a2);
+        }
+
+        let pts = "";
+        for (let i = 0; i < ptsary.length; i++) {
+            pts = pts + " " + ptsary[i];
+        }
+        // <!--BEGIN GRADIENT-->
+        // let svgns = 'http://www.w3.org/2000/svg';
+        // let defs = document.createElementNS(svgns, 'defs');
+        // let gradient = document.createElementNS(svgns, 'radialGradient');
+        //
+        // let stops = colorScheme[level]['stops'];
+        // console.log("colorScheme",colorScheme)
+        // console.log("stops",stops)
+        //
+        // for (let i = 0, length = stops.length; i < length; i++) {
+        //     let stop = document.createElementNS(svgns, 'stop');
+        //     stop.setAttribute('offset', stops[i].offset);
+        //     stop.setAttribute('stop-color', stops[i].color);
+        //     gradient.appendChild(stop);
+        // }
+        //
+        // let idver = "radialGradient_" + level;
+        // let idverurl = "url(#" + idver + ")";
+        // let space = colorScheme[level]['box'];
+        //
+        // console.log("space",space)
+        // console.log("pts",pts)
+        //
+        // gradient.id = idver;
+        // gradient.setAttribute('gradientUnits', space);
+        // gradient.setAttribute('cx', String(cxt));
+        // gradient.setAttribute('cy', String(cyt));
+        // gradient.setAttribute('r', "50%");
+        // defs.appendChild(gradient);
+        //
+        // svg.appendChild(defs);
+        // <!--END GRADIENT-->
+
+        poly1.id = args['idname'];
+        poly1.setAttribute("points", pts);
+        poly1.setAttribute("opacity", opacity);
+        poly1.setAttribute("stroke", args['bordercolor']);
+        poly1.setAttribute("stroke-width", args['borderwidth']);
+        // poly1.setAttribute("fill", idverurl);
+        // console.log("colors",colors,"currelt_level",level, "level", level);
+
+        poly1.setAttribute("fill", color);
+        poly1.setAttribute("class", args['classname']);
+        poly1.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(poly1);
+        return (document.getElementById(args['idname']));
+    }
+    <!-- ------------------------------------------------------------- -->
+    function tline(x1, y1, x2, y2, level, angle,length) {
+        // length = length + 0
+        // angle = angle+0
+        // sleep(10);
+        // alert("line")
+        drawLine({
+            'idname': "line" + level,
+            'classname': "lineclass",
+            'x1': x1,
+            'y1': y1,
+            'x2': x2,
+            'y2': y2,
+            'width': pensize[level],
+            'color': colors[level],
+            'style': "",
+            'angle': angle,
+            'length':length
+
+
+
+
+        })
+        // drawArrow({
+        //     'idname': "arrow" + level,
+        //     'classname': "arrowclass",
+        //     'x1': x1,
+        //     'y1': y1,
+        //     'x2': x2,
+        //     'y2': y2,
+        //     'width': pensize[level],
+        //     'color': colors[level],
+        //     'style': "",
+        //     'angle': angle,
+        //     'length':length
+        // })
+
+
+        if (SHOWLEAVES === 1) {
+            drawPoly1({
+                'idname': "poly1" + level,
+                'classname': "poly1class",
+                'cxs': x1,
+                'cys': y1,
+                'cxt': x2,
+                'cyt': y2,
+                'radius': 10,
+                'borderwidth': 2,
+                'style': "",
+                'length': 3,
+                'level': level,
+                'angle': angle,
+                'color': colors[level],
+                'bordercolor': colors[(level + 4) % 6],
+            <!--    calc 2nd corner point    -->
+            })
+                // 'color': colors[level],
+                // 'bordercolor': colors[(level+5)%6],
+         }
+        if (SHOWDOTS === 1) {
+            drawCircle_end({
+                'idname': "circleend" + level,
+                'classname': "circleendclass",
+                'cx': x1,
+                'cy': y1,
+                'radius': 6,
+                'color': colors[(level + 2) % 6],
+                'borderwidth': 1,
+                'bordercolor': colors[(level + 4) % 6],
+                'style': ""
+            })
+        }
+    }
+    <!--  draw the tree for testing purposes -->
+    <!-- ------------------------------------------------------------- -->
+    function clearCanvas() {
+        const myNode = document.getElementById("svg");
+        while (myNode.firstChild) {
+            myNode.removeChild(myNode.lastChild);
+        }
+    }
+    <!-- ------------------------------------------------------------- -->
+    function cycle_in_range(number, amin, amax, invert=0) {
+        try {
+            mod_num = number % amax
+        } catch {
+            mod_num = 0
+        }
+
+        try {
+            mod_num2 = number % (amax * 2)
+        } catch {
+            mod_num2 = 0
+        }
+
+        new_val1 = Math.abs(mod_num2 - (mod_num * 2))
+
+        old_min = 0
+        old_min = 0
+        old_max = amax
+        new_max = amax
+        new_min = amin
+
+        try {
+            new_value = ((new_val1 - old_min) / (old_max - old_min)) * (new_max - new_min) + new_min
+        } catch {
+            new_value = 0
+        }
+        if (invert == 1) {
+            new_value = amax - new_value
+        }
+        return (Math.round(new_value))
+    }
+    <!-- ------------------------------------------------------------- -->
+    function clearSVG() {
+        var svg = document.getElementById("svg");
+        svg.parentNode.replaceChild(svg.cloneNode(false), svg);
+    }
+    <!-- ------------------------------------------------------------- -->
+    function sleep(miliseconds) {
+        var currentTime = new Date().getTime();
+        while (currentTime + miliseconds >= new Date().getTime()) {
+        }
+    }
+    <!-- ------------------------------------------------------------- -->
+    function deg2rad(degrees) {
+        let pi = Math.PI;
+        return degrees / (180 / pi);
+    }
+    <!-- ------------------------------------------------------------- -->
+    function rad2deg(radians) {
+        let pi = Math.PI;
+        return radians * (180 / pi);
+    }
+    <!-- ------------------------------------------------------------- -->
+    function getLevel(p) {
+        for (n = 12; n >= 0; n--) {
+            if (p >= 2 ** n) {
+                return (n)
+            }
+        }
+        return (0)
+    }
+
+    function drawForm(gens, length, start_x, start_y, angle, rotation, level) {
+        // flip last 2 args
+        // console.log(cOrder)
+        endpoints = drawTree(gens, length, start_x, start_y, rotation, angle,level);
+        return(endpoints)
+    }
+
+    function clockTree(gens, length, start_x, start_y, angle, rotation) {
+        let today = new Date(), today_abs = new Date(), today_secs = 0;
+        today_abs.setHours(0);
+        today_abs.setMinutes(0);
+        today_abs.setSeconds(0);
+        today_secs = ((today.getTime() - today_abs.getTime()) / 1000) - 14400;
+
+        if (today_secs < 0) {
+            today_secs = today_secs + 86400
+        }
+        if (today_secs > 86400) {
+            today_secs = today_secs - 86400
+        }
+
+
+        let tangle = 360 * (today_secs/86400)
+       // console.log("sec:"+today_secs,"angle:"+tangle)
+
+        drawTree(gens, length, start_x, start_y, rotation, tangle, level)
+   }
+
+
+    <!-- ------------------------------------------------------------- -->
+    function randint(min, max) { // min and max included
+        return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+    function randfloat(min, max) { // min and max included
+        return Math.random() * (max - min + 1) + min
+    }
+
+    function norm(val, max, min) {
+        return (val - min) / (max - min);
+    }
+
+    <!-- ------------------------------------------------------------- -->
+    function drawTree(gens, this_length, start_x, start_y, branch_angle, rotation, level) {
+        baseangle = rotation // REMEMNER THE LAST TWO ARGS ARE FLIPPED, SO THIS SI REALLY branch_angle
+
+
+        <!--  clearSVG() doesn't work when the root element is 'svg', as is the case here (I *THINK* this it is necessary -->
+        <!--  when creating an SVG that is XML compliant) -->
+        <!--  clearSVG(); -->
+        tlevel = 0
+
+        var draw_tree = new Tree(gens, this_length, start_x, start_y, branch_angle, rotation);
+        // console.log(getTreeEdges(draw_tree).toString());
+        edgeNum = 0
+        var draw_edges = getTreeEdges(draw_tree);
+        var svg = document.getElementById("svg");
+
+        gen = 0
+        // draw_edges.forEach(element => {
+        //     // let level = lOrder[gen]
+        //     let x1 = element.node_1.x
+        //     let y1 = element.node_1.y
+        //     let x2 = element.node_2.x
+        //     let y2 = element.node_2.y
+        //     tline( x1, y1, x2, y2, level, branch_angle,this_length)
+        //     gen++;
+        // });
+
+
+        endpoints = [[draw_edges[0].node_2.x,draw_edges[0].node_2.y],[draw_edges[1].node_2.x,draw_edges[1].node_2.y]]
+        return(endpoints)
+    }
+    var svg = document.getElementById("svg");
+    var colors2 = [
+        [
+            'red','orange','yellow','green','cyan','blue','magenta',
+            'blue','cyan','green','yellow','orange','red','orange',
+            'yellow'
+        ],
+        [
+            '#D72504','#D72504','#D72504','#D72504','#E09E7C','#E3A17F',
+            '#E3D79B','#CD9733','#87314B','#759CB1','#AFCBD1','#719129',
+            '#BDC873','#E3C94E','#B7817B'
+        ],
+        [
+            '#d72631','#a2d5c6','#077b8a','#5c3c92','#1e3d59','#f5f0e1',
+            '#ff6e40','#ffc13b','#26495c','#c4a35a','#c66b3d','#e5e5dc',
+            '#aed6dc','#ff9a8d','#4a536b'
+        ],
+        [
+            '#222222','#444444','#666666','#888888','#aaaaaa',
+            '#cccccc','#eeeeee','#ffffff','#dddddd','#bbbbbb','#999999',
+            '#777777','#555555','#333333'
+        ]
+    ]
+    var colorSchemeIndex = 0
+    var paletteIndex = 3
+    var colors = colors2[paletteIndex]
+    var colorScheme = getColorScheme(colorSchemeIndex, colors)
+
+
+    var lOrder=[5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,1,1,5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,1,1,0,0]
+    var cOrder = []
+
+    var pensizes = [
+        [100,200,400,800,1600,3200],
+        [222,222,222,222,222,222,222],
+        [44,44,44,44,44,44],
+        [61, 51, 41, 31, 21, 11, 1],
+        [17, 13, 11, 7, 5, 3, 1],
+        [5,5,5,5,5,5],
+        [1,1,1,1,1,1],
+    ]
+    var pensize = pensizes[6]
+
+   var lengths2 = [
+       [200,200,200,0,0,0],
+       [80,80,80,80,80,80],
+       [300,250,200,150,100,50],
+       ]
+   var lengths = lengths2[1]
+
+    var edgeNum = 0
+    var gens = 6
+    var gen = 0
+    var maxlength = 100
+    var start_x = 0
+    var start_y = 100
+    var length = 0
+    var angle = 0
+    var rotation = 270
+
+    var show_message = true
+    var last_pos = 0
+    var SHOWLEAVES = 1
+    var SHOWDOTS = 0
+
+    // console.log(colorScheme)
+
+    var leaf_mode = 10
+    var baseangle = 15
+    var current_level = 0
+    var vx = 0
+    var vy = 0
+
+    var current_x = 0
+    var current_y = 0
+    const eleSvg = document.querySelector('svg');
+    eleSvg.addEventListener('mousemove', ({clientX, clientY}) => {
+        let point = eleSvg.createSVGPoint();
+        point.x = clientX;
+        point.y = clientY;
+        current_x = point.x
+        current_y = point.y
+        vx =  cycle_in_range((current_x/3), -200, 200)/100  //(current_x/960)
+        vy =  cycle_in_range((current_y/3), -200, 200)/100  //(current_x/960)
+    })
+
+    amult = 100
+    // drawForm(gens, maxlength, start_x, start_y, baseangle + (current_y/100), rotation
+    function ldraw(NA, maxlength, start_x, start_y, angle, rotation) {
+        clearCanvas()
+
+        current_level = 0
+        maxlength = 100
+        var endpoints = drawForm(1, maxlength, start_x, start_y, angle, rotation,current_level)
+
+        current_level = 1
+        maxlength = 50
+        for (let i = 0; i<endpoints.length; i++) {
+            // endpoints = drawForm(2, maxlength, endpoints[i][0], endpoints[i][1], baseangle + (current_y / 100), rotation)
+            endpoints = drawForm(2, maxlength,start_x, start_y, angle, rotation,current_level)
+        }
+        current_level = 2
+        maxlength = 20
+        for (let i = 0; i<endpoints.length; i++) {
+            endpoints = drawForm(3, maxlength,start_x, start_y, angle, rotation,current_level)
+        }
+        current_level = 3
+        maxlength = 100
+        for (let i = 0; i<endpoints.length; i++) {
+            endpoints = drawForm(4, maxlength, start_x, start_y, angle, rotation,current_level)
+        }
+        current_level = 4
+        maxlength = 80
+        for (let i = 0; i<endpoints.length; i++) {
+            endpoints = drawForm(5, maxlength, start_x, start_y, angle, rotation,current_level)
+        }
+        current_level = 5
+        maxlength = 100
+        for (let i = 0; i<endpoints.length; i++) {
+            endpoints = drawForm(6, maxlength, start_x, start_y, angle, rotation,current_level)
+        }
+        // for (let i = 0; i<endpoints.length; i++) {
+        //     endpoints = drawForm(7, maxlength, endpoints[i][0], endpoints[i][1], baseangle + (current_y / 100), rotation)
+        // }
+    }
+    setInterval(function() {
+            // console.log("current_y", current_y)
+            ldraw(gens, maxlength, start_x, start_y, baseangle + (vy), rotation)
+        },100);
+
+    ]]></script>
+</svg>
