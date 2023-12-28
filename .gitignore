@@ -1,0 +1,47 @@
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache
+_site/
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode
+.directory
+
+# Misc
+assets/js/dist
+PUSH
+SERVE
+*.ORG
+x
+xx
+*.zip
+SAVE
+Thumbs.db
+Thumbs.db:encryptable
+G
+G2
+.ZPROJECTS/
+model.safetensors
+youtube.rb
+__pycache__/
+TEST*
+*.txt
+*.log
+log*
+RUN
+EDIT
+DEADJOE
+.src/
+.archive/

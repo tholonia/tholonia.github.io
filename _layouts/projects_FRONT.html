@@ -1,0 +1,68 @@
+---
+layout: page
+title: Projects
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/projects_FRONT.html -->
+
+<!--
+Required
+  'status':  TBD, EXP, WIP
+  'project: <name> must matych folder name
+  'weight': 100, 200, 300, ...  default range size is 99 elements
+-->
+
+
+{{ page.content }}
+
+<h3 style="color:grey">(in order of activity)</h3>
+
+{% assign items = site.projects | sort: 'weight' %}
+
+{% for i in items %}
+  <!-- print the top project page for WIP projects -->
+  {% if i.status == "WIP" %}
+    <div class="Projects">
+      <a href="{{ i.url }}"><img alt="{{ i.title }}" src="{{ i.image }}" class="left-img-25" />
+        <h2>{{ i.title }}</h2>
+      </a>
+      {{i.excerpt}}
+    </div>
+    <div class="clearfix"></div> <!-- removes extra blank space after div -->
+  {% endif %}
+  <!-- 
+  Print the subjproject pages for same project.
+  As the pages are in order by 'weight', it will naturally follow the top page with the subpages
+
+      500 WIP
+        501 EXP
+        502 EXP
+      600
+        601 EXP    
+
+  -->
+  {% if i.status == "EXP" %}
+  <div class="alignright">
+    <a href="{{ i.url }}">{{ i.title }}</a>
+  </div>
+  <div class="clearfix"></div> <!-- removes extra blank space after div -->
+  {% endif %}
+{% endfor %}
+
+
+<h3 style="color:yellow">The following projects have yet to be started, mainly due to a lack of time and resources. Any takers?</h3>
+
+<!-- print the top project page for TBD projects -->
+
+{% for i in items %}
+  {% if i.status == "TBD" %}
+  <div class="Projects">
+    <a href="{{ i.url }}"><img alt="{{ i.title }}" src="{{ i.image }}" class="left-img-25bw" />
+      <h2>{{ i.title }}</h2>
+    </a>
+    {{i.excerpt}}
+  </div>
+  <div class="clearfix"></div>
+  {% endif %}
+{% endfor %}
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/projects_FRONT.html -->
