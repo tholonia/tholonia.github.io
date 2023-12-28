@@ -1,0 +1,88 @@
+---
+layout: page
+title: Project Parts
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/projects_ASSEMBLE.html -->
+
+<style>
+  .PA_collapse {
+    background-color: #000000;
+    border: 1px solid yellow;
+    outline: none;
+    padding: 7px;
+    /* font-size: 25px; */
+  }
+
+  .PA_active,
+  .PA_collapse:hover {
+    background-color: #ffffff;
+    color: #000000
+  }
+
+  .PA_text {
+    background-color:transparent;
+    display: none;
+    /* font-size: 20px; */
+    overflow: scroll;
+  }
+</style>
+
+<script>
+  function PA_toggle(E) {
+      id = "id_" + E.dataset.value
+      pcontent = document.getElementById(id)
+      pdisplay = getComputedStyle(document.getElementById(id)).display
+      if (pdisplay === "none") { pcontent.style.display = "block"; }
+      if (pdisplay === "block") { pcontent.style.display = "none"; }
+  }
+</script>
+
+
+<!-- collect all the documets that have a YAML key of "project" -->
+{% include group-by-array.html collection=site.documents field='project' %}
+
+<!-- add them to an array -->
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+{% endfor %}
+
+<!-- create an empty array -->
+{% assign parts = "" | split: ',' %}
+
+<!-- extract just the link and teh totle from each object and store theh as '@' delimited pairs' -->
+{% for file in site.projects %}
+  {% if file.url contains "social/social" %}
+    {% capture rlink %}social/{{ file.slug }}@{{file.title}}@{{file.slug}}{% endcapture %}
+    {% assign parts = parts | push: rlink %}
+  {% endif %}    
+{% endfor %}
+
+{{ parts |debug }}
+
+<!-- % comment %} -->
+
+{% assign i = 0 %}
+{% for part in parts %}
+  <!-- part = {part}}</br> -->
+
+  {% assign subpartsary = part|split:'@' %}
+  <!-- 222 { subpartsary |debug }} -->
+
+  {% assign link = subpartsary[0] |append: ".md" %} 
+  {% assign title = subpartsary[1] %}
+
+  <h2 class="PA_collapse" data-value={{i}} onclick="PA_toggle(this)">{{ title }} </h2>
+    {% capture pcontent %}{% include_relative {{ link }} %}{% endcapture %}
+    <div class="PA_text" id="id_{{i}}">
+        {{ pcontent | markdownify }}
+    </div>
+
+  {% assign i = i | plus:1 %}
+{% endfor %}
+
+
+<!-- social/social_part-1.md -->
+<!-- social/social_part-1.md -->
+
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/projects_ASSEMBLE.html -->
