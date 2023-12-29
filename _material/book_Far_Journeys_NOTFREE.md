@@ -3,7 +3,6 @@ author: duncan
 categories:
 - PARAPSYCHOLOGY
 - COMMUNICATION
-- GEOSCIENCE
 - METAPHYSICS
 date: 2021-10-04
 image: /material/assets/book_Far_Journeys_NOTFREE.jpg

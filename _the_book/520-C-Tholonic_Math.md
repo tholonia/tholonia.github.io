@@ -7,7 +7,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/520-C-Tholonic_Math-dark-trans.png
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/520-C-Tholonic_Math.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/520-C-Tholonic_Math.pdf
 DEL: the_book
 tags:
 - numbers

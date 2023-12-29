@@ -6,7 +6,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_red_NOTFREE.jpg
 layout: post
-pdf: https://tholonia.github.io/assets/books/book_red_NOTFREE.zip
+pdf: https://tholonia.github.io/material/assets/book_red_NOTFREE.zip
 purchase:
   - https://www.amazon.com/Red-Book-Readers-Philemon/dp/B08997K82Z
   - $28.99 - 167.99

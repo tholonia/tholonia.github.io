@@ -12,7 +12,7 @@ jday: 3465
 tags:
 - creation
 - astrology
-- I-ching
+- I-Ching
 title: The Tholonic IChing by Duncan Stroud
 ---
 

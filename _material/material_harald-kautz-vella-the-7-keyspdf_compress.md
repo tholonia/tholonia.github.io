@@ -6,7 +6,7 @@ categories:
 date: 2020-10-20
 image: /material/assets/harald-kautz-vella-the-7-keyspdf_compress.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/harald-kautz-vella-the-7-keyspdf_compress.pdf
+pdf: https://tholonia.github.io/material/assets/harald-kautz-vella-the-7-keyspdf_compress.pdf
 ptags: [nokwgen-manual]
 jday: 957
 tags:

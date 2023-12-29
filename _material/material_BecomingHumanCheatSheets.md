@@ -2,12 +2,11 @@
 author: duncan
 categories:
 - TECHNOLOGY
-- AI
 - REFERENCE
 date: 2020-10-10
 image: /material/assets/BecomingHumanCheatSheets.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/BecomingHumanCheatSheets.pdf
+pdf: https://tholonia.github.io/material/assets/BecomingHumanCheatSheets.pdf
 ptags: [nokwgen-manual]
 jday: 23987
 tags:
