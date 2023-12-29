@@ -4,7 +4,6 @@
 @import 'main';
 
 
-
 /* append your custom style below */
 .left-img {
   float:left;
@@ -83,16 +82,19 @@
   border: 2px solid red !important;
   width:20px !important;
 }
+/* ------------------------------------  */
 
+
+// small blurb about illegality of downloading books 
 .book_notice {
   font-size: 6pt;
 }
+// locatio and proce blurb for buying a book
 .purchase_notice {
   font-size: 8pt;
 }
 
-/* for 2-col tags page ------------------------------------- */
-
+/* -----------------------------for 2-col tags abd catagory page ---- */
 
 #tc_container {
   // background: #ccc;
@@ -128,135 +130,40 @@
   font-size: smaller;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 600px wide, make the two columns 
+   stack on top of each other instead of next to each other */
 // @media screen and (max-width: 600px) {
 //   .tc_column {
 //     width: 100%;
 //   }
 // }
 
+/* ------------------------------------------------------------------------ */
+
+/* general purpose iframe */
 iframe {
   border: none;
   border-width: 0;
 }
 
+
+/* float-right at 30% - used mainly for images  */
 .fr-w30p {
   float:right;
   width:30%;
 }
 
+/* cente slightly larger test - typically for under an image ot video */
 .pctr-vsub {
   font-weight: bold ;
   text-align:center;
   margin-bottom: 2em;
 }
 
+/* Align all text to teh right - under mainly in projects and  suprojects pages */
 .alignright {
   text-align: right;
   width: 100%;
 }
 
 
-/*
-// for expandabel pages in projects
-
-// .wrap-collabsible {
-[class^="wrap-collabsible"] {
-  margin-bottom: 1.2rem 0;
-}
-
-input[type='checkbox'] {
-  display: none;
-}
-
-// .lbl-toggle {
-[class^="lbl-toggle"] {
-    display: block;
-
-  font-weight: bold;
-  font-family: monospace;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  text-align: center;
-
-  padding: 1rem;
-
-  color: #040303;
-  background: #cd87f6;
-
-  cursor: pointer;
-
-  border-radius: 7px;
-  transition: all 0.25s ease-out;
-}
-
-
-// .lbl-toggle:hover {
-[class^="lbl-toggle"]:hover {
-  color: #010100;
-}
-
-// .lbl-toggle::before {
-[class^="lbl-toggle"]:before {
-  content: ' ';
-  display: inline-block;
-
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-
-  transition: transform .2s ease-out;
-}
-
-// .toggle:checked + .lbl-toggle::before {
-[class^="toggle"] + [class^="lbl-toggle"]:before {
-  transform: rotate(90deg) translateX(-3px);
-}
-
-// .collapsible-content {
-[class^="collapsible-content"] {
-  max-height: 0px;
-  overflow:scroll;
-  // transition: max-height .25s ease-in-out;
-}
-
-// toggle:checked + .lbl-toggle + .collapsible-content {
-[class^="toggle"]:checked + [class^="lbl-toggle"] + [class^="collapsible-content"] {
-  max-height: 100vh;
-  // min-height: 1vh;
-  // height:100%
-}
-
-// .toggle:checked + .lbl-toggle {
-[class^="toggle"]:checked+[class^="lbl-toggle"] {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-// .collapsible-content .content-inner {
-[class^="collapsible-content"] + [class^="content-inner"] {
-  background: rgba(250, 224, 66, .2);
-  border-bottom: 1px solid rgba(250, 224, 66, .45);
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-  padding: .5rem 1rem;
-}
-
-
-.panel-heading p:after {
-  font-family: 'Glyphicons Halflings';
-  content: "\e113";
-  float: right;
-  color: grey;
-}
-
-.panel-heading.collapsed p:after {
-  content: "\e114";
-}
-
-.panel-heading {
-  cursor: pointer;
-}*/

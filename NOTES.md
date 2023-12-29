@@ -303,7 +303,7 @@ git add -f _material/assets/book*.zip
 git add .gitattributes
 git lfs status ; git lfs ls-files # check that they are committed
 git commit -m "Tracking and adding LFS artifacts"
-git push origin main
+git push --set-upstream origin main
 
 # check for any files over githuib limit
 # find -size +100M
