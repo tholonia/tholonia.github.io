@@ -1,0 +1,374 @@
+2023-12-29T02:43:28.8279575Z Requested labels: ubuntu-latest
+2023-12-29T02:43:28.8279885Z Job defined at: tholonia/tholonia.github.io/.github/workflows/pages-deploy.yml@refs/heads/main
+2023-12-29T02:43:28.8279993Z Waiting for a runner to pick up this job...
+2023-12-29T02:43:29.3644504Z Job is waiting for a hosted runner to come online.
+2023-12-29T02:43:32.7895008Z Job is about to start running on the hosted runner: GitHub Actions 1 (hosted)
+2023-12-29T02:43:36.6978875Z Current runner version: '2.311.0'
+2023-12-29T02:43:36.7004050Z ##[group]Operating System
+2023-12-29T02:43:36.7004671Z Ubuntu
+2023-12-29T02:43:36.7005009Z 22.04.3
+2023-12-29T02:43:36.7005569Z LTS
+2023-12-29T02:43:36.7006072Z ##[endgroup]
+2023-12-29T02:43:36.7006669Z ##[group]Runner Image
+2023-12-29T02:43:36.7007517Z Image: ubuntu-22.04
+2023-12-29T02:43:36.7008099Z Version: 20231217.2.0
+2023-12-29T02:43:36.7009630Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20231217.2/images/ubuntu/Ubuntu2204-Readme.md
+2023-12-29T02:43:36.7012071Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20231217.2
+2023-12-29T02:43:36.7013397Z ##[endgroup]
+2023-12-29T02:43:36.7014082Z ##[group]Runner Image Provisioner
+2023-12-29T02:43:36.7014928Z 2.0.321.1
+2023-12-29T02:43:36.7015414Z ##[endgroup]
+2023-12-29T02:43:36.7017173Z ##[group]GITHUB_TOKEN Permissions
+2023-12-29T02:43:36.7019340Z Contents: read
+2023-12-29T02:43:36.7020038Z Metadata: read
+2023-12-29T02:43:36.7021143Z Pages: write
+2023-12-29T02:43:36.7021704Z ##[endgroup]
+2023-12-29T02:43:36.7024833Z Secret source: Actions
+2023-12-29T02:43:36.7025471Z Prepare workflow directory
+2023-12-29T02:43:36.7665992Z Prepare all required actions
+2023-12-29T02:43:36.7825712Z Getting action download info
+2023-12-29T02:43:36.9995445Z Download action repository 'actions/checkout@v4' (SHA:b4ffde65f46336ab88eb53be808477a3936bae11)
+2023-12-29T02:43:37.1253495Z Download action repository 'actions/configure-pages@v3' (SHA:b8130d9ab958b325bbde9786d62f2c97a9885a0e)
+2023-12-29T02:43:37.4897659Z Download action repository 'ruby/setup-ruby@v1' (SHA:360dc864d5da99d54fcb8e9148c14a84b90d3e88)
+2023-12-29T02:43:37.8804717Z Download action repository 'actions/upload-pages-artifact@v1' (SHA:84bb4cd4b733d5c320c9c9cfbc354937524f4d64)
+2023-12-29T02:43:38.2378619Z Getting action download info
+2023-12-29T02:43:38.3385788Z Download action repository 'actions/upload-artifact@v3' (SHA:a8a3f3ad30e3422c9c7b888a15615d19a852ae32)
+2023-12-29T02:43:38.3867660Z Complete job name: build
+2023-12-29T02:43:38.4808142Z ##[group]Run actions/checkout@v4
+2023-12-29T02:43:38.4808597Z with:
+2023-12-29T02:43:38.4809060Z   fetch-depth: 0
+2023-12-29T02:43:38.4809461Z   repository: tholonia/tholonia.github.io
+2023-12-29T02:43:38.4810065Z   token: ***
+2023-12-29T02:43:38.4810528Z   ssh-strict: true
+2023-12-29T02:43:38.4810879Z   persist-credentials: true
+2023-12-29T02:43:38.4811214Z   clean: true
+2023-12-29T02:43:38.4811652Z   sparse-checkout-cone-mode: true
+2023-12-29T02:43:38.4812056Z   fetch-tags: false
+2023-12-29T02:43:38.4812392Z   show-progress: true
+2023-12-29T02:43:38.4812807Z   lfs: false
+2023-12-29T02:43:38.4813119Z   submodules: false
+2023-12-29T02:43:38.4813418Z   set-safe-directory: true
+2023-12-29T02:43:38.4813857Z ##[endgroup]
+2023-12-29T02:43:38.7001099Z Syncing repository: tholonia/tholonia.github.io
+2023-12-29T02:43:38.7002926Z ##[group]Getting Git version info
+2023-12-29T02:43:38.7003934Z Working directory is '/home/runner/work/tholonia.github.io/tholonia.github.io'
+2023-12-29T02:43:38.7005002Z [command]/usr/bin/git version
+2023-12-29T02:43:38.7017306Z git version 2.43.0
+2023-12-29T02:43:38.7043387Z ##[endgroup]
+2023-12-29T02:43:38.7065134Z Temporarily overriding HOME='/home/runner/work/_temp/f6076cd7-779c-4f13-8083-41f8e7233f16' before making global git config changes
+2023-12-29T02:43:38.7067195Z Adding repository directory to the temporary git global config as a safe directory
+2023-12-29T02:43:38.7069231Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tholonia.github.io/tholonia.github.io
+2023-12-29T02:43:38.7109978Z Deleting the contents of '/home/runner/work/tholonia.github.io/tholonia.github.io'
+2023-12-29T02:43:38.7117191Z ##[group]Initializing the repository
+2023-12-29T02:43:38.7120392Z [command]/usr/bin/git init /home/runner/work/tholonia.github.io/tholonia.github.io
+2023-12-29T02:43:38.7189718Z hint: Using 'master' as the name for the initial branch. This default branch name
+2023-12-29T02:43:38.7191247Z hint: is subject to change. To configure the initial branch name to use in all
+2023-12-29T02:43:38.7192925Z hint: of your new repositories, which will suppress this warning, call:
+2023-12-29T02:43:38.7193869Z hint: 
+2023-12-29T02:43:38.7194666Z hint: 	git config --global init.defaultBranch <name>
+2023-12-29T02:43:38.7195419Z hint: 
+2023-12-29T02:43:38.7196275Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2023-12-29T02:43:38.7198586Z hint: 'development'. The just-created branch can be renamed via this command:
+2023-12-29T02:43:38.7199525Z hint: 
+2023-12-29T02:43:38.7200084Z hint: 	git branch -m <name>
+2023-12-29T02:43:38.7201242Z Initialized empty Git repository in /home/runner/work/tholonia.github.io/tholonia.github.io/.git/
+2023-12-29T02:43:38.7208831Z [command]/usr/bin/git remote add origin https://github.com/tholonia/tholonia.github.io
+2023-12-29T02:43:38.7244229Z ##[endgroup]
+2023-12-29T02:43:38.7244921Z ##[group]Disabling automatic garbage collection
+2023-12-29T02:43:38.7247171Z [command]/usr/bin/git config --local gc.auto 0
+2023-12-29T02:43:38.7276347Z ##[endgroup]
+2023-12-29T02:43:38.7276965Z ##[group]Setting up auth
+2023-12-29T02:43:38.7281893Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2023-12-29T02:43:38.7313746Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2023-12-29T02:43:38.7654155Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2023-12-29T02:43:38.7684550Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2023-12-29T02:43:38.7928049Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2023-12-29T02:43:38.7964703Z ##[endgroup]
+2023-12-29T02:43:38.7966198Z ##[group]Fetching the repository
+2023-12-29T02:43:38.7974075Z [command]/usr/bin/git -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2023-12-29T02:43:50.7149379Z From https://github.com/tholonia/tholonia.github.io
+2023-12-29T02:43:50.7150821Z  * [new branch]      main       -> origin/main
+2023-12-29T02:43:50.7178912Z [command]/usr/bin/git branch --list --remote origin/main
+2023-12-29T02:43:50.7201787Z   origin/main
+2023-12-29T02:43:50.7211560Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+2023-12-29T02:43:50.7231977Z 5ba80f23835220182a31c0f40fe1de482b51090b
+2023-12-29T02:43:50.7237260Z ##[endgroup]
+2023-12-29T02:43:50.7239150Z ##[group]Determining the checkout info
+2023-12-29T02:43:50.7240221Z ##[endgroup]
+2023-12-29T02:43:50.7241157Z ##[group]Checking out the ref
+2023-12-29T02:43:50.7243208Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2023-12-29T02:43:51.7537728Z Updating files:  45% (463/1023)
+2023-12-29T02:43:51.7903120Z Updating files:  46% (471/1023)
+2023-12-29T02:43:51.7963811Z Updating files:  47% (481/1023)
+2023-12-29T02:43:51.7968983Z Updating files:  48% (492/1023)
+2023-12-29T02:43:51.8274749Z Updating files:  49% (502/1023)
+2023-12-29T02:43:51.8978959Z Updating files:  50% (512/1023)
+2023-12-29T02:43:51.9108902Z Updating files:  51% (522/1023)
+2023-12-29T02:43:51.9113949Z Updating files:  52% (532/1023)
+2023-12-29T02:43:51.9118787Z Updating files:  53% (543/1023)
+2023-12-29T02:43:51.9123689Z Updating files:  54% (553/1023)
+2023-12-29T02:43:51.9128041Z Updating files:  55% (563/1023)
+2023-12-29T02:43:51.9277983Z Updating files:  56% (573/1023)
+2023-12-29T02:43:52.1062434Z Updating files:  57% (584/1023)
+2023-12-29T02:43:52.2527200Z Updating files:  58% (594/1023)
+2023-12-29T02:43:52.5972436Z Updating files:  59% (604/1023)
+2023-12-29T02:43:52.7845466Z Updating files:  60% (614/1023)
+2023-12-29T02:43:52.8021400Z Updating files:  61% (625/1023)
+2023-12-29T02:43:52.9087291Z Updating files:  62% (635/1023)
+2023-12-29T02:43:53.1184317Z Updating files:  63% (645/1023)
+2023-12-29T02:43:53.1439373Z Updating files:  64% (655/1023)
+2023-12-29T02:43:53.1457347Z Updating files:  65% (665/1023)
+2023-12-29T02:43:53.3799644Z Updating files:  66% (676/1023)
+2023-12-29T02:43:53.3817672Z Updating files:  67% (686/1023)
+2023-12-29T02:43:53.3836758Z Updating files:  68% (696/1023)
+2023-12-29T02:43:53.3862857Z Updating files:  69% (706/1023)
+2023-12-29T02:43:53.3885578Z Updating files:  70% (717/1023)
+2023-12-29T02:43:53.3905319Z Updating files:  71% (727/1023)
+2023-12-29T02:43:53.3926193Z Updating files:  72% (737/1023)
+2023-12-29T02:43:53.3951903Z Updating files:  73% (747/1023)
+2023-12-29T02:43:53.4032505Z Updating files:  74% (758/1023)
+2023-12-29T02:43:53.5989860Z Updating files:  75% (768/1023)
+2023-12-29T02:43:53.7415718Z Updating files:  76% (778/1023)
+2023-12-29T02:43:53.8150083Z Updating files:  76% (784/1023)
+2023-12-29T02:43:53.8191653Z Updating files:  77% (788/1023)
+2023-12-29T02:43:53.8196189Z Updating files:  78% (798/1023)
+2023-12-29T02:43:53.8200527Z Updating files:  79% (809/1023)
+2023-12-29T02:43:53.8204553Z Updating files:  80% (819/1023)
+2023-12-29T02:43:53.8232214Z Updating files:  81% (829/1023)
+2023-12-29T02:43:53.8307980Z Updating files:  82% (839/1023)
+2023-12-29T02:43:53.8378182Z Updating files:  83% (850/1023)
+2023-12-29T02:43:53.8386452Z Updating files:  84% (860/1023)
+2023-12-29T02:43:53.8434947Z Updating files:  85% (870/1023)
+2023-12-29T02:43:53.8508483Z Updating files:  86% (880/1023)
+2023-12-29T02:43:53.8545079Z Updating files:  87% (891/1023)
+2023-12-29T02:43:53.8628367Z Updating files:  88% (901/1023)
+2023-12-29T02:43:53.8680371Z Updating files:  89% (911/1023)
+2023-12-29T02:43:53.8693936Z Updating files:  90% (921/1023)
+2023-12-29T02:43:53.8707587Z Updating files:  91% (931/1023)
+2023-12-29T02:43:53.8816609Z Updating files:  92% (942/1023)
+2023-12-29T02:43:53.8832550Z Updating files:  93% (952/1023)
+2023-12-29T02:43:53.8841513Z Updating files:  94% (962/1023)
+2023-12-29T02:43:53.8964263Z Updating files:  95% (972/1023)
+2023-12-29T02:43:53.9127850Z Updating files:  96% (983/1023)
+2023-12-29T02:43:53.9282510Z Updating files:  97% (993/1023)
+2023-12-29T02:43:53.9291920Z Updating files:  98% (1003/1023)
+2023-12-29T02:43:53.9307835Z Updating files:  99% (1013/1023)
+2023-12-29T02:43:53.9308241Z Updating files: 100% (1023/1023)
+2023-12-29T02:43:53.9308842Z Updating files: 100% (1023/1023), done.
+2023-12-29T02:43:53.9332851Z Switched to a new branch 'main'
+2023-12-29T02:43:53.9333476Z branch 'main' set up to track 'origin/main'.
+2023-12-29T02:43:53.9852891Z ##[endgroup]
+2023-12-29T02:43:53.9889708Z [command]/usr/bin/git log -1 --format='%H'
+2023-12-29T02:43:53.9912347Z '5ba80f23835220182a31c0f40fe1de482b51090b'
+2023-12-29T02:43:54.0194440Z ##[group]Run actions/configure-pages@v3
+2023-12-29T02:43:54.0194964Z with:
+2023-12-29T02:43:54.0195437Z   token: ***
+2023-12-29T02:43:54.0195761Z   enablement: false
+2023-12-29T02:43:54.0196157Z ##[endgroup]
+2023-12-29T02:43:54.3612458Z ##[group]Run ruby/setup-ruby@v1
+2023-12-29T02:43:54.3612867Z with:
+2023-12-29T02:43:54.3613184Z   ruby-version: 3
+2023-12-29T02:43:54.3613606Z   bundler-cache: true
+2023-12-29T02:43:54.3613934Z env:
+2023-12-29T02:43:54.3614224Z   GITHUB_PAGES: true
+2023-12-29T02:43:54.3614614Z ##[endgroup]
+2023-12-29T02:43:54.4880998Z ##[group]Modifying PATH
+2023-12-29T02:43:54.4884897Z Entries added to PATH to use selected Ruby:
+2023-12-29T02:43:54.4886589Z   /opt/hostedtoolcache/Ruby/3.3.0/x64/bin
+2023-12-29T02:43:54.4887429Z ##[endgroup]
+2023-12-29T02:43:54.4907085Z ##[group]Downloading Ruby
+2023-12-29T02:43:54.4910223Z https://github.com/ruby/ruby-builder/releases/download/toolcache/ruby-3.3.0-ubuntu-22.04.tar.gz
+2023-12-29T02:43:54.9911353Z Took   0.50 seconds
+2023-12-29T02:43:54.9913160Z ##[endgroup]
+2023-12-29T02:43:54.9914718Z ##[group]Extracting  Ruby
+2023-12-29T02:43:54.9943555Z [command]/usr/bin/tar -xz -C /opt/hostedtoolcache/Ruby/3.3.0 -f /home/runner/work/_temp/7ae05418-9da2-4de6-9577-f241e0687ae1
+2023-12-29T02:43:55.4138398Z Took   0.42 seconds
+2023-12-29T02:43:55.4140271Z ##[endgroup]
+2023-12-29T02:43:55.4141500Z ##[group]Print Ruby version
+2023-12-29T02:43:55.4152908Z [command]/opt/hostedtoolcache/Ruby/3.3.0/x64/bin/ruby --version
+2023-12-29T02:43:55.4354576Z ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [x86_64-linux]
+2023-12-29T02:43:55.4371331Z Took   0.02 seconds
+2023-12-29T02:43:55.4372465Z ##[endgroup]
+2023-12-29T02:43:55.4373560Z ##[group]Installing Bundler
+2023-12-29T02:43:55.4377578Z Using Bundler 2 shipped with ruby-3.3.0
+2023-12-29T02:43:55.4378429Z Took   0.00 seconds
+2023-12-29T02:43:55.4379380Z ##[endgroup]
+2023-12-29T02:43:55.4379772Z > bundle install
+2023-12-29T02:43:55.4395759Z [command]/opt/hostedtoolcache/Ruby/3.3.0/x64/bin/bundle config --local path /home/runner/work/tholonia.github.io/tholonia.github.io/vendor/bundle
+2023-12-29T02:43:55.5876361Z [command]/opt/hostedtoolcache/Ruby/3.3.0/x64/bin/bundle lock
+2023-12-29T02:43:58.0451258Z Fetching gem metadata from https://rubygems.org/...........
+2023-12-29T02:43:58.0584222Z Resolving dependencies...
+2023-12-29T02:43:58.5835476Z Writing lockfile to /home/runner/work/tholonia.github.io/tholonia.github.io/Gemfile.lock
+2023-12-29T02:43:58.6181006Z Cache key: setup-ruby-bundler-cache-v6-ubuntu-22.04-x64-ruby-3.3.0-wd-/home/runner/work/tholonia.github.io/tholonia.github.io-with--without--only--Gemfile.lock-dbde70e7b72acbcc2ffaba9b9e791f67a2c3d89f4319fdcd66c8bc43ce33bff8
+2023-12-29T02:43:58.7562969Z [command]/opt/hostedtoolcache/Ruby/3.3.0/x64/bin/bundle install --jobs 4
+2023-12-29T02:44:00.4757357Z Fetching gem metadata from https://rubygems.org/.........
+2023-12-29T02:44:00.4829618Z Fetching concurrent-ruby 1.2.2
+2023-12-29T02:44:00.4832643Z Fetching connection_pool 2.4.1
+2023-12-29T02:44:00.4853945Z Fetching minitest 5.20.0
+2023-12-29T02:44:00.4856954Z Fetching public_suffix 5.0.4
+2023-12-29T02:44:00.5536871Z Installing connection_pool 2.4.1
+2023-12-29T02:44:00.5633656Z Installing minitest 5.20.0
+2023-12-29T02:44:00.5644424Z Installing public_suffix 5.0.4
+2023-12-29T02:44:00.5672690Z Fetching colorator 1.1.0
+2023-12-29T02:44:00.5747824Z Installing colorator 1.1.0
+2023-12-29T02:44:00.5849949Z Fetching eventmachine 1.2.7
+2023-12-29T02:44:00.5927742Z Installing concurrent-ruby 1.2.2
+2023-12-29T02:44:00.5951069Z Fetching http_parser.rb 0.8.0
+2023-12-29T02:44:00.6094890Z Fetching ffi 1.16.3
+2023-12-29T02:44:00.6584583Z Installing eventmachine 1.2.7 with native extensions
+2023-12-29T02:44:00.6607755Z Installing http_parser.rb 0.8.0 with native extensions
+2023-12-29T02:44:00.7682542Z Installing ffi 1.16.3 with native extensions
+2023-12-29T02:44:00.8006141Z Fetching forwardable-extended 2.6.0
+2023-12-29T02:44:00.8095287Z Installing forwardable-extended 2.6.0
+2023-12-29T02:44:00.8187273Z Fetching google-protobuf 3.25.1
+2023-12-29T02:44:00.8567829Z Installing google-protobuf 3.25.1 with native extensions
+2023-12-29T02:44:02.3908256Z Fetching racc 1.7.3
+2023-12-29T02:44:02.4146934Z Installing racc 1.7.3 with native extensions
+2023-12-29T02:44:03.1544357Z Fetching negarmoji 0.1.10
+2023-12-29T02:44:03.1751780Z Installing negarmoji 0.1.10
+2023-12-29T02:44:03.1947030Z Fetching mercenary 0.4.0
+2023-12-29T02:44:03.2214657Z Installing mercenary 0.4.0
+2023-12-29T02:44:03.2321162Z Fetching parallel 1.24.0
+2023-12-29T02:44:03.2629392Z Installing parallel 1.24.0
+2023-12-29T02:44:03.2686066Z Fetching rainbow 3.1.1
+2023-12-29T02:44:03.2763027Z Installing rainbow 3.1.1
+2023-12-29T02:44:03.2823288Z Fetching yell 2.2.2
+2023-12-29T02:44:03.3095338Z Installing yell 2.2.2
+2023-12-29T02:44:03.3211080Z Fetching zeitwerk 2.6.12
+2023-12-29T02:44:03.3391810Z Installing zeitwerk 2.6.12
+2023-12-29T02:44:03.3475800Z Fetching rb-fsevent 0.11.2
+2023-12-29T02:44:03.3604096Z Installing rb-fsevent 0.11.2
+2023-12-29T02:44:03.3705367Z Fetching rexml 3.2.6
+2023-12-29T02:44:03.3961854Z Installing rexml 3.2.6
+2023-12-29T02:44:03.4199661Z Fetching liquid 4.0.4
+2023-12-29T02:44:03.4555159Z Installing liquid 4.0.4
+2023-12-29T02:44:03.4850233Z Fetching rouge 4.2.0
+2023-12-29T02:44:03.5597043Z Installing rouge 4.2.0
+2023-12-29T02:44:03.8167098Z Fetching safe_yaml 1.0.5
+2023-12-29T02:44:03.8253112Z Installing safe_yaml 1.0.5
+2023-12-29T02:44:03.8419062Z Fetching unicode-display_width 2.5.0
+2023-12-29T02:44:03.8486658Z Installing unicode-display_width 2.5.0
+2023-12-29T02:44:03.8532957Z Fetching webrick 1.8.1
+2023-12-29T02:44:03.8627555Z Installing webrick 1.8.1
+2023-12-29T02:44:03.8773787Z Fetching jekyll-paginate 1.1.0
+2023-12-29T02:44:03.8906324Z Installing jekyll-paginate 1.1.0
+2023-12-29T02:44:03.9005131Z Fetching addressable 2.8.6
+2023-12-29T02:44:03.9221938Z Installing addressable 2.8.6
+2023-12-29T02:44:03.9354401Z Fetching i18n 1.14.1
+2023-12-29T02:44:03.9687513Z Installing i18n 1.14.1
+2023-12-29T02:44:03.9840836Z Fetching tzinfo 2.0.6
+2023-12-29T02:44:04.0094962Z Installing tzinfo 2.0.6
+2023-12-29T02:44:04.0271282Z Fetching pathutil 0.16.2
+2023-12-29T02:44:04.0338141Z Installing pathutil 0.16.2
+2023-12-29T02:44:04.0402176Z Fetching nokogiri 1.16.0 (x86_64-linux)
+2023-12-29T02:44:04.2314862Z Installing nokogiri 1.16.0 (x86_64-linux)
+2023-12-29T02:44:04.3855501Z Fetching kramdown 2.4.0
+2023-12-29T02:44:04.4015777Z Installing kramdown 2.4.0
+2023-12-29T02:44:04.5298180Z Fetching terminal-table 3.0.2
+2023-12-29T02:44:04.5386696Z Installing terminal-table 3.0.2
+2023-12-29T02:44:04.5494931Z Fetching activesupport 7.1.2
+2023-12-29T02:44:04.5754002Z Installing activesupport 7.1.2
+2023-12-29T02:44:04.6716913Z Fetching kramdown-parser-gfm 1.1.0
+2023-12-29T02:44:04.6894904Z Installing kramdown-parser-gfm 1.1.0
+2023-12-29T02:44:04.7023558Z Fetching html-pipeline 2.14.3
+2023-12-29T02:44:04.7225451Z Installing html-pipeline 2.14.3
+2023-12-29T02:44:04.7342997Z Fetching html-pipeline-negarmoji 0.1.6
+2023-12-29T02:44:04.7887852Z Installing html-pipeline-negarmoji 0.1.6
+2023-12-29T02:44:10.5181145Z Fetching ethon 0.16.0
+2023-12-29T02:44:10.5184034Z Fetching rb-inotify 0.10.1
+2023-12-29T02:44:10.5402160Z Installing rb-inotify 0.10.1
+2023-12-29T02:44:10.5422688Z Installing ethon 0.16.0
+2023-12-29T02:44:10.5569089Z Fetching listen 3.8.0
+2023-12-29T02:44:10.5685320Z Installing listen 3.8.0
+2023-12-29T02:44:10.5948213Z Fetching jekyll-watch 2.2.1
+2023-12-29T02:44:10.6014821Z Fetching typhoeus 1.4.1
+2023-12-29T02:44:10.6053390Z Installing jekyll-watch 2.2.1
+2023-12-29T02:44:10.6140640Z Installing typhoeus 1.4.1
+2023-12-29T02:44:10.6396931Z Fetching html-proofer 4.4.3
+2023-12-29T02:44:10.6492624Z Installing html-proofer 4.4.3
+2023-12-29T02:44:15.7929485Z Fetching em-websocket 0.5.3
+2023-12-29T02:44:15.8118874Z Installing em-websocket 0.5.3
+2023-12-29T02:44:15.8291464Z Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+2023-12-29T02:44:15.8292163Z 
+2023-12-29T02:44:15.8292299Z current directory:
+2023-12-29T02:44:15.8293399Z /home/runner/work/tholonia.github.io/tholonia.github.io/vendor/bundle/ruby/3.3.0/gems/google-protobuf-3.25.1/ext/google/protobuf_c
+2023-12-29T02:44:15.8294265Z rake
+2023-12-29T02:44:15.8295730Z RUBYARCHDIR\=/home/runner/work/tholonia.github.io/tholonia.github.io/vendor/bundle/ruby/3.3.0/extensions/x86_64-linux/3.3.0/google-protobuf-3.25.1
+2023-12-29T02:44:15.8297575Z RUBYLIBDIR\=/home/runner/work/tholonia.github.io/tholonia.github.io/vendor/bundle/ruby/3.3.0/extensions/x86_64-linux/3.3.0/google-protobuf-3.25.1
+2023-12-29T02:44:15.8298721Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems.rb:259:in
+2023-12-29T02:44:15.8299472Z `find_spec_for_exe': can't find gem rake (>= 0.a) with executable rake
+2023-12-29T02:44:15.8300065Z (Gem::GemNotFoundException)
+2023-12-29T02:44:15.8300709Z from /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems.rb:278:in
+2023-12-29T02:44:15.8301244Z `activate_bin_path'
+2023-12-29T02:44:15.8301727Z 	from /opt/hostedtoolcache/Ruby/3.3.0/x64/bin/rake:25:in `<main>'
+2023-12-29T02:44:15.8302094Z 
+2023-12-29T02:44:15.8302323Z rake failed, exit code 1
+2023-12-29T02:44:15.8302533Z 
+2023-12-29T02:44:15.8302675Z Gem files will remain installed in
+2023-12-29T02:44:15.8303536Z /home/runner/work/tholonia.github.io/tholonia.github.io/vendor/bundle/ruby/3.3.0/gems/google-protobuf-3.25.1
+2023-12-29T02:44:15.8304628Z for inspection.
+2023-12-29T02:44:15.8304978Z Results logged to
+2023-12-29T02:44:15.8305877Z /home/runner/work/tholonia.github.io/tholonia.github.io/vendor/bundle/ruby/3.3.0/extensions/x86_64-linux/3.3.0/google-protobuf-3.25.1/gem_make.out
+2023-12-29T02:44:15.8306653Z 
+2023-12-29T02:44:15.8307031Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems/ext/builder.rb:125:in
+2023-12-29T02:44:15.8307632Z `run'
+2023-12-29T02:44:15.8308100Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems/ext/rake_builder.rb:30:in
+2023-12-29T02:44:15.8308780Z `build'
+2023-12-29T02:44:15.8309271Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems/ext/builder.rb:193:in
+2023-12-29T02:44:15.8309818Z `build_extension'
+2023-12-29T02:44:15.8310406Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems/ext/builder.rb:227:in
+2023-12-29T02:44:15.8311010Z `block in build_extensions'
+2023-12-29T02:44:15.8311541Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems/ext/builder.rb:224:in
+2023-12-29T02:44:15.8312200Z `each'
+2023-12-29T02:44:15.8312681Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems/ext/builder.rb:224:in
+2023-12-29T02:44:15.8313207Z `build_extensions'
+2023-12-29T02:44:15.8313797Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems/installer.rb:852:in
+2023-12-29T02:44:15.8314374Z `build_extensions'
+2023-12-29T02:44:15.8314907Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/rubygems_gem_installer.rb:76:in
+2023-12-29T02:44:15.8315622Z `build_extensions'
+2023-12-29T02:44:15.8316171Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/rubygems_gem_installer.rb:28:in
+2023-12-29T02:44:15.8316807Z `install'
+2023-12-29T02:44:15.8317340Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/source/rubygems.rb:205:in
+2023-12-29T02:44:15.8317935Z `install'
+2023-12-29T02:44:15.8318488Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/installer/gem_installer.rb:54:in
+2023-12-29T02:44:15.8319140Z `install'
+2023-12-29T02:44:15.8319681Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/installer/gem_installer.rb:16:in
+2023-12-29T02:44:15.8320330Z `install_from_spec'
+2023-12-29T02:44:15.8320967Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/installer/parallel_installer.rb:132:in
+2023-12-29T02:44:15.8321626Z `do_install'
+2023-12-29T02:44:15.8322220Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/installer/parallel_installer.rb:123:in
+2023-12-29T02:44:15.8322919Z `block in worker_pool'
+2023-12-29T02:44:15.8323424Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/worker.rb:62:in
+2023-12-29T02:44:15.8323984Z `apply_func'
+2023-12-29T02:44:15.8324475Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/worker.rb:57:in
+2023-12-29T02:44:15.8325059Z `block in process_queue'
+2023-12-29T02:44:15.8325432Z   <internal:kernel>:187:in `loop'
+2023-12-29T02:44:15.8326003Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/worker.rb:54:in
+2023-12-29T02:44:15.8326730Z `process_queue'
+2023-12-29T02:44:15.8327221Z /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/bundler/worker.rb:90:in
+2023-12-29T02:44:15.8327828Z `block (2 levels) in create_threads'
+2023-12-29T02:44:15.8328140Z 
+2023-12-29T02:44:15.8328526Z An error occurred while installing google-protobuf (3.25.1), and Bundler cannot
+2023-12-29T02:44:15.8329099Z continue.
+2023-12-29T02:44:15.8329251Z 
+2023-12-29T02:44:15.8329503Z In Gemfile:
+2023-12-29T02:44:15.8329940Z   jekyll-theme-chirpy was resolved to 6.3.1, which depends on
+2023-12-29T02:44:15.8330577Z     jekyll-archives was resolved to 2.2.1, which depends on
+2023-12-29T02:44:15.8331200Z       jekyll was resolved to 4.3.3, which depends on
+2023-12-29T02:44:15.8331853Z         jekyll-sass-converter was resolved to 3.0.0, which depends on
+2023-12-29T02:44:15.8332508Z           sass-embedded was resolved to 1.69.6, which depends on
+2023-12-29T02:44:15.8333226Z             google-protobuf
+2023-12-29T02:44:15.8825702Z ##[error]The process '/opt/hostedtoolcache/Ruby/3.3.0/x64/bin/bundle' failed with exit code 5
+2023-12-29T02:44:15.8992209Z Post job cleanup.
+2023-12-29T02:44:15.9744896Z [command]/usr/bin/git version
+2023-12-29T02:44:15.9785835Z git version 2.43.0
+2023-12-29T02:44:15.9835416Z Temporarily overriding HOME='/home/runner/work/_temp/12cead16-b819-4cc0-abb6-5b0075811b36' before making global git config changes
+2023-12-29T02:44:15.9838539Z Adding repository directory to the temporary git global config as a safe directory
+2023-12-29T02:44:15.9841343Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tholonia.github.io/tholonia.github.io
+2023-12-29T02:44:15.9876021Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2023-12-29T02:44:15.9909032Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2023-12-29T02:44:16.0155201Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2023-12-29T02:44:16.0176324Z http.https://github.com/.extraheader
+2023-12-29T02:44:16.0188096Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2023-12-29T02:44:16.0219642Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2023-12-29T02:44:16.0722040Z Cleaning up orphan processes%  
