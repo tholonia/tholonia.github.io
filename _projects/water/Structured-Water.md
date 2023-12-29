@@ -79,17 +79,17 @@ It is certainly sufficient to raise the question, “Do emotions effect life?”
 
 Footnotes
 
-[^1]: See resources at [http://hexagonalwater.com](http://hexagonalwater.com) for more information.
+[^1]: See resources at [https://hexagonalwater.com](https://hexagonalwater.com) for more information.
 
 [^2]: Ptok, Fabian, “Alternative Irrigation Methods: Structured Water in the context of a Growing Global Food Crisis due to Water Shortages” (2014). Undergraduate Honors Theses. 182. [https://scholar.colorado.edu/honr_theses/182](https://scholar.colorado.edu/honr_theses/182)
 
 [^3]: Lee, H., & Kang, M. (2013). Effect of the magnetized water supplementation on blood glucose, lymphocyte DNA damage, antioxidant status, and lipid profiles in STZ-induced rats. Nutrition Research and Practice, 7(1), 34. doi:10.4162/nrp.2013.7.1.34 
 
-[^4]: Gerald Pollack. (n.d.). Retrieved October 19, 2020, from [http://wiki.naturalphilosophy.org/index.php?title=Gerald_Pollack](http://wiki.naturalphilosophy.org/index.php?title=Gerald_Pollack)
+[^4]: Gerald Pollack. (n.d.). Retrieved October 19, 2020, from [https://wiki.naturalphilosophy.org/index.php?title=Gerald_Pollack](https://wiki.naturalphilosophy.org/index.php?title=Gerald_Pollack)
 
 [^5]: Fonseca, Giuseppe, and Giuseppe Fonseca. “Dr Pollack The Fourth Phase of Water.” Academia.edu, [https://www.academia.edu/18516517/Dr_Pollack_The_Fourth_Phase_Of_Water](https://www.academia.edu/18516517/Dr_Pollack_The_Fourth_Phase_Of_Water) 
 
-[^6]: [http://marcelvogel.org/LabNotesMarcelVogel.pdf](http://marcelvogel.org/LabNotesMarcelVogel.pdf)
+[^6]: [https://marcelvogel.org/LabNotesMarcelVogel.pdf](https://marcelvogel.org/LabNotesMarcelVogel.pdf)
 
 [^7]: Chara, et al. “Crossover between Tetrahedral and Hexagonal Structures in Liquid Water.” Physics Letters A, [http://www.academia.edu/21730774(]http://www.academia.edu/21730774) 
 
