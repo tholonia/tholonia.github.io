@@ -263,10 +263,10 @@ exclude:
   - package*.json
   - .ZPROJECTS/
 
-gems:
-  - jekyll-inline-svg
-svg:
-  optimize: true
+# gems:
+  # - jekyll-inline-svg
+# svg:
+  # optimize: true
 
 
 jekyll-archives:
