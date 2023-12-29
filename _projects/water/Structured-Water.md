@@ -87,7 +87,7 @@ Footnotes
 
 [^4]: Gerald Pollack. (n.d.). Retrieved October 19, 2020, from [https://wiki.naturalphilosophy.org/index.php?title=Gerald_Pollack](https://wiki.naturalphilosophy.org/index.php?title=Gerald_Pollack)
 
-[^5]: Fonseca, Giuseppe, and Giuseppe Fonseca. “Dr Pollack The Fourth Phase of Water.” Academia.edu, [https://www.academia.edu/18516517/Dr_Pollack_The_Fourth_Phase_Of_Water](https://www.academia.edu/18516517/Dr_Pollack_The_Fourth_Phase_Of_Water) 
+[^5]: Fonseca, Giuseppe, and Giuseppe Fonseca. Dr Pollack, [The Fourth Phase of Water]({{ siteurl }}{% link /material/book_The_Fourth_Phase_of_Water.md %})  
 
 [^6]: [https://marcelvogel.org/LabNotesMarcelVogel.pdf](https://marcelvogel.org/LabNotesMarcelVogel.pdf)
 

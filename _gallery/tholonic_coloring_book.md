@@ -6,10 +6,10 @@ date: 2022-10-01
 categories: [NATURE]
 tags: [tholonia]
 image: /tholonic_coloring_book/assets/coloringbook.png
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/assets/2022-10-01-tholonic-book/THOLONIA_COLORING_BOOK.pdf?download=
+pdf: https://tholonia.github.io/material/assets/book_THOLONIA_COLORING_BOOK.zip
 
 ---
-Many forms from one pattern. These forms, with appear to mimmick natural forms of life and nature, are all made from the same basic model of the 'tholonic tree' of one point becoming 2 for 6 generations, terminating in a  'leaf'.  The differences in these images come from variations in distance and angle determined by different contextual rules based based on what is happening around them at each stage in their growth.  These images are a single selected samples from the complete growth cycle of a 360 degrees of various 'tree' patterns.
+Many forms from one pattern. These forms, with appear to mimick natural forms of life and nature, are all made from the same basic model of the 'tholonic tree' of one point becoming 2 for 6 generations, terminating in a  'leaf'.  The differences in these images come from variations in distance and angle determined by different contextual rules based based on what is happening around them at each stage in their growth.  These images are a single selected samples from the complete growth cycle of a 360 degrees of various 'tree' patterns.
 
 <!--more-->
 

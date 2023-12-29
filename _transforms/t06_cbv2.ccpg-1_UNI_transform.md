@@ -8,7 +8,7 @@ date: 2022-10-01
 tmp_categories: [VIDEOS]
 tmp_tags: [tholonia]
 #DEL#project: transforms
-image: /transforms/assets/t06_9NWVtE9L5uY.gif
+image: /transforms/assets/t06_cbv2.ccpg-1_UNI_transform.gif
 #DEL#xvideo_id: t06_
 #DEL#video_id: 9NWVtE9L5uY
 video_url: https://www.youtube.com/watch?v=9NWVtE9L5uY
