@@ -5,7 +5,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/530-D-Greek_Gods.jpg
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/530-D-Greek_Gods.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/530-D-Greek_Gods.pdf
 DEL: the_book
 tags:
 - myth

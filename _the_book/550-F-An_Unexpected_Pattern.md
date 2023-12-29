@@ -6,7 +6,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/550-F-An_Unexpected_Pattern.jpg
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/550-F-An_Unexpected_Pattern.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/550-F-An_Unexpected_Pattern.pdf
 DEL: the_book
 tags:
 - pattern

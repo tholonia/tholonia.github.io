@@ -6,7 +6,7 @@ categories:
 date: 2020-10-21
 image: /material/assets/Intelligence_as_Smart_Heuristics.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/Intelligence_as_Smart_Heuristics.pdf
+pdf: https://tholonia.github.io/material/assets/Intelligence_as_Smart_Heuristics.pdf
 ptags: [nokwgen-manual] 
 jday: 14785
 tags:

@@ -6,7 +6,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/540-E-Hidden_Images.jpg
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/540-E-Hidden_Images.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/540-E-Hidden_Images.pdf
 DEL: the_book
 tags:
 - illusion

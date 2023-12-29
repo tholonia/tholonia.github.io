@@ -6,7 +6,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/600-K-Sidis.jpg
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/600-K-Sidis.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/600-K-Sidis.pdf
 DEL: the_book
 tags:
 - William Sidis

@@ -17,9 +17,9 @@ Then, I discovered I needed to write several temples using the Liquid Template l
 
 OK, I used to write assembly code and COBOL back in the day, so, I'll survive this.
 
-But there was some stuff that specifically needed Ruby code.  Tweaking Ruby was not an issue, but the whole gem architecture, Gemfile, .gemrc, bundler and it's 20+ arguments, ruby enviroinment, etc., etc., was annoying, but unlike Jekyll/Liquid, there a lot of understandable docs out there.
+But there was some stuff that specifically needed Ruby code.  Tweaking Ruby was not an issue, but the whole gem architecture, Gemfile, .gemrc, bundler and it's 20+ arguments, ruby enviroinment, etc., etc., was annoying, but unlike Jekyll/Liquid, there's a lot of understandable docs out there.
 
-Finally, I needed to write several Python scripts to make everything fit and help manage the content. Well, at least I know Python so that part was not so painful. These were script like [syncdate.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdate.py), [syncdatefile.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdatefile.py), which synchronized the date of the post and the date in the YAML date field in the FrontMatter, and [fm_key_mod.py](https://github.com/tholonia/tholonia.github.io/blob/main/fm_key_mod.py) to delete and modify FromMatter arrays like 'tags:' and 'categories:' as I kept changeing them daily.'
+Finally, I needed to write several Python scripts to make everything fit and help manage the content. Well, at least I know Python so that part was not so painful. These were script like [syncdate.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdate.py), [syncdatefile.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdatefile.py), which synchronized the date of the post and the date in the YAML date field in the FrontMatter, and [fm_key_mod.py](https://github.com/tholonia/tholonia.github.io/blob/main/fm_key_mod.py) to delete and modify FromMatter arrays like 'tags:' and 'categories:' as I kept changing them daily.'
 
 After many days of naming, renaming, editing, and re-editing my original content to fit into Jekyll architecture, I published to Git Pages (after setting up [gh](https://github.com/cli/cli) with a [token](https://cli.github.com/manual/gh_auth_login), CI/CD, LFS, and GitPages) ... and was presented with pages and pages of errors that made no sense to me, at least not until I figured out what they were... then they made a lot of sense.
 
@@ -41,7 +41,7 @@ drought 0.4611
 [irrigation,watering,hydrogeology,groundwater,drought]
 ```
 
-With another script ([CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py)) I compared each of those keywords to an array of concepts, which itself was built by AI analyzing concepts of words. To do that, I created [arrays of concepts](https://github.com/tholonia/tholonia.github.io/blob/main/taxonomy2.toml) to create the categories. For example, for each category concept, such as ASTRONOMY, COMMUNICATION, ECONOMY, etc., I grouped 500 words associated with that concept, which I got from the very cool site [relatedwords.io](https://relatedwords.io/).
+With another script ([CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATWORD.py)) I compared each of those keywords to an array of concepts, which itself was built by AI analyzing concepts of words. To do that, I created [arrays of concepts](https://github.com/tholonia/tholonia.github.io/blob/main/taxonomy2.toml) to create the categories. For example, for each category concept, such as ASTRONOMY, COMMUNICATION, ECONOMY, etc., I grouped 500 words associated with that concept, which I got from the very cool site [relatedwords.io](https://relatedwords.io/).
 
 ```
 ASTRONOMY = [ "astrophysics", "astrology", "physic", ...]
@@ -62,7 +62,7 @@ For example, the word "virus" was classified by relevance in the following order
 
 I wasn't expecting to see COMMUNICATION at the top, but apparently, language IS a virus, at least conceptually, or that is what I am told by academics when I searched for "Language is a virus."  So the AI categorizer did its job well.
 
-"Deception" was categorized as the following:  Check out the high relavance rating (where the max is 1.0).  Is the AI suggesting there is a lot of deception in the parapsychology world, even more than politics!? Hmmm, I need to ask my psychic about that!
+"Deception" was categorized as the following:  Check out the high relavance rating (where the max is 1.0).  Is the AI suggesting there is a lot of deception in the parapsychology world, even more than politics!? Hmmm, I'll have to ask my psychic if that's true!
 
 ```
 ['deception', 'PARAPSYCHOLOGY      ', 0.5500629571351138]
@@ -81,9 +81,9 @@ And "sausage" was correctly identified as a health issue first and foremost.
 
 ```
 
-Combining [CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py) and [extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py) into one file ([CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py)) and adding a FrontMatter manager, I was able to read a PDF/TXT file, process it, and update the tags and categories in the relevant markdown file automatically. Yes, the code is a bit of a mess, but most of my code is. Whatever, it worked, which was an accomplishment considering I had never worked with `torch` and `tensors` before, and man, that stuff is dense!  
+Combining [CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATWORD.py) and [extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py) into one file ([CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py)) and adding a FrontMatter manager, I was able to read a PDF/TXT file, process it, and update the tags and categories in the relevant markdown file automatically. Yes, the code is a bit of a mess, but most of my code is. Whatever, it worked, which was an accomplishment considering I had never worked with `torch` and `tensors` before, and man, that stuff is dense!  
 
-Large files, like a 3000 page book, took up to 11 minutes on an Nvidia GeForce 4070Ti.  To speed things up, rather than use the built-in Apache Tika server that comes with keyBERT (or maybe with SpaCy. I can't remember), I ran a [standalone tika server](https://docs.netgen.io/projects/lds/en/latest/ubuntu/tika.html), which was about about 10% faster.  And you *have* to use the LARGE LLM `en_core_web_lg`, as the small model is missing data required for this to work.  When you add the line
+Large files, like a 3000 page book, took up to 11 minutes on an Nvidia GeForce 4070Ti.  To speed things up, rather than use the built-in Apache Tika server that comes with keyBERT (or maybe with SpaCy. I can't remember), I ran a [standalone tika server](https://docs.netgen.io/projects/lds/en/latest/ubuntu/tika.html), which was about about 10% faster.  And you *have* to use the LARGE LLM **"en_core_web_lg"**, as the small model is missing data required for this to work.  When you add the line
 ```
 nlp = spacy.load("en_core_web_lg")
 ```

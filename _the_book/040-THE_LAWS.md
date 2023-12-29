@@ -6,7 +6,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/040-THE_LAWS-dark-trans.png
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/040-THE_LAWS.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/040-THE_LAWS.pdf
 DEL: the_book
 tags:
 - entropy

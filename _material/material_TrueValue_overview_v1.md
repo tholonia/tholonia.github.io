@@ -11,7 +11,7 @@ ptags: [nokwgen-manual]
 jday: 23851
 tags:
 - international
-- trade
+- supply-chain
 - blockchain
 - semantic-web
 title: True-Value Framework for Sustainability

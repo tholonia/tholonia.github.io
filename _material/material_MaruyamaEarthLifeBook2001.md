@@ -8,7 +8,7 @@ ptags: [nokwgen-manual-unreadable]
 jday: 5578
 tags: [evolution, history, earth]
 image: /material/assets/MaruyamaEarthLifeBook2001.png
-pdf: https://tholonia.github.io/_material/assets/MaruyamaEarthLifeBook2001.pdf
+pdf: https://tholonia.github.io/material/assets/MaruyamaEarthLifeBook2001.pdf
 ---
 
 An analysis of the geothermal and thermo-chemical structure of the earth and its impact on the formation of life on the planet.  

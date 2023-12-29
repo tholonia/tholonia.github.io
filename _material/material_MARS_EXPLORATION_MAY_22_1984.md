@@ -7,7 +7,7 @@ categories:
 date: 2020-10-26
 image: /material/assets/MARS_EXPLORATION_MAY_22_1984.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/MARS_EXPLORATION_MAY_22_1984.pdf
+pdf: https://tholonia.github.io/material/assets/MARS_EXPLORATION_MAY_22_1984.pdf
 ptags: [nokwgen-manual]
 jday: 21957
 tags:

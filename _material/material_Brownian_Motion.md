@@ -6,7 +6,7 @@ categories:
 date: 2020-10-03
 image: /material/assets/Brownian_Motion.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/Brownian_Motion.pdf
+pdf: https://tholonia.github.io/material/assets/Brownian_Motion.pdf
 ptags: [nokwgen-manual]
 jday: 28053
 tags:

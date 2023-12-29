@@ -5,11 +5,11 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_THOLONIA_COLORING_BOOK.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_THOLONIA_COLORING_BOOK.pdf
+pdf: https://tholonia.github.io/material/assets/book_THOLONIA_COLORING_BOOK.zip
 ptags: [nokwgen-manual]
 jday: 12496
 tags:
-- patterns
+- pattern
 - order
 title: The Tholonic Coloring book - Patterns in Nature
 ---
