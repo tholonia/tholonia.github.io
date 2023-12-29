@@ -456,3 +456,29 @@ find _material/ -type f -name "*pdf" |awk '{print "./CATFILE.py -f "$1"  -l 1000
 - **`SERVE`** - *cleans caches and starts jekyll server (in docker)*
 - **`TESTLINKS`** - *runs linkchecker (in docke only, uses Jekyll to testr)*
 - **`STOPSERVER`** - *kill all jobs called 'server' (in docker)*
+
+## Versions
+
+
+
+$ sudo apt list --installed|grep -i gem
+
+ruby-rubygems/jammy,now 3.3.5-2 all [installed,automatic]
+rubygems-integration/jammy,now 1.18 all [installed,automatic]
+
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux]
+
+
+
+$ bundle update jekyll
+
+Installing jekyll 4.3.3 (was 4.3.2)
+Using jekyll-openmoji 0.1.6
+Using jekyll-redirect-from 0.16.0
+Using jekyll-seo-tag 2.8.0
+Using jekyll-sitemap 1.4.0
+Using jekyll-youtube 1.0.0
+Using jekyll-archives 2.2.1
+Using jekyll-include-cache 0.2.1
+Using jekyll-theme-chirpy 6.3.1
+Bundle updated!
