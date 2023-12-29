@@ -26,10 +26,10 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-openmoji'
 
 
-gem 'jekyll-inline-svg'
+# gem 'jekyll-inline-svg'
 
 group :jekyll_plugins do
   gem "jekyll-youtube"
 end
 
-gem "markdown_helper"
+# gem "markdown_helper"

@@ -1,8 +1,8 @@
 <!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv children.html -->
 
-<h3 class="alignright">See Relevant Info</h3>
+<h3 class="alignright">Relevant Subprojects</h3>
 
-{{page.weight|debug}}
+<!-- {page.weight|debug}} -->
 {% assign projname = page.slug %}
 {% assign imin = page.weight %}
 {% assign imax = page.weight|plus: 100 %}
@@ -11,7 +11,7 @@
 
 {% for subpage in subpages %}
   <div class="alignright">
-  [{{page.name}}]<a href="{{ subpage.url }}">{{ subpage.title }}</a>
+  <a href="{{ subpage.url }}">{{ subpage.title }}</a>
   </div>
 {% endfor %}
 

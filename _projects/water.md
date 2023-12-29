@@ -12,7 +12,6 @@ status: WIP
 
 Exploring the various attributes and types of water: Structured water, water memory, low-entropy water, water as an information store, a transmission medium, and as a tholonic medium.
 
-
 <!--more--> 
 
 ## INTENTION
@@ -28,3 +27,7 @@ There is evidence that:
 Future experiments:
 - Run entropy tests (see below) on water that has been in a different energy state (e.g., fast vs. slow whirlpool, maybe with and without heat?) and see if the results differ to determine if higher kinetic energy creates lower entropy in water. If so, that would suggest that there is more *order* (lower entropy) in the water.
 - Test for entropy changes in water that has been exposed to various SWP (standing wave patterns) of various frequencies.
+
+{% include children.html %}
+
+## 

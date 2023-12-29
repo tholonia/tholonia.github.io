@@ -278,11 +278,11 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-
+# Jekyll plugins OK'd by GitHub => https://pages.github.com/versions/
 plugins:
   - jekyll-openmoji
   - jekyll-youtube
-  - jekyll-inline-svg
+  # - jekyll-inline-svg
 
 excerpt_separator: "<!--more-->"
 show_excerpts: true
