@@ -6,7 +6,7 @@ categories:
 date: 2020-10-19
 image: /material/assets/grounding.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/grounding.pdf
+pdf: https://tholonia.github.io/material/assets/grounding.pdf
 ptags: [nokwgen-manual]
 jday: 3200
 tags:

@@ -1,10 +1,10 @@
 ---
 author: duncan
-categories:
+categories: NONE
 date: 2022-12-17
 image: /the_book/assets/chapters/510-A-About_This_Book.jpg
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/510-A-About_This_Book.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/510-A-About_This_Book.pdf
 DEL: the_book
 tags:
 - punctuation

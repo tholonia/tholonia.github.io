@@ -7,7 +7,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/590-J-Structured_Water.jpg
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/590-J-Structured_Water.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/590-J-Structured_Water.pdf
 DEL: the_book
 tags:
 - magnetism

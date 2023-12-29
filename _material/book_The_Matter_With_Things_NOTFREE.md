@@ -3,7 +3,7 @@ author: duncan
 categories:
 - PARAPSYCHOLOGY
 - METAPHYSICS
-- GEOSCIENCE
+- PHILOSOPHY
 date: 2021-10-04
 image: /material/assets/book_The_Matter_With_Things_NOTFREE.jpg
 layout: post
@@ -15,10 +15,8 @@ purchase:
 ptags: [nokwgen-manual]
 jday: 17468
 tags:
-- epistemically
-- treatise
-- hemisphere
-- imagined
+- epistemic
+- imagination
 title: The Matter With Things by Iain McGilchrist
 ---
 

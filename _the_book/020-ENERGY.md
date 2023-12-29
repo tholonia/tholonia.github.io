@@ -5,7 +5,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/020-ENERGY-dark-trans.png
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/020-ENERGY.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/020-ENERGY.pdf
 DEL: the_book
 tags:
 - energy

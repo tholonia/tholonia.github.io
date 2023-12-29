@@ -6,7 +6,7 @@ categories:
 date: 2020-10-05
 image: /material/assets/El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.pdf
+pdf: https://tholonia.github.io/material/assets/El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.pdf
 ptags: [nokwgen-manual]
 jday: 25232
 tags:

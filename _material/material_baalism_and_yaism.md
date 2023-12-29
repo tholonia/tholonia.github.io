@@ -5,7 +5,7 @@ categories:
 date: 2020-10-17
 image: /material/assets/baalism_and_yaism.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/baalism_and_yaism.pdf
+pdf: https://tholonia.github.io/material/assets/baalism_and_yaism.pdf
 ptags: [nokwgen-manual]
 jday: 5967
 tags:

@@ -9,7 +9,7 @@ categories:
 date: 2020-10-02
 image: /material/assets/Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.png
 layout: post
-pdf: https://tholonia.github.io/_material/assets/Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.pdf
+pdf: https://tholonia.github.io/material/assets/Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.pdf
 ptags: [nokwgen-manual]
 jday: 2481
 tags:

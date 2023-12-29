@@ -7,7 +7,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/090-MIND.jpg
 layout: page
-pdf: https://tholonia.github.io/_the_book/assets/chapters/090-MIND.pdf
+pdf: https://tholonia.github.io/the_book/assets/chapters/090-MIND.pdf
 DEL: the_book
 tags:
 - coherence

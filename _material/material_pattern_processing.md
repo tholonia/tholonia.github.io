@@ -12,7 +12,7 @@ jday: 16824
 tags:
 - brain
 - cognition
-- patters
+- pattern
 title: Superior pattern processing is the essence of the evolved human brain
 ---
 
