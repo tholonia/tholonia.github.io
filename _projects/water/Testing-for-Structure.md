@@ -94,7 +94,7 @@ THESIS: Alternative Irrigation Methods; Structured Water in the context of a Gro
 
 - [METASTUDY: Structured Water: effects on animals](/material/material_Structured_Water_effects_on_animals.html)
 
-- [BOOK: The Fourth Phase of Water](http://0.0.0.0:4000/material/book_The_Fourth_Phase_of_Water.html)
+- [BOOK: The Fourth Phase of Water](/material/book_The_Fourth_Phase_of_Water.html)
 
 
 
