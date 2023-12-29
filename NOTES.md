@@ -468,4 +468,3 @@ rubygems-integration 1.18
 
 ruby 3.1.2p20
 
-Git pages 'setup ruby' action fails

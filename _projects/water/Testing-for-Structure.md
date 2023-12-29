@@ -11,7 +11,7 @@ status: EXP		       #<=== !IMPORTANT for subprojects
 weight: 102                   #<=== !IMPORTANT for EXPs, must be in rangeTesting for Structure
 ---
 
-*(Most of this is from [Appendix J - Structured Water](/the_book/590-J-Structured_Water.html) in the book [THOLONIA](/the_book))*
+*(Most of this is from [Appendix J - Structured Water]({{ site.baseurl }}{% link _the_book/590-J-Structured_Water.md %}) in the book [THOLONIA](/the_book))*
 
 
 I personally experienced similar results to those reviewed in the animal studies. In my own experiments I created SW simply by spinning 1 liter of water with a chemical stirrer in a magnetic field made of 6 equidistant and opposing magnets glued to the outside of the water jar, which was about 6 inches at its widest part. Each magnet (15mm x 3mm NbFeB 42 MGOe) has a strength 2335 *Gauss* at the closet point inside the jug, which drops to 3 *Gauss* at the center of the jar 3 inches from the magnet, and which drops to about 8 *Gauss* in-between the magnets (which are about 3.5 inches apart each. ) These are a bit weak, considering a magnetic field strength of 1000 to 3000 is required, but the *Gauss* drops below 1000 after 7 mm inside the jar. The water is spinning, so all the water is exposed to the stronger fields, but as it is constantly rotating, that exposure is temporary.
