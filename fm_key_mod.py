@@ -49,7 +49,7 @@ def showhelp():
     Example:
     Change the value of VIDEOS in 'categories' to anotehr value.  If the new value is '86'
     the old value simple deleted.
-        
+
     {__file__} -filename _videos/ -fmkey categories -frmval VIDEOS -toval 86
     {__file__} -f _videos/ -k categories -F VIDEOS -T 86
 
