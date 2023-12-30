@@ -116,7 +116,6 @@ mdfiles = findintree(recursive+filespec)
 
 for file in mdfiles:
   bad_words  = {} #! this holds words that do not exist in the spellchecker or have been listed as incorrect
-  if not dump: print(f">>> {Fore.YELLOW}{file}{Fore.RESET}")
 
   # ! load FM and content
   post = load_fm(file)
@@ -134,7 +133,7 @@ for file in mdfiles:
   #! Remove URL's. This is here because if there are no HTML stuff BeautifulSoup freaks out
   content = re.sub(r'http\S+', '', content)
   content = re.sub("<[^>]*>", "", content) #! remove HTML tags
-  content = re.sub(r' {%[^}]*%}', '', content)  # ! remove LiquidScript tags
+  content = re.sub(r' {[%][^}]*[%]}', '', content)  # ! remove LiquidScript tags
 
 
   words=spell.split_words(content)
@@ -146,12 +145,17 @@ for file in mdfiles:
       if word != probable_word:
         bad_words[word]=probable_word
   #! test and print
+  if len(bad_words) > 0:
+    if not dump:
+      print(f">>> {Fore.YELLOW}{file}{Fore.RESET}")
+
   for word in bad_words:
     if word != bad_words[word]:
       if not dump:
         print(f"\t{Fore.GREEN}[{word:20s}]\t{Fore.CYAN}[{bad_words[word]}]{Fore.RESET}")
 
   #! print our a simple list of bad words for easy cut/paste into skipwords.txt
-  for w in bad_words:
-    print(w)
+  if len(bad_words) > 0:
+    for w in bad_words:
+      print(w)
 
