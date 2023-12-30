@@ -6,7 +6,7 @@ date: 2022-10-01
 categories: [BLOG]
 image: /interactive/assets/notclock.png
 ---
-**NotClock** is an SVG-based clock that, rathe rthat dividing the into 24 parts (hours), it is divided into 6 parts.  Each part is again divided by 6 parts, and so on, 6 times.  This was developed as a testing and research tool for applying the 'tholonic tree' algorithm to different contexts. This is an ongoing project, and being a research project, it is not by any stretch finished, well-designed, efficient, or maintainable code, but it works well enough for the purposes it was built for. It has only been tested on the [Brave](https://brave.com/) browser. Latest version always on [GitHub](https://github.com/tholonia/notclock).
+**NotClock** is an SVG-based clock that, rather than dividing the day into 24 parts (hours), it is divided into 6 parts.  Each part is again divided by 6 parts, and so on, 6 times.  This was developed as a testing and research tool for applying the 'tholonic tree' algorithm to different contexts. This is an ongoing project, and being a research project, it is not by any stretch finished, well-designed, efficient, or maintainable code, but it works well enough for the purposes it was built for. It has only been tested on the [Brave](https://brave.com/) browser. Latest version always on [GitHub](https://github.com/tholonia/notclock).
 
 <!--more-->
 

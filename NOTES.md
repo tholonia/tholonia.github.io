@@ -18,7 +18,7 @@ sudo systemctl start docker
 ### Build (and capture the IMAGE_ID of the build)
 
 ```bash
-$ cd /some/direcrtory
+$ cd /some/directory
 $ docker build -t tsite . > /tmp/d_build.log
 $ IMAGE_ID=`grep "Successfully built" /tmp/d_build.log|awk '{print $3}'`
 $ CMD=`"docker run -p 4000:4000 -p 35729:35729 -it --mount src=$(pwd),target=$(pwd),type=bind -d --name jekyll tsite"`
@@ -308,7 +308,7 @@ git lfs status ; git lfs ls-files # check that they are committed
 git commit -m "Tracking and adding LFS artifacts"
 git push --set-upstream origin main
 
-# check for any files over githuib limit
+# check for any files over github limit
 # find -size +100M
 
 # now add the rest of the content
@@ -321,14 +321,14 @@ git push origin main
 
 ### Solution
 
-It seems that Gihub wants people to use GEM layouts, which embed `_layouts`, `_includes`, `_sass`, `_assets`, so you can't see them anymore. I am sure there is a super good reason for this, otherwise, why would they make it ridiculously more obtuse than it already is :/
+It seems that GitHub wants people to use GEM layouts, which embed `_layouts`, `_includes`, `_sass`, `_assets`, so you can't see them anymore. I am sure there is a super good reason for this, otherwise, why would they make it ridiculously more obtuse than it already is :/
 
 Run
 
 ```bash
 $ bundle show jekyll-theme-chirpy
 ```
-This will whos the filder where teh GEM theme files are.  For example
+This will show the folder where the GEM theme files are.  For example
 ```bash
 /usr/local/src/rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/jekyll-theme-chirpy-6.3.1
 ```
@@ -342,7 +342,7 @@ $ rsync -avr ${DIR"/_sass ${WEB-ROOT}
 $ rsync -avr ${DIR"/_assets ${WEB-ROOT}
 ```
 
-## Git commiting large files
+## Git committing large files
 
 ### Solution
 
@@ -358,7 +358,7 @@ git lfs status ; git lfs ls-files # check that they are committed
 git commit -m "Tracking and adding LFS artifacts"
 git push origin main
 
-# check for any files over githuib limit
+# check for any files over github limit
 find -size +100M
 
 ```
@@ -411,7 +411,7 @@ $ jekyll build
 
 # UTILS
 
-to change FM `date:` field in MD files to match the filename date usign the `-o` flag.  `-i` flag to change filename to FM date.  Filename dates MUST be YYYY-MM-DD_"
+to change FM `date:` field in MD files to match the filename date using the `-o` flag.  `-i` flag to change filename to FM date.  Filename dates MUST be YYYY-MM-DD_"
 ```
 ls *.md |awk '{print "~/sites/tholonia/chirpy2/syncdatefile.py -f "$1" -o"}'|sh
 ```
@@ -424,13 +424,13 @@ Hardcoded to
 /home/jw/store/sites/tholonia/chirpy2/projects/videos
 ```
 
-# KEWORDS
+# KEYWORDS
 
 To clean a TOML word list, such as `taxonomy.toml'
 ```
 ./CHECK_TAXONOMY > taxonomy_cleaned.toml
 ```
-To update categorties and tags in a MD file:
+To update categories and tags in a MD file:
 ```
 ./CATFILE.py -f _material/assets/ballism_and_yaism_updated.pdf  -l 10 -s 2 -v
 ```
@@ -443,11 +443,11 @@ find _material/ -type f -name "*pdf" |awk '{print "./CATFILE.py -f "$1"  -l 1000
 # Files
 ## python
 - **`CATFILE.py`** - *update MD file with auto keyword generator*
-- **`CATWORD.py`** - *tests catogorization of a single word*
-- **`TAX-REPORT.y`** - *prints out taxolomy with all unparsable words removes*
-- **`syncdatefile.py`** - *sunchronizes the filename date and the date tag*
+- **`CATWORD.py`** - *tests categorization of a single word*
+- **`TAX-REPORT.y`** - *prints out taxonomy with all unparsable words removes*
+- **`syncdatefile.py`** - *synchronizes the filename date and the date tag*
 - **`syncdate.py`** - *updates filename date*
-- **`TAX_REPORT.py`** - *prints number of words in taxonomy catagory*
+- **`TAX_REPORT.py`** - *prints number of words in taxonomy category*
 - **`extract_kw.py`** - *extracts keywords from a file (pdf,txt)*
 ## bash
 - **`ADDBIG`** - add large file to LFS 
@@ -455,9 +455,9 @@ find _material/ -type f -name "*pdf" |awk '{print "./CATFILE.py -f "$1"  -l 1000
 - **`FINDFILE`** - *find file in tree from current root.  Uses partial filename*
 - **`FINDINFILE`**- *Finds any file that has matched content*
 - **`MAKEGIF`** - *make an animated GIF with ffmpeg*
-- **`MAKELINKS`** - *creats subdir .ZPROJECTS and fills with symlinks to collections*
+- **`MAKELINKS`** - *creates subdir .ZPROJECTS and fills with symlinks to collections*
 - **`SERVE`** - *cleans caches and starts jekyll server (in docker)*
-- **`TESTLINKS`** - *runs linkchecker (in docke only, uses Jekyll to testr)*
+- **`TESTLINKS`** - *runs linkchecker (in docker only, uses Jekyll to test)*
 - **`STOPSERVER`** - *kill all jobs called 'server' (in docker)*
 
 ## Versions
@@ -471,7 +471,7 @@ rubygems-integration 1.18
 
 ruby 3.1.2p20
 
-# Gisqus
+# Giscus
 
 https://andrewlock.net/replacing-disqus-with-github-discussions-using-giscus/
 

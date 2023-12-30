@@ -32,7 +32,7 @@ For tholonic purposes, we are interested in how energy moves and exists in these
 
 Those who are adept at accessing these other realities often refer to a type of energy that is very similar to the Tholonic ideas of a 3rd 'spectrum' of energy more ethereal and potent than the material and electromagnetic states we are familiar with.  Once such concept, coined by the late OOBE explorer and researcher Robert Monroe, is that of "loosh". 
 
-Here are a few videos (~30min @) from one such adept why goes opnly by [Rick](https://www.youtube.com/@astralclub5964) explaining the concept.
+Here are a few videos (~30min @) from one such adept why goes openly by [Rick](https://www.youtube.com/@astralclub5964) explaining the concept.
 
 - [The Alien Loosh Collectors!](https://youtu.be/jLLsbEtG6vs)
 - [The Loosh Collectors: The Plasma Dimension!](https://youtu.be/TParEHIT7B8)
@@ -46,10 +46,10 @@ The following two videos look at the crazy experiments and discoveries around th
 - [Time Mirrors: Experiments at the North Pole](https://www.youtube.com/watch?v=WP1uNa45_Yk)
 - [Mirrors - Breaking the Future](https://www.youtube.com/watch?v=QXJ3FvUBX4E) *(Russian with English subtitles)*
 
-Some peopel who have experienced an NDE also speak of this 'other' type of energy.  Here is just one example opf such a testimonial
+Some people who have experienced an NDE also speak of this 'other' type of energy.  Here is just one example of such a testimonial
 
 - [Man Dies In Surgery; Shown Truth About Black Holes, Other Dimensions](https://www.youtube.com/watch?v=zQTgiXdFZrw)
 
-If you want to see what actual scientific experimentation looks like in this area, check out this 3 hour interview with  physicist Dr. Tom Campbell who is doing some fascinating research and experiments usign OOBE techniques.
+If you want to see what actual scientific experimentation looks like in this area, check out this 3 hour interview with  physicist Dr. Tom Campbell who is doing some fascinating research and experiments using OOBE techniques.
 
 - [#27 Thomas Campbell - TESTING OUT OF BODY EXPERIENCES](https://www.youtube.com/watch?v=5d3B0cxcllA)
