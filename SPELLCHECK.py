@@ -24,6 +24,7 @@ def showhelp():
     -r, --recursive     default OFF
     -y, --yaml          include YAML FrontMatter. Default OFF
     -d, --dump          dump bad words only
+    -v, --verbose       default: OFF
 
 """
   print(rs)
@@ -89,10 +90,11 @@ filespec = "*.md"
 recursive = ''
 yaml = False
 dump = False
+verbose = False
 
 argv = sys.argv[1:]
 try:
-    opts, args = getopt.getopt(argv,"hf:ryd",["help","filespec=","recursive","yaml","dump"],)
+    opts, args = getopt.getopt(argv,"hf:rydv",["help","filespec=","recursive","yaml","dump"],)
 except Exception as e:
     print(str(e))
 
@@ -103,6 +105,7 @@ for opt, arg in opts:
     if opt in ("-r", "--recursive"): recursive = "**/"
     if opt in ("-y", "--yaml"): yaml = True
     if opt in ("-d", "--dump"): dump = True
+    if opt in ("-v", "--verbose"): verbose = True
 
 #^ ---------------------------------------------------------------------------
 #! load the words to ignore
@@ -133,7 +136,8 @@ for file in mdfiles:
   #! Remove URL's. This is here because if there are no HTML stuff BeautifulSoup freaks out
   content = re.sub(r'http\S+', '', content)
   content = re.sub("<[^>]*>", "", content) #! remove HTML tags
-  content = re.sub(r' {[%][^}]*[%]}', '', content)  # ! remove LiquidScript tags
+  content.replace("%","~") #! need to swap % so it doesn't look like a Liquid command
+  content = re.sub(r' {~[^}]*~}', '', content)  # ! remove LiquidScript tags
 
 
   words=spell.split_words(content)
@@ -145,7 +149,7 @@ for file in mdfiles:
       if word != probable_word:
         bad_words[word]=probable_word
   #! test and print
-  if len(bad_words) > 0:
+  if len(bad_words) > 0 or verbose == True:
     if not dump:
       print(f">>> {Fore.YELLOW}{file}{Fore.RESET}")
 
