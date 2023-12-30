@@ -471,3 +471,12 @@ rubygems-integration 1.18
 
 ruby 3.1.2p20
 
+# Gisqus
+
+https://andrewlock.net/replacing-disqus-with-github-discussions-using-giscus/
+
+repo_id ("octolytics-dimension-repository_id")
+
+## Discussion links
+
+https://github.com/orgs/community/discussions/83085
