@@ -23,6 +23,7 @@ def showhelp():
     -f, --filespec      default: "*.md"
     -r, --recursive     default OFF
     -y, --yaml          include YAML FrontMatter. Default OFF
+    -d, --dump          dump bad words only
 
 """
   print(rs)
@@ -47,7 +48,6 @@ def split_path(pstr):
     "fullpath": fullpath,
   }
 
-
 def findintree(filespec):
   allfiles = glob(filespec, recursive=True)  # ! get list of all files
   ab_allfiles = []
@@ -67,22 +67,18 @@ def load_fm(fn):
   f.close()
   return fm
 
-# def getyaml(file):
-#   post = load_fm(file)          #! load FM and content
-#   return post.metadata
-
 def markdown_to_text(markdown_string):
   """ Converts a markdown string to plaintext """
-
   # md -> html -> text since BeautifulSoup can extract text cleanly
-  html = markdown(markdown_string)
 
-  # remove code snippets
-  html = re.sub(r'<pre>(.*?)</pre>', ' ', html)
-  html = re.sub(r'<code>(.*?)</code >', ' ', html)
+  content = markdown(markdown_string.replace("\n", " ").replace("_", " "))
+  content = re.sub(r'<pre>(.*?)</pre>', ' ', content)
+  content = re.sub(r'<code>(.*?)</code >', ' ', content)
+
 
   # extract text
-  soup = BeautifulSoup(html, "html.parser")
+
+  soup = BeautifulSoup(content, "html.parser")
   text = ''.join(soup.findAll(string=True))
 
   return text
@@ -92,10 +88,11 @@ def markdown_to_text(markdown_string):
 filespec = "*.md"
 recursive = ''
 yaml = False
+dump = False
 
 argv = sys.argv[1:]
 try:
-    opts, args = getopt.getopt(argv,"hf:ry",["help","filespec=","recursive","yaml"],)
+    opts, args = getopt.getopt(argv,"hf:ryd",["help","filespec=","recursive","yaml","dump"],)
 except Exception as e:
     print(str(e))
 
@@ -105,6 +102,7 @@ for opt, arg in opts:
     if opt in ("-f", "--filespec"): filespec = arg
     if opt in ("-r", "--recursive"): recursive = "**/"
     if opt in ("-y", "--yaml"): yaml = True
+    if opt in ("-d", "--dump"): dump = True
 
 #^ ---------------------------------------------------------------------------
 #! load the words to ignore
@@ -118,7 +116,7 @@ mdfiles = findintree(recursive+filespec)
 
 for file in mdfiles:
   bad_words  = {} #! this holds words that do not exist in the spellchecker or have been listed as incorrect
-  print(f">>> {Fore.YELLOW}{file}{Fore.RESET}")
+  if not dump: print(f">>> {Fore.YELLOW}{file}{Fore.RESET}")
 
   # ! load FM and content
   post = load_fm(file)
@@ -131,12 +129,14 @@ for file in mdfiles:
     yaml_str = " ".join(map(str, lst_1d))
     content = content + " " +yaml_str
 
-  #! remove any markdown tags otehr chars and create a list of words
-  content = markdown_to_text(content.replace("\n", " ").replace("_", " "))
+  #! remove any markdown tags other chars and create a list of words
+  content = markdown_to_text(content)
+  #! Remove URL's. This is here because if there are no HTML stuff BeautifulSoup freaks out
+  content = re.sub(r'http\S+', '', content)
   content = re.sub("<[^>]*>", "", content) #! remove HTML tags
-  content = re.sub("\{%%.*%\}?", "", content) #! remove LiquidScript tags
-  content = re.sub("http.*>?", "", content)#! remove URLs
-  # print('+++'+Fore.RED+content+Fore.RESET)
+  content = re.sub(r' {%[^}]*%}', '', content)  # ! remove LiquidScript tags
+
+
   words=spell.split_words(content)
 
   #! fist make an ary with the bad words using the word as key to eliminate dupe entries
@@ -148,7 +148,8 @@ for file in mdfiles:
   #! test and print
   for word in bad_words:
     if word != bad_words[word]:
-      print(f"\t{Fore.GREEN}[{word:20s}]\t{Fore.CYAN}[{bad_words[word]}]{Fore.RESET}")
+      if not dump:
+        print(f"\t{Fore.GREEN}[{word:20s}]\t{Fore.CYAN}[{bad_words[word]}]{Fore.RESET}")
 
   #! print our a simple list of bad words for easy cut/paste into skipwords.txt
   for w in bad_words:
