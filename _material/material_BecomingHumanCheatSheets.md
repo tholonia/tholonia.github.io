@@ -17,7 +17,7 @@ tags:
 title: Becoming Human Cheat Sheets
 ---
 
-"The Most Complete List of Best AI Cheat Sheets" by [BecomingHuman.AI](https://becominghuman.ai/), a project of the prophetic digital edge-lord Cliff High. 
+"The Most Complete List of Best AI Cheat Sheets" by [BecomingHuman.AI](https://becominghuman.ai/), a project of the prophetic digital edge-lord Cliff High.  
 
 <!--more-->
 
