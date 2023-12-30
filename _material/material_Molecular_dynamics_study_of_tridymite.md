@@ -10,7 +10,7 @@ pdf: https://tholonia.github.io/material/assets/Molecular_dynamics_study_of_trid
 ptags: [nokwgen-manual]
 jday: 24466
 tags:
-- crystaline
+- crystalline
 - thologram
 title: Molecular dynamics study of tridymite
 ---

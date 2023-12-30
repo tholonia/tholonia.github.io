@@ -12,7 +12,7 @@ jday: 19715
 tags:
 - entropy
 - Erwin Schrodinger
-- crystaline
+- crystalline
 title: What Is Life? by Erwin Schrödinger
 ---
 
