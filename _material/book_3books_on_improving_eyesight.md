@@ -13,7 +13,7 @@ tags:
 title: 3 books on improving eyesight
 ---
 
-This is a fascinating, slightly unorganized, collection of medical thoughts on vision and eye health and maintenance from the early 20th century. There is some wisdom in this book that has been lost in modern medicine.
+This is a fascinating, slightly unorganized, collection of medical thoughts on vision and eye health and maintenance from the early 20<sup>th</sup> century. There is some wisdom in this book that has been lost in modern medicine.
 
 <!--more-->
 

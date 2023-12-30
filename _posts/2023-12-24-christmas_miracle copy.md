@@ -27,7 +27,7 @@ I kept notes of what I was learning and needing to refer back to, which are view
 
 OK, All my content is up! Now, I had to categorize and tag each piece of content in a way that made sense. After two or three attempts, it was clear I had no idea how to do that... so I decided to let AI do it for me.
 
-I wrote a program ([extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py)) that extracts keywords from a file, which looked somethign like:
+I wrote a program ([extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py)) that extracts keywords from a file, which looked something like:
 
 ```
 $ ./extract_kw.py -f Alternative_Irrigation_Methods.pdf 
@@ -48,7 +48,7 @@ ASTRONOMY = [ "astrophysics", "astrology", "physic", ...]
 COMMUNICATION = [ "interaction", "language", "message"...]
 ECONOMY = [ "market", "economic", "gdp", "financial",...]
 ```
-Then,  each keyword extracted from the document was conceptually compared to every one of those words using AI tools and an LLM (Large Language Model), and the similarities were added up and averaged for each category, resulting in some interesting categorizations.  This can be dramatically improved if I weight the results based on the relevance of the word the keyword is being compared to, but even without that, the resutls were impressive.
+Then,  each keyword extracted from the document was conceptually compared to every one of those words using AI tools and an LLM (Large Language Model), and the similarities were added up and averaged for each category, resulting in some interesting categorizations.  This can be dramatically improved if I weight the results based on the relevance of the word the keyword is being compared to, but even without that, the results were impressive.
 
 For example, the word "virus" was classified by relevance in the following order:
 
@@ -62,7 +62,7 @@ For example, the word "virus" was classified by relevance in the following order
 
 I wasn't expecting to see COMMUNICATION at the top, but apparently, language IS a virus, at least conceptually, or that is what I am told by academics when I searched for "Language is a virus."  So the AI categorizer did its job well.
 
-"Deception" was categorized as the following:  Check out the high relavance rating (where the max is 1.0).  Is the AI suggesting there is a lot of deception in the parapsychology world, even more than politics!? Hmmm, I'll have to ask my psychic if that's true!
+"Deception" was categorized as the following:  Check out the high relevance rating (where the max is 1.0).  Is the AI suggesting there is a lot of deception in the parapsychology world, even more than politics!? Hmmm, I'll have to ask my psychic if that's true!
 
 ```
 ['deception', 'PARAPSYCHOLOGY      ', 0.5500629571351138]
