@@ -1,103 +1,187 @@
 ---
 layout: post
-title: Christmas Miracle
+title: Spellcheck Script
 author: duncan
-date: 2023-12-24
+date: 2023-12-30
 categories: [BLOG]
-tags: [about]
-image: /assets/christmas_miracle.jpg
+tags: [python]
+# image: /assets/christmas_miracle.jpg
 ---
-T'was the night before Christmas, and all through the house, not a creature was stirring, not even a mouse... except for the maniac banging away at the keyboard for the past 3 weeks until 4 AM every day :/  That would be me. 
+Here's a nifty tool I just banged out that does a spellcheck on every doc.
 
-The idea of moving all my content to Jekyll/GitPages seemed like such a great idea, and it was! I just had no idea what that would involve.
+It's crude, but it works for catching bad words in the file's content and in the YAML metadata if you are checking markdown files.
 
-For starters, I needed to use a docker file for the Jekyll server as none of the versions of any of my libraries on my Arch Linux system seemed to be compatible with what Jekyll wanted. OK, so I learned docker stuff.  The first thing I learned was NOT use the Docker Desktop! Man, that screwed everything up for 2 days!  When you install Docker Desktop it create a new context which is useless (as in unusable) outside of the Desktop, but it changes that context for everything, breaking everything in the process until you spend hours finding the secret command to fix it (it's `docker context use default`).  Stick to the command line, and that includes not using the Visual Studio Docker extensions.  It just makes things more difficult when you have to debug it.  Here is the [video](https://www.youtube.com/watch?v=zijOXpZzdvs) a generally followed to get Docker/Jekyll running.
+It's straight forward:
+get a list of files to check
+load each file, extracting a list of words
+spellcheck each word, skipping over words it's been told to ignore
+print out the misspelled words
+However, it will see many bad words if your content and YAML tags are outside the dictionary.  To avoid this, you need to make a file called 'skipwords.txt', which has all the words to ignore. 
 
-Then, I discovered I needed to write several temples using the Liquid Template language, which ain't pretty. So, I learned Liquid Script. And when I say is 'ain't pretty', what I really mean is it's a syntax nightmare.  While rational, sane code might look something like `x=a+100/y`, Liquid's brilliant adaptation is `{ % assign x = a | plus: 100 | divided_by: y % }`.  
+If this is run on only a few files, it will be easy to see which words are bad vs. unrecognized.  For many files, it's best to run the scripts on all files, save the output, and create a skipwords.txt file from that output, then rerun the script.
 
-OK, I used to write assembly code and COBOL back in the day, so, I'll survive this.
+Examples:
 
-But there was some stuff that specifically needed Ruby code.  Tweaking Ruby was not an issue, but the whole gem architecture, Gemfile, .gemrc, bundler and it's 20+ arguments, ruby enviroinment, etc., etc., was annoying, but unlike Jekyll/Liquid, there's a lot of understandable docs out there.
+`./SPELLCHECK.py -r -y`
+- Recursive check all \*.md (default) files from the current working directory.  Include YAML FromtMatter.
+`./SPELLCHECK.py -f somedoc.md`
+- Check the content only of the file `somedoc.md`.
 
-Finally, I needed to write several Python scripts to make everything fit and help manage the content. Well, at least I know Python so that part was not so painful. These were script like [syncdate.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdate.py), [syncdatefile.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdatefile.py), which synchronized the date of the post and the date in the YAML date field in the FrontMatter, and [fm_key_mod.py](https://github.com/tholonia/tholonia.github.io/blob/main/fm_key_mod.py) to delete and modify FromMatter arrays like 'tags:' and 'categories:' as I kept changing them daily.'
+Here's the code (latest version always [HERE](https://github.com/tholonia/tholonia.github.io/blob/main/SPELLCHECK.py))
 
-After many days of naming, renaming, editing, and re-editing my original content to fit into Jekyll architecture, I published to Git Pages (after setting up [gh](https://github.com/cli/cli) with a [token](https://cli.github.com/manual/gh_auth_login), CI/CD, LFS, and GitPages) ... and was presented with pages and pages of errors that made no sense to me, at least not until I figured out what they were... then they made a lot of sense.
+```python
+#!/bin/env python
 
-I kept notes of what I was learning and needing to refer back to, which are viewable [here](/NOTES.md). For anyone who knows Jekyll or Docker, they will seem ridiculously simple, but like everything, it's only simple after you know it!
+import sys
+import getopt
+from glob import glob
+import re
+import itertools
+from pprint import pprint
 
-OK, All my content is up! Now, I had to categorize and tag each piece of content in a way that made sense. After two or three attempts, it was clear I had no idea how to do that... so I decided to let AI do it for me.
+import frontmatter
+from spellchecker import SpellChecker
+from markdown import markdown
+from bs4 import BeautifulSoup
 
-I wrote a program ([extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py)) that extracts keywords from a file, which looked something like:
+#! for ASNI colors outout
+from colorama import init, Fore, Back
+init()
+
+def showhelp():
+  print("help")
+  rs = """
+    -h, --help          show help
+    -f, --filespec      default: "*.md"
+    -r, --recursive     default OFF
+    -y, --yaml          include YAML FrontMatter. Default OFF
+
+"""
+  print(rs)
+  exit()
+
+def split_path(pstr):
+  dirname = os.path.dirname(pstr)
+
+  if dirname == "" or dirname == ".":
+    dirname = os.getcwd()
+  basename = os.path.basename(pstr)
+  ns = basename.split(".")
+  ext = ns[-1]
+  nameonly = "".join(ns[:-1])
+  fullpath = f"{dirname}/{basename}"
+
+  return {
+    "dirname": dirname,
+    "basename": basename,
+    "ext": ext,
+    "nameonly": nameonly,
+    "fullpath": fullpath,
+  }
+
+
+def findintree(filespec):
+  allfiles = glob(filespec, recursive=True)  # ! get list of all files
+  ab_allfiles = []
+  for f in allfiles:  # ! remove all instance of ZPROJECTS, a dir that needs to be ignore.
+    if f.find("ZPROJECTS") != -1 or f.find("_site") != -1:
+      pass
+    else:
+      ab_allfiles.append(f)
+  found_ary = []
+  for file in ab_allfiles:
+    found_ary.append(file)
+  return found_ary
+
+def load_fm(fn):
+  f = open(fn, encoding="utf-8")
+  fm = frontmatter.load(f)
+  f.close()
+  return fm
+
+def markdown_to_text(markdown_string):
+  """ Converts a markdown string to plaintext """
+
+  # md -> html -> text since BeautifulSoup can extract text cleanly
+  html = markdown(markdown_string)
+
+  # remove code snippets
+  html = re.sub(r'<pre>(.*?)</pre>', ' ', html)
+  html = re.sub(r'<code>(.*?)</code >', ' ', html)
+
+  # extract text
+  soup = BeautifulSoup(html, "html.parser")
+  text = ''.join(soup.findAll(string=True))
+
+  return text
+
+#! ---------------------------------------------------------------------------
+#! Set default values
+filespec = "*.md"
+recursive = ''
+yaml = False
+
+argv = sys.argv[1:]
+try:
+    opts, args = getopt.getopt(argv,"hf:ry",["help","filespec=","recursive","yaml"],)
+except Exception as e:
+    print(str(e))
+
+#! set defaults
+for opt, arg in opts:
+    if opt in ("-h", "--help"): showhelp()
+    if opt in ("-f", "--filespec"): filespec = arg
+    if opt in ("-r", "--recursive"): recursive = "**/"
+    if opt in ("-y", "--yaml"): yaml = True
+
+#^ ---------------------------------------------------------------------------
+#! load the words to ignore
+with open('skipwords.txt') as f:
+    skipwords = f.read().splitlines()
+spell = SpellChecker()
+spell.word_frequency.load_words(skipwords)
+
+#! get all files as determined by the arguments
+mdfiles = findintree(recursive+filespec)
+
+for file in mdfiles:
+  bad_words  = {} #! this holds words that do not exist in the spellchecker or have been listed as incorrect
+  print(f">>> {Fore.YELLOW}{file}{Fore.RESET}")
+
+  # ! load FM and content
+  post = load_fm(file)
+  content = post.content
+
+  #! this REALLY slows things down
+  if yaml:
+    import numpy as np
+    lst_1d = np.array(post.metadata).flat
+    yaml_str = " ".join(map(str, lst_1d))
+    content = content + " " +yaml_str
+
+  #! remove any markdown tags otehr chars and create a list of words
+  content = markdown_to_text(content.replace("\n", " ").replace("_", " "))
+  content = re.sub("<[^>]*>", "", content) #! remove HTML tags
+  content = re.sub("\{%%.*%\}?", "", content) #! remove LiquidScript tags
+  content = re.sub("http.*>?", "", content)#! remove URLs
+  # print('+++'+Fore.RED+content+Fore.RESET)
+  words=spell.split_words(content)
+
+  #! fist make an ary with the bad words using the word as key to eliminate dupe entries
+  for word in words:
+    if word not in spell.known(word):
+      probable_word = spell.correction(word)
+      if word != probable_word:
+        bad_words[word]=probable_word
+  #! test and print
+  for word in bad_words:
+    if word != bad_words[word]:
+      print(f"\t{Fore.GREEN}[{word:20s}]\t{Fore.CYAN}[{bad_words[word]}]{Fore.RESET}")
+
+  #! print our a simple list of bad words for easy cut/paste into skipwords.txt
+  for w in bad_words:
+    print(w)
+
 
 ```
-$ ./extract_kw.py -f Alternative_Irrigation_Methods.pdf 
-
-irrigation 0.6175
-watering 0.5158
-hydrogeology 0.4919
-groundwater 0.4786
-drought 0.4611
-
-[irrigation,watering,hydrogeology,groundwater,drought]
-```
-
-With another script ([CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATWORD.py)) I compared each of those keywords to an array of concepts, which itself was built by AI analyzing concepts of words. To do that, I created [arrays of concepts](https://github.com/tholonia/tholonia.github.io/blob/main/taxonomy2.toml) to create the categories. For example, for each category concept, such as ASTRONOMY, COMMUNICATION, ECONOMY, etc., I grouped 500 words associated with that concept, which I got from the very cool site [relatedwords.io](https://relatedwords.io/).
-
-```
-ASTRONOMY = [ "astrophysics", "astrology", "physic", ...]
-COMMUNICATION = [ "interaction", "language", "message"...]
-ECONOMY = [ "market", "economic", "gdp", "financial",...]
-```
-Then,  each keyword extracted from the document was conceptually compared to every one of those words using AI tools and an LLM (Large Language Model), and the similarities were added up and averaged for each category, resulting in some interesting categorizations.  This can be dramatically improved if I weight the results based on the relevance of the word the keyword is being compared to, but even without that, the results were impressive.
-
-For example, the word "virus" was classified by relevance in the following order:
-
-```
-['virus', 'COMMUNICATION       ', 0.2639210671186447]
-['virus', 'HEALTH              ', 0.2420676453755452]
-['virus', 'BIOSCIENCE          ', 0.21397996693849564]
-['virus', 'POLITICS            ', 0.21185217188163238]
-
-```
-
-I wasn't expecting to see COMMUNICATION at the top, but apparently, language IS a virus, at least conceptually, or that is what I am told by academics when I searched for "Language is a virus."  So the AI categorizer did its job well.
-
-"Deception" was categorized as the following:  Check out the high relevance rating (where the max is 1.0).  Is the AI suggesting there is a lot of deception in the parapsychology world, even more than politics!? Hmmm, I'll have to ask my psychic if that's true!
-
-```
-['deception', 'PARAPSYCHOLOGY      ', 0.5500629571351138]
-['deception', 'COMMUNICATION       ', 0.49766487181186675]
-['deception', 'PSYCHOLOGY          ', 0.4660773128271103]
-['deception', 'POLITICS            ', 0.4575957981022922]
-
-```
-And "sausage" was correctly identified as a health issue first and foremost.
-
-```
-['sausage', 'HEALTH              ', 0.13826854150885573]
-['sausage', 'BIOSCIENCE          ', 0.13739087618887424]
-['sausage', 'NATURE              ', 0.12656965479254723]
-['sausage', 'ENERGY              ', 0.11748666873273368]
-
-```
-
-Combining [CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATWORD.py) and [extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py) into one file ([CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py)) and adding a FrontMatter manager, I was able to read a PDF/TXT file, process it, and update the tags and categories in the relevant markdown file automatically. Yes, the code is a bit of a mess, but most of my code is. Whatever, it worked, which was an accomplishment considering I had never worked with `torch` and `tensors` before, and man, that stuff is dense!  
-
-Large files, like a 3000 page book, took up to 11 minutes on an Nvidia GeForce 4070Ti.  To speed things up, rather than use the built-in Apache Tika server that comes with keyBERT (or maybe with SpaCy. I can't remember), I ran a [standalone tika server](https://docs.netgen.io/projects/lds/en/latest/ubuntu/tika.html), which was about about 10% faster.  And you *have* to use the LARGE LLM **"en_core_web_lg"**, as the small model is missing data required for this to work.  When you add the line
-```
-nlp = spacy.load("en_core_web_lg")
-```
-SpaCy will automatically download it if it can't find it.
-
-OK, so now I have automated tags and categories. They weren't perfect, but at least they kept me in the ballpark, which made editing them much easier. 
-
-And with that, and a ton of text editing, the site is (more or less) done!
-
-### Notes:
-
-Helpful note: The ONLY routines that worked properly were [keyBERT](https://maartengr.github.io/KeyBERT/guides/quickstart.html) libraries. The SpaCy and  NLTP AI text processors (see functions `get_keywords_nltk(fn)` and  `get_keywords_spacy(fn)` in [CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py)) either failed or produced horrible results, at least for me and my terrible programming. Your mileage will certainly vary.
-
-If you have CUDA/CuPy, this is an insanely useful link to have!
-
-- https://spacy.io/usage 
 
