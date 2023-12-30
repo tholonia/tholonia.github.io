@@ -20,7 +20,7 @@ tags:
 title: Adventures Beyond the Body by William Buhlman
 ---
 
-William Buhlman has trained out-of-body travelers in his workshop for more than a decade, teaching people how to project their consciousness outside the limits of their physical bodies and to explore dimensions and worlds beyond everyday life. Now he vividly recounts how own adventures in the parallel universe described in the new-physics theories of Stephen Hawkins, Paul Davies, and Fred Alan Wolf and presents his step-by-step guide to astral travel'including exercises, tips, techniques, and answers to your every question about out-of-body experiences.
+William Buhlman has trained out-of-body travelers in his workshop for more than a decade, teaching people how to project their consciousness outside the limits of their physical bodies and to explore dimensions and worlds beyond everyday life. Now he vividly recounts how own adventures in the parallel universe described in the new-physics theories of Stephen Hawkins, Paul Davies, and Fred Alan Wolf and presents his step-by-step guide to astral travel including exercises, tips, techniques, and answers to your every question about out-of-body experiences.
 
 <!--more-->
 

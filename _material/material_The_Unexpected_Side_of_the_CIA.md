@@ -20,4 +20,4 @@ An investigation into the CIA remote viewing research. "From Part 1 of this work
 
 {% include pdf-download-obj.html %}
 
-See also [CIA Stargate](/videos/CIA-stargate.html) and the origial [CIA report](/material/material_CIA-page25.html) .
+See also [CIA Stargate](/videos/CIA-stargate.html) and the original [CIA report](/material/material_CIA-page25.html) .

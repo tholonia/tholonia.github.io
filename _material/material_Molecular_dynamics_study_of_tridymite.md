@@ -15,7 +15,7 @@ tags:
 title: Molecular dynamics study of tridymite
 ---
 
-Tridymite is a high-temperature polymorph of silica (SiO<sup>2</sup>).  It is of interest here as it crystalline form is that of the thologram.  This is quie similar to quartz (SiO<sup>4</sup>) chemically, and to water, structurally. In fact, quartz and (very cold) ice has a nearly identical structure. 
+Tridymite is a high-temperature polymorph of silica (SiO<sup>2</sup>).  It is of interest here as it crystalline form is that of the thologram.  This is quite similar to quartz (SiO<sup>4</sup>) chemically, and to water, structurally. In fact, quartz and (very cold) ice has a nearly identical structure. 
 
 <!--more-->
 

@@ -10,7 +10,7 @@ DEL: interactive
 image: /interactive/assets/demos/19-intree_3.gif
 svg: /interactive/assets/demos/19-intree_3.gif.svg
 ---
-Static until mouse enters image. Mouse position defines angle of divergence. This has huge 'leaves', but a full menu, which appears for a fews seconds when started. 
+Static until mouse enters image. Mouse position defines angle of divergence. This has huge 'leaves', but a full menu, which appears for a few seconds when started. 
 
 :green_circle: **To see the HELP menu, click on screen to grab focus, then press Ctrl-Shift-Z**
 

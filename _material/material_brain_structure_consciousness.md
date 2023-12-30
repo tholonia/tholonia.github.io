@@ -3,9 +3,9 @@ author: duncan
 categories:
 - NEUROSCIENCE
 date: 2020-11-19
-image: /material/assets/brain_structure_consiousness.png
+image: /material/assets/brain_structure_consciousness.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/brain_structure_consiousness.pdf
+pdf: https://tholonia.github.io/material/assets/brain_structure_consciousness.pdf
 ptags: [nokwgen-manual]
 jday: 24231
 tags:

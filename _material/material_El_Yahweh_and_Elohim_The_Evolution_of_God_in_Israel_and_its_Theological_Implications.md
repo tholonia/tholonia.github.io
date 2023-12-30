@@ -16,7 +16,7 @@ tags:
 title: El Yahweh and Elohim The Evolution of God in Israel and its Theological Implications
 ---
 
-Historical concepts of reality often took the form of deities, and the introduction of monotheism, the idea of One God, was a major paradigm shift that continues to dominate the modern world and our current view of reality.  While we tend to blur the distinctions between the concepts of El, Yahweh, and Elohim, they are three disctinctly different ideas.  Understanding these difference sheds light on the foundations of modern beliefs.
+Historical concepts of reality often took the form of deities, and the introduction of monotheism, the idea of One God, was a major paradigm shift that continues to dominate the modern world and our current view of reality.  While we tend to blur the distinctions between the concepts of El, Yahweh, and Elohim, they are three distinctly different ideas.  Understanding these difference sheds light on the foundations of modern beliefs.
 
 <!--more-->
 

@@ -14,7 +14,7 @@ weight: 200
 Why does the path of the sun create patterns that describe the refraction of light and the grain of wood?
 <!--more--> 
 
-It's more them remarkable that patterns in trees follow the same rules as the diffraction of light, and that both of these pattens can be determined by the Moon's relationship to the Sun... it's living proof of the idea that every that exists is the same expression of energy within different contexts.
+It's more them remarkable that patterns in trees follow the same rules as the diffraction of light, and that both of these patterns can be determined by the Moon's relationship to the Sun... it's living proof of the idea that every that exists is the same expression of energy within different contexts.
 
 *(Most of this is from [Appendix F - An Unexpected Pattern](/the_book/550-F-An_Unexpected_Pattern.html) in the book [THOLONIA](/the_book))*
 
@@ -117,7 +117,7 @@ In short, Zipf’s law is an example of *power laws*, and power laws touch every
 ![img](/projects/unexpected/assets/rzf-form.png)
 Related sidenote, using just prime numbers you can also determine π, but this has nothing to do with RZF: ![img](/projects/unexpected/assets/301.png).
 
-One of the useful features of the RZF is that it can turn a *divergent* series of numbers (numbers that when you add then together approach inftyity) into a *convergent* series (when the sum approaches a specific value, like ![img](/projects/unexpected/assets/302.png) or ![img](/projects/unexpected/assets/311.png)). It can do this because the hypothesis uses the concept of **analytic continuation** and **complex numbers**. You can play with this function using an online Riemann Zeta Function Calculator. [^5]
+One of the useful features of the RZF is that it can turn a *divergent* series of numbers (numbers that when you add then together approach infinity) into a *convergent* series (when the sum approaches a specific value, like ![img](/projects/unexpected/assets/302.png) or ![img](/projects/unexpected/assets/311.png)). It can do this because the hypothesis uses the concept of **analytic continuation** and **complex numbers**. You can play with this function using an online Riemann Zeta Function Calculator. [^5]
 
 The RZF is based on the *Riemann hypothesis*, which also states that ζ(*s*)=0 only when *s* is a negative even integer or a complex number with real part of ![img](/projects/unexpected/assets/304.png). This hypothesis is really quite profound in the way it relates to the distribution of prime numbers. That won’t be explained here, but it is understandable when properly explained. There are a couple of excellent videos on the subject [here](https://www.youtube.com/watch?v=sD0NjbwqlYw) and [here](https://www.youtube.com/watch?v=d6c6uIyieoo).
 
