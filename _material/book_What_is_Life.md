@@ -6,7 +6,7 @@ categories:
 date: 2021-11-17
 image: /material/assets/What_is_Life.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/What_is_Life.zip
+pdf: https://tholonia.github.io/material/assets/book_What_is_Life.zip
 ptags: [nokwgen-manual]
 jday: 19715
 tags:
