@@ -177,8 +177,8 @@ collections:
 
 #    permalink: /:collection
     sort_by: name
-  mindmap:
-    output: true
+  # mindmap:
+  #   output: true
   gallery:
     output: true
 #    permalink: /:collection
