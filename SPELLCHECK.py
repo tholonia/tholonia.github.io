@@ -136,7 +136,7 @@ for file in mdfiles:
   #! Remove URL's. This is here because if there are no HTML stuff BeautifulSoup freaks out
   content = re.sub(r'http\S+', '', content)
   content = re.sub("<[^>]*>", "", content) #! remove HTML tags
-  content.replace("%","~") #! need to swap % so it doesn't look like a Liquid command
+  content.replace("%","~") #! need to swap % so it doesn't look like a Liquid command for next line
   content = re.sub(r' {~[^}]*~}', '', content)  # ! remove LiquidScript tags
 
 
