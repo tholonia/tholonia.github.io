@@ -480,3 +480,7 @@ repo_id ("octolytics-dimension-repository_id")
 ## Discussion links
 
 https://github.com/orgs/community/discussions/83085
+
+https://github.com/giscus/giscus/issues/1272
+
+https://www.reddit.com/r/github/comments/18ucot3/giscus_rejects_allany_repos_i_select_despite/
