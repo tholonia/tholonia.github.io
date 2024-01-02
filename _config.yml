@@ -211,6 +211,10 @@ collections:
     output: true
     sort_by: name
 #    permalink: /:collection
+  docs:
+    output: true
+    sort_by: name
+#    permalink: /:collection
 
 defaults:
   - scope:
@@ -257,7 +261,7 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - docs/
+  # - docs/
   - tools/
   - README.md
   - LICENSE

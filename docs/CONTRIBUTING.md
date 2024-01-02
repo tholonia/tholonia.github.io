@@ -1,3 +1,8 @@
+---
+layout: page
+title: Contributing
+permalink: /contributing
+---
 # Contributing Guidelines
 
 _First of all, thank you for considering contributing to this project_ ! :tada:
