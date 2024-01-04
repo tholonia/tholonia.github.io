@@ -16,7 +16,9 @@ tags:
 title: New Frontiers in Integrated Solid Earth Sciences
 ---
 
-This book series is one of the many important results of the International Year of Planet Earth (IYPE), a joint initiative of UNESCO and the International Union of Geological Sciences (IUGS), launched with the aim of ensuring greater and more effective use by society of the knowledge and skills provided by the Earth Sciences.  
+Examines the dynamics of sedimentary basins and their relationship with tectonic processes. It presents various examples of how different basins have responded to changes in tectonic forces over time, including the formation of microdiamonds in the Earth's crust. The article highlights the importance of understanding these dynamics to better predict future geological events and their impact on the environment.
+
+{% comment %}This book series is one of the many important results of the International Year of Planet Earth (IYPE), a joint initiative of UNESCO and the International Union of Geological Sciences (IUGS), launched with the aim of ensuring greater and more effective use by society of the knowledge and skills provided by the Earth Sciences.  {% endcomment %}
 
 <!--more--> 
 

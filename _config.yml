@@ -185,6 +185,7 @@ collections:
     sort_by: name
   material:
     output: true
+    sort_by: date
 #    permalink: /:collection
 # ------------------------------------gallery items
   interactive:
@@ -268,6 +269,7 @@ exclude:
   - rollup.config.js
   - package*.json
   - .ZPROJECTS/
+  - src
 
 # gems:
   # - jekyll-inline-svg

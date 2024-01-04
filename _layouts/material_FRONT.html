@@ -6,7 +6,7 @@ title: Material
 
  {{page.content}}
 
-{% assign sorted_pages = site.material |sort: "jday" %}
+{% assign sorted_pages = site.material |sort: "date" %}
 
 {% for this_page in sorted_pages reversed %}
     <div class="material">

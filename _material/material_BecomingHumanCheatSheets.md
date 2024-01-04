@@ -17,7 +17,7 @@ tags:
 title: Becoming Human Cheat Sheets
 ---
 
-"The Most Complete List of Best AI Cheat Sheets" by [BecomingHuman.AI](https://becominghuman.ai/), a project of the prophetic digital edge-lord Cliff High.  
+"The Most Complete List of Best AI Cheat Sheets" by [BecomingHuman.AI](https://becominghuman.ai/), a project of the prophetic digital edge-lord Cliff High.  References to Python libraries and techniques for machine learning, including KMeans clustering, Neural Networks, Grid SearchCV for parameter optimization, and Randomized Parameter Optimization. It also provides examples of how to use these libraries and techniques in practice.
 
 <!--more-->
 

@@ -45,6 +45,8 @@ nlp = spacy.load("en_core_web_lg")
 
 timestamp = time.time()
 
+os.chdir("/home/jw/sites/tholonia/chirpy2")
+
 def showhelp():
   print("help")
   rs = """
@@ -425,16 +427,16 @@ for opt, arg in opts:
 #^ ---------------------------------------------------------------------------
 if filename != False:
   border = f"""
-  ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+  ┌──────────────────────────────────────────────────────────────────┐
   │   STARTING:   {filename:96s}│
-  └───────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+  └──────────────────────────────────────────────────────────────────┘
   """
   print(Fore.CYAN+border+Fore.RESET)
 starttime = time.time()
 
 
 
-with open("taxonomy2.toml", mode="rb") as fp:
+with open("/home/jw/sites/tholonia/chirpy2/src/taxonomy2.toml", mode="rb") as fp:
   config = tomllib.load(fp)
 
 #! report count for each catagory
