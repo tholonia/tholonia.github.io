@@ -25,6 +25,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # gem "jekyll-inline-svg"
 gem 'jekyll-openmoji'
 
+gem 'jekyll-feed'
 
 # gem 'jekyll-inline-svg'
 
