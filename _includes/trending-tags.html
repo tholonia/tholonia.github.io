@@ -6,6 +6,9 @@
 {% assign size_list = '' | split: '' %}
 {% assign tag_list = '' | split: '' %}
 
+<!-- {{ site.material.tags|debug}} -->
+
+
 {% for tag in site.tags %}
   {% assign size = tag | last | size %}
   {% assign size_list = size_list | push: size %}
@@ -20,11 +23,14 @@
 
 {% assign trending_tags = '' | split: '' %}
 
+
 {% for size in size_list limit: MAX %}
   {% for tag_str in tag_list %}
     {% assign tag = tag_str | split: '::' %}
     {% assign tag_name = tag | first %}
     {% assign tag_size = tag | last | plus: 0 %}
+
+
     {% if tag_size == size %}
       {% unless trending_tags contains tag_name %}
         {% assign trending_tags = trending_tags | push: tag_name %}
@@ -36,7 +42,7 @@
 
 {% if trending_tags.size > 0 %}
   <section>
-    <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.trending_tags -}}</h2>
+    <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.trending_tags -}} &nbsp;<span style='font-size: 8pt;'>(BLOG only)</span></h2>
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       {% for tag_name in trending_tags %}
         {% assign url = tag_name | slugify | url_encode | prepend: '/tags/' | append: '/' %}

@@ -1,5 +1,5 @@
 #!/bin/env python
-
+import os
 import sys
 import getopt
 from glob import glob
@@ -100,6 +100,9 @@ for opt, arg in opts:
     if opt in ("-f", "--filespec"): filespec = arg
 
 #^ ---------------------------------------------------------------------------
+
+os.chdir("/home/jw/sites/tholonia/chirpy2")
+
 #! get all files as determined by the arguments
 mdfiles = findintree(filespec)
 
@@ -144,6 +147,10 @@ for uniqt in utags:
   tcary[uniqt]=list(set(clist))
 
 # ! create cat=key array
+for t in tcary:
+  for c in tcary[t]:
+    print(t+","+c)
+exit()
 
 ucats = list(set(ucats))
 ctary = {}
