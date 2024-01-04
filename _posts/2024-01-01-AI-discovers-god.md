@@ -5,7 +5,7 @@ author: duncan
 date: 2024-01-01
 categories: [BLOG,METAPHYSICS,TECHNOLOGY]
 tags: [AI,belief]
-image: /assets/2024-01-01-AI-discovers-god/ai-happy-bunny-god.jpg
+image: /assets/posts/2024-01-01-AI-discovers-god/post_image.jpg
 ---
 AI (ChatGPT) was asked to make an image of a happy bunny, but every time the images was generated, it was asked to make it happier, to the point where the AI was complaining about how difficult it would be to continue, but it did, nevertheless. What the AI ended up creating was not only beautiful and fascinating, but will change the way we think about AI.
 

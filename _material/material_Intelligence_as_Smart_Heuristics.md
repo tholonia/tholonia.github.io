@@ -21,4 +21,10 @@ title: Intelligence as Smart Heuristics
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+Llama2 summary:
+
+The concept of "Take The Best" is a heuristic used in decision-making where individuals rely on the first piece of information that favors one option over the other, ignoring subsequent information. The heuristic is effective in some situations but can fail in others, particularly when the information available is not relevant to the decision at hand. Examples of domain-specific heuristics and their limitations are provided.
+
+
+
+{% include pdf-download-obj.html %}+ 

@@ -18,7 +18,7 @@ title: Ringmakers of Saturn by Norman R. Bergrun
 
 From photographs taken during the Voyager 1 flight to SATURN in 1980 the reader of this remarkable book sees that one of the photographs shows that the A-ring is incomplete. The author sets out to explain this phenomenon in an understandable form. 
 
-<!-- more -->
+<!--more-->
 
 The famous Cassini and Enke gaps also fit into the author's explanation. The micro photography employed by the Author answers many of the questions about Saturn asked since Galileo and the Author further shows a relation to the well defined crater on the earth's moon called 'Mare Orientale' and to the 1908 Tunguska catastrophe in the U.S.S.R.
 

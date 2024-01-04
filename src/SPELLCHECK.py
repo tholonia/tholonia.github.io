@@ -16,6 +16,8 @@ from bs4 import BeautifulSoup
 from colorama import init, Fore, Back
 init()
 
+os.chdir("/home/jw/sites/tholonia/chirpy2")
+
 def showhelp():
   print("help")
   rs = """

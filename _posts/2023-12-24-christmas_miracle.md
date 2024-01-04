@@ -5,7 +5,7 @@ author: duncan
 date: 2023-12-24
 categories: [BLOG]
 tags: [about]
-image: /assets/christmas_miracle.jpg
+image: /assets/posts/2023-12-24-christmas_miracle/post_image.jpg
 ---
 T'was the night before Christmas, and all through the house, not a creature was stirring, not even a mouse... except for the maniac banging away at the keyboard for the past 3 weeks until 4 AM every day :/  That would be me. 
 

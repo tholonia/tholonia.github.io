@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+	then
+		echo "Missing filename"
+		exit
+fi 
+
+F=${1}
+
+
+
+/home/jw/store/sites/tholonia/chirpy2/src/ollama/docsum.py -s ${F} -q "summarize this article in 75 words"
+
+/home/jw/store/sites/tholonia/chirpy2/src/ollama/docsum.py -s ${F} -q "list the top 10 keywords in this article in order of importance"
