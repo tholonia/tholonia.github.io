@@ -290,6 +290,7 @@ jekyll-archives:
 plugins:
   - jekyll-openmoji
   - jekyll-youtube
+  - jekyll-feed
   # - jekyll-inline-svg
 
 excerpt_separator: "<!--more-->"
