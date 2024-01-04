@@ -1,6 +1,6 @@
 #!/bin/env python
 
-import sys
+import sys,os
 import getopt
 from glob import glob
 import re
@@ -111,7 +111,7 @@ for opt, arg in opts:
 
 #^ ---------------------------------------------------------------------------
 #! load the words to ignore
-with open('skipwords.txt') as f:
+with open('src/skipwords.txt') as f:
     skipwords = f.read().splitlines()
 spell = SpellChecker()
 spell.word_frequency.load_words(skipwords)

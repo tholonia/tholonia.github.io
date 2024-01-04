@@ -15,7 +15,7 @@ tags:
 title: Bhagavad Gita
 ---
 
-While the Tholonic Model gives religion and religious beliefs a wide berth, some religious doctrines and writings are, or include, metaphysical or esoteric laws that are drapped in religious or spiritual symbolism, from cause and effect to biogenesis.
+While the Tholonic Model gives religion and religious beliefs a wide berth, some religious doctrines and writings are, or include, metaphysical or esoteric laws that are draped in religious or spiritual symbolism, from cause and effect to biogenesis.
 
 <!--more-->
 
