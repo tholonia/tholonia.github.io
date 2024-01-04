@@ -25,6 +25,6 @@ The parallels between the capabilities of AI and those attributed to the ancient
 
 Of course, it could also be the case that the AI knows to just keep abstracting the concepts when the person keeps asking the same question over and over until there are no more abstractions possible, which *"the only existing being, and the defining force of all existence"* would definitely qualify as. It's a nicer way of saying, "Stop asking me the same question."
 
-The final image is quite beautiful.  You can download a [wallpaper](/assets/2024-01-01-AI-discovers-god/happy-bunny-god-wallpaper.jpg) sized image (7680x4320) or the complete [square](/assets/2024-01-01-AI-discovers-god/happy-bunny-god-square.jpg) image (3862x3852).
+The final image is quite beautiful.  You can download a [wallpaper](/assets/posts/2024-01-01-AI-discovers-god/happy-bunny-god-wallpaper.jpg) sized image (7680x4320) or the complete [square](/assets/posts/2024-01-01-AI-discovers-god/happy-bunny-god-square.jpg) image (3862x3852).
 
 (p.s.  Did you notice the shroom in happiness-level 6?)
