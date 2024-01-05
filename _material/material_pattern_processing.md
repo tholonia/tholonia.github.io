@@ -4,9 +4,9 @@ categories:
 - NEUROSCIENCE
 - PARAPSYCHOLOGY
 date: 2020-11-03
-image: /material/assets/pattern_processing.png
+image: /material/assets/material_pattern_processing.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/pattern_processing.pdf
+pdf: https://tholonia.github.io/material/assets/material_pattern_processing.pdf
 ptags: [kwnogen-manual]
 jday: 16824
 tags:

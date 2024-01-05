@@ -3,9 +3,9 @@ author: duncan
 categories:
 - PHYSICS
 date: 2020-11-05
-image: /material/assets/quantum_decoherence.png
+image: /material/assets/material_quantum_decoherence.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/quantum_decoherence.pdf
+pdf: https://tholonia.github.io/material/assets/material_quantum_decoherence.pdf
 ptags: [nokwgen-manual]
 jday: 3984
 tags:

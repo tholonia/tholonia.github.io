@@ -4,9 +4,9 @@ categories:
 - METAPHYSICS
 - PHILOSOPHY
 date: 2020-11-07
-image: /material/assets/science_duality.png
+image: /material/assets/material_science_duality.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/science_duality.pdf
+pdf: https://tholonia.github.io/material/assets/material_science_duality.pdf
 ptags: [nokwgen-manual]
 jday: 14843
 tags:

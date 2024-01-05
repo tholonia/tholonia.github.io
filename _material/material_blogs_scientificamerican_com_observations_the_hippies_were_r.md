@@ -4,9 +4,9 @@ categories:
 - PHILOSOPHY
 - METAPHYSICS
 date: 2020-10-18
-image: /material/assets/blogs_scientificamerican_com_observations_the_hippies_were_r.png
+image: /material/assets/material_sciam_observations_the_hippies_were_r.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/blogs_scientificamerican_com_observations_the_hippies_were_r.pdf
+pdf: https://tholonia.github.io/material/assets/material_sciam_observations_the_hippies_were_r.pdf
 DEL: material
 jday: 16533
 tags:

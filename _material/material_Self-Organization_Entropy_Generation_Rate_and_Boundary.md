@@ -4,9 +4,9 @@ categories:
 - GEOMETRY
 - NATURE
 date: 2020-11-08
-image: /material/assets/Self-Organization_Entropy_Generation_Rate_and_Boundary.png
+image: /material/assets/material_Self-Organization_Entropy_Generation_Rate_and_Boundary.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Self-Organization_Entropy_Generation_Rate_and_Boundary.pdf
+pdf: https://tholonia.github.io/material/assets/material_Self-Organization_Entropy_Generation_Rate_and_Boundary.pdf
 ptags: [nokwgen-manual]
 jday: 25048
 tags:

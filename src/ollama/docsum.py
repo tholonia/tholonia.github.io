@@ -107,9 +107,7 @@ def loaddata(doc):
   if docparts['ext'] == "pdf":
     if verbose: print("pdf")
     loader = PyPDFLoader(doc)
-
-
-  return loader.load()
+    return loader.load()
 
 def splitdata(data):
   if verbose: print("Splitting Data")
@@ -158,6 +156,7 @@ for opt, arg in opts:
 
 #^ ---------------------------------------------------------------------------
 print(Fore.YELLOW+source+Fore.RESET)
+print(Fore.GREEN+question+Fore.RESET)
 
 vectorstore = embed_data(splitdata(loaddata(source)))
 answer = query_data(question,vectorstore)

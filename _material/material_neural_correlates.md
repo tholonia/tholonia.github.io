@@ -4,9 +4,9 @@ categories:
 - NEUROSCIENCE
 - PSYCHOLOGY
 date: 2020-10-30
-image: /material/assets/neural_correlates.png
+image: /material/assets/material_neural_correlates.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/neural_correlates.pdf
+pdf: https://tholonia.github.io/material/assets/material_neural_correlates.pdf
 ptags: [nokwgen-manual]
 jday: 26317
 tags:

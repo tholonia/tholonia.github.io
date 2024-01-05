@@ -5,9 +5,9 @@ categories:
 - POLITICS
 - ECONOMICS
 date: 2020-11-01
-image: /material/assets/New_Frontiers_in_Integrated_Solid_Earth_Sciences.png
+image: /material/assets/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/New_Frontiers_in_Integrated_Solid_Earth_Sciences.pdf
+pdf: https://tholonia.github.io/material/assets/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.pdf
 ptags: [nokwgen-manual]
 jday: 15336
 tags:

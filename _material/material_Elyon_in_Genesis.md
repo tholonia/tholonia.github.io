@@ -4,9 +4,9 @@ categories:
 - ESOTERIC
 - METAPHYSICS
 date: 2020-11-06
-image: /material/assets/Elyon_in_Genesis.png
+image: /material/assets/material_Elyon_in_Genesis.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Elyon_in_Genesis.pdf
+pdf: https://tholonia.github.io/material/assets/material_Elyon_in_Genesis.pdf
 ptags: [nokwgen-manual]
 jday: 21668
 tags:

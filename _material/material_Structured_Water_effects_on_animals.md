@@ -4,9 +4,9 @@ categories:
 - BIOSCIENCE
 - NATURE
 date: 2020-11-10
-image: /material/assets/Structured_Water_effects_on_animals.png
+image: /material/assets/material_Structured_Water_effects_on_animals.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Structured_Water_effects_on_animals.pdf
+pdf: https://tholonia.github.io/material/assets/material_Structured_Water_effects_on_animals.pdf
 ptags: [nokwgen-manual]
 jday: 4095
 tags:

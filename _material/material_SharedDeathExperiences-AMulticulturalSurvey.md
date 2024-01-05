@@ -4,9 +4,9 @@ categories:
 - NEUROSCIENCE
 - METAPHYSICS
 date: 2020-11-09
-image: /material/assets/SharedDeathExperiences-AMulticulturalSurvey.png
+image: /material/assets/material_SharedDeathExperiences-AMulticulturalSurvey.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/SharedDeathExperiences-AMulticulturalSurvey.pdf
+pdf: https://tholonia.github.io/material/assets/material_SharedDeathExperiences-AMulticulturalSurvey.pdf
 ptags: [nokwgen-manual]
 jday: 24191
 tags:

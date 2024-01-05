@@ -4,9 +4,9 @@ categories:
 - ECONOMICS
 - TECHNOLOGY
 date: 2020-11-15
-image: /material/assets/TrueValue_overview_v1.png
+image: /material/assets/material_TrueValue_overview_v1.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/TrueValue_overview_v1.pdf
+pdf: https://tholonia.github.io/material/assets/material_TrueValue_overview_v1.pdf
 ptags: [nokwgen-manual]
 jday: 23851
 tags:
