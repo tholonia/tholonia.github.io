@@ -39,22 +39,21 @@ def split_path(pstr):
 def showhelp():
   print("help")
   rs = """
-    -h, --help          show help
+    -h, --help        show help
     -v, --verbose
-  ` -D, --dryrun        show commands, don't run them
-    if opt in ("-c", "--cats"): cats = arg
-    if opt in ("-t", "--tags"): tags = arg
-    if opt in ("-i", "--img"): img = arg
-    if opt in ("-p", "--pdf"): pdf = arg
-    if opt in ("-T", "--title"): title = arg
-    isbook False
+  ` -D, --dryrun      show commands, don't run them
+    -c, --cats        cat1[,cat2]  no spaces
+    -t, --tags        tag1[,tag2]  no spaces
+    -i, --img         path to image
+    -T, --title       "Title Words"
 
-./new_material.py \
-    -c "GEOSCIENCE,NATURE,METAPHYSICS" \
-    -t "water" \
-    -i /home/jw/store/sites/tholonia/chirpy2/assets/2024-04-01-healing-with-water/Healing-With-Water.jpg \
-    -p /home/jw/store/sites/tholonia/chirpy2/assets/2024-04-01-healing-with-water/Healing-With-Water.pdf \
+Example
+./new_post.py \\
+    -c "GEOSCIENCE,NATURE,METAPHYSICS" \\
+    -t "water" \\
+    -i /home/jw/Healing-With-Water.jpg \\
     -T "Healing with Water"
+
 
 """
   print(rs)

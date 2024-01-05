@@ -4,9 +4,9 @@ categories:
 - METAPHYSICS
 - POLITICS
 date: 2020-10-23
-image: /material/assets/The_Unexpected_Side_of_the_CIA.png
+image: /material/assets/material_The_Unexpected_Side_of_the_CIA.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/The_Unexpected_Side_of_the_CIA.pdf
+pdf: https://tholonia.github.io/material/assets/material_The_Unexpected_Side_of_the_CIA.pdf
 jday: 9761
 tags:
 - oobe

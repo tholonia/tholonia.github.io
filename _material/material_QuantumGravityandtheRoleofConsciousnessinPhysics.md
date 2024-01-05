@@ -4,9 +4,9 @@ categories:
 - PHYSICS
 - METAPHYSICS
 date: 2020-11-06
-image: /material/assets/QuantumGravityandtheRoleofConsciousnessinPhysics.png
+image: /material/assets/material_QuantumGravityandtheRoleofConsciousnessinPhysics.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/QuantumGravityandtheRoleofConsciousnessinPhysics.pdf
+pdf: https://tholonia.github.io/material/assets/material_QuantumGravityandtheRoleofConsciousnessinPhysics.pdf
 ptags: [nokwgen-manual]
 jday: 29912
 tags:

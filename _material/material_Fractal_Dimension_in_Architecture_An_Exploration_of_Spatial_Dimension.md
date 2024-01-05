@@ -4,9 +4,9 @@ categories:
 - GEOMETRY
 - NATURE
 date: 2020-10-05
-image: /material/assets/Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.png
+image: /material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
+pdf: https://tholonia.github.io/material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
 ptags: [nokwgen-manual]
 jday: 7222
 tags:

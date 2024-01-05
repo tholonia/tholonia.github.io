@@ -5,9 +5,9 @@ categories:
 - METAPHYSICS
 - PSYCHOLOGY
 date: 2020-10-06
-image: /material/assets/CIA-page25.png
+image: /material/assets/material_CIA-page25.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/CIA-page25.pdf
+pdf: https://tholonia.github.io/material/assets/material_CIA-page25.pdf
 ptags: [nokwgen-manual]
 jday: 417
 tags:
