@@ -9,8 +9,8 @@ categories:
 ptags: [nokwgen-manual]
 jday: 17911
 tags: [quantum,decoherence]
-image: /material/assets/vdoc.pub_quantum-decoherence-poincare-seminar.png
-pdf: https://tholonia.github.io/material/assets/vdoc.pub_quantum-decoherence-poincare-seminar.pdf
+image: /material/assets/material_vdoc.pub_quantum-decoherence-poincare-seminar.png
+pdf: https://tholonia.github.io/material/assets/material_vdoc.pub_quantum-decoherence-poincare-seminar.pdf
 ---
 Papers on quantum decoherence from the 2005 Poincaré Seminar
 <!--more-->

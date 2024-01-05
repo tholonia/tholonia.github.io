@@ -4,9 +4,9 @@ categories:
 - COMMUNICATION
 - TECHNOLOGY
 date: 2020-11-16
-image: /material/assets/Univ_intel_and__def_of_machine_intel.png
+image: /material/assets/material_Univ_intel_and_def_of_machine_intel.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Univ_intel_and__def_of_machine_intel.pdf
+pdf: https://tholonia.github.io/material/assets/material_Univ_intel_and_def_of_machine_intel.pdf
 ptags: [nokwgen-manual]
 jday: 26117
 tags:

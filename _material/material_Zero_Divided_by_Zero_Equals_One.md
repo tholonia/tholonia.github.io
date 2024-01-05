@@ -3,9 +3,9 @@ author: duncan
 categories:
 - MATH
 date: 2020-11-18
-image: /material/assets/Zero_Divided_by_Zero_Equals_One.png
+image: /material/assets/material_Zero_Divided_by_Zero_Equals_One.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Zero_Divided_by_Zero_Equals_One.pdf
+pdf: https://tholonia.github.io/material/assets/material_Zero_Divided_by_Zero_Equals_One.pdf
 ptags: [nokwgen-manual]
 jday: 16926
 tags:

@@ -4,9 +4,9 @@ categories:
 - TECHNOLOGY
 - REFERENCE
 date: 2020-10-10
-image: /material/assets/BecomingHumanCheatSheets.png
+image: /material/assets/material_BecomingHumanCheatSheets.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/BecomingHumanCheatSheets.pdf
+pdf: https://tholonia.github.io/material/assets/material_BecomingHumanCheatSheets.pdf
 ptags: [nokwgen-manual]
 jday: 23987
 tags:

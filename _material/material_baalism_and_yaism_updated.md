@@ -3,9 +3,9 @@ author: duncan
 categories:
 - METAPHYSICS
 date: 2020-10-16
-image: /material/assets/baalism_and_yaism_updated.png
+image: /material/assets/material_baalism_and_yaism_updated.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/baalism_and_yaism_updated.pdf
+pdf: https://tholonia.github.io/material/assets/material_baalism_and_yaism_updated.pdf
 ptags: [nokwgen-manual]
 jday: 24672
 tags:

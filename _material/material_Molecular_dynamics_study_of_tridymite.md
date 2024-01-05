@@ -4,9 +4,9 @@ categories:
 - GEOMETRY
 - NATURE
 date: 2020-10-29
-image: /material/assets/Molecular_dynamics_study_of_tridymite.png
+image: /material/assets/material_Molecular_dynamics_study_of_tridymite.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Molecular_dynamics_study_of_tridymite.pdf
+pdf: https://tholonia.github.io/material/assets/material_Molecular_dynamics_study_of_tridymite.pdf
 ptags: [nokwgen-manual]
 jday: 24466
 tags:

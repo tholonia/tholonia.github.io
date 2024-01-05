@@ -4,9 +4,9 @@ categories:
 - GEOSCIENCE
 - NATURE
 date: 2020-10-09
-image: /material/assets/3d_nonlin_tim_anal_siesmic.png
+image: /material/assets/material_3d_nonlin_tim_anal_siesmic.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/3d_nonlin_tim_anal_siesmic.pdf
+pdf: https://tholonia.github.io/material/assets/material_3d_nonlin_tim_anal_siesmic.pdf
 ptags: [nokwgen-manual]
 jday: 23558
 tags:

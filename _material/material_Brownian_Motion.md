@@ -4,9 +4,9 @@ categories:
 - GEOMETRY
 - MATH
 date: 2020-10-03
-image: /material/assets/Brownian_Motion.png
+image: /material/assets/material_Brownian_Motion.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Brownian_Motion.pdf
+pdf: https://tholonia.github.io/material/assets/material_Brownian_Motion.pdf
 ptags: [nokwgen-manual]
 jday: 28053
 tags:

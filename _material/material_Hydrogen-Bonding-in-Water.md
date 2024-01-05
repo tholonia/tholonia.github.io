@@ -4,9 +4,9 @@ categories:
 - ENERGY
 - BIOSCIENCE
 date: 2020-10-06
-image: /material/assets/Hydrogen-Bonding-in-Water.png
+image: /material/assets/material_Hydrogen-Bonding-in-Water.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Hydrogen-Bonding-in-Water.pdf
+pdf: https://tholonia.github.io/material/assets/material_Hydrogen-Bonding-in-Water.pdf
 ptags: [nokwgen-manual]
 jday: 4416
 tags:

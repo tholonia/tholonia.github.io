@@ -4,9 +4,9 @@ categories:
 - GEOMETRY
 - PHYSICS
 date: 2020-10-08
-image: /material/assets/E8_Root_Vectors_from_8D_to_3D.png
+image: /material/assets/material_E8_Root_Vectors_from_8D_to_3D.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/E8_Root_Vectors_from_8D_to_3D.pdf
+pdf: https://tholonia.github.io/material/assets/material_E8_Root_Vectors_from_8D_to_3D.pdf
 ptags: [nokwgen-manual]
 jday: 8710
 tags:

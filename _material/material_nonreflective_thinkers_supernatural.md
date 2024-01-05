@@ -5,9 +5,9 @@ categories:
 - PARAPSYCHOLOGY
 - POLITICS
 date: 2020-11-02
-image: /material/assets/nonreflective_thinkers_supernatural.png
+image: /material/assets/material_nonreflective_thinkers_supernatural.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/nonreflective_thinkers_supernatural.pdf
+pdf: https://tholonia.github.io/material/assets/material_nonreflective_thinkers_supernatural.pdf
 ptags: [nokwgen-manual]
 jday: 23783
 tags:

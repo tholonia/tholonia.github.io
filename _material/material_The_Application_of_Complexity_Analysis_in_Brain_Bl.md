@@ -4,7 +4,7 @@ categories:
 - NEUROSCIENCE
 - BIOSCIENCE
 date: 2020-11-13
-image: /material/assets/The_Application_of_Complexity_Analysis_in_Brain_Bl.png
+image: /material/assets/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.png
 layout: post
 pdf: https://tholonia.github.io/material/assets/The_Application_of_Complexity_Analysis_in_Brain_Bl.pdf
 ptags: [nokwgen-manual]

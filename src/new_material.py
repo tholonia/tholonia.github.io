@@ -9,6 +9,7 @@ from markdown import markdown
 import datetime
 import time
 import shutil
+from PIL import Image
 
 #! for ASNI colors outout
 from colorama import init, Fore, Back
@@ -41,19 +42,20 @@ def showhelp():
   rs = """
     -h, --help          show help
     -v, --verbose
-  ` -D, --dryrun        show commands, don't run them
-    if opt in ("-c", "--cats"): cats = arg
-    if opt in ("-t", "--tags"): tags = arg
-    if opt in ("-i", "--img"): img = arg
-    if opt in ("-p", "--pdf"): pdf = arg
-    if opt in ("-T", "--title"): title = arg
-    isbook False
+  ` -D, --dryrun      show commands, don't run them
+    -c, --cats        cat1[,cat2]  no spaces
+    -t, --tags        tag1[,tag2]  no spaces
+    -i, --img         path to image
+    -p, --pdf         path to pdf
+    -T, --title       "Title Words"
+    -b,  -isbook      use for book default = material
 
-./new_material.py \
-    -c "GEOSCIENCE,NATURE,METAPHYSICS" \
-    -t "water" \
-    -i /home/jw/store/sites/tholonia/chirpy2/assets/2024-04-01-healing-with-water/Healing-With-Water.jpg \
-    -p /home/jw/store/sites/tholonia/chirpy2/assets/2024-04-01-healing-with-water/Healing-With-Water.pdf \
+Example
+./new_material.py \\
+    -c "GEOSCIENCE,NATURE,METAPHYSICS" \\
+    -t "water" \\
+    -i /home/jw/Healing-With-Water.jpg \\
+    -p /home/jw//Healing-With-Water.pdf \\
     -T "Healing with Water"
 
 """
@@ -117,6 +119,19 @@ def urlify(str):
   str = str.replace("/home/jw/store/sites/tholonia/chirpy2","")
   str = str.replace("/_material","/material")
   return(str)
+
+#! don't need this for webp.  Maybe fopr resize or png ?
+def mvc(img,newimg):
+  trximg = img
+  iparts = split_path(img)
+  if iparts['ext'] == "webp":
+    im = Image.open(img).convert("RGB")
+    trximg = f"{iparts['dirname']}/{iparts['basename']}.jpg"
+    print(f">>> converted [{img}] to [{trximg}]")
+    im.save(newimg,"jpeg")
+  shutil.move(trximg,newimg)
+  return(trximg)
+
 loc_md = "/home/jw/store/sites/tholonia/chirpy2/_material"
 loc_asset = "/home/jw/store/sites/tholonia/chirpy2/_material/assets"
 
@@ -161,7 +176,8 @@ if img != False:
   try:
     print(">>> "+Fore.YELLOW+f"mv {img} {newimg}"+Fore.RESET)
     if dryrun == False and  img != newimg:
-      shutil.move(img,newimg)
+      #! newimg = mvc(img,newimg)   dont need for webp. maybe png?
+      shutil.move(img, newimg)
   except:
     print ("skipping image")
     img += " MISSING"

@@ -4,9 +4,9 @@ categories:
 - ENERGY
 - PHYSICS
 date: 2020-11-17
-image: /material/assets/What_is_Schrodingers_Negentropy.png
+image: /material/assets/material_What_is_Schrodingers_Negentropy.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/What_is_Schrodingers_Negentropy.pdf
+pdf: https://tholonia.github.io/material/assets/material_What_is_Schrodingers_Negentropy.pdf
 ptags: [nokwgen-manual]
 jday: 30090
 tags:

@@ -4,9 +4,9 @@ categories:
 - BIOSCIENCE
 - HEALTH
 date: 2020-11-04
-image: /material/assets/popstruct.png
+image: /material/assets/material_popstruct.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/popstruct.pdf
+pdf: https://tholonia.github.io/material/assets/material_popstruct.pdf
 ptags: [nokwgen-manual]
 jday: 6600
 tags:

@@ -5,9 +5,9 @@ categories:
 - PSYCHOLOGY
 - HEALTH
 date: 2020-10-07
-image: /material/assets/EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.png
+image: /material/assets/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.pdf
+pdf: https://tholonia.github.io/material/assets/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.pdf
 ptags: [nokwgen-manual]
 jday: 13028
 tags:

@@ -4,9 +4,9 @@ categories:
 - ENERGY
 - COMMUNICATION
 date: 2020-10-28
-image: /material/assets/Modeling_Extended_Intelligence.png
+image: /material/assets/material_Modeling_Extended_Intelligence.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/Modeling_Extended_Intelligence.pdf
+pdf: https://tholonia.github.io/material/assets/material_Modeling_Extended_Intelligence.pdf
 ptags: [nokwgen-manual]
 jday: 27981
 tags:
