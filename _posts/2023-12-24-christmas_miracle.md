@@ -81,7 +81,7 @@ And "sausage" was correctly identified as a health issue first and foremost.
 
 ```
 
-Combining [CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATWORD.py) and [extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py) into one file ([CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py)) and adding a FrontMatter manager, I was able to read a PDF/TXT file, process it, and update the tags and categories in the relevant markdown file automatically. Yes, the code is a bit of a mess, but most of my code is. Whatever, it worked, which was an accomplishment considering I had never worked with `torch` and `tensors` before, and man, that stuff is dense!  
+Combining [CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/CATWORD.py) and [extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/extract_kw.py) into one file ([CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/CATFILE.py)) and adding a FrontMatter manager, I was able to read a PDF/TXT file, process it, and update the tags and categories in the relevant markdown file automatically. Yes, the code is a bit of a mess, but most of my code is. Whatever, it worked, which was an accomplishment considering I had never worked with `torch` and `tensors` before, and man, that stuff is dense!  
 
 Large files, like a 3000 page book, took up to 11 minutes on an Nvidia GeForce 4070Ti.  To speed things up, rather than use the built-in Apache Tika server that comes with keyBERT (or maybe with SpaCy. I can't remember), I ran a [standalone tika server](https://docs.netgen.io/projects/lds/en/latest/ubuntu/tika.html), which was about about 10% faster.  And you *have* to use the LARGE LLM **"en_core_web_lg"**, as the small model is missing data required for this to work.  When you add the line
 ```
@@ -95,7 +95,7 @@ And with that, and a ton of text editing, the site is (more or less) done!
 
 ### Notes:
 
-Helpful note: The ONLY routines that worked properly were [keyBERT](https://maartengr.github.io/KeyBERT/guides/quickstart.html) libraries. The SpaCy and  NLTP AI text processors (see functions `get_keywords_nltk(fn)` and  `get_keywords_spacy(fn)` in [CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATFILE.py)) either failed or produced horrible results, at least for me and my terrible programming. Your mileage will certainly vary.
+Helpful note: The ONLY routines that worked properly were [keyBERT](https://maartengr.github.io/KeyBERT/guides/quickstart.html) libraries. The SpaCy and  NLTP AI text processors (see functions `get_keywords_nltk(fn)` and  `get_keywords_spacy(fn)` in [CATFILE.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/CATFILE.py)) either failed or produced horrible results, at least for me and my terrible programming. Your mileage will certainly vary.
 
 If you have CUDA/CuPy, this is an insanely useful link to have!
 
