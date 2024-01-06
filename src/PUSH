@@ -1,0 +1,5 @@
+git status
+D=`date +"%y-%m-%d %H:%M"`
+git commit -a -m "${D} $1"
+git push 
+

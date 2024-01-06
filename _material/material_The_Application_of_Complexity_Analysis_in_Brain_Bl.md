@@ -6,7 +6,7 @@ categories:
 date: 2020-11-13
 image: /material/assets/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/The_Application_of_Complexity_Analysis_in_Brain_Bl.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.pdf
 ptags: [nokwgen-manual]
 jday: 25921
 tags:
