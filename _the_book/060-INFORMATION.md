@@ -6,7 +6,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/060-INFORMATION.jpg
 layout: page
-pdf: https://tholonia.github.io/the_book/assets/chapters/060-INFORMATION.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/chapters/060-INFORMATION.pdf
 DEL: the_book
 tags:
 - information

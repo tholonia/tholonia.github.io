@@ -5,7 +5,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_cosmic_cons_of_humanity.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_cosmic_cons_of_humanity.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_cosmic_cons_of_humanity.zip
 ptags: [nokwgen-manual]
 jday: 3874
 tags:

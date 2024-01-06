@@ -1,8 +1,8 @@
-These are the pages and utilities that make up the [THOLONIA Project](https://tholonia.github.io/).
+These are the pages and utilities that make up the [THOLONIA Project](https://github.com/tholonia/tholonia.github.io/raw/main/_).
 
 This site is in super-duper beta, which means the code is messy and may not work, the  pages are still being edited, cleaned, rewritten, etc., Lots of stuff is still in dev... so, many moving parts that have not settled down yet.
 
-If you want to know about THOLONIA, go to the [gitpage](https://tholonia.github.io/) or read the [book](https://tholonia.github.io/the_book).
+If you want to know about THOLONIA, go to the [gitpage](https://github.com/tholonia/tholonia.github.io/raw/main/_) or read the [book](https://github.com/tholonia/tholonia.github.io/raw/main/_the_book).
 
 The only reason to be here is for the few utilities that have been written, listed below.
 

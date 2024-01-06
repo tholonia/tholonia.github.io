@@ -6,7 +6,7 @@ categories:
 date: 2020-10-28
 image: /material/assets/material_Modeling_Extended_Intelligence.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_Modeling_Extended_Intelligence.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Modeling_Extended_Intelligence.pdf
 ptags: [nokwgen-manual]
 jday: 27981
 tags:

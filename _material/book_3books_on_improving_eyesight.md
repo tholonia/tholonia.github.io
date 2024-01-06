@@ -5,7 +5,7 @@ categories:
 date: 2021-10-01
 image: /material/assets/book_3books_on_improving_eyesight.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_3books_on_improving_eyesight.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_3books_on_improving_eyesight.zip
 ptags: [nokwgen-manual]
 jday: 8006
 tags:

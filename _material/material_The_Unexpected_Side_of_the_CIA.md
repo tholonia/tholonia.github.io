@@ -6,7 +6,7 @@ categories:
 date: 2020-10-23
 image: /material/assets/material_The_Unexpected_Side_of_the_CIA.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_The_Unexpected_Side_of_the_CIA.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_The_Unexpected_Side_of_the_CIA.pdf
 jday: 9761
 tags:
 - oobe

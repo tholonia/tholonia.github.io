@@ -6,7 +6,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_The_Projection_Of_The_Astral_Body_NOTFREE.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_The_Projection_Of_The_Astral_Body_NOTFREE.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_The_Projection_Of_The_Astral_Body_NOTFREE.zip
 purchase: 
   - https://www.thriftbooks.com/w/projection-of-the-astral-body_sylvan-muldoon_herewood-carrington/403671/?resultid=9ec21531-f9af-4eff-8b22-5b86c94784e3#edition=7149607&idiq=26301982
   - $24.95

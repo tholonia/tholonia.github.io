@@ -6,7 +6,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/580-I-Market_Data.jpg
 layout: page
-pdf: https://tholonia.github.io/the_book/assets/chapters/580-I-Market_Data.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/chapters/580-I-Market_Data.pdf
 DEL: the_book
 tags:
 - pattern

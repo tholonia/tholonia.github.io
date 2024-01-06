@@ -6,7 +6,7 @@ categories:
 date: 2020-10-30
 image: /material/assets/material_neural_correlates.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_neural_correlates.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_neural_correlates.pdf
 ptags: [nokwgen-manual]
 jday: 26317
 tags:

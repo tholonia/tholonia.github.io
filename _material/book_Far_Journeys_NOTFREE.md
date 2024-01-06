@@ -7,7 +7,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_Far_Journeys_NOTFREE.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_Far_Journeys_NOTFREE.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_Far_Journeys_NOTFREE.zip
 purchase:
   - https://www.thriftbooks.com/browse/?b.search=Far%20Journeys%20by%20Robert%20Monroe#b.s=mostPopular-desc&b.p=1&b.pp=30&b.oos&b.tile
   - From $11.89

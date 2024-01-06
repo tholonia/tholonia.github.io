@@ -5,7 +5,7 @@ categories:
 date: 2020-11-20
 image: /material/assets/chinese_rainmaking.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/chinese_rainmaking.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/chinese_rainmaking.pdf
 ptags: [nokwgen-manual]
 jday: 3456
 tags:

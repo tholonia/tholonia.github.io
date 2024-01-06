@@ -5,7 +5,7 @@ categories:
 date: 2024-01-04
 image: /material/assets/book_bhagavad-gita.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_bhagavad-gita.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_bhagavad-gita.zip
 ptags:
 - nokwgen-manual
 tags:

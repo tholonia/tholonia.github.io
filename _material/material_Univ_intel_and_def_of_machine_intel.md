@@ -6,7 +6,7 @@ categories:
 date: 2020-11-16
 image: /material/assets/material_Univ_intel_and_def_of_machine_intel.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_Univ_intel_and_def_of_machine_intel.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Univ_intel_and_def_of_machine_intel.pdf
 ptags: [nokwgen-manual]
 jday: 26117
 tags:

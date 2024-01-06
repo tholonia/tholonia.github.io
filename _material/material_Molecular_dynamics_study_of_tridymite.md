@@ -6,7 +6,7 @@ categories:
 date: 2020-10-29
 image: /material/assets/material_Molecular_dynamics_study_of_tridymite.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_Molecular_dynamics_study_of_tridymite.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Molecular_dynamics_study_of_tridymite.pdf
 ptags: [nokwgen-manual]
 jday: 24466
 tags:

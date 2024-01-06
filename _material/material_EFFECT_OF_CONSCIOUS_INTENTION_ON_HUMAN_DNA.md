@@ -7,7 +7,7 @@ categories:
 date: 2020-10-07
 image: /material/assets/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.pdf
 ptags: [nokwgen-manual]
 jday: 13028
 tags:
