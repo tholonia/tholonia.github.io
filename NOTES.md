@@ -1,3 +1,21 @@
+## Porting to new domain
+
+Needed to run the following
+
+```
+find -name "*.md" -exec perl -pi -e 's/https:\/\/tholonia.github.io\//https:\/\/github.com\/tholonia\/tholonia.github.io\/raw\/main\/_/gmi' {} \;
+```
+to replace all existing repo-named links to raw/main links because `tholonia.github.io` automatically reverst to `tholonia.com`
+```
+https://tholonia.github.io/
+```
+to 
+```
+https://github.com/tholonia/tholonia.github.io/raw/main/_
+```
+
+
+
 Useful and used Docker commands:
 
 These are related to getting as Jekyll server running in a container for the purposes of locally testing a Jekyll/Git-Pages website

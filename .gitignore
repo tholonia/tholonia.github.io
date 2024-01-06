@@ -48,3 +48,5 @@ DEADJOE
 ssl/
 *psd
 docs/
+__pycache__
+.directory
