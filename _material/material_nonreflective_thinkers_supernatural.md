@@ -7,7 +7,7 @@ categories:
 date: 2020-11-02
 image: /material/assets/material_nonreflective_thinkers_supernatural.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_nonreflective_thinkers_supernatural.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_nonreflective_thinkers_supernatural.pdf
 ptags: [nokwgen-manual]
 jday: 23783
 tags:

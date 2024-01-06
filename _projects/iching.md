@@ -7,7 +7,7 @@ order: 1
 categories: [PROJECTS, PHILOSOPHY]
 tags: [I-Ching, history, belief]
 image: /projects/iching/pr_iching.jpg
-pdf: https://tholonia.github.io/material/assets/book_ICHING_THE_BOOK.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_ICHING_THE_BOOK.zip
 status: WIP
 weight: 1100
 ---

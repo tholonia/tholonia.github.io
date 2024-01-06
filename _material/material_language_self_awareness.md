@@ -5,7 +5,7 @@ categories:
 date: 2020-10-25
 image: /material/assets/language_self_awareness.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/language_self_awareness.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/language_self_awareness.pdf
 ptags: [nokwgen-manual]
 jday: 24714
 tags:

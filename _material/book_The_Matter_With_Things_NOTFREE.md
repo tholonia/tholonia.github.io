@@ -7,7 +7,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_The_Matter_With_Things_NOTFREE.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_The_Matter_With_Things_NOTFREE.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_The_Matter_With_Things_NOTFREE.zip
 purchase: 
   - https://www.amazon.com/Matter-Things-Brains-Delusions-Unmaking/dp/1914568060	
   - $39.95 - $157.30

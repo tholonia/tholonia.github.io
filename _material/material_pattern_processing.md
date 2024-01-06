@@ -6,7 +6,7 @@ categories:
 date: 2020-11-03
 image: /material/assets/material_pattern_processing.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_pattern_processing.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_pattern_processing.pdf
 ptags: [kwnogen-manual]
 jday: 16824
 tags:

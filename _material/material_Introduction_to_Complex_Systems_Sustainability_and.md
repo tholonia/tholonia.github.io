@@ -7,7 +7,7 @@ categories:
 date: 2020-10-22
 image: /material/assets/material_Introduction_to_Complex_Systems_Sustainability_and.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_Introduction_to_Complex_Systems_Sustainability_and.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Introduction_to_Complex_Systems_Sustainability_and.pdf
 ptags: [nokwgen-manual]
 jday: 7487
 tags:

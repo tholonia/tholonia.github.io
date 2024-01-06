@@ -7,7 +7,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_ringmakers.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_ringmakers.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_ringmakers.zip
 DEL: material
 jday: 10196
 tags:

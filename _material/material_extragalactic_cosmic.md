@@ -6,7 +6,7 @@ categories:
 date: 2020-10-14
 image: /material/assets/extragalactic_cosmic.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/extragalactic_cosmic.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/extragalactic_cosmic.pdf
 ptags: [nokwgen-manual]
 jday: 30769
 tags:

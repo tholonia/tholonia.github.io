@@ -5,7 +5,7 @@ categories:
 date: 2020-11-19
 image: /material/assets/brain_structure_consciousness.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/brain_structure_consciousness.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/brain_structure_consciousness.pdf
 ptags: [nokwgen-manual]
 jday: 24231
 tags:

@@ -10,7 +10,7 @@ ptags: [nokwgen-manual]
 jday: 1623
 tags: [oobe]
 image: /material/assets/book_Adventures_Beyond_the_Body_NOTFREE.jpg
-pdf: https://tholonia.github.io/material/assets/book_Adventures_Beyond_the_Body_NOTFREE.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_Adventures_Beyond_the_Body_NOTFREE.zip
 ---
 The author recounts his fascinating experiences with astral travel, connects this phenomenon with current cosmological theories, and suggests that we all have the capability to travel to parallel universes.
 

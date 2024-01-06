@@ -6,7 +6,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_The_Fourth_Phase_of_Water.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_The_Fourth_Phase_of_Water.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_The_Fourth_Phase_of_Water.zip
 ptags: [nokwgen-manual]
 jday: 23895
 tags:

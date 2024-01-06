@@ -6,7 +6,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_intention_NOTFREE.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_intention_NOTFREE.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_intention_NOTFREE.zip
 purchase: 
   - https://www.amazon.com/The-Intention-Experiment-audiobook/dp/B0017TZJJA
   - $13.99 - $21.00

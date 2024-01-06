@@ -6,7 +6,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/610-L-Thologram_and_Religion.jpg
 layout: page
-pdf: https://tholonia.github.io/the_book/assets/chapters/610-L-Thologram_and_Religion.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/chapters/610-L-Thologram_and_Religion.pdf
 DEL: the_book
 tags:
 - theology

@@ -5,7 +5,7 @@ categories:
 date: 2020-11-14
 image: /material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.pdf
 ptags: [nokwgen-manual]
 jday: 23945
 tags:

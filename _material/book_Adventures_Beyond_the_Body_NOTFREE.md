@@ -6,7 +6,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_Adventures_Beyond_the_Body_NOTFREE.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_Adventures_Beyond_the_Body_NOTFREE.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_Adventures_Beyond_the_Body_NOTFREE.zip
 purchase:
   - https://www.thriftbooks.com/w/adventures-beyond-the-body-how-to-experience-out-of-body-travel_william-buhlman/254475/?resultid=50d765e5-718c-4b78-8026-6b1c2837c8c8#edition=2338672&idiq=6123214
   - From $6.29

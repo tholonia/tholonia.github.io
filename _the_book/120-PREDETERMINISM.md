@@ -7,7 +7,7 @@ categories:
 date: 2022-12-17
 image: /the_book/assets/chapters/120-PREDETERMINISM-dark-trans.png
 layout: page
-pdf: https://tholonia.github.io/the_book/assets/chapters/120-PREDETERMINISM.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_the_book/assets/chapters/120-PREDETERMINISM.pdf
 DEL: the_book
 tags:
 - lightning
