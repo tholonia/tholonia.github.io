@@ -6,7 +6,7 @@ categories:
 date: 2020-11-12
 image: /material/assets/material_THE_ANIMATE.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_THE_ANIMATE.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_THE_ANIMATE.pdf
 ptags: [nokwgen-manual]
 jday: 21492
 tags:

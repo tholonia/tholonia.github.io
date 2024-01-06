@@ -6,7 +6,7 @@ categories:
 date: 2020-10-09
 image: /material/assets/material_3d_nonlin_tim_anal_siesmic.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_3d_nonlin_tim_anal_siesmic.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_3d_nonlin_tim_anal_siesmic.pdf
 ptags: [nokwgen-manual]
 jday: 23558
 tags:

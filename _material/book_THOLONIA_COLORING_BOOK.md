@@ -5,7 +5,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_THOLONIA_COLORING_BOOK.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_THOLONIA_COLORING_BOOK.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_THOLONIA_COLORING_BOOK.zip
 ptags: [nokwgen-manual]
 jday: 12496
 tags:

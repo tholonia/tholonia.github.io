@@ -6,7 +6,7 @@ categories:
 date: 2020-10-06
 image: /material/assets/material_Hydrogen-Bonding-in-Water.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_Hydrogen-Bonding-in-Water.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Hydrogen-Bonding-in-Water.pdf
 ptags: [nokwgen-manual]
 jday: 4416
 tags:

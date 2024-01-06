@@ -5,7 +5,7 @@ categories:
 date: 2020-11-05
 image: /material/assets/material_quantum_decoherence.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_quantum_decoherence.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_quantum_decoherence.pdf
 ptags: [nokwgen-manual]
 jday: 3984
 tags:

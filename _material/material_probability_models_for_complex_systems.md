@@ -5,7 +5,7 @@ categories:
 date: 2020-10-05
 image: /material/assets/material_probability_models_for_complex_systems.png
 layout: page
-pdf: https://tholonia.github.io/material/assets/material_probability_models_for_complex_systems.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_probability_models_for_complex_systems.pdf
 ptags: [nokwgen-manual]
 jday: 25625
 tags:

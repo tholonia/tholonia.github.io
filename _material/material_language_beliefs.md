@@ -5,7 +5,7 @@ categories:
 date: 2020-10-24
 image: /material/assets/language_beliefs.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/language_beliefs.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/language_beliefs.pdf
 ptags: [nokwgen-manual]
 jday: 20589
 tags:

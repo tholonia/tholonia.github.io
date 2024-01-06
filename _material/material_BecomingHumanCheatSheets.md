@@ -6,7 +6,7 @@ categories:
 date: 2020-10-10
 image: /material/assets/material_BecomingHumanCheatSheets.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_BecomingHumanCheatSheets.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_BecomingHumanCheatSheets.pdf
 ptags: [nokwgen-manual]
 jday: 23987
 tags:

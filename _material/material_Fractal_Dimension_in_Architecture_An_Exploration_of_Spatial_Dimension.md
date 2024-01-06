@@ -6,7 +6,7 @@ categories:
 date: 2020-10-05
 image: /material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
 ptags: [nokwgen-manual]
 jday: 7222
 tags:

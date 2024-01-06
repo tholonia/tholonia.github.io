@@ -6,7 +6,7 @@ categories:
 date: 2020-11-06
 image: /material/assets/material_QuantumGravityandtheRoleofConsciousnessinPhysics.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_QuantumGravityandtheRoleofConsciousnessinPhysics.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_QuantumGravityandtheRoleofConsciousnessinPhysics.pdf
 ptags: [nokwgen-manual]
 jday: 29912
 tags:

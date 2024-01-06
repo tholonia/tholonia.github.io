@@ -6,7 +6,7 @@ categories:
 date: 2020-10-18
 image: /material/assets/material_sciam_observations_the_hippies_were_r.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_sciam_observations_the_hippies_were_r.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_sciam_observations_the_hippies_were_r.pdf
 DEL: material
 jday: 16533
 tags:

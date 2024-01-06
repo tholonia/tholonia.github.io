@@ -6,7 +6,7 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_psy_occult_jung_NOTFREE.jpg
 layout: post
-pdf: https://tholonia.github.io/material/assets/book_psy_occult_jung_NOTFREE.zip
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_psy_occult_jung_NOTFREE.zip
 purchase:
   - https://www.thriftbooks.com/w/psychology-and-the-occult_cg-jung/340841/all-editions/?resultid=55f01d5d-834e-4a47-b276-fee69b3e286a
   - From $9.69

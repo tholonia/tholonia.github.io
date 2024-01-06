@@ -6,7 +6,7 @@ categories:
 date: 2020-11-10
 image: /material/assets/material_Structured_Water_effects_on_animals.png
 layout: post
-pdf: https://tholonia.github.io/material/assets/material_Structured_Water_effects_on_animals.pdf
+pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Structured_Water_effects_on_animals.pdf
 ptags: [nokwgen-manual]
 jday: 4095
 tags:
