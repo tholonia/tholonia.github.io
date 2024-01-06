@@ -1,0 +1,304 @@
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Univ_intel_and__def_of_machine_intel.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of intelligence and its various definitions. It highlights that being able to deal with difficult problems is a matter of experience, rather than just intelligence. Intelligence is defined as the ability to use limited resources optimally to achieve goals in a range of environments.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/brain_structure_consciousness.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the relationship between brain structural complexity and consciousness. It suggests that the brain's structure undergoes changes during the sleep-wake cycle, with an increase in neuronal connections during wakefulness and a decrease after sleep, resulting in opposite changes in structural diversity. The study highlights the importance of sleep in maintaining brain homeostasis and optimizing functionality.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/New_Frontiers_in_Integrated_Solid_Earth_Sciences.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the dynamics of sedimentary basins and their relationship with tectonic processes. It presents various examples of how different basins have responded to changes in tectonic forces over time, including the formation of microdiamonds in the Earth's crust. The article highlights the importance of understanding these dynamics to better predict future geological events and their impact on the environment.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/BecomingHumanCheatSheets.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses various Python libraries and techniques for machine learning, including KMeans clustering, Neural Networks, Grid SearchCV for parameter optimization, and Randomized Parameter Optimization. It also provides examples of how to use these libraries and techniques in practice.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Intelligence_as_Smart_Heuristics.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of "Take The Best," a heuristic used in decision-making where individuals rely on the first piece of information that favors one option over the other, ignoring subsequent information. The heuristic is effective in some situations but can fail in others, particularly when the information available is not relevant to the decision at hand. Examples of domain-specific heuristics and their limitations are provided.
+
+
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/neural_correlates.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the dissociation between consciousness and attention in the brain, with a focus on the temporal adjustment of information recurrence and changes in short-term synaptic plasticity. The authors suggest that bottom-up attention can direct consciousness, while consciousness can direct top-down attention. However, there is an asymmetry between the two types of attention in terms of their relationship with consciousness.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/popstruct.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the genetic basis of human population diversity, with a focus on the similarities and differences between individuals within populations. It highlights the importance of accounting for sample scheme differences when estimating genetic variation and the potential for errors in self-reported genetic cancer risk. The study also identifies MyoR and capsulin as unique transcriptional regulators for the development of specific head muscles, revealing a previously unanticipated complexity in the development of head skeletal muscles.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/baalism_and_yaism_updated.pdf
+────────────────────────────────────────────────────────────────────
+The article compares and contrasts Baalism and Yahwism, two ancient religious systems. Baalism is reduced to the spiritual stature of the worshipper, focusing on personal experience and emotional connection. In contrast, Yahwism centers on the proclamation of the word of the covenant God, appealing to reason and intellectual response.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/symmetry-11-00391.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the foundations of regular polygons (RPs) and their extensive study by mathematicians over the past two centuries. It mentions the classic Regular Polytopes book by H.S.M. Coxeter, which listed the names of 110 mathematicians involved in the field.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/THE_ANIMATE.pdf
+────────────────────────────────────────────────────────────────────
+In this article, the author explores the idea that if all particles of matter reversed their velocities while retaining their positions, it would lead to a reverse universe. The author explains that this scenario is possible due to the reversibility of physical laws, which states that if the laws of physics were true in one direction, they could also be true in the opposite direction. The article concludes that this idea challenges our understanding of space and time and highlights the complexity of the universe.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/pattern_processing.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the role of neuroplasticity in learning and memory, particularly in the hippocampus and frontal cortex. It highlights the importance of BDNF and other neurotransmitters in mediating these processes, and how stress and anxiety can impact neural plasticity. The article also touches upon the use of animal models to study CNS disorders and the potential for epigenetic regulation of memory by acetylation and methylation of chromatin. In summary, the article provides an overview of the complex interplay between neuroplasticity, neural circuits, and cognitive function.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/language_beliefs.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of nature and its various dimensions, including the need for protection and conservation, the importance of being frugal and economical with natural resources, the potential for fear or respect towards nature, and the relationship between nature and the divine. The project coordinator and other contributors provide insights from history of ideas and anthropology to better understand nature.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/vdoc.pub_quantum-decoherence-poincare-seminar.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of decoherence in quantum mechanics and its implications for the transition from quantum to classical behavior. The authors review various interpretations of decoherence and their implications for our understanding of quantum mechanics. They also present experimental results that demonstrate the importance of decoherence in quantum systems.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/What_is_Schrodingers_Negentropy.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of organized open systems and the extremum state for these systems. It references various studies and books, including "Bioelectrodynamics and Biocommunication" by Ho and Popp, and "Reassessing the Metaphysical Foundations of Science" edited by Harman and Clark. The article provides a brief overview of the topics discussed in these works, including the use of mathematics to model and understand complex biological systems.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Zero_Divided_by_Zero_Equals_One.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of independence in probability theory and its significance in mathematics and science. The author highlights the importance of understanding the premises that make it possible to regard real events as independent, citing Kolmogorov's theoretical approaches to the concept of probability.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/chinese_rainmaking.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the various methods ancient societies used to induce rainfall, including rainmaking rituals, offerings to deities, and manipulation of natural elements. The author suggests that these practices were motivated by a concern for the emperor's rule or the attraction of real dragons, rather than a scientific understanding of weather patterns.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/MARS_EXPLORATION_MAY_22_1984.pdf
+────────────────────────────────────────────────────────────────────
+In a document labeled "MON: What's your position of observation as you look at this thing that reflects light?", the speaker is asking for clarification on their location and sighting of structures. The person being questioned, SUB, mentions that they are amidst an oblique left angle and that the sun is strange. The speaker then instructs SUB to move closer to a specific location with coordinates 34.57 north and 212.22 east.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Elyon_in_Genesis.pdf
+────────────────────────────────────────────────────────────────────
+In "El 'Elyon in Genesis 14:18-20," G. Levi Della Vida examines the Hebrew term "El 'Elyon" in the context of Genesis 14, exploring its meaning and significance in the ancient Near Eastern religious landscape. Della Vida concludes that "El 'Elyon" refers to a supreme deity or high god, possibly associated with the Babylonian god Marduk.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/quantum_decoherence.pdf
+────────────────────────────────────────────────────────────────────
+The article "Quantum Decoherence" by H. Dieter Zeh discusses the concept of decoherence in quantum mechanics, defined as the loss of quantum coherence due to interactions with the environment. The author provides a historical context and explains the essential consequences of decoherence, which may influence the interpretation of quantum theory. The article also reviews various aspects of the formalism related to decoherence.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/QuantumGravityandtheRoleofConsciousnessinPhysics.pdf
+────────────────────────────────────────────────────────────────────
+In this article, the author discusses various astronomical objects and their properties, including distances, masses, and luminosities. The objects include quasars, galaxies, and other celestial bodies, and are described using different methods such as spectroscopy and photometry. The author also references previous studies and theories related to these objects.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/3d_nonlin_tim_anal_siesmic.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the use of numerical framework for analyzing the response of structures to earthquakes. It presents a table of maximum total displacement, relative displacements, and base shear force for various values of peak ground acceleration (PGA) and damping ratio (μ). The study also includes a bibliography on computational contact mechanics, earthquake engineering, and soil mechanics.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/baalism_and_yaism.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the relationship between Yahweh and Baal in ancient Canaanite culture, with a focus on the Gideon narrative in Judges 6-8. The author notes that while there is evidence of syncretism between the two deities, the alignment of worship was not exclusive and the relationship between Canaanite culture and Baal worship is not fully understood. The article concludes that the Gideon narrative consists of two compositions woven together, with Gideon portrayed as a deliverer from a foreign oppressor in one account and a different understanding of his role in the second account.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Brownian_Motion.pdf
+────────────────────────────────────────────────────────────────────
+This article discusses the probability of a Brownian motion staying within a bounded domain for a given time interval. The author derives bounds on the probability of escape and the average time spent within the domain, and shows that these quantities converge to certain limits as the time interval and radius of the domain increase.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/language_self_awareness.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the role of language in human communication, particularly in regards to self-awareness and societal structure. It highlights how language allows for mutual understanding between communicative parties and is rooted in the intentionality of the speaker. The author argues that non-human systems of communication lack this self-aware nature and are therefore different from language.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.pdf
+────────────────────────────────────────────────────────────────────
+The article explains how the laws of motion and electrical resistance can be related. Using simple examples, it demonstrates that the force (F) on an object moving through a wire is equal to the mass (m) of the object multiplied by the acceleration (a) due to the resistance in the wire. The article also shows that the same physics applies to any number of balls or resistance points, proving the relation between Newton's law and Ohm's law.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.pdf
+────────────────────────────────────────────────────────────────────
+In February 2013, researchers in Mainz, Germany confirmed the presence of water molecules in 1938 through femtosecond X-ray spectroscopy. This study observed conversions between hydrogen-bonded structures in liquid water. The findings have implications for understanding the potential of water efficiency in agriculture to meet future populations' needs, as well as the impact of depleted groundwater aquifers.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/TrueValue_overview_v1.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the use of RDFS classes and predicates to model relationships between classes and instances in a knowledge graph. It describes how to apply algorithms to the graph, including subtraction and addition for certain values. The article also mentions potential next steps, such as seeking feedback from experts and adapting the model if necessary. In 72 words, the summary could be: "The article explains how to use RDFS classes and predicates to create a knowledge graph, apply algorithms, and seek expert feedback for possible trial applications."
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/SharedDeathExperiences-AMulticulturalSurvey.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the phenomenon of after-death communication (ADC), where loved ones experience sensory experiences with the deceased after they have passed away. The study examines the frequency, duration, and type of experiences reported by caregivers and loved ones, as well as the emotional impact of these experiences.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/E8_Root_Vectors_from_8D_to_3D.pdf
+────────────────────────────────────────────────────────────────────
+In this article, Fang and Klee Irwin explore the relationship between Quantum Computation (QC) and Phason Ribbons. They identify a subset of fermionic roots in E8/D8 space and show how it may be related to Fibonacci chains. The article also discusses the importance of periodicity in QC and how it can be affected by adding vertices of Gravity and Standard Model.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/CIA-page25.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of states of matter and how they relate to human consciousness. It suggests that states of matter are actually variations in the state of energy, and that human consciousness is a function of the interaction of energy in two opposing states (motion vs rest). The article also mentions the Monroe tape system, which uses brainwaves to encourage focusing of brain energy into a narrower frequency band, leading to a state of one-pointedness.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Modeling_Extended_Intelligence.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of an "Extended Living Intelligence Field" (ELIF) which is a theoretical model of reality that incorporates the idea of a non-local, interconnected field of consciousness. The author speculates on the potential existence of this field and its role in supporting the transfer of information between individuals and the universe as a whole. The article also touches upon the idea of using drugs to access and model this field. In 72 words, the summary could be: "The author proposes an 'Extended Living Intelligence Field' as a theoretical model of reality that connects all living beings and enables information transfer. Drugs may help access this field, but its true nature remains speculative."
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Self-Organization_Entropy_Generation_Rate_and_Boundary.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the directional solidification of a material, where the tip and root of the dendritic array are at specific temperatures. The spacings between dendrites decrease with increasing solidification velocity. Finite element simulations are used to study entropy generation in the process.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/harald-kautz-vella-the-7-keyspdf_compress.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the connection between the human soul and the natural world. It describes how the soul affects the mind and body, and how the individual's relationship with the earth can impact their consciousness and well-being. The author emphasizes the importance of recognizing and honoring the interconnectedness of all things, including the human soul and the natural world.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Introduction_to_Complex_Systems_Sustainability_and.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the properties of complex networks, including their sensitivity to attacks and the small-world phenomenon. The authors find that short-range links are more critical in connecting highly connected nodes, while long-range links connect nodes with few links. Removing a node with a significant load can affect other nodes, potentially triggering a sequence of events.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/The_Unexpected_Side_of_the_CIA.pdf
+────────────────────────────────────────────────────────────────────
+Based on the provided context, I cannot summarize the article in 72 words as there is not enough information to provide a concise summary. The article appears to be discussing the intersection of remote viewing and out-of-body experiences, with references to a study on hypnotic induction and the potential for developing equipment beyond normal dot printers available at the time. However, without more context or specific information from the article, I cannot provide a summary in 72 words or less.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the origins of the God of the Israelites, Yahweh, and the relationship between Yahweh and the deity El. There are two positions on the origin of Yahweh: either Yahweh was a separate deity who merged with El or Yahweh emerged as an epithet for El. The article highlights the debate among scholars and provides examples from biblical narratives to support both theories.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the use of fractals and chaos theory in architecture, exploring their potential to create more sustainable and adaptive buildings. Fractals are used to generate complex patterns for building design, while chaos theory provides a framework for understanding how these patterns can be used to create flexible and responsive structures.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/MaruyamaEarthLifeBook2001.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the detection of mantle plumes in the Earth's lowermantle using diffraction tomography. The study focused on the southern Pacific and found temperature differences between upwelling and downwelling layers, which were calculated using the reaction slope in the phase diagram of mantle boundary layers. The results suggested that the distribution of ultra-low velocity zones and hotspots was related to the Earth's early atmosphere.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/grounding.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the inflammatory response to exercise and its impact on muscle repair. The authors propose that reducing inflammation can improve muscle recovery after exercise. They suggest that electrons from the Earth may help prevent or resolve "silent" or "smoldering" inflammation, which is not well understood. The article summarizes previous research on inflammatory responses to exercise and highlights the need for further investigation into the mechanisms of inflammation and wound healing.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Structured_Water_effects_on_animals.pdf
+────────────────────────────────────────────────────────────────────
+In this article, the authors investigated the effects of structured water (SW) on DNA damage in diabetic rats and hydration markers in racehorses. The study found that SW significantly reduced DNA damage in diabetic rats compared to control rats drinking regular water. In horses, SW improved hydration levels and heart rate variability. The authors conclude that structured water may have potential health benefits, but further research is needed to fully understand its effects.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/constructivists-view-of-newtonian-mechanics.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the reconstruction of Newtonian mechanics using logical principles and a constructive approach inspired by genetic epistemology. The authors aim to show that the need to abandon the Newtonian frame of reference is not mandatory, and instead consider light as an object and reject absolute space, time, and invariant relative distance.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/science_duality.pdf
+────────────────────────────────────────────────────────────────────
+In the article, James Clerk Maxwell explains how analogies are used in science to make conjectures about electromagnetism, which were previously difficult to understand. William McAuliffe explores the confusion between abduction and inference to the best explanation, while highlighting the historical context of philosophy's role in science.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the potential for consciousness to influence the healing process in living systems, specifically focusing on the role of intention in directing the body's energy. The authors present results from studies on the effects of intentional focusing and cohering of energy on DNA samples, suggesting that different intentions can be used to bring about healing in various systems, including diabetes.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/nonreflective_thinkers_supernatural.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses how participants in an experiment were shown a fake personality profile based on their "astral theme," but the profile was actually always the same. The study found that cognitive style, not belief in astrology, influenced belief in the profile.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Effects_of_Changes_in_Water_Intake_on_Mood.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the impact of dehydration on cognitive performance and mood in men and children. Dehydration has been shown to impair cognitive function and affect mood in both populations. In addition, the article highlights the importance of adequate fluid intake for proper hydration and cognitive function.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/The_Application_of_Complexity_Analysis_in_Brain_Bl.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the limitations of traditional brain blood oxygen level-dependent (BOLD) complexity analysis and proposes a new strategy to reduce bias in entropy estimates. The strategy uses a sliding window approach to average BOLD signals in adjacent locations, resulting in higher spatial resolution and reduced bias. The article also summarizes recent findings on brain function characteristics of chronic fatigue syndrome, ADHD, autism spectrum disorder (ASD), and stroke patients using task-based and resting-state functional magnetic resonance imaging (fMRI).
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Hydrogen-Bonding-in-Water.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the dynamic nature of hydrogen bonding in water, including the strengthening and weakening of bonds due to changes in temperature and pressure. Hydrogen bonds are formed between neighboring water molecules and can be affected by electromagnetic and magnetic effects. The length and direction of hydrogen bonds can change, leading to cooperativity and the formation of "wires" that allow for information transfer.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/extragalactic_cosmic.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the effects of temperature and solar UVB on biodiversity, using time series analysis of green algae as an example. The tropics have higher biodiversity, and recovery from mass extinctions is often driven by repopulation from the tropics. Galactic sources, such as supernova explosions and pulsars, are thought to produce low-energy cosmic rays with energies below the "knee" of the CR spectrum.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/blogs_scientificamerican_com_observations_the_hippies_were_r.pdf
+────────────────────────────────────────────────────────────────────
+In this article, Tam Hunt proposes a resonance theory of consciousness that unifies neuroscience and the study of human consciousness with more fundamental questions of neurobiology and biophysics. He argues that consciousness is about vibrations, but the type of vibrations and shared vibrations are what matter. The article explores the mind-body problem and how it has resisted a satisfying conclusion for thousands of years.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/probability_models_for_complex_systems.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the assumptions and models used in estimating probabilities in natural image processing. The author assumes a grammar without null or unit productions to simplify the treatment. The performance of stochastic annealing processes for optimization problems depends on how well they incorporate randomness with the problem elements. Examples in medicine show that natural phenomena often have randomness, and the intensity of light depends on both the object's physical condition and lighting conditions.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_material/assets/Molecular_dynamics_study_of_tridymite.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the structural chemistry of various materials, including their thermal and cooling behaviors. The authors present simulation and experimental data on the crystal structures of these materials, highlighting the importance of understanding these structures for material science research.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/latest/THOLONIA_THE_BOOK.pdf
+────────────────────────────────────────────────────────────────────
+In this article, Sabine Hossenfelder, a theoretical physicist, discusses the concept of "realness" in physics. She argues that what is real is what is necessary for a theory to correctly describe observations. The article also touches on the topics of time travel, inflation, and the Janibekov effect, which is a phenomenon where the shape of an object affects its inertia.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/530-D-Greek_Gods.pdf
+────────────────────────────────────────────────────────────────────
+In Greek mythology, the gods and goddesses had various powers and abilities. Demeter was the goddess of farming and refused to come out unless Persephone was returned. Poseidon punished King Minos by making his wife fall in love with a bull, resulting in the birth of the Minotaur. Artemis was a skilled archer and guarded her virginity. The gods lived in the psyches of the flock, with each god/goddess having their own domain and powers.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/100-FIELDS.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the potential of the human brain to access and use information from other realms, including the afterlife and parallel universes. It cites several studies and sources, including Near-Death Experience research and paranormal phenomena, to suggest that the brain may be capable of storing and retrieving this information during certain states of consciousness. However, the article also acknowledges the limitations of current scientific understanding and the need for further research to fully understand these phenomena.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/090-MIND.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the complex relationship between viruses and their hosts, highlighting instances where viruses can be beneficial or even lifesaving. The examples include the immunity gained by gray squirrels against the squirrel pox virus, which protects them from predators, and the use of magnetic hydrogel in medical applications.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/520-C-Tholonic_Math.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the tholonic view of numbers, which posits that there are 5 fingers and 2 hands in the natural world due to a fundamental pattern. The author also explores the binary nature of the thologram and its implications for the "reality is a simulation" hypothesis. The article concludes by summarizing how numbers can be divided into three equal groups in the thologram: divisible by 3, exclusive of 2, and prime numbers.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/030-ORDER.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of order and chaos in various contexts, including mathematics, science, and animal behavior. The authors argue that order precedes chaos and that animals have the ability to count and discriminate between different numbers. The article also explores the idea of a never-ending series of chaos and order, suggesting that this cycle is an inherent part of the universe.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/580-I-Market_Data.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the relationship between four values in electricity: voltage (V), current (I), resistance (R), and power (P). Despite expecting all three resistance values to be the same, they differ slightly. However, when combined, they form a single band that follows the R line. The article highlights the importance of using the correct formula for each value to accurately describe the relationship between them.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/000-Intro.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses an open-source book that explores the mechanics of existential awareness through a collection of hypotheses, proofs, and questions. The author seeks to integrate the ideas and concepts of the book with the help of the community, in order to evolve and emerge a clearer picture of reality.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/540-E-Hidden_Images.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses a technique for seeing subtle differences between seemingly identical images by cross-eyeing and merging them. This technique is based on the idea of "looking in-between" the illusions of physical reality, as explained by the Y aqui shaman Don Juan in Carlos Castaneda's book. The article is distributed under the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International license, with the right to publish it on paper reserved for the author and authorized agents.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/510-A-About_This_Book.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the challenges of formatting in ebooks, particularly when it comes to block quotes and lists. The author advises readers who are concerned about the appearance of their ebook to download the latest version in color PDF from a specific website. The article also provides some general guidelines for writing style in ebooks, including using 2 spaces after a period and placing punctuation outside of quotes.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/590-J-Structured_Water.pdf
+────────────────────────────────────────────────────────────────────
+In this article, the author discusses the use of magnets to structure water for various applications. They provide case studies from Australia's largest produce farms and industrial solutions provider Pursanova, showing phenomenal results with 25% less water used for a superior product. The author also shares their personal experience with spinning water in a magnetic field to create SW, similar to the animal studies mentioned. However, they note that there is no standardized accepted technique to manually structure water.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/075-The_Thologram.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the mysteries of matter and the universe's ordinary matter. It highlights a surprise graphene discovery that could unlock secrets of super-conductivity, while also mentioning other advancements in the field such as graphene allowing for rapid transformation of light into electrical signals. Additionally, the article touches on the topic of matter's rotation and flipping, suggesting that it is due to the lowest energy state required by mass. The article concludes by stating that 4 is a significant number in this context, as it relates to the binary tree and the tholon structure.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/050-REASON.pdf
+────────────────────────────────────────────────────────────────────
+Sure! Here is a summary of the article in 72 words:
+
+The article discusses how DMT, a psychedelic substance, can reach the brain and alter consciousness. It explains that DMT must pass through the blood-brain barrier, which is protected by a chemical called monoamine oxidase (MAO). MAO inhibitors are used in pharmaceuticals to treat depression and Parkinson's disease, and they can help DMT reach the brain without interfering with its effects.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/610-L-Thologram_and_Religion.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the evolution of the concept of "I think" and "I am" in Western culture, specifically in the context of Descartes' famous statement "Cogito, ergo sum." The author explains how this idea has been influenced by ancient Near Eastern religions such as Baalism and Yahwism, and how it has shaped modern Western thought.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/110-APPLICATION_OF_AWARENESS.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the unique properties of water, including its tetrahedral structure and the way it is stored in the brain. Scientists have discovered that water's distinct molecular structure is key to its uniqueness and plays a crucial role in various biological processes.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/010-CHAOS.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of zero and its acceptance by various animals, including bees, monkeys, crows, and others. It highlights how the understanding and adoption of zero have gone through different stages, just like the well-known 5 stages of grief. The article also touches upon the idea that humans have been using numerical symbols for centuries, but it is interesting to see how other animals can comprehend and utilize this concept as well.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/080-INSTANCES.pdf
+────────────────────────────────────────────────────────────────────
+In this article, Jim McGovern discusses the connection between space-time, shape, and symmetry in relation to thermodynamics. He highlights how the concept of colors was introduced to explain the interaction between fundamental forces in a similar manner to how primary colors interact. The article also mentions the basis for quantum chromodynamics (QCD), which uses colors to explain how the three fundamental forces interact, and how this idea was met with skepticism when first introduced.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/070-STRUCTURE.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of holarchy, a hierarchical structure with multiple levels of creation, each with its own unique properties. The author argues that it is the properties of movement and energy that are consistent across all levels of creation, despite the presence of different types of elements within the hierarchy.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/600-K-Sidis.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of "mechanical effect," which refers to the influence of animal or vegetable life on matter. Lord Kelvin describes this influence as infinitely beyond the range of scientific inquiry, while a child prodigy in recorded history, William, has a unique perspective on living a perfect life through solitude and menial jobs. The article also touches upon the idea that laws of physics are not absolute and can be violated under certain circumstances, such as reverse entropy concentration.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/020-ENERGY.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the idea that the universe was created from a primal energy, with the details of how this happened being unanswered by modern science. It explores the philosophical ideas of Plato and Kant, as well as the concept of multidimensional reality in quantum physics, suggesting that reality is primarily made up of ideas or concepts before taking physical form.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/040-THE_LAWS.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the concept of "downward constraints" in complex systems, which can result in power laws and other patterns observed in nature. The author cites various sources, including Stanley Salthe and Richard Mankiewicz, to support this idea. The article also provides examples of harmonographs, which demonstrate how simple rules can give rise to complex patterns.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/120-PREDETERMINISM.pdf
+────────────────────────────────────────────────────────────────────
+In this article, the author explores the concept of creation and destruction in the cycle of existence. They suggest that the intention of creation favors constructive collaborations over destructive resistance, and that energy can be found in the cycle of existence. The article also references various scientific works on the topic of entropy and self-organized criticality.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/060-INFORMATION.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses the idea that knowledge is impermanent and can be lost over time due to various factors such as destruction, obsolescence, or simply because it has not been recorded or preserved. The author suggests that humanity's tendency to forget or lose knowledge is statistically inevitable, and that at some point in the future, humans may be reduced to foraging barbarians again, as has happened in the past. The article also explores the concept of "knowledge" and how it evolves through stages of data, information, and understanding.
+────────────────────────────────────────────────────────────────────
+/home/jw/store/sites/tholonia/chirpy2/_the_book/assets/chapters/550-F-An_Unexpected_Pattern.pdf
+────────────────────────────────────────────────────────────────────
+The article discusses a method for generating random numbers based on the positions of celestial bodies. The author uses the cross-summing technique to reduce millions of sampled data points to a single number, which is then used to demonstrate the linear progression of values. The resulting sequence of numbers appears random, but when cross-summed, all spatial or temporal information is lost, leaving only the pattern of the relationship between the numbers.
+────────────────────────────────────────────────────────────────────

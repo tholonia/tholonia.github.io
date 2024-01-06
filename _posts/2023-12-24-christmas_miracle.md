@@ -19,7 +19,7 @@ OK, I used to write assembly code and COBOL back in the day, so, I'll survive th
 
 But there was some stuff that specifically needed Ruby code.  Tweaking Ruby was not an issue, but the whole gem architecture, Gemfile, .gemrc, bundler and it's 20+ arguments, ruby enviroinment, etc., etc., was annoying, but unlike Jekyll/Liquid, there's a lot of understandable docs out there.
 
-Finally, I needed to write several Python scripts to make everything fit and help manage the content. Well, at least I know Python so that part was not so painful. These were script like [syncdate.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdate.py), [syncdatefile.py](https://github.com/tholonia/tholonia.github.io/blob/main/syncdatefile.py), which synchronized the date of the post and the date in the YAML date field in the FrontMatter, and [fm_key_mod.py](https://github.com/tholonia/tholonia.github.io/blob/main/fm_key_mod.py) to delete and modify FromMatter arrays like 'tags:' and 'categories:' as I kept changing them daily.'
+Finally, I needed to write several Python scripts to make everything fit and help manage the content. Well, at least I know Python so that part was not so painful. These were script like [syncdate.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/syncdate.py), [syncdatefile.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/syncdatefile.py), which synchronized the date of the post and the date in the YAML date field in the FrontMatter, and [fm_key_mod.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/fm_key_mod.py) to delete and modify FromMatter arrays like 'tags:' and 'categories:' as I kept changing them daily.'
 
 After many days of naming, renaming, editing, and re-editing my original content to fit into Jekyll architecture, I published to Git Pages (after setting up [gh](https://github.com/cli/cli) with a [token](https://cli.github.com/manual/gh_auth_login), CI/CD, LFS, and GitPages) ... and was presented with pages and pages of errors that made no sense to me, at least not until I figured out what they were... then they made a lot of sense.
 
@@ -27,7 +27,7 @@ I kept notes of what I was learning and needing to refer back to, which are view
 
 OK, All my content is up! Now, I had to categorize and tag each piece of content in a way that made sense. After two or three attempts, it was clear I had no idea how to do that... so I decided to let AI do it for me.
 
-I wrote a program ([extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/extract_kw.py)) that extracts keywords from a file, which looked something like:
+I wrote a program ([extract_kw.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/extract_kw.py)) that extracts keywords from a file, which looked something like:
 
 ```
 $ ./extract_kw.py -f Alternative_Irrigation_Methods.pdf 
@@ -41,7 +41,7 @@ drought 0.4611
 [irrigation,watering,hydrogeology,groundwater,drought]
 ```
 
-With another script ([CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/CATWORD.py)) I compared each of those keywords to an array of concepts, which itself was built by AI analyzing concepts of words. To do that, I created [arrays of concepts](https://github.com/tholonia/tholonia.github.io/blob/main/taxonomy2.toml) to create the categories. For example, for each category concept, such as ASTRONOMY, COMMUNICATION, ECONOMY, etc., I grouped 500 words associated with that concept, which I got from the very cool site [relatedwords.io](https://relatedwords.io/).
+With another script ([CATWORD.py](https://github.com/tholonia/tholonia.github.io/blob/main/src/CATWORD.py)) I compared each of those keywords to an array of concepts, which itself was built by AI analyzing concepts of words. To do that, I created [arrays of concepts](https://github.com/tholonia/tholonia.github.io/blob/main/src/taxonomy2.toml) to create the categories. For example, for each category concept, such as ASTRONOMY, COMMUNICATION, ECONOMY, etc., I grouped 500 words associated with that concept, which I got from the very cool site [relatedwords.io](https://relatedwords.io/).
 
 ```
 ASTRONOMY = [ "astrophysics", "astrology", "physic", ...]

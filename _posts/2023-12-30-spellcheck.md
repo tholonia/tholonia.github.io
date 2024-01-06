@@ -33,9 +33,10 @@ Examples:
 - Recursive check all \*.md (default) files from the current working directory.  Include YAML FromtMatter.
 
 `./SPELLCHECK.py -f somedoc.md`
+
 - Check the content only of the file `somedoc.md`.
 
-Here's the code (latest version always [HERE](https://github.com/tholonia/tholonia.github.io/blob/main/SPELLCHECK.py)).  My [skipwords.txt](https://github.com/tholonia/tholonia.github.io/blob/main/skipwords.txt) has ~1000 words.  Many of the words are from the Front-matter, which holds YouTube or product ID's, image names, or part of a technical description... that sort of thing, so lots of 'words' like "DzVQqKkT6X0", "e8e4901", "0005s", "2p20", etc.
+Here's the code (latest version always [HERE](https://github.com/tholonia/tholonia.github.io/blob/main/SPELLCHECK.py)).  My [skipwords.txt](https://github.com/tholonia/tholonia.github.io/blob/main/src/skipwords.txt) has ~1000 words.  Many of the words are from the Front-matter, which holds YouTube or product ID's, image names, or part of a technical description... that sort of thing, so lots of 'words' like "DzVQqKkT6X0", "e8e4901", "0005s", "2p20", etc.
 
 ```python
 #!/bin/env python
