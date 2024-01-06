@@ -1,0 +1,1612 @@
+2024-01-06T05:45:58.6185750Z Requested labels: ubuntu-latest
+2024-01-06T05:45:58.6186184Z Job defined at: tholonia/tholonia.github.io/.github/workflows/pages-deploy.yml@refs/heads/main
+2024-01-06T05:45:58.6186372Z Waiting for a runner to pick up this job...
+2024-01-06T05:45:59.0188352Z Job is waiting for a hosted runner to come online.
+2024-01-06T05:46:02.2598091Z Job is about to start running on the hosted runner: GitHub Actions 1 (hosted)
+2024-01-06T05:46:04.2479674Z Current runner version: '2.311.0'
+2024-01-06T05:46:04.2502574Z ##[group]Operating System
+2024-01-06T05:46:04.2503174Z Ubuntu
+2024-01-06T05:46:04.2503622Z 22.04.3
+2024-01-06T05:46:04.2503965Z LTS
+2024-01-06T05:46:04.2504262Z ##[endgroup]
+2024-01-06T05:46:04.2504712Z ##[group]Runner Image
+2024-01-06T05:46:04.2505155Z Image: ubuntu-22.04
+2024-01-06T05:46:04.2505516Z Version: 20231217.2.0
+2024-01-06T05:46:04.2506591Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20231217.2/images/ubuntu/Ubuntu2204-Readme.md
+2024-01-06T05:46:04.2508028Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20231217.2
+2024-01-06T05:46:04.2508846Z ##[endgroup]
+2024-01-06T05:46:04.2509304Z ##[group]Runner Image Provisioner
+2024-01-06T05:46:04.2509802Z 2.0.321.1
+2024-01-06T05:46:04.2510097Z ##[endgroup]
+2024-01-06T05:46:04.2511115Z ##[group]GITHUB_TOKEN Permissions
+2024-01-06T05:46:04.2512644Z Contents: read
+2024-01-06T05:46:04.2513072Z Metadata: read
+2024-01-06T05:46:04.2513720Z Pages: write
+2024-01-06T05:46:04.2514332Z ##[endgroup]
+2024-01-06T05:46:04.2517532Z Secret source: Actions
+2024-01-06T05:46:04.2518111Z Prepare workflow directory
+2024-01-06T05:46:04.3146028Z Prepare all required actions
+2024-01-06T05:46:04.3310242Z Getting action download info
+2024-01-06T05:46:04.5776858Z Download action repository 'actions/checkout@v4' (SHA:b4ffde65f46336ab88eb53be808477a3936bae11)
+2024-01-06T05:46:04.6989878Z Download action repository 'actions/configure-pages@v3' (SHA:b8130d9ab958b325bbde9786d62f2c97a9885a0e)
+2024-01-06T05:46:04.9446332Z Download action repository 'ruby/setup-ruby@v1' (SHA:360dc864d5da99d54fcb8e9148c14a84b90d3e88)
+2024-01-06T05:46:05.1588273Z Download action repository 'actions/upload-pages-artifact@v1' (SHA:84bb4cd4b733d5c320c9c9cfbc354937524f4d64)
+2024-01-06T05:46:05.4013615Z Getting action download info
+2024-01-06T05:46:05.4914156Z Download action repository 'actions/upload-artifact@v3' (SHA:a8a3f3ad30e3422c9c7b888a15615d19a852ae32)
+2024-01-06T05:46:05.5435435Z Complete job name: build
+2024-01-06T05:46:05.6372637Z ##[group]Run actions/checkout@v4
+2024-01-06T05:46:05.6373143Z with:
+2024-01-06T05:46:05.6373604Z   fetch-depth: 0
+2024-01-06T05:46:05.6373966Z   repository: tholonia/tholonia.github.io
+2024-01-06T05:46:05.6374573Z   token: ***
+2024-01-06T05:46:05.6375017Z   ssh-strict: true
+2024-01-06T05:46:05.6375375Z   persist-credentials: true
+2024-01-06T05:46:05.6375766Z   clean: true
+2024-01-06T05:46:05.6376217Z   sparse-checkout-cone-mode: true
+2024-01-06T05:46:05.6376590Z   fetch-tags: false
+2024-01-06T05:46:05.6376933Z   show-progress: true
+2024-01-06T05:46:05.6377349Z   lfs: false
+2024-01-06T05:46:05.6377631Z   submodules: false
+2024-01-06T05:46:05.6377987Z   set-safe-directory: true
+2024-01-06T05:46:05.6378414Z ##[endgroup]
+2024-01-06T05:46:05.8068020Z Syncing repository: tholonia/tholonia.github.io
+2024-01-06T05:46:05.8071210Z ##[group]Getting Git version info
+2024-01-06T05:46:05.8072650Z Working directory is '/home/runner/work/tholonia.github.io/tholonia.github.io'
+2024-01-06T05:46:05.8074677Z [command]/usr/bin/git version
+2024-01-06T05:46:05.8075387Z git version 2.43.0
+2024-01-06T05:46:05.8078069Z ##[endgroup]
+2024-01-06T05:46:05.8095943Z Temporarily overriding HOME='/home/runner/work/_temp/f5dbc8f5-6941-4e45-b1c0-63537a40bdef' before making global git config changes
+2024-01-06T05:46:05.8097719Z Adding repository directory to the temporary git global config as a safe directory
+2024-01-06T05:46:05.8098959Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tholonia.github.io/tholonia.github.io
+2024-01-06T05:46:05.8135004Z Deleting the contents of '/home/runner/work/tholonia.github.io/tholonia.github.io'
+2024-01-06T05:46:05.8141779Z ##[group]Initializing the repository
+2024-01-06T05:46:05.8145818Z [command]/usr/bin/git init /home/runner/work/tholonia.github.io/tholonia.github.io
+2024-01-06T05:46:05.8205415Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-01-06T05:46:05.8207323Z hint: is subject to change. To configure the initial branch name to use in all
+2024-01-06T05:46:05.8209130Z hint: of your new repositories, which will suppress this warning, call:
+2024-01-06T05:46:05.8210236Z hint: 
+2024-01-06T05:46:05.8211758Z hint: 	git config --global init.defaultBranch <name>
+2024-01-06T05:46:05.8212597Z hint: 
+2024-01-06T05:46:05.8213779Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-01-06T05:46:05.8215494Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-01-06T05:46:05.8216423Z hint: 
+2024-01-06T05:46:05.8217071Z hint: 	git branch -m <name>
+2024-01-06T05:46:05.8218099Z Initialized empty Git repository in /home/runner/work/tholonia.github.io/tholonia.github.io/.git/
+2024-01-06T05:46:05.8230776Z [command]/usr/bin/git remote add origin https://github.com/tholonia/tholonia.github.io
+2024-01-06T05:46:05.8266914Z ##[endgroup]
+2024-01-06T05:46:05.8267743Z ##[group]Disabling automatic garbage collection
+2024-01-06T05:46:05.8270851Z [command]/usr/bin/git config --local gc.auto 0
+2024-01-06T05:46:05.8303509Z ##[endgroup]
+2024-01-06T05:46:05.8304274Z ##[group]Setting up auth
+2024-01-06T05:46:05.8310278Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-01-06T05:46:05.8342037Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-01-06T05:46:05.8638113Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-01-06T05:46:05.8666637Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-01-06T05:46:05.8913402Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-01-06T05:46:05.8948581Z ##[endgroup]
+2024-01-06T05:46:05.8949898Z ##[group]Fetching the repository
+2024-01-06T05:46:05.8958458Z [command]/usr/bin/git -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2024-01-06T05:46:20.9655781Z From https://github.com/tholonia/tholonia.github.io
+2024-01-06T05:46:20.9657076Z  * [new branch]      main       -> origin/main
+2024-01-06T05:46:20.9689259Z [command]/usr/bin/git branch --list --remote origin/main
+2024-01-06T05:46:20.9713391Z   origin/main
+2024-01-06T05:46:20.9722815Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+2024-01-06T05:46:20.9744419Z 0e4fff2190bcb153572687effcd267447b14f787
+2024-01-06T05:46:20.9748089Z ##[endgroup]
+2024-01-06T05:46:20.9748710Z ##[group]Determining the checkout info
+2024-01-06T05:46:20.9749739Z ##[endgroup]
+2024-01-06T05:46:20.9750253Z ##[group]Checking out the ref
+2024-01-06T05:46:20.9753044Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2024-01-06T05:46:22.1130792Z Updating files:  23% (258/1085)
+2024-01-06T05:46:22.1857260Z Updating files:  24% (261/1085)
+2024-01-06T05:46:22.2280933Z Updating files:  25% (272/1085)
+2024-01-06T05:46:22.3384533Z Updating files:  26% (283/1085)
+2024-01-06T05:46:22.4334753Z Updating files:  27% (293/1085)
+2024-01-06T05:46:22.4569714Z Updating files:  28% (304/1085)
+2024-01-06T05:46:22.4783348Z Updating files:  29% (315/1085)
+2024-01-06T05:46:22.5110845Z Updating files:  30% (326/1085)
+2024-01-06T05:46:22.5267107Z Updating files:  31% (337/1085)
+2024-01-06T05:46:22.6102349Z Updating files:  32% (348/1085)
+2024-01-06T05:46:22.6105482Z Updating files:  33% (359/1085)
+2024-01-06T05:46:22.6111149Z Updating files:  34% (369/1085)
+2024-01-06T05:46:22.6116617Z Updating files:  35% (380/1085)
+2024-01-06T05:46:22.6122303Z Updating files:  36% (391/1085)
+2024-01-06T05:46:22.6127916Z Updating files:  37% (402/1085)
+2024-01-06T05:46:22.6133164Z Updating files:  38% (413/1085)
+2024-01-06T05:46:22.6158585Z Updating files:  39% (424/1085)
+2024-01-06T05:46:22.6460477Z Updating files:  40% (434/1085)
+2024-01-06T05:46:22.6503105Z Updating files:  41% (445/1085)
+2024-01-06T05:46:22.6520744Z Updating files:  42% (456/1085)
+2024-01-06T05:46:22.6572211Z Updating files:  43% (467/1085)
+2024-01-06T05:46:22.6896850Z Updating files:  44% (478/1085)
+2024-01-06T05:46:22.7273699Z Updating files:  45% (489/1085)
+2024-01-06T05:46:22.7339821Z Updating files:  46% (500/1085)
+2024-01-06T05:46:22.7346670Z Updating files:  47% (510/1085)
+2024-01-06T05:46:22.7666833Z Updating files:  48% (521/1085)
+2024-01-06T05:46:22.8483820Z Updating files:  49% (532/1085)
+2024-01-06T05:46:22.8525964Z Updating files:  50% (543/1085)
+2024-01-06T05:46:22.8531283Z Updating files:  51% (554/1085)
+2024-01-06T05:46:22.8536229Z Updating files:  52% (565/1085)
+2024-01-06T05:46:22.8540856Z Updating files:  53% (576/1085)
+2024-01-06T05:46:22.8564178Z Updating files:  54% (586/1085)
+2024-01-06T05:46:22.8732829Z Updating files:  55% (597/1085)
+2024-01-06T05:46:22.9805342Z Updating files:  56% (608/1085)
+2024-01-06T05:46:23.1234050Z Updating files:  56% (609/1085)
+2024-01-06T05:46:23.4456083Z Updating files:  57% (619/1085)
+2024-01-06T05:46:23.6622750Z Updating files:  58% (630/1085)
+2024-01-06T05:46:23.7439008Z Updating files:  59% (641/1085)
+2024-01-06T05:46:23.8363257Z Updating files:  60% (651/1085)
+2024-01-06T05:46:23.9982756Z Updating files:  61% (662/1085)
+2024-01-06T05:46:24.0659496Z Updating files:  61% (669/1085)
+2024-01-06T05:46:24.0790679Z Updating files:  62% (673/1085)
+2024-01-06T05:46:24.0942509Z Updating files:  63% (684/1085)
+2024-01-06T05:46:24.3295131Z Updating files:  64% (695/1085)
+2024-01-06T05:46:24.3314888Z Updating files:  65% (706/1085)
+2024-01-06T05:46:24.3334918Z Updating files:  66% (717/1085)
+2024-01-06T05:46:24.3356227Z Updating files:  67% (727/1085)
+2024-01-06T05:46:24.3380289Z Updating files:  68% (738/1085)
+2024-01-06T05:46:24.3403770Z Updating files:  69% (749/1085)
+2024-01-06T05:46:24.3429197Z Updating files:  70% (760/1085)
+2024-01-06T05:46:24.3466995Z Updating files:  71% (771/1085)
+2024-01-06T05:46:24.4605454Z Updating files:  72% (782/1085)
+2024-01-06T05:46:24.6530573Z Updating files:  73% (793/1085)
+2024-01-06T05:46:24.7693347Z Updating files:  74% (803/1085)
+2024-01-06T05:46:24.7694937Z Updating files:  75% (814/1085)
+2024-01-06T05:46:24.7700720Z Updating files:  76% (825/1085)
+2024-01-06T05:46:24.7705089Z Updating files:  77% (836/1085)
+2024-01-06T05:46:24.7769296Z Updating files:  78% (847/1085)
+2024-01-06T05:46:24.7809559Z Updating files:  79% (858/1085)
+2024-01-06T05:46:24.7876560Z Updating files:  80% (868/1085)
+2024-01-06T05:46:24.7923634Z Updating files:  81% (879/1085)
+2024-01-06T05:46:24.7971931Z Updating files:  82% (890/1085)
+2024-01-06T05:46:24.8037804Z Updating files:  83% (901/1085)
+2024-01-06T05:46:24.8113646Z Updating files:  84% (912/1085)
+2024-01-06T05:46:24.8176530Z Updating files:  85% (923/1085)
+2024-01-06T05:46:24.8183080Z Updating files:  86% (934/1085)
+2024-01-06T05:46:24.8203739Z Updating files:  87% (944/1085)
+2024-01-06T05:46:24.8301229Z Updating files:  88% (955/1085)
+2024-01-06T05:46:24.8329033Z Updating files:  89% (966/1085)
+2024-01-06T05:46:24.8338881Z Updating files:  90% (977/1085)
+2024-01-06T05:46:24.8461756Z Updating files:  91% (988/1085)
+2024-01-06T05:46:24.8648922Z Updating files:  92% (999/1085)
+2024-01-06T05:46:24.8790780Z Updating files:  93% (1010/1085)
+2024-01-06T05:46:24.8958635Z Updating files:  94% (1020/1085)
+2024-01-06T05:46:24.8965769Z Updating files:  95% (1031/1085)
+2024-01-06T05:46:24.8970221Z Updating files:  96% (1042/1085)
+2024-01-06T05:46:24.8984836Z Updating files:  97% (1053/1085)
+2024-01-06T05:46:24.9006723Z Updating files:  98% (1064/1085)
+2024-01-06T05:46:24.9013656Z Updating files:  99% (1075/1085)
+2024-01-06T05:46:24.9014940Z Updating files: 100% (1085/1085)
+2024-01-06T05:46:24.9020135Z Updating files: 100% (1085/1085), done.
+2024-01-06T05:46:24.9040095Z Switched to a new branch 'main'
+2024-01-06T05:46:24.9040921Z branch 'main' set up to track 'origin/main'.
+2024-01-06T05:46:24.9563908Z ##[endgroup]
+2024-01-06T05:46:24.9601898Z [command]/usr/bin/git log -1 --format='%H'
+2024-01-06T05:46:24.9625368Z '0e4fff2190bcb153572687effcd267447b14f787'
+2024-01-06T05:46:24.9910538Z ##[group]Run actions/configure-pages@v3
+2024-01-06T05:46:24.9911060Z with:
+2024-01-06T05:46:24.9911497Z   token: ***
+2024-01-06T05:46:24.9911825Z   enablement: false
+2024-01-06T05:46:24.9912242Z ##[endgroup]
+2024-01-06T05:46:25.2483376Z ##[group]Run ruby/setup-ruby@v1
+2024-01-06T05:46:25.2483829Z with:
+2024-01-06T05:46:25.2484098Z   ruby-version: 3.2
+2024-01-06T05:46:25.2484525Z   bundler-cache: true
+2024-01-06T05:46:25.2484900Z env:
+2024-01-06T05:46:25.2485162Z   GITHUB_PAGES: true
+2024-01-06T05:46:25.2485556Z ##[endgroup]
+2024-01-06T05:46:25.3824931Z ##[group]Modifying PATH
+2024-01-06T05:46:25.3829445Z Entries added to PATH to use selected Ruby:
+2024-01-06T05:46:25.3830942Z   /opt/hostedtoolcache/Ruby/3.2.2/x64/bin
+2024-01-06T05:46:25.3831692Z ##[endgroup]
+2024-01-06T05:46:25.3852602Z ##[group]Downloading Ruby
+2024-01-06T05:46:25.3856042Z https://github.com/ruby/ruby-builder/releases/download/toolcache/ruby-3.2.2-ubuntu-22.04.tar.gz
+2024-01-06T05:46:25.6826060Z Took   0.30 seconds
+2024-01-06T05:46:25.6827371Z ##[endgroup]
+2024-01-06T05:46:25.6828328Z ##[group]Extracting  Ruby
+2024-01-06T05:46:25.6865651Z [command]/usr/bin/tar -xz -C /opt/hostedtoolcache/Ruby/3.2.2 -f /home/runner/work/_temp/bcfdeb17-d672-49ac-b1e6-c8bdcf7fae36
+2024-01-06T05:46:26.0673010Z Took   0.38 seconds
+2024-01-06T05:46:26.0674504Z ##[endgroup]
+2024-01-06T05:46:26.0675704Z ##[group]Print Ruby version
+2024-01-06T05:46:26.0688170Z [command]/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/ruby --version
+2024-01-06T05:46:26.0906408Z ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]
+2024-01-06T05:46:26.0926485Z Took   0.03 seconds
+2024-01-06T05:46:26.0927208Z ##[endgroup]
+2024-01-06T05:46:26.0928433Z ##[group]Installing Bundler
+2024-01-06T05:46:26.0932643Z Using Bundler 2 shipped with ruby-3.2.2
+2024-01-06T05:46:26.0933153Z Took   0.00 seconds
+2024-01-06T05:46:26.0933943Z ##[endgroup]
+2024-01-06T05:46:26.0934317Z > bundle install
+2024-01-06T05:46:26.0952534Z [command]/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/bundle config --local path /home/runner/work/tholonia.github.io/tholonia.github.io/vendor/bundle
+2024-01-06T05:46:26.2404076Z [command]/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/bundle lock
+2024-01-06T05:46:28.2235474Z Fetching gem metadata from https://rubygems.org/...........
+2024-01-06T05:46:28.2390621Z Resolving dependencies...
+2024-01-06T05:46:28.5033602Z Writing lockfile to /home/runner/work/tholonia.github.io/tholonia.github.io/Gemfile.lock
+2024-01-06T05:46:28.5303254Z Cache key: setup-ruby-bundler-cache-v6-ubuntu-22.04-x64-ruby-3.2.2-wd-/home/runner/work/tholonia.github.io/tholonia.github.io-with--without--only--Gemfile.lock-e1427b6324c4b2c2294e4bc64f2895967df964a6cf32677adedba7470129131b
+2024-01-06T05:46:28.5761803Z [command]/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/bundle install --jobs 4
+2024-01-06T05:46:29.9902335Z Fetching gem metadata from https://rubygems.org/.........
+2024-01-06T05:46:29.9979891Z Fetching base64 0.2.0
+2024-01-06T05:46:29.9980790Z Fetching bigdecimal 3.1.5
+2024-01-06T05:46:29.9981944Z Fetching concurrent-ruby 1.2.2
+2024-01-06T05:46:29.9982446Z Fetching connection_pool 2.4.1
+2024-01-06T05:46:30.0551265Z Installing base64 0.2.0
+2024-01-06T05:46:30.0554439Z Installing connection_pool 2.4.1
+2024-01-06T05:46:30.0652283Z Installing bigdecimal 3.1.5 with native extensions
+2024-01-06T05:46:30.0685602Z Using ruby2_keywords 0.0.5
+2024-01-06T05:46:30.0698388Z Fetching minitest 5.20.0
+2024-01-06T05:46:30.0761959Z Fetching mutex_m 0.2.0
+2024-01-06T05:46:30.0944235Z Installing mutex_m 0.2.0
+2024-01-06T05:46:30.1009695Z Installing minitest 5.20.0
+2024-01-06T05:46:30.1056782Z Fetching public_suffix 5.0.4
+2024-01-06T05:46:30.1096360Z Installing concurrent-ruby 1.2.2
+2024-01-06T05:46:30.1375197Z Installing public_suffix 5.0.4
+2024-01-06T05:46:30.1499753Z Using bundler 2.4.10
+2024-01-06T05:46:30.1500915Z Fetching colorator 1.1.0
+2024-01-06T05:46:30.1651219Z Fetching eventmachine 1.2.7
+2024-01-06T05:46:30.1715095Z Installing colorator 1.1.0
+2024-01-06T05:46:30.1848961Z Fetching http_parser.rb 0.8.0
+2024-01-06T05:46:30.2214964Z Installing eventmachine 1.2.7 with native extensions
+2024-01-06T05:46:30.2369592Z Installing http_parser.rb 0.8.0 with native extensions
+2024-01-06T05:46:30.2762872Z Fetching ffi 1.16.3
+2024-01-06T05:46:30.3630058Z Installing ffi 1.16.3 with native extensions
+2024-01-06T05:46:32.3736869Z Fetching forwardable-extended 2.6.0
+2024-01-06T05:46:32.3915333Z Installing forwardable-extended 2.6.0
+2024-01-06T05:46:32.3984151Z Fetching google-protobuf 3.25.1 (x86_64-linux)
+2024-01-06T05:46:32.4539335Z Installing google-protobuf 3.25.1 (x86_64-linux)
+2024-01-06T05:46:32.4916238Z Fetching racc 1.7.3
+2024-01-06T05:46:32.5132754Z Installing racc 1.7.3 with native extensions
+2024-01-06T05:46:33.1682523Z Fetching negarmoji 0.1.10
+2024-01-06T05:46:33.2043464Z Installing negarmoji 0.1.10
+2024-01-06T05:46:33.2234374Z Fetching mercenary 0.4.0
+2024-01-06T05:46:33.2432891Z Installing mercenary 0.4.0
+2024-01-06T05:46:33.2544160Z Fetching parallel 1.24.0
+2024-01-06T05:46:33.2708956Z Installing parallel 1.24.0
+2024-01-06T05:46:33.2747918Z Fetching rainbow 3.1.1
+2024-01-06T05:46:33.2921825Z Installing rainbow 3.1.1
+2024-01-06T05:46:33.2984426Z Fetching yell 2.2.2
+2024-01-06T05:46:33.3161597Z Installing yell 2.2.2
+2024-01-06T05:46:33.3295259Z Fetching zeitwerk 2.6.12
+2024-01-06T05:46:33.3475877Z Installing zeitwerk 2.6.12
+2024-01-06T05:46:33.3558353Z Fetching rb-fsevent 0.11.2
+2024-01-06T05:46:33.3828238Z Installing rb-fsevent 0.11.2
+2024-01-06T05:46:33.3946205Z Fetching rexml 3.2.6
+2024-01-06T05:46:33.4180881Z Installing rexml 3.2.6
+2024-01-06T05:46:33.4420310Z Fetching liquid 4.0.4
+2024-01-06T05:46:33.4631173Z Installing liquid 4.0.4
+2024-01-06T05:46:33.4925412Z Fetching rouge 4.2.0
+2024-01-06T05:46:33.5351350Z Installing rouge 4.2.0
+2024-01-06T05:46:33.8047382Z Fetching safe_yaml 1.0.5
+2024-01-06T05:46:33.8216176Z Installing safe_yaml 1.0.5
+2024-01-06T05:46:33.8359777Z Fetching unicode-display_width 2.5.0
+2024-01-06T05:46:33.8540625Z Installing unicode-display_width 2.5.0
+2024-01-06T05:46:33.8594866Z Fetching webrick 1.8.1
+2024-01-06T05:46:33.8789564Z Installing webrick 1.8.1
+2024-01-06T05:46:33.8940263Z Fetching jekyll-paginate 1.1.0
+2024-01-06T05:46:33.9131235Z Installing jekyll-paginate 1.1.0
+2024-01-06T05:46:33.9236583Z Fetching drb 2.2.0
+2024-01-06T05:46:33.9489157Z Installing drb 2.2.0
+2024-01-06T05:46:33.9562735Z Fetching addressable 2.8.6
+2024-01-06T05:46:33.9776097Z Installing addressable 2.8.6
+2024-01-06T05:46:33.9912524Z Fetching i18n 1.14.1
+2024-01-06T05:46:34.0111450Z Installing i18n 1.14.1
+2024-01-06T05:46:34.0259154Z Fetching tzinfo 2.0.6
+2024-01-06T05:46:34.0492276Z Installing tzinfo 2.0.6
+2024-01-06T05:46:34.0660723Z Fetching pathutil 0.16.2
+2024-01-06T05:46:34.0882813Z Installing pathutil 0.16.2
+2024-01-06T05:46:34.0972944Z Fetching sass-embedded 1.69.7 (x86_64-linux-gnu)
+2024-01-06T05:46:34.2554370Z Installing sass-embedded 1.69.7 (x86_64-linux-gnu)
+2024-01-06T05:46:34.4084389Z Fetching nokogiri 1.16.0 (x86_64-linux)
+2024-01-06T05:46:34.5530305Z Installing nokogiri 1.16.0 (x86_64-linux)
+2024-01-06T05:46:34.7289579Z Fetching kramdown 2.4.0
+2024-01-06T05:46:34.7630152Z Installing kramdown 2.4.0
+2024-01-06T05:46:34.8904931Z Fetching terminal-table 3.0.2
+2024-01-06T05:46:34.9127606Z Installing terminal-table 3.0.2
+2024-01-06T05:46:35.0684213Z Fetching jekyll-sass-converter 3.0.0
+2024-01-06T05:46:35.0842584Z Installing jekyll-sass-converter 3.0.0
+2024-01-06T05:46:35.0893593Z Fetching kramdown-parser-gfm 1.1.0
+2024-01-06T05:46:35.1086284Z Installing kramdown-parser-gfm 1.1.0
+2024-01-06T05:46:40.5753379Z Fetching ethon 0.16.0
+2024-01-06T05:46:40.5754572Z Fetching rb-inotify 0.10.1
+2024-01-06T05:46:40.5976941Z Installing rb-inotify 0.10.1
+2024-01-06T05:46:40.6040519Z Installing ethon 0.16.0
+2024-01-06T05:46:40.6149050Z Fetching listen 3.8.0
+2024-01-06T05:46:40.6344851Z Installing listen 3.8.0
+2024-01-06T05:46:40.6552536Z Fetching typhoeus 1.4.1
+2024-01-06T05:46:40.6608587Z Fetching jekyll-watch 2.2.1
+2024-01-06T05:46:40.6755868Z Installing typhoeus 1.4.1
+2024-01-06T05:46:40.6813244Z Installing jekyll-watch 2.2.1
+2024-01-06T05:46:40.7050634Z Fetching html-proofer 4.4.3
+2024-01-06T05:46:40.7202640Z Installing html-proofer 4.4.3
+2024-01-06T05:46:42.8620994Z Fetching activesupport 7.1.2
+2024-01-06T05:46:42.9050577Z Installing activesupport 7.1.2
+2024-01-06T05:46:42.9624535Z Fetching html-pipeline 2.14.3
+2024-01-06T05:46:42.9769566Z Installing html-pipeline 2.14.3
+2024-01-06T05:46:42.9843286Z Fetching html-pipeline-negarmoji 0.1.6
+2024-01-06T05:46:43.0003217Z Installing html-pipeline-negarmoji 0.1.6
+2024-01-06T05:46:47.6746926Z Fetching em-websocket 0.5.3
+2024-01-06T05:46:47.6905779Z Installing em-websocket 0.5.3
+2024-01-06T05:46:47.7014422Z Fetching jekyll 4.3.3
+2024-01-06T05:46:47.7388566Z Installing jekyll 4.3.3
+2024-01-06T05:46:47.7623385Z Fetching jekyll-feed 0.17.0
+2024-01-06T05:46:47.7628051Z Fetching jekyll-archives 2.2.1
+2024-01-06T05:46:47.7628804Z Fetching jekyll-include-cache 0.2.1
+2024-01-06T05:46:47.7648853Z Fetching jekyll-openmoji 0.1.6
+2024-01-06T05:46:47.7869767Z Installing jekyll-feed 0.17.0
+2024-01-06T05:46:47.7876625Z Installing jekyll-archives 2.2.1
+2024-01-06T05:46:47.7944038Z Installing jekyll-include-cache 0.2.1
+2024-01-06T05:46:47.7983826Z Fetching jekyll-redirect-from 0.16.0
+2024-01-06T05:46:47.7992062Z Installing jekyll-openmoji 0.1.6
+2024-01-06T05:46:47.8062977Z Fetching jekyll-seo-tag 2.8.0
+2024-01-06T05:46:47.8118060Z Fetching jekyll-sitemap 1.4.0
+2024-01-06T05:46:47.8235861Z Installing jekyll-redirect-from 0.16.0
+2024-01-06T05:46:47.8348857Z Installing jekyll-seo-tag 2.8.0
+2024-01-06T05:46:47.8371593Z Installing jekyll-sitemap 1.4.0
+2024-01-06T05:46:47.8405776Z Fetching jekyll-youtube 1.0.0
+2024-01-06T05:46:47.8578125Z Installing jekyll-youtube 1.0.0
+2024-01-06T05:46:47.8862525Z Fetching jekyll-theme-chirpy 6.3.1
+2024-01-06T05:46:47.9088081Z Installing jekyll-theme-chirpy 6.3.1
+2024-01-06T05:46:47.9346355Z Bundle complete! 9 Gemfile dependencies, 61 gems now installed.
+2024-01-06T05:46:47.9350307Z Bundled gems are installed into `./vendor/bundle`
+2024-01-06T05:46:47.9351415Z Post-install message from html-pipeline:
+2024-01-06T05:46:47.9352266Z -------------------------------------------------
+2024-01-06T05:46:47.9353241Z Thank you for installing html-pipeline!
+2024-01-06T05:46:47.9355689Z You must bundle Filter gem dependencies.
+2024-01-06T05:46:47.9357146Z See html-pipeline README.md for more details.
+2024-01-06T05:46:47.9358253Z https://github.com/jch/html-pipeline#dependencies
+2024-01-06T05:46:47.9359199Z -------------------------------------------------
+2024-01-06T05:46:47.9776923Z Saving cache
+2024-01-06T05:46:47.9908860Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/tholonia.github.io/tholonia.github.io --files-from manifest.txt --use-compress-program zstdmt
+2024-01-06T05:46:50.8651821Z Cache Size: ~28 MB (29279626 B)
+2024-01-06T05:46:50.9464678Z Cache saved successfully
+2024-01-06T05:46:50.9551837Z Took  24.86 seconds
+2024-01-06T05:46:50.9758396Z ##[group]Run bundle exec jekyll b -d "_site"
+2024-01-06T05:46:50.9759111Z [36;1mbundle exec jekyll b -d "_site"[0m
+2024-01-06T05:46:50.9824997Z shell: /usr/bin/bash -e {0}
+2024-01-06T05:46:50.9825551Z env:
+2024-01-06T05:46:50.9825912Z   GITHUB_PAGES: true
+2024-01-06T05:46:50.9826271Z   JEKYLL_ENV: production
+2024-01-06T05:46:50.9826714Z ##[endgroup]
+2024-01-06T05:46:51.4771051Z Configuration file: /home/runner/work/tholonia.github.io/tholonia.github.io/_config.yml
+2024-01-06T05:46:51.5863405Z             Source: /home/runner/work/tholonia.github.io/tholonia.github.io
+2024-01-06T05:46:51.5864637Z        Destination: /home/runner/work/tholonia.github.io/tholonia.github.io/_site
+2024-01-06T05:46:51.5865745Z  Incremental build: disabled. Enable with --incremental
+2024-01-06T05:46:51.5866630Z       Generating... 
+2024-01-06T05:46:51.9790791Z        Jekyll Feed: Generating feed for posts
+2024-01-06T05:47:02.8283815Z [33m          Conflict: The following destination is shared by multiple files.[0m
+2024-01-06T05:47:02.8285601Z [33m                    The written file may end up with unexpected contents.[0m
+2024-01-06T05:47:02.8287495Z [33m                    [36m/home/runner/work/tholonia.github.io/tholonia.github.io/_site/feed.xml[0m[0m
+2024-01-06T05:47:02.8288849Z [33m                     - assets/feed.xml[0m
+2024-01-06T05:47:02.8289707Z [33m                     - feed.xml[0m
+2024-01-06T05:47:02.8290627Z [33m                    [0m
+2024-01-06T05:47:03.7462386Z                     done in 12.16 seconds.
+2024-01-06T05:47:03.7463873Z  Auto-regeneration: disabled. Use --watch to enable.
+2024-01-06T05:47:03.7737319Z ##[group]Run bundle exec htmlproofer _site \
+2024-01-06T05:47:03.7737912Z [36;1mbundle exec htmlproofer _site \[0m
+2024-01-06T05:47:03.7738342Z [36;1m  \-\-disable-external=true \[0m
+2024-01-06T05:47:03.7739090Z [36;1m  \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"[0m
+2024-01-06T05:47:03.7789877Z shell: /usr/bin/bash -e {0}
+2024-01-06T05:47:03.7790228Z env:
+2024-01-06T05:47:03.7790568Z   GITHUB_PAGES: true
+2024-01-06T05:47:03.7791038Z ##[endgroup]
+2024-01-06T05:47:04.2538211Z Running 3 checks (Scripts, Links, Images) in ["_site"] on *.html files...
+2024-01-06T05:47:04.2538990Z 
+2024-01-06T05:47:04.2539039Z 
+2024-01-06T05:47:05.1283515Z Checking 513 internal links
+2024-01-06T05:47:05.6364816Z Checking internal link hashes in 12 files
+2024-01-06T05:47:05.8218105Z Ran on 221 files!
+2024-01-06T05:47:05.8218528Z 
+2024-01-06T05:47:05.8218536Z 
+2024-01-06T05:47:05.8219038Z HTML-Proofer finished successfully.
+2024-01-06T05:47:05.8444798Z ##[group]Run actions/upload-pages-artifact@v1
+2024-01-06T05:47:05.8445399Z with:
+2024-01-06T05:47:05.8445727Z   path: _site
+2024-01-06T05:47:05.8446023Z   name: github-pages
+2024-01-06T05:47:05.8446438Z   retention-days: 1
+2024-01-06T05:47:05.8446847Z env:
+2024-01-06T05:47:05.8447113Z   GITHUB_PAGES: true
+2024-01-06T05:47:05.8447519Z ##[endgroup]
+2024-01-06T05:47:05.8662774Z ##[group]Run chmod -c -R +rX "$INPUT_PATH" | while read line; do
+2024-01-06T05:47:05.8663520Z [36;1mchmod -c -R +rX "$INPUT_PATH" | while read line; do[0m
+2024-01-06T05:47:05.8664221Z [36;1m  echo "::warning title=Invalid file permissions automatically fixed::$line"[0m
+2024-01-06T05:47:05.8664803Z [36;1mdone[0m
+2024-01-06T05:47:05.8665195Z [36;1mtar \[0m
+2024-01-06T05:47:05.8665646Z [36;1m  --dereference --hard-dereference \[0m
+2024-01-06T05:47:05.8666072Z [36;1m  --directory "$INPUT_PATH" \[0m
+2024-01-06T05:47:05.8666593Z [36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \[0m
+2024-01-06T05:47:05.8667138Z [36;1m  --exclude=.git \[0m
+2024-01-06T05:47:05.8667480Z [36;1m  --exclude=.github \[0m
+2024-01-06T05:47:05.8667926Z [36;1m  .[0m
+2024-01-06T05:47:05.8721900Z shell: /usr/bin/sh -e {0}
+2024-01-06T05:47:05.8722346Z env:
+2024-01-06T05:47:05.8722666Z   GITHUB_PAGES: true
+2024-01-06T05:47:05.8723060Z   INPUT_PATH: _site
+2024-01-06T05:47:05.8723407Z ##[endgroup]
+2024-01-06T05:47:05.8888289Z ./
+2024-01-06T05:47:05.8888928Z ./README_chirpy.md
+2024-01-06T05:47:05.8889795Z ./robots.txt
+2024-01-06T05:47:05.8890306Z ./CLEAN_GITHUB
+2024-01-06T05:47:05.8890849Z ./tags/
+2024-01-06T05:47:05.8891507Z ./tags/cycles/
+2024-01-06T05:47:05.8892026Z ./tags/cycles/index.html
+2024-01-06T05:47:05.8892626Z ./tags/order/
+2024-01-06T05:47:05.8893241Z ./tags/order/index.html
+2024-01-06T05:47:05.8893771Z ./tags/belief/
+2024-01-06T05:47:05.8894350Z ./tags/belief/index.html
+2024-01-06T05:47:05.8895070Z ./tags/about/
+2024-01-06T05:47:05.8895646Z ./tags/about/index.html
+2024-01-06T05:47:05.8896259Z ./tags/index.html
+2024-01-06T05:47:05.8896952Z ./tags/blog/
+2024-01-06T05:47:05.8897449Z ./tags/blog/index.html
+2024-01-06T05:47:05.8898060Z ./tags/python/
+2024-01-06T05:47:05.8898723Z ./tags/python/index.html
+2024-01-06T05:47:05.8899566Z ./tags/terrence-mckenna/
+2024-01-06T05:47:05.8900336Z ./tags/terrence-mckenna/index.html
+2024-01-06T05:47:05.8901131Z ./tags/chaos/
+2024-01-06T05:47:05.8901622Z ./tags/chaos/index.html
+2024-01-06T05:47:05.8902235Z ./tags/intention/
+2024-01-06T05:47:05.8902891Z ./tags/intention/index.html
+2024-01-06T05:47:05.8903785Z ./tags/ai/
+2024-01-06T05:47:05.8904295Z ./tags/ai/index.html
+2024-01-06T05:47:05.8904969Z ./tags/time/
+2024-01-06T05:47:05.8905476Z ./tags/time/index.html
+2024-01-06T05:47:05.8906035Z ./tags/pattern/
+2024-01-06T05:47:05.8906707Z ./tags/pattern/index.html
+2024-01-06T05:47:05.8907244Z ./discussions.html
+2024-01-06T05:47:05.8907772Z ./feed.xml
+2024-01-06T05:47:05.8908414Z ./unregister.js
+2024-01-06T05:47:05.8908893Z ./index.html
+2024-01-06T05:47:05.8909392Z ./header.svg
+2024-01-06T05:47:05.8910105Z ./CNAME
+2024-01-06T05:47:05.8910540Z ./assets/
+2024-01-06T05:47:05.8911026Z ./assets/img/
+2024-01-06T05:47:05.8911835Z ./assets/img/explore-model-test_v2.pdf
+2024-01-06T05:47:05.8912684Z ./assets/img/avatar.jpg
+2024-01-06T05:47:05.8913304Z ./assets/img/anon.jpg
+2024-01-06T05:47:05.8914199Z ./assets/img/explore-model-test.pdf
+2024-01-06T05:47:05.8914988Z ./assets/img/explore-model-test.jpg
+2024-01-06T05:47:05.8915618Z ./assets/img/book_vert.jpg
+2024-01-06T05:47:05.8916969Z ./assets/img/explore-model-test.png
+2024-01-06T05:47:05.8917693Z ./assets/img/hexaniline.jpg
+2024-01-06T05:47:05.8940577Z ./assets/img/book_vert_thumb.jpg
+2024-01-06T05:47:05.8941534Z ./assets/img/duncan.png
+2024-01-06T05:47:05.8943422Z ./assets/img/book_vert_thumb.pdf
+2024-01-06T05:47:05.8946370Z ./assets/img/book_vert.pdf
+2024-01-06T05:47:05.8988069Z ./assets/img/favicons/
+2024-01-06T05:47:05.8989000Z ./assets/img/favicons/android-chrome-512x512.png
+2024-01-06T05:47:05.8989951Z ./assets/img/favicons/browserconfig.xml
+2024-01-06T05:47:05.8991195Z ./assets/img/favicons/site.webmanifest
+2024-01-06T05:47:05.8992130Z ./assets/img/favicons/apple-touch-icon.png
+2024-01-06T05:47:05.8993010Z ./assets/img/favicons/favicon-32x32.png
+2024-01-06T05:47:05.8993909Z ./assets/img/favicons/favicon-16x16.png
+2024-01-06T05:47:05.8994655Z ./assets/img/favicons/favicon.ico
+2024-01-06T05:47:05.8995485Z ./assets/img/favicons/mstile-150x150.png
+2024-01-06T05:47:05.8996458Z ./assets/img/favicons/android-chrome-192x192.png
+2024-01-06T05:47:05.8997275Z ./assets/img/book.jpg
+2024-01-06T05:47:05.8997983Z ./assets/jekyll-theme-chirpy.css.map
+2024-01-06T05:47:05.8998769Z ./assets/index.html
+2024-01-06T05:47:05.8999354Z ./assets/js/
+2024-01-06T05:47:05.9000086Z ./assets/js/dist/
+2024-01-06T05:47:05.9000754Z ./assets/js/dist/categories.min.js
+2024-01-06T05:47:05.9001480Z ./assets/js/dist/page.min.js
+2024-01-06T05:47:05.9002126Z ./assets/js/dist/home.min.js
+2024-01-06T05:47:05.9002851Z ./assets/js/dist/post.min.js
+2024-01-06T05:47:05.9003483Z ./assets/js/dist/commons.min.js
+2024-01-06T05:47:05.9004212Z ./assets/js/dist/misc.min.js
+2024-01-06T05:47:05.9004945Z ./assets/js/data/
+2024-01-06T05:47:05.9005500Z ./assets/js/data/search.json
+2024-01-06T05:47:05.9006119Z ./assets/js/data/swcache.js
+2024-01-06T05:47:05.9006795Z ./assets/js/NOTES.md
+2024-01-06T05:47:05.9007348Z ./assets/posts/
+2024-01-06T05:47:05.9008022Z ./assets/posts/2024-01-05-time-wave-zero/
+2024-01-06T05:47:05.9009043Z ./assets/posts/2024-01-05-time-wave-zero/post_image.webp
+2024-01-06T05:47:05.9009986Z ./assets/posts/2024-01-01-AI-discovers-god/
+2024-01-06T05:47:05.9011119Z ./assets/posts/2024-01-01-AI-discovers-god/happy-bunny-god-square.jpg
+2024-01-06T05:47:05.9046179Z ./assets/posts/2024-01-01-AI-discovers-god/post_image.jpg
+2024-01-06T05:47:05.9048332Z ./assets/posts/2024-01-01-AI-discovers-god/happy-bunny-god-wallpaper.jpg
+2024-01-06T05:47:05.9115550Z ./assets/posts/2023-12-31-order-from-chaos/
+2024-01-06T05:47:05.9116606Z ./assets/posts/2023-12-31-order-from-chaos/post_image.jpg
+2024-01-06T05:47:05.9117736Z ./assets/posts/2023-12-31-order-from-chaos/059-ruleexposure-7.jpg
+2024-01-06T05:47:05.9119085Z ./assets/posts/2023-12-31-order-from-chaos/entropy-hilo-2.jpg
+2024-01-06T05:47:05.9120440Z ./assets/posts/2023-12-31-order-from-chaos/hex2tree.jpg
+2024-01-06T05:47:05.9121305Z ./assets/posts/2023-12-15-post_1/
+2024-01-06T05:47:05.9122342Z ./assets/posts/2023-12-15-post_1/post_image.jpg
+2024-01-06T05:47:05.9123304Z ./assets/posts/2024-01-04_more-water-material/
+2024-01-06T05:47:05.9124608Z ./assets/posts/2024-01-04_more-water-material/post_image.jpg
+2024-01-06T05:47:05.9125758Z ./assets/posts/2023-12-24-christmas_miracle/
+2024-01-06T05:47:05.9126804Z ./assets/posts/2023-12-24-christmas_miracle/post_image.jpg
+2024-01-06T05:47:05.9127717Z ./assets/blank.png
+2024-01-06T05:47:05.9128328Z ./assets/css/
+2024-01-06T05:47:05.9129036Z ./assets/css/jekyll-theme-chirpy.css.map
+2024-01-06T05:47:05.9129925Z ./assets/css/jekyll-theme-chirpy.css
+2024-01-06T05:47:05.9130843Z ./assets/jekyll-theme-chirpy.css
+2024-01-06T05:47:05.9131506Z ./assets/lib/
+2024-01-06T05:47:05.9132035Z ./assets/lib/tocbot/
+2024-01-06T05:47:05.9132671Z ./assets/lib/tocbot/tocbot.min.css
+2024-01-06T05:47:05.9133380Z ./assets/lib/tocbot/tocbot.min.js
+2024-01-06T05:47:05.9134037Z ./assets/lib/mermaid/
+2024-01-06T05:47:05.9134804Z ./assets/lib/mermaid/mermaid.min.js
+2024-01-06T05:47:05.9169166Z ./assets/lib/mathjax/
+2024-01-06T05:47:05.9169857Z ./assets/lib/mathjax/loader.js
+2024-01-06T05:47:05.9170735Z ./assets/lib/mathjax/tex-svg-full.js
+2024-01-06T05:47:05.9194202Z ./assets/lib/mathjax/adaptors/
+2024-01-06T05:47:05.9194928Z ./assets/lib/mathjax/adaptors/liteDOM.js
+2024-01-06T05:47:05.9195765Z ./assets/lib/mathjax/startup.js
+2024-01-06T05:47:05.9196470Z ./assets/lib/mathjax/sre/
+2024-01-06T05:47:05.9197095Z ./assets/lib/mathjax/sre/sre_browser.js
+2024-01-06T05:47:05.9205046Z ./assets/lib/mathjax/sre/mathmaps/
+2024-01-06T05:47:05.9205817Z ./assets/lib/mathjax/sre/mathmaps/it.js
+2024-01-06T05:47:05.9210227Z ./assets/lib/mathjax/sre/mathmaps/es.js
+2024-01-06T05:47:05.9215487Z ./assets/lib/mathjax/sre/mathmaps/nemeth.js
+2024-01-06T05:47:05.9218622Z ./assets/lib/mathjax/sre/mathmaps/hi.js
+2024-01-06T05:47:05.9225687Z ./assets/lib/mathjax/sre/mathmaps/en.js
+2024-01-06T05:47:05.9232761Z ./assets/lib/mathjax/sre/mathmaps/de.js
+2024-01-06T05:47:05.9238333Z ./assets/lib/mathjax/sre/mathmaps/fr.js
+2024-01-06T05:47:05.9244523Z ./assets/lib/mathjax/sre/sre-node.js
+2024-01-06T05:47:05.9245486Z ./assets/lib/mathjax/node-main.js
+2024-01-06T05:47:05.9248913Z ./assets/lib/mathjax/core.js
+2024-01-06T05:47:05.9252358Z ./assets/lib/mathjax/a11y/
+2024-01-06T05:47:05.9253172Z ./assets/lib/mathjax/a11y/complexity.js
+2024-01-06T05:47:05.9254075Z ./assets/lib/mathjax/a11y/assistive-mml.js
+2024-01-06T05:47:05.9254941Z ./assets/lib/mathjax/a11y/semantic-enrich.js
+2024-01-06T05:47:05.9255847Z ./assets/lib/mathjax/a11y/explorer.js
+2024-01-06T05:47:05.9256661Z ./assets/lib/mathjax/tex-svg.js
+2024-01-06T05:47:05.9278065Z ./assets/lib/mathjax/tex-mml-svg.js
+2024-01-06T05:47:05.9301213Z ./assets/lib/mathjax/input/
+2024-01-06T05:47:05.9301878Z ./assets/lib/mathjax/input/tex.js
+2024-01-06T05:47:05.9304414Z ./assets/lib/mathjax/input/tex-base.js
+2024-01-06T05:47:05.9306580Z ./assets/lib/mathjax/input/asciimath.js
+2024-01-06T05:47:05.9308744Z ./assets/lib/mathjax/input/mml.js
+2024-01-06T05:47:05.9309594Z ./assets/lib/mathjax/input/mml/
+2024-01-06T05:47:05.9310274Z ./assets/lib/mathjax/input/mml/extensions/
+2024-01-06T05:47:05.9311182Z ./assets/lib/mathjax/input/mml/extensions/mml3.sef.json
+2024-01-06T05:47:05.9313699Z ./assets/lib/mathjax/input/mml/extensions/mml3.js
+2024-01-06T05:47:05.9314506Z ./assets/lib/mathjax/input/mml/entities.js
+2024-01-06T05:47:05.9315459Z ./assets/lib/mathjax/input/tex-full.js
+2024-01-06T05:47:05.9320389Z ./assets/lib/mathjax/input/tex/
+2024-01-06T05:47:05.9321121Z ./assets/lib/mathjax/input/tex/extensions/
+2024-01-06T05:47:05.9321909Z ./assets/lib/mathjax/input/tex/extensions/action.js
+2024-01-06T05:47:05.9322884Z ./assets/lib/mathjax/input/tex/extensions/html.js
+2024-01-06T05:47:05.9323841Z ./assets/lib/mathjax/input/tex/extensions/setoptions.js
+2024-01-06T05:47:05.9324707Z ./assets/lib/mathjax/input/tex/extensions/color.js
+2024-01-06T05:47:05.9325728Z ./assets/lib/mathjax/input/tex/extensions/boldsymbol.js
+2024-01-06T05:47:05.9326702Z ./assets/lib/mathjax/input/tex/extensions/amscd.js
+2024-01-06T05:47:05.9327502Z ./assets/lib/mathjax/input/tex/extensions/ams.js
+2024-01-06T05:47:05.9328513Z ./assets/lib/mathjax/input/tex/extensions/tagformat.js
+2024-01-06T05:47:05.9329781Z ./assets/lib/mathjax/input/tex/extensions/unicode.js
+2024-01-06T05:47:05.9330692Z ./assets/lib/mathjax/input/tex/extensions/noundefined.js
+2024-01-06T05:47:05.9331788Z ./assets/lib/mathjax/input/tex/extensions/newcommand.js
+2024-01-06T05:47:05.9332769Z ./assets/lib/mathjax/input/tex/extensions/centernot.js
+2024-01-06T05:47:05.9333733Z ./assets/lib/mathjax/input/tex/extensions/bussproofs.js
+2024-01-06T05:47:05.9334744Z ./assets/lib/mathjax/input/tex/extensions/noerrors.js
+2024-01-06T05:47:05.9335707Z ./assets/lib/mathjax/input/tex/extensions/configmacros.js
+2024-01-06T05:47:05.9336626Z ./assets/lib/mathjax/input/tex/extensions/verb.js
+2024-01-06T05:47:05.9337626Z ./assets/lib/mathjax/input/tex/extensions/colortbl.js
+2024-01-06T05:47:05.9338549Z ./assets/lib/mathjax/input/tex/extensions/extpfeil.js
+2024-01-06T05:47:05.9339473Z ./assets/lib/mathjax/input/tex/extensions/textcomp.js
+2024-01-06T05:47:05.9340555Z ./assets/lib/mathjax/input/tex/extensions/textmacros.js
+2024-01-06T05:47:05.9341555Z ./assets/lib/mathjax/input/tex/extensions/enclose.js
+2024-01-06T05:47:05.9342433Z ./assets/lib/mathjax/input/tex/extensions/cancel.js
+2024-01-06T05:47:05.9343392Z ./assets/lib/mathjax/input/tex/extensions/upgreek.js
+2024-01-06T05:47:05.9344275Z ./assets/lib/mathjax/input/tex/extensions/colorv2.js
+2024-01-06T05:47:05.9345193Z ./assets/lib/mathjax/input/tex/extensions/braket.js
+2024-01-06T05:47:05.9346149Z ./assets/lib/mathjax/input/tex/extensions/mhchem.js
+2024-01-06T05:47:05.9347028Z ./assets/lib/mathjax/input/tex/extensions/physics.js
+2024-01-06T05:47:05.9348158Z ./assets/lib/mathjax/input/tex/extensions/mathtools.js
+2024-01-06T05:47:05.9349200Z ./assets/lib/mathjax/input/tex/extensions/require.js
+2024-01-06T05:47:05.9350109Z ./assets/lib/mathjax/input/tex/extensions/autoload.js
+2024-01-06T05:47:05.9350964Z ./assets/lib/mathjax/input/tex/extensions/gensymb.js
+2024-01-06T05:47:05.9352002Z ./assets/lib/mathjax/input/tex/extensions/bbox.js
+2024-01-06T05:47:05.9353106Z ./assets/lib/mathjax/input/tex/extensions/all-packages.js
+2024-01-06T05:47:05.9353893Z ./assets/lib/mathjax/ui/
+2024-01-06T05:47:05.9354601Z ./assets/lib/mathjax/ui/menu.js
+2024-01-06T05:47:05.9355274Z ./assets/lib/mathjax/ui/lazy.js
+2024-01-06T05:47:05.9355864Z ./assets/lib/mathjax/ui/safe.js
+2024-01-06T05:47:05.9356699Z ./assets/lib/mathjax/mml-chtml.js
+2024-01-06T05:47:05.9357489Z ./assets/lib/mathjax/tex-chtml-full.js
+2024-01-06T05:47:05.9366533Z ./assets/lib/mathjax/mml-svg.js
+2024-01-06T05:47:05.9387049Z ./assets/lib/mathjax/tex-chtml.js
+2024-01-06T05:47:05.9397076Z ./assets/lib/mathjax/latest.js
+2024-01-06T05:47:05.9397724Z ./assets/lib/mathjax/tex-mml-chtml.js
+2024-01-06T05:47:05.9408124Z ./assets/lib/mathjax/output/
+2024-01-06T05:47:05.9408644Z ./assets/lib/mathjax/output/svg/
+2024-01-06T05:47:05.9409176Z ./assets/lib/mathjax/output/svg/fonts/
+2024-01-06T05:47:05.9409615Z ./assets/lib/mathjax/output/svg/fonts/tex.js
+2024-01-06T05:47:05.9422167Z ./assets/lib/mathjax/output/chtml.js
+2024-01-06T05:47:05.9425447Z ./assets/lib/mathjax/output/svg.js
+2024-01-06T05:47:05.9428421Z ./assets/lib/mathjax/output/chtml/
+2024-01-06T05:47:05.9428904Z ./assets/lib/mathjax/output/chtml/fonts/
+2024-01-06T05:47:05.9429482Z ./assets/lib/mathjax/output/chtml/fonts/tex.js
+2024-01-06T05:47:05.9430757Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/
+2024-01-06T05:47:05.9431671Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff
+2024-01-06T05:47:05.9432779Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff
+2024-01-06T05:47:05.9433991Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff
+2024-01-06T05:47:05.9435022Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff
+2024-01-06T05:47:05.9436033Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff
+2024-01-06T05:47:05.9437072Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff
+2024-01-06T05:47:05.9437995Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff
+2024-01-06T05:47:05.9440066Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff
+2024-01-06T05:47:05.9441269Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff
+2024-01-06T05:47:05.9442276Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff
+2024-01-06T05:47:05.9443633Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff
+2024-01-06T05:47:05.9444529Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff
+2024-01-06T05:47:05.9445363Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff
+2024-01-06T05:47:05.9446420Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff
+2024-01-06T05:47:05.9447407Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Regular.woff
+2024-01-06T05:47:05.9448291Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff
+2024-01-06T05:47:05.9449213Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff
+2024-01-06T05:47:05.9450097Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff
+2024-01-06T05:47:05.9450949Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff
+2024-01-06T05:47:05.9451892Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff
+2024-01-06T05:47:05.9452648Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff
+2024-01-06T05:47:05.9453482Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff
+2024-01-06T05:47:05.9454573Z ./assets/lib/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff
+2024-01-06T05:47:05.9455196Z ./assets/lib/package.json
+2024-01-06T05:47:05.9455866Z ./assets/lib/fontawesome-free/
+2024-01-06T05:47:05.9456445Z ./assets/lib/fontawesome-free/webfonts/
+2024-01-06T05:47:05.9457015Z ./assets/lib/fontawesome-free/webfonts/fa-v4compatibility.woff2
+2024-01-06T05:47:05.9457689Z ./assets/lib/fontawesome-free/webfonts/fa-solid-900.woff2
+2024-01-06T05:47:05.9458598Z ./assets/lib/fontawesome-free/webfonts/fa-regular-400.woff2
+2024-01-06T05:47:05.9459290Z ./assets/lib/fontawesome-free/webfonts/fa-v4compatibility.ttf
+2024-01-06T05:47:05.9459891Z ./assets/lib/fontawesome-free/webfonts/fa-regular-400.ttf
+2024-01-06T05:47:05.9460969Z ./assets/lib/fontawesome-free/webfonts/fa-brands-400.woff2
+2024-01-06T05:47:05.9461816Z ./assets/lib/fontawesome-free/webfonts/fa-solid-900.ttf
+2024-01-06T05:47:05.9462411Z ./assets/lib/fontawesome-free/webfonts/fa-brands-400.ttf
+2024-01-06T05:47:05.9463038Z ./assets/lib/fontawesome-free/css/
+2024-01-06T05:47:05.9463529Z ./assets/lib/fontawesome-free/css/all.min.css
+2024-01-06T05:47:05.9463986Z ./assets/lib/fontawesome-free/README.md
+2024-01-06T05:47:05.9464525Z ./assets/lib/simple-jekyll-search/
+2024-01-06T05:47:05.9465113Z ./assets/lib/simple-jekyll-search/simple-jekyll-search.min.js
+2024-01-06T05:47:05.9465768Z ./assets/lib/fonts/
+2024-01-06T05:47:05.9466206Z ./assets/lib/fonts/Source_Sans_Pro/
+2024-01-06T05:47:05.9466776Z ./assets/lib/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf
+2024-01-06T05:47:05.9467401Z ./assets/lib/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf
+2024-01-06T05:47:05.9469507Z ./assets/lib/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf
+2024-01-06T05:47:05.9472842Z ./assets/lib/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf
+2024-01-06T05:47:05.9476250Z ./assets/lib/fonts/main.css
+2024-01-06T05:47:05.9476643Z ./assets/lib/fonts/Lato/
+2024-01-06T05:47:05.9477100Z ./assets/lib/fonts/Lato/Lato-Regular.ttf
+2024-01-06T05:47:05.9478022Z ./assets/lib/bootstrap/
+2024-01-06T05:47:05.9478430Z ./assets/lib/bootstrap/bootstrap.min.css.map
+2024-01-06T05:47:05.9486111Z ./assets/lib/bootstrap/bootstrap.min.css
+2024-01-06T05:47:05.9489489Z ./assets/lib/bootstrap/bootstrap.bundle.min.js.map
+2024-01-06T05:47:05.9493855Z ./assets/lib/bootstrap/bootstrap.bundle.min.js
+2024-01-06T05:47:05.9495374Z ./assets/lib/LICENSE
+2024-01-06T05:47:05.9495878Z ./assets/lib/clipboard/
+2024-01-06T05:47:05.9496437Z ./assets/lib/clipboard/clipboard.min.js
+2024-01-06T05:47:05.9497372Z ./assets/lib/loading-attribute-polyfill/
+2024-01-06T05:47:05.9498403Z ./assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js
+2024-01-06T05:47:05.9499249Z ./assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.min.css
+2024-01-06T05:47:05.9499965Z ./assets/lib/magnific-popup/
+2024-01-06T05:47:05.9500848Z ./assets/lib/magnific-popup/jquery.magnific-popup.min.js
+2024-01-06T05:47:05.9501556Z ./assets/lib/magnific-popup/magnific-popup.css
+2024-01-06T05:47:05.9502130Z ./assets/lib/README.md
+2024-01-06T05:47:05.9502698Z ./assets/lib/jquery/
+2024-01-06T05:47:05.9503159Z ./assets/lib/jquery/jquery.min.js
+2024-01-06T05:47:05.9503599Z ./assets/lib/dayjs/
+2024-01-06T05:47:05.9504035Z ./assets/lib/dayjs/dayjs.min.js
+2024-01-06T05:47:05.9504419Z ./assets/lib/dayjs/locale/
+2024-01-06T05:47:05.9504943Z ./assets/lib/dayjs/locale/en.min.js
+2024-01-06T05:47:05.9505552Z ./assets/lib/dayjs/plugin/
+2024-01-06T05:47:05.9505960Z ./assets/lib/dayjs/plugin/relativeTime.min.js
+2024-01-06T05:47:05.9506565Z ./assets/lib/dayjs/plugin/localizedFormat.min.js
+2024-01-06T05:47:05.9507187Z ./categories/
+2024-01-06T05:47:05.9507600Z ./categories/philosophy/
+2024-01-06T05:47:05.9507965Z ./categories/philosophy/index.html
+2024-01-06T05:47:05.9508554Z ./categories/metaphysics/
+2024-01-06T05:47:05.9508963Z ./categories/metaphysics/index.html
+2024-01-06T05:47:05.9509417Z ./categories/index.html
+2024-01-06T05:47:05.9509913Z ./categories/blog/
+2024-01-06T05:47:05.9510338Z ./categories/blog/index.html
+2024-01-06T05:47:05.9510950Z ./categories/technology/
+2024-01-06T05:47:05.9511540Z ./categories/technology/index.html
+2024-01-06T05:47:05.9511953Z ./categories/geoscience/
+2024-01-06T05:47:05.9512285Z ./categories/geoscience/index.html
+2024-01-06T05:47:05.9512742Z ./categories/esoteric/
+2024-01-06T05:47:05.9513114Z ./categories/esoteric/index.html
+2024-01-06T05:47:05.9513466Z ./categories/nature/
+2024-01-06T05:47:05.9513890Z ./categories/nature/index.html
+2024-01-06T05:47:05.9514253Z ./interactive/
+2024-01-06T05:47:05.9514673Z ./interactive/16-working3.html
+2024-01-06T05:47:05.9515309Z ./interactive/12-intree_4_whip.html
+2024-01-06T05:47:05.9515754Z ./interactive/06-adaptation.html
+2024-01-06T05:47:05.9516144Z ./interactive/09-dancing_box.html
+2024-01-06T05:47:05.9516751Z ./interactive/assets/
+2024-01-06T05:47:05.9517094Z ./interactive/assets/img/
+2024-01-06T05:47:05.9517449Z ./interactive/assets/img/instructions.png
+2024-01-06T05:47:05.9518103Z ./interactive/assets/img/bluefish.jpg
+2024-01-06T05:47:05.9518551Z ./interactive/assets/demos/
+2024-01-06T05:47:05.9519083Z ./interactive/assets/demos/16-working3.gif
+2024-01-06T05:47:05.9519962Z ./interactive/assets/demos/09-dancing_box.gif
+2024-01-06T05:47:05.9520485Z ./interactive/assets/demos/16-working3.gif.svg
+2024-01-06T05:47:05.9526118Z ./interactive/assets/demos/13-metaderv.gif.svg
+2024-01-06T05:47:05.9526652Z ./interactive/assets/demos/07-plantlife.gif.svg
+2024-01-06T05:47:05.9530092Z ./interactive/assets/demos/18-intree_2.gif
+2024-01-06T05:47:05.9530783Z ./interactive/assets/demos/03_relativity-trans.gif
+2024-01-06T05:47:05.9531487Z ./interactive/assets/demos/17-notclock.gif.svg
+2024-01-06T05:47:05.9538841Z ./interactive/assets/demos/11-fireclaw.gif
+2024-01-06T05:47:05.9540190Z ./interactive/assets/demos/15-working.gif
+2024-01-06T05:47:05.9541131Z ./interactive/assets/demos/06-adaptation.gif
+2024-01-06T05:47:05.9575466Z ./interactive/assets/demos/14-tree.gif
+2024-01-06T05:47:05.9576976Z ./interactive/assets/demos/`.gif
+2024-01-06T05:47:05.9630153Z ./interactive/assets/demos/13-metaderv.gif
+2024-01-06T05:47:05.9630893Z ./interactive/assets/demos/05-dancing_squid.gif
+2024-01-06T05:47:05.9633239Z ./interactive/assets/demos/15-working.gif.svg
+2024-01-06T05:47:05.9634139Z ./interactive/assets/demos/17-notclock.gif
+2024-01-06T05:47:05.9635043Z ./interactive/assets/demos/10-freewire.gif
+2024-01-06T05:47:05.9687619Z ./interactive/assets/demos/03_relativity.gif.svg
+2024-01-06T05:47:05.9688828Z ./interactive/assets/demos/09-dancing_box.gif.svg
+2024-01-06T05:47:05.9689994Z ./interactive/assets/demos/19-intree_3.gif
+2024-01-06T05:47:05.9691038Z ./interactive/assets/demos/12-intree_4_whip.gif
+2024-01-06T05:47:05.9701486Z ./interactive/assets/demos/06-adaptation.gif.svg
+2024-01-06T05:47:05.9703037Z ./interactive/assets/demos/01-growth_15deg.gif.svg
+2024-01-06T05:47:05.9704488Z ./interactive/assets/demos/11-fireclaw.gif.svg
+2024-01-06T05:47:05.9705394Z ./interactive/assets/demos/19-intree_3.gif.svg
+2024-01-06T05:47:05.9711482Z ./interactive/assets/demos/07-plantlife.gif
+2024-01-06T05:47:05.9712638Z ./interactive/assets/demos/03_relativity.gif
+2024-01-06T05:47:05.9714193Z ./interactive/assets/demos/02-fluff.gif.svg
+2024-01-06T05:47:05.9715214Z ./interactive/assets/demos/08-bluefish.gif
+2024-01-06T05:47:05.9824482Z ./interactive/assets/demos/08-bluefish.gif.svg
+2024-01-06T05:47:05.9828172Z ./interactive/assets/demos/05-dancing_squid.gif.svg
+2024-01-06T05:47:05.9829300Z ./interactive/assets/demos/14-tree.gif.svg
+2024-01-06T05:47:05.9830374Z ./interactive/assets/demos/12-intree_4_whip.gif.svg
+2024-01-06T05:47:05.9836343Z ./interactive/assets/demos/18-intree_2.gif.svg
+2024-01-06T05:47:05.9841926Z ./interactive/assets/demos/01-growth_15deg.gif
+2024-01-06T05:47:05.9842801Z ./interactive/assets/demos/04-honeycomb.gif
+2024-01-06T05:47:05.9843717Z ./interactive/assets/demos/10-freewire.gif.svg
+2024-01-06T05:47:05.9847105Z ./interactive/assets/demos/04-honeycomb.gif.svg
+2024-01-06T05:47:05.9853684Z ./interactive/assets/demos/02-fluff.gif
+2024-01-06T05:47:05.9919217Z ./interactive/assets/notclock.png
+2024-01-06T05:47:05.9922683Z ./interactive/07-plantlife.html
+2024-01-06T05:47:05.9923506Z ./interactive/04-honeycomb.html
+2024-01-06T05:47:05.9924210Z ./interactive/15-working.html
+2024-01-06T05:47:05.9925093Z ./interactive/05-dancing_squid.html
+2024-01-06T05:47:05.9925907Z ./interactive/17-notclock.html
+2024-01-06T05:47:05.9926651Z ./interactive/01-growth_15deg.html
+2024-01-06T05:47:05.9927556Z ./interactive/13-metaderv.html
+2024-01-06T05:47:05.9928291Z ./interactive/11-fireclaw.html
+2024-01-06T05:47:05.9928988Z ./interactive/03-relativity.html
+2024-01-06T05:47:05.9929851Z ./interactive/19-intree_3.html
+2024-01-06T05:47:05.9930638Z ./interactive/10-freewire.html
+2024-01-06T05:47:05.9931201Z ./transforms/
+2024-01-06T05:47:05.9937023Z ./transforms/t13_OOC-01z1-ALL_transform.html
+2024-01-06T05:47:05.9937816Z ./transforms/t02_Psymelon_Float_UNI_transform.html
+2024-01-06T05:47:05.9938633Z ./transforms/t15_Vespa-0_ALL_transform.html
+2024-01-06T05:47:05.9939424Z ./transforms/t14_V2th_4b_ALL_transform.html
+2024-01-06T05:47:05.9939926Z ./transforms/t12_cactus_fan_01_All_transform.html
+2024-01-06T05:47:05.9940447Z ./transforms/t09_CACTUS-05_ALL_transform.html
+2024-01-06T05:47:05.9940980Z ./transforms/assets/
+2024-01-06T05:47:05.9941433Z ./transforms/assets/t09_CACTUS-05_ALL_transform.gif
+2024-01-06T05:47:05.9941981Z ./transforms/assets/t06_cbv2.ccpg-1_UNI_transform.gif
+2024-01-06T05:47:05.9960416Z ./transforms/assets/t15_Vespa-0_ALL_transform.gif
+2024-01-06T05:47:06.0049190Z ./transforms/assets/t02_Psymelon_Float_UNI_transform.gif
+2024-01-06T05:47:06.0131208Z ./transforms/assets/t04_bezier_tree.gif
+2024-01-06T05:47:06.0138957Z ./transforms/assets/t01_bats-0_ALL_transform.gif
+2024-01-06T05:47:06.0251182Z ./transforms/assets/t17_TWIST-03_ALL_transform.gif
+2024-01-06T05:47:06.0257514Z ./transforms/assets/t13_OOC-01z1-ALL_transform.gif
+2024-01-06T05:47:06.0317049Z ./transforms/assets/t12_cactus_fan_01_All_transform.gif
+2024-01-06T05:47:06.0329668Z ./transforms/assets/t14_V2th_4b_ALL_transform.gif
+2024-01-06T05:47:06.0337383Z ./transforms/assets/t08_Psymelon_Strings_UNI_transform.gif
+2024-01-06T05:47:06.0430097Z ./transforms/assets/t10_CCPG-1_ALL_transform.gif
+2024-01-06T05:47:06.0504051Z ./transforms/assets/t10_CCPG-1_ALL_transform-trans.gif
+2024-01-06T05:47:06.0574654Z ./transforms/assets/t05_CACTUS-10_UNI_transform.gif
+2024-01-06T05:47:06.0614393Z ./transforms/assets/t16_WfjIyR_s9Js.gif
+2024-01-06T05:47:06.0680786Z ./transforms/assets/t19_Ocho-0_UNI_transform.gif
+2024-01-06T05:47:06.0689181Z ./transforms/assets/t16_CACTUS-12_UNI_transform.gif
+2024-01-06T05:47:06.0777999Z ./transforms/assets/t07_Complex_Bezier_Tree.gif
+2024-01-06T05:47:06.0792710Z ./transforms/assets/t18_bugman.gif
+2024-01-06T05:47:06.0806084Z ./transforms/assets/t11_Dots-1_ALL_transform.gif
+2024-01-06T05:47:06.0899498Z ./transforms/assets/t03_V2th-04_ALL_transform.gif
+2024-01-06T05:47:06.0908789Z ./transforms/t07_Complex_Bezier_Tree.html
+2024-01-06T05:47:06.0909778Z ./transforms/t04_bezier_tree.html
+2024-01-06T05:47:06.0910497Z ./transforms/t19_Ocho-0_UNI_transform.html
+2024-01-06T05:47:06.0911308Z ./transforms/t03_V2th-04_ALL_transform.html
+2024-01-06T05:47:06.0912268Z ./transforms/t17_TWIST-03_ALL_transform.html
+2024-01-06T05:47:06.0913043Z ./transforms/t10_CCPG-1_ALL_transform.html
+2024-01-06T05:47:06.0913835Z ./transforms/t05_CACTUS-10_UNI_transform.html
+2024-01-06T05:47:06.0914807Z ./transforms/t16_CACTUS-12_UNI_transform.html
+2024-01-06T05:47:06.0915553Z ./transforms/t08_Psymelon_Strings_UNI_transform.html
+2024-01-06T05:47:06.0916436Z ./transforms/t06_cbv2.ccpg-1_UNI_transform.html
+2024-01-06T05:47:06.0917409Z ./transforms/t01_bats-0_ALL_transform.html
+2024-01-06T05:47:06.0918147Z ./transforms/t11_Dots-1_ALL_transform.html
+2024-01-06T05:47:06.0918824Z ./transforms/t18_bugman.html
+2024-01-06T05:47:06.0919731Z ./videos.html
+2024-01-06T05:47:06.0920175Z ./about.html
+2024-01-06T05:47:06.0920667Z ./the_book.html
+2024-01-06T05:47:06.0921270Z ./norobots/
+2024-01-06T05:47:06.0921698Z ./norobots/index.html
+2024-01-06T05:47:06.0922224Z ./app.js
+2024-01-06T05:47:06.0922771Z ./posts/
+2024-01-06T05:47:06.0923669Z ./posts/spellcheck/
+2024-01-06T05:47:06.0924259Z ./posts/spellcheck/index.html
+2024-01-06T05:47:06.0925078Z ./posts/AI-discovers-god/
+2024-01-06T05:47:06.0925684Z ./posts/AI-discovers-god/index.html
+2024-01-06T05:47:06.0926405Z ./posts/more-water-material/
+2024-01-06T05:47:06.0927198Z ./posts/more-water-material/index.html
+2024-01-06T05:47:06.0927822Z ./posts/index.html
+2024-01-06T05:47:06.0928332Z ./posts/post_1/
+2024-01-06T05:47:06.0928925Z ./posts/post_1/index.html
+2024-01-06T05:47:06.0929472Z ./posts/christmas_miracle/
+2024-01-06T05:47:06.0930057Z ./posts/christmas_miracle/index.html
+2024-01-06T05:47:06.0930849Z ./posts/order-from-chaos/
+2024-01-06T05:47:06.0931470Z ./posts/order-from-chaos/index.html
+2024-01-06T05:47:06.0932232Z ./posts/time-wave-zero/
+2024-01-06T05:47:06.0932862Z ./posts/time-wave-zero/index.html
+2024-01-06T05:47:06.0933442Z ./redirects.json
+2024-01-06T05:47:06.0934028Z ./mindmap.json
+2024-01-06T05:47:06.0934592Z ./code-of-conduct.html
+2024-01-06T05:47:06.0935085Z ./material/
+2024-01-06T05:47:06.0935911Z ./material/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.html
+2024-01-06T05:47:06.0936870Z ./material/book_ringmakers.html
+2024-01-06T05:47:06.0937512Z ./material/book_3books_on_improving_eyesight.html
+2024-01-06T05:47:06.0938452Z ./material/material_Intelligence_as_Smart_Heuristics.html
+2024-01-06T05:47:06.0939495Z ./material/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.html
+2024-01-06T05:47:06.0940511Z ./material/book_The_Projection_Of_The_Astral_Body_NOTFREE.html
+2024-01-06T05:47:06.0941529Z ./material/material_Zero_Divided_by_Zero_Equals_One.html
+2024-01-06T05:47:06.0942424Z ./material/material_MARS_EXPLORATION_MAY_22_1984.html
+2024-01-06T05:47:06.0943406Z ./material/book_How-to-experience-out-of-body-travel.html
+2024-01-06T05:47:06.0944554Z ./material/material_historical-evolution-of-ai.html
+2024-01-06T05:47:06.0945350Z ./material/material_baalism_and_yaism.html
+2024-01-06T05:47:06.0946044Z ./material/material_language_beliefs.html
+2024-01-06T05:47:06.0947127Z ./material/material_Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.html
+2024-01-06T05:47:06.0947857Z ./material/material_Univ_intel_and_def_of_machine_intel.html
+2024-01-06T05:47:06.0948633Z ./material/material_El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.html
+2024-01-06T05:47:06.0949426Z ./material/material_baalism_and_yaism_updated.html
+2024-01-06T05:47:06.0949915Z ./material/material_chinese_rainmaking.html
+2024-01-06T05:47:06.0950962Z ./material/material_decoding-the-neural-representation-of-story-meanings-across-languages.html
+2024-01-06T05:47:06.0951858Z ./material/material_probability_models_for_complex_systems.html
+2024-01-06T05:47:06.0952379Z ./material/material_language_self_awareness.html
+2024-01-06T05:47:06.0952886Z ./material/material_quantum_decoherence.html
+2024-01-06T05:47:06.0953591Z ./material/material_SharedDeathExperiences-AMulticulturalSurvey.html
+2024-01-06T05:47:06.0954858Z ./material/material_vdoc.pub_quantum-decoherence-poincare-seminar.html
+2024-01-06T05:47:06.0955902Z ./material/book_bhagavad-gita.html
+2024-01-06T05:47:06.0956707Z ./material/book_THOLONIA_COLORING_BOOK.html
+2024-01-06T05:47:06.0957333Z ./material/assets/
+2024-01-06T05:47:06.0957996Z ./material/assets/book_3books_on_improving_eyesight.zip
+2024-01-06T05:47:06.0959669Z ./material/assets/material_El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.pdf
+2024-01-06T05:47:06.0960864Z ./material/assets/book_limitless.zip
+2024-01-06T05:47:06.0961702Z ./material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.png
+2024-01-06T05:47:06.0962918Z ./material/assets/material_quantum_decoherence.pdf
+2024-01-06T05:47:06.0963808Z ./material/assets/material_Modeling_Extended_Intelligence.pdf
+2024-01-06T05:47:06.0964684Z ./material/assets/material_science_duality.png
+2024-01-06T05:47:06.0965611Z ./material/assets/material_effects-of-distant-intention-on-water.jpg
+2024-01-06T05:47:06.0966394Z ./material/assets/material_popstruct.png
+2024-01-06T05:47:06.0966856Z ./material/assets/material_Elyon_in_Genesis.pdf
+2024-01-06T05:47:06.0973677Z ./material/assets/material_healing-with-water.md.jpg
+2024-01-06T05:47:06.0975833Z ./material/assets/material_Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.pdf
+2024-01-06T05:47:06.1021995Z ./material/assets/material_Molecular_dynamics_study_of_tridymite.pdf
+2024-01-06T05:47:06.1043713Z ./material/assets/material_Structured_Water_effects_on_animals.png
+2024-01-06T05:47:06.1047492Z ./material/assets/material_vdoc.pub_quantum-decoherence-poincare-seminar.pdf
+2024-01-06T05:47:06.1085523Z ./material/assets/book_bhagavad-gita.jpg
+2024-01-06T05:47:06.1086376Z ./material/assets/book_meta_newton_NOTFREE.zip
+2024-01-06T05:47:06.1087260Z ./material/assets/material_time-wave-zero.pdf
+2024-01-06T05:47:06.1088342Z ./material/assets/language_self_awareness.png
+2024-01-06T05:47:06.1089280Z ./material/assets/material_Effects_of_Changes_in_Water_Intake_on_Mood.pdf
+2024-01-06T05:47:06.1094622Z ./material/assets/material_Modeling_Extended_Intelligence.png
+2024-01-06T05:47:06.1096831Z ./material/assets/book_THOLONIA_COLORING_BOOK.jpg
+2024-01-06T05:47:06.1097874Z ./material/assets/book_ringmakers.zip
+2024-01-06T05:47:06.1098551Z ./material/assets/material_Brownian_Motion.pdf
+2024-01-06T05:47:06.1100614Z ./material/assets/material_E8_Root_Vectors_from_8D_to_3D.pdf
+2024-01-06T05:47:06.1203627Z ./material/assets/material_3d_nonlin_tim_anal_siesmic.pdf
+2024-01-06T05:47:06.1355401Z ./material/assets/material_symmetry-11-00391.png
+2024-01-06T05:47:06.1358676Z ./material/assets/material_effects-of-distant-intention-on-water.pdf
+2024-01-06T05:47:06.1360182Z ./material/assets/material_baalism_and_yaism.pdf
+2024-01-06T05:47:06.1372913Z ./material/assets/material_decoding-the-neural-representation-of-story-meanings-across-languages.jpg
+2024-01-06T05:47:06.1374289Z ./material/assets/grounding.pdf
+2024-01-06T05:47:06.1422810Z ./material/assets/book_THOLONIA_COLORING_BOOK.zip
+2024-01-06T05:47:06.1424265Z ./material/assets/material_CIA-page25.png
+2024-01-06T05:47:06.1427632Z ./material/assets/material_decoding-the-neural-representation-of-story-meanings-across-languages.pdf
+2024-01-06T05:47:06.1432054Z ./material/assets/material_QuantumGravityandtheRoleofConsciousnessinPhysics.png
+2024-01-06T05:47:06.1432959Z ./material/assets/constructivists-view-of-newtonian-mechanics.png
+2024-01-06T05:47:06.1433875Z ./material/assets/material_What_is_Schrodingers_Negentropy.pdf
+2024-01-06T05:47:06.1435093Z ./material/assets/material_quantum_decoherence.png
+2024-01-06T05:47:06.1436037Z ./material/assets/material_Univ_intel_and_def_of_machine_intel.png
+2024-01-06T05:47:06.1436889Z ./material/assets/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.png
+2024-01-06T05:47:06.1440807Z ./material/assets/material_MaruyamaEarthLifeBook2001.pdf
+2024-01-06T05:47:06.1458903Z ./material/assets/material_TrueValue_overview_v1.png
+2024-01-06T05:47:06.1460220Z ./material/assets/material_E8_Root_Vectors_from_8D_to_3D.png
+2024-01-06T05:47:06.1464093Z ./material/assets/material_baalism_and_yaism_updated.png
+2024-01-06T05:47:06.1464859Z ./material/assets/material_Zero_Divided_by_Zero_Equals_One.pdf
+2024-01-06T05:47:06.1469398Z ./material/assets/material_CIA-page25.pdf
+2024-01-06T05:47:06.1563084Z ./material/assets/material_attention-is-all-you-need.png
+2024-01-06T05:47:06.1564442Z ./material/assets/material_MaruyamaEarthLifeBook2001.png
+2024-01-06T05:47:06.1565108Z ./material/assets/book_red_NOTFREE.zip
+2024-01-06T05:47:06.1565825Z ./material/assets/book_Adventures_Beyond_the_Body_NOTFREE.jpg
+2024-01-06T05:47:06.1566781Z ./material/assets/material_Univ_intel_and_def_of_machine_intel.pdf
+2024-01-06T05:47:06.1573907Z ./material/assets/book_psy_occult_jung_NOTFREE.jpg
+2024-01-06T05:47:06.1575063Z ./material/assets/book_QED_NOTFREE.zip
+2024-01-06T05:47:06.1575563Z ./material/assets/grounding.png
+2024-01-06T05:47:06.1578438Z ./material/assets/book_psy_occult_jung_NOTFREE.zip
+2024-01-06T05:47:06.1579949Z ./material/assets/material_symmetry-11-00391.pdf
+2024-01-06T05:47:06.1762459Z ./material/assets/material_pattern_processing.png
+2024-01-06T05:47:06.1764594Z ./material/assets/material_The_Unexpected_Side_of_the_CIA.pdf
+2024-01-06T05:47:06.1772234Z ./material/assets/book_ICHING_THE_BOOK.jpg
+2024-01-06T05:47:06.1774213Z ./material/assets/material_historical-evolution-of-ai.pdf
+2024-01-06T05:47:06.1792048Z ./material/assets/book_What_is_Life.jpg
+2024-01-06T05:47:06.1792763Z ./material/assets/book_QED_NOTFREE.jpg
+2024-01-06T05:47:06.1794049Z ./material/assets/material_nonreflective_thinkers_supernatural.png
+2024-01-06T05:47:06.1796050Z ./material/assets/material_El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.png
+2024-01-06T05:47:06.1798187Z ./material/assets/material_neural_correlates.pdf
+2024-01-06T05:47:06.1831866Z ./material/assets/material_Intelligence_as_Smart_Heuristics.png
+2024-01-06T05:47:06.1834176Z ./material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
+2024-01-06T05:47:06.1871926Z ./material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.pdf
+2024-01-06T05:47:06.1877381Z ./material/assets/material_Brownian_Motion.png
+2024-01-06T05:47:06.1878769Z ./material/assets/material_Self-Organization_Entropy_Generation_Rate_and_Boundary.png
+2024-01-06T05:47:06.1880504Z ./material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.png
+2024-01-06T05:47:06.1881713Z ./material/assets/book_3books_on_improving_eyesight.jpg
+2024-01-06T05:47:06.1882666Z ./material/assets/extragalactic_cosmic.png
+2024-01-06T05:47:06.1883500Z ./material/assets/brain_structure_consciousness.png
+2024-01-06T05:47:06.1885188Z ./material/assets/material_probability_models_for_complex_systems.png
+2024-01-06T05:47:06.1888224Z ./material/assets/material_time-wave-zero.webp
+2024-01-06T05:47:06.1889485Z ./material/assets/material_Self-Organization_Entropy_Generation_Rate_and_Boundary.pdf
+2024-01-06T05:47:06.1934695Z ./material/assets/constructivists-view-of-newtonian-mechanics.pdf
+2024-01-06T05:47:06.1966648Z ./material/assets/material_Introduction_to_Complex_Systems_Sustainability_and.pdf
+2024-01-06T05:47:06.2019606Z ./material/assets/harald-kautz-vella-the-7-keyspdf_compress.png
+2024-01-06T05:47:06.2020742Z ./material/assets/material_THE_ANIMATE.pdf
+2024-01-06T05:47:06.2030266Z ./material/assets/material_baalism_and_yaism.png
+2024-01-06T05:47:06.2031472Z ./material/assets/book_intention_NOTFREE.zip
+2024-01-06T05:47:06.2032623Z ./material/assets/material_sciam_observations_the_hippies_were_r.pdf
+2024-01-06T05:47:06.2039872Z ./material/assets/material_MARS_EXPLORATION_MAY_22_1984.pdf
+2024-01-06T05:47:06.2042269Z ./material/assets/book_limitless.jpg
+2024-01-06T05:47:06.2043833Z ./material/assets/extragalactic_cosmic.pdf
+2024-01-06T05:47:06.2051077Z ./material/assets/material_Introduction_to_Complex_Systems_Sustainability_and.png
+2024-01-06T05:47:06.2061163Z ./material/assets/material_MARS_EXPLORATION_MAY_22_1984.png
+2024-01-06T05:47:06.2062077Z ./material/assets/book_ICHING_THE_BOOK.zip
+2024-01-06T05:47:06.2062889Z ./material/assets/book_meta_newton_NOTFREE.jpg
+2024-01-06T05:47:06.2065621Z ./material/assets/material_sciam_observations_the_hippies_were_r.png
+2024-01-06T05:47:06.2072967Z ./material/assets/material_BecomingHumanCheatSheets.png
+2024-01-06T05:47:06.2077359Z ./material/assets/material_QuantumGravityandtheRoleofConsciousnessinPhysics.pdf
+2024-01-06T05:47:06.2337814Z ./material/assets/material_Hydrogen-Bonding-in-Water.pdf
+2024-01-06T05:47:06.2342094Z ./material/assets/book_Far_Journeys_NOTFREE.jpg
+2024-01-06T05:47:06.2343087Z ./material/assets/material_nonreflective_thinkers_supernatural.pdf
+2024-01-06T05:47:06.2349929Z ./material/assets/material_Intelligence_as_Smart_Heuristics.pdf
+2024-01-06T05:47:06.2354982Z ./material/assets/book_The_Matter_With_Things_NOTFREE.zip
+2024-01-06T05:47:06.2355926Z ./material/assets/material_Elyon_in_Genesis.png
+2024-01-06T05:47:06.2357445Z ./material/assets/book_The_Projection_Of_The_Astral_Body_NOTFREE.jpg
+2024-01-06T05:47:06.2361048Z ./material/assets/material_TrueValue_overview_v1.pdf
+2024-01-06T05:47:06.2389812Z ./material/assets/book_Adventures_Beyond_the_Body_NOTFREE.zip
+2024-01-06T05:47:06.2391108Z ./material/assets/material_Effects_of_Changes_in_Water_Intake_on_Mood.png
+2024-01-06T05:47:06.2392169Z ./material/assets/book_cosmic_cons_of_humanity.jpg
+2024-01-06T05:47:06.2393055Z ./material/assets/book_The_Fourth_Phase_of_Water.zip
+2024-01-06T05:47:06.2394001Z ./material/assets/material_THE_ANIMATE.png
+2024-01-06T05:47:06.2394780Z ./material/assets/book_intention_NOTFREE.jpg
+2024-01-06T05:47:06.2395605Z ./material/assets/material_pattern_processing.pdf
+2024-01-06T05:47:06.2428511Z ./material/assets/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.pdf
+2024-01-06T05:47:06.2731753Z ./material/assets/material_SharedDeathExperiences-AMulticulturalSurvey.pdf
+2024-01-06T05:47:06.2738301Z ./material/assets/material_attention-is-all-you-need.pdf
+2024-01-06T05:47:06.2767733Z ./material/assets/constructivists-view-of-newtonian-mechanics.psd
+2024-01-06T05:47:06.2774378Z ./material/assets/material_historical-evolution-of-ai.jpg
+2024-01-06T05:47:06.2775738Z ./material/assets/book_cosmic_cons_of_humanity.zip
+2024-01-06T05:47:06.2777021Z ./material/assets/brain_structure_consciousness.pdf
+2024-01-06T05:47:06.2895393Z ./material/assets/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.png
+2024-01-06T05:47:06.2897188Z ./material/assets/material_Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.png
+2024-01-06T05:47:06.2898445Z ./material/assets/book_The_Fourth_Phase_of_Water.jpg
+2024-01-06T05:47:06.2900271Z ./material/assets/book_The_Matter_With_Things_NOTFREE.jpg
+2024-01-06T05:47:06.2901340Z ./material/assets/chinese_rainmaking.png
+2024-01-06T05:47:06.2902707Z ./material/assets/book_The_Projection_Of_The_Astral_Body_NOTFREE.zip
+2024-01-06T05:47:06.2903709Z ./material/assets/material_science_duality.pdf
+2024-01-06T05:47:06.2918439Z ./material/assets/harald-kautz-vella-the-7-keyspdf_compress.pdf
+2024-01-06T05:47:06.2930242Z ./material/assets/material_BecomingHumanCheatSheets.pdf
+2024-01-06T05:47:06.3511000Z ./material/assets/chinese_rainmaking.pdf
+2024-01-06T05:47:06.3515210Z ./material/assets/material_SharedDeathExperiences-AMulticulturalSurvey.png
+2024-01-06T05:47:06.3516345Z ./material/assets/book_What_is_Life.zip
+2024-01-06T05:47:06.3517158Z ./material/assets/book_bhagavad-gita.zip
+2024-01-06T05:47:06.3518067Z ./material/assets/book_red_NOTFREE.jpg
+2024-01-06T05:47:06.3518945Z ./material/assets/material_Zero_Divided_by_Zero_Equals_One.png
+2024-01-06T05:47:06.3520526Z ./material/assets/material_healing-with-water.md.pdf
+2024-01-06T05:47:06.3522283Z ./material/assets/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.pdf
+2024-01-06T05:47:06.3538938Z ./material/assets/book_Chemical_Evolution_NOTFREE.zip
+2024-01-06T05:47:06.3539817Z ./material/assets/material_popstruct.pdf
+2024-01-06T05:47:06.3549444Z ./material/assets/language_beliefs.png
+2024-01-06T05:47:06.3550663Z ./material/assets/material_Hydrogen-Bonding-in-Water.png
+2024-01-06T05:47:06.3552146Z ./material/assets/book_Far_Journeys_NOTFREE.zip
+2024-01-06T05:47:06.3553307Z ./material/assets/material_probability_models_for_complex_systems.pdf
+2024-01-06T05:47:06.3566526Z ./material/assets/material_What_is_Schrodingers_Negentropy.png
+2024-01-06T05:47:06.3567575Z ./material/assets/book_Chemical_Evolution_NOTFREE.jpg
+2024-01-06T05:47:06.3568610Z ./material/assets/material_neural_correlates.png
+2024-01-06T05:47:06.3573676Z ./material/assets/material_3d_nonlin_tim_anal_siesmic.png
+2024-01-06T05:47:06.3574999Z ./material/assets/material_vdoc.pub_quantum-decoherence-poincare-seminar.png
+2024-01-06T05:47:06.3576185Z ./material/assets/language_beliefs.pdf
+2024-01-06T05:47:06.3577354Z ./material/assets/material_Molecular_dynamics_study_of_tridymite.png
+2024-01-06T05:47:06.3580136Z ./material/assets/material_Structured_Water_effects_on_animals.pdf
+2024-01-06T05:47:06.3591525Z ./material/assets/book_ringmakers.jpg
+2024-01-06T05:47:06.3592546Z ./material/assets/language_self_awareness.pdf
+2024-01-06T05:47:06.3609373Z ./material/assets/material_baalism_and_yaism_updated.pdf
+2024-01-06T05:47:06.3615031Z ./material/assets/material_The_Unexpected_Side_of_the_CIA.png
+2024-01-06T05:47:06.3616976Z ./material/assets/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.pdf
+2024-01-06T05:47:06.3618360Z ./material/assets/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.png
+2024-01-06T05:47:06.3619783Z ./material/material_MaruyamaEarthLifeBook2001.html
+2024-01-06T05:47:06.3620903Z ./material/material_Introduction_to_Complex_Systems_Sustainability_and.html
+2024-01-06T05:47:06.3622088Z ./material/book_Chemical_Evolution_NOTFREE.html
+2024-01-06T05:47:06.3622965Z ./material/material_3d_nonlin_tim_anal_siesmic.html
+2024-01-06T05:47:06.3623838Z ./material/material_Modeling_Extended_Intelligence.html
+2024-01-06T05:47:06.3624838Z ./material/book_intention_NOTFREE.html
+2024-01-06T05:47:06.3626023Z ./material/material_constructivists-view-of-newtonian-mechanics.html
+2024-01-06T05:47:06.3626981Z ./material/book_limitless.html
+2024-01-06T05:47:06.3627935Z ./material/material_Structured_Water_effects_on_animals.html
+2024-01-06T05:47:06.3628947Z ./material/material_time-wave-zero.html
+2024-01-06T05:47:06.3629699Z ./material/book_The_Matter_With_Things_NOTFREE.html
+2024-01-06T05:47:06.3630783Z ./material/material_symmetry-11-00391.html
+2024-01-06T05:47:06.3631734Z ./material/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.html
+2024-01-06T05:47:06.3633171Z ./material/book_The_Fourth_Phase_of_Water.html
+2024-01-06T05:47:06.3634316Z ./material/material_Hydrogen-Bonding-in-Water.html
+2024-01-06T05:47:06.3635163Z ./material/book_meta_newton_NOTFREE.html
+2024-01-06T05:47:06.3635869Z ./material/material_neural_correlates.html
+2024-01-06T05:47:06.3636740Z ./material/material_grounding.html
+2024-01-06T05:47:06.3637473Z ./material/material_extragalactic_cosmic.html
+2024-01-06T05:47:06.3638635Z ./material/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.html
+2024-01-06T05:47:06.3640177Z ./material/material_brain_structure_consciousness.html
+2024-01-06T05:47:06.3641082Z ./material/book_Far_Journeys_NOTFREE.html
+2024-01-06T05:47:06.3641859Z ./material/material_popstruct.html
+2024-01-06T05:47:06.3642760Z ./material/material_healing-with-water.html
+2024-01-06T05:47:06.3643517Z ./material/book_ICHING_THE_BOOK.html
+2024-01-06T05:47:06.3644257Z ./material/material_science_duality.html
+2024-01-06T05:47:06.3645149Z ./material/book_Adventures_Beyond_the_Body_NOTFREE.html
+2024-01-06T05:47:06.3646345Z ./material/material_What_is_Schrodingers_Negentropy.html
+2024-01-06T05:47:06.3647322Z ./material/material_nonreflective_thinkers_supernatural.html
+2024-01-06T05:47:06.3648296Z ./material/material_pattern_processing.html
+2024-01-06T05:47:06.3649227Z ./material/material_Molecular_dynamics_study_of_tridymite.html
+2024-01-06T05:47:06.3650132Z ./material/material_Elyon_in_Genesis.html
+2024-01-06T05:47:06.3650942Z ./material/material_Brownian_Motion.html
+2024-01-06T05:47:06.3651747Z ./material/material_TrueValue_overview_v1.html
+2024-01-06T05:47:06.3652844Z ./material/material_harald-kautz-vella-the-7-keyspdf_compress.html
+2024-01-06T05:47:06.3653847Z ./material/book_What_is_Life.html
+2024-01-06T05:47:06.3654972Z ./material/material_Self-Organization_Entropy_Generation_Rate_and_Boundary.html
+2024-01-06T05:47:06.3656441Z ./material/material_QuantumGravityandtheRoleofConsciousnessinPhysics.html
+2024-01-06T05:47:06.3657674Z ./material/material_THE_ANIMATE.html
+2024-01-06T05:47:06.3658645Z ./material/material_effects-of-distant-intention-on-water.html
+2024-01-06T05:47:06.3659632Z ./material/material_CIA-page25.html
+2024-01-06T05:47:06.3660705Z ./material/material_Effects_of_Changes_in_Water_Intake_on_Mood.html
+2024-01-06T05:47:06.3661566Z ./material/book_red_NOTFREE.html
+2024-01-06T05:47:06.3662347Z ./material/material_The_Unexpected_Side_of_the_CIA.html
+2024-01-06T05:47:06.3663387Z ./material/material_BecomingHumanCheatSheets.html
+2024-01-06T05:47:06.3664325Z ./material/material_attention-is-all-you-need.html
+2024-01-06T05:47:06.3665652Z ./material/material_blogs_scientificamerican_com_observations_the_hippies_were_r.html
+2024-01-06T05:47:06.3666955Z ./material/material_E8_Root_Vectors_from_8D_to_3D.html
+2024-01-06T05:47:06.3667756Z ./material/book_cosmic_cons_of_humanity.html
+2024-01-06T05:47:06.3668723Z ./material/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.html
+2024-01-06T05:47:06.3669808Z ./material/book_psy_occult_jung_NOTFREE.html
+2024-01-06T05:47:06.3670500Z ./material/book_QED_NOTFREE.html
+2024-01-06T05:47:06.3671289Z ./FINDINFILE
+2024-01-06T05:47:06.3671793Z ./gallery.html
+2024-01-06T05:47:06.3672268Z ./tholonic_coloring_book/
+2024-01-06T05:47:06.3673028Z ./tholonic_coloring_book/assets/
+2024-01-06T05:47:06.3673766Z ./tholonic_coloring_book/assets/growth_15deg.png
+2024-01-06T05:47:06.3674921Z ./tholonic_coloring_book/assets/hex/
+2024-01-06T05:47:06.3675953Z ./tholonic_coloring_book/assets/hex/hex-144.png
+2024-01-06T05:47:06.3676883Z ./tholonic_coloring_book/assets/hex/hex-054.png
+2024-01-06T05:47:06.3677740Z ./tholonic_coloring_book/assets/hex/hex-354.png
+2024-01-06T05:47:06.3678801Z ./tholonic_coloring_book/assets/hex/hex-238.png
+2024-01-06T05:47:06.3679906Z ./tholonic_coloring_book/assets/hex/hex-307.png
+2024-01-06T05:47:06.3680839Z ./tholonic_coloring_book/assets/hex/hex-271.png
+2024-01-06T05:47:06.3681806Z ./tholonic_coloring_book/assets/hex/hex-156.png
+2024-01-06T05:47:06.3682878Z ./tholonic_coloring_book/assets/hex/hex-351.png
+2024-01-06T05:47:06.3683834Z ./tholonic_coloring_book/assets/hex/hex-137.png
+2024-01-06T05:47:06.3684802Z ./tholonic_coloring_book/assets/hex/hex-093.png
+2024-01-06T05:47:06.3685712Z ./tholonic_coloring_book/assets/hex/hex-164.png
+2024-01-06T05:47:06.3686630Z ./tholonic_coloring_book/assets/hex/hex-032.png
+2024-01-06T05:47:06.3687588Z ./tholonic_coloring_book/assets/hex/hex-145.png
+2024-01-06T05:47:06.3688492Z ./tholonic_coloring_book/assets/hex/hex-171.png
+2024-01-06T05:47:06.3689409Z ./tholonic_coloring_book/assets/hex/hex-155.png
+2024-01-06T05:47:06.3690374Z ./tholonic_coloring_book/assets/hex/hex-231.png
+2024-01-06T05:47:06.3691284Z ./tholonic_coloring_book/assets/hex/hex-136.png
+2024-01-06T05:47:06.3692188Z ./tholonic_coloring_book/assets/hex/hex-035.png
+2024-01-06T05:47:06.3693135Z ./tholonic_coloring_book/assets/hex/hex-163.png
+2024-01-06T05:47:06.3694037Z ./tholonic_coloring_book/assets/hex/hex-090.png
+2024-01-06T05:47:06.3694932Z ./tholonic_coloring_book/assets/hex/hex-139.png
+2024-01-06T05:47:06.3695910Z ./tholonic_coloring_book/assets/hex/hex-025.png
+2024-01-06T05:47:06.3697124Z ./tholonic_coloring_book/assets/hex/hex-247.png
+2024-01-06T05:47:06.3698004Z ./tholonic_coloring_book/assets/hex/hex-274.png
+2024-01-06T05:47:06.3699032Z ./tholonic_coloring_book/assets/hex/hex-282.png
+2024-01-06T05:47:06.3699883Z ./tholonic_coloring_book/assets/hex/hex-153.png
+2024-01-06T05:47:06.3700842Z ./tholonic_coloring_book/assets/hex/hex-048.png
+2024-01-06T05:47:06.3701871Z ./tholonic_coloring_book/assets/hex/hex-075.png
+2024-01-06T05:47:06.3702737Z ./tholonic_coloring_book/assets/hex/hex-328.png
+2024-01-06T05:47:06.3703645Z ./tholonic_coloring_book/assets/hex/hex-349.png
+2024-01-06T05:47:06.3704664Z ./tholonic_coloring_book/assets/hex/hex-015.png
+2024-01-06T05:47:06.3705522Z ./tholonic_coloring_book/assets/hex/hex-100.png
+2024-01-06T05:47:06.3706425Z ./tholonic_coloring_book/assets/hex/hex-330.png
+2024-01-06T05:47:06.3707439Z ./tholonic_coloring_book/assets/hex/hex-318.png
+2024-01-06T05:47:06.3708262Z ./tholonic_coloring_book/assets/hex/hex-356.png
+2024-01-06T05:47:06.3709177Z ./tholonic_coloring_book/assets/hex/hex-186.png
+2024-01-06T05:47:06.3710274Z ./tholonic_coloring_book/assets/hex/hex-203.png
+2024-01-06T05:47:06.3711195Z ./tholonic_coloring_book/assets/hex/hex-347.png
+2024-01-06T05:47:06.3712129Z ./tholonic_coloring_book/assets/hex/hex-279.png
+2024-01-06T05:47:06.3713157Z ./tholonic_coloring_book/assets/hex/hex-343.png
+2024-01-06T05:47:06.3713996Z ./tholonic_coloring_book/assets/hex/hex-348.png
+2024-01-06T05:47:06.3714894Z ./tholonic_coloring_book/assets/hex/hex-152.png
+2024-01-06T05:47:06.3716092Z ./tholonic_coloring_book/assets/hex/hex-296.png
+2024-01-06T05:47:06.3716977Z ./tholonic_coloring_book/assets/hex/hex-019.png
+2024-01-06T05:47:06.3717893Z ./tholonic_coloring_book/assets/hex/hex-077.png
+2024-01-06T05:47:06.3718926Z ./tholonic_coloring_book/assets/hex/hex-181.png
+2024-01-06T05:47:06.3720049Z ./tholonic_coloring_book/assets/hex/hex-240.png
+2024-01-06T05:47:06.3720897Z ./tholonic_coloring_book/assets/hex/hex-083.png
+2024-01-06T05:47:06.3721917Z ./tholonic_coloring_book/assets/hex/hex-259.png
+2024-01-06T05:47:06.3722824Z ./tholonic_coloring_book/assets/hex/hex-286.png
+2024-01-06T05:47:06.3723807Z ./tholonic_coloring_book/assets/hex/hex-223.png
+2024-01-06T05:47:06.3724901Z ./tholonic_coloring_book/assets/hex/hex-358.png
+2024-01-06T05:47:06.3725889Z ./tholonic_coloring_book/assets/hex/hex-350.png
+2024-01-06T05:47:06.3730029Z ./tholonic_coloring_book/assets/hex/hex-104.png
+2024-01-06T05:47:06.3731699Z ./tholonic_coloring_book/assets/hex/hex-206.png
+2024-01-06T05:47:06.3732736Z ./tholonic_coloring_book/assets/hex/hex-003.png
+2024-01-06T05:47:06.3733903Z ./tholonic_coloring_book/assets/hex/hex-154.png
+2024-01-06T05:47:06.3735445Z ./tholonic_coloring_book/assets/hex/hex-199.png
+2024-01-06T05:47:06.3736715Z ./tholonic_coloring_book/assets/hex/hex-232.png
+2024-01-06T05:47:06.3737833Z ./tholonic_coloring_book/assets/hex/hex-201.png
+2024-01-06T05:47:06.3739074Z ./tholonic_coloring_book/assets/hex/hex-024.png
+2024-01-06T05:47:06.3740454Z ./tholonic_coloring_book/assets/hex/hex-310.png
+2024-01-06T05:47:06.3742978Z ./tholonic_coloring_book/assets/hex/hex-120.png
+2024-01-06T05:47:06.3743883Z ./tholonic_coloring_book/assets/hex/hex-258.png
+2024-01-06T05:47:06.3744856Z ./tholonic_coloring_book/assets/hex/hex-080.png
+2024-01-06T05:47:06.3746021Z ./tholonic_coloring_book/assets/hex/hex-224.png
+2024-01-06T05:47:06.3746951Z ./tholonic_coloring_book/assets/hex/hex-008.png
+2024-01-06T05:47:06.3747901Z ./tholonic_coloring_book/assets/hex/hex-157.png
+2024-01-06T05:47:06.3749006Z ./tholonic_coloring_book/assets/hex/hex-066.png
+2024-01-06T05:47:06.3750103Z ./tholonic_coloring_book/assets/hex/hex-227.png
+2024-01-06T05:47:06.3751209Z ./tholonic_coloring_book/assets/hex/hex-001.png
+2024-01-06T05:47:06.3753370Z ./tholonic_coloring_book/assets/hex/hex-283.png
+2024-01-06T05:47:06.3754666Z ./tholonic_coloring_book/assets/hex/hex-087.png
+2024-01-06T05:47:06.3755764Z ./tholonic_coloring_book/assets/hex/hex-300.png
+2024-01-06T05:47:06.3757961Z ./tholonic_coloring_book/assets/hex/hex-344.png
+2024-01-06T05:47:06.3759138Z ./tholonic_coloring_book/assets/hex/hex-172.png
+2024-01-06T05:47:06.3760284Z ./tholonic_coloring_book/assets/hex/hex-067.png
+2024-01-06T05:47:06.3762517Z ./tholonic_coloring_book/assets/hex/hex-311.png
+2024-01-06T05:47:06.3763564Z ./tholonic_coloring_book/assets/hex/hex-102.png
+2024-01-06T05:47:06.3764857Z ./tholonic_coloring_book/assets/hex/hex-149.png
+2024-01-06T05:47:06.3766231Z ./tholonic_coloring_book/assets/hex/hex-143.png
+2024-01-06T05:47:06.3767597Z ./tholonic_coloring_book/assets/hex/hex-241.png
+2024-01-06T05:47:06.3768609Z ./tholonic_coloring_book/assets/hex/hex-034.png
+2024-01-06T05:47:06.3769995Z ./tholonic_coloring_book/assets/samples_LONG.jpg
+2024-01-06T05:47:06.3780702Z ./tholonic_coloring_book/assets/samples_LONG-dark.jpg
+2024-01-06T05:47:06.3791287Z ./tholonic_coloring_book/assets/THOLONIA_COLORING_BOOK.pdf
+2024-01-06T05:47:06.4528571Z ./tholonic_coloring_book/assets/growth_15deg-dark.png
+2024-01-06T05:47:06.4529464Z ./tholonic_coloring_book/assets/coloringbook.png
+2024-01-06T05:47:06.4532245Z ./tholonic_coloring_book/assets/growth_15deg-dark.jpg
+2024-01-06T05:47:06.4533490Z ./tholonic_coloring_book/assets/growth_15deg.jpg
+2024-01-06T05:47:06.4534252Z ./gallery/
+2024-01-06T05:47:06.4534874Z ./gallery/interactive.html
+2024-01-06T05:47:06.4535500Z ./gallery/videos.html
+2024-01-06T05:47:06.4536089Z ./gallery/transforms.html
+2024-01-06T05:47:06.4536789Z ./gallery/notclock.html
+2024-01-06T05:47:06.4537409Z ./gallery/tholonic_coloring_book.html
+2024-01-06T05:47:06.4538090Z ./sitemap.xml
+2024-01-06T05:47:06.4539147Z ./favicon.ico
+2024-01-06T05:47:06.4539692Z ./the_book/
+2024-01-06T05:47:06.4540349Z ./the_book/100-FIELDS.html
+2024-01-06T05:47:06.4541304Z ./the_book/110-APPLICATION_OF_AWARENESS.html
+2024-01-06T05:47:06.4542149Z ./the_book/070-STRUCTURE.html
+2024-01-06T05:47:06.4542904Z ./the_book/580-I-Market_Data.html
+2024-01-06T05:47:06.4543732Z ./the_book/120-PREDETERMINISM.html
+2024-01-06T05:47:06.4544526Z ./the_book/520-C-Tholonic_Math.html
+2024-01-06T05:47:06.4545246Z ./the_book/pendix_L.html
+2024-01-06T05:47:06.4546032Z ./the_book/075-The_Thologram.html
+2024-01-06T05:47:06.4546787Z ./the_book/080-INSTANCES.html
+2024-01-06T05:47:06.4547423Z ./the_book/assets/
+2024-01-06T05:47:06.4548099Z ./the_book/assets/tholonia_the_book_ePub.jpg
+2024-01-06T05:47:06.4548926Z ./the_book/assets/latest/
+2024-01-06T05:47:06.4549610Z ./the_book/assets/latest/THOLONIA_THE_BOOK.html.zip
+2024-01-06T05:47:06.4550574Z ./the_book/assets/latest/THOLONIA_THE_BOOK.epub
+2024-01-06T05:47:06.4551390Z ./the_book/assets/latest/THOLONIA_THE_BOOK.md.zip
+2024-01-06T05:47:06.4552220Z ./the_book/assets/latest/tholonia_the_book_PDF.jpg
+2024-01-06T05:47:06.4553142Z ./the_book/assets/latest/THOLONIA_THE_BOOK.pdf
+2024-01-06T05:47:06.4553931Z ./the_book/assets/latest/tholonia_the_book_ePub.jpg
+2024-01-06T05:47:06.4554759Z ./the_book/assets/latest/tholonia_the_book_MD.jpg
+2024-01-06T05:47:06.4555694Z ./the_book/assets/latest/tholonia_the_book_HTML.jpg
+2024-01-06T05:47:06.4556428Z ./the_book/assets/chapters/
+2024-01-06T05:47:06.4557170Z ./the_book/assets/chapters/020-ENERGY.pdf
+2024-01-06T05:47:06.4559622Z ./the_book/assets/chapters/580-I-Market_Data-dark.jpg
+2024-01-06T05:47:06.4561170Z ./the_book/assets/chapters/080-INSTANCES-dark-trans.png
+2024-01-06T05:47:06.4564819Z ./the_book/assets/chapters/000-Intro.jpg
+2024-01-06T05:47:06.4565893Z ./the_book/assets/chapters/060-INFORMATION.jpg
+2024-01-06T05:47:06.4566829Z ./the_book/assets/chapters/520-C-Tholonic_Math.jpg
+2024-01-06T05:47:06.4568277Z ./the_book/assets/chapters/040-THE_LAWS.pdf
+2024-01-06T05:47:06.4880491Z ./the_book/assets/chapters/600-K-Sidis-dark.jpg
+2024-01-06T05:47:06.4881821Z ./the_book/assets/chapters/610-L-Thologram_and_Religion-dark-trans.png
+2024-01-06T05:47:06.4886563Z ./the_book/assets/chapters/040-THE_LAWS-dark-trans.png
+2024-01-06T05:47:06.4888252Z ./the_book/assets/chapters/100-FIELDS.pdf
+2024-01-06T05:47:06.5140178Z ./the_book/assets/chapters/050-REASON.pdf
+2024-01-06T05:47:06.5395279Z ./the_book/assets/chapters/110-APPLICATION_OF_AWARENESS.pdf
+2024-01-06T05:47:06.5626997Z ./the_book/assets/chapters/110-APPLICATION_OF_AWARENESS.jpg
+2024-01-06T05:47:06.5628026Z ./the_book/assets/chapters/580-I-Market_Data.jpg
+2024-01-06T05:47:06.5628966Z ./the_book/assets/chapters/090-MIND-dark.jpg
+2024-01-06T05:47:06.5630296Z ./the_book/assets/chapters/110-APPLICATION_OF_AWARENESS-dark-trans.png
+2024-01-06T05:47:06.5631396Z ./the_book/assets/chapters/090-MIND.jpg
+2024-01-06T05:47:06.5632941Z ./the_book/assets/chapters/075-The_Thologram.jpg
+2024-01-06T05:47:06.5635549Z ./the_book/assets/chapters/580-I-Market_Data.pdf
+2024-01-06T05:47:06.5817155Z ./the_book/assets/chapters/600-K-Sidis-dark-trans.png
+2024-01-06T05:47:06.5818264Z ./the_book/assets/chapters/550-F-An_Unexpected_Pattern.pdf
+2024-01-06T05:47:06.6277564Z ./the_book/assets/chapters/540-E-Hidden_Images-dark-trans.png
+2024-01-06T05:47:06.6281917Z ./the_book/assets/chapters/550-F-An_Unexpected_Pattern.jpg
+2024-01-06T05:47:06.6285496Z ./the_book/assets/chapters/610-L-Thologram_and_Religion.pdf
+2024-01-06T05:47:06.6370143Z ./the_book/assets/chapters/060-INFORMATION-dark.jpg
+2024-01-06T05:47:06.6371631Z ./the_book/assets/chapters/080-INSTANCES.pdf
+2024-01-06T05:47:06.6674790Z ./the_book/assets/chapters/080-INSTANCES.jpg
+2024-01-06T05:47:06.6675956Z ./the_book/assets/chapters/120-PREDETERMINISM-dark-trans.png
+2024-01-06T05:47:06.6677282Z ./the_book/assets/chapters/100-FIELDS-dark-trans.png
+2024-01-06T05:47:06.6678383Z ./the_book/assets/chapters/590-J-Structured_Water-dark.jpg
+2024-01-06T05:47:06.6679605Z ./the_book/assets/chapters/075-The_Thologram-dark-trans.png
+2024-01-06T05:47:06.6684533Z ./the_book/assets/chapters/530-D-Greek_Gods-dark.jpg
+2024-01-06T05:47:06.6685878Z ./the_book/assets/chapters/030-ORDER.pdf
+2024-01-06T05:47:06.7024181Z ./the_book/assets/chapters/590-J-Structured_Water.pdf
+2024-01-06T05:47:06.7066837Z ./the_book/assets/chapters/580-I-Market_Data-dark-trans.png
+2024-01-06T05:47:06.7069637Z ./the_book/assets/chapters/510-A-About_This_Book.jpg
+2024-01-06T05:47:06.7070503Z ./the_book/assets/chapters/MAKE
+2024-01-06T05:47:06.7070984Z ./the_book/assets/chapters/000-Intro.pdf
+2024-01-06T05:47:06.7075220Z ./the_book/assets/chapters/530-D-Greek_Gods.pdf
+2024-01-06T05:47:06.7077773Z ./the_book/assets/chapters/070-STRUCTURE-dark.jpg
+2024-01-06T05:47:06.7078772Z ./the_book/assets/chapters/020-ENERGY-dark.jpg
+2024-01-06T05:47:06.7079982Z ./the_book/assets/chapters/100-FIELDS.jpg
+2024-01-06T05:47:06.7081491Z ./the_book/assets/chapters/075-The_Thologram.pdf
+2024-01-06T05:47:06.7344644Z ./the_book/assets/chapters/510-A-About_This_Book.pdf
+2024-01-06T05:47:06.7360273Z ./the_book/assets/chapters/540-E-Hidden_Images.jpg
+2024-01-06T05:47:06.7363530Z ./the_book/assets/chapters/030-ORDER.jpg
+2024-01-06T05:47:06.7364856Z ./the_book/assets/chapters/120-PREDETERMINISM-dark.jpg
+2024-01-06T05:47:06.7365908Z ./the_book/assets/chapters/100-FIELDS-dark.jpg
+2024-01-06T05:47:06.7366836Z ./the_book/assets/chapters/540-E-Hidden_Images-dark.jpg
+2024-01-06T05:47:06.7368260Z ./the_book/assets/chapters/020-ENERGY-dark-trans.png
+2024-01-06T05:47:06.7369742Z ./the_book/assets/chapters/060-INFORMATION-dark-trans.png
+2024-01-06T05:47:06.7371259Z ./the_book/assets/chapters/520-C-Tholonic_Math-dark.jpg
+2024-01-06T05:47:06.7372307Z ./the_book/assets/chapters/050-REASON-dark.jpg
+2024-01-06T05:47:06.7373234Z ./the_book/assets/chapters/520-C-Tholonic_Math.pdf
+2024-01-06T05:47:06.7653933Z ./the_book/assets/chapters/080-INSTANCES-dark.jpg
+2024-01-06T05:47:06.7655405Z ./the_book/assets/chapters/020-ENERGY.jpg
+2024-01-06T05:47:06.7657146Z ./the_book/assets/chapters/600-K-Sidis.jpg
+2024-01-06T05:47:06.7658189Z ./the_book/assets/chapters/530-D-Greek_Gods-dark-trans.png
+2024-01-06T05:47:06.7659702Z ./the_book/assets/chapters/070-STRUCTURE-dark-trans.png
+2024-01-06T05:47:06.7660724Z ./the_book/assets/chapters/060-INFORMATION.pdf
+2024-01-06T05:47:06.7908206Z ./the_book/assets/chapters/120-PREDETERMINISM.jpg
+2024-01-06T05:47:06.7908963Z ./the_book/assets/chapters/520-C-Tholonic_Math-dark-trans.png
+2024-01-06T05:47:06.7911991Z ./the_book/assets/chapters/510-A-About_This_Book-dark-trans.png
+2024-01-06T05:47:06.7913439Z ./the_book/assets/chapters/040-THE_LAWS-dark.jpg
+2024-01-06T05:47:06.7914354Z ./the_book/assets/chapters/000-Intro-dark-trans.png
+2024-01-06T05:47:06.7915628Z ./the_book/assets/chapters/110-APPLICATION_OF_AWARENESS-dark.jpg
+2024-01-06T05:47:06.7916472Z ./the_book/assets/chapters/075-The_Thologram-dark.jpg
+2024-01-06T05:47:06.7917883Z ./the_book/assets/chapters/610-L-Thologram_and_Religion-dark.jpg
+2024-01-06T05:47:06.7919832Z ./the_book/assets/chapters/010-CHAOS-dark.jpg
+2024-01-06T05:47:06.7920801Z ./the_book/assets/chapters/030-ORDER-dark-trans.png
+2024-01-06T05:47:06.7922438Z ./the_book/assets/chapters/540-E-Hidden_Images.pdf
+2024-01-06T05:47:06.8113252Z ./the_book/assets/chapters/530-D-Greek_Gods.jpg
+2024-01-06T05:47:06.8114279Z ./the_book/assets/chapters/030-ORDER-dark.jpg
+2024-01-06T05:47:06.8115222Z ./the_book/assets/chapters/000-Intro-dark.jpg
+2024-01-06T05:47:06.8116318Z ./the_book/assets/chapters/090-MIND.pdf
+2024-01-06T05:47:06.8431092Z ./the_book/assets/chapters/070-STRUCTURE.pdf
+2024-01-06T05:47:06.8990885Z ./the_book/assets/chapters/550-F-An_Unexpected_Pattern-dark-trans.png
+2024-01-06T05:47:06.8996349Z ./the_book/assets/chapters/590-J-Structured_Water.jpg
+2024-01-06T05:47:06.8997336Z ./the_book/assets/chapters/550-F-An_Unexpected_Pattern-dark.jpg
+2024-01-06T05:47:06.9001312Z ./the_book/assets/chapters/070-STRUCTURE.jpg
+2024-01-06T05:47:06.9002064Z ./the_book/assets/chapters/090-MIND-dark-trans.png
+2024-01-06T05:47:06.9006169Z ./the_book/assets/chapters/040-THE_LAWS.jpg
+2024-01-06T05:47:06.9007725Z ./the_book/assets/chapters/010-CHAOS.pdf
+2024-01-06T05:47:06.9062490Z ./the_book/assets/chapters/050-REASON.jpg
+2024-01-06T05:47:06.9063162Z ./the_book/assets/chapters/600-K-Sidis.pdf
+2024-01-06T05:47:06.9065184Z ./the_book/assets/chapters/590-J-Structured_Water-dark-trans.png
+2024-01-06T05:47:06.9067495Z ./the_book/assets/chapters/010-CHAOS.jpg
+2024-01-06T05:47:06.9068217Z ./the_book/assets/chapters/510-A-About_This_Book-dark.jpg
+2024-01-06T05:47:06.9068913Z ./the_book/assets/chapters/120-PREDETERMINISM.pdf
+2024-01-06T05:47:06.9103365Z ./the_book/assets/chapters/050-REASON-dark-trans.png
+2024-01-06T05:47:06.9107161Z ./the_book/assets/chapters/010-CHAOS-dark-trans.png
+2024-01-06T05:47:06.9108589Z ./the_book/assets/chapters/610-L-Thologram_and_Religion.jpg
+2024-01-06T05:47:06.9109924Z ./the_book/540-E-Hidden_Images.html
+2024-01-06T05:47:06.9110990Z ./the_book/590-J-Structured_Water.html
+2024-01-06T05:47:06.9112274Z ./the_book/550-F-An_Unexpected_Pattern.html
+2024-01-06T05:47:06.9113113Z ./the_book/040-THE_LAWS.html
+2024-01-06T05:47:06.9113870Z ./the_book/000-Intro.html
+2024-01-06T05:47:06.9114689Z ./the_book/020-ENERGY.html
+2024-01-06T05:47:06.9115372Z ./the_book/010-CHAOS.html
+2024-01-06T05:47:06.9116100Z ./the_book/090-MIND.html
+2024-01-06T05:47:06.9116936Z ./the_book/510-A-About_This_Book.html
+2024-01-06T05:47:06.9117679Z ./the_book/060-INFORMATION.html
+2024-01-06T05:47:06.9118444Z ./the_book/530-D-Greek_Gods.html
+2024-01-06T05:47:06.9119288Z ./the_book/030-ORDER.html
+2024-01-06T05:47:06.9120150Z ./the_book/050-REASON.html
+2024-01-06T05:47:06.9120791Z ./the_book/pendix_K.html
+2024-01-06T05:47:06.9121518Z ./sw.js
+2024-01-06T05:47:06.9121951Z ./NOTES.md
+2024-01-06T05:47:06.9122466Z ./videos/
+2024-01-06T05:47:06.9123099Z ./videos/the_tholonic_model.html
+2024-01-06T05:47:06.9123753Z ./videos/tholonic_trading_bot.html
+2024-01-06T05:47:06.9124430Z ./videos/speed_of_light.html
+2024-01-06T05:47:06.9125228Z ./videos/AI_Profiling_at_home.html
+2024-01-06T05:47:06.9126021Z ./videos/Awareness_and_Consciousness.html
+2024-01-06T05:47:06.9126878Z ./videos/Living_Archetypes.html
+2024-01-06T05:47:06.9127685Z ./videos/What_IS_energy.html
+2024-01-06T05:47:06.9128312Z ./videos/The_Ghost_Mirror.html
+2024-01-06T05:47:06.9129011Z ./videos/Implicate_Explicate.html
+2024-01-06T05:47:06.9129928Z ./videos/CIA-stargate.html
+2024-01-06T05:47:06.9130522Z ./videos/Types_of_OOBEs.html
+2024-01-06T05:47:06.9131169Z ./videos/uninvited_parasites.html
+2024-01-06T05:47:06.9132042Z ./videos/Alien_on_23rd_Street.html
+2024-01-06T05:47:06.9133178Z ./videos/My_tests_with_structured_water_part-1.html
+2024-01-06T05:47:06.9133967Z ./videos/the_ant_god.html
+2024-01-06T05:47:06.9134795Z ./videos/Experiencing_an_intelligence.html
+2024-01-06T05:47:06.9135492Z ./videos/Notclock_music_2.html
+2024-01-06T05:47:06.9136160Z ./videos/Taunted_by_a_jinn.html
+2024-01-06T05:47:06.9136963Z ./videos/The_Material_Reality.html
+2024-01-06T05:47:06.9137577Z ./videos/Notclock_music_3.html
+2024-01-06T05:47:06.9138311Z ./videos/Multiple_Consciousnesses.html
+2024-01-06T05:47:06.9139223Z ./videos/Notclock_music_1.html
+2024-01-06T05:47:06.9139790Z ./commons/
+2024-01-06T05:47:06.9140338Z ./commons/avatar.jpg
+2024-01-06T05:47:06.9141168Z ./commons/devices-mockup.png
+2024-01-06T05:47:06.9141823Z ./projects/
+2024-01-06T05:47:06.9142372Z ./projects/tetrahedron.html
+2024-01-06T05:47:06.9143142Z ./projects/financialmodels/
+2024-01-06T05:47:06.9143797Z ./projects/financialmodels/pr_financialmodels.jpg
+2024-01-06T05:47:06.9144618Z ./projects/blesscurse/
+2024-01-06T05:47:06.9145366Z ./projects/blesscurse/pr_blesscurse.jpg
+2024-01-06T05:47:06.9146015Z ./projects/unexpected/
+2024-01-06T05:47:06.9146614Z ./projects/unexpected/assets/
+2024-01-06T05:47:06.9147370Z ./projects/unexpected/assets/CVT
+2024-01-06T05:47:06.9148120Z ./projects/unexpected/assets/rzf-form.png
+2024-01-06T05:47:06.9151308Z ./projects/unexpected/assets/sun-moon-patterns.png
+2024-01-06T05:47:06.9228848Z ./projects/unexpected/assets/314.png
+2024-01-06T05:47:06.9229732Z ./projects/unexpected/assets/305.png
+2024-01-06T05:47:06.9230920Z ./projects/unexpected/assets/many-zipfs.png
+2024-01-06T05:47:06.9240568Z ./projects/unexpected/assets/301.svg
+2024-01-06T05:47:06.9241403Z ./projects/unexpected/assets/304.png
+2024-01-06T05:47:06.9242130Z ./projects/unexpected/assets/302.png
+2024-01-06T05:47:06.9242997Z ./projects/unexpected/assets/301.png
+2024-01-06T05:47:06.9243872Z ./projects/unexpected/assets/day-sun-moon.png
+2024-01-06T05:47:06.9248733Z ./projects/unexpected/assets/diffraction.png
+2024-01-06T05:47:06.9254870Z ./projects/unexpected/assets/rng.png
+2024-01-06T05:47:06.9259785Z ./projects/unexpected/assets/CS-totals.png
+2024-01-06T05:47:06.9267168Z ./projects/unexpected/assets/311.png
+2024-01-06T05:47:06.9267954Z ./projects/unexpected/assets/sqrt2pi.png
+2024-01-06T05:47:06.9268715Z ./projects/unexpected/assets/2cspos.png
+2024-01-06T05:47:06.9275297Z ./projects/unexpected/assets/304.svg
+2024-01-06T05:47:06.9276135Z ./projects/unexpected/assets/314.svg
+2024-01-06T05:47:06.9276864Z ./projects/unexpected/assets/311.svg
+2024-01-06T05:47:06.9277967Z ./projects/unexpected/assets/sun-moon-patterns (1).png
+2024-01-06T05:47:06.9354189Z ./projects/unexpected/assets/305.svg
+2024-01-06T05:47:06.9355125Z ./projects/unexpected/assets/allnumcomp.png
+2024-01-06T05:47:06.9367002Z ./projects/unexpected/assets/123456789comp.png
+2024-01-06T05:47:06.9382781Z ./projects/unexpected/assets/302.svg
+2024-01-06T05:47:06.9383545Z ./projects/unexpected/assets/CVTX
+2024-01-06T05:47:06.9384728Z ./projects/unexpected/assets/sun-moon-grades.png
+2024-01-06T05:47:06.9451633Z ./projects/unexpected/assets/cornu.png
+2024-01-06T05:47:06.9483309Z ./projects/unexpected/pr_unexpected.jpg
+2024-01-06T05:47:06.9490417Z ./projects/crosssum/
+2024-01-06T05:47:06.9491109Z ./projects/crosssum/pr_cross_anal.jpg
+2024-01-06T05:47:06.9491973Z ./projects/crosssum/assets/
+2024-01-06T05:47:06.9492839Z ./projects/crosssum/assets/by8rotate.png
+2024-01-06T05:47:06.9497771Z ./projects/crosssum/assets/stacker64.png
+2024-01-06T05:47:06.9520585Z ./projects/crosssum/assets/crosssumpatterns2.png
+2024-01-06T05:47:06.9540861Z ./projects/crosssum/assets/cstrees.png
+2024-01-06T05:47:06.9577877Z ./projects/crosssum/assets/crossnumoctaves8.png
+2024-01-06T05:47:06.9584659Z ./projects/cycles/
+2024-01-06T05:47:06.9585469Z ./projects/cycles/pr_cycles.jpg
+2024-01-06T05:47:06.9586455Z ./projects/water/
+2024-01-06T05:47:06.9587360Z ./projects/water/Testing-for-Structure.html
+2024-01-06T05:47:06.9588285Z ./projects/water/assets/
+2024-01-06T05:47:06.9588966Z ./projects/water/assets/bullied_plant.png
+2024-01-06T05:47:06.9599919Z ./projects/water/assets/095-ptolks-images.png
+2024-01-06T05:47:06.9608075Z ./projects/water/assets/116-water-ice.png
+2024-01-06T05:47:06.9664949Z ./projects/water/assets/awtest1.png
+2024-01-06T05:47:06.9689831Z ./projects/water/assets/silicate_structures.png
+2024-01-06T05:47:06.9698277Z ./projects/water/assets/tetrah2o.png
+2024-01-06T05:47:06.9699018Z ./projects/water/assets/pr_water.jpg
+2024-01-06T05:47:06.9700582Z ./projects/water/Structured-Water.html
+2024-01-06T05:47:06.9701465Z ./projects/social.html
+2024-01-06T05:47:06.9702288Z ./projects/alt-reality/
+2024-01-06T05:47:06.9702919Z ./projects/alt-reality/OOBE_journal.html
+2024-01-06T05:47:06.9703589Z ./projects/alt-reality/pr_other_realities.jpg
+2024-01-06T05:47:06.9704265Z ./projects/236/
+2024-01-06T05:47:06.9704710Z ./projects/236/ohms-law-for-all.png
+2024-01-06T05:47:06.9713638Z ./projects/236/pr_236_pat.jpg
+2024-01-06T05:47:06.9715014Z ./projects/blesscurse.html
+2024-01-06T05:47:06.9715532Z ./projects/social/
+2024-01-06T05:47:06.9716084Z ./projects/social/assets/
+2024-01-06T05:47:06.9716482Z ./projects/social/assets/bullied_plant.png
+2024-01-06T05:47:06.9727293Z ./projects/social/assets/095-ptolks-images.png
+2024-01-06T05:47:06.9734832Z ./projects/social/assets/116-water-ice.png
+2024-01-06T05:47:06.9790956Z ./projects/social/assets/awtest1.png
+2024-01-06T05:47:06.9815628Z ./projects/social/assets/silicate_structures.png
+2024-01-06T05:47:06.9823345Z ./projects/social/assets/tetrah2o.png
+2024-01-06T05:47:06.9824164Z ./projects/social/assets/pr_water.jpg
+2024-01-06T05:47:06.9825436Z ./projects/social/pr_socialmodels.jpg
+2024-01-06T05:47:06.9827690Z ./projects/unexpected.html
+2024-01-06T05:47:06.9828825Z ./projects/correlation/
+2024-01-06T05:47:06.9829307Z ./projects/correlation/pr_correlate.png
+2024-01-06T05:47:06.9833570Z ./projects/tfields.html
+2024-01-06T05:47:06.9834034Z ./projects/iching.html
+2024-01-06T05:47:06.9834873Z ./projects/maggrav/
+2024-01-06T05:47:06.9835519Z ./projects/maggrav/pr_magnetism.jpg
+2024-01-06T05:47:06.9836288Z ./projects/iching/
+2024-01-06T05:47:06.9836986Z ./projects/iching/ICHING_THE_BOOK.jpg
+2024-01-06T05:47:06.9838149Z ./projects/iching/pr_iching.jpg
+2024-01-06T05:47:06.9841220Z ./projects/GCC/
+2024-01-06T05:47:06.9841962Z ./projects/GCC/assets/
+2024-01-06T05:47:06.9842540Z ./projects/GCC/assets/gmm.png
+2024-01-06T05:47:06.9843435Z ./projects/GCC/assets/GRAVITY_AS_CONSCIOUS_FORCE_TO_RESOLVE_QU.png
+2024-01-06T05:47:06.9845162Z ./projects/GCC/assets/CVT
+2024-01-06T05:47:06.9845758Z ./projects/GCC/assets/160.svg
+2024-01-06T05:47:06.9846689Z ./projects/GCC/assets/gr-consc.png
+2024-01-06T05:47:06.9852371Z ./projects/GCC/assets/cavendish.png
+2024-01-06T05:47:06.9853507Z ./projects/GCC/assets/161.png
+2024-01-06T05:47:06.9854228Z ./projects/GCC/assets/160.png
+2024-01-06T05:47:06.9855385Z ./projects/GCC/assets/QuantumGravityandtheRoleofConsciousnessinPhysics.png
+2024-01-06T05:47:06.9856511Z ./projects/GCC/assets/CVTX
+2024-01-06T05:47:06.9857073Z ./projects/GCC/assets/161.svg
+2024-01-06T05:47:06.9857820Z ./projects/GCC/pr_GCC.png
+2024-01-06T05:47:06.9864411Z ./projects/cycles.html
+2024-01-06T05:47:06.9864967Z ./projects/maggrav.html
+2024-01-06T05:47:06.9865852Z ./projects/alt-reality.html
+2024-01-06T05:47:06.9866508Z ./projects/GCC.html
+2024-01-06T05:47:06.9867030Z ./projects/tetrahedron/
+2024-01-06T05:47:06.9867804Z ./projects/tetrahedron/pr_othersides.jpg
+2024-01-06T05:47:06.9868585Z ./projects/water.html
+2024-01-06T05:47:06.9869127Z ./projects/correlation.html
+2024-01-06T05:47:06.9869931Z ./projects/tfields/
+2024-01-06T05:47:06.9870547Z ./projects/tfields/pr_morphic.jpg
+2024-01-06T05:47:06.9871185Z ./projects/236.html
+2024-01-06T05:47:06.9871928Z ./projects/financialmodels.html
+2024-01-06T05:47:06.9872583Z ./projects/crosssum.html
+2024-01-06T05:47:06.9873166Z ./FINDFILE
+2024-01-06T05:47:06.9873761Z ./404.html
+2024-01-06T05:47:06.9874251Z ./archives/
+2024-01-06T05:47:06.9874900Z ./archives/index.html
+2024-01-06T05:47:06.9875469Z ./SPELLCHECK.py
+2024-01-06T05:47:06.9876022Z ./projects.html
+2024-01-06T05:47:06.9876950Z ./notclock/
+2024-01-06T05:47:06.9877411Z ./notclock/assets/
+2024-01-06T05:47:06.9877964Z ./notclock/assets/notclock.svg
+2024-01-06T05:47:06.9885020Z ./notclock/assets/collection-1-dark.png
+2024-01-06T05:47:06.9908868Z ./notclock/assets/collection-1.png
+2024-01-06T05:47:06.9932892Z ./notclock/assets/clock.mp4_350x350.gif
+2024-01-06T05:47:06.9935481Z ./notclock/assets/shots.png
+2024-01-06T05:47:06.9964366Z ./notclock/assets/clock.mp4_350x350-trans.gif
+2024-01-06T05:47:06.9966928Z ./notclock/assets/3-hexes-dark.jpg
+2024-01-06T05:47:06.9969434Z ./notclock/assets/3-hexes.jpg
+2024-01-06T05:47:06.9972119Z ./notclock/assets/3-clocks.jpg
+2024-01-06T05:47:06.9975173Z ./notclock/assets/3-clocks-dark.jpg
+2024-01-06T05:47:06.9978124Z ./material.html
+2024-01-06T05:47:07.0041920Z ##[group]Run actions/upload-artifact@v3
+2024-01-06T05:47:07.0042355Z with:
+2024-01-06T05:47:07.0042693Z   name: github-pages
+2024-01-06T05:47:07.0043080Z   path: /home/runner/work/_temp/artifact.tar
+2024-01-06T05:47:07.0043553Z   retention-days: 1
+2024-01-06T05:47:07.0043927Z   if-no-files-found: error
+2024-01-06T05:47:07.0044275Z env:
+2024-01-06T05:47:07.0044582Z   GITHUB_PAGES: true
+2024-01-06T05:47:07.0044938Z ##[endgroup]
+2024-01-06T05:47:07.0660248Z With the provided path, there will be 1 file uploaded
+2024-01-06T05:47:07.0662542Z Starting artifact upload
+2024-01-06T05:47:07.0664887Z For more detailed logs during the artifact upload process, enable step-debugging: https://docs.github.com/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging#enabling-step-debug-logging
+2024-01-06T05:47:07.0666394Z Artifact name is valid!
+2024-01-06T05:47:07.1382079Z Container for artifact "github-pages" successfully created. Starting upload of file(s)
+2024-01-06T05:47:17.1386838Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:47:27.1384873Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:47:37.1432159Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:47:38.2373794Z Uploaded /home/runner/work/_temp/artifact.tar (1.0%) bytes 0:8388607
+2024-01-06T05:47:40.1644662Z Uploaded /home/runner/work/_temp/artifact.tar (2.1%) bytes 8388608:16777215
+2024-01-06T05:47:42.0272035Z Uploaded /home/runner/work/_temp/artifact.tar (3.2%) bytes 16777216:25165823
+2024-01-06T05:47:43.9126590Z Uploaded /home/runner/work/_temp/artifact.tar (4.2%) bytes 25165824:33554431
+2024-01-06T05:47:45.7732966Z Uploaded /home/runner/work/_temp/artifact.tar (5.3%) bytes 33554432:41943039
+2024-01-06T05:47:47.1536767Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:47:47.6694348Z Uploaded /home/runner/work/_temp/artifact.tar (6.4%) bytes 41943040:50331647
+2024-01-06T05:47:49.5477953Z Uploaded /home/runner/work/_temp/artifact.tar (7.5%) bytes 50331648:58720255
+2024-01-06T05:47:51.7504295Z Uploaded /home/runner/work/_temp/artifact.tar (8.5%) bytes 58720256:67108863
+2024-01-06T05:47:53.6070304Z Uploaded /home/runner/work/_temp/artifact.tar (9.6%) bytes 67108864:75497471
+2024-01-06T05:47:55.4930250Z Uploaded /home/runner/work/_temp/artifact.tar (10.7%) bytes 75497472:83886079
+2024-01-06T05:47:57.1542587Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:47:57.4485302Z Uploaded /home/runner/work/_temp/artifact.tar (11.8%) bytes 83886080:92274687
+2024-01-06T05:47:59.4382233Z Uploaded /home/runner/work/_temp/artifact.tar (12.8%) bytes 92274688:100663295
+2024-01-06T05:48:01.3238567Z Uploaded /home/runner/work/_temp/artifact.tar (13.9%) bytes 100663296:109051903
+2024-01-06T05:48:03.3014807Z Uploaded /home/runner/work/_temp/artifact.tar (15.0%) bytes 109051904:117440511
+2024-01-06T05:48:05.3001627Z Uploaded /home/runner/work/_temp/artifact.tar (16.1%) bytes 117440512:125829119
+2024-01-06T05:48:07.1539196Z Uploaded /home/runner/work/_temp/artifact.tar (17.1%) bytes 125829120:134217727
+2024-01-06T05:48:07.1661427Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:48:09.0504985Z Uploaded /home/runner/work/_temp/artifact.tar (18.2%) bytes 134217728:142606335
+2024-01-06T05:48:10.9317194Z Uploaded /home/runner/work/_temp/artifact.tar (19.3%) bytes 142606336:150994943
+2024-01-06T05:48:12.7865087Z Uploaded /home/runner/work/_temp/artifact.tar (20.3%) bytes 150994944:159383551
+2024-01-06T05:48:14.6984785Z Uploaded /home/runner/work/_temp/artifact.tar (21.4%) bytes 159383552:167772159
+2024-01-06T05:48:16.6828732Z Uploaded /home/runner/work/_temp/artifact.tar (22.5%) bytes 167772160:176160767
+2024-01-06T05:48:17.1718790Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:48:18.5595868Z Uploaded /home/runner/work/_temp/artifact.tar (23.6%) bytes 176160768:184549375
+2024-01-06T05:48:20.4211559Z Uploaded /home/runner/work/_temp/artifact.tar (24.6%) bytes 184549376:192937983
+2024-01-06T05:48:22.3174236Z Uploaded /home/runner/work/_temp/artifact.tar (25.7%) bytes 192937984:201326591
+2024-01-06T05:48:24.3362750Z Uploaded /home/runner/work/_temp/artifact.tar (26.8%) bytes 201326592:209715199
+2024-01-06T05:48:26.2805145Z Uploaded /home/runner/work/_temp/artifact.tar (27.9%) bytes 209715200:218103807
+2024-01-06T05:48:27.1723550Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:48:28.1430531Z Uploaded /home/runner/work/_temp/artifact.tar (28.9%) bytes 218103808:226492415
+2024-01-06T05:48:30.0658006Z Uploaded /home/runner/work/_temp/artifact.tar (30.0%) bytes 226492416:234881023
+2024-01-06T05:48:31.9405900Z Uploaded /home/runner/work/_temp/artifact.tar (31.1%) bytes 234881024:243269631
+2024-01-06T05:48:33.7803676Z Uploaded /home/runner/work/_temp/artifact.tar (32.2%) bytes 243269632:251658239
+2024-01-06T05:48:35.7310421Z Uploaded /home/runner/work/_temp/artifact.tar (33.2%) bytes 251658240:260046847
+2024-01-06T05:48:37.1779564Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:48:37.7486119Z Uploaded /home/runner/work/_temp/artifact.tar (34.3%) bytes 260046848:268435455
+2024-01-06T05:48:39.6204578Z Uploaded /home/runner/work/_temp/artifact.tar (35.4%) bytes 268435456:276824063
+2024-01-06T05:48:41.4721424Z Uploaded /home/runner/work/_temp/artifact.tar (36.5%) bytes 276824064:285212671
+2024-01-06T05:48:43.3060303Z Uploaded /home/runner/work/_temp/artifact.tar (37.5%) bytes 285212672:293601279
+2024-01-06T05:48:45.1825547Z Uploaded /home/runner/work/_temp/artifact.tar (38.6%) bytes 293601280:301989887
+2024-01-06T05:48:47.0884634Z Uploaded /home/runner/work/_temp/artifact.tar (39.7%) bytes 301989888:310378495
+2024-01-06T05:48:47.1784036Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:48:48.9842822Z Uploaded /home/runner/work/_temp/artifact.tar (40.7%) bytes 310378496:318767103
+2024-01-06T05:48:50.8672341Z Uploaded /home/runner/work/_temp/artifact.tar (41.8%) bytes 318767104:327155711
+2024-01-06T05:48:52.7276318Z Uploaded /home/runner/work/_temp/artifact.tar (42.9%) bytes 327155712:335544319
+2024-01-06T05:48:54.6678659Z Uploaded /home/runner/work/_temp/artifact.tar (44.0%) bytes 335544320:343932927
+2024-01-06T05:48:56.5003477Z Uploaded /home/runner/work/_temp/artifact.tar (45.0%) bytes 343932928:352321535
+2024-01-06T05:48:57.1864866Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:48:58.3272085Z Uploaded /home/runner/work/_temp/artifact.tar (46.1%) bytes 352321536:360710143
+2024-01-06T05:49:00.1644832Z Uploaded /home/runner/work/_temp/artifact.tar (47.2%) bytes 360710144:369098751
+2024-01-06T05:49:02.0075171Z Uploaded /home/runner/work/_temp/artifact.tar (48.3%) bytes 369098752:377487359
+2024-01-06T05:49:03.8838457Z Uploaded /home/runner/work/_temp/artifact.tar (49.3%) bytes 377487360:385875967
+2024-01-06T05:49:05.6817637Z Uploaded /home/runner/work/_temp/artifact.tar (50.4%) bytes 385875968:394264575
+2024-01-06T05:49:07.1864055Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:49:07.5626314Z Uploaded /home/runner/work/_temp/artifact.tar (51.5%) bytes 394264576:402653183
+2024-01-06T05:49:09.4132994Z Uploaded /home/runner/work/_temp/artifact.tar (52.6%) bytes 402653184:411041791
+2024-01-06T05:49:11.3595122Z Uploaded /home/runner/work/_temp/artifact.tar (53.6%) bytes 411041792:419430399
+2024-01-06T05:49:13.2388244Z Uploaded /home/runner/work/_temp/artifact.tar (54.7%) bytes 419430400:427819007
+2024-01-06T05:49:15.0785152Z Uploaded /home/runner/work/_temp/artifact.tar (55.8%) bytes 427819008:436207615
+2024-01-06T05:49:16.9060294Z Uploaded /home/runner/work/_temp/artifact.tar (56.9%) bytes 436207616:444596223
+2024-01-06T05:49:17.1899933Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:49:18.7752550Z Uploaded /home/runner/work/_temp/artifact.tar (57.9%) bytes 444596224:452984831
+2024-01-06T05:49:20.6023761Z Uploaded /home/runner/work/_temp/artifact.tar (59.0%) bytes 452984832:461373439
+2024-01-06T05:49:22.6191057Z Uploaded /home/runner/work/_temp/artifact.tar (60.1%) bytes 461373440:469762047
+2024-01-06T05:49:24.4297702Z Uploaded /home/runner/work/_temp/artifact.tar (61.1%) bytes 469762048:478150655
+2024-01-06T05:49:26.2541800Z Uploaded /home/runner/work/_temp/artifact.tar (62.2%) bytes 478150656:486539263
+2024-01-06T05:49:27.1965796Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:49:28.1026472Z Uploaded /home/runner/work/_temp/artifact.tar (63.3%) bytes 486539264:494927871
+2024-01-06T05:49:29.9625917Z Uploaded /home/runner/work/_temp/artifact.tar (64.4%) bytes 494927872:503316479
+2024-01-06T05:49:31.8175120Z Uploaded /home/runner/work/_temp/artifact.tar (65.4%) bytes 503316480:511705087
+2024-01-06T05:49:33.6336251Z Uploaded /home/runner/work/_temp/artifact.tar (66.5%) bytes 511705088:520093695
+2024-01-06T05:49:35.5026001Z Uploaded /home/runner/work/_temp/artifact.tar (67.6%) bytes 520093696:528482303
+2024-01-06T05:49:37.1972107Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:49:37.3384444Z Uploaded /home/runner/work/_temp/artifact.tar (68.7%) bytes 528482304:536870911
+2024-01-06T05:49:39.1804110Z Uploaded /home/runner/work/_temp/artifact.tar (69.7%) bytes 536870912:545259519
+2024-01-06T05:49:41.0138234Z Uploaded /home/runner/work/_temp/artifact.tar (70.8%) bytes 545259520:553648127
+2024-01-06T05:49:42.8710996Z Uploaded /home/runner/work/_temp/artifact.tar (71.9%) bytes 553648128:562036735
+2024-01-06T05:49:44.7178274Z Uploaded /home/runner/work/_temp/artifact.tar (73.0%) bytes 562036736:570425343
+2024-01-06T05:49:46.5704458Z Uploaded /home/runner/work/_temp/artifact.tar (74.0%) bytes 570425344:578813951
+2024-01-06T05:49:47.1992993Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:49:48.4441415Z Uploaded /home/runner/work/_temp/artifact.tar (75.1%) bytes 578813952:587202559
+2024-01-06T05:49:50.3091637Z Uploaded /home/runner/work/_temp/artifact.tar (76.2%) bytes 587202560:595591167
+2024-01-06T05:49:52.2016003Z Uploaded /home/runner/work/_temp/artifact.tar (77.3%) bytes 595591168:603979775
+2024-01-06T05:49:54.0230500Z Uploaded /home/runner/work/_temp/artifact.tar (78.3%) bytes 603979776:612368383
+2024-01-06T05:49:55.8630328Z Uploaded /home/runner/work/_temp/artifact.tar (79.4%) bytes 612368384:620756991
+2024-01-06T05:49:57.2104470Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:49:57.7212272Z Uploaded /home/runner/work/_temp/artifact.tar (80.5%) bytes 620756992:629145599
+2024-01-06T05:49:59.6836648Z Uploaded /home/runner/work/_temp/artifact.tar (81.5%) bytes 629145600:637534207
+2024-01-06T05:50:01.5401163Z Uploaded /home/runner/work/_temp/artifact.tar (82.6%) bytes 637534208:645922815
+2024-01-06T05:50:03.4334397Z Uploaded /home/runner/work/_temp/artifact.tar (83.7%) bytes 645922816:654311423
+2024-01-06T05:50:05.2765906Z Uploaded /home/runner/work/_temp/artifact.tar (84.8%) bytes 654311424:662700031
+2024-01-06T05:50:07.0792700Z Uploaded /home/runner/work/_temp/artifact.tar (85.8%) bytes 662700032:671088639
+2024-01-06T05:50:07.2151643Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:50:09.0604047Z Uploaded /home/runner/work/_temp/artifact.tar (86.9%) bytes 671088640:679477247
+2024-01-06T05:50:11.1563684Z Uploaded /home/runner/work/_temp/artifact.tar (88.0%) bytes 679477248:687865855
+2024-01-06T05:50:13.0395276Z Uploaded /home/runner/work/_temp/artifact.tar (89.1%) bytes 687865856:696254463
+2024-01-06T05:50:14.8944061Z Uploaded /home/runner/work/_temp/artifact.tar (90.1%) bytes 696254464:704643071
+2024-01-06T05:50:16.6966159Z Uploaded /home/runner/work/_temp/artifact.tar (91.2%) bytes 704643072:713031679
+2024-01-06T05:50:17.2175761Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:50:18.5515864Z Uploaded /home/runner/work/_temp/artifact.tar (92.3%) bytes 713031680:721420287
+2024-01-06T05:50:20.4074207Z Uploaded /home/runner/work/_temp/artifact.tar (93.4%) bytes 721420288:729808895
+2024-01-06T05:50:22.2286105Z Uploaded /home/runner/work/_temp/artifact.tar (94.4%) bytes 729808896:738197503
+2024-01-06T05:50:24.0807731Z Uploaded /home/runner/work/_temp/artifact.tar (95.5%) bytes 738197504:746586111
+2024-01-06T05:50:25.9488103Z Uploaded /home/runner/work/_temp/artifact.tar (96.6%) bytes 746586112:754974719
+2024-01-06T05:50:27.2190753Z Total file count: 1 ---- Processed file #0 (0.0%)
+2024-01-06T05:50:27.8367894Z Uploaded /home/runner/work/_temp/artifact.tar (97.7%) bytes 754974720:763363327
+2024-01-06T05:50:29.7127229Z Uploaded /home/runner/work/_temp/artifact.tar (98.7%) bytes 763363328:771751935
+2024-01-06T05:50:31.5753397Z Uploaded /home/runner/work/_temp/artifact.tar (99.8%) bytes 771751936:780140543
+2024-01-06T05:50:31.9223767Z Uploaded /home/runner/work/_temp/artifact.tar (100.0%) bytes 780140544:781331196
+2024-01-06T05:50:31.9235570Z Total size of all the files uploaded is 781331197 bytes
+2024-01-06T05:50:31.9236207Z File upload process has finished. Finalizing the artifact upload
+2024-01-06T05:50:31.9546556Z Artifact has been finalized. All files have been successfully uploaded!
+2024-01-06T05:50:31.9547427Z 
+2024-01-06T05:50:31.9548426Z The raw size of all the files that were specified for upload is 849315840 bytes
+2024-01-06T05:50:31.9550254Z The size of all the files that were uploaded is 781331197 bytes. This takes into account any gzip compression used to reduce the upload size, time and storage
+2024-01-06T05:50:31.9551463Z 
+2024-01-06T05:50:31.9553001Z Note: The size of downloaded zips can differ significantly from the reported size. For more information see: https://github.com/actions/upload-artifact#zipped-artifact-downloads 
+2024-01-06T05:50:31.9554373Z 
+2024-01-06T05:50:31.9554751Z Artifact github-pages has been successfully uploaded!
+2024-01-06T05:50:32.1004743Z Post job cleanup.
+2024-01-06T05:50:32.1744836Z [command]/usr/bin/git version
+2024-01-06T05:50:32.1788805Z git version 2.43.0
+2024-01-06T05:50:32.1835933Z Temporarily overriding HOME='/home/runner/work/_temp/0df4b9f6-6c72-432b-ad47-65016e9ec68c' before making global git config changes
+2024-01-06T05:50:32.1837018Z Adding repository directory to the temporary git global config as a safe directory
+2024-01-06T05:50:32.1841880Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tholonia.github.io/tholonia.github.io
+2024-01-06T05:50:32.1877411Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-01-06T05:50:32.1909745Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-01-06T05:50:32.2159626Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-01-06T05:50:32.2183167Z http.https://github.com/.extraheader
+2024-01-06T05:50:32.2195296Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2024-01-06T05:50:32.2231027Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-01-06T05:50:32.2715725Z Cleaning up orphan processes
