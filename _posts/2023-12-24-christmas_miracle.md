@@ -23,7 +23,7 @@ Finally, I needed to write several Python scripts to make everything fit and hel
 
 After many days of naming, renaming, editing, and re-editing my original content to fit into Jekyll architecture, I published to Git Pages (after setting up [gh](https://github.com/cli/cli) with a [token](https://cli.github.com/manual/gh_auth_login), CI/CD, LFS, and GitPages) ... and was presented with pages and pages of errors that made no sense to me, at least not until I figured out what they were... then they made a lot of sense.
 
-I kept notes of what I was learning and needing to refer back to, which are viewable [here]({{site.url}}{% link NOTES.md %}). For anyone who knows Jekyll or Docker, they will seem ridiculously simple, but like everything, it's only simple after you know it!
+I kept notes of what I was learning and needing to refer back to, which are viewable [here]({{site.url}}{% link JNOTES_dev_tholonia.md %}). For anyone who knows Jekyll or Docker, they will seem ridiculously simple, but like everything, it's only simple after you know it!
 
 OK, All my content is up! Now, I had to categorize and tag each piece of content in a way that made sense. After two or three attempts, it was clear I had no idea how to do that... so I decided to let AI do it for me.
 
