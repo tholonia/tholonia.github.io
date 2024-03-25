@@ -11,11 +11,11 @@ DEL: the_book
 tags:
 - pattern
 - order
-title: THOLONIA the book - Appx. F - An Unexpected Pattern
+title: Appx. F 📜 An Unexpected Pattern
 ---
 
 In the course of writing this book, there was the need to generate sets of chaotic numbers from other sets of patterned numbers.  In one case, the results presented a very unexpected pattern.
 
 <!--more-->
 
-<object data='{{ page.pdf }}#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object>
+{% include sorry.md %}
