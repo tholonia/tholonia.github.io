@@ -16,6 +16,7 @@ title: Time Wave Zero
 
 Terrance McKenna considered his Time Wave Zero theory the most important idea he ever had, which is significant considering how many brilliant ideas he had. 
 
+
 <!--more-->
 
 To explain TWZ here is impractical as it would fill many books. The general idea is that time is similar to a fractal or a self-similar bifurcating tree. Saying that alone should shed some light on how complex an idea TWZ is, as we need only look at the complexity of fractals or binary math. 
