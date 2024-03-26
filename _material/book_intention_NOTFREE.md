@@ -7,6 +7,10 @@ date: 2021-10-04
 image: /material/assets/book_intention_NOTFREE.jpg
 layout: post
 pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_intention_NOTFREE.zip
+
+src1: https://drive.internxt.com/sh/file/dd192027-28fa-4b1b-b673-3c3826e93fef/1d8df4f1e8b63aedbd27a80e1c473d8d740036c0bec26c65ed3d993d5512833f
+src1_title: View/Download "The Intention Experiment" (343 pages)
+
 purchase: 
   - https://www.amazon.com/The-Intention-Experiment-audiobook/dp/B0017TZJJA
   - $13.99 - $21.00
@@ -17,7 +21,7 @@ tags:
 - consciousness
 - energy
 - intention
-title: 
+title: The Intention Experiment
 ---
 
 The Intention Experiment is an extraordinary advance in our understanding of consciousness as a field of all possibilities where intention orchestrates its own fulfillment.
@@ -26,4 +30,6 @@ The Intention Experiment is an extraordinary advance in our understanding of con
 
 {% include book-notice.html %}
 
-Download PDF  [HERE]({{ page.pdf }})
+<a href="{{page.purchase.link}}">Available for purchase at {{page.purchase.vendor}} from {{page.purchase.price}}</a> 
+
+{% include show_src_1.html %}

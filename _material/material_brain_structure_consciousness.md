@@ -3,9 +3,11 @@ author: duncan
 categories:
 - NEUROSCIENCE
 date: 2020-11-19
-image: /material/assets/brain_structure_consciousness.png
+image: /material/assets/material_brain_structure_consciousness.png
 layout: post
 pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/brain_structure_consciousness.pdf
+src1: https://drive.internxt.com/sh/file/3899ee25-7a2d-46ab-bc25-c517a8246e80/231d83e04490ff8830b9b2f6fada1593c712bd9116467e4be2532c6cca29ffc7
+src1_title: View/Download "Brain Structural Complexity and Consciousness" (27 pages)
 ptags: [nokwgen-manual]
 jday: 24231
 tags:
@@ -21,4 +23,4 @@ Discusses the relationship between brain structural complexity and consciousness
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}
