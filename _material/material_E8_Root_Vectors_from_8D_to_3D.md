@@ -6,7 +6,8 @@ categories:
 date: 2020-10-08
 image: /material/assets/material_E8_Root_Vectors_from_8D_to_3D.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_E8_Root_Vectors_from_8D_to_3D.pdf
+src1: https://drive.internxt.com/sh/file/cab43e94-5c38-4c72-8c9a-411fe4421a23/e64153491ca31bbcc2a8e95865e8228aeb55d63d72a0fcc21cd9253506d402d3
+src1_title: View/Download 'E8 Root Vectors' (39 pages)
 ptags: [nokwgen-manual]
 jday: 8710
 tags:
@@ -20,4 +21,4 @@ This paper is an elementary-level attempt at discussing 8D E8 Physics based on t
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}
