@@ -272,6 +272,7 @@ exclude:
   - package*.json
   - .ZPROJECTS/
   - src
+  - "DEL_*"
 
 # gems:
   # - jekyll-inline-svg

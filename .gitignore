@@ -50,3 +50,4 @@ ssl/
 docs/
 __pycache__
 .directory
+EX_*

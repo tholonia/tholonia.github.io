@@ -7,6 +7,8 @@ date: 2021-10-04
 image: /material/assets/book_The_Fourth_Phase_of_Water.jpg
 layout: post
 pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_The_Fourth_Phase_of_Water.zip
+src1: https://drive.internxt.com/sh/file/3b231f50-0ac8-40d8-b4b9-532e4d758fa4/ded8cbd82226e289bf42010900317e4708eea970e3ccc3c5240c8852b8503c80
+src1_title: View/Download "The Fourth Phase of Water" (714 pages)
 ptags: [nokwgen-manual]
 jday: 23895
 tags:
@@ -22,4 +24,4 @@ Rainbow H<sup>2</sup>O; Director, Institute of Science and Society, London.*
 
 <!--more-->
 
-Download PDF  [HERE]({{ page.pdf }})
+{% include show_src_1.html %}
