@@ -1,18 +1,22 @@
 ---
 author: duncan
 categories:
-- HISTORY
+- ESOTERIC
+- PHILOSOPHY
 - SCIENCE
+- HISTORY
 date: 2024-03-25
 image: /material/assets/material_surya-siddhanta.jpg
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_surya-siddhanta.pdf
+sr1: https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa
+src1_title: View/Download 'Surya Siddhanta' (306 pages)
 ptags: [nokwgen-manual]
 jday: 8850
 tags:
+- time
+- pattern
+- cycles
 - hindu
-- maya
-- india
 title: Ancient teachings of the Sun god to a demon
 ---
 
@@ -22,4 +26,4 @@ The (allegedly) 2 million year old manual of astronomical facts that the Sun  go
 
 <!--more-->
 
-Download PDF  [HERE]({{ page.pdf }})
+{% include show_src_1.html %}
