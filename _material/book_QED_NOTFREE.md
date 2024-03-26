@@ -8,9 +8,9 @@ image: /material/assets/book_QED_NOTFREE.jpg
 layout: post
 pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_QED_NOTFREE.zip
 purchase:
-  - https://www.amazon.com/Quantum-Electrodynamics-Frontiers-Physics-Richard/dp/0201360756/
-  - $20.69 - $170.00
-  - Amazon
+  link: https://www.amazon.com/Quantum-Electrodynamics-Frontiers-Physics-Richard/dp/0201360756/
+  price: $20.69 - $170.00
+  vendor: Amazon
 ptags: [nokwgen-manual]
 jday: 32298
 tags:
