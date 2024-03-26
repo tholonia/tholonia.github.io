@@ -5,7 +5,6 @@ categories:
 date: 2021-10-01
 image: /material/assets/book_3books_on_improving_eyesight.jpg
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_3books_on_improving_eyesight.zip
 src1: https://drive.internxt.com/sh/file/c2f4e854-3c3f-43fd-851b-f03be9f7ed2b/4c12567e280c624f612b39abb26091c7664bb075a9a05f4468d33403eaef6d4e
 src1_title: View/Download "Use Your Own Eyes" (334 pages)
 ptags: [nokwgen-manual]

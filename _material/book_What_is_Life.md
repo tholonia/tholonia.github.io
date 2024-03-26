@@ -6,7 +6,6 @@ categories:
 date: 2021-11-17
 image: /material/assets/book_What_is_Life.jpg
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_What_is_Life.zip
 src1: https://drive.internxt.com/sh/file/97b2e7dd-7d77-459f-971f-353de6139b00/1c0f8ed303884f183978a7d6709f604d47caae9f678b549ae27cada9e195ed09
 src1_title: View/Download "What is Life?" (31 pages)
 ptags: [nokwgen-manual]

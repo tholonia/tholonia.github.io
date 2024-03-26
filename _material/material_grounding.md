@@ -6,7 +6,6 @@ categories:
 date: 2020-10-19
 image: /material/assets/material_grounding.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/grounding.pdf
 src1: https://drive.internxt.com/sh/file/7295e5ed-5adb-488a-90b6-2479aa2b67e5/7748f595bd09f4f905c37af52f8260c7d2129b15e197543cd6c570303eaf1546
 src1_title: View/Download "The effects of grounding on diseases" (14 pages)
 ptags: [nokwgen-manual]
@@ -23,3 +22,5 @@ The effects of grounding (earthing) on inflammation, the immune response, wound 
 <!--more-->
 
 {% include show_src_1.html %}
+
+ 

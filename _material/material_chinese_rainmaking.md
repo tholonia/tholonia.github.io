@@ -5,7 +5,6 @@ categories:
 date: 2020-11-20
 image: /material/assets/material_chinese_rainmaking.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_chinese_rainmaking.pdf
 src1: https://drive.internxt.com/sh/file/22d429c5-6ca3-482e-9d7d-f31cf1b6bfc4/d3ce3a5ffa24b7e08301c9a04b5bab4e761890ed70fda12c98508f112e313ad5
 src1_title: View/Download "Magic and Empiricism in Early Chinese Rainmaking" (22 pages)
 ptags: [nokwgen-manual]
