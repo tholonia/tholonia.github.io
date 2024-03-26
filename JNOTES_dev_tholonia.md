@@ -1,7 +1,93 @@
 # Root Dir
 
 - /home/jw/sites/tholonia/chirpy2
-- 
+
+
+
+# Adding a post
+
+
+```sh
+cp EX_post_template.md  _posts/YYYY-MM-DD-TITLE.md
+cp EX_post_image.jpg 
+```
+Edit post
+
+```sh
+mkdir assets/YYYY-MM-DD-TITLE
+cp EX_post_image.jpg assets/YYYY-MM-DD-TITLE/post_image.jpg
+```
+
+Update image
+
+# Adding material
+
+```sh
+# create image for material in _material/assets/material_TITLE.jpg
+#
+cp EX_material.md _material/material_TITLE.md
+```
+
+
+
+
+
+
+
+
+
+
+c- 
+
+# Docker Commands
+
+`run` 
+
+- starts an **image** (Images are frozen immutable snapshots of live containers)
+
+`start`
+
+- starts a **container** (Containers are running (or stopped) instances of some image)
+
+
+
+### Start the container form an image
+
+```sh
+# made sure `pwd` is correct
+cd /home/jw/sites/tholonia/chirpy2
+
+# tunneling ports 4000, 35729
+docker run -it -d \
+-p 4001:4001 \
+-p 35729:35729 \
+--mount src=$(pwd),target=$(pwd),type=bind \
+--name chirpyRun chirpy:latest
+```
+
+### Enter the running container
+
+```sh
+
+docker exec --workdir $(pwd) -it <container_ID> bash
+```
+
+### Prepare server (if new container)
+
+```sh
+bundle install
+```
+
+## Run server
+
+```sh
+./SERVE
+# server live at http://0.0.0.0:4001/
+```
+
+
+
+# OLD NOTES
 
 To start Chiroy/Jeckyll up up clean...
 
@@ -26,9 +112,17 @@ bundle build (???)
 # make edits
 
 ./SPELLCHECK.py # "update 'src/skipwords.txt'
+
+# add new content
+git add .
 ./PUSH
 
-#goto site: https://github.dev/tholonia/tholonia.github.io
+#goto site: https://github.com/tholonia/tholonia.github.io
+# (editor ast: https://github.dev/tholonia/tholonia.github.io)
+
+# if problems, seach text files like this
+clear && find -type f -exec grep JNOTES_dev_tholonia.md /dev/null {} \;|grep -v Cache|grep -v _site
+
 
 
 
@@ -574,4 +668,56 @@ conda env list
 - dev  
 - open-musiclm 
 - AI  possibly dead.  Not used anymore?
+
+# Required software to get book publishing running
+
+### Debian 12
+
+
+```sh
+# sudo apt-get remove libuv1
+sudo apt-get install libuv1
+sudo apt-get install libuv1-dev
+sudo apt-get install npm
+
+sudo npm install -g less
+
+# required...
+sudo rm lessc
+cd /usr/bin
+rm lessc
+sudo ln -fs /usr/local/lib/node_modules/less/bin/lessc ./lessc
+
+sudo apt-get install pandoc
+
+# Install "prince" and "prince-books" manually
+# download generic PrinceXML from https://www.princexml.com/download/11/
+# download generic Prince-books fromhttps://www.princexml.com/books/
+
+sudo apt-get install pdftk
+
+
+
+```
+
+
+
+### To clean large files from git repo
+
+- install "git-filter-repo"
+
+- make clean clone
+
+ ```
+git-filter-repo \
+--invert-paths \
+--path _the_book/assets/latest/THOLONIA_THE_BOOK.html.zip
+ ```
+- rebuilt (copy)  .gitattributes
+- rebuilt (copy) .git/config
+```sh
+git branch --unset-upstream
+git-filter-repo --invert-paths --path
+add -f _the_book/assets/latest/THOLONIA_THE_BOOK.pdf
+```
 
