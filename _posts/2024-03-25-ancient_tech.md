@@ -8,8 +8,13 @@ categories:
 date: '2024-03-25'
 image: /assets/posts/2024-03-25-ancient_tech/post_image.jpg
 layout: post
-pdf: https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa
-tags:
+src1_title: The original text (translated to English). 306 pages
+src1: https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa
+
+src2_title: The translated text plus a lot of valuable commentary.  474 pages
+src2: https://drive.internxt.com/sh/file/fb9f6edf-f235-4d3f-b884-89d77d637ffe/d5aad17ffe16d3434f963076d47fb74b818e5f2c47a0598028eafac50134e966
+
+tag:
 - time
 - pattern
 - cycles
@@ -37,7 +42,7 @@ A [brief overview](https://www.linkedin.com/pulse/advanced-scientific-knowledge-
 
 One of the more debated claims is that the [Rig Veda calculates the speed of light](https://www.youtube.com/watch?v=qPly2N00cBE), as briefly shown in the image below. I certainly can't say whether this is accurate or true, but the fact that they understood light has a speed at all is impressive, considering Western science didn't discover this fact until  [Ole Rømer](https://en.wikipedia.org/wiki/Ole_R%C3%B8mer) first [demonstrated this 1676](https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light).
 
-<img alt="IMAGE" src="/assets/posts/2024-03-25-ancient_tech/rigveda_sol.jpg" class='right-img-25' style='width:100%'>
+![image](/assets/posts/2024-03-25-ancient_tech/rigveda_sol.jpg)
 
 One of the more realistic and slightly comic quotes from the book is the initial meeting of the Sun and Maya, the student:
 
@@ -54,14 +59,11 @@ The fact that Maya was a demon did not deter the Sun from imparting his knowledg
 This law applies to Awareness and consciousness just as it does to Intelligence, which has profound consequences and implications regarding the direction and evolution of consciousness.
 
 Below are two versions.  You can view online or download:
-1) The original text (translated to english).  306 pages
-2) The translated text plus a lot of valueble comentary.  474 pages
 
+{% include show_src_1.html %}
+{% include show_src_2.html %}
 
-1) The original text (translated to english)
-<object data='https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object>
+<!--object data='https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></objec--t>
 
-2) The translated text plus a lot of valueble comentary
-<object data='https://drive.internxt.com/sh/file/fb9f6edf-f235-4d3f-b884-89d77d637ffe/d5aad17ffe16d3434f963076d47fb74b818e5f2c47a0598028eafac50134e966' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object>
-
+<!--object data='https://drive.internxt.com/sh/file/fb9f6edf-f235-4d3f-b884-89d77d637ffe/d5aad17ffe16d3434f963076d47fb74b818e5f2c47a0598028eafac50134e966' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object-->
 
