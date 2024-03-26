@@ -8,6 +8,7 @@ categories:
 date: '2024-03-25'
 image: /assets/posts/2024-03-25-ancient_tech/post_image.jpg
 layout: post
+pdf: https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa
 tags:
 - time
 - pattern
@@ -52,11 +53,15 @@ The fact that Maya was a demon did not deter the Sun from imparting his knowledg
 
 This law applies to Awareness and consciousness just as it does to Intelligence, which has profound consequences and implications regarding the direction and evolution of consciousness.
 
-Here is the full translation of the Surya Siddhanta.
+Below are two versions.  You can view online or download:
+1) The original text (translated to english).  306 pages
+2) The translated text plus a lot of valueble comentary.  474 pages
 
-Read the **Surya Siddhanta** [HERE](/material/material_surya-siddhanta.html)
 
+1) The original text (translated to english)
+<object data='https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object>
 
-
+2) The translated text plus a lot of valueble comentary
+<object data='https://drive.internxt.com/sh/file/fb9f6edf-f235-4d3f-b884-89d77d637ffe/d5aad17ffe16d3434f963076d47fb74b818e5f2c47a0598028eafac50134e966' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object>
 
 

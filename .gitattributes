@@ -6,5 +6,6 @@ _the_book/assets/latest/THOLONIA_THE_BOOK.epub filter=lfs diff=lfs merge=lfs -te
 _material/assets/book_red_NOTFREE.zip filter=lfs diff=lfs merge=lfs -text
 _material/assets/book_ICHING_THE_BOOK.zip filter=lfs diff=lfs merge=lfs -text
 _material/assets/book_THOLONIA_COLORING_BOOK.zip filter=lfs diff=lfs merge=lfs -text
+
 _material/assets/book*.zip filter=lfs diff=lfs merge=lfs -text
 
