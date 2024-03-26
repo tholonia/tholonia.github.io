@@ -6,7 +6,8 @@ categories:
 date: 2020-10-03
 image: /material/assets/material_Brownian_Motion.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Brownian_Motion.pdf
+src1: https://drive.internxt.com/sh/file/576d4428-f4a4-4e78-8bca-8dec0970de45/f5d2f42133e832b74ae6ba16c15a5f1ffe45e333fb98022d26242cc3751a51b4
+src1_title: View/Download 'Brownian Motion' (13 pages)
 ptags: [nokwgen-manual]
 jday: 28053
 tags:
@@ -18,4 +19,4 @@ Brownian motion applies across any context or pattern that can be analysed stati
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

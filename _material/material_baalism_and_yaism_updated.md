@@ -5,7 +5,8 @@ categories:
 date: 2020-10-16
 image: /material/assets/material_baalism_and_yaism_updated.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_baalism_and_yaism_updated.pdf
+src1: https://drive.internxt.com/sh/file/1f8740c4-8341-4e55-b468-e7cf9c4f4c4e/9a25203c2f26d1ee4516aa8c1df1579291b43437a5b1ea890b4bcb9f54cc53c7
+src1_title: View/Download 'Baalism and Yahwism Updated UPDATED' (6 pages)
 ptags: [nokwgen-manual]
 jday: 24672
 tags:
@@ -20,4 +21,4 @@ title: Baalism and Yahwism Updated UPDATED
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

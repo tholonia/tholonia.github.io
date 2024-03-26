@@ -7,7 +7,8 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_ringmakers.jpg
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_ringmakers.zip
+src1: https://drive.internxt.com/sh/file/eb0fb512-29dd-48cb-b755-e03cc6dcf090/a3660aa0711ae791192340bc98e0bc48be90fd65ae24ff85c3f80a6c5259a856
+src1_title: View/Download '' (125 pages)
 DEL: material
 jday: 10196
 tags:
@@ -24,4 +25,4 @@ The famous Cassini and Enke gaps also fit into the author's explanation. The mic
 
 While ChatGPT says this book is a fringe conspiracy theory, it's worth noting that the author, Norman R. Bergrum, was a scientist who worked at Ames Research Labs, NASA, and Lockheed Martin, and pioneered the methodology of thermal ice prevention design, roll-stability laws for airplanes and missiles, manager of test planning and analysis for the Polaris Underwater Launch Missile System, evaluated satellite system applications, was a director of Information Systems, founded his own company in 1971 and is cited in "Who's Who in the World" and other reference works. 
 
-Download PDF  [HERE]({{ page.pdf }})
+{% include show_src_1.html %}
