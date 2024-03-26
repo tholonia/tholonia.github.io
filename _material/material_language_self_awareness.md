@@ -3,9 +3,11 @@ author: duncan
 categories:
 - COMMUNICATION
 date: 2020-10-25
-image: /material/assets/language_self_awareness.png
+image: /material/assets/material_language_self_awareness.png
 layout: post
 pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/language_self_awareness.pdf
+src1: https://drive.internxt.com/sh/file/fd3c4d42-46ab-471a-9ca3-168b1069fcc8/b083050dacd2d42f8685de737a030df1e04f7036a2a551354b229b981be9dee7
+src1_title: View/Download "Language and Consciousness; How Language Implies Self-awareness" (11 pages)
 ptags: [nokwgen-manual]
 jday: 24714
 tags:
@@ -18,4 +20,4 @@ title: Language and Consciousness; How Language Implies Self-awareness
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

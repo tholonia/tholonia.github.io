@@ -7,10 +7,14 @@ date: 2021-10-04
 image: /material/assets/book_Adventures_Beyond_the_Body_NOTFREE.jpg
 layout: post
 pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_Adventures_Beyond_the_Body_NOTFREE.zip
+
+src1: https://drive.internxt.com/sh/file/cdb12a55-b7ff-4b89-8677-e63c7076e520/5ebd6b406531a6bc2c6e97111c2948d0e846522bfed946e9d9b5a9b8c4e0263d
+src1_title: View "Adventures_Beyond_the_Body (140 pages)"
+
 purchase:
-  - https://www.thriftbooks.com/w/adventures-beyond-the-body-how-to-experience-out-of-body-travel_william-buhlman/254475/?resultid=50d765e5-718c-4b78-8026-6b1c2837c8c8#edition=2338672&idiq=6123214
-  - From $6.29
-  - Thriftbooks
+  link: https://www.thriftbooks.com/w/adventures-beyond-the-body-how-to-experience-out-of-body-travel_william-buhlman/254475/?resultid=50d765e5-718c-4b78-8026-6b1c2837c8c8#edition=2338672&idiq=6123214
+  price: $6.29
+  vendor: Thriftbooks
 ptags: [nokwgen-manual]
 jday: 3125
 tags:
@@ -26,4 +30,6 @@ William Buhlman has trained out-of-body travelers in his workshop for more than 
 
  {% include book-notice.html %}
 
-Download PDF  [HERE]({{ page.pdf }})
+<a href="{{page.purchase.link}}">Available for purchase at {{page.purchase.vendor}} from {{page.purchase.price}}</a> 
+
+ {% include show_src_1.html %}
