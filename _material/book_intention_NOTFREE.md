@@ -10,9 +10,9 @@ src1: https://drive.internxt.com/sh/file/dd192027-28fa-4b1b-b673-3c3826e93fef/1d
 src1_title: View/Download "The Intention Experiment" (343 pages)
 
 purchase: 
-  - https://www.amazon.com/The-Intention-Experiment-audiobook/dp/B0017TZJJA
-  - $13.99 - $21.00
-  - Amazon
+  link: https://www.amazon.com/The-Intention-Experiment-audiobook/dp/B0017TZJJA
+  price: $13.99 - $21.00
+  vendor: Amazon
 ptags: [nokwgen-manual]
 jday: 580
 tags:

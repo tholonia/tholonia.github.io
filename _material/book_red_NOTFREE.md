@@ -8,9 +8,9 @@ image: /material/assets/book_red_NOTFREE.jpg
 layout: post
 pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_red_NOTFREE.zip
 purchase:
-  - https://www.amazon.com/Red-Book-Readers-Philemon/dp/B08997K82Z
-  - $28.99 - 167.99
-  - Amazon
+  link: https://www.amazon.com/Red-Book-Readers-Philemon/dp/B08997K82Z
+  price: $28.99 - 167.99
+  vendor: Amazon
 ptags: [nokwgen-manual]
 jday: 2395
 tags:
