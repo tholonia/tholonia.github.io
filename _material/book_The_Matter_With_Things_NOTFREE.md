@@ -21,7 +21,7 @@ tags:
 title: The Matter With Things by Iain McGilchrist
 ---
 
-Massive 3-volume 2,600 page book of neuroscience, epistemology and metaphysics looking at our brains, our delusions, and the unmaking of the world. Written in 2021 by psychiatrist, thinker and former literary scholar Iain McGilchrist.
+Massive 3-volume 2,600 page book of neuroscience, epistemology and metaphysics looking at our brains, our delusions, and the unmaking of the world. Written in 2021 by psychiatrist, thinker and former literary scholar Iain McGilchrist. 
 
 <!--more-->
 
