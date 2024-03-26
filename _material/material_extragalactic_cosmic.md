@@ -6,7 +6,6 @@ categories:
 date: 2020-10-14
 image: /material/assets/material_extragalactic_cosmic.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_extragalactic_cosmic.pdf
 src1: https://drive.internxt.com/sh/file/d4147b2b-f52a-4cd8-9029-495b7dc7f7a6/69d935520f06b76e7e1b6070157a79e7f567687d6e96070ba525c734f516660d
 src1_title: View/Download " Do Extragalactic Cosmic Rays Induce Cycles in Fossil Diversity?" ( pages)
 ptags: [nokwgen-manual]
@@ -22,4 +21,4 @@ Recent work has revealed a 62 million-year cycle in fossil diversity in the past
 
 <!--more-->
 
-{% include show_src_1.html %}
+{% include show_src_1.html %} 
