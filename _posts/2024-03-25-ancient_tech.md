@@ -8,10 +8,10 @@ categories:
 date: '2024-03-25'
 image: /assets/posts/2024-03-25-ancient_tech/post_image.jpg
 layout: post
-src1_title: The original text (translated to English). 306 pages
+src1_title: View/Download the original text (translated to English). 306 pages
 src1: https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa
 
-src2_title: The translated text plus a lot of valuable commentary.  474 pages
+src2_title: View/Download the translated text plus a lot of valuable commentary.  474 pages
 src2: https://drive.internxt.com/sh/file/fb9f6edf-f235-4d3f-b884-89d77d637ffe/d5aad17ffe16d3434f963076d47fb74b818e5f2c47a0598028eafac50134e966
 
 tag:
