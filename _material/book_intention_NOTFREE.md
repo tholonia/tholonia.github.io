@@ -6,8 +6,6 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_intention_NOTFREE.jpg
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_intention_NOTFREE.zip
-
 src1: https://drive.internxt.com/sh/file/dd192027-28fa-4b1b-b673-3c3826e93fef/1d8df4f1e8b63aedbd27a80e1c473d8d740036c0bec26c65ed3d993d5512833f
 src1_title: View/Download "The Intention Experiment" (343 pages)
 

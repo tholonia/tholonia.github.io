@@ -5,8 +5,6 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_cosmic_cons_of_humanity.jpg
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_cosmic_cons_of_humanity.zip
-
 src1: https://drive.internxt.com/sh/file/274e2788-d3b5-4027-84ce-dbf92688ba19/5e93de51ffa371713fc90dd593dbbb20ec4c85442446319442433253bab09421
 src1_title: View/Download "The Cosmic Consciousness of Humanity" (212 pages)
 

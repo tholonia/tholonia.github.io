@@ -7,8 +7,6 @@ categories:
 date: 2021-10-04
 image: /material/assets/book_Far_Journeys_NOTFREE.jpg
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/book_Far_Journeys_NOTFREE.zip
-
 src1: https://drive.internxt.com/sh/file/2aed170f-9927-4596-81d3-e5b6181bc5ee/1749f245c61bf4b472608d90e4c3cbe8790d4a516faa96fb9aa47029390196e9
 src1_title: View "Far Journeys" (432 pages)
 

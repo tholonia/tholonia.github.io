@@ -8,7 +8,6 @@ ptags: [nokwgen-manual]
 jday: 4375
 tags: [order,principles,reason]
 image: /material/assets/material_constructivists-view-of-newtonian-mechanics.png
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/constructivists-view-of-newtonian-mechanics.pdf
 src1: https://drive.internxt.com/sh/file/66b9cc53-0cac-401b-a2cb-c305db11ee21/7963d695685b3c37ca450d2f748dd2862ec1999887d6f84b24e0bce02ceded87
 src1_title: View/Download "A Constructivist View of Newton’s Mechanics" (35 pages)
 ---
