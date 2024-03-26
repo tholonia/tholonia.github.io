@@ -22,7 +22,7 @@ The Surya Siddhanta is an ancient cosmological technical manual revised around 8
 
 Here's a 5 minute video that highlights some of its impressive claims
 
-{% youtube "https://youtu.be/_FzKmAKq09A" %}
+{% youtube "https://www.youtube.com/watch?v=Bm3Oixy4YMs" %}
 
 - *The Surya Siddhanta is an incredible testimony to the advanced thinking of the ancient Indians. In this text, one can find the roots of trigonometry, as well as essential mathematical inventions, such as standard notation and the decimal system. In addition, the text describes gravity for a millennium before Sir Isaac Newton developed his theory in 1687. He explains the sidereal revolutions and how planets move eastward. Accurately calculate the size and position of distant planets, the duration of a tropical year and the amount of time that has passed since its creation. Finally, in his discussion about how time passes at different speeds and under different circumstances, it contains the seeds of relativity.*
 
@@ -36,7 +36,7 @@ A [brief overview](https://www.linkedin.com/pulse/advanced-scientific-knowledge-
 
 One of the more debated claims is that the [Rig Veda calculates the speed of light](https://www.youtube.com/watch?v=qPly2N00cBE), as briefly shown in the image below. I certainly can't say whether this is accurate or true, but the fact that they understood light has a speed at all is impressive, considering Western science didn't discover this fact until  [Ole Rømer](https://en.wikipedia.org/wiki/Ole_R%C3%B8mer) first [demonstrated this 1676](https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light).
 
-<img alt="IMAGE" src="/assets/posts/2024-03-25-ancient_tech/rigveda_sol.jpg" class='right-img-25'>
+<img alt="IMAGE" src="/assets/posts/2024-03-25-ancient_tech/rigveda_sol.jpg" class='right-img-25' style='width:100%'>
 
 One of the more realistic and slightly comic quotes from the book is the initial meeting of the Sun and Maya, the student:
 
@@ -53,6 +53,8 @@ The fact that Maya was a demon did not deter the Sun from imparting his knowledg
 This law applies to Awareness and consciousness just as it does to Intelligence, which has profound consequences and implications regarding the direction and evolution of consciousness.
 
 Here is the full translation of the Surya Siddhanta.
+
+Read the **Surya Siddhanta** [HERE](/material/material_surya-siddhanta.html)
 
 
 
