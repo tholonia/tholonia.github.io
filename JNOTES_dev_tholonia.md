@@ -11,6 +11,7 @@
 cp EX_post_template.md  _posts/YYYY-MM-DD-TITLE.md
 cp EX_post_image.jpg 
 ```
+
 Edit post
 
 ```sh
@@ -22,22 +23,14 @@ Update image
 
 # Adding material
 
-```sh
-# create image for material in _material/assets/material_TITLE.jpg
-#
-cp EX_material.md _material/material_TITLE.md
+run **ADD_MAT**
 ```
-
-
-
-
-
-
-
-
-
-
-c- 
+./add_material.py \
+	--title "THIS is a TEST" \
+	--src1 https:/... \
+	--src1title "View/Download 'THIS is a TEST' (15 pages)" \
+```
+ 
 
 # Docker Commands
 

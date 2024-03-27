@@ -1,20 +1,21 @@
 ---
+layout: post
+title: Bhagavad Gita
 author: duncan
-categories:
-- PHILOSOPHY
 date: 2024-01-04
 image: /material/assets/book_bhagavad-gita.jpg
-layout: post
-src1: https://drive.internxt.com/sh/file/1a440283-8508-4492-879a-246ac78a9cc6/53bc55657e77fa74aa1237936067815c5c0650d9486fd3bc28a3e3fc359f6aea
-src1_title: View/Download "Bhagavad Gita (1029 pages)"
-
+categories:
+- PHILOSOPHY
+source1:
+  src: https://drive.internxt.com/sh/file/1a440283-8508-4492-879a-246ac78a9cc6/53bc55657e77fa74aa1237936067815c5c0650d9486fd3bc28a3e3fc359f6aea
+  title: View/Download "Bhagavad Gita (1029 pages)"
 ptags:
 - nokwgen-manual
+jday: 8000
 tags:
 - belief
 - hindu
 - krsna
-title: Bhagavad Gita
 ---
 
 While the Tholonic Model gives religion and religious beliefs a wide berth, some religious doctrines and writings are, or include, metaphysical or esoteric laws that are draped in religious or spiritual symbolism, from cause and effect to biogenesis.
@@ -34,4 +35,5 @@ May concepts in the Gita are quite compatible with tholonic concepts and can she
 That is why this book is included here.
 
 {% include show_src_1.html %}
+
 

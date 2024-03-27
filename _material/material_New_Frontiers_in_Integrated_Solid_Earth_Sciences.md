@@ -1,20 +1,22 @@
 ---
+layout: post
+title: New Frontiers in Integrated Solid Earth Sciences
 author: duncan
+date: 2020-11-01
+image: /material/assets/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.png
 categories:
 - GEOSCIENCE
 - POLITICS
 - ECONOMICS
-date: 2020-11-01
-image: /material/assets/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.png
-layout: post
-src1: https://drive.internxt.com/sh/file/a71f9385-474d-4095-b3c1-1908f4e25edf/712bdca37066f677346cb929f24febe14a1d300f4381ab5a361f0e54656af4fb
-src1_title: View/Download 'New Frontiers in Integrated Solid Earth Sciences' (424 pages)
-ptags: [nokwgen-manual]
+source1:
+  src: https://drive.internxt.com/sh/file/a71f9385-474d-4095-b3c1-1908f4e25edf/712bdca37066f677346cb929f24febe14a1d300f4381ab5a361f0e54656af4fb
+  title: View/Download 'New Frontiers in Integrated Solid Earth Sciences' (424 pages)
+ptags:
+- nokwgen-manual
 jday: 15336
 tags:
 - UNESCO
 - U.N.
-title: New Frontiers in Integrated Solid Earth Sciences
 ---
 
 Examines the dynamics of sedimentary basins and their relationship with tectonic processes. It presents various examples of how different basins have responded to changes in tectonic forces over time, including the formation of microdiamonds in the Earth's crust. The article highlights the importance of understanding these dynamics to better predict future geological events and their impact on the environment.
@@ -33,3 +35,4 @@ This book is good perspective on where mainstream thinking is directed regarding
 It added here because it is these groups and other large, well funded and supported organizations that greatly determine our awareness of current issues.
 
 {% include show_src_1.html %}
+

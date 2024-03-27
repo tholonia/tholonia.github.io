@@ -1,20 +1,23 @@
 ---
+layout: post
+title: Universal Intelligence - A Definition of Machine Intelligence
 author: duncan
+date: 2020-11-16
+image: /material/assets/material_Univ_intel_and_def_of_machine_intel.png
 categories:
 - COMMUNICATION
 - TECHNOLOGY
-date: 2020-11-16
-image: /material/assets/material_Univ_intel_and_def_of_machine_intel.png
-layout: post
-src1: https://drive.internxt.com/sh/file/5f7b6bf9-9af3-4d6d-a8f0-c052d95e8896/46229a3c452c5f21e175e0d9beb2171c516777665ae928864cac01f7b9a1c4fa
-src1_title: View/Download 'Universal Intelligence - A Definition of Machine Intelligence' (50 pages)
-ptags: [nokwgen-manual]
+source1:
+  src: https://drive.internxt.com/sh/file/5f7b6bf9-9af3-4d6d-a8f0-c052d95e8896/46229a3c452c5f21e175e0d9beb2171c516777665ae928864cac01f7b9a1c4fa
+  title: View/Download 'Universal Intelligence - A Definition of Machine Intelligence'
+    (50 pages)
+ptags:
+- nokwgen-manual
 jday: 26117
 tags:
 - intelligence
 - supercomputing
 - AI
-title: Universal Intelligence - A Definition of Machine Intelligence
 ---
 
 {% comment %}
@@ -28,3 +31,4 @@ This paper discusses the concept of intelligence and its various definitions. It
 <!--more-->
 
 {% include show_src_1.html %}
+
