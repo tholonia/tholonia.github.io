@@ -6,7 +6,8 @@ categories:
 date: 2020-10-05
 image: /material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
+src1: https://drive.internxt.com/sh/file/266115fa-b594-4683-8a5d-286b7d7b43a0/4811ad6e9c4bf3467bde6f424cb0192840d1ac319b61d818a00a1724aea84e35
+src1_title: View/Download ' Fractal Dimension in Architecture' (107 pages)
 ptags: [nokwgen-manual]
 jday: 7222
 tags:
@@ -20,4 +21,4 @@ title: Fractal Dimension in Architecture - An Exploration of Spatial Dimension
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

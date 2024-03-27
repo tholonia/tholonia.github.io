@@ -7,7 +7,8 @@ categories:
 date: 2020-10-22
 image: /material/assets/material_Introduction_to_Complex_Systems_Sustainability_and.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Introduction_to_Complex_Systems_Sustainability_and.pdf
+src1: https://drive.internxt.com/sh/file/b3c7968f-10ff-4070-b6c0-281e1f0e39ec/495e80a00692489728cafa2fd7a4c6d7c62ecf7410f3861ca24d3d852f519441
+src1_title: View/Download 'Introduction to Complex Systems, Sustainability and Innovation' (22 pages)
 ptags: [nokwgen-manual]
 jday: 7487
 tags:
@@ -19,4 +20,4 @@ title: Introduction to Complex Systems, Sustainability and Innovation
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

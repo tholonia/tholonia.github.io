@@ -8,7 +8,8 @@ date: 2024-01-04
 image: /material/assets/material_effects-of-distant-intention-on-water.jpg
 jday: 19726
 layout: post
-pdf: /material/assets/material_effects-of-distant-intention-on-water.pdf
+src1: https://drive.internxt.com/sh/file/94e6ec52-87b4-4ee8-b596-a5e4f73572ed/cccc978a55e34a7460ca887721ff80a7b7ea9c66100940c7c01fbfb513ebdccf
+src1_title: View/Download 'Effects of Distant Intention on Water' (4 pages)
 ptags:
 - nokwgen-manual
 tags:
@@ -32,4 +33,4 @@ The tholonic position on Emoto's claim is:
 
 [Chapter 11](/the_book/100-FIELDS.html) of the book [THOLONIA](/the_book) covers this in more detail and has other examples, including the famous (or infamous) case where Jacques Benveniste, a French immunologist who worked at the Institute of Health and Medical Research (INSERM) in 1988, published a paper in *Nature* concluding that the configuration of molecules in water was biologically active even in the absence of the elements that caused that configuration. It also covers the eye-opening reaction by then *Nature editor* John Maddox, who responded in a very un-scientific manner but a manner wholly supported by the self-appointed high priests of scientific knowledge.
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

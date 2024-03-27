@@ -6,7 +6,8 @@ categories:
 date: '2024-01-05'
 image: /material/assets/material_time-wave-zero.webp
 layout: post
-pdf: /material/assets/material_time-wave-zero.pdf
+src1: https://drive.internxt.com/sh/file/d4a73796-6030-42c0-8b96-cb6c4b8e2bcc/6e8d6424a3e815704245f6374a9cc65db04ec505a6050c7a11ccfdc888837752
+src1_title: View/Download 'Time Wave Zero' (6 pages)
 ptags:
 - nokwgen-manual
 tags:
@@ -21,4 +22,4 @@ This is Terence McKenna's most important idea, according to him.  "Time Wave Zer
 
 For more info, see [related blog post]({{site.baseurl}}{% link _posts/2024-01-05-time-wave-zero.md %})
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

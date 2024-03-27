@@ -6,7 +6,8 @@ categories:
 date: 2020-10-29
 image: /material/assets/material_Molecular_dynamics_study_of_tridymite.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Molecular_dynamics_study_of_tridymite.pdf
+src1: https://drive.internxt.com/sh/file/b9d4bdf3-ed71-4520-8233-ef76f1c70463/a542eff0d707045f52126542147315dfdd16346a3acbe0b1e4304d858643575e
+src1_title: View/Download 'Molecular dynamics study of tridymite' ( pages)
 ptags: [nokwgen-manual]
 jday: 24466
 tags:
@@ -19,4 +20,4 @@ Tridymite is a high-temperature polymorph of silica (SiO<sup>2</sup>).  It is of
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

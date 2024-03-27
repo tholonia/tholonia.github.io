@@ -6,7 +6,8 @@ categories:
 date: 2020-10-21
 image: /material/assets/material_Intelligence_as_Smart_Heuristics.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Intelligence_as_Smart_Heuristics.pdf
+src1: https://drive.internxt.com/sh/file/b8811790-3c2b-43cf-8e89-c320fc8195cb/e2b80bb7ffea1b8c663d7a7cca7997a8ad76883a8f65e7b332b8b08c842f941f
+src1_title: View/Download 'Intelligence as Smart Heuristics' (35 pages)
 ptags: [nokwgen-manual] 
 jday: 14785
 tags:
@@ -27,4 +28,4 @@ The concept of "Take The Best" is a heuristic used in decision-making where indi
 
 
 
-{% include pdf-download-obj.html %}+ 
+{% include show_src_1.html %}

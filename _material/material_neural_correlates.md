@@ -6,7 +6,8 @@ categories:
 date: 2020-10-30
 image: /material/assets/material_neural_correlates.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_neural_correlates.pdf
+src1: https://drive.internxt.com/sh/file/86087b78-07ec-4b0f-8565-744818a0e839/0e5629260531beb3b715e92282d86a1cd8897382e5c01a6efab1a1a0e88e5be1
+src1_title: View/Download 'The Neural Correlates of Consciousness and Attention' (17 pages)
 ptags: [nokwgen-manual]
 jday: 26317
 tags:
@@ -21,4 +22,4 @@ A review of some of the most significant theoretical issues concerning the conce
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

@@ -6,7 +6,8 @@ categories:
 date: 2020-11-03
 image: /material/assets/material_pattern_processing.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_pattern_processing.pdf
+src1: https://drive.internxt.com/sh/file/8572b2ee-b9e0-4956-8b01-d8639f2555cc/3a64dba7542af6e67a8c17dae513a19eed976127828eda4347596771397c7291
+src1_title: View/Download 'Superior pattern processing' ( pages)
 ptags: [kwnogen-manual]
 jday: 16824
 tags:
@@ -20,4 +21,4 @@ Humans have long pondered the nature of their mind/brain and, particularly why i
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}
