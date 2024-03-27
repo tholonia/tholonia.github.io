@@ -6,7 +6,8 @@ categories:
 date: 2020-11-09
 image: /material/assets/material_SharedDeathExperiences-AMulticulturalSurvey.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_SharedDeathExperiences-AMulticulturalSurvey.pdf
+src1: https://drive.internxt.com/sh/file/da7ccb27-3643-490f-a4fb-2eb34356d181/a3b42e908e676644e8d73015ba20f98d15b5f7c1c65d6556bdf403e052663752
+src1_title: View/Download 'Shared Death Experiences' (17 pages)
 ptags: [nokwgen-manual]
 jday: 24191
 tags:
@@ -20,4 +21,4 @@ Shared-death-experiences (SDEs) and after-death-communication-experiences (ADCEs
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

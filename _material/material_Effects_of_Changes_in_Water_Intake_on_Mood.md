@@ -6,7 +6,8 @@ categories:
 date: 2020-11-06
 image: /material/assets/material_Effects_of_Changes_in_Water_Intake_on_Mood.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Effects_of_Changes_in_Water_Intake_on_Mood.pdf
+src1: https://drive.internxt.com/sh/file/1f085e16-cb90-42b8-b3d3-64f5d263af52/225fa68ae8d2eb28e4592ffb6a1c5c368761c3a988577198750e9c8da85ceb5e
+src1_title: View/Download 'Effects of Changes in_Water Intake on Mood' (7 pages)
 ptags: [nokwgen-manual]
 jday: 20469
 tags:
@@ -18,4 +19,4 @@ There is a growing body of literature showing that fluid deprivation negatively 
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

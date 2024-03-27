@@ -6,7 +6,8 @@ categories:
 date: 2020-11-07
 image: /material/assets/material_science_duality.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_science_duality.pdf
+src1: https://drive.internxt.com/sh/file/94fd8e8b-4e95-4f18-a54e-2314d23da1eb/928a754b0b1f34fe47e2a8cd104671f1e6361318a8db68ed717d63c149f9a3ee
+src1_title: View/Download 'Science, Dualities and the Phenomenological Map' (28 pages)
 ptags: [nokwgen-manual]
 jday: 14843
 tags:
@@ -19,4 +20,4 @@ A phenomenological map is meant to connect reality and our ideas about it. This 
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

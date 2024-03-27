@@ -8,11 +8,12 @@ ptags: [nokwgen-manual-unreadable]
 jday: 5578
 tags: [evolution, history, earth]
 image: /material/assets/material_MaruyamaEarthLifeBook2001.png
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_MaruyamaEarthLifeBook2001.pdf
+src1: https://drive.internxt.com/sh/file/f31d431b-dacd-44fd-bf46-9b73f93348dd/50cab91802650791af207ceb804677fe3ebe734c3de9247cec2f6c4fc30c901e
+src1_title: View/Download 'History of the Earth and Life' (41 pages)
 ---
 
 An analysis of the geothermal and thermo-chemical structure of the earth and its impact on the formation of life on the planet.  
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}
