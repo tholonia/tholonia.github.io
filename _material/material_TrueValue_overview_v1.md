@@ -6,7 +6,8 @@ categories:
 date: 2020-11-15
 image: /material/assets/material_TrueValue_overview_v1.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_TrueValue_overview_v1.pdf
+src1: https://drive.internxt.com/sh/file/3053a837-97cf-4003-b349-976437f22060/259d36c09fe292a0765f70d75bf31bd13de50cf6c75502f916ec402aaa2aa853
+src1_title: View/Download 'True-Value Framework for Sustainability' (26 pages)
 ptags: [nokwgen-manual]
 jday: 23851
 tags:
@@ -21,4 +22,4 @@ The True Value Framework (TVF) is a conceptual model designed to improve the eff
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

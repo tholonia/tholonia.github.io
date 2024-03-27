@@ -8,7 +8,8 @@ date: 2024-01-04
 image: /material/assets/material_healing-with-water.md.jpg
 jday: 19726
 layout: post
-pdf: /material/assets/material_healing-with-water.md.pdf
+src1: https://drive.internxt.com/sh/file/8f4b09d8-c226-4aa4-bc43-12a28c50e3de/939d4043e0208b614dbee690c4100d0142124865a40d8455fc46143c4151197c
+src1_title: View/Download 'Healing with Water' (3 pages)
 ptags:
 - nokwgen-manual
 tags:
@@ -22,4 +23,4 @@ The article discusses the concept of "invisible energy" in water, which is belie
 
 This is especially interesting as the tholonic claim is that water, being an ideal (or at least very efficient) tholonic medium, has abilities or properties associated with the tholonic spectrum, or the 3<sup>rd</sup> spectrum of energy that is beyond the spectrum of matter and electromagnetism.
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

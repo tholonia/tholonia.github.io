@@ -4,7 +4,8 @@ categories: [COMMUNICATION,ECONOMICS,MATH,PHILOSOPHY,PSYCHOLOGY,TECHNOLOGY,REFER
 date: 2024-01-05
 image: /material/assets/material_historical-evolution-of-ai.jpg
 layout: post
-pdf: /material/assets/material_historical-evolution-of-ai.pdf
+src1: https://drive.internxt.com/sh/file/e4854e15-31d3-4cba-8cb0-b0692aab6fa9/4277fee5c088f00dc74a98703342cfe821daf51a8a53fb74b2afc10c07735202
+src1_title: View/Download 'Historical Evolution of AI' ( pages)
 ptags:
 - nokwgen-manual
 tags:
@@ -18,4 +19,4 @@ Andrew Ng and Geoffrey Hinton discuss the transformative potential of artificial
 
 
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

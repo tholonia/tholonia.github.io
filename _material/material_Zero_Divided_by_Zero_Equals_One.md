@@ -5,7 +5,8 @@ categories:
 date: 2020-11-18
 image: /material/assets/material_Zero_Divided_by_Zero_Equals_One.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Zero_Divided_by_Zero_Equals_One.pdf
+src1: https://drive.internxt.com/sh/file/a9d1a45a-1401-404e-8cbf-1513f8a88ffc/eb9c18eed02a729ff964472bac5e1de8165d32526a98f0f0a750ef160f8dbfa7
+src1_title: View/Download 'Zero Divided by Zero Equals One' (18 pages)
 ptags: [nokwgen-manual]
 jday: 16926
 tags:
@@ -18,4 +19,4 @@ This paper starts out by saying "Accumulating evidence indicates that zero divid
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

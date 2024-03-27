@@ -7,7 +7,8 @@ categories:
 date: 2020-10-26
 image: /material/assets/material_MARS_EXPLORATION_MAY_22_1984.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_MARS_EXPLORATION_MAY_22_1984.pdf
+src1: https://drive.internxt.com/sh/file/f077421d-6d52-49c5-8977-05bbb4e91242/b597aca5470ecf70a49d9feb4c19e5980f644613d4b7682cd0c6f80a6264406f
+src1_title: View/Download 'Mars Exploration, May 22, 1984 (CIA FOIA)' (3 pages)
 ptags: [nokwgen-manual]
 jday: 21957
 tags:
@@ -20,4 +21,4 @@ This is an internal CIA document that reviews the Project Stargate's attempt to 
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

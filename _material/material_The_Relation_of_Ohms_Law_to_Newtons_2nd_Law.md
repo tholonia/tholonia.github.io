@@ -5,7 +5,8 @@ categories:
 date: 2020-11-14
 image: /material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.pdf
+src1: https://drive.internxt.com/sh/file/b02d9527-abcd-4366-aa91-33679c0cfbc9/0968eb312b3a84704cbd6b9f78ff45b45beb28ce3174dbd31100bfaa8057c8d4
+src1_title: View/Download 'The Relation of Ohm’s Law to Newton’s 2nd Law' (6 pages)
 ptags: [nokwgen-manual]
 jday: 23945
 tags:
@@ -19,4 +20,4 @@ In the tholonic model, Newtons 2<sup>nd</sup> law is use across many contexts.  
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

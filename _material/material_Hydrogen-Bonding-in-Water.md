@@ -6,7 +6,8 @@ categories:
 date: 2020-10-06
 image: /material/assets/material_Hydrogen-Bonding-in-Water.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_Hydrogen-Bonding-in-Water.pdf
+src1: https://drive.internxt.com/sh/file/20c60a2a-c523-400b-8b11-f8c7b6c15613/25d7047b5a59ac08afd864d839a9cbc380645b84ea8af556b00760e5c0b44e4d
+src1_title: View/Download 'Hydrogen Bonding in Water' (9 pages)
 ptags: [nokwgen-manual]
 jday: 4416
 tags:
@@ -24,4 +25,4 @@ This is relevant as the tetrahedral water molecule is a excellent instance of th
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}

@@ -6,7 +6,8 @@ categories:
 date: 2020-10-18
 image: /material/assets/material_sciam_observations_the_hippies_were_r.png
 layout: post
-pdf: https://github.com/tholonia/tholonia.github.io/raw/main/_material/assets/material_sciam_observations_the_hippies_were_r.pdf
+src1: https://drive.internxt.com/sh/file/90510540-1d63-4020-a13e-cbaaf3b5ee93/cfed3868267a5456d5d3614f6bcf5d20e76559a56f616da1eeba56026187bc9e
+src1_title: View/Download 'The Hippies Were Right - It's All about Vibrations, Man!' (6 pages)
 DEL: material
 jday: 16533
 tags:
@@ -20,4 +21,4 @@ title: The Hippies Were Right - It's All about Vibrations, Man!
 
 <!--more-->
 
-{% include pdf-download-obj.html %}
+{% include show_src_1.html %}
