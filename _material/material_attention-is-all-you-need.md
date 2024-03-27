@@ -1,18 +1,20 @@
 ---
+layout: post
+title: Attention Is All You Need
 author: duncan
-categories:
-- TECHNOLOGY
 date: 2024-01-05
 image: /material/assets/material_attention-is-all-you-need.jpg
-layout: post
-src1: https://drive.internxt.com/sh/file/94f389e5-233f-4ef8-bf4a-5ed6ebfa1d75/fb91f7f91687e8bc057e261c3d3ab8b370db0d5e27b751685dc91ce0e871a855
-src1_title: "View/Download 'Attention Is All You Need' (15 pages)" 
+categories:
+- TECHNOLOGY
+source1:
+  src: https://drive.internxt.com/sh/file/94f389e5-233f-4ef8-bf4a-5ed6ebfa1d75/fb91f7f91687e8bc057e261c3d3ab8b370db0d5e27b751685dc91ce0e871a855
+  title: View/Download 'Attention Is All You Need' (15 pages)
 ptags:
 - nokwgen-manual
+jday: 8001
 tags:
 - AI
 - Google
-title: Attention Is All You Need
 ---
 
 This is the research paper from Google that can be said to have started the modern AI revolution with their 'transformer' technology.

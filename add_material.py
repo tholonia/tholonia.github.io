@@ -1,8 +1,10 @@
 #!/bin/env python
+
 import os, sys, glob, getopt
 from colorama import init, Fore, Back
 from pprint import pprint
 from datetime import datetime
+import yaml
 
 init()
 
@@ -25,22 +27,27 @@ def days_from_date_to_now(year, month, day):
 
 def showhelp():
     print("help")
-    rs = """
-    -h, --help          show help
-    -d, --date          YYYY-MM-DD
-    -t, --title
-    -i, --image
-    -s, --src1
-    -S, --src1title
+    rs = f"""
+    Usage: {__file__} [OPTION]...
+    Create new 'material' entry in chirpy2/jekyll
+
+    -d, --date          YYYY-MM-DD (Def: current time)
+    -t, --title         "this te the title" (Def: 'DELETE-ME')
+    -i, --image         filename (Def: {SITE_ROOT}/EX_post_image.jpg (black 225x225 square)
+    -s, --src1          URL (Def: False)
+    -S, --src1_title     "Title: (Def: False)
+        -h, --help          show help
+
+  Examples:
+  # Create a new entry with the current YYYY-MM-DD, a default image, pointing to a remote PDF file
+  ./add_material.py \
+    --title "THIS is a TEST" \
+    --src1 https://drive.internxt.com/sh/file/94f389e5-233f-4ef8-bf4a-5ed6ebfa1d75/fb91f7f91687e8bc057e261c3d3ab8b370db0d5e27b751685dc91ce0e871a855 \
+    --src1_title "View/Download 'THIS is a TEST' (15 pages)" \
 
 """
     print(rs)
     exit()
-
-
-
-import yaml
-
 
 def read_yaml_frontmatter_and_content(file_path):
   with open(file_path, 'r') as file:
@@ -94,7 +101,7 @@ idate =  datetime.today().strftime('%Y-%m-%d')
 title = "DElETE-ME"
 full_title = False
 src1 = False
-src1title = False
+src1_title = False
 
 # v ────────────────────────────────────────────────────────────────────────────────────────────────────────────
 # [ get args
@@ -109,7 +116,7 @@ try:
             "title=",
             "image=",
             "src1=",
-            "src1title=",
+            "src1_title=",
         ],
     )
 except Exception as e:
@@ -129,8 +136,8 @@ for opt, arg in opts:
         idate = arg
     if opt in ("-s", "--src1"):
         src1 = arg
-    if opt in ("-S", "--src1title"):
-        src1title = arg
+    if opt in ("-S", "--src1_title"):
+        src1_title = arg
 
 #^ the pattern for both MD and IMG is: "material"|"book"|etc followierd by a "_"
 #^ filenames are all lowercased, and spaces replaces ith "-"
@@ -162,11 +169,11 @@ pprint(post_yaml)
 
 if src1 != False:
   post_yaml['frontmatter']['src1'] = src1
-  post_yaml['frontmatter']['src1_title'] = src1title
+  post_yaml['frontmatter']['src1_title'] = src1_title
 
 
 save_yaml_frontmatter_and_content(post_yaml, f"{newfile}.md")
-print(f"|{newfile}.md| ready")
+print(f"|{Fore.YELLOW}{newfile}.md{Fore.RESET}| ready")
 
 # save_yaml_frontmatter_and_content(post_yaml, f"test.md")
 # print(f"|test.md| ready")

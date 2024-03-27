@@ -1,20 +1,21 @@
 ---
+layout: post
+title: Effects of Distant Intention on Water
 author: duncan
+date: 2024-01-04
+image: /material/assets/material_effects-of-distant-intention-on-water.jpg
 categories:
 - GEOSCIENCE
 - NATURE
 - METAPHYSICS
-date: 2024-01-04
-image: /material/assets/material_effects-of-distant-intention-on-water.jpg
-jday: 19726
-layout: post
-src1: https://drive.internxt.com/sh/file/94e6ec52-87b4-4ee8-b596-a5e4f73572ed/cccc978a55e34a7460ca887721ff80a7b7ea9c66100940c7c01fbfb513ebdccf
-src1_title: View/Download 'Effects of Distant Intention on Water' (4 pages)
+source1:
+  src: https://drive.internxt.com/sh/file/94e6ec52-87b4-4ee8-b596-a5e4f73572ed/cccc978a55e34a7460ca887721ff80a7b7ea9c66100940c7c01fbfb513ebdccf
+  title: View/Download 'Effects of Distant Intention on Water' (4 pages)
 ptags:
 - nokwgen-manual
+jday: 19726
 tags:
 - water
-title: Effects of Distant Intention on Water
 ---
 
 This paper describes an experiment to test the effects of a "prayer for water" on the molecular structure of water. The experiment involved exposing water to a shielded chamber with the words of the prayer overlaid on a photo, and analyzing the water's molecular structure before and after the prayer. The results showed significant changes in the water's molecular structure after the prayer, suggesting that the prayer had an impact on the water.
