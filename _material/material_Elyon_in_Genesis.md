@@ -7,9 +7,9 @@ image: /material/assets/material_Elyon_in_Genesis.png
 categories:
 - ESOTERIC
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/8cd04c9e-3a85-454f-83b6-2c1f78ac2473/e1fd570261e6a4f76f978c9eb366b388791f7935fc2cde987969aba427a2b723
-  title: View/Download 'Elyon -a Canaanite god - in Genesis' (10 pages)
+
+src1: https://drive.internxt.com/sh/file/8cd04c9e-3a85-454f-83b6-2c1f78ac2473/e1fd570261e6a4f76f978c9eb366b388791f7935fc2cde987969aba427a2b723
+src1_title: View/Download 'Elyon -a Canaanite god - in Genesis' (10 pages)
 ptags:
 - nokwgen-manual
 jday: 21668

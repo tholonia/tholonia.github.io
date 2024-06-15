@@ -8,9 +8,9 @@ categories:
 - GEOSCIENCE
 - NATURE
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/94e6ec52-87b4-4ee8-b596-a5e4f73572ed/cccc978a55e34a7460ca887721ff80a7b7ea9c66100940c7c01fbfb513ebdccf
-  title: View/Download 'Effects of Distant Intention on Water' (4 pages)
+
+src1: https://drive.internxt.com/sh/file/94e6ec52-87b4-4ee8-b596-a5e4f73572ed/cccc978a55e34a7460ca887721ff80a7b7ea9c66100940c7c01fbfb513ebdccf
+src1_title: View/Download 'Effects of Distant Intention on Water' (4 pages)
 ptags:
 - nokwgen-manual
 jday: 19726

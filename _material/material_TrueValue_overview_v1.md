@@ -7,9 +7,9 @@ image: /material/assets/material_TrueValue_overview_v1.png
 categories:
 - ECONOMICS
 - TECHNOLOGY
-source1:
-  src: https://drive.internxt.com/sh/file/3053a837-97cf-4003-b349-976437f22060/259d36c09fe292a0765f70d75bf31bd13de50cf6c75502f916ec402aaa2aa853
-  title: View/Download 'True-Value Framework for Sustainability' (26 pages)
+
+src1: https://drive.internxt.com/sh/file/3053a837-97cf-4003-b349-976437f22060/259d36c09fe292a0765f70d75bf31bd13de50cf6c75502f916ec402aaa2aa853
+src1_title: View/Download 'True-Value Framework for Sustainability' (26 pages)
 ptags:
 - nokwgen-manual
 jday: 23851

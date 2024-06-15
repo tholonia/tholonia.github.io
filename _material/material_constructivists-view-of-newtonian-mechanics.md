@@ -8,9 +8,9 @@ categories:
 - MATH
 - PHILOSOPHY
 - NATURE
-source1:
-  src: https://drive.internxt.com/sh/file/66b9cc53-0cac-401b-a2cb-c305db11ee21/7963d695685b3c37ca450d2f748dd2862ec1999887d6f84b24e0bce02ceded87
-  title: "View/Download \"A Constructivist View of Newton\u2019s Mechanics\" (35 pages)"
+
+src1: https://drive.internxt.com/sh/file/66b9cc53-0cac-401b-a2cb-c305db11ee21/7963d695685b3c37ca450d2f748dd2862ec1999887d6f84b24e0bce02ceded87
+src1_title: "View/Download \"A Constructivist View of Newton\u2019s Mechanics\" (35 pages)"
 ptags:
 - nokwgen-manual
 jday: 4375
