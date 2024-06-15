@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <!-- Add any additional meta tags, CSS, or scripts here -->
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <!-- You can customize your header content here -->
+    </header>
+
+    <main>
+        {{ content }}
+        <!-- This is where the content of each page will be inserted -->
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.author }} {{ "now" | date: "%Y" }}</p>
+        <!-- You can customize your footer content here -->
+    </footer>
+</body>
+</html>
