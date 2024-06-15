@@ -126,14 +126,14 @@ print(f"reordering: {Fore.GREEN}{filename}{Fore.RESET}")
 
 post = read_yaml_frontmatter_and_content(filename)
 #! fix the YAML by combinign existing src1 and src1_title to be elements of 'source1'
-if not "source1" in post['frontmatter']:
-  source1 = {'src':post['frontmatter']['src1'],'title':post['frontmatter']['src1_title']}
-  del post['frontmatter']['src1']
-  del post['frontmatter']['src1_title']
-else:
-  source1=post['frontmatter']['source1']
-
-post['frontmatter']['source1']=source1
+# if not "source1" in post['frontmatter']:
+#   if "src1" in post['frontmatter']:
+#     source1 = {'src':post['frontmatter']['src1'],'title':post['frontmatter']['src1_title']}
+#     del post['frontmatter']['src1']
+#     del post['frontmatter']['src1_title']
+#   else:
+#     source1=post['frontmatter']['source1']
+#   post['frontmatter']['source1']=source1
 
 # pprint(post)
 with open("/tmp/newfm.md","w") as f:

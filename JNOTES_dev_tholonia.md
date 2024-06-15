@@ -1,3 +1,5 @@
+###### Overview of Contents:  Instructions and notes for tholonia.com jekyll docker.  Meant to be official README.md 
+
 # Root Dir
 
 - /home/jw/sites/tholonia/chirpy2
@@ -29,19 +31,20 @@ run **ADD_MAT**
 	--title "THIS is a TEST" \
 	--src1 https:/... \
 	--src1title "View/Download 'THIS is a TEST' (15 pages)" \
+
+# --image defaults fo a black 225x225 square
+
+
 ```
- 
+
+# Site Pages
+
+List all categories and pages in 
+
+- http://0.0.0.0:4001/list_cats
+- 
 
 # Docker Commands
-
-`run` 
-
-- starts an **image** (Images are frozen immutable snapshots of live containers)
-
-`start`
-
-- starts a **container** (Containers are running (or stopped) instances of some image)
-
 
 
 ### Start the container form an image
@@ -55,13 +58,17 @@ docker run -it -d \
 -p 4001:4001 \
 -p 35729:35729 \
 --mount src=$(pwd),target=$(pwd),type=bind \
---name chirpyRun chirpy:latest
+--name chirpyRun chirpy2:updated
+```
+
+### Start and container
+```sh
+docker start <CID>
 ```
 
 ### Enter the running container
 
 ```sh
-
 docker exec --workdir $(pwd) -it <container_ID> bash
 ```
 
@@ -78,11 +85,21 @@ bundle install
 # server live at http://0.0.0.0:4001/
 ```
 
+To update Ruby Gems
+
+```bash
+gem update --system
+```
+If 'dubious owner' error message appears after running ./START, from inside the docker image run
+```
+git config --global --add safe.directory /home/jw/sites/tholonia/chirpy2
+```
+
 
 
 # OLD NOTES
 
-To start Chiroy/Jeckyll up up clean...
+To start Chirpy/Jeckyll up up clean...
 
 ```bash
 cd ~/sites/tholonia/chirpy2 
