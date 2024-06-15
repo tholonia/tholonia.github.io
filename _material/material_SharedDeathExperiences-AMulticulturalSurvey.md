@@ -7,9 +7,9 @@ image: /material/assets/material_SharedDeathExperiences-AMulticulturalSurvey.png
 categories:
 - NEUROSCIENCE
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/da7ccb27-3643-490f-a4fb-2eb34356d181/a3b42e908e676644e8d73015ba20f98d15b5f7c1c65d6556bdf403e052663752
-  title: View/Download 'Shared Death Experiences' (17 pages)
+
+src1: https://drive.internxt.com/sh/file/da7ccb27-3643-490f-a4fb-2eb34356d181/a3b42e908e676644e8d73015ba20f98d15b5f7c1c65d6556bdf403e052663752
+src1_title: View/Download 'Shared Death Experiences' (17 pages)
 ptags:
 - nokwgen-manual
 jday: 24191

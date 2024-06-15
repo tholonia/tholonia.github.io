@@ -7,9 +7,9 @@ image: /material/assets/book_psy_occult_jung_NOTFREE.jpg
 categories:
 - METAPHYSICS
 - NATURE
-source1:
-  src: https://drive.internxt.com/sh/file/a5c1c190-1676-4a20-9b83-6c07e454f582/efdc755263ed6f62ccbbc96ad90fccd4b25be217f91fb0c4c15caf6151806f5c
-  title: View "Psychology and the Occult" (210 pages)
+
+src1: https://drive.internxt.com/sh/file/a5c1c190-1676-4a20-9b83-6c07e454f582/efdc755263ed6f62ccbbc96ad90fccd4b25be217f91fb0c4c15caf6151806f5c
+src1_title: View "Psychology and the Occult" (210 pages)
 ptags:
 - nokwgen-manual
 jday: 32473

@@ -7,9 +7,9 @@ image: /material/assets/material_MARS_EXPLORATION_MAY_22_1984.png
 categories:
 - GEOSCIENCE
 - ASTRONOMY
-source1:
-  src: https://drive.internxt.com/sh/file/f077421d-6d52-49c5-8977-05bbb4e91242/b597aca5470ecf70a49d9feb4c19e5980f644613d4b7682cd0c6f80a6264406f
-  title: View/Download 'Mars Exploration, May 22, 1984 (CIA FOIA)' (3 pages)
+
+src1: https://drive.internxt.com/sh/file/f077421d-6d52-49c5-8977-05bbb4e91242/b597aca5470ecf70a49d9feb4c19e5980f644613d4b7682cd0c6f80a6264406f
+src1_title: View/Download 'Mars Exploration, May 22, 1984 (CIA FOIA)' (3 pages)
 ptags:
 - nokwgen-manual
 jday: 21957

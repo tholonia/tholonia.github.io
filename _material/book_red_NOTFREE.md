@@ -7,9 +7,9 @@ image: /material/assets/book_red_NOTFREE.jpg
 categories:
 - PSYCHOLOGY
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/738a3d3e-e788-43a6-87df-de620034a549/4b3e7aa057b7108a91b0bfe0db4fb456be77188c10de4c2c0ca7de6af56d9a15
-  title: View ' The Red Book (Liber Novus)' (404 pages)
+
+src1: https://drive.internxt.com/sh/file/738a3d3e-e788-43a6-87df-de620034a549/4b3e7aa057b7108a91b0bfe0db4fb456be77188c10de4c2c0ca7de6af56d9a15
+src1_title: View ' The Red Book (Liber Novus)' (404 pages)
 ptags:
 - nokwgen-manual
 jday: 2395

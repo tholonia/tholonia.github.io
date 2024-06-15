@@ -7,9 +7,9 @@ image: /material/assets/material_science_duality.png
 categories:
 - METAPHYSICS
 - PHILOSOPHY
-source1:
-  src: https://drive.internxt.com/sh/file/94fd8e8b-4e95-4f18-a54e-2314d23da1eb/928a754b0b1f34fe47e2a8cd104671f1e6361318a8db68ed717d63c149f9a3ee
-  title: View/Download 'Science, Dualities and the Phenomenological Map' (28 pages)
+
+src1: https://drive.internxt.com/sh/file/94fd8e8b-4e95-4f18-a54e-2314d23da1eb/928a754b0b1f34fe47e2a8cd104671f1e6361318a8db68ed717d63c149f9a3ee
+src1_title: View/Download 'Science, Dualities and the Phenomenological Map' (28 pages)
 ptags:
 - nokwgen-manual
 jday: 14843

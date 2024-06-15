@@ -6,9 +6,9 @@ date: 2020-10-24
 image: /material/assets/material_language_beliefs.png
 categories:
 - COMMUNICATION
-source1:
-  src: https://drive.internxt.com/sh/file/49c11d37-0b07-4cf2-bbec-0e9daa6ad7e8/a978f1f12dde14e7cc22c19f4608ceef148bdb9a1bd83352f0075d57f2972c34
-  title: View/Download "Language, Beliefs and Concepts" (17 pages)
+
+src1: https://drive.internxt.com/sh/file/49c11d37-0b07-4cf2-bbec-0e9daa6ad7e8/a978f1f12dde14e7cc22c19f4608ceef148bdb9a1bd83352f0075d57f2972c34
+src1_title: View/Download "Language, Beliefs and Concepts" (17 pages)
 ptags:
 - nokwgen-manual
 jday: 20589

@@ -7,9 +7,9 @@ image: /material/assets/book_What_is_Life.jpg
 categories:
 - PHILOSOPHY
 - PHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/97b2e7dd-7d77-459f-971f-353de6139b00/1c0f8ed303884f183978a7d6709f604d47caae9f678b549ae27cada9e195ed09
-  title: View/Download "What is Life?" (31 pages)
+
+src1: https://drive.internxt.com/sh/file/97b2e7dd-7d77-459f-971f-353de6139b00/1c0f8ed303884f183978a7d6709f604d47caae9f678b549ae27cada9e195ed09
+src1_title: View/Download "What is Life?" (31 pages)
 ptags:
 - nokwgen-manual
 jday: 19715

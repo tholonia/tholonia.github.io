@@ -7,9 +7,9 @@ image: /material/assets/material_El_Yahweh_and_Elohim_The_Evolution_of_God_in_Is
 categories:
 - ESOTERIC
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/8610463f-9a00-4dea-8e9e-84a85722b369/3b0b22775d9737ebc7ff73b881037d8a1bedd403f9af490ccd05b7d0c9e356ca
-  title: View/Download 'The Evolution of God in Israel' (7 pages)
+
+src1: https://drive.internxt.com/sh/file/8610463f-9a00-4dea-8e9e-84a85722b369/3b0b22775d9737ebc7ff73b881037d8a1bedd403f9af490ccd05b7d0c9e356ca
+src1_title: View/Download 'The Evolution of God in Israel' (7 pages)
 ptags:
 - nokwgen-manual
 jday: 25232

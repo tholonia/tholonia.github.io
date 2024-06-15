@@ -6,9 +6,9 @@ date: 2020-11-14
 image: /material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.png
 categories:
 - ENERGY
-source1:
-  src: https://drive.internxt.com/sh/file/b02d9527-abcd-4366-aa91-33679c0cfbc9/0968eb312b3a84704cbd6b9f78ff45b45beb28ce3174dbd31100bfaa8057c8d4
-  title: "View/Download 'The Relation of Ohm\u2019s Law to Newton\u2019s 2nd Law'\
+
+src1: https://drive.internxt.com/sh/file/b02d9527-abcd-4366-aa91-33679c0cfbc9/0968eb312b3a84704cbd6b9f78ff45b45beb28ce3174dbd31100bfaa8057c8d4
+src1_title: "View/Download 'The Relation of Ohm\u2019s Law to Newton\u2019s 2nd Law'\
     \ (6 pages)"
 ptags:
 - nokwgen-manual

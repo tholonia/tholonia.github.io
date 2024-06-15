@@ -8,9 +8,9 @@ categories:
 - NEUROSCIENCE
 - NATURE
 - BIOSCIENCE
-source1:
-  src: https://drive.internxt.com/sh/file/9a16267f-ed59-4695-9d4b-df368cea251e/c1ac23f9aa2ef24117bbb1a304447fa65fab07886845c76a9e0e937e36435e90
-  title: View "Chemical Evolution" (397 pages)
+
+src1: https://drive.internxt.com/sh/file/9a16267f-ed59-4695-9d4b-df368cea251e/c1ac23f9aa2ef24117bbb1a304447fa65fab07886845c76a9e0e937e36435e90
+src1_title: View "Chemical Evolution" (397 pages)
 ptags:
 - nokwgen-manual
 jday: 23321

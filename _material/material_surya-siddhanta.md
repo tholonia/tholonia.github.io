@@ -9,9 +9,9 @@ categories:
 - PHILOSOPHY
 - SCIENCE
 - HISTORY
-source1:
-  src: https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa
-  title: View/Download 'Surya Siddhanta' (306 pages)
+
+src1: https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa
+src1_title: View/Download 'Surya Siddhanta' (306 pages)
 ptags:
 - nokwgen-manual
 jday: 8850
