@@ -5,6 +5,7 @@ from colorama import init, Fore, Back
 from pprint import pprint
 from datetime import datetime
 import yaml
+import questionary
 
 init()
 
@@ -165,11 +166,17 @@ post_yaml['frontmatter']['title'] = title
 post_yaml['frontmatter']['image'] = newimage
 post_yaml['frontmatter']['jday'] = days_from_date_to_now(arbitrary_year, arbitrary_month, arbitrary_day)
 
+cats = ["BLOG", "METAPHYSICS", "TECHNOLOGY", "NATURE", "GEOSCIENCE", "ESOTERIC", "PHILOSOPHY", "SCIENCE", "HISTORY"]
+post_yaml['frontmatter']['categories'] = questionary.checkbox("Select Categories", choices=cats).ask()
+tags = questionary.text("Enter tags").ask()
+tagsary = str(tags).split(",")
+post_yaml['frontmatter']['tags'] = tagsary
+
 pprint(post_yaml)
 
 if src1 != False:
-  post_yaml['frontmatter']['src1'] = src1
-  post_yaml['frontmatter']['src1_title'] = src1_title
+  post_yaml['frontmatter']['source1']['src'] = src1
+  post_yaml['frontmatter']['source1']['title'] = src1_title
 
 
 save_yaml_frontmatter_and_content(post_yaml, f"{newfile}.md")
