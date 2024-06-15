@@ -7,9 +7,9 @@ image: /material/assets/book_ICHING_THE_BOOK.jpg
 categories:
 - GEOMETRY
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/4de4ef2e-c13d-4244-bfd2-053dd66c946d/cedff35f6c771bdf450a22806a77b88e88af3c3e5598a9c81964e1cdfe93fb32
-  title: View/Download "The Tholonic I-Ching" (76 pages)
+
+src1: https://drive.internxt.com/sh/file/4de4ef2e-c13d-4244-bfd2-053dd66c946d/cedff35f6c771bdf450a22806a77b88e88af3c3e5598a9c81964e1cdfe93fb32
+src1_title: View/Download "The Tholonic I-Ching" (76 pages)
 ptags:
 - nokwgen-manual
 jday: 3465

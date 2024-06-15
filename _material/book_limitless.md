@@ -7,9 +7,9 @@ image: /material/assets/book_limitless.jpg
 categories:
 - METAPHYSICS
 - PHILOSOPHY
-source1:
-  src: https://drive.internxt.com/sh/file/81303f87-900c-4032-ac4a-44dd17733ac2/d5794be17ab17c32cac269e3130f095a357c7325044e5c38c95634172a0bccd8
-  title: View/Download "Limitless Mind" (56 pages)
+
+src1: https://drive.internxt.com/sh/file/81303f87-900c-4032-ac4a-44dd17733ac2/d5794be17ab17c32cac269e3130f095a357c7325044e5c38c95634172a0bccd8
+src1_title: View/Download "Limitless Mind" (56 pages)
 ptags:
 - nokwgen-manual
 jday: 10591

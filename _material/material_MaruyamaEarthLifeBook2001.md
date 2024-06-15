@@ -8,9 +8,9 @@ categories:
 - GEOSCIENCE
 - NATURE
 - BIOSCIENCE
-source1:
-  src: https://drive.internxt.com/sh/file/f31d431b-dacd-44fd-bf46-9b73f93348dd/50cab91802650791af207ceb804677fe3ebe734c3de9247cec2f6c4fc30c901e
-  title: View/Download 'History of the Earth and Life' (41 pages)
+
+src1: https://drive.internxt.com/sh/file/f31d431b-dacd-44fd-bf46-9b73f93348dd/50cab91802650791af207ceb804677fe3ebe734c3de9247cec2f6c4fc30c901e
+src1_title: View/Download 'History of the Earth and Life' (41 pages)
 ptags:
 - nokwgen-manual-unreadable
 jday: 5578

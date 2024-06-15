@@ -7,9 +7,9 @@ image: /material/assets/book_meta_newton_NOTFREE.jpg
 categories:
 - METAPHYSICS
 - PHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/a40b7ee6-11ef-4fe5-8010-fc4850edab8c/5c0c8918afd491f16582c837d8bbcaf2376060dc17d865a27d8e6a4c55a06e56
-  title: View 'The Metaphysical World of Isaac Newton' (499 pages)
+
+src1: https://drive.internxt.com/sh/file/a40b7ee6-11ef-4fe5-8010-fc4850edab8c/5c0c8918afd491f16582c837d8bbcaf2376060dc17d865a27d8e6a4c55a06e56
+src1_title: View 'The Metaphysical World of Isaac Newton' (499 pages)
 ptags:
 - nokwgen-manual
 jday: 20706

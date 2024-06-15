@@ -7,9 +7,9 @@ image: /material/assets/material_Fractal_Dimension_in_Architecture_An_Exploratio
 categories:
 - GEOMETRY
 - NATURE
-source1:
-  src: https://drive.internxt.com/sh/file/266115fa-b594-4683-8a5d-286b7d7b43a0/4811ad6e9c4bf3467bde6f424cb0192840d1ac319b61d818a00a1724aea84e35
-  title: View/Download ' Fractal Dimension in Architecture' (107 pages)
+
+src1: https://drive.internxt.com/sh/file/266115fa-b594-4683-8a5d-286b7d7b43a0/4811ad6e9c4bf3467bde6f424cb0192840d1ac319b61d818a00a1724aea84e35
+src1_title: View/Download ' Fractal Dimension in Architecture' (107 pages)
 ptags:
 - nokwgen-manual
 jday: 7222

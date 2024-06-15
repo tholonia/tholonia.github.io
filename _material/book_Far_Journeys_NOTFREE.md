@@ -8,9 +8,9 @@ categories:
 - PARAPSYCHOLOGY
 - COMMUNICATION
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/2aed170f-9927-4596-81d3-e5b6181bc5ee/1749f245c61bf4b472608d90e4c3cbe8790d4a516faa96fb9aa47029390196e9
-  title: View "Far Journeys" (432 pages)
+
+src1: https://drive.internxt.com/sh/file/2aed170f-9927-4596-81d3-e5b6181bc5ee/1749f245c61bf4b472608d90e4c3cbe8790d4a516faa96fb9aa47029390196e9
+src1_title: View "Far Journeys" (432 pages)
 ptags:
 - nokwgen-manual
 jday: 4282

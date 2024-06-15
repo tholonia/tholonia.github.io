@@ -8,9 +8,9 @@ categories:
 - GEOSCIENCE
 - NATURE
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/8f4b09d8-c226-4aa4-bc43-12a28c50e3de/939d4043e0208b614dbee690c4100d0142124865a40d8455fc46143c4151197c
-  title: View/Download 'Healing with Water' (3 pages)
+
+src1: https://drive.internxt.com/sh/file/8f4b09d8-c226-4aa4-bc43-12a28c50e3de/939d4043e0208b614dbee690c4100d0142124865a40d8455fc46143c4151197c
+src1_title: View/Download 'Healing with Water' (3 pages)
 ptags:
 - nokwgen-manual
 jday: 19726

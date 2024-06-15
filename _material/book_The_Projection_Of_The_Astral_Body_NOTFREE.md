@@ -7,9 +7,9 @@ image: /material/assets/book_The_Projection_Of_The_Astral_Body_NOTFREE.jpg
 categories:
 - METAPHYSICS
 - PARAPSYCHOLOGY
-source1:
-  src: https://drive.internxt.com/sh/file/5ce454ce-3e32-4f38-b828-d955024d09de/2776503472b438a78d74a29900a3cba09eb3f574b7bf1d931995236ad2775295
-  title: View/Download 'The Projection of the Astral Body' (356 pages)
+
+src1: https://drive.internxt.com/sh/file/5ce454ce-3e32-4f38-b828-d955024d09de/2776503472b438a78d74a29900a3cba09eb3f574b7bf1d931995236ad2775295
+src1_title: View/Download 'The Projection of the Astral Body' (356 pages)
 ptags:
 - nokwgen-manual
 jday: 29834

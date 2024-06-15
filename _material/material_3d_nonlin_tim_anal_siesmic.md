@@ -7,9 +7,9 @@ image: /material/assets/material_3d_nonlin_tim_anal_siesmic.png
 categories:
 - GEOSCIENCE
 - NATURE
-source1:
-  src: https://drive.internxt.com/sh/file/334aee72-46b9-40aa-83a3-8718bdb61b72/164ffbf37279c18c558b386444c0a4ea3a5177504b2e3ec6e177d3bedccae685
-  title: View/Download 'Seismic Site and Structure Response' (106 pages)
+
+src1: https://drive.internxt.com/sh/file/334aee72-46b9-40aa-83a3-8718bdb61b72/164ffbf37279c18c558b386444c0a4ea3a5177504b2e3ec6e177d3bedccae685
+src1_title: View/Download 'Seismic Site and Structure Response' (106 pages)
 ptags:
 - nokwgen-manual
 jday: 23558

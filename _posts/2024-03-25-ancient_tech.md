@@ -63,7 +63,7 @@ Below are two versions.  You can view online or download:
 {% include show_src_1.html %}
 {% include show_src_2.html %}
 
-<!--object data='https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></objec--t>
+<!--object data='https://drive.internxt.com/sh/file/ef7489df-cbb1-45c6-b9b5-e5b8049fd8e7/0e5677c064cba9a7240c640c1d2bfc5c6d49182291e887e7a2ec785702d2bfaa#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object -->
 
 <!--object data='https://drive.internxt.com/sh/file/fb9f6edf-f235-4d3f-b884-89d77d637ffe/d5aad17ffe16d3434f963076d47fb74b818e5f2c47a0598028eafac50134e966' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object-->
 

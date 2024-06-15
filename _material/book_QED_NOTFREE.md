@@ -7,9 +7,9 @@ image: /material/assets/book_QED_NOTFREE.jpg
 categories:
 - PHYSICS
 - NEUROSCIENCE
-source1:
-  src: https://drive.internxt.com/sh/file/7cc1d896-cec3-4ba1-b4c4-d43624670040/238a34632b2316c3146002695a76c10d28d2ae7bf62cfa70225cb35ff3615ed3
-  title: View 'Quantum Electrodynamics' (209 pages)
+
+src1: https://drive.internxt.com/sh/file/7cc1d896-cec3-4ba1-b4c4-d43624670040/238a34632b2316c3146002695a76c10d28d2ae7bf62cfa70225cb35ff3615ed3
+src1_title: View 'Quantum Electrodynamics' (209 pages)
 ptags:
 - nokwgen-manual
 jday: 32298

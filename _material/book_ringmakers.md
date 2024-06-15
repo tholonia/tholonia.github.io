@@ -8,9 +8,9 @@ categories:
 - TECHNOLOGY
 - POLITICS
 - ASTRONOMY
-source1:
-  src: https://drive.internxt.com/sh/file/eb0fb512-29dd-48cb-b755-e03cc6dcf090/a3660aa0711ae791192340bc98e0bc48be90fd65ae24ff85c3f80a6c5259a856
-  title: View/Download 'Ringmakers of Saturn' (125 pages)
+
+src1: https://drive.internxt.com/sh/file/eb0fb512-29dd-48cb-b755-e03cc6dcf090/a3660aa0711ae791192340bc98e0bc48be90fd65ae24ff85c3f80a6c5259a856
+src1_title: View/Download 'Ringmakers of Saturn' (125 pages)
 ptags:
 - nokwgen-manual
 jday: 10196

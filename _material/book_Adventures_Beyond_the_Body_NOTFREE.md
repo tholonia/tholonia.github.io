@@ -7,9 +7,9 @@ image: /material/assets/book_Adventures_Beyond_the_Body_NOTFREE.jpg
 categories:
 - BIOSCIENCE
 - ENERGY
-source1:
-  src: https://drive.internxt.com/sh/file/cdb12a55-b7ff-4b89-8677-e63c7076e520/5ebd6b406531a6bc2c6e97111c2948d0e846522bfed946e9d9b5a9b8c4e0263d
-  title: View "Adventures_Beyond_the_Body (140 pages)"
+
+src1: https://drive.internxt.com/sh/file/cdb12a55-b7ff-4b89-8677-e63c7076e520/5ebd6b406531a6bc2c6e97111c2948d0e846522bfed946e9d9b5a9b8c4e0263d
+src1_title: View "Adventures_Beyond_the_Body (140 pages)"
 ptags:
 - nokwgen-manual
 jday: 3125

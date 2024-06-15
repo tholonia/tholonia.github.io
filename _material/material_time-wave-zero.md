@@ -7,9 +7,9 @@ image: /material/assets/material_time-wave-zero.webp
 categories:
 - NATURE
 - METAPHYSICS
-source1:
-  src: https://drive.internxt.com/sh/file/d4a73796-6030-42c0-8b96-cb6c4b8e2bcc/6e8d6424a3e815704245f6374a9cc65db04ec505a6050c7a11ccfdc888837752
-  title: View/Download 'Time Wave Zero' (6 pages)
+
+src1: https://drive.internxt.com/sh/file/d4a73796-6030-42c0-8b96-cb6c4b8e2bcc/6e8d6424a3e815704245f6374a9cc65db04ec505a6050c7a11ccfdc888837752
+src1_title: View/Download 'Time Wave Zero' (6 pages)
 ptags:
 - nokwgen-manual
 jday: 7500

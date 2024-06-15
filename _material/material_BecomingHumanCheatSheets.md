@@ -7,9 +7,9 @@ image: /material/assets/material_BecomingHumanCheatSheets.png
 categories:
 - TECHNOLOGY
 - REFERENCE
-source1:
-  src: https://drive.internxt.com/sh/file/eb55085a-53d6-48e6-bac6-f902e6400db3/4499c4410215738b12aabbed922057745be0f1d45ba5de0873f525152255b0ce
-  title: View/Download 'Becoming Human Cheat Sheets' (25 pages)
+
+src1: https://drive.internxt.com/sh/file/eb55085a-53d6-48e6-bac6-f902e6400db3/4499c4410215738b12aabbed922057745be0f1d45ba5de0873f525152255b0ce
+src1_title: View/Download 'Becoming Human Cheat Sheets' (25 pages)
 ptags:
 - nokwgen-manual
 jday: 23987

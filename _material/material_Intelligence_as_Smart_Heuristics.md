@@ -7,9 +7,9 @@ image: /material/assets/material_Intelligence_as_Smart_Heuristics.png
 categories:
 - COMMUNICATION
 - NEUROSCIENCE
-source1:
-  src: https://drive.internxt.com/sh/file/b8811790-3c2b-43cf-8e89-c320fc8195cb/e2b80bb7ffea1b8c663d7a7cca7997a8ad76883a8f65e7b332b8b08c842f941f
-  title: View/Download 'Intelligence as Smart Heuristics' (35 pages)
+
+src1: https://drive.internxt.com/sh/file/b8811790-3c2b-43cf-8e89-c320fc8195cb/e2b80bb7ffea1b8c663d7a7cca7997a8ad76883a8f65e7b332b8b08c842f941f
+src1_title: View/Download 'Intelligence as Smart Heuristics' (35 pages)
 ptags:
 - nokwgen-manual
 jday: 14785
