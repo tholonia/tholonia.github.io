@@ -21,5 +21,5 @@ This is a fascinating, slightly unorganized, collection of medical thoughts on v
 
 
 
-<!-- % include show_src_1.html %} -->
+{% include show_src_1.html %} 
 
