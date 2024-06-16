@@ -46,8 +46,15 @@ List all categories and pages in
 
 # Docker Commands
 
-
 ### Start the container form an image
+
+Save changes to image
+
+```
+docker commit 11dcf5450616 chirpy2:updated
+```
+
+
 
 ```sh
 # made sure `pwd` is correct
@@ -78,6 +85,12 @@ docker exec --workdir $(pwd) -it <container_ID> bash
 bundle install
 ```
 
+
+
+
+
+# RUNNING
+
 ## Run server
 
 ```sh
@@ -85,13 +98,22 @@ bundle install
 # server live at http://0.0.0.0:4001/
 ```
 
-To update Ruby Gems
+### To update Ruby Gems
 
 ```bash
 gem update --system
 ```
-If 'dubious owner' error message appears after running ./START, from inside the docker image run
+
+### Publishing (from HOST only)
+
+```bash
+# first check with
+git status
+# then
+./PUSH
 ```
+If 'dubious owner' error message appears after running ./START, from inside the docker image run
+```bash
 git config --global --add safe.directory /home/jw/sites/tholonia/chirpy2
 ```
 
