@@ -309,7 +309,7 @@ The broader interpretation that all entities are instances of awareness and can 
 
 2. [Wave Particle Duality, The Observer And Retrocausality - Science and Nonduality](https://scienceandnonduality.com/article/wave-particle-duality-the-observer-and-retrocausality/) _Abstract. We approach wave particle duality, the role of the observer and implications on Retrocausality, by starting with the results of a well verified ..._
 
-3. [Quantum Mechanics and Consciousness - PhilSci-Archive](http://philsci-archive.pitt.edu/21442/1/Allori-Quantum-Mechanics-and-Panpsychism-last.pdf) _All of the distinctive features of quantum theory reported above (wave-particle duality, the privileged role of the observer, indeterminism and nonlocality) ..._
+3. [Quantum Mechanics and Consciousness - PhilSci-Archive](https://philsci-archive.pitt.edu/21442/1/Allori-Quantum-Mechanics-and-Panpsychism-last.pdf) _All of the distinctive features of quantum theory reported above (wave-particle duality, the privileged role of the observer, indeterminism and nonlocality) ..._
 
 
 ### 10. QUESTION:  
