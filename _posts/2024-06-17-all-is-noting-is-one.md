@@ -20,6 +20,8 @@ Everything is nothing, and nothing is Awareness, according to AI.
 
 Below is the original, unabridged, unedited transcript of the Q&A, including sources and links.
 
+_(note, AI sometimes gives bad links :/  I have not check each link myself, yet.  As I do I will update the bad links)_
+
 <!--more-->
 
 ### 1. QUESTION:  If each point has the ability to create a new point, wouldn't that suggest a perpetually self-generating series of points that rapidly expands into the void of nothingness?
