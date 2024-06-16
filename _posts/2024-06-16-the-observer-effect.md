@@ -20,6 +20,8 @@ AI describes how the infinite is nothing, and the nothing is one, which is aware
 
 Below is the original, unabridged, unedited transcript of the Q&A, including sources and links.
 
+_(note, AI sometimes gives bad links :/  I have not check each link myself, yet.  As I do I will update the bad links)_
+
 <!--more-->
 
 ### 1. QUESTION:  You have advanced two hypothetical ideas: 1) the concepts of visibility and perception requires some form of awareness, and that the universe, and all of reality and existence for that matter, is a byproduct of awareness and 2) instances of awareness, in the form of individual Consciousness, interact with each other as a result of their 'perceiving' and 'seeing' each other, giving rise to intelligence.  Both of these claims appear to support each other in that they both presume the existence of a singularity of awareness,  Would you say that is correct? 
