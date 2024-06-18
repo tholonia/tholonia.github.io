@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Water Tech Magic
+title: Water Tech Magic (CAI ch. 4)
 author: duncan
 date: 2024-06-18
 image: /assets/posts/2024-06-18-water-tech-magic/post_image.jpg
