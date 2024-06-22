@@ -1,5 +1,112 @@
 ###### Overview of Contents:  Instructions and notes for tholonia.com jekyll docker.  Meant to be official README.md 
 
+# Step-by-Step Process for Updating the thlonia.com Site
+
+## Preparation
+
+Open two terminals.
+
+## Terminal 1
+
+1. **Navigate to the project directory:**
+   ```sh
+   cd /home/jw/sites/tholonia/chirpy2
+   ```
+
+2. **Check if the Chirpy image is running:**
+   ```sh
+   docker ps -a
+   ```
+
+3. **If the Chirpy image is not running, start it:**
+   ```sh
+   run -it -d -p 4001:4001 -p 35729:35729 --mount src=$(pwd),target=$(pwd),type=bind --name chirpyRun chirpy2:updated
+   ```
+
+4. **If the Chirpy image is running, access it:**
+   ```sh
+   docker exec --workdir $(pwd) -it <CID> bash
+   ```
+
+5. **Inside the Docker container, start the server:**
+   ```sh
+   ./SERVE
+   ```
+
+6. **If necessary, install dependencies:**
+   ```sh
+   bundle install
+   ```
+
+## Terminal 2
+
+## Posts	
+***
+1. **Create a new post:**
+
+   ```sh
+   ./add_post.py
+   ```
+2. **Update the post image:**
+   - Replace the image at `assets/posts/postname/post_image.png`.
+
+3. **Edit the markdown file for the post:**
+   - Modify the file located at `_posts/postname.md`.
+
+4. **Create supporting content such as videos.**
+
+5. **For large documents (e.g., PDFs) that are too large for GitHub:**
+   - Upload the document to [Internxt Drive](https://drive.internxt.com/).
+   - Copy the download link.
+***
+## Material
+
+To add new material... 
+
+Add material to  [Internxt Drive](https://drive.internxt.com/) if necessary.
+
+Run
+```sh
+./add_material.py \
+	--title "THIS is a TEST" \
+	--src1 https:/... \
+	--src1title "View/Download 'THIS is a TEST' (15 pages)" \
+
+# --image defaults fo a black 225x225 square
+```
+***
+6. **Commit changes:**
+
+   ```sh
+   git status
+```
+   - Add any untracked files.
+
+7. **Publish the changes:**
+   ```sh
+   ./PUSH
+   ```
+
+8. **Check the publish status on GitHub:**
+   - Visit [GitHub Repository](https://github.com/tholonia/tholonia.github.io).
+
+9. **Save any system changes made to the Docker image:**
+   ```sh
+   # docker commit <CID> chirpy2v<vernum>:<tag>
+   docker commit 11dcf5450616 chirpy2v1:updated Ron
+   ```
+To check all external  links in the document,  run 
+```
+./check_ext_links.sh <path_to_MD_file>
+```
+***
+
+***
+
+***
+
+
+
 # Root Dir
 
 - /home/jw/sites/tholonia/chirpy2
@@ -85,6 +192,11 @@ docker exec --workdir $(pwd) -it <container_ID> bash
 bundle install
 ```
 
+Once the site it published, run 
+
+```
+https://www.drlinkcheck.com/
+```
 
 
 
