@@ -21,9 +21,21 @@ The Tholonic claim is that Order is a state, or a particular condition of Chaos.
 
 <!--more-->
 
-{% youtube "hhttps://youtu.be/6OzKp2DYy5c" %} 
+{% youtube "https://youtu.be/10TS8AwDGfA"  %} 
 
+Relevant points in this Q&A:
 
+1. Energy, chaos, and order form a foundational trinity.
+2. Chaos is both the zero-dimensional point and the infinite-dimensional point.
+3. The value of 0 can represent both the chaos of nothing and the chaos of totality.
+4. 0/0 can be 1 or can have infinite values, depending on context.
+5. There are two types of chaos: one that moves from chaos to order, and one that moves from order to chaos.
+6. All order results from the movement of energy, with awareness and intention acting to rebalance the differences caused by various instances of awareness (i.e., consciousness) interacting, resulting in intelligence.
+7. Chaos is a spectrum that extends from a zero-dimensional point to an infinite-dimensional point. Along that spectrum are levels of order.
+8. Order is a transitional state of chaos.
+9. More order implies more complexity, and more complexity results in more emergence.
+10. There are many types of nothingness.
+11. The fundamental purpose of existence is the evolution of consciousness, where awareness and intention guide the evolution of ordered awareness.
 
 Here is the long version of the original Q&A with sources and references.
 
