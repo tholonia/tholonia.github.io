@@ -18,9 +18,21 @@ AI describes how the infinite is nothing, and the nothing is one, which is aware
 
 {% youtube "https://youtu.be/E0KzCIkunzo" %}
 
+Relevant points in this Q&A:
+
+**List**
+
+1. Interaction leads to intelligence.
+2. Observation is a product of awareness. In quantum mechanics, an observation is any interaction that leads to obtaining information.
+3. Observation does not require a conscious observer.
+4. Awareness is defined as an archetype, and consciousness is a contextual instance of that archetype.
+5. Everything that exists is an instance of awareness, varying in degrees and form.
+6. As everything that exists is an instance of awareness, everything is an observer.
+7. Instances of awareness observing other instances of awareness create a circular chain of increasing complexity, similar to how two mirrors reflecting each other create infinite reflections.
+
 Below is the original, unabridged, unedited transcript of the Q&A, including sources and links.
 
-_(note, AI sometimes gives bad links :/  I have not check each link myself, yet.  As I do I will update the bad links)_
+_(Note: AI sometimes gives bad links :/  I have not check each link myself, yet.  As I do I will update the bad links)_
 
 <!--more-->
 

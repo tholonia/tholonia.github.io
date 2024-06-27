@@ -20,6 +20,24 @@ Water is the material form of the ultimate conductor of not only life, but of re
 
 {% youtube "https://youtu.be/z2sb0drsizg" %} 
 
+Relevant points in this Q&A:
+
+1. Form is created by the movement of energy.
+2. Tetrahedrons are the simplest and most efficient form.
+3. Tetrahedral matrices are highly energy efficient.
+4. Diamonds, quartz, methane, and water are forms of tetrahedral matrices.
+5. The tetrahedral structure is crucial for living systems.
+6. Movement of energy can lead to self-organization.
+7. The tetrahedral structure of water makes it efficient for transferring energy, fundamental to the evolution of life, especially for thermal, hydro, chemical, and mechanical energy.
+8. Non-physical energy that forms ideas, concepts, theories, etc., is also transferred via water.
+9. Systems change their state to ensure more efficient transfer of energy.
+10. All of space can be tessellated, or defined, by the tetrahedron.
+11. The evolution of form in animate and inanimate objects is heavily influenced by the tetrahedron archetype.
+12. All ideas, concepts, and abstractions are also tetrahedral in their structure.
+13. Water can hypothetically store information.
+14. Spinning water in a vortex creates high-potential water, enhancing its properties, such as solubility.
+15. There are several mechanisms through which high-potential water might reduce high cholesterol.
+
 <!--more-->
 
 This is not actually the transcript of my conversation with AI. These are the extremely condensed versions of the questions. The problem with the original transcript is that it took a lot of work to get AI to understand many of the concepts that it was asked to elaborate on without first going through a long series of questions that would set the context for many details. So rather than post the convoluted and tortured interview with AI I am just putting the top 10 links that AI refers to for each question and answer. 
