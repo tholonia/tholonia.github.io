@@ -23,7 +23,12 @@ The Tholonic claim is that Order is a state, or a particular condition of Chaos.
 
 {% youtube "https://youtu.be/10TS8AwDGfA"  %} 
 
-Relevant points in this Q&A:
+#### Relevant points in this Q&A:
+
+1. **Foundational Trinity**: Energy, chaos, and order interrelate, with chaos being a spectrum from zero to infinite dimensions.
+2. **Order and Complexity**: Movement of energy driven by awareness and intention leads to more complexity and emergence, with the ultimate purpose being the evolution of consciousness.
+
+#### Specific Topics:
 
 1. Energy, chaos, and order form a foundational trinity.
 2. Chaos is both the zero-dimensional point and the infinite-dimensional point.

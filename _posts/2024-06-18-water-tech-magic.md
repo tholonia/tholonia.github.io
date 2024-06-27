@@ -20,7 +20,12 @@ Water is the material form of the ultimate conductor of not only life, but of re
 
 {% youtube "https://youtu.be/z2sb0drsizg" %} 
 
-Relevant points in this Q&A:
+#### Relevant points in this Q&A:
+
+1. **Energy and Form**: Movement of energy creates form, with tetrahedrons being the simplest, most efficient structures, crucial for life and energy transfer.
+2. **Water's Role**: Water’s tetrahedral structure allows it to store and transfer both physical and non-physical energy efficiently, influencing evolution and information storage.
+
+#### Specific Topics:
 
 1. Form is created by the movement of energy.
 2. Tetrahedrons are the simplest and most efficient form.
