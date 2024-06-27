@@ -18,6 +18,21 @@ Everything is nothing, and nothing is Awareness, according to AI.
 
 {% youtube "https://youtu.be/OOC4caR3VGs" %}
 
+Relevant points in this Q&A:
+
+1. The ever-expanding structure of points originating from the singularity of the zero-dimensional point in nothingness is similar to the Big Bang theory.
+2. A tetrahedral matrix is the most efficient structure that can exist.
+3. The tetrahedron is a fundamental particle in theories on quantum gravity.
+4. The dimension of 0 is that of concepts.
+5. The dimension of 1 is that of intelligence.
+6. The dimension of 2 is that of archetypes.
+7. The dimension of 3 is that of form.
+8. The dimension of 4 is that of integration beyond space and time.
+9. Something of infinite dimensions is identical to something of zero dimensions in that they both represent ultimate unity.
+10. Both zero-dimensional points and infinite-dimensional systems are expressions of infinite awareness.
+
+
+
 Below is the original, unabridged, unedited transcript of the Q&A, including sources and links.
 
 _(note, AI sometimes gives bad links :/  I have not check each link myself, yet.  As I do I will update the bad links)_
