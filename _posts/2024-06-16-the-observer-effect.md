@@ -18,9 +18,12 @@ AI describes how the infinite is nothing, and the nothing is one, which is aware
 
 {% youtube "https://youtu.be/E0KzCIkunzo" %}
 
-Relevant points in this Q&A:
+#### Relevant points in this Q&A:
 
-**List**
+- **Awareness and Observation**: All existence is an instance of awareness, making everything an observer, leading to increasing complexity through interactions.
+- **Quantum Mechanics**: Observation, equated with any interaction, doesn’t need a conscious observer but results from inherent awareness.
+
+#### Specific Topics:
 
 1. Interaction leads to intelligence.
 2. Observation is a product of awareness. In quantum mechanics, an observation is any interaction that leads to obtaining information.
