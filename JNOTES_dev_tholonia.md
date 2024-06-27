@@ -45,11 +45,12 @@ Open two terminals.
 1. **Create a new post:**
 
    ```sh
-   ./add_post.py
+   ./add_post.py -t title
    ```
 2. **Update the post image:**
+   
    - Replace the image at `assets/posts/postname/post_image.png`.
-
+   
 3. **Edit the markdown file for the post:**
    - Modify the file located at `_posts/postname.md`.
 
@@ -85,7 +86,7 @@ Run
 7. **Publish the changes:**
    ```sh
    ./PUSH
-   ```
+```
 
 8. **Check the publish status on GitHub:**
    - Visit [GitHub Repository](https://github.com/tholonia/tholonia.github.io).
@@ -95,7 +96,7 @@ Run
    # docker commit <CID> chirpy2v<vernum>:<tag>
    docker commit 11dcf5450616 chirpy2v1:updated Ron
    ```
-To check all external  links in the document,  run 
+   To check all external  links in the document,  run 
 ```
 ./check_ext_links.sh <path_to_MD_file>
 ```

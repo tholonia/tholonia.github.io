@@ -1,9 +1,9 @@
 ---
 layout: post
-title: All is Noting is One (CAI ch. 3)
+title: All is Nothing is One (CAI ch. 3)
 author: duncan
 date: 2024-06-17
-image: /assets/posts/2024-06-17-all-is-noting-is-one/post_image.jpg
+image: /assets/posts/2024-06-17-all-is-nothing-is-one/post_image.jpg
 categories:
 - METAPHYSICS
 - ESOTERIC
