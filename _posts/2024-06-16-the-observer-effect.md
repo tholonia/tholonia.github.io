@@ -5,6 +5,7 @@ author: duncan
 date: 2024-06-16
 image: /assets/posts/2024-06-16-the-observer-effect/post_image.jpg
 categories:
+- BLOG
 - METAPHYSICS
 - SCIENCE
 jday: 8933
