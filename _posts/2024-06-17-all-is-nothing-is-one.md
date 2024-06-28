@@ -5,6 +5,7 @@ author: duncan
 date: 2024-06-17
 image: /assets/posts/2024-06-17-all-is-nothing-is-one/post_image.jpg
 categories:
+- BLOG
 - METAPHYSICS
 - ESOTERIC
 - PHILOSOPHY
