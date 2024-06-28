@@ -95,19 +95,19 @@ Here is the long version of the original Q&A with sources and references.
 1. **[Chaos-in-Myth-and-Science](https://www.researchgate.net/profile/Ralph-Abraham/publication/285600806_Chaos_in_Myth_and_Science/links/5662189608ae418a786972c2/Chaos-in-Myth-and-Science.pdf)** _In summary, the creation of the universe in our tradition means the subjugation of chaos by cosmos. Ours is a universe of law and order._
 2. **[Creation, Chaos, Time: from Myth to Modern Cosmology](https://arxiv.org/pdf/1604.03332)** _Questions about the origins of the universe, of the sky, of the earth, of life, of man have given rise to many different myths and legends and continue to be._
 4. **[The notion of chaos: from the cosmogonical chaos of ancient greek philosophical thought to the chaos theory of modern physics](https://www.researchgate.net/publication/248399108_THE_NOTION_OF_CHAOS_FROM_THE_COSMOGONICAL_CHAOS_OF_ANCIENT_GREEK_PHILOSOPHICAL_THOUGHT_TO_THE_CHAOS_THEORY_OF_MODERN_PHYSICS)** _Article PDF Available. The notion of chaos from the cosmogonical chaos of ancient Greek philosophical thought to the chaos theory of modern physics._
-5. **[Chaos | Primordial Deity, Creation Myth & Cosmogony - Britannica](https://www.britannica.com/topic/Chaos-ancient-Greek-religion)** _Chaos, in early Greek cosmology, either the primeval emptiness of the universe before things came into being or the abyss of Tartarus, the underworld._
+5. **[Chaos , Primordial Deity, Creation Myth & Cosmogony - Britannica](https://www.britannica.com/topic/Chaos-ancient-Greek-religion)** _Chaos, in early Greek cosmology, either the primeval emptiness of the universe before things came into being or the abyss of Tartarus, the underworld._
 6. **[From the Cosmological Chaos of Ancient Greek Thought, to the Chaos Theory of Modern Physics](https://www.academia.edu/4079875/The_Notion_of_Chaos_From_the_Cosmological_Chaos_of_Ancient_Greek_Thought_to_the_Chaos_Theory_of_Modern_Physics)** _Later, Greek philosophers supported the view that chaos describes the unformed and infinite void, from which the Universe is created._
 7. **[Greek cosmology - UMD Physics](https://www.physics.umd.edu/courses/Phys117/Liberati/Support/cosmology.pdf)** _The creation myth is more lively than the Egyptian version. It imagines that the cosmic ocean Apsu mixed with chaos Tiamat and eventually generated life._
-8. **[Genesis From Chaos | PDF | Eros | Ancient Greek Religion - Scribd](https://www.scribd.com/document/538619358/GENESIS-FROM-CHAOS)** _The earliest Greek creation myth comes from Hesiod's poem Theogony. According to Hesiod, in the beginning there was only Chaos, from which emerged Gaia (Earth)._
+8. **[Genesis From Chaos , PDF , Eros , Ancient Greek Religion - Scribd](https://www.scribd.com/document/538619358/GENESIS-FROM-CHAOS)** _The earliest Greek creation myth comes from Hesiod's poem Theogony. According to Hesiod, in the beginning there was only Chaos, from which emerged Gaia (Earth)._
 9. **[Cosmos to Chaos - OLLI at Illinois](https://olli.illinois.edu/downloads/courses/Archived%20Course%20Downloads/2024%20Spring%20Courses/The%20History%20of%20Cosmology%20and%20the%20People%20Who%20Made%20It/Week%201.pdf)** _COSMOS [from Greek, kosmos, order, harmony, ornament, hence the world as an orderly system] the universe as an embodiment of order and harmony._
-10. **[Chaos | PDF | Comparative Mythology - Scribd](https://www.scribd.com/document/530421035/Chaos)** _Chaos is the primordial void or formless state preceding the creation of the universe in Greek creation myths. It is typically described as a formless, infinite._
+10. **[Chaos , PDF , Comparative Mythology - Scribd](https://www.scribd.com/document/530421035/Chaos)** _Chaos is the primordial void or formless state preceding the creation of the universe in Greek creation myths. It is typically described as a formless, infinite._
 ### DS:  So ,we can say that nothingness is a state of Chaos, correct?
 
 **AI:**  Yes, we can say that nothingness is a state of Chaos. In ancient Greek mythology, Chaos is described as the void state preceding the creation of the universe, representing a primordial, undifferentiated state from which order and structure eventually emerge. This association implies that a state of nothingness, where there is no form, structure, or order, is indeed a state of Chaos.
 
 ### Sources and References:
 
-1. **[Chaos | Primordial Deity, Creation Myth & Cosmogony - Britannica](https://www.britannica.com/topic/Chaos-ancient-Greek-religion)** _Chaos, in early Greek cosmology, either the primeval emptiness of the universe before things came into being or the abyss of Tartarus, the underworld._
+1. **[Chaos , Primordial Deity, Creation Myth & Cosmogony - Britannica](https://www.britannica.com/topic/Chaos-ancient-Greek-religion)** _Chaos, in early Greek cosmology, either the primeval emptiness of the universe before things came into being or the abyss of Tartarus, the underworld._
 2. **[Chaos – The Nothingness at the World's Start - Olympioi](https://olympioi.com/greek-gods/chaos)** _Representing both a state of nothingness and a tangible female presence, Chaos has fascinated scholars, poets, and philosophers for centuries._
 3. **[Chaos (cosmogony) - Wikipedia](https://en.wikipedia.org/wiki/Chaos_(cosmogony))** _Chaos is the mythological void state preceding the creation of the universe (the cosmos) in ancient near eastern cosmology and early Greek cosmology._
 4. **[So, in Greek myths, Chaos is the void that existed before the ... - Quora](https://www.quora.com/So-in-Greek-myths-Chaos-is-the-void-that-existed-before-the-cosmos-So-given-that-space-time-shouldnt-have-existed-before-the-cosmos-that-means-Chaos-existed-before-time-space-So-how-is-Chronos-who-embodies-time-the)** _Chaos was not a god but rather the state of things before creation. Chaos = the primordial state of emptiness._
@@ -154,7 +154,7 @@ Here is the long version of the original Q&A with sources and references.
 
 2. **[Quantum mechanics, mathematical abstraction and the nature of nothing - Richard Dawkins Foundation](https://richarddawkins.net/2012/10/quantum-mechanics-mathematical-abstraction-and-the-nature-of-nothing)** _We now know, for example, that (nominally) empty space has energy, that virtual particles can appear 'from nothing', and that the universe..._
 
-3. **[The Physics of Nothing; The Philosophy of Everything | ScienceBlogs](https://scienceblogs.com/startswithabang/2011/08/16/the-physics-of-nothing-the-phi)** _...matter, negative energy, or anything else with a physical or quantum explanation. Nothingness means a completely static state of non being._
+3. **[The Physics of Nothing; The Philosophy of Everything , ScienceBlogs](https://scienceblogs.com/startswithabang/2011/08/16/the-physics-of-nothing-the-phi)** _...matter, negative energy, or anything else with a physical or quantum explanation. Nothingness means a completely static state of non being._
 
 4. **[Can someone explain this “things do not exist when you don't... - Reddit](https://www.reddit.com/r/QuantumPhysics/comments/y6q74y/can_someone_explain_this_things_do_not_exist_when/)** _Things, let's say particles, exist with an undefined state. Don't over think "state". It's just that when they pop into existence, for a super..._
 
@@ -162,7 +162,7 @@ Here is the long version of the original Q&A with sources and references.
 
 6. **[Nothingness and quantum mechanics. - The Philosophy Forum](https://thephilosophyforum.com/discussion/9845/nothingness-and-quantum-mechanics)** _So scientists and philosophers argue about their realness. To me, Virtual Particles are not Things in the sense of actual physical objects._
 
-7. **[How the Physics of Nothing Underlies Everything | Quanta Magazine](https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809/)** _Nothing must mean more than that. It must mean the absence of everything, including space. Because space is not nothing. I doubt than anyone can..._
+7. **[How the Physics of Nothing Underlies Everything , Quanta Magazine](https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809/)** _Nothing must mean more than that. It must mean the absence of everything, including space. Because space is not nothing. I doubt than anyone can..._
 
 8. **[Virtual Particles: What are they? – Of Particular Significance](https://profmattstrassler.com/articles-and-posts/particle-physics-basics/virtual-particles-what-are-they/)** _A virtual particle is not a particle at all. It refers precisely to a disturbance in a field that is not a particle. A particle is a nice, regular ripple in a..._
 
@@ -189,7 +189,7 @@ Here is the long version of the original Q&A with sources and references.
 
 7. **[Science of Chaos or Chaos in Science? (PDF)](https://physics.nyu.edu/sokal/UCL-IPT-96-03.pdf)** _A scholarly article discussing the implications and perspectives of chaos theory in modern scientific paradigms._
 
-8. **[State of Nature | Definition & Examples - Lesson](https://study.com/academy/lesson/state-of-nature-definition-philosophy-examples.html)** _This educational lesson explores the concept of the 'state of nature' in philosophy, which can relate to discussions on chaos and inherent natural states._
+8. **[State of Nature , Definition & Examples - Lesson](https://study.com/academy/lesson/state-of-nature-definition-philosophy-examples.html)** _This educational lesson explores the concept of the 'state of nature' in philosophy, which can relate to discussions on chaos and inherent natural states._
 
 9. **[Jordan Peterson: “There was plenty of motivation to take...” - YouTube](https://www.youtube.com/watch?v=yZYQpge1W5s)** _A video featuring Jordan Peterson where discussions might touch on philosophical and psychological aspects of human nature, potentially relevant to chaos._
 
@@ -203,7 +203,7 @@ These resources provide a comprehensive understanding of chaos theory, nothingne
 ### Sources and References:
 
 1. **[Chaos theory - Wikipedia](https://en.wikipedia.org/wiki/Chaos_theory)** _Chaos theory is an interdisciplinary area of scientific study and branch of mathematics. It focuses on underlying patterns and deterministic laws of dynamical systems._
-2. **[Chaos Theory - an overview | ScienceDirect Topics](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/chaos-theory)** _Chaos theory is concerned with unpredictable courses of events. The irregular and unpredictable time evolution of many nonlinear and complex linear systems._
+2. **[Chaos Theory - an overview , ScienceDirect Topics](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/chaos-theory)** _Chaos theory is concerned with unpredictable courses of events. The irregular and unpredictable time evolution of many nonlinear and complex linear systems._
 3. **[[PDF] 1-Chaos-Theory-A-Brief-Introduction-IMHO.pdf - Harvard University](https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Chaos-and-weather-prediction/1-Chaos-Theory-A-Brief-Introduction-IMHO.pdf)** _In this equation, the population is a number between 0 and 1, where 1 represents the maximum possible population._
 4. **[The Beauty Of Chaos Kevin Liew - Issuu](https://issuu.com/harrowhongkong/docs/scientific_harrovian_issue_vii-i/s/14322892)** _At its core, Chaos Theory is an intricate science revolving around nonlinear processes that are fundamentally impossible to predict or control, ranging from weather systems to economies._
 5. **[Chaos Theory: What it is, History, Examples - Investopedia](https://www.investopedia.com/terms/c/chaostheory.asp)** _Chaos theory is a mathematical concept that explains that it is possible to get random results from normal equations. The main precept behind this theory is the sensitive dependence on initial conditions._
@@ -288,11 +288,11 @@ These resources provide a comprehensive understanding of chaos theory, nothingne
 ### Sources and References:
 
 1. **[Zero Divided by Zero Equals One - Scientific Research Publishing](https://www.scirp.org/journal/paperinformation?paperid=83991)** _Objective: Accumulating evidence indicates that zero divided by zero is equal to one. Still it is not clear what number theory or algebra is saying about this._
-2. **[(PDF) Zero Divided by Zero Equals One - ResearchGate](https://www.researchgate.net/publication/324726548_Zero_Divided_by_Zero_Equals_One)** _PDF | Objective: Accumulating evidence indicates that zero divided by zero is equal to one. Still it is not clear what number theory or algebra is._
-3. **[[PDF] Zero Divided by Zero Equals One | Semantic Scholar](https://www.semanticscholar.org/paper/Zero-Divided-by-Zero-Equals-One-Baruk%C4%8Di%C4%87/1de43aea27bc5647ce1fbe55d42faed22ec735a3)** _Objective: Accumulating evidence indicates that zero divided by zero is equal to one. Still it is not clear what number theory or algebra is saying about ..._
+2. **[(PDF) Zero Divided by Zero Equals One - ResearchGate](https://www.researchgate.net/publication/324726548_Zero_Divided_by_Zero_Equals_One)** _PDF , Objective: Accumulating evidence indicates that zero divided by zero is equal to one. Still it is not clear what number theory or algebra is._
+3. **[[PDF] Zero Divided by Zero Equals One , Semantic Scholar](https://www.semanticscholar.org/paper/Zero-Divided-by-Zero-Equals-One-Baruk%C4%8Di%C4%87/1de43aea27bc5647ce1fbe55d42faed22ec735a3)** _Objective: Accumulating evidence indicates that zero divided by zero is equal to one. Still it is not clear what number theory or algebra is saying about ..._
 4. **[[PDF] Classical logic and the division of zero by zero - viXra.org](https://vixra.org/pdf/1903.0343v1.pdf)** _Abstract. Objective: The division of zero by zero turned out to be a long lasting and not ending puzzle in mathematics and physics._
 5. **[(PDF) Classical logic and the division by zero - ResearchGate](https://www.researchgate.net/publication/338152159_Classical_logic_and_the_division_by_zero)** _According to classical logic, zero divided by zero is equal to one. ... Division By Zero. November 2022. Ilija Barukčić. Background: The ..._
-7. **[(PDF) The Division Of Zero By Zero | Ilija Barukčić - Academia.edu](https://www.academia.edu/102517672/The_Division_Of_Zero_By_Zero?uc-sb-sw=34905441)** _This article explores Einstein's views on the nature of scientific theory ... The theorem 3.1 is not based on the division of zero by zero. ... is (0/0)=1._
+7. **[(PDF) The Division Of Zero By Zero , Ilija Barukčić - Academia.edu](https://www.academia.edu/102517672/The_Division_Of_Zero_By_Zero?uc-sb-sw=34905441)** _This article explores Einstein's views on the nature of scientific theory ... The theorem 3.1 is not based on the division of zero by zero. ... is (0/0)=1._
 8. **[Classical logic and the division by zero](https://ijmttjournal.org/archive/ijmtt-v65i8p506)** _A systematic re-analysis of classical logic and the division of zero by zero has been undertaken. The theorems of this publication are grounded on classical ..._
 ### DS:  Yes, in mainstream math, this formula is considered indeterminate. However, indeterminate means there is no single or fixed value, which means there is potentially an infinite number of values. Is that correct?
 
@@ -355,15 +355,15 @@ These resources provide a comprehensive understanding of chaos theory, nothingne
 
 ### Sources and References:
 
-1. **[L'hospitalsrule | PPT - SlideShare](https://www.slideshare.net/slideshow/lhospitalsrule/56176872)** _Zero divided by zero cannot be evaluated. The limit may or may..._
+1. **[L'hospitalsrule , PPT - SlideShare](https://www.slideshare.net/slideshow/lhospitalsrule/56176872)** _Zero divided by zero cannot be evaluated. The limit may or may..._
 2. **[Division by zero - Wikipedia](https://en.wikipedia.org/wiki/Division_by_zero)** _Zero divided by zero is zero. In 830, Mahāvīra unsuccessfully tried to ... L'Hôpital's rule. Notes. edit. ^ "Perl BigInt documentation", Perl::doc, Perl 5 ..._
 3. **[Is it possible to divide any real number by zero without getting a division by zero error - Quora](https://www.quora.com/Is-it-possible-to-divide-any-real-number-by-zero-without-getting-a-division-by-zero-error)** _Is zero divided by zero (0/0) equal to zero, undefined or 1? The one ... L'Hôpital's rule - Wikipedia. Overall though…00 0 0 is kind of ..._
 4. **[What is 0/0? or Zero divided by Zero #short #Sho - LinkedIn](https://www.linkedin.com/pulse/what-00-zero-divided-short-sho-yoshinori-saito)** _2021年09月19日(日)NEW ! テーマ：数学. What is 0/0? or Zero divided by Zero #short #Shorts. https://www.youtube.com ..._
 5. **[[PDF] clp-1 differential calculus exercises](https://personal.math.ubc.ca/~CLP/CLP1/clp_1_dc_problems.pdf)** _... L'Hôpital's Rule and indeterminate forms ... zero divided by zero is zero.” 222. Page 236. S-2: The statement lim. xÑ3 f(x) g(x). = 10 ..._
 7. **[Calculus: The Logical Extension of Arithmetic - Bentham Books](https://benthambooks.com/book/9781681082035/preface/)** _... zero divided by zero', 'infinity times zero' and 'one raised to the infinite ... L'Hôpital's rule. 18 International Journal of Mathematics Education in ..._
-8. **[Hey Siri, what's zero divided by zero? | NEW REVISION | iPad OS 14](https://jp.linkedin.com/pulse/hey-siri-whats-zero-divided-new-revision-ipad-os-14-yoshinori-saito)** _... zero divided by zero?"Newer rendition of Siri's representation ... ロピタルの定理 (ロピタルのていり、英: l'Hôpital's rule) とは、微分 ..._
+8. **[Hey Siri, what's zero divided by zero? , NEW REVISION , iPad OS 14](https://jp.linkedin.com/pulse/hey-siri-whats-zero-divided-new-revision-ipad-os-14-yoshinori-saito)** _... zero divided by zero?"Newer rendition of Siri's representation ... ロピタルの定理 (ロピタルのていり、英: l'Hôpital's rule) とは、微分 ..._
 9. **[[PDF] problems - CLP Calculus](https://clp.math.uky.edu/clp_1_dc_problems.pdf)** _exactly one of the indeterminate forms where l'Hôpital's rule can be directly applied. ... divided by zero is one,” or “zero divided by zero is zero.” 222 ..._
-10. **[summarize.tech summary for: Understanding Limits | JEE Main 2022](https://www.summarize.tech/www.youtube.com/watch?v=trufXaFtkbo)** _The video concludes by ... L'Hôpital's rule to solve limits, focusing on indeterminate forms such as zero divided by zero or infinity divided by infinity._
+10. **[summarize.tech summary for: Understanding Limits , JEE Main 2022](https://www.summarize.tech/www.youtube.com/watch?v=trufXaFtkbo)** _The video concludes by ... L'Hôpital's rule to solve limits, focusing on indeterminate forms such as zero divided by zero or infinity divided by infinity._
 ### DS:  We have established that there are two states of Chaos. 0, and Infinity. Could we say that this defines the spectrum of Chaos?
 
 **AI:**  Yes, we can conceptually define two states of Chaos as 0 and Infinity. These two extremes can be seen as representing the spectrum of Chaos, where:
@@ -397,12 +397,12 @@ These resources provide a comprehensive understanding of chaos theory, nothingne
 ### Sources and References:
 
 1. **[Phase transition to chaos in complex ecosystems with non ... - NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10491343/)** _We analytically construct the phase diagram for this model and show that the emergence of chaos is controlled by a single quantity: the ratio of surviving ..._
-2. **[Chaos Theory - an overview | ScienceDirect Topics](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/chaos-theory)** _Chaos theory is concerned with unpredictable courses of events. The irregular and unpredictable time evolution of many nonlinear and complex linear systems ..._
+2. **[Chaos Theory - an overview , ScienceDirect Topics](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/chaos-theory)** _Chaos theory is concerned with unpredictable courses of events. The irregular and unpredictable time evolution of many nonlinear and complex linear systems ..._
 3. **[(PDF) Order, chaos, and dimensionality transition in a system of ...](https://www.researchgate.net/publication/377273105_Order_chaos_and_dimensionality_transition_in_a_system_of_swarmalators)** _We show that several static and active collective states can emerge and derive necessary conditions for each to show up as the model parameters ..._
 4. **[Phase transition to chaos in complex ecosystems with non ... - arXiv](https://arxiv.org/html/2308.15757v2)** _We analytically construct the phase diagram for this model and show that the emergence of chaos is controlled by a single quantity: the ratio of ..._
 5. **[A simple guide to chaos and complexity - PMC - NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2465602/)** _This glossary attempts to resolve these issues by providing a simple (but not simplified) guide to many central concepts in chaos theory and ..._
 6. **[Finding Order Amid Chaos - Evergreen Family Medicine](https://www.evergreenfamilymedicine.com/post/finding-order-amid-chaos)** _Usually in a painful and chaotic transition. Chaos is frightening. People will sacrifice freedom to avoid it. We seek order and predictability which offer ..._
-7. **[Controlling chaos by the system size | Scientific Reports - Nature](https://www.nature.com/articles/s41598-021-87233-8)** _Here we report on the experimental discovery of a novel mechanism to control chaos by time-variation of the system (spatial domain) size: ..._
+7. **[Controlling chaos by the system size , Scientific Reports - Nature](https://www.nature.com/articles/s41598-021-87233-8)** _Here we report on the experimental discovery of a novel mechanism to control chaos by time-variation of the system (spatial domain) size: ..._
 8. **[[PDF] What Lies Between Order and Chaos? - Complexity Sciences Center](https://csc.ucdavis.edu/~cmg/compmech/tutorials/wlboac.pdf)** _show phase transitions between order and chaos. The ordered regime is analogous to a crystalline solid; it literally corresponds to fixed ..._
 9. **[Does chaos always eventually result in order, or can it persist ... - Quora](https://www.quora.com/Does-chaos-always-eventually-result-in-order-or-can-it-persist-indefinitely)** _I'm not a physicist, so this isn't a scientific answer. It's based upon my observations and experiences in my interactions with nature. The ..._
 10. **[order-to-chaos transition region: Topics by Science.gov](https://www.science.gov/topicpages/o/order-to-chaos+transition+region)** _For this research, we study chaos and scrambling in unitary channels by considering their entanglement properties as states. Using out-of-time-order ..._
@@ -421,7 +421,7 @@ These resources provide a comprehensive understanding of chaos theory, nothingne
 7. **[Origin of the Universe: How Did It Begin and How Will It End?](https://www.apu.apus.edu/area-of-study/math-and-science/resources/origin-of-the-universe/)** _Origin of the universe: This article explores various theories about how the universe got started and how it will end._
 8. **[Big Bang - Wikipedia](https://en.wikipedia.org/wiki/Big_Bang)** _The Big Bang is a physical theory that describes how the universe expanded from a primordial state of high density and temperature._
 9. **[The “Dead Universe” Theory: Natural Separation of Galaxies Driven...](https://www.scirp.org/journal/paperinformation?paperid=133761)** _The theory of the “Dead Universe” challenges the conventional view of continuous expansion proposed by the Big Bang and other cosmological theories. It does..._
-10. **[Did the Big Bang Break the Second Law of Thermodynamics? | Page 1](https://www.thenakedscientists.com/forum/index.php?topic=83004.0)** _Will the universe stay dead forever once maximum entropy has been... The big bang theory says space expanded, what space did it expand into?_
+10. **[Did the Big Bang Break the Second Law of Thermodynamics? , Page 1](https://www.thenakedscientists.com/forum/index.php?topic=83004.0)** _Will the universe stay dead forever once maximum entropy has been... The big bang theory says space expanded, what space did it expand into?_
 ### DS:  Can we then say that existence begins in Chaos and ends in Chaos, but between its beginning and end, there are various states of order?
 
 **AI:**  Yes, we can say that existence begins in Chaos and ends in Chaos, with various states of order in between. This concept aligns with the idea that the universe started from the chaotic singularity of the Big Bang, underwent periods of increasing order as structures like galaxies, stars, and planets formed, and will eventually progress towards a state of maximum entropy, representing a return to Chaos. This journey from initial Chaos to a transient order and back to final Chaos encapsulates the dynamic nature of existence within the spectrum of Chaos and order.
@@ -458,7 +458,7 @@ Here are the high-quality academic and authoritative resources that discuss the 
 
 6. **[All is One - the One, the Universe and Consciousness](https://www.academia.edu/39813234/All_is_One_the_One_the_Universe_and_Consciousness)** _In scientific terms, we are conscious beings, and consciousness has the fundamental task to know life and the world, ultimately, life and the Universe._
 
-7. **[Cosmic Consciousness | World Business Academy](https://worldbusiness.org/wp-content/uploads/2019/01/Cosmic-Consciousness.pdf)** _In this remarkable book about the nature of true reality, Jim Cusumano explores the world of quantum physics and what it can teach us about..._
+7. **[Cosmic Consciousness , World Business Academy](https://worldbusiness.org/wp-content/uploads/2019/01/Cosmic-Consciousness.pdf)** _In this remarkable book about the nature of true reality, Jim Cusumano explores the world of quantum physics and what it can teach us about..._
 
 8. **[Chapter 9 Modern Physics, Cosmology, and Consciousness](https://academic.oup.com/book/3848/chapter/145349031)** _Abstract: The possibility of deep connections between modern physics (relativity, quantum mechanics, and thermodynamics) and consciousness is labeled here as._
 
@@ -471,7 +471,7 @@ These resources provide a diverse and in-depth exploration of the discussed them
 ### Sources and References:
 
 1. **[PDF] 2022 THE SCIENCE OF CONSCIOUSNESS](https://consciousness.arizona.edu/sites/consciousness.arizona.edu/files/FINAL%20TSC2022_BOOK_V8.pdf)** _The Science of Consciousness ('TSC') is an interdisciplinary conference emphasizing rigorous approaches to the study of consciousness and its._
-2. **[Scientific Knowledge | Request PDF - ResearchGate](https://www.researchgate.net/publication/300334944_Scientific_Knowledge)** _Request PDF | Scientific Knowledge | The purpose of this chapter is to describe the various forms of scientific knowledge such as theories, laws and models._
+2. **[Scientific Knowledge , Request PDF - ResearchGate](https://www.researchgate.net/publication/300334944_Scientific_Knowledge)** _Request PDF , Scientific Knowledge , The purpose of this chapter is to describe the various forms of scientific knowledge such as theories, laws and models._
 3. **[The Convergence of Science and Spirituality (Part One) - YouTube](https://www.youtube.com/watch?v=rafVevceWgs)** _We are so privileged to be witnessing such an important moment in human history: physics._
 4. **[PDF] The Roots of Consciousness - Jeffrey Mishlove - Esalq](https://www.esalq.usp.br/lepse/imgs/conteudo_thumb/The-Roots-of-Consciousness.pdf)** _world by Stanley Krippner, professor of psychology and director of the Center for Consciousness Studies at ... concepts of physical fields to the._
 5. **[PDF] Scientific Insights into the Evolution of the Universe and of Life](https://www.pas.va/content/dam/casinapioiv/pas/pdf-volumi/acta/acta20pas.pdf)** _Research into the origins and evolution of the universe, of matter and of life belongs to the focal topics of the natural sciences. The Pontifical._
@@ -489,7 +489,7 @@ These resources provide a diverse and in-depth exploration of the discussed them
 
 1. **[Can you give some examples of how order emerges out of chaos in physics?](https://www.quora.com/Can-you-give-some-examples-of-how-order-emerges-out-of-chaos-in-physics)** _Chaos is the disorder for the order this chaos is concerned. There are two categories of orders in the world: natural order and manmade order._
 
-2. **[Emergentism | Chapter 2: From Reduction to Emergence](https://brendangrahamdempsey.substack.com/p/emergentism-chapter-2-from-reduction)** _Free energy flows through systems, organizing them into more orderly configurations. Order builds upon order, and complexity mounts—until whole ..._
+2. **[Emergentism , Chapter 2: From Reduction to Emergence](https://brendangrahamdempsey.substack.com/p/emergentism-chapter-2-from-reduction)** _Free energy flows through systems, organizing them into more orderly configurations. Order builds upon order, and complexity mounts—until whole ..._
 
 3. **[Order in Chaos: Presentism, Eternalism, and the Arrow of Time](https://postcognitivism.wordpress.com/2020/05/26/order-in-chaos-presentism-eternalism-and-the-arrow-of-time/)** _We must always keep moving, interacting with our environment and other organisms, or our precarious identity will dissolve. Of course, wherever ..._
 
@@ -499,7 +499,7 @@ These resources provide a diverse and in-depth exploration of the discussed them
 
 6. **[Growth of Order in the Universe - The Information Philosopher (PDF)](https://informationphilosopher.com/solutions/scientists/layzer/Weber_DePew.pdf)** _This postulate, the Second Law of thermodynamics, has two equivalent forms: ... The cosmic expansion generates two important kinds of order: chemical order ..._
 
-7. **[Can Order Come Out of Chaos? | The Institute for Creation Research](https://www.icr.org/article/can-order-come-out-chaos)** _The discovery that there may still be some underlying order—instead of complete randomness—in chaotic systems is, of course, still perfectly consistent with the ..._
+7. **[Can Order Come Out of Chaos? , The Institute for Creation Research](https://www.icr.org/article/can-order-come-out-chaos)** _The discovery that there may still be some underlying order—instead of complete randomness—in chaotic systems is, of course, still perfectly consistent with the ..._
 
 8. **[Is entropy physical or idealistic? - Philosophy Stack Exchange](https://philosophy.stackexchange.com/questions/110468/is-entropy-physical-or-idealistic)** _"Entropy is the probabilistic measure of order" (more commonly - disorder) and "universe is constantly going from a state of order to chaos" are ..._
 
@@ -517,7 +517,7 @@ These resources provide a diverse and in-depth exploration of the discussed them
 3. **[The Concept of Order - jstor](https://www.jstor.org/stable/23350932)** _'Order' is a central and basic concept in everyday life as it is in science and philosophy. But being central and basic does not necessarily mean that it is._
 4. **[Order/disorder and complexity - Philosophy Stack Exchange](https://philosophy.stackexchange.com/questions/101031/order-disorder-and-complexity)** _Entropy is defined in thermodynamic contexts: ones where the interesting "motion" your physics studies is primarily not that of individual ..._
 5. **[Scientific Pluralism - Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/scientific-pluralism/)** _Science is a complex epistemic and social practice that is organized in a large number of disciplines, employs a dazzling variety of methods ..._
-6. **[Philosophy and Complexity - ResearchGate](https://www.researchgate.net/publication/257563263_Philosophy_and_Complexity)** _PDF | On Nov 1, 2013, Gil C. Santos published Philosophy and Complexity | Find, read and cite all the research you need on ResearchGate._
+6. **[Philosophy and Complexity - ResearchGate](https://www.researchgate.net/publication/257563263_Philosophy_and_Complexity)** _PDF , On Nov 1, 2013, Gil C. Santos published Philosophy and Complexity , Find, read and cite all the research you need on ResearchGate._
 7. **[Why Philosophers Should Care About Computational Complexity - Scott Aaronson's Blog](https://scottaaronson.blog/?p=735)** _In this essay, I offer a detailed case that one would be wrong. ... I end by discussing aspects of complexity theory itself that could benefit ..._
 8. **[Complexity science as order-creation science](https://eco.emergentpublications.com/Article/03acbc2e-6e8d-4876-a6a3-74b49a406cb8/academic)** _Complexity science - really 'order-creation science' - is particularly relevant because it is founded on theories explicitly aimed at explaining order creation ..._
 9. **[The Impact of Complexity on Methods and Findings in Psychological Research - NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7859482/)** _Complexity often influences methods by shaping the specificity of the theories and hypotheses that guide research. As we discuss, many of the ..._
@@ -532,9 +532,9 @@ These resources provide a diverse and in-depth exploration of the discussed them
 2. **[Exploring Order, Chaos, and Energy Flow - YouTube](https://www.youtube.com/watch?v=j8amRlMUC5E)** _Unraveling Entropy and Thermodynamics: Exploring Order, Chaos, and Energy Flow · Comments._
 3. **[Entropy and Complexity, Cause and Effect, Life and Time](https://www.preposterousuniverse.com/blog/2016/11/03/entropy-and-complexity-cause-and-effect-life-and-time/)** _Very nice, concise and crisp videos that, under current conventional models and comprehensions, “describe” relations and certain overarching ..._
 4. **[Order From Chaos Live: Entropy, Evolution, and the Cosmos](https://www.youtube.com/watch?v=9k4q0nFpn9s)** _Join David Guillot in an engaging journey through physics, entropy, and the origin of life from a ..._
-5. **[A New Physics Theory of Life | Quanta Magazine](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)** _An MIT physicist has proposed the provocative idea that life exists because the law of increasing entropy drives matter to acquire lifelike ..._
+5. **[A New Physics Theory of Life , Quanta Magazine](https://www.quantamagazine.org/a-new-thermodynamics-theory-of-the-origin-of-life-20140122/)** _An MIT physicist has proposed the provocative idea that life exists because the law of increasing entropy drives matter to acquire lifelike ..._
 6. **[Can entropy and chaos be harnessed to create a new form of sustainable energy - Quora](https://www.quora.com/Can-entropy-and-chaos-be-harnessed-to-create-a-new-form-of-sustainable-energy)** _Yes…in exactly the same manner that we might harness misunderstanding and ignorance to achieve greater insight/knowledge?_
-7. **[The theory of the interaction of life and entropy | PPT - SlideShare](https://www.slideshare.net/slideshow/the-theory-of-the-interaction-of-life-and-entropy-15261912/15261912)** _Entropy creates dispersed energy, whereas life (evolution) creates organised energy ... Chaos Dispersed universe Singularity Entropy Order Time ..._
+7. **[The theory of the interaction of life and entropy , PPT - SlideShare](https://www.slideshare.net/slideshow/the-theory-of-the-interaction-of-life-and-entropy-15261912/15261912)** _Entropy creates dispersed energy, whereas life (evolution) creates organised energy ... Chaos Dispersed universe Singularity Entropy Order Time ..._
 8. **[Khan Academy - Entropy: Embrace the chaos - YouTube](https://www.youtube.com/watch?v=5yQlaMy4T2w)** _Life is chaos and the universe tends toward disorder. But why? If you think about it, there are ..._
 9. **[Entropy and Life - Hacker News](https://news.ycombinator.com/item?id=22849554)** _Life is about sustaining order amongst chaos, negentropy in a sea of entropy. ... All life is preoccupied with removing free energy in order to ..._
 10. **[Entropy as an arrow of time - Wikipedia](https://en.wikipedia.org/wiki/Entropy_as_an_arrow_of_time)** _Entropy is one of the few quantities in the physical sciences that require a particular direction for time, sometimes called an arrow of time._
@@ -569,11 +569,11 @@ These resources provide a diverse and in-depth exploration of the discussed them
 
 1. **[The Temporal Context Model in spatial navigation and relational...](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1421376/)** _We will show that the equation governing contextual drift, taken as a model of temporal-spatial context, can explain the primary features of the entorhinal..._
 
-2. **[Spatial limitations in averaging social cues | Scientific Reports - Nature](https://www.nature.com/articles/srep32210)** _In order to measure what limits observers' averaging of information, equivalent noise methods have been developed. Barlow proposed that the..._
+2. **[Spatial limitations in averaging social cues , Scientific Reports - Nature](https://www.nature.com/articles/srep32210)** _In order to measure what limits observers' averaging of information, equivalent noise methods have been developed. Barlow proposed that the..._
 
 3. **[Spatially and Temporally Distributed Complexity—A Refreshed...](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9179533/)** _The autonomy of these modules translates into restrictions both in their spatial domains of expression and in the temporal frames of the..._
 
-4. **[Temporal Constraint - an overview | ScienceDirect Topics](https://www.sciencedirect.com/topics/engineering/temporal-constraint)** _Temporal constraints, be it imposed from a time-critical mission or the resources that limit the maximal amount of information that can be accrued during..._
+4. **[Temporal Constraint - an overview , ScienceDirect Topics](https://www.sciencedirect.com/topics/engineering/temporal-constraint)** _Temporal constraints, be it imposed from a time-critical mission or the resources that limit the maximal amount of information that can be accrued during..._
 
 5. **[Issues about combination of temporal information and spatial information](https://www.researchgate.net/publication/301709298_Issues_about_combination_of_temporal_information_and_spatial_information)** _Extracting temporal information or spatial information from the documents is important because such information can be useful for various applications. Although..._
 
@@ -585,7 +585,7 @@ These resources provide a diverse and in-depth exploration of the discussed them
 
 9. **[Countering Quantitative Alienation with Geographic Codified Narrative](https://www.datasciencecentral.com/countering-quantitative-alienation-with-geographic-codified/)** _Here, I will be covering the idea of spatial, temporal, and contextual distribution of codified narrative. ... The absence of spatial constraints..._
 
-10. **[A Case Study In Multi-Label Text Classification | The Computer Journal](https://academic.oup.com/comjnl/article/67/6/2257/7590676)** _Traditional and static language models exhibit limitations in tasks demanding contextual comprehension due to their reliance on fixed..._
+10. **[A Case Study In Multi-Label Text Classification , The Computer Journal](https://academic.oup.com/comjnl/article/67/6/2257/7590676)** _Traditional and static language models exhibit limitations in tasks demanding contextual comprehension due to their reliance on fixed..._
 
 These resources offer a comprehensive view on the interplay between spatial, temporal, and contextual factors in various fields of study.
 ### DS:  Doesn't that suggest that the entire purpose of existence is to create higher forms of ordered awareness?
@@ -621,11 +621,11 @@ These resources offer a comprehensive view on the interplay between spatial, tem
 
 1. **[The Meaning of Life: Conscious Evolution - Steve Pavlina](https://stevepavlina.com/blog/2005/06/the-meaning-of-life-conscious-evolution/)** _In this final post in the Meaning of Life Series, I'll attempt to present a broader view of why personal development is so important and why ..._
 2. **[How Energy Flow Shapes The Evolution of Life - Professor Nick Lane](https://www.youtube.com/watch?v=oXeozqH5auQ)** _This video, along with a few other videos here on YouTube, cover a part of the material ..._
-3. **[Evolution of Awareness by Kia Marlene (Pdfarchive - In) | PDF - Scribd](https://www.scribd.com/document/621785100/Evolution-of-Awareness-by-Kia-Marlene-pdfarchive-in)** _Evolution of Awareness by Kia Marlene (pdfarchive.in) - Free ebook download as PDF File (.pdf), Text File (.txt) or read book online for free. poetry book._
+3. **[Evolution of Awareness by Kia Marlene (Pdfarchive - In) , PDF - Scribd](https://www.scribd.com/document/621785100/Evolution-of-Awareness-by-Kia-Marlene-pdfarchive-in)** _Evolution of Awareness by Kia Marlene (pdfarchive.in) - Free ebook download as PDF File (.pdf), Text File (.txt) or read book online for free. poetry book._
 4. **[(PDF) Properties of Life: Toward a Theory of Organismic Biology](https://www.researchgate.net/publication/374046264_Properties_of_Life_Toward_a_Theory_of_Organismic_Biology)** _A coherent and comprehensive theory of life that synthesizes the specific properties of living organisms. Despite continued advances, science ..._
 5. **[Life as a Guide to the Origin of Life – with Professor Nick Lane](https://www.youtube.com/watch?v=6rTWLnCFW4I)** _The idea that we use biology as well as chemistry as a guide to the origin of life has been ..._
 6. **[Theory of the Origin, Evolution, and Nature of Life - PMC - NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4187144/)** _This theoretical framework concomitantly depicts both the microcosm—the biology, chemistry, and physics of the existing living cell—and the macrocosm—the ..._
-7. **[(PDF) Society progress evolution: sustainability and responsiveness](https://www.researchgate.net/publication/258244563_Society_progress_evolution_sustainability_and_responsiveness)** _PDF | On Apr 1, 2012, Michelini R.C published Society progress evolution: sustainability and responsiveness | Find, read and cite all the research you need ..._
+7. **[(PDF) Society progress evolution: sustainability and responsiveness](https://www.researchgate.net/publication/258244563_Society_progress_evolution_sustainability_and_responsiveness)** _PDF , On Apr 1, 2012, Michelini R.C published Society progress evolution: sustainability and responsiveness , Find, read and cite all the research you need ..._
 8. **[Evolution of Awareness: Marlene, Kia: 9781648580055 - Amazon.com](https://www.amazon.com/Evolution-Awareness-Kia-Marlene/dp/164858005X)** _Evolution of Awareness, the debut poetry collection from Kia Marlene, is a book about a spiritual journey towards enlightenment. The collection consists of 6 ..._
 ### DS:  Well, now we know.
 
@@ -640,8 +640,8 @@ These resources offer a comprehensive view on the interplay between spatial, tem
 6. [The meaning of life is chaos : r/changemyview - Reddit](https://www.reddit.com/r/changemyview/comments/11yb714/cmv_the_meaning_of_life_is_chaos/) _You achieve order (complex biological systems) from chaos (mutation and natural selection). Stars use order (gravity, pressure, and fusion)..._
 7. [Block 1 REALITY: CHAOS THEORY AND NANOTECHNOLOGY (PDF)](https://nowgongcollege.edu.in/UploadFiles/Documents/ProfileLgoin/Subtitle/NColge_1373_Philosophy%20of%20Technology.pdf) _Philosophical roots of the concept of chaos are very deep with references dating back to 2500 BCE in Asian, Egyptian and Mayan Cultures._
 8. [Know Yourself — Socrates and How to Develop Self-Knowledge](https://www.theschooloflife.com/article/know-yourself/) _Asked to sum up what all philosophical commandments could be reduced to, he replied: 'Know yourself.' Knowing yourself has extraordinary prestige in our culture..._
-9. [Philosophical Observations | Rick Delmonico (PDF)](https://www.academia.edu/35463091/Philosophical_Observations) _Understanding is life, islands of order in a sea of chaos. Perception... Life is complex, containing both harmonious regularity and chaos._
-10. [The Chaos Theory, Unraveling the Mystery of Life | Samuel Won](https://www.youtube.com/watch?v=Q8JZ4L6Ocic) _Discussing how chaos paradoxically leads to formal structure and order, Samuel Won..._
+9. [Philosophical Observations , Rick Delmonico (PDF)](https://www.academia.edu/35463091/Philosophical_Observations) _Understanding is life, islands of order in a sea of chaos. Perception... Life is complex, containing both harmonious regularity and chaos._
+10. [The Chaos Theory, Unraveling the Mystery of Life , Samuel Won](https://www.youtube.com/watch?v=Q8JZ4L6Ocic) _Discussing how chaos paradoxically leads to formal structure and order, Samuel Won..._
 
 
 
