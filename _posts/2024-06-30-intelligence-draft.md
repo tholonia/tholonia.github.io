@@ -303,9 +303,9 @@ From these points I did a reference search.
 >
 > **[Structural Self-organized Holonic Multi-Agent Manufacturing Systems](https://uphf.hal.science/hal-03467679/document)** _Worldwide systems are increasingly growing into unprecedented complexity levels. This increase of system complexity has to be ..._
 >
-> **[Organic Governance Through the Logic of Holonic Systems](http://theimpactinstitute.org/Publications/Ulieru%202014%20-%20Organic%20Governance%20Through%20the%20Logic%20of%20Holonic%20Systems.pdf)** _For example, a university is organized as an educational holarchy comprised of the President's office, to which faculties (e.g., ..._
+> **[Organic Governance Through the Logic of Holonic Systems](https://theimpactinstitute.org/Publications/Ulieru%202014%20-%20Organic%20Governance%20Through%20the%20Logic%20of%20Holonic%20Systems.pdf)** _For example, a university is organized as an educational holarchy comprised of the President's office, to which faculties (e.g., ..._
 >
-> **[March 28, 2006 8:7 WSPC/INSTRUCTION FILE plan](http://www.sebastianrodriguez.com.ar/files/Rodriguez_et_al_2007_A_Formal_Holonic_Framework_with_prooved_Self-Organizing_Capabilities.pdf)** _We have chosen the holonic paradigm to provide these abilities to agents. Holons are recursive self-similar entities which are organized in an emergent._
+> **[March 28, 2006 8:7 WSPC/INSTRUCTION FILE plan](https://www.sebastianrodriguez.com.ar/files/Rodriguez_et_al_2007_A_Formal_Holonic_Framework_with_prooved_Self-Organizing_Capabilities.pdf)** _We have chosen the holonic paradigm to provide these abilities to agents. Holons are recursive self-similar entities which are organized in an emergent._
 >
 > **[Model of Self-organizing Knowledge Representation and ...](https://article.sciencepublishinggroup.com/pdf/ajai.20200401.11)** _The purpose of the paper is development of a conceptual model for the representation of knowledge as an active intellectual substance and, on this ..._
 >
@@ -313,6 +313,6 @@ From these points I did a reference search.
 >
 > **[Structural Self-organized Holonic Multi-Agent Manufacturing Systems](https://link.springer.com/content/pdf/10.1007/978-3-642-40090-2_6.pdf?pdf=preview)** _... holons are organized according to a hierarchical structure) and a ... A level 3 structural self-organization was used for the tests, since resources will._
 >
-> **[Piero Mella The Holonic Revolution - Pavia University Press](http://archivio.paviauniversitypress.it/pdf-oa/mella-holonic-2009.pdf)** _... Self Organizing Hierarchical and Open systems, Self Organizing. Holonic ... viewed as structures that are self-contained within their self-organization – even if._
+> **[Piero Mella The Holonic Revolution - Pavia University Press](https://archivio.paviauniversitypress.it/pdf-oa/mella-holonic-2009.pdf)** _... Self Organizing Hierarchical and Open systems, Self Organizing. Holonic ... viewed as structures that are self-contained within their self-organization – even if._
 >
 > **[Self-Organization in Smart Manufacturing - NOVA Research Portal](https://novaresearch.unl.pt/files/66019662/Self_Organization_in_Smart_Manufacturing.pdf)** _materials, functions, structures and resources for intelligent and ... consider the use of hierarchies based on holonic systems. Functional modeling ..._
