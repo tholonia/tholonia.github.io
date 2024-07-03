@@ -51,3 +51,6 @@ docs/
 __pycache__
 .directory
 EX_*
+check_ext_links.sh
+check_links.sh
+x.md
