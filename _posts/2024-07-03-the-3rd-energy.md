@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The 3rd Energy
+title: The 3rd Energy (CAI ch. 10)
 author: duncan
 date: 2024-07-03
 image: /assets/posts/2024-07-03-the-3rd-energy/post_image.jpg
