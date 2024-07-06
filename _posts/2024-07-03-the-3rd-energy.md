@@ -126,7 +126,7 @@ This suggests that there's a third form of energy that only exists as a wave and
 
 **AI:**  Yes, that's correct. The relationship between mass (material energy) and massless energy is fundamentally described by Einstein's famous equation from the theory of relativity:
 
- $ E = mc^2 $
+ $$ E = mc^2 $$
 
  Here's a breakdown of this concept:
 
