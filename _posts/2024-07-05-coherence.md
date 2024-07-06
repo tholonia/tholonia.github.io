@@ -20,26 +20,11 @@ This looks at coherence and incoherence in the context of awareness and consciou
 
 {% youtube "https://youtu.be/ZjF5Ft-Y3ag" %}
 
-**TLDR;** The tholonic model integrates consciousness and technology, reimagining the nature of both to understand their interactions, adhering to scientific methods rather than transhumanist, spiritual, or esoteric approaches. Currently in its infancy, the model poses questions and investigations without definitive answers. Its fundamental axioms include the view that everything is a contextual instance of energy, energy arises from imbalance, awareness and intention are fundamental properties, and consciousness emerges from complexity. The model proposes a third state of energy that is purely wave-like, serving as an interface between wave and particle forms. It describes a self-similar tetrahedral holarchy, with water as a representative material instance, and posits that order is a transitional form of chaos, with multiple alternate realities and forms of intelligence.
+**TLDR;** Coherence and incoherence within conceptual energy reflect the organized and disorganized states of thoughts, ideas, and intentions, respectively. Coherent conceptual energy involves focused, structured, and harmonized thought processes that align well with mental clarity, creativity, and effective problem-solving. Practices such as meditation, mindfulness, and goal-setting enhance coherence, leading to improved cognitive function and emotional stability. In contrast, incoherent conceptual energy manifests as scattered, conflicting, and disorganized thoughts, contributing to stress, anxiety, cognitive disorganization, and emotional instability. Balancing coherence with periods of relaxation and unstructured thinking is crucial for maintaining mental health and overall well-being, as both extremes—excessive coherence or incoherence—can have detrimental effects on psychological and physical health.
 
 ---
+
 ### Key Points Outline:
-
-- **Tholonic Model**:
-  - Integrates consciousness and technology.
-  - Adheres to scientific methods over transhumanist, spiritual, or esoteric approaches.
-  - Currently poses questions and investigations without definitive answers.
-
-- **Fundamental Axioms**:
-  - Everything is a contextual instance of energy.
-  - Energy arises from imbalance.
-  - Awareness and intention are fundamental properties.
-  - Consciousness emerges from complexity.
-  - Proposes a third state of energy that is purely wave-like.
-  - Describes a self-similar tetrahedral holarchy with water as a representative material instance.
-  - Posits order as a transitional form of chaos, with multiple alternate realities and forms of intelligence.
-
-### Key Points Summary
 
 #### Coherence and Incoherence Concepts
 
