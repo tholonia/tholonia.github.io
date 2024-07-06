@@ -21,58 +21,82 @@ The premise is: Intelligence in a byproduct of interaction, which is itself of s
 
 {% youtube "https://youtu.be/CraiPMM3Qrg" %} 
 
-As this is a draft, there is no transcript, per se.  I did a voice-to-text, but the quality was quite bad, so it lost a lot of words, still, it managed to extract the following key points.
+**TLDR;** The conceptual model of intelligence suggests that intelligence emerges from a zero-dimensional point, expanding through self-organization driven by energy flow, with complexity enhancing the ability to manage, transmit, and utilize energy, leading to more sophisticated intelligence. Intelligence is distinguished from consciousness, where intelligence involves learning and applying knowledge. Simple systems having basic awareness and complex systems, like humans, exhibiting advanced self-reflective consciousness. Intelligence arises from interactions between instances of consciousness, with increased complexity and organization enhancing sophistication. Morphic fields influence the stable organized patterns of intelligence, as proposed by Rupert Sheldrake. The universe's intelligent behavior suggests broader forms of intelligence that influence and organize systems. Competing intelligences drive adaptation and evolution, with conflict leading to dominance, integration, or destabilization. Ideas and beliefs, described as mind viruses, spread within cultures, influencing behavior. Higher intelligences influencing human conditions align with many religious models. Mind viruses can affect genetic expression through epigenetic mechanisms, creating a feedback loop between cultural beliefs and genetic expressions. Systems are structured as holons, which are both wholes and parts of larger wholes, with each level of the hierarchy exhibiting self-organization and intelligence, from subatomic particles to galaxies.
 
-From these points I did a reference search.
+---
 
-### Key Points:
+As this is a draft, there is no transcript, per se.  I did a voice-to-text, but the quality was quite bad, so it lost a lot of words, still, it managed to extract the following key points.  From these points I did a reference search.
 
-1. **Conceptual Model of Intelligence**:
-   1. Intelligence emerges from a zero-dimensional point and expands through self-organization driven by energy flow.
-   2. As systems become more complex, their ability to manage, transmit, and utilize energy increases, leading to more sophisticated forms of intelligence   
+---
 
-2. **Intelligence and Consciousness**:
-   1. Intelligence is often seen as the ability to learn and apply knowledge, while consciousness involves self-awareness and subjective experience.
-   2. Artificial intelligence can be intelligent without being self-aware.
-   3. Higher levels of intelligence might give rise to consciousness, with simple systems having basic awareness and complex systems, like humans, exhibiting advanced self-reflective consciousness.
+### Key Points Outline:
 
-3. **Awareness and Consciousness**:
-   1. Awareness is an intrinsic property of existence, and consciousness is a contextual instance of awareness within duality.
-   2. All things have some level of consciousness; the difference is the level of self-reflection.
+1. **Introduction**
+   - Title: Intelligence - draft
+   - Author: Duncan
+   - Date: 2024-06-30
+   - Categories: Blog, Metaphysics, Nature, Philosophy, Science
+   - Tags: Energy
 
-4. **Emergence of Intelligence**:
+2. **Summary**
+   - Intelligence is a byproduct of interaction, originating in Awareness.
+   - There are countless non-material intelligences affecting our lives.
+   - This is a rough record of a live Q&A on intelligence, needing editing.
 
-   1. Intelligence emerges from interactions between instances of consciousness.
-   2. Complexity and organization increase the sophistication of intelligence.
+3. **Key Points:**
 
-5. **Morphic Fields**:
-   1. Intelligence can exist as stable organized patterns influenced by morphic fields, as proposed by Rupert Sheldrake.
+   1. **Conceptual Model of Intelligence**
+      - Intelligence emerges from a zero-dimensional point, expanding through self-organization driven by energy flow.
+      - As systems become more complex, their ability to manage, transmit, and utilize energy increases, leading to more sophisticated intelligence.
 
-6. **Universal Intelligence**:
-   1. The universe acts in an intelligent manner, suggesting the presence of broader or higher forms of intelligence.
-   2. Higher intelligences influence and organize systems within the universe.
+   2. **Intelligence and Consciousness**
+      - Intelligence involves learning and applying knowledge, while consciousness involves self-awareness and subjective experience.
+      - Artificial intelligence can be intelligent without being self-aware.
+      - Higher levels of intelligence might give rise to consciousness, with simple systems having basic awareness and complex systems, like humans, exhibiting advanced self-reflective consciousness.
 
-7. **Conflict and Adaptation**:
-   1. Competing intelligences drive adaptation and evolution.
-   2. Conflict can lead to dominance, integration, or destabilization of systems.
+   3. **Awareness and Consciousness**
+      - Awareness is an intrinsic property of existence, and consciousness is a contextual instance of awareness within duality.
+      - All things have some level of consciousness; the difference is the level of self-reflection.
 
-8. **Mind Viruses**:
-   1. Ideas and beliefs spread within a culture, influencing behavior and potentially leading to epigenetic changes.
-   2. Mind viruses operate by embedding themselves in human minds and culture, spreading and evolving over time.
+   4. **Emergence of Intelligence**
+      - Intelligence emerges from interactions between instances of consciousness.
+      - Complexity and organization increase the sophistication of intelligence.
 
-9. **Religious Models**:
-    1. Higher intelligences or deities influence human conditions, similar to how holons influence their partons.
-    2. This concept aligns with many religious models where deities guide human behavior.
+   5. **Morphic Fields**
+      - Intelligence can exist as stable organized patterns influenced by morphic fields, as proposed by Rupert Sheldrake.
 
-10. **Epigenetic Influence**
-    1. Mind viruses can influence genetic expression through epigenetic mechanisms.
-    2. Cultural beliefs and genetic expressions can create a feedback loop, reinforcing each other across generations.
+   6. **Universal Intelligence**
+      - The universe acts in an intelligent manner, suggesting the presence of broader or higher forms of intelligence.
+      - Higher intelligences influence and organize systems within the universe.
 
-11. **Holons and Hierarchical Structure**:
-     1. Systems are structured as holons, which are both wholes and parts of larger wholes.
-     2. Each level of the hierarchy, from subatomic particles to galaxies, exhibits self-organization and intelligence.
+   7. **Conflict and Adaptation**
+      - Competing intelligences drive adaptation and evolution.
+      - Conflict can lead to dominance, integration, or destabilization of systems.
 
+   8. **Mind Viruses**
+      - Ideas and beliefs spread within a culture, influencing behavior and potentially leading to epigenetic changes.
+      - Mind viruses operate by embedding themselves in human minds and culture, spreading and evolving over time.
 
+   9. **Religious Models**
+      - Higher intelligences or deities influence human conditions, similar to how holons influence their partons.
+      - This concept aligns with many religious models where deities guide human behavior.
+
+   10. **Epigenetic Influence**
+       - Mind viruses can influence genetic expression through epigenetic mechanisms.
+       - Cultural beliefs and genetic expressions can create a feedback loop, reinforcing each other across generations.
+
+   11. **Holons and Hierarchical Structure**
+       - Systems are structured as holons, which are both wholes and parts of larger wholes.
+       - Each level of the hierarchy, from subatomic particles to galaxies, exhibits self-organization and intelligence.
+
+4. **Challenges and Future Directions**
+   - Understanding and defining intelligence and consciousness clearly.
+   - Developing methods to measure and study non-material intelligences.
+   - Exploring the influence of morphic fields and universal intelligence.
+   - Investigating the impact of mind viruses and epigenetics on human behavior and evolution.
+   - Integrating concepts of holons and hierarchical structures into scientific research.
+
+---
 
 ### Sources and References:
 

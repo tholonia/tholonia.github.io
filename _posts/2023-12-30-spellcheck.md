@@ -91,9 +91,9 @@ def split_path(pstr):
   }
 
 def findintree(filespec):
-  allfiles = glob(filespec, recursive=True)  # ! get list of all files
+  allfiles = glob(filespec, recursive=True) # ! get list of all files
   ab_allfiles = []
-  for f in allfiles:  # ! remove all instance of ZPROJECTS, a dir that needs to be ignore.
+  for f in allfiles: # ! remove all instance of ZPROJECTS, a dir that needs to be ignore.
     if f.find("ZPROJECTS") != -1 or f.find("_site") != -1:
       pass
     else:
@@ -111,14 +111,14 @@ def load_fm(fn):
 
 def markdown_to_text(markdown_string):
   """ Converts a markdown string to plaintext """
-  # md -> html -> text since BeautifulSoup can extract text cleanly
+ # md -> html -> text since BeautifulSoup can extract text cleanly
 
   content = markdown(markdown_string.replace("\n", " ").replace("_", " "))
   content = re.sub(r'<pre>(.*?)</pre>', ' ', content)
   content = re.sub(r'<code>(.*?)</code >', ' ', content)
 
 
-  # extract text
+ # extract text
 
   soup = BeautifulSoup(content, "html.parser")
   text = ''.join(soup.findAll(string=True))
@@ -159,37 +159,37 @@ spell.word_frequency.load_words(skipwords)
 mdfiles = findintree(recursive+filespec)
 
 for file in mdfiles:
-  bad_words  = {} #! this holds words that do not exist in the spellchecker or have been listed as incorrect
+  bad_words  = {}#! this holds words that do not exist in the spellchecker or have been listed as incorrect
 
-  # ! load FM and content
+ # ! load FM and content
   post = load_fm(file)
   content = post.content
 
-  #! this REALLY slows things down
+ #! this REALLY slows things down
   if yaml:
     import numpy as np
     lst_1d = np.array(post.metadata).flat
     yaml_str = " ".join(map(str, lst_1d))
     content = content + " " +yaml_str
 
-  #! remove any markdown tags other chars and create a list of words
+ #! remove any markdown tags other chars and create a list of words
   content = markdown_to_text(content)
-  #! Remove URL's. This is here because if there are no HTML stuff BeautifulSoup freaks out
+ #! Remove URL's. This is here because if there are no HTML stuff BeautifulSoup freaks out
   content = re.sub(r'http\S+', '', content)
-  content = re.sub("<[^>]*>", "", content) #! remove HTML tags
-  content.replace("%","~") #! need to swap % so it doesn't look like a Liquid command
-  content = re.sub(r' {~[^}]*~}', '', content)  # ! remove LiquidScript tags
+  content = re.sub("<[^>]*>", "", content)#! remove HTML tags
+  content.replace("%","~")#! need to swap % so it doesn't look like a Liquid command
+  content = re.sub(r' {~[^}]*~}', '', content) # ! remove LiquidScript tags
 
 
   words=spell.split_words(content)
 
-  #! fist make an ary with the bad words using the word as key to eliminate dupe entries
+ #! fist make an ary with the bad words using the word as key to eliminate dupe entries
   for word in words:
     if word not in spell.known(word):
       probable_word = spell.correction(word)
       if word != probable_word:
         bad_words[word]=probable_word
-  #! test and print
+ #! test and print
   if len(bad_words) > 0 or verbose == True:
     if not dump:
       print(f">>> {Fore.YELLOW}{file}{Fore.RESET}")
@@ -199,7 +199,7 @@ for file in mdfiles:
       if not dump:
         print(f"\t{Fore.GREEN}[{word:20s}]\t{Fore.CYAN}[{bad_words[word]}]{Fore.RESET}")
 
-  #! print our a simple list of bad words for easy cut/paste into skipwords.txt
+ #! print our a simple list of bad words for easy cut/paste into skipwords.txt
   if len(bad_words) > 0:
     for w in bad_words:
       print(w)
