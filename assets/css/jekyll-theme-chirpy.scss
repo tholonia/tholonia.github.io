@@ -167,3 +167,8 @@ iframe {
 }
 
 
+/*override .img-link */
+.img-link {
+  color: rgba(0,0,0,0);
+  display: contents
+}
