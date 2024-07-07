@@ -28,21 +28,6 @@ Water is the material form of the ultimate conductor of not only life, but of re
 
 ### Key Points Outline:
 
-**Main Idea:**
-- Water, with its tetrahedral structure, is a fundamental conductor of life, reality, existence, and even ideas.
-
-**Key Points:**
-
-1. **Energy and Form:**
-   - Movement of energy creates form.
-   - Tetrahedrons are the simplest, most efficient structures, crucial for life and energy transfer.
-
-2. **Water's Role:**
-   - Water’s tetrahedral structure allows it to efficiently store and transfer both physical and non-physical energy.
-   - This efficiency influences evolution and information storage.
-
-**Specific Topics:**
-
 1. Form is created by the movement of energy.
 2. Tetrahedrons are the simplest and most efficient form.
 3. Tetrahedral matrices are highly energy efficient.
@@ -58,14 +43,6 @@ Water is the material form of the ultimate conductor of not only life, but of re
 13. Water can hypothetically store information.
 14. Spinning water in a vortex creates high-potential water, enhancing its properties.
 15. High-potential water might reduce high cholesterol through several mechanisms.
-
-**Practical Implications:**
-
-- Tetrahedral water may enhance the ability to interact with and transmit various forms of physical and non-physical energy.
-- Water could potentially be seen as a natural store of information about reality.
-
-**Conclusion:**
-- The tetrahedral matrix is an archetypal form that strongly influences the evolution of both animate and inanimate forms, supporting efficient energy transfer and potentially interacting with abstract energies.
 
 ---
 
