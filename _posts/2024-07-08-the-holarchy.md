@@ -14,23 +14,21 @@ categories:
 jday: 8955
 tags:
 - thologram
-- ' holons'
-- ' partons'
-- ' thologram'
-- ' energy'
+- holons
+- partons
+- thologram
+- energy
 ---
 
 An overview of the holarchy, with some speculation.
 
 <!--more-->
 
-{% youtube "https://youtu.be/-9eUxryuP38	" %}
+{% youtube "https://youtu.be/-9eUxryuP38" %}
 
 **TLDR; ** explores the concept of a holarchy, an organizational system where each level, called a holon, acts both as an independent whole and part of a larger whole, emphasizing interconnectedness and interdependence. It contrasts with traditional hierarchies and integrates sustainability as a crucial element. The discussion extends to the application of holarchies in various fields, such as biology and business, and the theoretical model of tetrahedral holons, termed a thologram, which can represent complex systems and energy dynamics. The text also speculates on the potential of fractal structures, like the Sierpinski pyramid, to naturally occur and act as antennas for conceptual energy, suggesting that advancements in technology and perception could reveal such patterns in nature.
 
 ### Key Points Outline:
-
-### Key Points Outline
 
 - **Holarchy Definition:**
   - Holarchy: Organizational system with levels called "holons."
