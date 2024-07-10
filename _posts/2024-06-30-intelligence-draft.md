@@ -31,19 +31,7 @@ As this is a draft, there is no transcript, per se.  I did a voice-to-text, but 
 
 ### Key Points Outline:
 
-1. **Introduction**
-   - Title: Intelligence - draft
-   - Author: Duncan
-   - Date: 2024-06-30
-   - Categories: Blog, Metaphysics, Nature, Philosophy, Science
-   - Tags: Energy
-
-2. **Summary**
-   - Intelligence is a byproduct of interaction, originating in Awareness.
-   - There are countless non-material intelligences affecting our lives.
-   - This is a rough record of a live Q&A on intelligence, needing editing.
-
-3. **Key Points:**
+1. **Key Points:**
 
    1. **Conceptual Model of Intelligence**
       - Intelligence emerges from a zero-dimensional point, expanding through self-organization driven by energy flow.
@@ -89,7 +77,7 @@ As this is a draft, there is no transcript, per se.  I did a voice-to-text, but 
        - Systems are structured as holons, which are both wholes and parts of larger wholes.
        - Each level of the hierarchy, from subatomic particles to galaxies, exhibits self-organization and intelligence.
 
-4. **Challenges and Future Directions**
+2. **Challenges and Future Directions**
    - Understanding and defining intelligence and consciousness clearly.
    - Developing methods to measure and study non-material intelligences.
    - Exploring the influence of morphic fields and universal intelligence.
