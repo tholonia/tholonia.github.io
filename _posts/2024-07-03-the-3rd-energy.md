@@ -3,7 +3,7 @@ layout: post
 title: The 3rd Energy (CAI ch. 10)
 author: duncan
 date: 2024-07-03
-image: /assets/posts/2024-07-03-the-3rd-energy/post_image.jpg
+image: /assets/posts/2024-07-03-the-3rd-energy/post_image.png
 categories:
 - BLOG
 - METAPHYSICS
@@ -1894,9 +1894,9 @@ Here are comprehensive and highly informative resources that delve into the phil
  Considering dark energy and dark matter, the total energy in the universe would be higher than our calculation based solely on mass-energy equivalence for baryonic matter.
 
  If we were to account for the contributions from dark energy and dark matter, the total energy might be on the order of:
- $$
+$$
  E_{\text{total}} \approx 2 \times 10^{70} \, \text{Joules}
- $$
+$$
 
  This estimate is very rough and based on simplifying assumptions, but it provides an order of magnitude for the total energy in the observable universe.
 

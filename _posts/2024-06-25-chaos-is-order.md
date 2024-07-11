@@ -3,7 +3,7 @@ layout: post
 title: Chaos is Order (CAI ch. 6)
 author: duncan
 date: 2024-06-25
-image: /assets/posts/2024-06-25-chaos-is-order/post_image.jpg
+image: /assets/posts/2024-06-25-chaos-is-order/post_image.png
 categories:
 - BLOG
 - METAPHYSICS
