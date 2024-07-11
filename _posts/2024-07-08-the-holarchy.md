@@ -3,7 +3,7 @@ layout: post
 title: The Holarchy (CAI ch. 12)
 author: duncan
 date: 2024-07-08
-image: /assets/posts/2024-07-08-the-holarchy/post_image.jpg
+image: /assets/posts/2024-07-08-the-holarchy/post_image.png
 categories:
 - BLOG
 - METAPHYSICS

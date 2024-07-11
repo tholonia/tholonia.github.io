@@ -6,7 +6,7 @@ categories:
 - PHILOSOPHY
 - SCIENCE
 date: '2024-07-05'
-image: /assets/posts/2024-07-05-coherence/post_image.jpg
+image: /assets/posts/2024-07-05-coherence/post_image.png
 jday: 8952
 layout: post
 tags:

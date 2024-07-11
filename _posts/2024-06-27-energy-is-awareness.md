@@ -3,7 +3,7 @@ layout: post
 title: Energy is Awareness (CAI ch. 7)
 author: duncan
 date: 2024-06-27
-image: /assets/posts/2024-06-27-energy-is-awareness/post_image.jpg
+image: /assets/posts/2024-06-27-energy-is-awareness/post_image.png
 categories:
 - BLOG
 - METAPHYSICS
