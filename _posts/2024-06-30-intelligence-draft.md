@@ -3,7 +3,7 @@ layout: post
 title: Intelligence - draft (CAI ch. 9)
 author: duncan
 date: 2024-06-30
-image: /assets/posts/2024-06-30-intelligence-draft/post_image.jpg
+image: /assets/posts/2024-06-30-intelligence-draft/post_image.png
 categories:
 - BLOG
 - METAPHYSICS

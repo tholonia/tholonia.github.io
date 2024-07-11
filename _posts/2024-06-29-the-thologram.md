@@ -3,7 +3,7 @@ layout: post
 title: The Thologram (CAI ch. 8)
 author: duncan
 date: 2024-06-30
-image: /assets/posts/2024-06-29-the-thologram/post_image.jpg
+image: /assets/posts/2024-06-29-the-thologram/post_image.png
 categories:
 - BLOG
 - METAPHYSICS
