@@ -58,15 +58,15 @@ Now comes the tricky part.  After some time, which could be minutes or hours, th
 
 You’ll find that staring directly at the stimulus is difficult, if not impossible, as it will avoid direct observation or just disappear.  This is because the stimulus is activating the *rods* in your eye (direct vision), not the *cones* (peripheral vision), probably because teh cones require mush less stimulus/energy to active.  Consequently, most of the visuals will occur outside of your point if focus, usually around 20 degrees offset from your center of vision.  That zone it illustrated in gray in the image below, with the white space in the middle representing the direct vision.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/field_of_vision.png' style='width:30%'/></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/field_of_vision.png' style='width:30%'/></center>
 
 If you can ‘catch’ the stimulus, you will find the stimulus begins to increase, sometimes dramatically.  Because the only way the brain can create visual stimulus it to stimulate the visual cortex, which is wired to the optic nerve, optic disk, and retina, expect to see something that kinda looks like the shape of an optic nerve, optic disk, and retina, which also happens to look like an eye.  
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/pmb.png' style='width:60%'/></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/pmb.png' style='width:60%'/></center>
 
 At first, you may see something like a barely perceptible doughnut shape, or some other type of ring-with-a-hole-in-it, and because a simple doughnut floating is space is almost as boring as empty space, expect this barely perceptible doughnut/eye shape to move, change, disappear, reappear, and generally be unstable (this also suggests that it is the form and function of the eye/brain that determines the visuals).
 
-<center><img src="/assets/posts/2024-07-14-mex-journal/opticnerve.png"/></center>
+<center><img alt='image' src="/assets/posts/2024-07-14-mex-journal/opticnerve.png"/></center>
 
 As the stimulus increases, you will naturally begin to see forms that replicate the nervous system of the eye, as that is the form of the source of input that the brain has evolved to process.  You will eventually (days or months) begin to see interesting shapes and colors that look random, but also organic.  In my case, the form looked like an optic nerve, or at least modeled somewhat after the actual blood-and-guts of an optic nerve.  The image above is derived from an actual photograph of the optic nerve as in exists in the eye, and is a close approximation of the image created by the internal stimulus.
 
@@ -86,7 +86,7 @@ What follows are the direct entries of selected journal entries regarding my met
 > &nbsp;
 > *Exited, reentered.*
 > &nbsp;
-> *</center><img src='/assets/posts/2024-07-14-mex-journal/stars.png''/></center>
+> *</center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/stars.png''/></center>
 > Found myself in a dark cave, at night. The roof of the cave had a large hole through which I could see the night sky.  Extremely beautiful.*  Tried to exit through the hole, but could not manage to move myself up.
 > &nbsp;
 > *Exited, reentered.*
@@ -137,7 +137,7 @@ Adriana was tending to the rooftop garden and we had a conversion while all this
 
 > *After an hour of attempting I stopped, took off bandanna, and rolled onto my side in defeat.  Immediately I saw some movement in centre of field of vision. As soon as I focused on it it became a “hole”.  In the centre was a night sky and one small star, or dot of light, similar to the cave hole, but far more dramatic.  Around the hole was wildly moving shapes, similar to fire, but only dark shapes. As I focuseAttractionsd on the star I saw it begin to form more stars, then lines forming 2D shapes, then 3D shapes!*
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/starspanel.png'/></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/starspanel.png'/></center>
 
 > *Then they seemed to move like constellations across the dark sky.*  
 > &nbsp;
@@ -167,11 +167,11 @@ Adriana was tending to the rooftop garden and we had a conversion while all this
 
 **Post notes:** The transition from optic nerve to optic flame was very clear this time. This is what the optic nerve image looks like, and the flame-like form it transforms into. Both of these images are typically a bright violet.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/nerve_flame.png' style='height:200px'/></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/nerve_flame.png' style='height:200px'/></center>
 
 Unfortunately, I do not remember what “and I was outside!” refers to.  Outside the the tunnel? On the rooftop?  I also have no idea what “I S.F.?” refers to.  Perhaps it was a misspelled shorthand for "In San Francisco?", where I used to live.
 
-<img src='/assets/posts/2024-07-14-mex-journal/handchip.png' style='float:right;height:150px'/>In retrospect, this dream is loaded with symbolism, and was possibly prophetic.  While COVID-19 had been around in the news since January, 9 months earlier, and masks were being discussed, it would be months before anyone started getting injected with the vaccine, if that is what the needle in my hand represented.  On the other hand, I learned months after this dream that the location of the injection in my dream is where RFID chips are inserted with a syringe.  
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/handchip.png' style='float:right;height:150px'/>In retrospect, this dream is loaded with symbolism, and was possibly prophetic.  While COVID-19 had been around in the news since January, 9 months earlier, and masks were being discussed, it would be months before anyone started getting injected with the vaccine, if that is what the needle in my hand represented.  On the other hand, I learned months after this dream that the location of the injection in my dream is where RFID chips are inserted with a syringe.  
 
 In the original note I put a question mark next to ‘ADD’ because even though I heard with words ‘ADD’, it was not clear why we would be speaking about *Attention Deficit Disorder* with regard to immune deficiency.  However, *Antibody-Dependent Enhancement*, or ‘ADE’ as it is commonly called, applies perfectly, and is now a major problem with regard to the mRNA vaccines.  It may be that I heard ‘ADE’ in the dream, but wrote down ‘ADD’ because it was the only acronym that I knew at the time that sounded similar.
 
@@ -195,7 +195,7 @@ The earthquake could also be symbolic, as in a seismic social event resulting in
 
 ### September 17, Thursday, 2020, afternoon, (Moon NEW 0%)
 
-> <img src='/assets/posts/2024-07-14-mex-journal/fabrege.png' style='float:right;height:20%'/>*Had very weak vision of ‘ceiling hole’, but in that moment a striking image appeared outside the hole, like a Faberge decorated Easter egg (like example image shown), then other similar designs.  I was surprised by the clarity of the object and uniqueness or design... something I would never thought to imagine.*
+> <img alt='image' src='/assets/posts/2024-07-14-mex-journal/fabrege.png' style='float:right;height:20%'/>*Had very weak vision of ‘ceiling hole’, but in that moment a striking image appeared outside the hole, like a Faberge decorated Easter egg (like example image shown), then other similar designs.  I was surprised by the clarity of the object and uniqueness or design... something I would never thought to imagine.*
 
 ### September 21, 2020, (Moon Wax 24%)
 
@@ -208,7 +208,7 @@ The earthquake could also be symbolic, as in a seismic social event resulting in
 
 **Post notes:** This time the stars looked like the constellation of Orion (below).  the word ‘eye’ also refers to ‘pupil’ and ‘opening of tunnel’, and the words ‘light’ and ‘flame’ are usually synonymous.  This was the first time I saw a being across the void or darkness.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/orionstars.png' style='width:50%'/></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/orionstars.png' style='width:50%'/></center>
 
 ### September 26, 2020, (Moon Wax 76%)
 
@@ -235,9 +235,9 @@ Orion would return a number of times in the stars, so much so it seemed far more
 
 The upper diagram below is what I wrote in my original notes in a first attempt to understand the processes, step or stages involved with these experiences.  Below that is a cleaned up version:
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/handchart.png' style='height:200px'/></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/handchart.png' style='height:200px'/></center>
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/process.png' /></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/process.png' /></center>
 
 ### October 3, 2020, (Moon Wan 92%)
 
@@ -248,7 +248,7 @@ The upper diagram below is what I wrote in my original notes in a first attempt 
 > *Then back to dot, then again.*
 > *Light was vert bright*
 > &nbsp;
-> *<img src='/assets/posts/2024-07-14-mex-journal/alien_eyes.png' style='float:right;height:100px'/>At one point I saw beings in the light, their eye shape stood out.  Definitely alien looking, like tall Zeta, or Grey Type B Aliens.  2 or 3 of them. The experience ended and could not get it back.*
+> *<img alt='image' src='/assets/posts/2024-07-14-mex-journal/alien_eyes.png' style='float:right;height:100px'/>At one point I saw beings in the light, their eye shape stood out.  Definitely alien looking, like tall Zeta, or Grey Type B Aliens.  2 or 3 of them. The experience ended and could not get it back.*
 
 **Post note**: The beings were only visible when the beam of light was directly in my eye.
 
@@ -293,7 +293,7 @@ The colours seemed to have the following associations:
 > *Others were there waiting. I wondered if I should also be waiting, but for what I didn't know,  and where this was.*  
 > *Started to interact with some of the others.*
 > &nbsp;
-> *Found myself trying to fit some sort of cloth rope onto a woman, and in the process she exposed her ass to me, as if inviting me. Left that situation, and began talking to some of the others nearby, who seemed quite friendly.  One women sitting on couch, 30-40 years, attractive, typical body, short-ish blon<img src='/assets/posts/2024-07-14-mex-journal/alien_eyes.png' style='float:right;height:100px'/>d hair, was very easy to talk to.  Her name was “Krats” or “Kots” or “Krat”.*
+> *Found myself trying to fit some sort of cloth rope onto a woman, and in the process she exposed her ass to me, as if inviting me. Left that situation, and began talking to some of the others nearby, who seemed quite friendly.  One women sitting on couch, 30-40 years, attractive, typical body, short-ish blon<img alt='image' src='/assets/posts/2024-07-14-mex-journal/alien_eyes.png' style='float:right;height:100px'/>d hair, was very easy to talk to.  Her name was “Krats” or “Kots” or “Krat”.*
 > &nbsp;
 > *Totally aware I was in this alternate plane and also in my body.  Came back to body, but still saw visions of sculptured faces lit by a bright, altering light.  Blue-grey faces, smooth... began to become slightly animated, as if coming to life.*
 > &nbsp;
@@ -317,7 +317,7 @@ It felt like I was somewhere in Northern Europe/Scandinavia and I suspect that I
 
 **Update Sept 24, 2012**:  I heard a poem today for the first time.  It was titled “The Waiting Place”, and was an excerpt from “Oh, The Places You’ll Go!” by Dr. Seuss, which not only captured the mood of this place, but was from a book about travelling to strange places, which also seemed appropriate.
 
-> **<img src='/assets/posts/2024-07-14-mex-journal/seuss.png' style='float:right;width:40%'/>THE WAITING PLACE** 
+> **<img alt='image' src='/assets/posts/2024-07-14-mex-journal/seuss.png' style='float:right;width:40%'/>THE WAITING PLACE** 
 > &nbsp;
 > by **Dr. Seuss**
 > &nbsp;
@@ -384,19 +384,19 @@ An example of this that comes to mind is that of Mahatma Gandhi, who believed th
 
 > *Again, no light, or very little, same as yesterday.  However, this time I found myself in a room, black and white, and very 19th century French by the looks of the decor.  Through a round hole in the wall came some very 19th century French men, again, based on the clothing.  I guess they could have been English as well, given my poor knowledge of ridiculous fashions of history.  The man exited the hole, stood, and looked at me as if grateful I gave him the opportunity to enter this “place”.  He was in his mid to late 30s, 5’ 9” perhaps, 180 lbs, given his bit of a belly. White coiffured hair, but didn’t look like a wig.  After arriving, he stood rather royally and placed his elbow on a 4’ high hearth as if posing for a picture.*
 > &nbsp;
-> <img src='/assets/posts/2024-07-14-mex-journal/portrait.png' style='float:right;height:300px'/>*The scene started to change. There was lots of noise, but little signal. Occasionally I could focus on what seemed to be an old TV broadcast, also seemed French or European, based on the small, white sedan cars, 1960s style (again, based on my very limited knowledge of cars in Europe).  It looked like a news station airing a live broadcast of a procession.  Lots of people.  Lost focus.  Came back for a moment, but it seemed like this had something to do with an assignation (of someone in the cars?) that was about to happen. Lost focus again. These scenes kept coming in and then getting lost in the noise, static.* 
+> <img alt='image' src='/assets/posts/2024-07-14-mex-journal/portrait.png' style='float:right;height:300px'/>*The scene started to change. There was lots of noise, but little signal. Occasionally I could focus on what seemed to be an old TV broadcast, also seemed French or European, based on the small, white sedan cars, 1960s style (again, based on my very limited knowledge of cars in Europe).  It looked like a news station airing a live broadcast of a procession.  Lots of people.  Lost focus.  Came back for a moment, but it seemed like this had something to do with an assignation (of someone in the cars?) that was about to happen. Lost focus again. These scenes kept coming in and then getting lost in the noise, static.* 
 
 **Post note:** After a little research, it seems the man’s dress and hair was closer to a late 17th/early 18th century colonial man of authority or wealth, perhaps a politician.  Here is a hobbled draft that generally captures his fashion, style, and form as seen in the vision.
 
 
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/stgermain.jpg' style='height:100px'/></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/stgermain.jpg' style='height:100px'/></center>
 
 **Update (Oct 16, 2022):**  I just came across am image of St. Germain, which immediately reminded me of the man I saw in this vision over a year ago.
 
 ### Record of notable experience in relation to phase of the moon.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/chart.png' style="width:100%" /></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/chart.png' style="width:100%" /></center>
 
 *Note: From this point on I stopped tracking the moon phase as it seems to be unrelated.* 
 
@@ -410,11 +410,11 @@ An example of this that comes to mind is that of Mahatma Gandhi, who believed th
 
 **Post notes:** The dots reminded me of both toad eggs and aboriginal/ancient dot painting. They also looked remarkably similar to human *gyri*, or the folds found in the human brain. 
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/brains.png'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/brains.png'></center>
 
 To my surprise, I learned that aboriginal dot painting only began in the 1970s, but the ancient dot paintings are some of the oldest creations of man, with the oldest cave painting on record to be just a single red dot, as shown below in the *El Castillo Cave* image.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/dots_cavepaint.png'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/dots_cavepaint.png'></center>
 
 This opens an interesting thread of speculation because as time advanced, dot drawings appeared to evolve from one dot (38,000 BC), to dot-only animals (31,000 BC), to animals with dots and shapes (27,000 BC).  Notice in the last image that the dots which form the horse exist well outside the shape of the horse.  What was the artist trying to portray? Surely, the dots were not meant to be a simple outline of the animal but appears to represent something that the horse exists within.  
 
@@ -424,11 +424,11 @@ Given that indigenous and ancient symbols can be found all over the world that c
 
 One current theory that has some traction is that the dots on the cave paintings were representations of stars, and the artists were essentially connecting the dots to create animals.  I wonder if the stars that inspired them to draw shapes were those seen in their brain/mind along with the 2D and 3D shapes that the brain/mind also offered up and which also correlated to stars in the night’s sky. I certainly have no evidence of this, but I have been looking at the lights in the sky my entire life and never once was I moved to record what I saw, but when I saw those same stars in my mind, I became quite moved to record every details.  I do not think a caveman’s awe and my own awe would be that different, as we would probably both be equally amazed.  If anything, the caveman might be more more open and receptive to the experience as he didn’t have to worry about being considered crazy and the experts that would tell him that mystical experiences are just neural aberration had been created yet.
 
-<img src='/assets/posts/2024-07-14-mex-journal/blanchard.png' style='float:right;width:50%'>Another example of this might be the 30,000-year-old *Abri Blanchard Bone*, which shows a pattern of dots that current thinking suggests was a lunar calendar.  Remember, that this was made around the same time as the painted horse.  Are we asked to believe that our ancestors who could not draw within the lines were able to calculate moon phases?  I suggest it was a vision of unknown significance at the time of its creation (and I also question the validity of its current interpretation)
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/blanchard.png' style='float:right;width:50%'>Another example of this might be the 30,000-year-old *Abri Blanchard Bone*, which shows a pattern of dots that current thinking suggests was a lunar calendar.  Remember, that this was made around the same time as the painted horse.  Are we asked to believe that our ancestors who could not draw within the lines were able to calculate moon phases?  I suggest it was a vision of unknown significance at the time of its creation (and I also question the validity of its current interpretation)
 
 Given that our eyes are fantastically complex and evolved dot-arrays of visual receivers (*cones* and *rods*), it is not surprising that our brain’s most basic visual skill is dot processing.  Even though our eyes are not receiving any external stimuli in these experiences, and therefore not exciting any of the dot-receivers, the brain is hard-wired to process dot-array data, so any internal stimuli will naturally be of a dot-array nature.  
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/rodscones.png' style='width:40%'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/rodscones.png' style='width:40%'></center>
 
 There is more information on eye/brain mechanics in the chapter on physiology.
 
@@ -464,13 +464,13 @@ There is more information on eye/brain mechanics in the chapter on physiology.
 
 **Post notes:** In an earlier MEX I noticed that the colour of deep blue seemed to open the door to archetypal patterns of early forms of life.  In this MEX, what I saw was undoubtedly archetypal, but not simply early forms of like.  This MEX seemed to transition a little bit into an altered state consciousness, rather that the typical MEX consciousness of being totally aware of both realities. 
 
-<img src='/assets/posts/2024-07-14-mex-journal/oni.png' style='float:right;width:20%'>The yellow-faced demon looked very Japanese and theatrical in form, almost as if over dramatic, especially as I can imagine a number of other demonic faces that would scare the crap out of me were I to see them in the dark, but this was not one of them.  It was almost as if this was a beginner demon working in its skills. 
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/oni.png' style='float:right;width:20%'>The yellow-faced demon looked very Japanese and theatrical in form, almost as if over dramatic, especially as I can imagine a number of other demonic faces that would scare the crap out of me were I to see them in the dark, but this was not one of them.  It was almost as if this was a beginner demon working in its skills. 
 
 The person I called out to, Alicia, is a friend I have known personally and through work and with whom I have shared some very important moments in life.  She remains a dear friend. 
 
 It did not occur to me until later that speaker Eric, son of a famous mystic, was very close to an Eric/Donald Trump symbolism. Still, as that never occurred to me during the experience, I won't assume anything.   However, for a woman to choose not to go see ‘Eric’ because she had a patch that said ‘Fuck Russia’, well, that certainly sounds Trump-related. If our politics and political personalities exist in these archetypal realities, that might shed some light on the irrationality of the current global political mess. It would also be really weird.
 
-<img src='/assets/posts/2024-07-14-mex-journal/serpent.png' style='float:right;width:30%'>I was extra aware of the pain in my head for two reasons.  The first reason was I had a previous MEX (Oct 1, 2020) where my attempting to push resulted in a headache, so now this was no longer simply a random headache; it was a pattern.  The second, and more significant reason, is because I have experienced, perhaps 20 years ago,  the pain that can come from Kundalini being released too soon, pain that landed me in the hospital twice with undiagnosible problems. later with chronic migraines,  and ultimately turned my life to ashes.
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/serpent.png' style='float:right;width:30%'>I was extra aware of the pain in my head for two reasons.  The first reason was I had a previous MEX (Oct 1, 2020) where my attempting to push resulted in a headache, so now this was no longer simply a random headache; it was a pattern.  The second, and more significant reason, is because I have experienced, perhaps 20 years ago,  the pain that can come from Kundalini being released too soon, pain that landed me in the hospital twice with undiagnosible problems. later with chronic migraines,  and ultimately turned my life to ashes.
 
 As well as experiencing it myself, I have also seen the psychological and sometimes physical damage that can happen to the brain when Kundalini is released into an unprepared mind/body.  For some years, I lived in a Sufi *khanqah* (a place specifically for Sufi gatherings), and often seekers would want to join our community. Most were turned away, but some were specifically referred to a nearby ashram that was well known for handling people with awakened or awakening Kundalini.  This was an energy we were neither qualified nor interested in dealing with, especially as it often included insanity, neurological problems, and uncontrolled and unpredictable energy swings that can have serious consequences.
 
@@ -482,7 +482,7 @@ This MEX certainly seemed Kundalini related, given I was spiralling up and aroun
 > &nbsp;
 > I saw a young woman holding a duck on a sunny morning as she leaned against the wooden post.  Then, an African baby dying of measles but was also afflicted with a number of other maladies as well.  He was in a crib of sorts; his skin was more grey than brown.  There were marks and perhaps small growths on his face and body.  The child was suffering as the parents watched and waited for him to die.
 > &nbsp;
-> <img src='/assets/posts/2024-07-14-mex-journal/const-1.png' style='float:right; width:20%'>To keep my awareness in my body, I began to tap my chest with my finger once a second.  This worked very well, and I was able to create the classic flame eye/star/iris/tunnel thing.  Moving through the hole in the eye and into the star-field was the most lucid to date and very clear and smooth. I could see how the stars and flame were the same ‘material’ in two different forms.  Focusing on the violet flame lead me to the stars, and focusing on the stars created more violet flame.  For a while, I was just moved from flame to stars to flame, etc.  There was a very clearly define constellation, but it did not look like any I know, although it has similarities to Cancer.
+> <img alt='image' src='/assets/posts/2024-07-14-mex-journal/const-1.png' style='float:right; width:20%'>To keep my awareness in my body, I began to tap my chest with my finger once a second.  This worked very well, and I was able to create the classic flame eye/star/iris/tunnel thing.  Moving through the hole in the eye and into the star-field was the most lucid to date and very clear and smooth. I could see how the stars and flame were the same ‘material’ in two different forms.  Focusing on the violet flame lead me to the stars, and focusing on the stars created more violet flame.  For a while, I was just moved from flame to stars to flame, etc.  There was a very clearly define constellation, but it did not look like any I know, although it has similarities to Cancer.
 
 **Post note**: FWIW, August 17th, 2006, is the day I had my heart attack as I rode by bike down 17^th^ street in New York City. I was found in the gutter by a security guard at the emergence room entrance of the hospital I was lucky enough to collapse in front of.
 
@@ -492,7 +492,7 @@ This MEX certainly seemed Kundalini related, given I was spiralling up and aroun
 > &nbsp;
 > After experiencing this, I saw a very clear and vivid image of a cartoon character of a man dressed in colonial dress standing in a lunging position (like a fencer) on a small cliff at the shore.  His arm was extended and holding an Arabic scimitar outstretched over the Atlantic ocean.   It seemed like a very silly and pointless image,
 
-<img src='/assets/posts/2024-07-14-mex-journal/cartoon.png' style='float:right; width:20%'>**Post notes:** The man was drawn in the style similar to the cartoon character shown here. It seemed obvious that the man represented the United States, and his stance and extended arm and sword represented the threat/power of the U.S. military.  It was pointing to the east, and being that the sword was a scimitar, it was clearly an Arabic/Islamic symbol, given that the same style of scimitar appears on the flag of Saudi Arabia and the Islamist flag of Chechnya.  But its main quality was that it was a cartoon! 
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/cartoon.png' style='float:right; width:20%'>**Post notes:** The man was drawn in the style similar to the cartoon character shown here. It seemed obvious that the man represented the United States, and his stance and extended arm and sword represented the threat/power of the U.S. military.  It was pointing to the east, and being that the sword was a scimitar, it was clearly an Arabic/Islamic symbol, given that the same style of scimitar appears on the flag of Saudi Arabia and the Islamist flag of Chechnya.  But its main quality was that it was a cartoon! 
 
 This may have been a subjective image given the recent fall of Afghanistan to the Taliban and the ‘cartoonish’ manner that the American military and foreign policy has shown itself to be in this debacle.  It may also have been an image that objectively describes the current situation with regard to the U.S.  It is unclear why I saw this at all at this moment.
 
@@ -538,9 +538,9 @@ With that in mind, I accept that what I was shown was ***a*** Truth, and even if
 > The second scene was... 
 > A young, fit, but maleficent-looking hooded man with a blood-red face was lying down in the black upholstered back seat of a taxi as he travelled through the city. He did not want anyone to see him or know where he was going.  He had no facial expression or emotion and possibly a narrow moustache and close cut goatee.  It was very dark and difficult to see such details.  The taxi felt like a London taxi, but the city felt like a New York City borough, like Brooklyn or Queens.
 
-**<img src='/assets/posts/2024-07-14-mex-journal/viruschart.png' style='float:right; width:20%'>Post note:** Regarding scene #1, seeing a symbol of human analysis (bar chart) superimposed on the core of the virus suggests that there is a human element “at its core” of its existence.  The image shown here is a very crude idea of how it looked.  The 3 or 4 observers were among the upper levels of society; wealth, education, influential, but they were confused as to what it meant, as is the case with most of humanity regarding COVID-19, but there was someone that would know, whose name was 'Iree', suggesting it is not beyond knowing.  I have no idea what ‘Iree’ could mean, but upon searching the Internet, I found a ‘COVID-IREE’ report, titled ‘*Monitoring the impact of the pandemic on enterprises*’, a ‘*Fast and Exceptional Enterprise Survey*’  published by Banco de Portugal, on July 1, 2020.  This report analyses in depth, using lots of charts, the effect of COVID-19 on industry and economics, concluding that COVID will decimate small businesses and generally leave enterprise-level businesses unharmed.  I am not putting any particular weight on this finding, but it is an interesting detail.
+**<img alt='image' src='/assets/posts/2024-07-14-mex-journal/viruschart.png' style='float:right; width:20%'>Post note:** Regarding scene #1, seeing a symbol of human analysis (bar chart) superimposed on the core of the virus suggests that there is a human element “at its core” of its existence.  The image shown here is a very crude idea of how it looked.  The 3 or 4 observers were among the upper levels of society; wealth, education, influential, but they were confused as to what it meant, as is the case with most of humanity regarding COVID-19, but there was someone that would know, whose name was 'Iree', suggesting it is not beyond knowing.  I have no idea what ‘Iree’ could mean, but upon searching the Internet, I found a ‘COVID-IREE’ report, titled ‘*Monitoring the impact of the pandemic on enterprises*’, a ‘*Fast and Exceptional Enterprise Survey*’  published by Banco de Portugal, on July 1, 2020.  This report analyses in depth, using lots of charts, the effect of COVID-19 on industry and economics, concluding that COVID will decimate small businesses and generally leave enterprise-level businesses unharmed.  I am not putting any particular weight on this finding, but it is an interesting detail.
 
-<img src='/assets/posts/2024-07-14-mex-journal/redface.png' style='float:right; width:20%'>Regarding scene #2, this seemed especially symbolic.  The blood-red-faced man (somewhat similar to image show here, but he was lying down, so horizontal) clearly represents some intelligence with nefarious intentions.  He also had a specific destination he was trying to arrive at but thought he could only get there if the people in the city did not see him.  His travelling through the city is probably representative of how C19 travels via people, i.e., cities.  This strongly suggests that there are hidden intentions behind the spread of C19 that are being kept from the public.  His hoodie also suggests his desire to remain unidentified. I had no idea where he was headed, and I could not see who was driving him, but I got the sense it was a taxi of sorts, meaning the driver was also unaware of his passenger’s intention and was “just doing his job”.
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/redface.png' style='float:right; width:20%'>Regarding scene #2, this seemed especially symbolic.  The blood-red-faced man (somewhat similar to image show here, but he was lying down, so horizontal) clearly represents some intelligence with nefarious intentions.  He also had a specific destination he was trying to arrive at but thought he could only get there if the people in the city did not see him.  His travelling through the city is probably representative of how C19 travels via people, i.e., cities.  This strongly suggests that there are hidden intentions behind the spread of C19 that are being kept from the public.  His hoodie also suggests his desire to remain unidentified. I had no idea where he was headed, and I could not see who was driving him, but I got the sense it was a taxi of sorts, meaning the driver was also unaware of his passenger’s intention and was “just doing his job”.
 
 Why was the man blood-red?  Does it symbolise blood itself? Or was it because red is more commonly associated with ‘evil’? I could not see any hair, but I sensed he was bald.
 
@@ -558,13 +558,13 @@ To say I was impressed would be an understatement.  I was shocked at the level o
 
 For example, the image below was grabbed from his video (and annotated by me). 
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/gateway.png'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/gateway.png'></center>
 
 He explained how he remembered the creation story of his time, which was: the creator (symbolised by the letter M), created time (H), which resulted in space (S).  I assume these letters were more like symbols representing sophisticated concepts, similar to how Sanskrit or ancient Hebrew characters represent complex concepts.  Together, these three symbols created the concept of creation, which they called *mahas*, for obvious reasons.  But they also had the concept of *saham*, derived from SHM, the reversal of MHS, which is the reverse process of creation, a ‘reaping’ of creation, so to speak.  This is where that which exists returns to the source of its creation.  *Mahas* and *saham* also represent the concepts of the declaration of existence, “I Am”, and one's questioning and discovering their existence, or “Am I?”, according to Matias.
 
-<img src='/assets/posts/2024-07-14-mex-journal/2const.png' style='float:right;width:20%'>This alone may be just another interesting creation story and belief structure, but the fact that the destination portal happens to be the same star I saw seems unlikely.  The origin star comes from an unknown constellation that also looks somewhat similar to the constellation I saw.  Additionally, the imagery he used to describe how the movement from the *portal* (M) to *time* (H) is identical to what I see went I enter the portal. The word ‘portal’ is one we both independently arrived at to describe the experience. The image below was also taken from his video, and matches my experiences perfectly.
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/2const.png' style='float:right;width:20%'>This alone may be just another interesting creation story and belief structure, but the fact that the destination portal happens to be the same star I saw seems unlikely.  The origin star comes from an unknown constellation that also looks somewhat similar to the constellation I saw.  Additionally, the imagery he used to describe how the movement from the *portal* (M) to *time* (H) is identical to what I see went I enter the portal. The word ‘portal’ is one we both independently arrived at to describe the experience. The image below was also taken from his video, and matches my experiences perfectly.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/MS_eye.png' style='width:50%'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/MS_eye.png' style='width:50%'></center>
 
 Perhaps even more stunning was his explanation that all *presents* (current moments) were created from the originating portal.  In other words, all that ever was, is, or will be, has already been created, and it is the unfolding of time that instantiates them into the physical reality.  Likewise, returning to the portal allows one to see all *presents*, and from where one can choose a reality to travel.  This is a perfectly accurate description of what I have been experiencing.
 
@@ -578,7 +578,7 @@ One point Matias made was the significance of water and blood with regard to mai
 
 **Post notes:** The temple menorah is the 7 pointed menorah, as opposed to the 9 pointed Hanukkah menorah.  Not being a Jew, I was only vaguely familiar with the difference in these menorahs.  The 7 point menorah was originally created by Moses when he built his portable tent-church tabernacle in the desert.  Kieth Haring is a famous '80s artist who made his name as a graffiti artist who drew ( in my opinion) spectacularly boring and pointless doodles.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/curtain.png'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/curtain.png'></center>
 
 The effect of the void turning into my room, or any room. happens occasionally. I assume it is an instance of *proprioception*, where the brain creates an image from data or memory, not from the senses directly, similar to how you can ‘see’ your hand with your eyes close.
 
@@ -600,7 +600,7 @@ One interesting observation is that rather than go into a portal, as I had befor
 
 >This morning I was waiting in the local Argentinian construction workers union dental office for an appointment to get some implants.  There were a number of other people there as well, and the typical noise of drills and movement and announcements was going on.  I had a bit of a headache, which is rare, so I closed my eyes.  Immediately I saw strong waves of dark blue circles.  This was quite a surprise as my environment seemed quite unconducive to MEXes . 
 >&nbsp;
-><img src='/assets/posts/2024-07-14-mex-journal/3pyramids.png' style='float:right;width:20%'>The circles turned into fields of blue, and then stopped. This was followed by a vision of a small, maybe 2 inches, golden sculpture of a person mounted like a horse jockey on a bean-shaped, beetle-like bug.  This was replaced by a black and white diagram of three pyramids, with the middle pyramid having a rectangular shape below it, like a basement.  It was clear that these pyramids were those that represent Orion's Belt and that the deep blue waves were specifically related to this basement space.  This centre pyramid would be the pyramid that represents the centre star of Orion's Belt, Alnilam.
+><img alt='image' src='/assets/posts/2024-07-14-mex-journal/3pyramids.png' style='float:right;width:20%'>The circles turned into fields of blue, and then stopped. This was followed by a vision of a small, maybe 2 inches, golden sculpture of a person mounted like a horse jockey on a bean-shaped, beetle-like bug.  This was replaced by a black and white diagram of three pyramids, with the middle pyramid having a rectangular shape below it, like a basement.  It was clear that these pyramids were those that represent Orion's Belt and that the deep blue waves were specifically related to this basement space.  This centre pyramid would be the pyramid that represents the centre star of Orion's Belt, Alnilam.
 >&nbsp;
 >Then began the waves of yellow, which started to as circles, but became like yellow balls that looked like the sun (but less bright), very well defined, and very easy to control in that I could send them off in any direction.  They looked a little like photon torpedoes.  As they diminished in size, I could see that they disappeared into a star.  It was hard to tell if this was a star in Orion's Belt, and if so, whether it was the centre star or the ‘bottom’ most star. The alignment of the stars was rotated about 60 degrees counter-clockwise from what we normally see when we look as Orion’s Belt.
 >&nbsp;
@@ -608,7 +608,7 @@ One interesting observation is that rather than go into a portal, as I had befor
 >&nbsp;
 >When all this ended, my headache was gone.
 
-<img src='/assets/posts/2024-07-14-mex-journal/pradio.png' style='float:right;width:20%'>**Post notes**: The fact that I had a headache before the MEX and none after might suggests a kundalini-like movement of energy.  This would also explain why it appears so erratically and regardless of the state of mind or environment, as kundalini energy seems to have a life if its own.
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/pradio.png' style='float:right;width:20%'>**Post notes**: The fact that I had a headache before the MEX and none after might suggests a kundalini-like movement of energy.  This would also explain why it appears so erratically and regardless of the state of mind or environment, as kundalini energy seems to have a life if its own.
 
 I am aware of the idea that there exists a *Hall of Records* below the Sphinx and a labyrinth of caves and tunnels below the pyramids in Egypt, but I have never heard of an actual room below any of the pyramids other than the subterranean chamber, which is quite small.  Perhaps this diagram was not referring to the physical pyramids.  The only thing that seems related is how the pyramid alters radio waves (from above), and how the greatest intensity of these waves is concentrated below the pyramid (see image) but this seems like a bit of a stretch.
 
@@ -622,7 +622,7 @@ I am aware of the idea that there exists a *Hall of Records* below the Sphinx an
 
 This image is very close to what I saw, however I can only confirm that I saw two 7s and at least one “BAR”.  I cannot remember the remaining symbols, so those shown here have no significance.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/slots.png' style='width:50%'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/slots.png' style='width:50%'></center>
 
 Now is a good time to share what I have done so far that may be affecting my ‘odds’.
 
@@ -642,11 +642,11 @@ Now is a good time to share what I have done so far that may be affecting my ‘
 
 Or, was I being shown that the only ‘winning’ combo is two 7s, and everything else is just consequential random circumstance?  Why two 7s in 6 places? The most obvious answer is:
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/77.png' style='width:50%'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/77.png' style='width:50%'></center>
 
 Here we have two triangles which, when combined, give us 6 points.  Each triangle has one additional point in the centre.  Being a point, it is nothing, has no dimension, no size, and only exists as a concept. That is literally the definition of a point, as a point is not a thing, it is a place. When the two triangles are merged into one, each point inherits all the qualities of its new parent, making the centre point the 7^th^ point, and being that there are two centre points, we have two 7s, representing the centre point of the most basic form of creation, the hexagram.  This centre point is now a concept of a pair of nothing at the centre of everything.  In other words, the first duality, and therefore, the first cause. How does this answer my question as to the pattern of accessing a wave?  I think I am being told that regardless of any circumstances, the ‘wave’ is always there.  So, I guess it’s just up to me to to get better at accessing it. Is that a bit much? Maybe, but vague clues leave a lot of room for interpretation. Regardless, as this interpretation is suggesting that I, and everything in reality, exists in the wave, and only I am responsible for accessing it, even if my ‘reasoning’ is complete loony tunes, the result is quite satisfactory.  In practical terms, I assume this image is reminding me that when I am staring into the void, I should remember that I am nothing but a concept that exists in a void that is imagining a concept that exists in a void, and from these two nothings, all comes into being.	
 
-<img src='/assets/posts/2024-07-14-mex-journal/friddot.png' style='float:right;width:20%'>As for the blue dots, I can only assume that due to my daily practices, by brain is getting more adept at generating its own stimulus. The fact that these were simple dots fairly evenly distributed suggests there was a general increased level of sensitivity or neural awareness somewhere in my visual cortex.  The odd thing about deep blue, in general, is that it is one of the most inefficient colours to process, given that the photopic spectrum is not very responsive to blue.  Perhaps that limitation only applies to the receptor cone cells, and as far as the brain is concerned, all colours are equal from an information processing perspective.
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/friddot.png' style='float:right;width:20%'>As for the blue dots, I can only assume that due to my daily practices, by brain is getting more adept at generating its own stimulus. The fact that these were simple dots fairly evenly distributed suggests there was a general increased level of sensitivity or neural awareness somewhere in my visual cortex.  The odd thing about deep blue, in general, is that it is one of the most inefficient colours to process, given that the photopic spectrum is not very responsive to blue.  Perhaps that limitation only applies to the receptor cone cells, and as far as the brain is concerned, all colours are equal from an information processing perspective.
 
 ### Tuesday, Sept 7, 2021 9:00
 
@@ -673,11 +673,11 @@ It may also be the case they myu initial experiences were in sync with an existi
 
 **Post note**: This are barely sufficient images to represent what I saw, but they can demonstrate the concept of how things ate connected.  It is quite impossible to visually represent the information that was being shown to me, especially as it strained my own ability to comprehend it, and I am sure what I did comprehend was only a slight fraction.  It was as if I was being shown how reality works, and my brain did what is could to represent that information using only the existing images and concepts that were available to me.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/farmtrees.png' style='width:60%'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/farmtrees.png' style='width:60%'></center>
 
 A simpler, more realistic example might be this sculpture by Matthew Robert Otis, which, looking at it from one angle, you see a giraffe, but looking at it from another direction, you see an elephant.
 
-<center><img src='/assets/posts/2024-07-14-mex-journal/016-eleph-giraf.png' style='width:100%'></center>
+<center><img alt='image' src='/assets/posts/2024-07-14-mex-journal/016-eleph-giraf.png' style='width:100%'></center>
 
 If one were to change the angle of the elephant’s trunk, they would also be changing the properties of one of the giraffe's hind legs.  Now, imagine a sculpture that looks different from every degree of angle of perception… changing one thing will change 359 other things. Now imagine some kind of multidimensional thing that has enough perspectives to represents everything that exists, and try and comprehend how interconnected everything is!  
 
@@ -745,11 +745,11 @@ a) The sense of time in a MEX dream is radically slower than in reality, so the 
 
 b) Another possibility is that a MEX state can actually see the near future.  There might be a number of reasons for this, but one is due to the tholonic field.  As explained in the book ‘THOLONIA’, imagine a lightning bolt moving from the sky to the earth.  The path it takes is the path of least resistance within the field that exists between the sky and the earth.  The path is therefore predictable, in theory.  Suppose we could magically see all the paths and their levels of resistance. In that case, we could see that the lightning was simply 'filling' the least resistant paths with electrons, similar to how water, also following the path of least resistance, fills the rivers.  The same reasoning can be applied to many other natural processes as well.
 
-<img src='/assets/posts/2024-07-14-mex-journal/lightning-3.png'>
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/lightning-3.png'>
 
 At the tholonic level, all paths can be seen, and the direction of the movement of energy (which follows the path of least resistance) is expressed as time in the 3D world.  Two events that have the same cause, the effect of which caused 1 path to split into 2 paths, are bound together regardless of how different they may appear.  This is similar to quantum entanglement or "spooky action at a distance", as Einstein described it.
 
-<img src='/assets/posts/2024-07-14-mex-journal/split_decision.png' style='width:60%'>
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/split_decision.png' style='width:60%'>
 
 A photon that is split into 2 photons will result in that pair of photons having the opposite spin.  Changing the spin on one of these photons will instantly change the spin on the other, regardless of the distance between them.  They could be at opposite ends of the universe, but they know the state of their partner photon and instantly adapt accordingly.  This 'entanglement' only happens when the pair of photons have the same parent photon.   Perhaps this is related to Paul Dirac's famous discovery that "Each photon then interferes only with itself. Interference between two different photons never occurs".  Furthermore, physicist Leonard Mandel states that this phenomenon is not limited to photons
 
@@ -769,9 +769,9 @@ The onset of these lights and experiences seems to be like hand-pumping water fr
 
 Over the past 6 months I have become more interactive with my piece of crystal, not so much using it in any way, but placing it near me when I meditated and keeping it next to my bed.  There was no particualr reason otehr tna it felt the the thing to do.
 
-<img src='/assets/posts/2024-07-14-mex-journal/crystal.png' style='float:right;width:30%'>A few weeks ago, after failing to discover the light, I just laid down and allowed my mind to relax, as it was tired from the searching, I wondered if I would perceive anything if I placed the crystal to my forehead.  I did so, and was moved to chant is a strong vibratory tone that not only resonated in my skull, but I could feel the crystal also vibrating as it was resting on my skull.  I only chanted for maybe 1 minute, then stopped.  There was definitely a shift in my state of being.  I felt very much as peace and very “secure” in the present moment, which is rare for me.  But, with my eyes close, I began to see what looked exactly like smoke.  At first it was faint gray in the blackness, but it became clearer, and was quite active, not simply floating.  There was a lot of movement, and and times it became quite thick.
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/crystal.png' style='float:right;width:30%'>A few weeks ago, after failing to discover the light, I just laid down and allowed my mind to relax, as it was tired from the searching, I wondered if I would perceive anything if I placed the crystal to my forehead.  I did so, and was moved to chant is a strong vibratory tone that not only resonated in my skull, but I could feel the crystal also vibrating as it was resting on my skull.  I only chanted for maybe 1 minute, then stopped.  There was definitely a shift in my state of being.  I felt very much as peace and very “secure” in the present moment, which is rare for me.  But, with my eyes close, I began to see what looked exactly like smoke.  At first it was faint gray in the blackness, but it became clearer, and was quite active, not simply floating.  There was a lot of movement, and and times it became quite thick.
 
-<img src='/assets/posts/2024-07-14-mex-journal/smoke.png' style='width:60%'>
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/smoke.png' style='width:60%'>
 
 After maybe 1 minute it went away. I considered writing it down, but it seemed like a borderline experience, so I didn’t.
 
@@ -779,15 +779,15 @@ Today, while laying in bed after waking up, I thought to search for the light ag
 
 In moments I began to see that same smoke.  After some time, minutes, I began to see a form behind the smoke.  Focusing on it made it clearer, and I could see it was a perfect and clear sphere.  As I focused on it, the smoke moved to clear the path of vision to the sphere, but remained around it, as it emanating from it.  Although not actually emanating, the sphere was certainly central to the smoke.  As I looked into the sphere, I saw that I could see faces looking back at me!  I moved closer to the sphere, and noticed that the faces and scenes kept changing, and more than faces, I could often see most of their body.  Sometimes there were 3 or more people together, chatting as if around a water cooler, but looking at me.  Some were staring intently.  Some had there eyes closed, as if in prayer.  It was then I realized they were not looking at me, per se,  They were staring into a globe, like a crystal ball of sort, I imagine, and I was inside, or rather on the “other side” of whatever they were staring into.  I could net tell what they saw, but the faces ranged from nonchalant, to deep concentration, to anger, to desperate pleading.
 
-<img src='/assets/posts/2024-07-14-mex-journal/smokeball.png' style='width:100%'>
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/smokeball.png' style='width:100%'>
 
-<img src='/assets/posts/2024-07-14-mex-journal/singledot.png' style='float:right;width:30%'>After maybe 5 minutes, the sphere and smoke disappeared, but I was able to bring it back by creating a “dot” in the blackness.  This “dot” is created by concentrating on the center of the blackness and literally willing a dot to appear. It takes some time, and practice, but it does appear, which I can only assume is the result of my intentions stimulating a single receptor cell (or rather, my brain simulating a stimulated cell).  Focusing on that dot quickly transformed in back into a sphere, but this time there was no smoke, just a perfectly clear sphere, which as a much smaller perfectly clear sphere within is.  This that changed to some types of moon-like planet, perhaps the moon itself, that then quickly became occluded by clouds, or perhaps some, but not smoke in waves, but clouds of smoke.
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/singledot.png' style='float:right;width:30%'>After maybe 5 minutes, the sphere and smoke disappeared, but I was able to bring it back by creating a “dot” in the blackness.  This “dot” is created by concentrating on the center of the blackness and literally willing a dot to appear. It takes some time, and practice, but it does appear, which I can only assume is the result of my intentions stimulating a single receptor cell (or rather, my brain simulating a stimulated cell).  Focusing on that dot quickly transformed in back into a sphere, but this time there was no smoke, just a perfectly clear sphere, which as a much smaller perfectly clear sphere within is.  This that changed to some types of moon-like planet, perhaps the moon itself, that then quickly became occluded by clouds, or perhaps some, but not smoke in waves, but clouds of smoke.
 
 For the record, last night I performed the “inverted vortex” practice.  The details and reasoning behind this practice won;t be explain here, but in general, this practice is where a strong whirlpool spinning counter-clockwise is created in a round flask filled with water.  The left hand is placed on the right side of the sphere of the flask, and the right hand is placed ion the left side of the sphere.  In the direction of the whirlpool, the energy of the whirlpool is delivered into the right hand and out of the left hand, creating a whirlpool that spins in the opposite direction in the spine and which is grounded in the 1^st^ charka and, like a whirlpool, expands exponentially as is spirals upward to the 7^th^ chakra.  However, I personally apply a model where there are only 3 chakras in the body, the 4^th^ being beyond the body, in which case, the whirlpool is grounded in the 1^st^ chakra, expanding exponentially to the 3^rd^, and reaches infinite expansion in the 4^th^.  This may have had some effect on my experience.
 
 **Monday, October 10, 2022, 9:00** 
 
-<img src='/assets/posts/2024-07-14-mex-journal/scud.png' style='float:right;width:30%'>Quickly say many “stars” in the sky of some “other” reality.   That happened often, but this time, I noticed a small movement in some of the stars grouped together.  When I focused on it, more stars appeared and I soon began to see that these stars were actually part of a “being” that looked like a *scud*, a bottom dwelling class of crustaceans and cousin to the shrimp and  crayfish.  
+<img alt='image' src='/assets/posts/2024-07-14-mex-journal/scud.png' style='float:right;width:30%'>Quickly say many “stars” in the sky of some “other” reality.   That happened often, but this time, I noticed a small movement in some of the stars grouped together.  When I focused on it, more stars appeared and I soon began to see that these stars were actually part of a “being” that looked like a *scud*, a bottom dwelling class of crustaceans and cousin to the shrimp and  crayfish.  
 
 **Wednesday, October 12, 2022, 9:00** 
 
@@ -801,19 +801,19 @@ Attempting to see the “dot”, but was almost immediately “invaded” with w
 
    This was followed by entire planes of tetrahedrons appearing which were especially well lit, but had no patterned colors, and extremely well lit by either a pinkish light, or a white light on a perfectly smooth matte pink surface.
 
-2. <img src='/assets/posts/2024-07-14-mex-journal/cornuglobe.png' style='float:right;width:10%'>I arrived at a point where I could travel “into”, or see the “properties” of the many dots that were in the darkness by focusing on any particular dot.  In the first case, the dot appeared as as a sphere as I got close to it, but this sphere has 6 (or 8) *cornu spirals* that connected the 2 poles of the sphere longitudinally.  These spirals had thickness to the and were outside the sphere, laying in the surface.  There was another set of spirals inside the sphere, opposite those outside.  These spirals were of fantastic detail and which could be clearly seen.  The detail appeared fractal.  The globe was slowly spinning and the light was a bright but soft rose from a 2:00 o’clock- angle.  The source of the light was not visible.  *Note, the cornu spiral not only shows how light acts (as in Fresnel refraction), but also marks the path of the sun over the year in the north and south hemispheres; the further away from the equator, the tighter the spiral.*
+2. <img alt='image' src='/assets/posts/2024-07-14-mex-journal/cornuglobe.png' style='float:right;width:10%'>I arrived at a point where I could travel “into”, or see the “properties” of the many dots that were in the darkness by focusing on any particular dot.  In the first case, the dot appeared as as a sphere as I got close to it, but this sphere has 6 (or 8) *cornu spirals* that connected the 2 poles of the sphere longitudinally.  These spirals had thickness to the and were outside the sphere, laying in the surface.  There was another set of spirals inside the sphere, opposite those outside.  These spirals were of fantastic detail and which could be clearly seen.  The detail appeared fractal.  The globe was slowly spinning and the light was a bright but soft rose from a 2:00 o’clock- angle.  The source of the light was not visible.  *Note, the cornu spiral not only shows how light acts (as in Fresnel refraction), but also marks the path of the sun over the year in the north and south hemispheres; the further away from the equator, the tighter the spiral.*
 
-   <img src='/assets/posts/2024-07-14-mex-journal/balls.png' style='float:right;width:25%'>I left that dot and focused on another.  This was a sphere full of smaller spheres connected by tubes, something like the image on the right, but the balls were all different solid matte colors, and the tubes were thicker and solid white.  The balls were moving dynamically, but not in any order and always formed the shape of a larger sphere.  This larger sphere was, just like the balls inside the sphere, connected to other identical spheres and also by a white tube.
+   <img alt='image' src='/assets/posts/2024-07-14-mex-journal/balls.png' style='float:right;width:25%'>I left that dot and focused on another.  This was a sphere full of smaller spheres connected by tubes, something like the image on the right, but the balls were all different solid matte colors, and the tubes were thicker and solid white.  The balls were moving dynamically, but not in any order and always formed the shape of a larger sphere.  This larger sphere was, just like the balls inside the sphere, connected to other identical spheres and also by a white tube.
 
 3. The next dot I went to was shockingly intense!  While there was a sphere, inside and outside of it there appeared to be something I can only explain as a psychedelic storm!  It was filled with “lightening” and “storms” of the most wild and chaotic colors, forms, movements.  It appeared violent at times, and certainly out of control.  The most interesting thing about this sphere was that after I left it presence, the effects of it remained as everything I saw after that became wildly chaotic and colorful. It was as if this particular sphere altered by neurology for a short time.
 
    I realized that every “star” functioned and acted in a different manner.
 
-4. <img src='/assets/posts/2024-07-14-mex-journal/tristars.png' style='float:right;width:50%'>I also notice that when I turned by physical head I could see new parts of the sky with different stars, just like in this 3D world.  This was surprising to me as I did not expect to see such dimensionality, and it made me wonder if the starts/dots I was see were in any order, i.e., if there were constellations, but it was too difficult to find one single pattern.  The only stable pattern I could make out was that of a triangle, similar to the *Vega, Deneb, Altair*, triangle or the *Sirius, Betelgeuse, Procyon* triangle.
+4. <img alt='image' src='/assets/posts/2024-07-14-mex-journal/tristars.png' style='float:right;width:50%'>I also notice that when I turned by physical head I could see new parts of the sky with different stars, just like in this 3D world.  This was surprising to me as I did not expect to see such dimensionality, and it made me wonder if the starts/dots I was see were in any order, i.e., if there were constellations, but it was too difficult to find one single pattern.  The only stable pattern I could make out was that of a triangle, similar to the *Vega, Deneb, Altair*, triangle or the *Sirius, Betelgeuse, Procyon* triangle.
 
 5. I discovered something that is very relevant to my visions.  During these sessions I had a thing band over my eyes, which block out 90% of the light, and a heavy sweatshirt on of that which block out the rest. At the end of this sessions, I slowly removed the sweatshirt from my head, which allowed in a little bot more light, changing by field of visions from very black to a dark gray.  Much to my shock, this “gray zone” was filled with “animate beings” that could *only* been see in the gray zone.  There were many of the same virus/microorganism/vine-like beings I had encountered before.  I held my hand up to my eye and block off the light on the right side only of my field of visions, and they disappeared, but they could be see moving into and out of the black zone.  I assume that means they are always there, but only visible under certain conditions.  The crazy part is there were so many of them, filling all the space around me!  I did not feel any ill intent… there were just there, packed like commuters on a NYC subway during rush hour… everyone jammed together but pretty much ignoring everything around them.  So, there is one “reality” only visible in the black-zone, and a totally differing visible in the gray-zone.  I will try this in a light-zone and bright-zone see what happens there.
 
-6. <img src='/assets/posts/2024-07-14-mex-journal/cesarofractal.png' style='float:right;width:50%'>Finally, I removed all my blindfolds but kept my eyes close.  As I do this practice next to a window that has a view of the sky, and it was a cloudless day, a lot of light entered by eye through the eyelids.  Given that my eyes had adjusted to the darkness over the past hour or so, the flood of light caused by eyes to be overstimulated.  This resulted in a pattern of wild chaos of that was almost instantly “managed” by my brain, and after 10 or 15 seconds, *most* of the field of vision was replaced by what appeared like a yellow *Cesàro*-like fractal pattern (left image). However, in the lower left corner of my vision there was still the original information that my brain had not yet started to process, most likely because it was very low-priority given that it was well our of the normal range of vision.  It took another 30 seconds or so for that part to get filtered and processed by the brain.  It appeared like boiling water.   This is most interesting because it shows how the brain turns chaos into order, how that process it fractal in nature, and how without out brains filtering and processing, reality would appear as a boiling madness of everything!  The 2<sup>nd</sup> time this happened, my eyes were not nearly as desensitized, and when quickly exposed to the light, in a split second the chaos was gone and replaced with a polar grid (image left), which was then instantly replaced with the *Cesàro*-like fractal pattern.  It appears as though the brain does a one-time polar coordinate re-balancing before it deploys the permanent Cartesian template, as if the brain’s intranet is polar-based, and its interface with the external input is Cartesian.
+6. <img alt='image' src='/assets/posts/2024-07-14-mex-journal/cesarofractal.png' style='float:right;width:50%'>Finally, I removed all my blindfolds but kept my eyes close.  As I do this practice next to a window that has a view of the sky, and it was a cloudless day, a lot of light entered by eye through the eyelids.  Given that my eyes had adjusted to the darkness over the past hour or so, the flood of light caused by eyes to be overstimulated.  This resulted in a pattern of wild chaos of that was almost instantly “managed” by my brain, and after 10 or 15 seconds, *most* of the field of vision was replaced by what appeared like a yellow *Cesàro*-like fractal pattern (left image). However, in the lower left corner of my vision there was still the original information that my brain had not yet started to process, most likely because it was very low-priority given that it was well our of the normal range of vision.  It took another 30 seconds or so for that part to get filtered and processed by the brain.  It appeared like boiling water.   This is most interesting because it shows how the brain turns chaos into order, how that process it fractal in nature, and how without out brains filtering and processing, reality would appear as a boiling madness of everything!  The 2<sup>nd</sup> time this happened, my eyes were not nearly as desensitized, and when quickly exposed to the light, in a split second the chaos was gone and replaced with a polar grid (image left), which was then instantly replaced with the *Cesàro*-like fractal pattern.  It appears as though the brain does a one-time polar coordinate re-balancing before it deploys the permanent Cartesian template, as if the brain’s intranet is polar-based, and its interface with the external input is Cartesian.
 
 After all this, I fell asleep and found myself in a very high-end Spanish speaking dance club, which I left, but upon entering the streets I had to ask pedestrians how to get to the “bridge”.  I was told by a short, heavy, middle-aged blond woman to take a bus, which I did, after asking the bus drivers at the stop if they went over the “bridge”.  One did, so I got on that bus.  The entire dream was in Spanish, but it was not in Argentina, where I live.
 
