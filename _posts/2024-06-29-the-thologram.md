@@ -22,11 +22,11 @@ tags:
 
 This attempts to describe the concept of the Thologram.  It starts outs showing how  classical physics, such as Newton' 2nd Law of Motion, are instances of a metaphysical or non-material reality, and then applies those same concepts to the non-material instances of Awareness, consciousness, and intention, as well as concepts like society and psychology. 
 
-<!--more-->
+<!--more--> 
 
 {% youtube "https://youtu.be/2kRDVCfZw_U" %} 
 
-**TLDR;** Description of the Thologram concept, showing how classical physics principles, like Newton's Second Law of Motion, apply to non-material realities such as awareness, consciousness, and intention. These principles form a tetrahedral holon, or tholon, and collectively a thologram, applicable to various domains including society, psychology, and mathematics. The simple mathematical model of 2×3=6 is used, suggesting that carbon-based life forms, with carbon’s unique ability to form complex structures, are designed for the emergence of consciousness from complexity. This model offers a framework for understanding the interconnectedness and emergence of complex systems across different contexts.
+**TL;DR** Description of the Thologram concept, showing how classical physics principles, like Newton's Second Law of Motion, apply to non-material realities such as awareness, consciousness, and intention. These principles form a tetrahedral holon, or tholon, and collectively a thologram, applicable to various domains including society, psychology, and mathematics. The simple mathematical model of 2×3=6 is used, suggesting that carbon-based life forms, with carbon’s unique ability to form complex structures, are designed for the emergence of consciousness from complexity. This model offers a framework for understanding the interconnectedness and emergence of complex systems across different contexts.
 
 ---
 
