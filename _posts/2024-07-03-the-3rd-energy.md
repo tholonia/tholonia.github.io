@@ -17,11 +17,11 @@ tags:
 
 This suggests that there's a third form of energy that only exists as a wave and interacts with the material world via the realm of wave-particle duality, which is the realm of subatomic. This energy is the force behind conceptual order out of Chaos. It is the energy that fuels complex orders of conceptual structure, such as theories, beliefs, ideas, art, or any other form of coherent conceptual creation from any form of intelligence.
 
-<!--more-->
+<!--more--> 
 
 {% youtube "https://youtu.be/6Rs-pPQWZlE" %}
 
-**TLDR;** The concept of a tetrahedral matrix as a conduit for both physical and conceptual energies presents a fascinating integration of geometric efficiency with the dynamic properties of energy transmission. The comparison between the conceptual tetrahedral matrix and Quantum Graphity theory, both utilizing tetrahedral structures, underscores a functional coherence where complex systems—whether physical, conceptual, or cosmological—are organized efficiently through tetrahedral geometries. This alignment suggests a universal framework where tetrahedral structures facilitate not only structural stability and space tessellation but also the seamless flow and transformation of diverse energy forms. This synthesis points towards a holistic understanding of how different forms of energy, including the less tangible conceptual energy, interact within a structured, interconnected universe, potentially leading to new insights into the connectivity and continuity of the cosmos.
+**TL;DR** The concept of a tetrahedral matrix as a conduit for both physical and conceptual energies presents a fascinating integration of geometric efficiency with the dynamic properties of energy transmission. The comparison between the conceptual tetrahedral matrix and Quantum Graphity theory, both utilizing tetrahedral structures, underscores a functional coherence where complex systems—whether physical, conceptual, or cosmological—are organized efficiently through tetrahedral geometries. This alignment suggests a universal framework where tetrahedral structures facilitate not only structural stability and space tessellation but also the seamless flow and transformation of diverse energy forms. This synthesis points towards a holistic understanding of how different forms of energy, including the less tangible conceptual energy, interact within a structured, interconnected universe, potentially leading to new insights into the connectivity and continuity of the cosmos.
 
 ---
 

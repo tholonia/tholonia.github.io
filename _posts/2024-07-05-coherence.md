@@ -16,11 +16,11 @@ title: Coherence (CAI ch. 11)
 
 This looks at coherence and incoherence in the context of awareness and consciousness.
 
-<!--more-->
+<!--more--> 
 
 {% youtube "https://youtu.be/ZjF5Ft-Y3ag" %}
 
-**TLDR;** Coherence and incoherence within conceptual energy reflect the organized and disorganized states of thoughts, ideas, and intentions, respectively. Coherent conceptual energy involves focused, structured, and harmonized thought processes that align well with mental clarity, creativity, and effective problem-solving. Practices such as meditation, mindfulness, and goal-setting enhance coherence, leading to improved cognitive function and emotional stability. In contrast, incoherent conceptual energy manifests as scattered, conflicting, and disorganized thoughts, contributing to stress, anxiety, cognitive disorganization, and emotional instability. Balancing coherence with periods of relaxation and unstructured thinking is crucial for maintaining mental health and overall well-being, as both extremes—excessive coherence or incoherence—can have detrimental effects on psychological and physical health.
+**TL;DR** Coherence and incoherence within conceptual energy reflect the organized and disorganized states of thoughts, ideas, and intentions, respectively. Coherent conceptual energy involves focused, structured, and harmonized thought processes that align well with mental clarity, creativity, and effective problem-solving. Practices such as meditation, mindfulness, and goal-setting enhance coherence, leading to improved cognitive function and emotional stability. In contrast, incoherent conceptual energy manifests as scattered, conflicting, and disorganized thoughts, contributing to stress, anxiety, cognitive disorganization, and emotional instability. Balancing coherence with periods of relaxation and unstructured thinking is crucial for maintaining mental health and overall well-being, as both extremes—excessive coherence or incoherence—can have detrimental effects on psychological and physical health.
 
 ---
 

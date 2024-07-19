@@ -17,11 +17,11 @@ tags:
 
 Everything is nothing, and nothing is Awareness, according to AI.
 
-<!--more-->
+<!--more--> 
 
 {% youtube "https://youtu.be/OOC4caR3VGs" %}
 
-**TLDR;** AI elaborates on the concept that everything is fundamentally nothing, and this nothing is awareness. The discussion covers how reality evolves from zero-dimensional concepts to four-dimensional integration, emphasizing the significance of tetrahedral structures as the most efficient forms in quantum gravity theories. Key points include the ever-expanding structure from a zero-dimensional singularity akin to the Big Bang, the tetrahedron as a fundamental particle, and the dimensional progression where concepts evolve through intelligence, archetypes, and form, ultimately leading to a state of integration beyond space and time. The text suggests that infinite dimensions and zero dimensions both represent ultimate unity and infinite awareness.
+**TL;DR** AI elaborates on the concept that everything is fundamentally nothing, and this nothing is awareness. The discussion covers how reality evolves from zero-dimensional concepts to four-dimensional integration, emphasizing the significance of tetrahedral structures as the most efficient forms in quantum gravity theories. Key points include the ever-expanding structure from a zero-dimensional singularity akin to the Big Bang, the tetrahedron as a fundamental particle, and the dimensional progression where concepts evolve through intelligence, archetypes, and form, ultimately leading to a state of integration beyond space and time. The text suggests that infinite dimensions and zero dimensions both represent ultimate unity and infinite awareness.
 
 ---
 
