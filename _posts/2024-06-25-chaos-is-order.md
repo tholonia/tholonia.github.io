@@ -19,11 +19,11 @@ tags:
 
 The Tholonic claim is that Order is a state, or a particular condition of Chaos. Here, AI explains why that is so, and also tells us what the true meaning of life is (after being exposed to the Tholonic material, of course).
 
-<!--more-->
+<!--more--> 
 
 {% youtube "https://youtu.be/10TS8AwDGfA"  %} 
 
-**TLDR;** The Tholonic philosophy asserts that order is a state of chaos, with energy, chaos, and order forming a foundational trinity. Chaos spans from zero-dimensional to infinite-dimensional points, representing both nothingness and totality. Order emerges from the movement of energy, driven by awareness and intention, and is a transitional state within chaos. The evolution of consciousness is the fundamental purpose of existence, progressing from chaos to order and back to chaos. This cyclical process reflects the dynamic interplay of energy and awareness, shaping the complexity and emergence of life and the universe.
+**TL;DR** The Tholonic philosophy asserts that order is a state of chaos, with energy, chaos, and order forming a foundational trinity. Chaos spans from zero-dimensional to infinite-dimensional points, representing both nothingness and totality. Order emerges from the movement of energy, driven by awareness and intention, and is a transitional state within chaos. The evolution of consciousness is the fundamental purpose of existence, progressing from chaos to order and back to chaos. This cyclical process reflects the dynamic interplay of energy and awareness, shaping the complexity and emergence of life and the universe.
 
 ---
 

@@ -19,11 +19,11 @@ tags:
 
 The claim that energy is awareness, and by energy, we mean real energy, like electricity, the sun, batteries and combustion engines, has been mentioned previously.  This is a brief Q&A that outlines how the concept of awareness is better suited to describe the cause that is energy than our current model.  It does not address the mechanics of awareness, just its suitability.  The mechanics are touched on in [The Monad (CAI#1)](https://youtu.be/NlACKhppQRw) and will be addressed in later chapters as well.
 
-<!--more-->
+<!--more--> 
 
 {% youtube "https://youtu.be/3Xhec2ss0-w" %} 
 
-**TLDR;** Energy is a measurable property necessary for work or heating, always interacting with matter, and never created or destroyed, only converted. It is an abstract concept explaining observable effects, akin to entropy. Awareness is proposed as the original source, with energy, fields, and gravity as its manifestations. These phenomena are omnipresent in the universe, forming a tetrahedral structure: awareness and gravity on one axis, and energy and fields on another, creating spacetime. Measuring awareness scientifically is challenging, requiring new instruments and methods. A self-similar tetrahedral matrix, starting with awareness, gravity, energy, and fields, could model the technology of awareness and intention.
+**TL;DR** Energy is a measurable property necessary for work or heating, always interacting with matter, and never created or destroyed, only converted. It is an abstract concept explaining observable effects, akin to entropy. Awareness is proposed as the original source, with energy, fields, and gravity as its manifestations. These phenomena are omnipresent in the universe, forming a tetrahedral structure: awareness and gravity on one axis, and energy and fields on another, creating spacetime. Measuring awareness scientifically is challenging, requiring new instruments and methods. A self-similar tetrahedral matrix, starting with awareness, gravity, energy, and fields, could model the technology of awareness and intention.
 
 ---
 

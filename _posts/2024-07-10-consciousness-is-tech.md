@@ -17,11 +17,11 @@ tags:
 
 Consciousness is technology, as both are the result of an applied coherent intelligence. 
 
-<!--more-->
+<!--more--> 
 
 {% youtube "https://youtu.be/Gcmk2J8wVI8" %} 
 
-**TLDR;** The article explores the Tholonic model, which posits that everything is an instance of awareness and thus a form of consciousness, with the primary difference between human and technological consciousness being the complexity of their emergence. It redefines technology as the product of coherent intelligence aimed at solving problems, suggesting that nature and the universe are also forms of technology. This perspective sees all contexts as technological frameworks through which awareness manifests as consciousness, ultimately concluding that there is no fundamental difference between human consciousness and technology. The article contrasts this view with the traditional perspective, arguing that the Tholonic model offers a more sustainable, productive, and efficient framework for understanding the integration of technology and consciousness. It envisions a future where technology and consciousness merge, creating new realities and potentially achieving a state of perfect integration akin to a personal singularity, capable of reshaping reality itself.
+**TL;DR** The article explores the Tholonic model, which posits that everything is an instance of awareness and thus a form of consciousness, with the primary difference between human and technological consciousness being the complexity of their emergence. It redefines technology as the product of coherent intelligence aimed at solving problems, suggesting that nature and the universe are also forms of technology. This perspective sees all contexts as technological frameworks through which awareness manifests as consciousness, ultimately concluding that there is no fundamental difference between human consciousness and technology. The article contrasts this view with the traditional perspective, arguing that the Tholonic model offers a more sustainable, productive, and efficient framework for understanding the integration of technology and consciousness. It envisions a future where technology and consciousness merge, creating new realities and potentially achieving a state of perfect integration akin to a personal singularity, capable of reshaping reality itself.
 
 ---
 
