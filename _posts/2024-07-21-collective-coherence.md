@@ -87,11 +87,11 @@ In summary, the current thinking on order emerging from complexity encompasses a
 ### Sources and References:
 
 1. **[Complexity and Self-organization - ResearchGate](https://www.researchgate.net/publication/228893485_Complexity_and_Self-organization)** _This article introduces some of the main concepts and methods of the science studying complex, self-organizing systems and networks, in a non-technical manner._
-2. **[Complexity and Self-organization](http://pespmc1.vub.ac.be/Papers/ELIS-complexity.pdf)** _The philosophy of complexity is that this is in general impossible: complex systems, such as organisms, societies or the Internet, have properties—emergent._
+2. **[Complexity and Self-organization](https://pespmc1.vub.ac.be/Papers/ELIS-complexity.pdf)** _The philosophy of complexity is that this is in general impossible: complex systems, such as organisms, societies or the Internet, have properties—emergent._
 3. **[Emergence Versus Self-Organisation: Different Concepts but...](https://pdodds.w3.uvm.edu/teaching/courses/2009-08UVM-300/docs/others/2005/dewolf2005a.pdf)** _A first point of view considers self- organisation as a cause, i.e. emergent properties in complex systems are the result of a self-organising process._
 4. **[Self-Organization and Artificial Life - ResearchGate](https://www.researchgate.net/publication/343142320_Self-Organization_and_Artificial_Life)** _In this review, we discuss the fundamental aspects of self-organization and list the main usages within three primary ALife domains._
 5. **[Complex Adaptive Systems: Emergence and Self-Organization](https://www3.nd.edu/~gmadey/Activities/CAS-Briefing.pdf)** _CAS is a viable method for modeling complex physical and social systems to understand their behavior based on observed data._
-6. **[Self-organization, Emergence and the Architecture of Complexity](http://pcp.vub.ac.be/Papers/SelfArchCom.pdf)** _It is argued that the problems of emergence and the architecture of complexity can be solved by analysing the self-organizing._
+6. **[Self-organization, Emergence and the Architecture of Complexity](https://pcp.vub.ac.be/Papers/SelfArchCom.pdf)** _It is argued that the problems of emergence and the architecture of complexity can be solved by analysing the self-organizing._
 7. **[Self-Organization and Artificial Life - MIT Press Direct](https://direct.mit.edu/artl/article-pdf/26/3/391/1896088/artl_a_00324.pdf)** _In this review, we discuss the fundamental aspects of self-organization and list the main usages within three primary ALife domains, namely “soft” (mathematical..._
 8. **[Self-organization, Emergence and the Architecture of Complexity](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=43e92708daa4d1b2909c6ec3cc614ce22bbe3e3f)** _It is argued that the problems of emergence and the architecture of complexity can be solved by analysing the self-organizing evolution of complex._
 9. **[Emergence, self–organization and morphogenesis in biological...](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056426/)** _The paper discusses the connection between emergence, pattern formation and nonlinear dynamics, focusing on the similarity between discrete patterns and..._
@@ -131,7 +131,7 @@ In conclusion, while the idea that order emerges from complexity is well-establi
 7. **[Complex systems in the spotlight: next steps after the 2021 Nobel - IOPscience](https://iopscience.iop.org/article/10.1088/2632-072X/ac7f75)** _The major challenge of complexity science is to develop a close-form theory ruling the emergent behavior of complex systems. I think that such ..._
 8. **[How the theory of self-organized criticality explains punctuated - SAGE Journals](https://journals.sagepub.com/doi/full/10.1177/20597991221100427)** _Punctuated equilibrium is a characteristic of some natural and social systems that occasionally generate bursts of activity at different ..._
 9. **[Complex Adaptive Systems and Complexity Theory: Inter-related - MIT](https://web.mit.edu/esd.83/www/notebook/ComplexityKD.PDF)** _This paper provides a description of two highly interrelated knowledge domains: Complex Adaptive Systems (CAS) and Complexity Theory._
-10. **[22. Emergence and Complexity - YouTube](https://www.youtube.com/watch?v=o_ZuWbX-CyE)** _... systems that exist throughout nature. Stanford University: http://www.stanford.edu/ Stanford ..._
+10. **[22. Emergence and Complexity - YouTube](https://www.youtube.com/watch?v=o_ZuWbX-CyE)** _... systems that exist throughout nature. Stanford University: https://www.stanford.edu/ Stanford ..._
 
 
 ***
@@ -271,7 +271,7 @@ Here is a curated list of high-quality academic links related to the emergence o
 
 3. **[Insights from the Science of Consciousness](https://arxiv.org/pdf/2308.08708)** _In this report, we argue that consciousness in AI is best assessed by drawing on neuroscientific theories of consciousness._
 
-4. **[CONSCIOUSNESS AND COMPLEXITY](http://philsci-archive.pitt.edu/20789/1/Ellia%20%26%20Chis-Ciure%20-%20Consciousness%20and%20Complexity%20%28final%20preprint%29%20%282022%29.pdf)** _Abstract. In this paper we take a meta-theoretical stance to compare two frameworks that endeavor to explain phenomenal experience._
+4. **[CONSCIOUSNESS AND COMPLEXITY](https://philsci-archive.pitt.edu/20789/1/Ellia%20%26%20Chis-Ciure%20-%20Consciousness%20and%20Complexity%20%28final%20preprint%29%20%282022%29.pdf)** _Abstract. In this paper we take a meta-theoretical stance to compare two frameworks that endeavor to explain phenomenal experience._
 
 5. **[Artificial Intelligence and Consciousness](https://cdn.aaai.org/Symposia/Fall/2007/FS-07-01/FS07-01-001.pdf)** _These authors offer a survey of recent research in the philosophy, psychology and neuroscience of consciousness and how it can inform AI, potential for AI ..._
 
@@ -346,7 +346,7 @@ Here is a curated list of high-quality academic and authoritative resources on t
 
 4. **[Complex Adaptive Systems: Emergence and Self-Organization](https://www3.nd.edu/~gmadey/Activities/CAS-Briefing.pdf)** _Complex Systems Theory is a scientific framework that explains how rules govern emergence and the constraints mediating self- organization and ..._
 
-5. **[THE SCIENCE OF SELF- ORGANIZATION AND ADAPTIVITY](http://pespmc1.vub.ac.be/Papers/EOLSS-Self-Organiz.pdf)** _These complexity theorists study systems consisting of many interacting components, which undergo constant change, both autonomously and in interaction with ..._
+5. **[THE SCIENCE OF SELF- ORGANIZATION AND ADAPTIVITY](https://pespmc1.vub.ac.be/Papers/EOLSS-Self-Organiz.pdf)** _These complexity theorists study systems consisting of many interacting components, which undergo constant change, both autonomously and in interaction with ..._
 
 6. **[Emergence as a Construct: History and Issues - Anecdote](https://www.anecdote.com/pdfs/papers/EmergenceAsAConsutructIssue1_1_3.pdf)** _the arising of novel and coherent structures, patterns, and properties during the process of self-organization in complex systems. Emergent phenomena are ..._
 
@@ -587,7 +587,7 @@ Here is a curated list of high-quality academic resources related to collective 
 
 2. **[How Adaptive Networks Promote Collective Intelligence - arXiv](https://arxiv.org/pdf/1805.04766)** _Social networks continuously change as new ties are created and existing ones fade. It is noted that our social embedding exerts a..._
 
-3. **[The Emergence of Distributed Cognition: a conceptual framework](http://pespmc1.vub.ac.be/Papers/Distr.CognitionFramework.pdf)** _We propose a first step in the development of an integrated theory of the emergence of distributed cognition/extended mind. Distributed cognition..._
+3. **[The Emergence of Distributed Cognition: a conceptual framework](https://pespmc1.vub.ac.be/Papers/Distr.CognitionFramework.pdf)** _We propose a first step in the development of an integrated theory of the emergence of distributed cognition/extended mind. Distributed cognition..._
 
 4. **[Adaptive social networks promote the wisdom of crowds](https://ide.mit.edu/wp-content/uploads/2020/05/1917687117.full_.pdf)** _Social networks, collective intelligence, wisdom of crowds, virtual labs, complex adaptive systems. Intelligent systems, both natural and..._
 
@@ -1152,7 +1152,7 @@ Focusing one’s attention can indeed be considered equivalent to creating a coh
 6. **[Insights from Quiet Minds - University of California, Santa Barbara](https://labs.psych.ucsb.edu/schooler/jonathan/sites/labs.psych.ucsb.edu.schooler.jonathan/files/pubs/chp3a10.10072f978-3-319-01634-4_13.pdf)** _Focused-attention meditation may not represent an instance of mindfulness within multi-factor frameworks of mindfulness that would require the presence of._
 7. **[Chapter 8 Attention, consciousness and mindfulness in meditation - Repository UBN](https://repository.ubn.ru.nl/bitstream/handle/2066/127978/127978.pdf?sequence=1)** _Attentional stability and vividness (acuity), as developed in focused attention meditation, are regarded as necessary for deep and reliable introspection to._
 8. **[The neuroscience of mindfulness meditation - University of Louisville](https://louisville.edu/medicine/facultyaffairs/documents/NeuroscienceofMindfulnessMeditation.pdf/)** _Mindfulness meditation can be subdivided into methods involving focused attention and those involving open monitoring._
-9. **[The Effect of Mindfulness Meditation on Affect and Attention - DiVA Portal](http://www.diva-portal.org/smash/get/diva2:1333055/FULLTEXT01.pdf)** _Neural correlates of focused attention and cognitive monitoring in meditation. Brain Research Bulletin, 82(1-2), 46-56._
+9. **[The Effect of Mindfulness Meditation on Affect and Attention - DiVA Portal](https://www.diva-portal.org/smash/get/diva2:1333055/FULLTEXT01.pdf)** _Neural correlates of focused attention and cognitive monitoring in meditation. Brain Research Bulletin, 82(1-2), 46-56._
 10. **[Cognitive neuroscience tends to conceptualize mindfulness - OSF Preprints](https://osf.io/preprints/mindrxiv/9kh2y/download)** _The figure in the article depicts focused attention meditation in terms of a dynamic cycle of mental processes and corresponding activations of specific brain regions._
 
 
@@ -1348,9 +1348,9 @@ The strong collective consciousness resulting from the 9/11 Twin Towers attack e
 5. **[Psychosocial Analysis of the Collective Processes in the United States Post 9/11 - JSTOR](https://www.jstor.org/stable/26273582)** _This article studies alterations in the values, attitudes, and behaviors that emerg among U.S. citizens as a consequence of, and as a response to..._
 6. **[Collective Consciousness and Our Sense of Interconnectedness - SciVision](https://scivisionpub.com/pdfs/collective-consciousness-and-our-sense-of-interconnectedness-1535.pdf)** _ABSTRACT. Consciousness is defined as 1) the state or quality of awareness; 2) of being aware of an external object or something._
 7. **[9/11 - The Rebirth of the Myth of the American Hero and Feminism - CES](https://cabodostrabalhos.ces.uc.pt/n13/documentos/13_RitaSantos.pdf)** _Abstract: This paper examines the impact of 9/11 on the American imaginary and the ways in which old myths of the American hero have been..._
-8. **[Collective Crime as a Source of Social Solidarity: A Tentative Test of Durkheim's Theory - Western Criminology](http://www.westerncriminology.org/documents/WCR/v14n3/Hawdon.pdf)** _Abstract: According to a classic notion by Durkheim, crime can lead to a collective indignation that is expressed through collective displays of solidarity._
+8. **[Collective Crime as a Source of Social Solidarity: A Tentative Test of Durkheim's Theory - Western Criminology](https://www.westerncriminology.org/documents/WCR/v14n3/Hawdon.pdf)** _Abstract: According to a classic notion by Durkheim, crime can lead to a collective indignation that is expressed through collective displays of solidarity._
 9. **[Effects of Mass Consciousness: Changes in Random Data during Global Events - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1550830711002321)** _View PDF; Download ... A major challenge for the GCP is how to study effects of the hypothesized global consciousness in data dominated by random noise._
-10. **[Affect, Performativity and Politics in the 9/11 Museum - Liminalities](http://liminalities.net/14-3/affect.pdf)** _The events of 9/11 had been captured in countless video recordings and photographs; the images seem seared into collective consciousness. As..._
+10. **[Affect, Performativity and Politics in the 9/11 Museum - Liminalities](https://liminalities.net/14-3/affect.pdf)** _The events of 9/11 had been captured in countless video recordings and photographs; the images seem seared into collective consciousness. As..._
 
 
 ***
