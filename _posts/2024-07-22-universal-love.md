@@ -23,13 +23,9 @@ AI explains how universal love is what brings creations into being, from wave fu
 
 ### TL;DR
 
-### Overview
-
 In our previous discussions, we explored the metaphorical similarities between the collapse of a waveform into a particle and the realization of concepts or ideas into specific instances. This analogy extends to the idea that gravitational fields can create matter from nothing, as suggested by certain quantum gravity theories, like Loop Quantum Gravity. We also considered the tholonic axiom that existence results from awareness and intention, with intention being driven by universal love. This perspective aligns with many spiritual traditions that view the Creator God as a god of love, suggesting that aligning oneself with this universal love is the most effective way to harmonize with the universe and all existence. Finally, we discussed the implications of these ideas on the scientific method and the evolution of technology, envisioning a future where technology driven by love enhances human well-being and global harmony.
 
 ---
-
-### Key points outline
 
 ### Key Points Outline
 
@@ -276,7 +272,7 @@ Your understanding draws a compelling parallel between these different domains. 
 
 ### 1. Amplitude and Probability Density
 
-- **Wavefunction Amplitude**: The amplitude of the wavefunction at a given point determines the probability density. The square of the absolute value of the amplitude \(|\psi(x)|^2\) gives the probability density function (PDF) for finding the particle at position \(x\).
+- **Wavefunction Amplitude**: The amplitude of the wavefunction at a given point determines the probability density. The square of the absolute value of the amplitude psi(x)^2 gives the probability density function (PDF) for finding the particle at position \(x\).
 - **Probability Density**: Regions where the wavefunction has higher amplitude correspond to higher probability densities, making it more likely for the particle to be found in those regions upon measurement.
 
 ### 2. Superposition and Interference
@@ -305,7 +301,7 @@ The probability of a wavefunction collapsing into a particular particle state up
 
 ### Sources and References:
 
-1. **[Lecture 14: Superposition & Time-Dependent Quantum States](https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf)** _Boundary conditions → only certain allowed energies (and corresponding ... So, for an energy eigenstate: the probability density,,Ψ|2, has no time dependence!_
+1. **[Lecture 14: Superposition & Time-Dependent Quantum States](https://courses.physics.illinois.edu/phys214/su2013/lectures/lecture14.pdf)** _Boundary conditions → only certain allowed energies (and corresponding ... So, for an energy eigenstate: the probability density,,Ψ2, has no time dependence!_
 
 2. **[PROBLEMS AND SOLUTIONS IN QUANTUM MECHANICS](https://faculty.washington.edu/seattle/physics441/problems/Tamvakis.pdf)** _This collection of solved problems corresponds to the standard topics covered in established undergraduate and graduate courses in quantum mechanics._
 
@@ -315,7 +311,7 @@ The probability of a wavefunction collapsing into a particular particle state up
 
 5. **[Quantum Mechanics](https://www2.ph.ed.ac.uk/~ldeldebb/docs/QM/notes.pdf)** _Quantum mechanics describes the behaviour of matter and light at the atomic scale (d ∼ 10−10m), where physical objects behave very ..._
 
-6. **[quantum-mechanics-v0p82.pdf - Leon Hostetler](https://www.leonhostetler.com/wp-content/uploads/2019/07/quantum-mechanics-v0p82.pdf)** _... quantum mechanics and can be summarized as probability =,probability amplitude|2. The wave function is an example of a probability amplitude. That is, ψ(x ..._
+6. **[quantum-mechanics-v0p82.pdf - Leon Hostetler](https://www.leonhostetler.com/wp-content/uploads/2019/07/quantum-mechanics-v0p82.pdf)** _... quantum mechanics and can be summarized as probability =,probability amplitude/2. The wave function is an example of a probability amplitude. That is, ψ(x ..._
 
 7. **[PHYS 214 Prelecture Readings](https://courses.engr.illinois.edu/phys214/sp2021/PHYS214PrelectureNotes.pdf)** _This booklet is a guide to the material in the PHYS 214 class at the University of Illinois. The intention of these notes is to provide ..._
 
