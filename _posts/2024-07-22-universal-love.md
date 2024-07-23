@@ -19,7 +19,7 @@ AI explains how universal love is what brings creations into being, from wave fu
 
 <!--more-->
 
-{% youtube "https://youtu.be/_FzKmAKq09A" %} 
+{% youtube "https://youtu.be/6duaXlBQJkI" %} 
 
 ### TL;DR
 
