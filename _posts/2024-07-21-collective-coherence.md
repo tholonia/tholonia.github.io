@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collective Coherence
+title: Collective Coherence (CAI ch. 15)
 author: duncan
 date: 2024-07-21
 image: /assets/posts/2024-07-21-collective-coherence/post_image.png
