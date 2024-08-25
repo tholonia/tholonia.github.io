@@ -1,6 +1,6 @@
 ###### Overview of Contents:  Instructions and notes for tholonia.com jekyll docker.  Meant to be official README.md 
 
-# Step-by-Step Process for Updating the thlonia.com Site
+# Step-by-Step Process for Updating the tholonia.com Site
 
 ## Preparation
 
