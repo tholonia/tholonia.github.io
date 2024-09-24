@@ -15,9 +15,13 @@ Open two terminals.
 
 2. **Check if the Chirpy image is running:**
    ```sh
-   docker ps -a
+   docker ps # shows running containers
+   docker ps -a # shows all containteres, including non running
+   # if not running...
+   docker start -i e830ca5561f3
+   
    ```
-
+   
 3. **If the Chirpy image is not running, start it:**
    ```sh
    run -it -d -p 4001:4001 -p 35729:35729 --mount src=$(pwd),target=$(pwd),type=bind --name chirpyRun chirpy2:updated
