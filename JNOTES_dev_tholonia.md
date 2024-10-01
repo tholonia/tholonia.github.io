@@ -56,8 +56,9 @@ Open two terminals.
    - Replace the image at `assets/posts/postname/post_image.png`.
    
 3. **Edit the markdown file for the post:**
+   
    - Modify the file located at `_posts/postname.md`.
-
+   
 4. **Create supporting content such as videos.**
 
 5. **For large documents (e.g., PDFs) that are too large for GitHub:**
@@ -449,11 +450,16 @@ All files that are in LFS require PERMALINK URL's and all files in the main repo
 There are the files in the LFS:
 
 ```
-_the_book/assets/latest/THOLONIA_THE_BOOK.md.zip
-_the_book/assets/latest/THOLONIA_THE_BOOK.html.zip
-_the_book/assets/latest/THOLONIA_THE_BOOK.pdf
-_the_book/assets/latest/THOLONIA_THE_BOOK.epub
-_material/assets/book*.pdf
+_the_book/assets/latest/THOLONIA_THE_BOOK.md.zip filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.html.zip filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.pdf filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.epub filter=lfs diff=lfs merge=lfs -text
+_material/assets/book_red_NOTFREE.zip filter=lfs diff=lfs merge=lfs -text
+_material/assets/book_ICHING_THE_BOOK.zip filter=lfs diff=lfs merge=lfs -text
+_material/assets/book_THOLONIA_COLORING_BOOK.zip filter=lfs diff=lfs merge=lfs -text
+_material/assets/book*.zip filter=lfs diff=lfs merge=lfs -text
+**/*.m4a filter=lfs diff=lfs merge=lfs -text
+
 ```
 **this is not correct!**
 Current state...

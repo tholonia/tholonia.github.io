@@ -22,6 +22,8 @@ Water is the material form of the ultimate conductor of not only life, but of re
 
 {% youtube "https://youtu.be/z2sb0drsizg" %} 
 
+{% include gnlm.html mp3file= "/assets/posts/2024-06-18-water-tech-magic/Water_Tech_Magic_CAI_ch_4.mp3" %}
+
 **TL;DR**  AI discusses the idea that water, with its tetrahedral structure, is a fundamental conductor of life, reality, existence, and even ideas. Key points include the importance of tetrahedral forms for energy transfer and the role of water in efficiently storing and transferring both physical and non-physical energy, influencing evolution and information storage. The text elaborates on water’s unique properties due to its tetrahedral matrix, which makes it crucial for living systems and capable of potentially storing information. The concept of high-potential water, created by spinning water in a vortex, is introduced, highlighting its enhanced solvent properties and potential health benefits, such as lowering cholesterol by improving cellular hydration and metabolic function.
 
 ---

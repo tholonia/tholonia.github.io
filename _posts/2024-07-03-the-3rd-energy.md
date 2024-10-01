@@ -21,6 +21,8 @@ This suggests that there's a third form of energy that only exists as a wave and
 
 {% youtube "https://youtu.be/6Rs-pPQWZlE" %}
 
+{% include gnlm.html mp3file= "/assets/posts/2024-07-03-the-3rd-energy/The_3rd_Energy_CAI_ch_10.mp33" %}
+
 **TL;DR** The concept of a tetrahedral matrix as a conduit for both physical and conceptual energies presents a fascinating integration of geometric efficiency with the dynamic properties of energy transmission. The comparison between the conceptual tetrahedral matrix and Quantum Graphity theory, both utilizing tetrahedral structures, underscores a functional coherence where complex systems—whether physical, conceptual, or cosmological—are organized efficiently through tetrahedral geometries. This alignment suggests a universal framework where tetrahedral structures facilitate not only structural stability and space tessellation but also the seamless flow and transformation of diverse energy forms. This synthesis points towards a holistic understanding of how different forms of energy, including the less tangible conceptual energy, interact within a structured, interconnected universe, potentially leading to new insights into the connectivity and continuity of the cosmos.
 
 ---
