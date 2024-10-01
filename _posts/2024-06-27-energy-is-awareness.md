@@ -23,6 +23,8 @@ The claim that energy is awareness, and by energy, we mean real energy, like ele
 
 {% youtube "https://youtu.be/3Xhec2ss0-w" %} 
 
+{% include gnlm.html mp3file= "/assets/posts/2024-06-27-energy-is-awareness/Energy_is_Awareness_CAI_ch_7.mp3" %}
+
 **TL;DR** Energy is a measurable property necessary for work or heating, always interacting with matter, and never created or destroyed, only converted. It is an abstract concept explaining observable effects, akin to entropy. Awareness is proposed as the original source, with energy, fields, and gravity as its manifestations. These phenomena are omnipresent in the universe, forming a tetrahedral structure: awareness and gravity on one axis, and energy and fields on another, creating spacetime. Measuring awareness scientifically is challenging, requiring new instruments and methods. A self-similar tetrahedral matrix, starting with awareness, gravity, energy, and fields, could model the technology of awareness and intention.
 
 ---

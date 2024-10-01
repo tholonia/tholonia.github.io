@@ -21,11 +21,11 @@ AI explains how universal love is what brings creations into being, from wave fu
 
 {% youtube "https://youtu.be/6duaXlBQJkI" %} 
 
+{% include gnlm.html mp3file= "/assets/posts/2024-07-22-universal-love/The_Monad_CAI_ch_1.mp3" %}
+
 ### TL;DR
 
 In our previous discussions, we explored the metaphorical similarities between the collapse of a waveform into a particle and the realization of concepts or ideas into specific instances. This analogy extends to the idea that gravitational fields can create matter from nothing, as suggested by certain quantum gravity theories, like Loop Quantum Gravity. We also considered the tholonic axiom that existence results from awareness and intention, with intention being driven by universal love. This perspective aligns with many spiritual traditions that view the Creator God as a god of love, suggesting that aligning oneself with this universal love is the most effective way to harmonize with the universe and all existence. Finally, we discussed the implications of these ideas on the scientific method and the evolution of technology, envisioning a future where technology driven by love enhances human well-being and global harmony.
-
----
 
 ### Key Points Outline
 
