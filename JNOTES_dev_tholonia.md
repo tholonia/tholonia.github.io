@@ -602,8 +602,15 @@ git remote add origin git@github.com:tholonia/tholonia.github.io.git
 
 git lfs install
 # auto track
-find -type f -name "THOLONIA_THE_BOOK*"|awk '{print "git lfs track "$1}' |sh
-find -type f -name "THOLONIA_THE_BOOK*"|awk '{print "git add -f  "$1}' |sh
+find -type f -name "THOLONIA_THE_BOOK*"|grep -v "_site"|awk '{print "git lfs track "$1}' |sh -x
+find -type f -name "THOLONIA_THE_BOOK*"|grep -v "_site"|awk '{print "git add -f  "$1}' |sh -x
+git commit -m "Move large file to Git LFS"
+
+# is need to remove from git repo but keep in file system
+find -type f -name "THOLONIA_THE_BOOK*"|grep -v "_site"|awk '{print "git rm --cached "$1}' |sh -x 
+find -type f -name "THOLONIA_THE_BOOK*"|grep -v "_site"|awk '{print "git add -f  "$1}' |sh -x 
+git commit -m "Move large file to Git LFS"
+
 
 # all books are LFS
 git lfs track "_material/assets/book*.zip"
