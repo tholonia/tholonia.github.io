@@ -55,3 +55,4 @@ check_ext_links.sh
 check_links.sh
 x.md
 *wav
+*.mp3
