@@ -16,13 +16,11 @@ tags:
 - models
 ---
 
-The **Tholonic Model**, **Cognitive-Theoretic Model of the Universe** (CTMU), and **Wolfram Physics Project** share significant similarities, such as emphasizing fundamental awareness or computational rules, interconnectedness, and self-similar structures. However, their differences often revolve around scope, terminology, and focus. The **Tholonic Model** sees **awareness** as the basis of reality, with a tetrahedral structure encompassing both physical and non-physical aspects. **CTMU** focuses on **infocognitive** monism and self-aware entities, while **Wolfram's approach** is rooted in computational **hypergraphs**. Ultimately, these differences are largely semantic, suggesting a common underlying framework.
+Comparing the **Tholonic Model**, **Cognitive-Theoretic Model of the Universe** (CTMU), and **Wolfram Physics Project**.
 
 <!--more-->
 
-<!-- % youtube "https://youtu.be/_FzKmAKq09A" %} -->
-
-<!-- <img alt="IMAGE" src="/assets/posts/2024-03-25-ancient_tech/rigveda_sol.jpg" class='right-img-25' -->
+The **Tholonic Model**, **Cognitive-Theoretic Model of the Universe** (CTMU), and **Wolfram Physics Project** share significant similarities, such as emphasizing fundamental awareness or computational rules, interconnectedness, and self-similar structures. However, their differences often revolve around scope, terminology, and focus. The **Tholonic Model** sees **awareness** as the basis of reality, with a tetrahedral structure encompassing both physical and non-physical aspects. **CTMU** focuses on **infocognitive** monism and self-aware entities, while **Wolfram's approach** is rooted in computational **hypergraphs**. Ultimately, these differences are largely semantic, suggesting a common underlying framework.
 
 I recently came across two cutting-edge theories that fascinated me because they seemed so similar to the Tholonic Model.
 
