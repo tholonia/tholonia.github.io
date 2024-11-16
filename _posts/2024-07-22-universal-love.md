@@ -21,7 +21,7 @@ AI explains how universal love is what brings creations into being, from wave fu
 
 {% youtube "https://youtu.be/6duaXlBQJkI" %} 
 
-{% include gnlm.html mp3file= "/assets/posts/2024-07-22-universal-love/The_Monad_CAI_ch_1.mp3" %}
+{% include gnlm.html mp3file= "/assets/posts/2024-07-22-universal-love/Universal_Love_CAI_ch_16.mp3" %}
 
 ### TL;DR
 
