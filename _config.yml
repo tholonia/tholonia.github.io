@@ -149,6 +149,10 @@ collections:
     output: true
     sort_by: order
 
+  books:
+    output: true
+    permalink: /:collection/:name
+
   the_book:
     output: true
     order:
@@ -274,6 +278,7 @@ exclude:
   - .ZPROJECTS/
   - src
   - "DEL_*"
+  - twitter_post.py
 
 # gems:
   # - jekyll-inline-svg

@@ -20,7 +20,75 @@ title: Book
     width:8em !important;
     width:20%;
   }
+  
+  .new-books-section {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .new-book-item {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2%;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .new-book-cover {
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    margin-bottom: 15px;
+  }
+  
+  .new-book-cover:hover {
+    transform: scale(1.05);
+  }
+  
+  .new-book-title {
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: inherit;
+  }
+  
+  @media (max-width: 768px) {
+    .new-book-item {
+      width: 100%;
+      display: block;
+      margin: 20px 0;
+    }
+  }
 </style>
+
+<!-- New I Ching Books Section -->
+<div class="new-books-section">
+  <h2>Latest Books</h2>
+  
+  <div class="new-book-item">
+    <a href="/books/tholonic_iching">
+      <img src="/assets/img/frontcover-tiching.jpg" alt="The Tholonic I Ching" class="new-book-cover">
+      <h3 class="new-book-title">The Tholonic I Ching</h3>
+    </a>
+    <p><a href="https://secure.eu.internxt.com/sh/file/P5FW8fI-RQeEkOnUcaZEcw/5JiN2yvz" target="_blank" style="color: #007bff;">📥 Download PDF</a></p>
+  </div>
+  
+  <div class="new-book-item">
+    <a href="/books/intro_tholonic_iching">
+      <img src="/assets/img/frontcover_intro.jpg" alt="Introduction to the Tholonic I Ching" class="new-book-cover">
+      <h3 class="new-book-title">Introduction to the Tholonic I Ching</h3>
+    </a>
+    <p><a href="https://secure.ue.internxt.com/sh/file/5pEFCzkPSgqQiu9TK-7q0w/dT0hZAcN" target="_blank" style="color: #007bff;">📥 Download PDF</a></p>
+  </div>
+</div>
+
+<!-- Original THOLONIA Book -->
+<h2>THOLONIA: The Mechanics of Existential Awareness</h2>
+
+<p style="margin: 20px 0; line-height: 1.6; text-align: justify;">
+This is the original book on the tholonic model, which was essentially a collection of notes, theories, explanations, and examples, some of which were fringe and some of which were quite mainstream. Some of the ideas in this book have since been discarded, while others have been significantly further developed. This book is currently no longer available as a published work, but it is made available here for historical reference and for those who really enjoy going down rabbit holes.
+</p>
 
 <ul id="botoes">
   <li>

@@ -1,5 +1,270 @@
 ###### Overview of Contents:  Instructions and notes for tholonia.com jekyll docker.  Meant to be official README.md 
 
+
+
+
+
+docker volume create chirpy_bundle
+
+docker run --rm -it \
+```
+docker run --rm -it \
+  --name chirpyRun \
+  -p 4001:4000 -p 35729:35729 \
+  --mount type=bind,src="$(pwd)",target="$(pwd)" \
+  --mount type=volume,src=chirpy_bundle,target=/usr/local/bundle \
+  --workdir "$(pwd)" \
+  -v "/home/jw/src/twitter:/home/jw/src/twitter:ro" \
+  jekyll/jekyll:4 \
+  bash -lc '
+    set -e
+    gem install bundler:2.3.7 --no-document
+    bundle _2.3.7_ lock --add-platform x86_64-linux || true
+    bundle _2.3.7_ install --jobs 4 --retry 3
+    exec bundle _2.3.7_ exec jekyll serve --host 0.0.0.0 --livereload --port 4000 --trace
+  '
+
+
+```
+
+This should output something like:
+
+```
+Fetching bundler-2.3.7.gem
+Successfully installed bundler-2.3.7
+1 gem installed
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies...
+Writing lockfile to /home/jw/sites/tholonia/chirpy2/Gemfile.lock
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies...
+Fetching bigdecimal 3.2.3
+Fetching concurrent-ruby 1.3.5
+Fetching benchmark 0.4.1
+Fetching base64 0.3.0
+Installing base64 0.3.0
+Installing benchmark 0.4.1
+Installing bigdecimal 3.2.3 with native extensions
+Fetching connection_pool 2.5.4
+Fetching drb 2.2.3
+Installing concurrent-ruby 1.3.5
+Installing connection_pool 2.5.4
+Installing drb 2.2.3
+Fetching logger 1.7.0
+Fetching minitest 5.25.5
+Installing logger 1.7.0
+Fetching securerandom 0.4.1
+Installing minitest 5.25.5
+Fetching public_suffix 6.0.2
+Installing securerandom 0.4.1
+Using bundler 2.3.7
+Using colorator 1.1.0
+Fetching csv 3.3.5
+Using eventmachine 1.2.7
+Installing public_suffix 6.0.2
+Using http_parser.rb 0.8.0
+Fetching ffi 1.17.2 (x86_64-linux-musl)
+Installing csv 3.3.5
+Using forwardable-extended 2.6.0
+Fetching racc 1.8.1
+Fetching negarmoji 0.1.10
+Installing racc 1.8.1 with native extensions
+Installing negarmoji 0.1.10
+Installing ffi 1.17.2 (x86_64-linux-musl)
+Using mercenary 0.4.0
+Fetching parallel 1.27.0
+Installing parallel 1.27.0
+Using rainbow 3.1.1
+Using yell 2.2.2
+Fetching zeitwerk 2.6.18
+Using rb-fsevent 0.11.2
+Fetching json 2.15.0
+Installing zeitwerk 2.6.18
+Fetching rexml 3.4.4
+Installing json 2.15.0 with native extensions
+Installing rexml 3.4.4
+Fetching liquid 4.0.4
+Installing liquid 4.0.4
+Fetching rouge 4.6.1
+Installing rouge 4.6.1
+Using safe_yaml 1.0.5
+Fetching unicode-display_width 2.6.0
+Installing unicode-display_width 2.6.0
+Fetching webrick 1.9.1
+Installing webrick 1.9.1
+Using jekyll-paginate 1.1.0
+Fetching i18n 1.14.7
+Installing i18n 1.14.7
+Fetching tzinfo 2.0.6
+Using em-websocket 0.5.3
+Fetching addressable 2.8.7
+Installing tzinfo 2.0.6
+Installing addressable 2.8.7
+Using pathutil 0.16.2
+Fetching ethon 0.15.0
+Using sassc 2.4.0
+Fetching rb-inotify 0.11.1
+Installing ethon 0.15.0
+Installing rb-inotify 0.11.1
+Fetching kramdown 2.5.1
+Fetching terminal-table 3.0.2
+Installing terminal-table 3.0.2
+Installing kramdown 2.5.1
+Fetching nokogiri 1.18.10 (x86_64-linux-musl)
+Using jekyll-sass-converter 2.2.0
+Fetching listen 3.9.0
+Installing listen 3.9.0
+Fetching typhoeus 1.5.0
+Installing typhoeus 1.5.0
+Using kramdown-parser-gfm 1.1.0
+Using jekyll-watch 2.2.1
+Installing nokogiri 1.18.10 (x86_64-linux-musl)
+Fetching html-proofer 4.4.3
+Installing html-proofer 4.4.3
+Fetching jekyll 4.4.1
+Installing jekyll 4.4.1
+Fetching jekyll-archives 2.3.0
+Using jekyll-feed 0.17.0
+Fetching jekyll-include-cache 0.2.1
+Using jekyll-redirect-from 0.16.0
+Using jekyll-seo-tag 2.8.0
+Using jekyll-sitemap 1.4.0
+Fetching jekyll-youtube 1.0.0
+Installing jekyll-archives 2.3.0
+Installing jekyll-include-cache 0.2.1
+Installing jekyll-youtube 1.0.0
+Fetching jekyll-theme-chirpy 6.5.5
+Installing jekyll-theme-chirpy 6.5.5
+Fetching activesupport 7.2.2.2
+Installing activesupport 7.2.2.2
+Using html-pipeline 2.14.3
+Fetching html-pipeline-negarmoji 0.1.6
+Installing html-pipeline-negarmoji 0.1.6
+Fetching jekyll-openmoji 0.1.6
+Installing jekyll-openmoji 0.1.6
+Bundler attempted to update jekyll-sass-converter but its version stayed the same
+Bundler attempted to update sassc but its version stayed the same
+Bundle updated!
+Using base64 0.3.0
+Using benchmark 0.4.1
+Using bigdecimal 3.2.3
+Using concurrent-ruby 1.3.5
+Using connection_pool 2.5.4
+Using drb 2.2.3
+Using i18n 1.14.7
+Using logger 1.7.0
+Using minitest 5.25.5
+Using securerandom 0.4.1
+Using tzinfo 2.0.6
+Using activesupport 7.2.2.2
+Using public_suffix 6.0.2
+Using addressable 2.8.7
+Using bundler 2.3.7
+Using colorator 1.1.0
+Using csv 3.3.5
+Using eventmachine 1.2.7
+Using http_parser.rb 0.8.0
+Using em-websocket 0.5.3
+Using ffi 1.17.2 (x86_64-linux-musl)
+Using ethon 0.15.0
+Using forwardable-extended 2.6.0
+Using racc 1.8.1
+Using nokogiri 1.18.10 (x86_64-linux-musl)
+Using html-pipeline 2.14.3
+Using negarmoji 0.1.10
+Using html-pipeline-negarmoji 0.1.6
+Using mercenary 0.4.0
+Using parallel 1.27.0
+Using rainbow 3.1.1
+Using typhoeus 1.5.0
+Using yell 2.2.2
+Using zeitwerk 2.6.18
+Using html-proofer 4.4.3
+Using sassc 2.4.0
+Using jekyll-sass-converter 2.2.0
+Using rb-fsevent 0.11.2
+Using rb-inotify 0.11.1
+Using listen 3.9.0
+Using jekyll-watch 2.2.1
+Using json 2.15.0
+Using rexml 3.4.4
+Using kramdown 2.5.1
+Using kramdown-parser-gfm 1.1.0
+Using liquid 4.0.4
+Using pathutil 0.16.2
+Using rouge 4.6.1
+Using safe_yaml 1.0.5
+Using unicode-display_width 2.6.0
+Using terminal-table 3.0.2
+Using webrick 1.9.1
+Using jekyll 4.4.1
+Using jekyll-archives 2.3.0
+Using jekyll-feed 0.17.0
+Using jekyll-include-cache 0.2.1
+Using jekyll-openmoji 0.1.6
+Using jekyll-paginate 1.1.0
+Using jekyll-redirect-from 0.16.0
+Using jekyll-seo-tag 2.8.0
+Using jekyll-sitemap 1.4.0
+Using jekyll-theme-chirpy 6.5.5
+Using jekyll-youtube 1.0.0
+Bundle complete! 14 Gemfile dependencies, 63 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+1 installed gem you directly depend on is looking for funding.
+  Run `bundle fund` for details
+Configuration file: /home/jw/sites/tholonia/chirpy2/_config.yml
+            Source: /home/jw/sites/tholonia/chirpy2
+       Destination: /home/jw/sites/tholonia/chirpy2/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+           Warning: Empty `slug` generated for ''.
+       Jekyll Feed: Generating feed for posts
+          Conflict: The following destination is shared by multiple files.
+                    The written file may end up with unexpected contents.
+                    /home/jw/sites/tholonia/chirpy2/_site/feed.xml
+                     - assets/feed.xml
+                     - feed.xml
+                    
+          Conflict: The following destination is shared by multiple files.
+                    The written file may end up with unexpected contents.
+                    /home/jw/sites/tholonia/chirpy2/_site/tags/tetrahedron/index.html
+                     - tags/tetrahedron/index.html
+                     - tags/tetrahedron/index.html
+                    
+          Conflict: The following destination is shared by multiple files.
+                    The written file may end up with unexpected contents.
+                    /home/jw/sites/tholonia/chirpy2/_site/tags/thologram/index.html
+                     - tags/thologram/index.html
+                     - tags/thologram/index.html
+                    
+          Conflict: The following destination is shared by multiple files.
+                    The written file may end up with unexpected contents.
+                    /home/jw/sites/tholonia/chirpy2/_site/tags/energy/index.html
+                     - tags/energy/index.html
+                     - tags/energy/index.html
+                    
+          Conflict: The following destination is shared by multiple files.
+                    The written file may end up with unexpected contents.
+                    /home/jw/sites/tholonia/chirpy2/_site/tags/index.html
+                     - tags/index.html
+                     - /home/jw/sites/tholonia/chirpy2/_tabs/tags.md
+                    
+                    done in 5.986 seconds.
+ Auto-regeneration: enabled for '/home/jw/sites/tholonia/chirpy2'
+LiveReload address: http://0.0.0.0:35729
+    Server address: http://0.0.0.0:4000/
+  Server running... press ctrl-c to stop.
+
+
+
+```
+
+The site should now be live at http://localhost:4001
+
+
+
+
+
 # Step-by-Step Process for Updating the tholonia.com Site
 
 ## Preparation
@@ -23,21 +288,38 @@ Open two terminals.
    ```
    
 3. **If the Chirpy image is not running, start it:**
+   
    ```sh
-   run -it -d -p 4001:4001 -p 35729:35729 --mount src=$(pwd),target=$(pwd),type=bind --name chirpyRun chirpy2:updated
-   ```
+   cd /home/jw/sites/tholonia/chirpy2
+   # docker run -it -d -p 4001:4001 -p 35729:35729 --mount src=$(pwd),target=$(pwd),type=bind --name chirpyRun chirpy2:updated
+   
+   # updated
+   
+   docker run -it -p 4001:4001 -p 35729:35729 --mount src=$(pwd),target=$(pwd),type=bind \
+   --workdir $(pwd) --name chirpyRun chirpy2:updated /bin/bash
+
+```
+
+To rebuild the image completely...
+```
+docker build -t chirpy2:updated .
+```
+
 
 4. **If the Chirpy image is running, access it:**
+   
    ```sh
    docker exec --workdir $(pwd) -it <CID> bash
-   ```
+```
 
 5. **Inside the Docker container, start the server:**
+   
    ```sh
    ./SERVE
    ```
-
+   
 6. **If necessary, install dependencies:**
+   
    ```sh
    bundle install
    ```
@@ -49,6 +331,7 @@ Open two terminals.
 1. **Create a new post:**
 
    ```sh
+   conda activate base
    ./add_post.py -t title
    ```
 2. **Update the post image:**
