@@ -1,0 +1,58 @@
+#!/bin/bash
+R="/home/jw/sites/tholonia/chirpy2"
+P=".ZPROJECTS"
+rm -rf ${R}/${P}
+mkdir  ${R}/${P}
+
+
+
+#MAKE LINK TO FILES
+
+
+# THE_BOOK
+ln -fs ${R}/_the_book 				${R}/${P}/1_the_book
+ln -fs ${R}/_layouts/the_book_FRONT.html	${R}/${P}/1_the_book_FRONT.html
+ln -fs ${R}/_layouts/the_book_SINGLE.html	${R}/${P}/1_the_book_SINGLE.html
+ln -fs ${R}/_tabs/the_book.md			${R}/${P}/1_the_book_TABS.md
+
+# GALLERY
+ln -fs ${R}/_gallery 				${R}/${P}/2_gallery
+ln -fs ${R}/_layouts/gallery_FRONT.html		${R}/${P}/2_gallery_FRONT.html
+ln -fs ${R}/_tabs/gallery.md			${R}/${P}/2_gallery_TABS.md
+
+# MATERIAL
+ln -fs ${R}/_material 				        ${R}/${P}/3_material_ASSETS
+ln -fs ${R}/_layouts/material_FRONT.html	${R}/${P}/3_material_FRONT.html
+ln -fs ${R}/_tabs/material.md			    ${R}/${P}/3_material_TABS.md
+
+# INTERACTIVE
+ln -fs ${R}/_interactive 			        ${R}/${P}/4_interactive_ASSETS
+ln -fs ${R}/_layouts/interactive_FRONT.html	${R}/${P}/4_interactive_FRONT.html
+ln -fs ${R}/_gallery/interactive.md 		${R}/${P}/4_interactive.md
+
+# TRANSFORM
+ln -fs ${R}/_transforms 			        ${R}/${P}/5_transforms_ASSETS
+ln -fs ${R}/_layouts/transforms_FRONT.html 	${R}/${P}/5_transforms_FRONT.html
+ln -fs ${R}/_gallery/transforms.md		    ${R}/${P}/5_transforms.md
+
+# THOLONIC_COLORING_BOOK
+ln -fs ${R}/_tholonic_coloring_book 		        	${R}/${P}/6_tholonic_coloring_book_ASSETS
+ln -fs ${R}/_layouts/tholonic_coloring_book_FRONT.html	${R}/${P}/6_tholonic_coloring_book_FRONT.html
+ln -fs ${R}/_gallery/tholonic_coloring_book.md 		    ${R}/${P}/6_tholonic_coloring_book.md
+
+# VIDEOS
+ln -fs ${R}/_videos 					${R}/${P}/7_videos_ASSETS
+ln -fs ${R}/_layouts/videos_FRONT.html 	${R}/${P}/7_videos_FRONT.html
+ln -fs ${R}/_gallery/videos.md 			${R}/${P}/7_videos.md
+
+# NOTCLOCK
+ln -fs ${R}/_notclock	 			    ${R}/${P}/8_notclock_ASSETS
+# uses PAGE
+ln -fs ${R}/_gallery/notclock.md 		${R}/${P}/8_notclock.md
+
+#POSTS
+ln -fs ${R}/_posts 				${R}/${P}/9_posts
+
+
+
+

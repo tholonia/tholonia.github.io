@@ -1,0 +1,29 @@
+---
+layout: page
+# All the Categories of posts
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/catagories.html -->
+<div id="tags" class="d-flex flex-wrap mx-xl-2">
+  {% comment %}based on https://github.com/mushishi78/jekyll-group-by-array{% endcomment %}
+
+  {% include group-by-array.html collection=site.documents field='categories' %}
+  {% for cat in group_names %}
+    {% assign posts = group_items[forloop.index0] %}
+      {% if cat != blank %}
+      <div style="min-width: 500px;" id="tc_container">
+        <div style="padding-right:10px;border-right: 1px solid yellow;" id="tc_left">
+          <p class="tc_tagname">{{ cat }}</p>
+        </div>
+        <div id="tc_right">
+          <ul>
+            {% for post in posts %}
+            <li class="tc_taglink"><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+  {% endfor %}
+</div>
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/catagories.html -->

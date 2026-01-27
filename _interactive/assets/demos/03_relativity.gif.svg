@@ -1,0 +1,301 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        id="svg"
+        class="svgParent"
+        viewBox="0 0 400 400"
+        style="background-color: #000;"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill-rule="evenodd"
+        xml:space="preserve"
+>
+
+<!--        zoomAndPan="magnify" width="1150" height="767"-->
+
+    <!-- you must wrap scripts in CDATA tags as SVG should be valid XML -->
+    <script type="text/javascript"><![CDATA[
+
+
+<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------- -->
+function resolveAfter2Seconds() {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve('resolved');
+    }, 5000);
+  });
+}
+
+<!-- ------------------------------------------------------------- -->
+async function asyncCall() {
+  console.log('calling');
+  const result = await resolveAfter2Seconds();
+  console.log(result);
+  // expected output: "resolved"
+}
+
+async function test() {
+  console.log('waiting keypress..')
+  await waitingKeypress();
+  console.log('good job!')
+}
+<!-- ------------------------------------------------------------- -->
+function waitingKeypress() {
+  return new Promise((resolve) => {
+    document.addEventListener('keydown', onKeyHandler);
+    function onKeyHandler(e) {
+      if (e.keyCode === 13) {
+        document.removeEventListener('keydown', onKeyHandler);
+        resolve();
+      }
+    }
+  });
+}
+
+<!-- ------------------------------------------------------------- -->
+function getLevel(p) {
+    for (n = 12; n>=0; n--) {
+        if (p >= 2**n) {
+            return(n)
+        }
+    }
+}
+
+<!-- ------------------------------------------------------------- -->
+function Line(idname,obj) {
+  var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+  for(prop in obj) {
+      line.setAttribute(prop, obj[prop])
+  }
+  line.id = idname
+  svg = document.getElementById("svg")
+  svg.appendChild(line);
+  return(document.getElementById(idname))
+}
+<!-- ------------------------------------------------------------- -->
+function Circle(idname,obj) {
+  var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  for(prop in obj) {
+      circle.setAttribute(prop, obj[prop])
+  }
+  circle.id = idname
+  svg = document.getElementById("svg")
+  svg.appendChild(circle);
+  return(document.getElementById(idname))
+}
+
+<!-- ------------------------------------------------------------- -->
+function rad2deg(radians)
+{
+  var pi = Math.PI;
+  return radians * (180/pi);
+}
+<!-- ------------------------------------------------------------- -->
+function deg2rad(degrees)
+{
+  var pi = Math.PI;
+  return degrees / (180/pi);
+}
+
+<!-- ------------------------------------------------------------- -->
+  function drawLine(lineid,classname,pos,width,color,style) {
+     var line = new Line(
+        lineid,
+            {
+                'class':classname,
+                'x1': pos[0],
+                'y1': pos[1],
+                'x2': pos[2],
+                'y2': pos[3],
+                'stroke': color,
+                'stroke-width': width,
+                'stroke-linecap': 'round',
+                'style':style
+            }
+        )
+  }
+<!-- ------------------------------------------------------------- -->
+  function drawCircle(circleid,classname,cx,cy,cradius,fillcolor,borderwidth,bordercolor) {
+    var circle = new Circle(circleid,{'class':classname,'cx': cx, 'cy': cy, 'r': cradius, 'fill': fillcolor, 'stroke-width': borderwidth, 'stroke':bordercolor})
+  }
+<!-- ------------------------------------------------------------- -->
+function bifurc(length,x2,y2,level,pos,angle) {
+  count = count + 1
+  x1 = x2
+  y1 = y2
+
+<!--  angle = baseangle + (baseangle*level)-->
+
+  x2r = length * Math.cos(deg2rad(angle)) + x1
+  y2r = length * Math.sin(deg2rad(angle)) + y1
+
+  x2l = length * Math.cos(deg2rad(angle*-1)) + x1
+  y2l = length * Math.sin(deg2rad(angle*-1)) + y1
+
+  idx = "level0"
+  pos.push([x1,y1,x2r,y2r],[x1,y1,x2l,y2l])
+
+  return(pos)
+}
+<!-- ------------------------------------------------------------- -->
+
+function rebuild(length,angle,pos) {
+    npos = []
+    npos.push(pos[0])
+    npos.push(pos[1])
+    npos.push(pos[2])
+    for (m=1;m<gens;m++) {
+        fr = (npos.length)-(2**m)
+        to = (npos.length)
+        for (i=fr; i<to;i++) {
+            npos = bifurc(length,  npos[i][2] , npos[i][3] ,m,npos,angle )
+        }
+    };
+    return(npos)
+}
+<!-- ------------------------------------------------------------- -->
+function removeElement(id) {
+    var elem = document.getElementById(id);
+    return elem.parentNode.removeChild(elem);
+}
+<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------- -->
+
+px = 0
+py = 0
+const eleSvg = document.querySelector('svg');
+eleSvg.addEventListener('mousemove', ({clientX, clientY}) => {
+  let point = eleSvg.createSVGPoint();
+  point.x = clientX; // 295
+  point.y = clientY; // 195
+  px = point.x
+  py = point.y
+<!--  console.log(px,py)-->
+})
+
+
+colors=['red','orange','yellow','green','cyan','blue','magenta']
+
+count = 0
+height=400
+width=400
+length=30
+baseangle = 30
+gens = 6
+
+var x1 = width/2
+var y1 = height/2
+var x2 = width/2 + length
+var y2 = height/2
+var pos = []
+pos.push([x1,y1,x2,y2])
+
+<!--drawLine("line"+count,-->
+<!--       "lineclass",-->
+<!--       pos[0],-->
+<!--       2,"green"-->
+<!--       )-->
+<!--drawCircle("circleid"+count,-->
+<!--         "circleclass",-->
+<!--         pos[0][2], pos[0][3],-->
+<!--         2,'red',-->
+<!--         1,'yellow'-->
+<!--         )-->
+
+<!--first split-->
+pos = bifurc(length,x2,y2,0,pos,baseangle)
+
+
+<!--pos = rebuild(baseangle,pos)-->
+pos = rebuild(length,py%360,pos)
+
+<!--for (j=1;j<gens;j++) {-->
+<!--    fr = (pos.length)-(2**j)-->
+<!--    to = (pos.length)-->
+<!--    for (i=fr; i<to;i++) {-->
+<!--        bifurc(  pos[i][2] , pos[i][3] ,j )-->
+<!--    }-->
+<!--};-->
+
+for (i=0; i<pos.length;i++) {
+    drawLine("line"+i,
+          "lineclass",
+          pos[i],
+          2,"yellow"
+          )
+<!--    drawCircle("circle"+i,-->
+<!--           "circleclass",-->
+<!--           pos[i][2],-->
+<!--           pos[i][3],-->
+<!--           2,'red',-->
+<!--           1,'yellow'-->
+<!--           )-->
+}
+
+lines = document.querySelectorAll('[id^="line"]')
+var j = 0
+
+setInterval(function() {
+    j = (j + .0166667) % 360
+
+<!--    console.log(j)-->
+    pos=rebuild((px%10000)/10,py%360,pos)
+    console.log("rebuilding")
+
+
+
+    for (i=0; i<pos.length;i++) {
+        this_level = getLevel(i)
+
+        removeElement("line"+i)
+        tr =1
+        try {
+            tr = 1-((this_level+1)/10)
+        } catch {
+            pass
+        }
+<!--        console.log("level",this_level,"opacity:",tr)-->
+        drawLine("line"+i,
+              "lineclass",
+              pos[i],
+              (i%21)+1,colors[i%7],
+              "stroke-opacity: "+tr+";",
+              )
+<!--        removeElement("circle"+i)-->
+<!--        drawCircle("circle"+i,-->
+<!--               "circleclass",-->
+<!--               pos[i][2],-->
+<!--               pos[i][3],-->
+<!--               2,'red',-->
+<!--               1,'yellow'-->
+<!--               )-->
+    }
+
+    lines = document.querySelectorAll('[id^="line"]')
+    for (i = 0; i < lines.length; ++i) {
+        q = i*this_level*j
+        cx1 = lines[i].getAttribute("x2")
+        cy1 = lines[i].getAttribute("y2")
+        lines[i].setAttribute("transform","rotate("+q+","+cx1+","+cy1+")");
+    }
+},50);
+
+
+
+
+  ]]></script>
+</svg>
+
+
+<!--
+lines = document.querySelectorAll('[id^="line"]')
+
+for (i = 0; i < lines.length; ++i) {
+  lines[i].setAttribute('stroke-width','1');
+}
+-->

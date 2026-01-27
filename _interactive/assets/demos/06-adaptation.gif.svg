@@ -1,0 +1,1816 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+        id="svg"
+        class="svg"
+        width="99%"
+        height="99%"
+        viewBox="-540 -540 1080 1080"
+        fill="black"
+        style="border:1px solid #444; background-color: #000;"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke="white"
+        stroke-width="3"
+        xml:space="preserve"
+        align="center"
+>
+    <!--viewBox="-480 -270 960 540" -->
+
+    <!--         viewBox="-540 -960 1080 1920" -->
+    <!--         viewBox="-960 -540 1920 1080" -->
+    <!--         viewBox="-960 -540 1920 1080" -->
+    <!--        transform="translate(0 -0) rotate(-90) "-->
+    <!--        transform="translate(450 -400) rotate(-90) "-->
+    <!--        transform="rotate(-90 50 100)"-->
+    <!--        <rect x="0" y="0" width="400" height="400"  style="stroke: #ffffff; fill:none;"/>-->
+    <!--        width="400"-->
+    <!--        height="400"-->
+    <!--        version="1.1"-->
+    <!--        fill-rule="evenodd"-->
+    <!--        zoomAndPan="magnify" width="1150" height="767"-->
+
+    <!-- you must wrap scripts in CDATA tags as SVG should be valid XML -->
+    <script type="text/javascript"><![CDATA[
+
+
+    <!-- ------------------------------------------------------------- -->
+    class Node {
+        constructor(a, b) {
+            this.x = a;
+            this.y = b;
+        }
+
+        toString() {
+            return "(" + this.x.toFixed(2) + ", " + this.y.toFixed(2) + ")";
+        }
+    }
+    <!--  connections between nodes in a graph -->
+    <!-- ------------------------------------------------------------- -->
+    class Edge {
+        constructor(node_a, node_b) {
+            this.node_1 = node_a;
+            this.node_2 = node_b;
+        }
+        toString() {
+            return "[" + this.node_1.toString() + ", " + this.node_2.toString() + "]";
+        }
+    }
+    <!--  Javascript math library trig functions take radians and not degrees by default -->
+    <!-- ------------------------------------------------------------- -->
+    function toRadians(angle) {
+        return angle * Math.PI / 180;
+    }
+    <!--  recursive collection of nodes and edges that form a tree -->
+    <!-- ------------------------------------------------------------- -->
+    // var tlevel = 0+
+    function sleep(milliseconds) {
+      const date = Date.now();
+      let currentDate = null;
+      do {
+        currentDate = Date.now();
+      } while (currentDate - date < milliseconds);
+    }
+
+    var flip = 0
+    class Tree {
+        <!--  constructor(gens, m, x, y, a, t) {  // renamed to match my old code  -->
+        constructor(gens, lineLength, x, y, angle, rotation) {
+            <!--  all trees have a base node -->
+
+            // lineLength = randint(lineLength,lineLength+(current_x/1000))
+
+            // lineLength = randint(lineLength,Math.floor(lineLength*(vx/200)))
+            // console.log(lineLength)
+
+            // lineLength = lineLength*(1/vx)
+
+            this.base_node = new Node(x, y);
+            <!--  check if we are at end of tree -->
+
+
+            // lineLength = maxlength
+                //lengths[lOrder[tlevel]]
+            // console.log(tlevel, lOrder[tlevel], lineLength)
+
+            // let today = new Date(), today_abs = new Date(), today_secs = 0;
+            // today_abs.setHours(0);
+            // today_abs.setMinutes(0);
+            // today_abs.setSeconds(0);
+            // today_secs = ((today.getTime() - today_abs.getTime()) / 1000) - 14400;
+            // color_sec = cycle_in_range(today_secs % 360,0, 256)
+            // console.log("x",(today_secs)
+
+            if (gens > 0) {
+                // creates interactive offset
+                let Rangle = angle * (current_y/1000)
+                let Langle = angle * (current_x/1000)
+                // creates interactive offset
+                // let Rangle = angle //* (current_y/1000)
+                // let Langle = angle //* (current_y/1000)
+                //
+                // let Rangle = angle - (90)
+                // let Langle = angle * (current_x/1000)
+
+                // let Rangle = angle + (today_secs * current_level)// * (current_y/1000)
+                // let Langle = angle + Rangle//* (current_x/1000)
+
+                this.xcR = Math.cos(toRadians(Rangle - rotation))
+                this.ycR = Math.sin(toRadians(Rangle - rotation))
+                this.xcL = Math.cos(toRadians(Langle + rotation))
+                this.ycL = Math.sin(toRadians(Langle + rotation))
+                <!--  determine next node to the right in the tree with trig -->
+                this.right_node = new Node(
+                    x + lineLength * this.xcR,
+                    y + lineLength * this.ycR
+                );
+
+                // tline( x, y, this.xcR, this.ycR, tlevel, angle,length)
+                // tline( x, y, this.xcL, this.ycL, tlevel, angle,length)
+
+                <!--  determine next node to the left in the tree with trig -->
+                    this.left_node = new Node(
+                    x + lineLength * this.xcL,
+                    y + lineLength * this.ycL
+                );
+
+                <!--  create edges in the graph that connect the base node to the following nodes -->
+                this.right_branch = new Edge(this.base_node, this.right_node);
+                this.left_branch = new Edge(this.base_node, this.left_node);
+
+                <!--  generate a tree beginning at the left node, with a lower depth and new start angle -->
+                this.left_tree = new Tree(
+                    gens - 1,
+                    lineLength,
+                    this.left_node.x,
+                    this.left_node.y,
+                    angle + rotation,
+                    rotation
+                );
+
+
+                <!--  generate a tree beginning at the right node, with a lower depth and new start angle -->
+                this.right_tree = new Tree(
+                    gens - 1,
+                    lineLength,
+                    this.right_node.x,
+                    this.right_node.y,
+                    angle - rotation,
+                    rotation
+                );
+
+                // console.log("LL",tlevel,current_level)
+
+                tline( x, y, this.left_node.x, this.left_node.y, current_level, angle,lineLength)
+                tline( x, y, this.right_node.x, this.right_node.y, current_level, angle,lineLength)
+                // tline( x, y, this.left_node.x, this.left_node.y, tlevel, angle,lineLength)
+                // tline( x, y, this.right_node.x, this.right_node.y, tlevel, angle,lineLength)
+
+            }
+        }
+    }
+    <!-- ------------------------------------------------------------- -->
+    function getColorScheme(n, c ) {
+        let colorscheme = {}
+        if (n === 0) {
+            let offset_1 = "0%";
+            let offset_2 = "50%";
+            let offset_3 = "100%";
+
+            <!--  objectBoundingBox vs userSpaceOnUse  -->
+
+            colorscheme = {
+                0: {
+                    'stops': [{"color": c[0], "offset": offset_1}, {
+                        "color": c[1],
+                        "offset": "50%"
+                    }, {"color": c[2], "offset": "100%"}],
+                    'box': 'userSpaceOnUse'
+                },
+                1: {
+                    'stops': [{"color": c[1], "offset": offset_1}, {
+                        "color": c[2],
+                        "offset": offset_2
+                    }, {"color": c[3], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                2: {
+                    'stops': [{"color": c[2], "offset": offset_1}, {
+                        "color": c[3],
+                        "offset": offset_2
+                    }, {"color": c[4], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                3: {
+                    'stops': [{"color": c[3], "offset": offset_1}, {
+                        "color": c[4],
+                        "offset": offset_2
+                    }, {"color": c[5], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                4: {
+                    'stops': [{"color": c[4], "offset": offset_1}, {
+                        "color": c[5],
+                        "offset": offset_2
+                    }, {"color": c[6], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                5: {
+                    'stops': [{"color": c[5], "offset": offset_1}, {
+                        "color": c[5],
+                        "offset": offset_2
+                    }, {"color": c[7], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                6: {
+                    'stops': [{"color": c[6], "offset": offset_1}, {
+                        "color": c[7],
+                        "offset": offset_2
+                    }, {"color": c[8], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                7: {
+                    'stops': [{"color": c[7], "offset": offset_1}, {
+                        "color": c[8],
+                        "offset": "50%"
+                    }, {"color": c[9], "offset": "100%"}],
+                    'box': 'userSpaceOnUse'
+                },
+                8: {
+                    'stops': [{"color": c[9], "offset": offset_1}, {
+                        "color": c[10],
+                        "offset": offset_2
+                    }, {"color": c[11], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+                9: {
+                    'stops': [{"color": c[10], "offset": offset_1}, {
+                        "color": c[11],
+                        "offset": offset_2
+                    }, {"color": c[12], "offset": offset_3}],
+                    'box': 'userSpaceOnUse'
+                },
+            }
+        }
+        if (n === 1) {
+            let offset_1 = "0%";
+            let offset_2 = "100%";
+            colorscheme = {
+                0: {
+                    'stops': [{"color": c[0], "offset": offset_1}, {"color": c[1], "offset": "50%"}],
+                    'box': 'objectBoundingBox'
+                },
+                1: {
+                    'stops': [{"color": c[1], "offset": offset_1}, {"color": c[2], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                2: {
+                    'stops': [{"color": c[2], "offset": offset_1}, {"color": c[3], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                3: {
+                    'stops': [{"color": c[3], "offset": offset_1}, {"color": c[4], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                4: {
+                    'stops': [{"color": c[4], "offset": offset_1}, {"color": c[5], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                5: {
+                    'stops': [{"color": c[5], "offset": offset_1}, {"color": c[6], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                },
+                6: {
+                    'stops': [{"color": c[6], "offset": offset_1}, {"color": c[7], "offset": offset_2}],
+                    'box': 'objectBoundingBox'
+                }
+            }
+        }
+        if (n === 2) {
+            let offset_1 = "0%";
+            let offset_2 = "25%";
+            let offset_3 = "50%";
+            let offset_4 = "75%";
+            colorscheme = {
+                0: {
+                    'stops': [
+                        {"color": c[0], "offset": offset_1},
+                        {"color": c[1], "offset": offset_2},
+                        {"color": c[2], "offset": offset_3},
+                        {"color": c[3], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                },
+                1: {
+                    'stops': [
+                        {"color": c[1], "offset": offset_1},
+                        {"color": c[2], "offset": offset_2},
+                        {"color": c[3], "offset": offset_3},
+                        {"color": c[4], "offset": offset_4}
+                    ],
+                    'box': 'userSpaceOnUse'
+                },
+                2: {
+                    'stops': [
+                        {"color": c[2], "offset": offset_1},
+                        {"color": c[3], "offset": offset_2},
+                        {"color": c[4], "offset": offset_3},
+                        {"color": c[5], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                },
+                3: {
+                    'stops': [
+                        {"color": c[3], "offset": offset_1},
+                        {"color": c[4], "offset": offset_2},
+                        {"color": c[5], "offset": offset_3},
+                        {"color": c[6], "offset": offset_4}
+                    ],
+                    'box': 'userSpaceOnUse'
+                },
+                4: {
+                    'stops': [
+                        {"color": c[4], "offset": offset_1},
+                        {"color": c[5], "offset": offset_2},
+                        {"color": c[6], "offset": offset_3},
+                        {"color": c[7], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                },
+                5: {
+                    'stops': [
+                        {"color": c[5], "offset": offset_1},
+                        {"color": c[6], "offset": offset_2},
+                        {"color": c[7], "offset": offset_3},
+                        {"color": c[8], "offset": offset_4}
+                    ],
+                    'box': 'userSpaceOnUse'
+                },
+                6: {
+                    'stops': [
+                        {"color": c[6], "offset": offset_1},
+                        {"color": c[7], "offset": offset_2},
+                        {"color": c[8], "offset": offset_3},
+                        {"color": c[9], "offset": offset_4}
+                    ],
+                    'box': 'objectBoundingBox'
+                }
+            }
+        }
+        return (colorscheme)
+    }
+    <!--  traverse a tree object and return the edges in the form of a list -->
+    <!-- ------------------------------------------------------------- -->
+
+    function getTreeEdges(tree) {
+        tlevel++
+        // cOrder.push(tlevel)
+        if (tree.left_tree) {
+            var edges = getTreeEdges(tree.right_tree).concat(getTreeEdges(tree.left_tree));
+            edges.push(tree.left_branch);
+            edgeNum++
+            edges.push(tree.right_branch);
+            edgeNum++
+            return edges;
+        } else {
+            return [];
+        }
+        tlevel--
+
+    }
+    <!-- ------------------------------------------------------------- -->
+    function drawLine(args) {
+        let line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.id = args['idname'];
+
+        line.setAttribute("x1", args['x1']);
+        line.setAttribute("y1", args['y1']);
+        line.setAttribute("x2", args['x2']);
+        line.setAttribute("y2", args['y2']);
+        line.setAttribute("stroke", args['color']);
+        line.setAttribute("stroke-width", args['width']);
+        line.setAttribute("style", args['style']);
+        line.setAttribute("class", args['classname']);
+        line.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(line);
+        return (document.getElementById(args['idname']));
+    }
+    function drawArrow(args) {
+        let arrow = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        arrow.id = args['idname'];
+
+        arrow.setAttribute("x1", args['x2'] );
+        arrow.setAttribute("y1", args['y2'] );
+        arrow.setAttribute("x2", args['x2']+30 );
+        arrow.setAttribute("y2", args['y2']+30 );
+        arrow.setAttribute("stroke", args['color']);
+        arrow.setAttribute("stroke-width", args['width']);
+        arrow.setAttribute("style", args['style']);
+        arrow.setAttribute("class", args['classname']);
+        arrow.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(arrow);
+        return (document.getElementById(args['idname']));
+    }
+
+    <!-- ------------------------------------------------------------- -->
+    function drawCircle_end(args) {
+        let circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+
+        circle.id = args['idname'];
+
+        circle.setAttribute("cx", String(Math.round(args['cx'])));
+        circle.setAttribute("cy", String(Math.round(args['cy'])));
+        circle.setAttribute("r", String(Math.round(args['radius'])));
+        circle.setAttribute("fill", args['color']);
+        circle.setAttribute("stroke", args['bordercolor']);
+        circle.setAttribute("stroke-width", args['borderwidth']);
+        circle.setAttribute("style", args['style']);
+        circle.setAttribute("class", args['classname']);
+        circle.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(circle);
+        return (document.getElementById(args['idname']));
+    }
+    <!-- ------------------------------------------------------------- -->
+    function drawPoly1(args) {
+        let poly1 = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+
+        leafcount = (leafcount + 1) % 36000
+
+        color = args['color']
+        // let altcolor  = hex2rgb(args['color'])
+        <!--    TO MAKE ONE SIDED: alength1 = 0 -->
+        let alength = args['length']  //Math.round(args['length'] / .5);
+        let alength1 = alength;
+        let alength2 = alength;
+
+        let level = args['level'];
+
+        let cxs = args['cxs'];
+        let cys = args['cys'];
+        let cxt = args['cxt'];
+        let cyt = args['cyt'];
+        let angle = args['angle'];
+
+
+        let rangle = deg2rad(angle);
+        <!-- get the angle of the line -->
+        let this_angle_rad = Math.atan2(cyt - cys, cxt - cxs);
+
+        current_opacity = opacityx[level]
+        // let opacity = "0.3"
+        let opacity = current_opacity
+
+        <!--    create the pairs -->
+        let ptsary = [];
+
+        cdiv2 = current_x/5000
+
+        if (leaf_mode === 0) {
+            colorSchemeIndex = 0
+            paletteIndex = 0
+            colors = colors2[paletteIndex]
+            colorScheme = getColorScheme(colorSchemeIndex, colors)
+            pensize = pensizes[6]
+
+            <!--    calc 1st corner point    -->
+            let p2x = alength1 * (Math.cos(rangle ) * +10) + cxs;
+            // p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            let p2y = alength1 * (Math.sin(rangle ) * +10) + cys;
+            // p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+            <!--    calc 2nd corner point    -->
+            let p3x = alength2 * (Math.cos(rangle ) * -10) + cxs;
+            // p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            let p3y = alength2 * (Math.sin(rangle ) * -10) + cys;
+            // p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            p2x = randfloat(p2x,p2x+cdiv2)
+            p2y = randfloat(p2y,p2y+cdiv2)
+            p3x = randfloat(p3x,p3x+cdiv2)
+            p3y = randfloat(p3y,p3y+cdiv2)
+
+
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(p2x+","+p2y)
+            ptsary.push(p3x+","+p3y)
+            ptsary.push(cxt+","+cyt)
+
+            opacity = "0.3"
+
+        }
+        <!--    fireball-->
+        if (leaf_mode === 10) {
+            colors = colors3[Math.floor(leafcount/100)]
+            // pensize = pensizes[6]
+
+            nlength = 5
+
+            let vx2 = vx*20
+            rangle = deg2rad(randfloat(angle-vx2,angle+vx2));
+            // rangle = randint(rangle,rangle+current_x)
+
+            <!--    calc 1st corner point    -->
+            let p2x = nlength * (Math.cos(rangle) * +10) + cxs;
+            // p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            let p2y = nlength * (Math.sin(rangle) * +10) + cys;
+            // p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+            <!--    calc 2nd corner point    -->
+            let p3x = nlength * (Math.cos(rangle) * -10) + cxs;
+            // p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            let p3y = nlength * (Math.sin(rangle) * -10) + cys;
+            // p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            p2x = randfloat(p2x,p2x+vx2)
+            p2y = randfloat(p2y,p2y+vx2)
+            p3x = randfloat(p3x,p3x+vx2)
+            p3y = randfloat(p3y,p3y+vx2)
+
+            ptsary.push(cxt + "," + cyt)
+            ptsary.push(p2x + "," + p2y)
+            ptsary.push(p3x + "," + p3y)
+            ptsary.push(cxt + "," + cyt)
+
+            current_opacity = opacityx[level]
+            // let opacity = "0.3"
+            let opacity = current_opacity
+
+        }
+        if (leaf_mode === 20) {
+            colors = colors3[Math.floor(leafcount/100)]
+            // pensize = pensizes[6]
+
+            nlength = 5
+
+            let vx2 = vx*20
+            rangle = deg2rad(randfloat(angle-vx2,angle+vx2));
+
+            alength1 = vx*200
+            p2x = alength1 * (Math.cos(rangle + this_angle_rad) * +1) + cxs;
+            p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            p2y = alength1 * (Math.sin(rangle + this_angle_rad) * +1) + cys;
+            p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+
+            alength2 = vy*200 //alength*6
+            p3x = alength2 * (Math.cos(rangle + this_angle_rad) * -1) + cxs;
+            p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            p3y = alength2 * (Math.sin(rangle + this_angle_rad) * -1) + cys;
+            p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(p2x+","+p2y)
+            ptsary.push(p3x+","+p3y)
+            ptsary.push(cxt+","+cyt)
+
+
+        }
+
+        if (leaf_mode === 2) {
+            alength1 = alength*3
+            p2x = alength1 * (Math.cos(rangle) * +1) + cxs;
+            p2x = alength1 * (Math.cos(rangle) * +1) + cxs;
+            p2x = p2x - ((p2x - cxt)* (1 - (level / 10)));
+            p2y = alength1 * (Math.sin(rangle) * +1) + cys;
+            p2y = p2y - ((p2y - cyt)* (1 - (level / 10)));
+
+            alength2 = alength*30
+            p3x = alength2 * (Math.cos(rangle + (this_angle_rad * level)) * -1) + cxs;
+            p3x = p3x - ((p3x - cxt)* (1 - (level / 10)));
+            p3y = alength2 * (Math.sin(rangle + (this_angle_rad * level)) * -1) + cys;
+            p3y = p3y - ((p3y - cyt)* (1 - (level / 10)));
+
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(p2x+","+p2y)
+            ptsary.push(p3x+","+p3y)
+            ptsary.push(cxt+","+cyt)
+        }
+
+        if (leaf_mode === 3) {
+            ptsary.push(cxt+","+cyt)
+            ptsary.push(randint(cxt,p2y)+","+randint(p2x,cyt))
+            ptsary.push(randint(p2x,p3y)+","+randint(p3x,p2y))
+            ptsary.push(randint(p3x,cyt)+","+randint(cxt,p3y))
+            ptsary.push(randint(cxt,p2y)+","+randint(p2x,cyt))
+            ptsary.push(randint(p2x,p3y)+","+randint(p3x,p2y))
+            ptsary.push(randint(p3x,cyt)+","+randint(cxt,p3y))
+            ptsary.push(cxt+","+cyt)
+        }
+
+        if (leaf_mode === 4) {
+            let a1 = cxt * level;
+            let a2 = cyt * level;
+            let b1 = p2x * level;
+            let b2 = p2y * level;
+            let c1 = p3x * level;
+            let c2 = p3y * level;
+
+            ptsary.push(a1 + "," + a2);
+            ptsary.push(randint(a1, a2) + "," + randint(a1, a2));
+            ptsary.push(b1 + "," + b2);
+            ptsary.push(randint(b1, b2) + "," + randint(b1, b2));
+            ptsary.push(c1 + "," + c2);
+            ptsary.push(randint(c1, c2) + "," + randint(c1, c2));
+            ptsary.push(a1 + "," + a2);
+        }
+
+        let pts = "";
+        for (let i = 0; i < ptsary.length; i++) {
+            pts = pts + " " + ptsary[i];
+        }
+        // <!--BEGIN GRADIENT-->
+        // let svgns = 'http://www.w3.org/2000/svg';
+        // let defs = document.createElementNS(svgns, 'defs');
+        // let gradient = document.createElementNS(svgns, 'radialGradient');
+        //
+        // let stops = colorScheme[level]['stops'];
+        // console.log("colorScheme",colorScheme)
+        // console.log("stops",stops)
+        //
+        // for (let i = 0, length = stops.length; i < length; i++) {
+        //     let stop = document.createElementNS(svgns, 'stop');
+        //     stop.setAttribute('offset', stops[i].offset);
+        //     stop.setAttribute('stop-color', stops[i].color);
+        //     gradient.appendChild(stop);
+        // }
+        //
+        // let idver = "radialGradient_" + level;
+        // let idverurl = "url(#" + idver + ")";
+        // let space = colorScheme[level]['box'];
+        //
+        // console.log("space",space)
+        // console.log("pts",pts)
+        //
+        // gradient.id = idver;
+        // gradient.setAttribute('gradientUnits', space);
+        // gradient.setAttribute('cx', String(cxt));
+        // gradient.setAttribute('cy', String(cyt));
+        // gradient.setAttribute('r', "50%");
+        // defs.appendChild(gradient);
+        //
+        // svg.appendChild(defs);
+        // <!--END GRADIENT-->
+
+        // CL("xlevel",current_level)
+
+        poly1.id = args['idname'];
+        poly1.setAttribute("points", pts);
+        poly1.setAttribute("opacity", current_opacity);
+        poly1.setAttribute("stroke", args['bordercolor']);
+        poly1.setAttribute("stroke-width", args['borderwidth']);
+        // poly1.setAttribute("fill", idverurl);
+
+        poly1.setAttribute("fill", color);
+        poly1.setAttribute("class", args['classname']);
+        poly1.setAttribute("stroke-linecap", "round");
+
+        svg.appendChild(poly1);
+        return (document.getElementById(args['idname']));
+    }
+    <!-- ------------------------------------------------------------- -->
+    function tline(x1, y1, x2, y2, level, angle,length) {
+        // length = length + 0
+        // angle = angle+0
+        // sleep(10);
+        // alert("line")
+        drawLine({
+            'idname': "line" + level,
+            'classname': "lineclass",
+            'x1': x1,
+            'y1': y1,
+            'x2': x2,
+            'y2': y2,
+            'width': pensize[level],
+            'color': colors[level],
+            'style': "",
+            'angle': angle,
+            'length':length
+
+
+
+
+        })
+        // drawArrow({
+        //     'idname': "arrow" + level,
+        //     'classname': "arrowclass",
+        //     'x1': x1,
+        //     'y1': y1,
+        //     'x2': x2,
+        //     'y2': y2,
+        //     'width': pensize[level],
+        //     'color': colors[level],
+        //     'style': "",
+        //     'angle': angle,
+        //     'length':length
+        // })
+
+
+        // if ((SHOWLEAVES === 1) && (current_level <4)){
+        if (SHOWLEAVES === 1) {
+            drawPoly1({
+                'idname': "poly1" + level,
+                'classname': "poly1class",
+                'cxs': x1,
+                'cys': y1,
+                'cxt': x2,
+                'cyt': y2,
+                'radius': 10,
+                'borderwidth': 2,
+                'style': "",
+                'length': 3,
+                'level': level,
+                'angle': angle,
+                'color': colors[level],
+                'bordercolor': colors[(level + 4) % 6],
+            <!--    calc 2nd corner point    -->
+            })
+                // 'color': colors[level],
+                // 'bordercolor': colors[(level+5)%6],
+
+
+// alert(1)
+
+         }
+        if (SHOWDOTS === 1) {
+            drawCircle_end({
+                'idname': "circleend" + level,
+                'classname': "circleendclass",
+                'cx': x1,
+                'cy': y1,
+                'radius': 6,
+                'color': colors[(level + 2) % 6],
+                'borderwidth': 1,
+                'bordercolor': colors[(level + 4) % 6],
+                'style': ""
+            })
+        }
+    }
+    <!--  draw the tree for testing purposes -->
+    <!-- ------------------------------------------------------------- -->
+    function clearCanvas() {
+        const myNode = document.getElementById("svg");
+        while (myNode.firstChild) {
+            myNode.removeChild(myNode.lastChild);
+        }
+    }
+    <!-- ------------------------------------------------------------- -->
+    function cycle_in_range(number, amin, amax, invert=0) {
+        try {
+            mod_num = number % amax
+        } catch {
+            mod_num = 0
+        }
+
+        try {
+            mod_num2 = number % (amax * 2)
+        } catch {
+            mod_num2 = 0
+        }
+
+        new_val1 = Math.abs(mod_num2 - (mod_num * 2))
+
+        old_min = 0
+        old_min = 0
+        old_max = amax
+        new_max = amax
+        new_min = amin
+
+        try {
+            new_value = ((new_val1 - old_min) / (old_max - old_min)) * (new_max - new_min) + new_min
+        } catch {
+            new_value = 0
+        }
+        if (invert == 1) {
+            new_value = amax - new_value
+        }
+        return (Math.round(new_value))
+    }
+    <!-- ------------------------------------------------------------- -->
+    function clearSVG() {
+        var svg = document.getElementById("svg");
+        svg.parentNode.replaceChild(svg.cloneNode(false), svg);
+    }
+    <!-- ------------------------------------------------------------- -->
+    function sleep(miliseconds) {
+        var currentTime = new Date().getTime();
+        while (currentTime + miliseconds >= new Date().getTime()) {
+        }
+    }
+    <!-- ------------------------------------------------------------- -->
+    function deg2rad(degrees) {
+        let pi = Math.PI;
+        return degrees / (180 / pi);
+    }
+    <!-- ------------------------------------------------------------- -->
+    function rad2deg(radians) {
+        let pi = Math.PI;
+        return radians * (180 / pi);
+    }
+    <!-- ------------------------------------------------------------- -->
+    function getLevel(p) {
+        for (n = 12; n >= 0; n--) {
+            if (p >= 2 ** n) {
+                return (n)
+            }
+        }
+        return (0)
+    }
+
+    function drawForm(gens, length, start_x, start_y, angle, rotation, level) {
+        // flip last 2 args
+        endpoints = drawTree(gens, length, start_x, start_y, rotation, angle,level);
+        return(endpoints)
+    }
+
+    function clockTree(gens, length, start_x, start_y, angle, rotation) {
+        let today = new Date(), today_abs = new Date(), today_secs = 0;
+        today_abs.setHours(0);
+        today_abs.setMinutes(0);
+        today_abs.setSeconds(0);
+        today_secs = ((today.getTime() - today_abs.getTime()) / 1000) - 14400;
+
+        if (today_secs < 0) {
+            today_secs = today_secs + 86400
+        }
+        if (today_secs > 86400) {
+            today_secs = today_secs - 86400
+        }
+
+
+        let tangle = 360 * (today_secs/86400)
+
+        drawTree(gens, length, start_x, start_y, rotation, tangle, level)
+   }
+
+
+    <!-- ------------------------------------------------------------- -->
+    function randint(min, max) { // min and max included
+        return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+    function randfloat(min, max) { // min and max included
+        let r = Math.random() * (max - min + 1) + min
+        let t = Math.floor(r*10)/10
+        return(t)
+    }
+
+    function norm(val, max, min) {
+        return (val - min) / (max - min);
+    }
+
+    <!-- ------------------------------------------------------------- -->
+    function drawTree(gens, this_length, start_x, start_y, branch_angle, rotation, level) {
+        baseangle = rotation // REMEMNER THE LAST TWO ARGS ARE FLIPPED, SO THIS SI REALLY branch_angle
+
+
+        <!--  clearSVG() doesn't work when the root element is 'svg', as is the case here (I *THINK* this it is necessary -->
+        <!--  when creating an SVG that is XML compliant) -->
+        <!--  clearSVG(); -->
+        tlevel = 0
+
+        var draw_tree = new Tree(gens, this_length, start_x, start_y, branch_angle, rotation);
+        edgeNum = 0
+        var draw_edges = getTreeEdges(draw_tree);
+        var svg = document.getElementById("svg");
+
+        gen = 0
+        // draw_edges.forEach(element => {
+        //     // let level = lOrder[gen]
+        //     let x1 = element.node_1.x
+        //     let y1 = element.node_1.y
+        //     let x2 = element.node_2.x
+        //     let y2 = element.node_2.y
+        //     tline( x1, y1, x2, y2, level, branch_angle,this_length)
+        //     gen++;
+        // });
+
+
+        endpoints = [[draw_edges[0].node_2.x,draw_edges[0].node_2.y],[draw_edges[1].node_2.x,draw_edges[1].node_2.y]]
+        return(endpoints)
+    }
+    <!-- ------------------------------------------------------------- -->
+
+    // drawForm(gens, maxlength, start_x, start_y, baseangle + (current_y/100), rotation
+    function ldraw(NA, maxlength, start_x, start_y, angle, rotation) {
+        clearCanvas()
+
+        current_level = 0
+        maxlength = lengths[0]
+        var endpoints = drawForm(1, maxlength, start_x, start_y, angle, rotation,current_level)
+        prevEndPoints = 0;
+        for (j = 1; j<6 ;j++) {
+            current_level = j
+            maxlength = lengths[j]
+            gens = j + 1
+            for (let i = 0; i < endpoints.length; i++) {
+                // current_level = i
+                // CL("level",j)
+                // endpoints = drawForm(2, maxlength, endpoints[i][0], endpoints[i][1], baseangle + (current_y / 100), rotation)
+                endpoints = drawForm(gens, maxlength, start_x, start_y, angle, rotation, current_level)
+            }
+        }
+    }
+
+
+    function RGBToHex(r,g,b) {
+      r = r.toString(16);
+      g = g.toString(16);
+      b = b.toString(16);
+
+      if (r.length == 1)
+        r = "0" + r;
+      if (g.length == 1)
+        g = "0" + g;
+      if (b.length == 1)
+        b = "0" + b;
+
+      return "#" + r + g + b;
+    }
+
+    function hex2rgb(hx) {
+        hx = hx.slice(1)
+        var aRgbHex = hx.match(/.{1,2}/g);
+
+        let rd = parseInt(aRgbHex[0], 16)
+        let gd = parseInt(aRgbHex[1], 16)
+            let bd = parseInt(aRgbHex[2], 16)
+
+        let nr = (rd + r_color_sec) % 256
+        let ng = (gd + g_color_sec) % 256
+        let nb = (bd + b_color_sec) % 256
+
+        return(RGBToHex(nr,ng,nb))
+    }
+
+
+    <!-- ------------------------------------------------------------- -->
+
+    // var colors3 = getColorAry(1)
+    var colors3 = getColorAry(2)
+
+    var svg = document.getElementById("svg");
+    var colors2 = [
+        ["#ff0000", "#ff8800", "#ffff00", "#00ff00", "#00ffff", "#0000ff"],                    //0
+        ['#D72504', '#D72504', '#D72504', '#D72504', '#E09E7C', '#E3A17F'], //1
+        ['#d72631', '#a2d5c6', '#077b8a', '#5c3c92', '#1e3d59', '#f5f0e1'], //2
+        ['#222222', '#444444', '#666666', '#888888', '#aaaaaa', '#cccccc'], //3
+
+        ["#3a5065", "#e7d5ad", "#3a5065", "#e7d5ad", "#3a5065", "#e7d5ad"], //4 denimbamboo
+        ["#0900bc", "#0030ef", "#421cef", "#6666ff", "#5489ef", "#89acff"], //5 blues
+        ["#ffba00", "#ffbf00", "#ffd800", "#ffdf00", "#ffff00", "#fff77d"], //6 yellows
+        ["#68bb59", "#acdf87", "#4c9a2a", "#76ba1b", "#a4de02", "#1e5631"], //7 greens
+        ["#33190b", "#672400", "#a14415", "#a95815", "#c69552", "#d7b17e"], //8 browns
+        ["#ffffff", "#eeeeee", "#dddddd", "#cccccc", "#bbbbbb", "#aaaaaa"], //9 lightgrays
+        ["#5a3313", "#a86f3b", "#7d8558", "#cecc06", "#cb7d98", "#ca4c25"], //10 default
+        ["#567097", "#6291d8", "#aed4c4", "#6ed0eb", "#567097", "#6291d8"], //11 medical_gray
+        ["#567097", "#6291d8", "#6ed0eb", "#567097", "#6291d8", "#6ed0eb"], //12 medical_gray_3
+        ["#F51720", "#FA26A0", "#F8D210", "#2FF3E0", "#F51720", "#FA26A0"], //13 aura_reD
+        ["#00ff00", "#ff8800", "#0000ff", "#ff0000", "#00ffff", "#ffff00"],                    //14
+
+    ]
+    var colorSchemeIndex = 0
+    var paletteIndex = 0
+    var colors = colors3[paletteIndex]
+    var colorScheme = getColorScheme(colorSchemeIndex, colors)
+
+    var opacityx = [
+        0.6,
+        0.5,
+        0.4,
+        0.3,
+        0.2,
+        0.1
+    ]
+
+    var current_opacity = 0
+
+    //
+    // var lOrder=[5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,1,1,5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,5,5,5,5,4,4,5,5,5,5,4,4,3,3,5,5,5,5,4,4,5,5,5,5,4,4,3,3,2,2,1,1,0,0]
+    // var cOrder = []
+
+    var pensizes = [
+        [0,0,0,0,0,0],
+        [1,1,1,1,1,1],
+        [100,200,400,800,1600,3200],
+        [222,222,222,222,222,222,222],
+        [44,44,44,44,44,44],
+        [61, 51, 41, 31, 21, 11, 1],
+        [17, 13, 11, 7, 5, 3, 1],
+        [5,5,5,5,5,5],
+    ]
+    // var pensize = pensizes[5]
+    var pensize = pensizes[0]
+    var SHOWLEAVES = 1
+
+   var lengths2 = [
+       [200,200,200,0,0,0],
+       [60,60,60,60,60,60],
+       [300,250,200,150,100,50],
+       [15,30,45,60,45,30],
+       [20,50,80,110,80,50],
+       [169,120,84,60,42,30],
+       [339,239,170,120,84,60]
+
+       ]
+   var lengths = lengths2[1]
+
+    var edgeNum = 0
+    var gens = 6
+    var gen = 0
+    var maxlength = lengths[0]
+    var start_x = 0
+    var start_y = 0
+    var length = maxlength
+    var angle = 0
+    var rotation = 270
+
+    var show_message = true
+    var last_pos = 0
+    var SHOWDOTS = 0
+    var leaf_mode = 20
+    var baseangle = 15
+    var current_level = 0
+    var current_x = 0
+    var current_y = 0
+    var vx = 0
+    var vy = 0
+    var r_color_sec = 0;
+    var g_color_sec = 0;
+    var b_color_sec = 0;
+    var leafcount = 0
+    var current_secs = 0
+
+    const eleSvg = document.querySelector('svg');
+    eleSvg.addEventListener('mousemove', ({clientX, clientY}) => {
+        let point = eleSvg.createSVGPoint();
+        point.x = clientX;
+        point.y = clientY;
+        current_x = point.x
+        current_y = point.y
+        vx =  cycle_in_range((current_x/3), -200, 200)/100  //(current_x/960)
+        vy =  cycle_in_range((current_y/3), -200, 200)/100  //(current_x/960)
+    })
+    amult = 100
+
+    // let introobj = getIntroImage();
+    // introobj.setAttribute("x","-400")
+    // introobj.setAttribute("y","-400")
+    // introobj.setAttribute("height","80%")
+    // svg.appendChild(introobj);
+
+    setInterval(function() {
+            let today = new Date(), today_abs = new Date(), today_secs = 0;
+            today_abs.setHours(0);
+            today_abs.setMinutes(0);
+            today_abs.setSeconds(0);
+            today_secs = ((today.getTime() - today_abs.getTime()) / 1000);
+            // color_sec = cycle_in_range(today_secs % 360,0, 256)
+            r_color_sec = today_secs
+            g_color_sec = (today_secs + 60)
+            b_color_sec = (today_secs + 120)
+
+            cts = Math.floor(today_secs % 360)
+            current_secs = cts
+            console.log(cts)
+            colors = colors3[cts]
+
+            ldraw(gens, maxlength, start_x, start_y, baseangle + (vy), rotation)
+        },100);
+
+    function getColorAry(i) {
+        if (i === 1) {
+            let cary = [
+                ['#fe0004', '#ff0006', '#ff0009', '#ff000d', '#ff0012', '#ff0015'],
+                ['#ff0006', '#ff0009', '#ff000d', '#ff0012', '#ff0015', '#fe0018'],
+                ['#ff0009', '#ff000d', '#ff0012', '#ff0015', '#fe0018', '#ff001e'],
+                ['#ff000d', '#ff0012', '#ff0015', '#fe0018', '#ff001e', '#fe0021'],
+                ['#ff0012', '#ff0015', '#fe0018', '#ff001e', '#fe0021', '#fe0027'],
+                ['#ff0015', '#fe0018', '#ff001e', '#fe0021', '#fe0027', '#fe002b'],
+                ['#fe0018', '#ff001e', '#fe0021', '#fe0027', '#fe002b', '#fe0030'],
+                ['#ff001e', '#fe0021', '#fe0027', '#fe002b', '#fe0030', '#fe0035'],
+                ['#fe0021', '#fe0027', '#fe002b', '#fe0030', '#fe0035', '#ff0039'],
+                ['#fe0027', '#fe002b', '#fe0030', '#fe0035', '#ff0039', '#ff003f'],
+                ['#fe002b', '#fe0030', '#fe0035', '#ff0039', '#ff003f', '#ff0045'],
+                ['#fe0030', '#fe0035', '#ff0039', '#ff003f', '#ff0045', '#ff004a'],
+                ['#fe0035', '#ff0039', '#ff003f', '#ff0045', '#ff004a', '#ff004f'],
+                ['#ff0039', '#ff003f', '#ff0045', '#ff004a', '#ff004f', '#ff0055'],
+                ['#ff003f', '#ff0045', '#ff004a', '#ff004f', '#ff0055', '#fe005a'],
+                ['#ff0045', '#ff004a', '#ff004f', '#ff0055', '#fe005a', '#ff005f'],
+                ['#ff004a', '#ff004f', '#ff0055', '#fe005a', '#ff005f', '#ff0065'],
+                ['#ff004f', '#ff0055', '#fe005a', '#ff005f', '#ff0065', '#ff006c'],
+                ['#ff0055', '#fe005a', '#ff005f', '#ff0065', '#ff006c', '#fe0071'],
+                ['#fe005a', '#ff005f', '#ff0065', '#ff006c', '#fe0071', '#fd0076'],
+                ['#ff005f', '#ff0065', '#ff006c', '#fe0071', '#fd0076', '#fe007c'],
+                ['#ff0065', '#ff006c', '#fe0071', '#fd0076', '#fe007c', '#fe0083'],
+                ['#ff006c', '#fe0071', '#fd0076', '#fe007c', '#fe0083', '#ff0089'],
+                ['#fe0071', '#fd0076', '#fe007c', '#fe0083', '#ff0089', '#ff008e'],
+                ['#fd0076', '#fe007c', '#fe0083', '#ff0089', '#ff008e', '#ff0093'],
+                ['#fe007c', '#fe0083', '#ff0089', '#ff008e', '#ff0093', '#ff009a'],
+                ['#fe0083', '#ff0089', '#ff008e', '#ff0093', '#ff009a', '#ff00a0'],
+                ['#ff0089', '#ff008e', '#ff0093', '#ff009a', '#ff00a0', '#ff00a6'],
+                ['#ff008e', '#ff0093', '#ff009a', '#ff00a0', '#ff00a6', '#ff00aa'],
+                ['#ff0093', '#ff009a', '#ff00a0', '#ff00a6', '#ff00aa', '#ff00b1'],
+                ['#ff009a', '#ff00a0', '#ff00a6', '#ff00aa', '#ff00b1', '#fe00b6'],
+                ['#ff00a0', '#ff00a6', '#ff00aa', '#ff00b1', '#fe00b6', '#ff00bb'],
+                ['#ff00a6', '#ff00aa', '#ff00b1', '#fe00b6', '#ff00bb', '#fe00c1'],
+                ['#ff00aa', '#ff00b1', '#fe00b6', '#ff00bb', '#fe00c1', '#ff00c6'],
+                ['#ff00b1', '#fe00b6', '#ff00bb', '#fe00c1', '#ff00c6', '#ff00cb'],
+                ['#fe00b6', '#ff00bb', '#fe00c1', '#ff00c6', '#ff00cb', '#fe01d0'],
+                ['#ff00bb', '#fe00c1', '#ff00c6', '#ff00cb', '#fe01d0', '#fe00d5'],
+                ['#fe00c1', '#ff00c6', '#ff00cb', '#fe01d0', '#fe00d5', '#fe00d8'],
+                ['#ff00c6', '#ff00cb', '#fe01d0', '#fe00d5', '#fe00d8', '#ff00df'],
+                ['#ff00cb', '#fe01d0', '#fe00d5', '#fe00d8', '#ff00df', '#ff00e4'],
+                ['#fe01d0', '#fe00d5', '#fe00d8', '#ff00df', '#ff00e4', '#ff00e7'],
+                ['#fe00d5', '#fe00d8', '#ff00df', '#ff00e4', '#ff00e7', '#ff00eb'],
+                ['#fe00d8', '#ff00df', '#ff00e4', '#ff00e7', '#ff00eb', '#ff00ee'],
+                ['#ff00df', '#ff00e4', '#ff00e7', '#ff00eb', '#ff00ee', '#ff00f1'],
+                ['#ff00e4', '#ff00e7', '#ff00eb', '#ff00ee', '#ff00f1', '#ff00f5'],
+                ['#ff00e7', '#ff00eb', '#ff00ee', '#ff00f1', '#ff00f5', '#ff00f8'],
+                ['#ff00eb', '#ff00ee', '#ff00f1', '#ff00f5', '#ff00f8', '#ff00fb'],
+                ['#ff00ee', '#ff00f1', '#ff00f5', '#ff00f8', '#ff00fb', '#ff00fe'],
+                ['#ff00f1', '#ff00f5', '#ff00f8', '#ff00fb', '#ff00fe', '#ff00ff'],
+                ['#ff00f5', '#ff00f8', '#ff00fb', '#ff00fe', '#ff00ff', '#fc00ff'],
+                ['#ff00f8', '#ff00fb', '#ff00fe', '#ff00ff', '#fc00ff', '#fa00ff'],
+                ['#ff00fb', '#ff00fe', '#ff00ff', '#fc00ff', '#fa00ff', '#f800ff'],
+                ['#ff00fe', '#ff00ff', '#fc00ff', '#fa00ff', '#f800ff', '#f500ff'],
+                ['#ff00ff', '#fc00ff', '#fa00ff', '#f800ff', '#f500ff', '#f100ff'],
+                ['#fc00ff', '#fa00ff', '#f800ff', '#f500ff', '#f100ff', '#ef00fe'],
+                ['#fa00ff', '#f800ff', '#f500ff', '#f100ff', '#ef00fe', '#ec00ff'],
+                ['#f800ff', '#f500ff', '#f100ff', '#ef00fe', '#ec00ff', '#e901ff'],
+                ['#f500ff', '#f100ff', '#ef00fe', '#ec00ff', '#e901ff', '#e500ff'],
+                ['#f100ff', '#ef00fe', '#ec00ff', '#e901ff', '#e500ff', '#e200fe'],
+                ['#ef00fe', '#ec00ff', '#e901ff', '#e500ff', '#e200fe', '#de00ff'],
+                ['#ec00ff', '#e901ff', '#e500ff', '#e200fe', '#de00ff', '#da00ff'],
+                ['#e901ff', '#e500ff', '#e200fe', '#de00ff', '#da00ff', '#d601ff'],
+                ['#e500ff', '#e200fe', '#de00ff', '#da00ff', '#d601ff', '#d200ff'],
+                ['#e200fe', '#de00ff', '#da00ff', '#d601ff', '#d200ff', '#cf00fe'],
+                ['#de00ff', '#da00ff', '#d601ff', '#d200ff', '#cf00fe', '#cb00fe'],
+                ['#da00ff', '#d601ff', '#d200ff', '#cf00fe', '#cb00fe', '#c500ff'],
+                ['#d601ff', '#d200ff', '#cf00fe', '#cb00fe', '#c500ff', '#c200fe'],
+                ['#d200ff', '#cf00fe', '#cb00fe', '#c500ff', '#c200fe', '#bd00ff'],
+                ['#cf00fe', '#cb00fe', '#c500ff', '#c200fe', '#bd00ff', '#b900fe'],
+                ['#cb00fe', '#c500ff', '#c200fe', '#bd00ff', '#b900fe', '#b500ff'],
+                ['#c500ff', '#c200fe', '#bd00ff', '#b900fe', '#b500ff', '#b000ff'],
+                ['#c200fe', '#bd00ff', '#b900fe', '#b500ff', '#b000ff', '#ac00ff'],
+                ['#bd00ff', '#b900fe', '#b500ff', '#b000ff', '#ac00ff', '#a700ff'],
+                ['#b900fe', '#b500ff', '#b000ff', '#ac00ff', '#a700ff', '#a300fe'],
+                ['#b500ff', '#b000ff', '#ac00ff', '#a700ff', '#a300fe', '#9d00ff'],
+                ['#b000ff', '#ac00ff', '#a700ff', '#a300fe', '#9d00ff', '#9901fe'],
+                ['#ac00ff', '#a700ff', '#a300fe', '#9d00ff', '#9901fe', '#9301ff'],
+                ['#a700ff', '#a300fe', '#9d00ff', '#9901fe', '#9301ff', '#8f00ff'],
+                ['#a300fe', '#9d00ff', '#9901fe', '#9301ff', '#8f00ff', '#8a00fe'],
+                ['#9d00ff', '#9901fe', '#9301ff', '#8f00ff', '#8a00fe', '#8500ff'],
+                ['#9901fe', '#9301ff', '#8f00ff', '#8a00fe', '#8500ff', '#8101ff'],
+                ['#9301ff', '#8f00ff', '#8a00fe', '#8500ff', '#8101ff', '#7b00ff'],
+                ['#8f00ff', '#8a00fe', '#8500ff', '#8101ff', '#7b00ff', '#7700fe'],
+                ['#8a00fe', '#8500ff', '#8101ff', '#7b00ff', '#7700fe', '#7100fe'],
+                ['#8500ff', '#8101ff', '#7b00ff', '#7700fe', '#7100fe', '#6d01fe'],
+                ['#8101ff', '#7b00ff', '#7700fe', '#7100fe', '#6d01fe', '#6700ff'],
+                ['#7b00ff', '#7700fe', '#7100fe', '#6d01fe', '#6700ff', '#6300ff'],
+                ['#7700fe', '#7100fe', '#6d01fe', '#6700ff', '#6300ff', '#5e00ff'],
+                ['#7100fe', '#6d01fe', '#6700ff', '#6300ff', '#5e00ff', '#5900ff'],
+                ['#6d01fe', '#6700ff', '#6300ff', '#5e00ff', '#5900ff', '#5400ff'],
+                ['#6700ff', '#6300ff', '#5e00ff', '#5900ff', '#5400ff', '#5000ff'],
+                ['#6300ff', '#5e00ff', '#5900ff', '#5400ff', '#5000ff', '#4b00ff'],
+                ['#5e00ff', '#5900ff', '#5400ff', '#5000ff', '#4b00ff', '#4600ff'],
+                ['#5900ff', '#5400ff', '#5000ff', '#4b00ff', '#4600ff', '#4300ff'],
+                ['#5400ff', '#5000ff', '#4b00ff', '#4600ff', '#4300ff', '#3d00ff'],
+                ['#5000ff', '#4b00ff', '#4600ff', '#4300ff', '#3d00ff', '#3a00fe'],
+                ['#4b00ff', '#4600ff', '#4300ff', '#3d00ff', '#3a00fe', '#3600fe'],
+                ['#4600ff', '#4300ff', '#3d00ff', '#3a00fe', '#3600fe', '#3100ff'],
+                ['#4300ff', '#3d00ff', '#3a00fe', '#3600fe', '#3100ff', '#2e00ff'],
+                ['#3d00ff', '#3a00fe', '#3600fe', '#3100ff', '#2e00ff', '#2b00ff'],
+                ['#3a00fe', '#3600fe', '#3100ff', '#2e00ff', '#2b00ff', '#2500ff'],
+                ['#3600fe', '#3100ff', '#2e00ff', '#2b00ff', '#2500ff', '#2200ff'],
+                ['#3100ff', '#2e00ff', '#2b00ff', '#2500ff', '#2200ff', '#1e00ff'],
+                ['#2e00ff', '#2b00ff', '#2500ff', '#2200ff', '#1e00ff', '#1b00ff'],
+                ['#2b00ff', '#2500ff', '#2200ff', '#1e00ff', '#1b00ff', '#1800ff'],
+                ['#2500ff', '#2200ff', '#1e00ff', '#1b00ff', '#1800ff', '#1400ff'],
+                ['#2200ff', '#1e00ff', '#1b00ff', '#1800ff', '#1400ff', '#1100fe'],
+                ['#1e00ff', '#1b00ff', '#1800ff', '#1400ff', '#1100fe', '#0e00ff'],
+                ['#1b00ff', '#1800ff', '#1400ff', '#1100fe', '#0e00ff', '#0b00fe'],
+                ['#1800ff', '#1400ff', '#1100fe', '#0e00ff', '#0b00fe', '#0900ff'],
+                ['#1400ff', '#1100fe', '#0e00ff', '#0b00fe', '#0900ff', '#0500fe'],
+                ['#1100fe', '#0e00ff', '#0b00fe', '#0900ff', '#0500fe', '#0300ff'],
+                ['#0e00ff', '#0b00fe', '#0900ff', '#0500fe', '#0300ff', '#0100ff'],
+                ['#0b00fe', '#0900ff', '#0500fe', '#0300ff', '#0100ff', '#0000ff'],
+                ['#0900ff', '#0500fe', '#0300ff', '#0100ff', '#0000ff', '#0103ff'],
+                ['#0500fe', '#0300ff', '#0100ff', '#0000ff', '#0103ff', '#0106ff'],
+                ['#0300ff', '#0100ff', '#0000ff', '#0103ff', '#0106ff', '#0008ff'],
+                ['#0100ff', '#0000ff', '#0103ff', '#0106ff', '#0008ff', '#000bfe'],
+                ['#0000ff', '#0103ff', '#0106ff', '#0008ff', '#000bfe', '#000ffe'],
+                ['#0103ff', '#0106ff', '#0008ff', '#000bfe', '#000ffe', '#0013fe'],
+                ['#0106ff', '#0008ff', '#000bfe', '#000ffe', '#0013fe', '#0015fe'],
+                ['#0008ff', '#000bfe', '#000ffe', '#0013fe', '#0015fe', '#0119fe'],
+                ['#000bfe', '#000ffe', '#0013fe', '#0015fe', '#0119fe', '#001dfe'],
+                ['#000ffe', '#0013fe', '#0015fe', '#0119fe', '#001dfe', '#0021ff'],
+                ['#0013fe', '#0015fe', '#0119fe', '#001dfe', '#0021ff', '#0025ff'],
+                ['#0015fe', '#0119fe', '#001dfe', '#0021ff', '#0025ff', '#012aff'],
+                ['#0119fe', '#001dfe', '#0021ff', '#0025ff', '#012aff', '#002efe'],
+                ['#001dfe', '#0021ff', '#0025ff', '#012aff', '#002efe', '#0033fe'],
+                ['#0021ff', '#0025ff', '#012aff', '#002efe', '#0033fe', '#0138fe'],
+                ['#0025ff', '#012aff', '#002efe', '#0033fe', '#0138fe', '#013bfe'],
+                ['#012aff', '#002efe', '#0033fe', '#0138fe', '#013bfe', '#0041ff'],
+                ['#002efe', '#0033fe', '#0138fe', '#013bfe', '#0041ff', '#0046fe'],
+                ['#0033fe', '#0138fe', '#013bfe', '#0041ff', '#0046fe', '#004cff'],
+                ['#0138fe', '#013bfe', '#0041ff', '#0046fe', '#004cff', '#0051ff'],
+                ['#013bfe', '#0041ff', '#0046fe', '#004cff', '#0051ff', '#0056ff'],
+                ['#0041ff', '#0046fe', '#004cff', '#0051ff', '#0056ff', '#005cff'],
+                ['#0046fe', '#004cff', '#0051ff', '#0056ff', '#005cff', '#0061ff'],
+                ['#004cff', '#0051ff', '#0056ff', '#005cff', '#0061ff', '#0066ff'],
+                ['#0051ff', '#0056ff', '#005cff', '#0061ff', '#0066ff', '#016bfe'],
+                ['#0056ff', '#005cff', '#0061ff', '#0066ff', '#016bfe', '#0072fe'],
+                ['#005cff', '#0061ff', '#0066ff', '#016bfe', '#0072fe', '#0076ff'],
+                ['#0061ff', '#0066ff', '#016bfe', '#0072fe', '#0076ff', '#007bff'],
+                ['#0066ff', '#016bfe', '#0072fe', '#0076ff', '#007bff', '#0081fe'],
+                ['#016bfe', '#0072fe', '#0076ff', '#007bff', '#0081fe', '#0187fe'],
+                ['#0072fe', '#0076ff', '#007bff', '#0081fe', '#0187fe', '#008cff'],
+                ['#0076ff', '#007bff', '#0081fe', '#0187fe', '#008cff', '#0092fe'],
+                ['#007bff', '#0081fe', '#0187fe', '#008cff', '#0092fe', '#0097ff'],
+                ['#0081fe', '#0187fe', '#008cff', '#0092fe', '#0097ff', '#009dff'],
+                ['#0187fe', '#008cff', '#0092fe', '#0097ff', '#009dff', '#00a2ff'],
+                ['#008cff', '#0092fe', '#0097ff', '#009dff', '#00a2ff', '#01a7ff'],
+                ['#0092fe', '#0097ff', '#009dff', '#00a2ff', '#01a7ff', '#01adff'],
+                ['#0097ff', '#009dff', '#00a2ff', '#01a7ff', '#01adff', '#00b2ff'],
+                ['#009dff', '#00a2ff', '#01a7ff', '#01adff', '#00b2ff', '#00b7ff'],
+                ['#00a2ff', '#01a7ff', '#01adff', '#00b2ff', '#00b7ff', '#00bcff'],
+                ['#01a7ff', '#01adff', '#00b2ff', '#00b7ff', '#00bcff', '#00c0ff'],
+                ['#01adff', '#00b2ff', '#00b7ff', '#00bcff', '#00c0ff', '#01c5ff'],
+                ['#00b2ff', '#00b7ff', '#00bcff', '#00c0ff', '#01c5ff', '#00cbff'],
+                ['#00b7ff', '#00bcff', '#00c0ff', '#01c5ff', '#00cbff', '#00d0ff'],
+                ['#00bcff', '#00c0ff', '#01c5ff', '#00cbff', '#00d0ff', '#00d4ff'],
+                ['#00c0ff', '#01c5ff', '#00cbff', '#00d0ff', '#00d4ff', '#01d8ff'],
+                ['#01c5ff', '#00cbff', '#00d0ff', '#00d4ff', '#01d8ff', '#01dcff'],
+                ['#00cbff', '#00d0ff', '#00d4ff', '#01d8ff', '#01dcff', '#00e1ff'],
+                ['#00d0ff', '#00d4ff', '#01d8ff', '#01dcff', '#00e1ff', '#00e5fe'],
+                ['#00d4ff', '#01d8ff', '#01dcff', '#00e1ff', '#00e5fe', '#00e9ff'],
+                ['#01d8ff', '#01dcff', '#00e1ff', '#00e5fe', '#00e9ff', '#00edff'],
+                ['#01dcff', '#00e1ff', '#00e5fe', '#00e9ff', '#00edff', '#00f0ff'],
+                ['#00e1ff', '#00e5fe', '#00e9ff', '#00edff', '#00f0ff', '#00f4ff'],
+                ['#00e5fe', '#00e9ff', '#00edff', '#00f0ff', '#00f4ff', '#00f6ff'],
+                ['#00e9ff', '#00edff', '#00f0ff', '#00f4ff', '#00f6ff', '#00f9fe'],
+                ['#00edff', '#00f0ff', '#00f4ff', '#00f6ff', '#00f9fe', '#00fcfe'],
+                ['#00f0ff', '#00f4ff', '#00f6ff', '#00f9fe', '#00fcfe', '#00feff'],
+                ['#00f4ff', '#00f6ff', '#00f9fe', '#00fcfe', '#00feff', '#01fffd'],
+                ['#00f6ff', '#00f9fe', '#00fcfe', '#00feff', '#01fffd', '#00fefc'],
+                ['#00f9fe', '#00fcfe', '#00feff', '#01fffd', '#00fefc', '#00fffa'],
+                ['#00fcfe', '#00feff', '#01fffd', '#00fefc', '#00fffa', '#00fff7'],
+                ['#00feff', '#01fffd', '#00fefc', '#00fffa', '#00fff7', '#00fff4'],
+                ['#01fffd', '#00fefc', '#00fffa', '#00fff7', '#00fff4', '#00fff2'],
+                ['#00fefc', '#00fffa', '#00fff7', '#00fff4', '#00fff2', '#00ffef'],
+                ['#00fffa', '#00fff7', '#00fff4', '#00fff2', '#00ffef', '#00ffec'],
+                ['#00fff7', '#00fff4', '#00fff2', '#00ffef', '#00ffec', '#00ffe9'],
+                ['#00fff4', '#00fff2', '#00ffef', '#00ffec', '#00ffe9', '#00ffe6'],
+                ['#00fff2', '#00ffef', '#00ffec', '#00ffe9', '#00ffe6', '#01ffe2'],
+                ['#00ffef', '#00ffec', '#00ffe9', '#00ffe6', '#01ffe2', '#00ffde'],
+                ['#00ffec', '#00ffe9', '#00ffe6', '#01ffe2', '#00ffde', '#01ffda'],
+                ['#00ffe9', '#00ffe6', '#01ffe2', '#00ffde', '#01ffda', '#00ffd7'],
+                ['#00ffe6', '#01ffe2', '#00ffde', '#01ffda', '#00ffd7', '#01ffd4'],
+                ['#01ffe2', '#00ffde', '#01ffda', '#00ffd7', '#01ffd4', '#01fece'],
+                ['#00ffde', '#01ffda', '#00ffd7', '#01ffd4', '#01fece', '#01ffc9'],
+                ['#01ffda', '#00ffd7', '#01ffd4', '#01fece', '#01ffc9', '#02ffc7'],
+                ['#00ffd7', '#01ffd4', '#01fece', '#01ffc9', '#02ffc7', '#01ffc2'],
+                ['#01ffd4', '#01fece', '#01ffc9', '#02ffc7', '#01ffc2', '#00ffbd'],
+                ['#01fece', '#01ffc9', '#02ffc7', '#01ffc2', '#00ffbd', '#00ffb7'],
+                ['#01ffc9', '#02ffc7', '#01ffc2', '#00ffbd', '#00ffb7', '#01ffb5'],
+                ['#02ffc7', '#01ffc2', '#00ffbd', '#00ffb7', '#01ffb5', '#00ffaf'],
+                ['#01ffc2', '#00ffbd', '#00ffb7', '#01ffb5', '#00ffaf', '#01ffab'],
+                ['#00ffbd', '#00ffb7', '#01ffb5', '#00ffaf', '#01ffab', '#01ffa6'],
+                ['#00ffb7', '#01ffb5', '#00ffaf', '#01ffab', '#01ffa6', '#00ffa1'],
+                ['#01ffb5', '#00ffaf', '#01ffab', '#01ffa6', '#00ffa1', '#01ff9d'],
+                ['#00ffaf', '#01ffab', '#01ffa6', '#00ffa1', '#01ff9d', '#00ff98'],
+                ['#01ffab', '#01ffa6', '#00ffa1', '#01ff9d', '#00ff98', '#02ff94'],
+                ['#01ffa6', '#00ffa1', '#01ff9d', '#00ff98', '#02ff94', '#01ff8e'],
+                ['#00ffa1', '#01ff9d', '#00ff98', '#02ff94', '#01ff8e', '#01fe8a'],
+                ['#01ff9d', '#00ff98', '#02ff94', '#01ff8e', '#01fe8a', '#01fe85'],
+                ['#00ff98', '#02ff94', '#01ff8e', '#01fe8a', '#01fe85', '#01fe80'],
+                ['#02ff94', '#01ff8e', '#01fe8a', '#01fe85', '#01fe80', '#01ff7b'],
+                ['#01ff8e', '#01fe8a', '#01fe85', '#01fe80', '#01ff7b', '#01ff75'],
+                ['#01fe8a', '#01fe85', '#01fe80', '#01ff7b', '#01ff75', '#02fe72'],
+                ['#01fe85', '#01fe80', '#01ff7b', '#01ff75', '#02fe72', '#01ff6c'],
+                ['#01fe80', '#01ff7b', '#01ff75', '#02fe72', '#01ff6c', '#01ff68'],
+                ['#01ff7b', '#01ff75', '#02fe72', '#01ff6c', '#01ff68', '#00ff62'],
+                ['#01ff75', '#02fe72', '#01ff6c', '#01ff68', '#00ff62', '#01ff5f'],
+                ['#02fe72', '#01ff6c', '#01ff68', '#00ff62', '#01ff5f', '#00ff5a'],
+                ['#01ff6c', '#01ff68', '#00ff62', '#01ff5f', '#00ff5a', '#00fe55'],
+                ['#01ff68', '#00ff62', '#01ff5f', '#00ff5a', '#00fe55', '#01ff51'],
+                ['#00ff62', '#01ff5f', '#00ff5a', '#00fe55', '#01ff51', '#00ff4b'],
+                ['#01ff5f', '#00ff5a', '#00fe55', '#01ff51', '#00ff4b', '#01fe47'],
+                ['#00ff5a', '#00fe55', '#01ff51', '#00ff4b', '#01fe47', '#00ff42'],
+                ['#00fe55', '#01ff51', '#00ff4b', '#01fe47', '#00ff42', '#01ff3e'],
+                ['#01ff51', '#00ff4b', '#01fe47', '#00ff42', '#01ff3e', '#00ff39'],
+                ['#00ff4b', '#01fe47', '#00ff42', '#01ff3e', '#00ff39', '#00ff36'],
+                ['#01fe47', '#00ff42', '#01ff3e', '#00ff39', '#00ff36', '#00ff31'],
+                ['#00ff42', '#01ff3e', '#00ff39', '#00ff36', '#00ff31', '#01ff2c'],
+                ['#01ff3e', '#00ff39', '#00ff36', '#00ff31', '#01ff2c', '#00ff2a'],
+                ['#00ff39', '#00ff36', '#00ff31', '#01ff2c', '#00ff2a', '#00ff26'],
+                ['#00ff36', '#00ff31', '#01ff2c', '#00ff2a', '#00ff26', '#01ff22'],
+                ['#00ff31', '#01ff2c', '#00ff2a', '#00ff26', '#01ff22', '#00ff1f'],
+                ['#01ff2c', '#00ff2a', '#00ff26', '#01ff22', '#00ff1f', '#02ff1a'],
+                ['#00ff2a', '#00ff26', '#01ff22', '#00ff1f', '#02ff1a', '#02ff17'],
+                ['#00ff26', '#01ff22', '#00ff1f', '#02ff1a', '#02ff17', '#00fe13'],
+                ['#01ff22', '#00ff1f', '#02ff1a', '#02ff17', '#00fe13', '#00fe10'],
+                ['#00ff1f', '#02ff1a', '#02ff17', '#00fe13', '#00fe10', '#00ff0e'],
+                ['#02ff1a', '#02ff17', '#00fe13', '#00fe10', '#00ff0e', '#00ff0a'],
+                ['#02ff17', '#00fe13', '#00fe10', '#00ff0e', '#00ff0a', '#00ff07'],
+                ['#00fe13', '#00fe10', '#00ff0e', '#00ff0a', '#00ff07', '#01ff06'],
+                ['#00fe10', '#00ff0e', '#00ff0a', '#00ff07', '#01ff06', '#01ff04'],
+                ['#00ff0e', '#00ff0a', '#00ff07', '#01ff06', '#01ff04', '#00ff01'],
+                ['#00ff0a', '#00ff07', '#01ff06', '#01ff04', '#00ff01', '#00ff01'],
+                ['#00ff07', '#01ff06', '#01ff04', '#00ff01', '#00ff01', '#03ff00'],
+                ['#01ff06', '#01ff04', '#00ff01', '#00ff01', '#03ff00', '#06ff00'],
+                ['#01ff04', '#00ff01', '#00ff01', '#03ff00', '#06ff00', '#08ff00'],
+                ['#00ff01', '#00ff01', '#03ff00', '#06ff00', '#08ff00', '#0bfe00'],
+                ['#00ff01', '#03ff00', '#06ff00', '#08ff00', '#0bfe00', '#0efe00'],
+                ['#03ff00', '#06ff00', '#08ff00', '#0bfe00', '#0efe00', '#12fe01'],
+                ['#06ff00', '#08ff00', '#0bfe00', '#0efe00', '#12fe01', '#14fe01'],
+                ['#08ff00', '#0bfe00', '#0efe00', '#12fe01', '#14fe01', '#18ff00'],
+                ['#0bfe00', '#0efe00', '#12fe01', '#14fe01', '#18ff00', '#1bff00'],
+                ['#0efe00', '#12fe01', '#14fe01', '#18ff00', '#1bff00', '#20fe00'],
+                ['#12fe01', '#14fe01', '#18ff00', '#1bff00', '#20fe00', '#24ff02'],
+                ['#14fe01', '#18ff00', '#1bff00', '#20fe00', '#24ff02', '#26ff02'],
+                ['#18ff00', '#1bff00', '#20fe00', '#24ff02', '#26ff02', '#2aff00'],
+                ['#1bff00', '#20fe00', '#24ff02', '#26ff02', '#2aff00', '#30ff00'],
+                ['#20fe00', '#24ff02', '#26ff02', '#2aff00', '#30ff00', '#33ff00'],
+                ['#24ff02', '#26ff02', '#2aff00', '#30ff00', '#33ff00', '#39ff00'],
+                ['#26ff02', '#2aff00', '#30ff00', '#33ff00', '#39ff00', '#3cfe00'],
+                ['#2aff00', '#30ff00', '#33ff00', '#39ff00', '#3cfe00', '#42fe00'],
+                ['#30ff00', '#33ff00', '#39ff00', '#3cfe00', '#42fe00', '#46ff01'],
+                ['#33ff00', '#39ff00', '#3cfe00', '#42fe00', '#46ff01', '#4cff01'],
+                ['#39ff00', '#3cfe00', '#42fe00', '#46ff01', '#4cff01', '#50ff00'],
+                ['#3cfe00', '#42fe00', '#46ff01', '#4cff01', '#50ff00', '#55ff00'],
+                ['#42fe00', '#46ff01', '#4cff01', '#50ff00', '#55ff00', '#5aff01'],
+                ['#46ff01', '#4cff01', '#50ff00', '#55ff00', '#5aff01', '#5eff01'],
+                ['#4cff01', '#50ff00', '#55ff00', '#5aff01', '#5eff01', '#64ff01'],
+                ['#50ff00', '#55ff00', '#5aff01', '#5eff01', '#64ff01', '#68ff01'],
+                ['#55ff00', '#5aff01', '#5eff01', '#64ff01', '#68ff01', '#6eff00'],
+                ['#5aff01', '#5eff01', '#64ff01', '#68ff01', '#6eff00', '#73ff00'],
+                ['#5eff01', '#64ff01', '#68ff01', '#6eff00', '#73ff00', '#79ff00'],
+                ['#64ff01', '#68ff01', '#6eff00', '#73ff00', '#79ff00', '#7eff00'],
+                ['#68ff01', '#6eff00', '#73ff00', '#79ff00', '#7eff00', '#82ff00'],
+                ['#6eff00', '#73ff00', '#79ff00', '#7eff00', '#82ff00', '#87ff00'],
+                ['#73ff00', '#79ff00', '#7eff00', '#82ff00', '#87ff00', '#8dfe01'],
+                ['#79ff00', '#7eff00', '#82ff00', '#87ff00', '#8dfe01', '#92ff00'],
+                ['#7eff00', '#82ff00', '#87ff00', '#8dfe01', '#92ff00', '#98ff01'],
+                ['#82ff00', '#87ff00', '#8dfe01', '#92ff00', '#98ff01', '#9eff01'],
+                ['#87ff00', '#8dfe01', '#92ff00', '#98ff01', '#9eff01', '#a2ff00'],
+                ['#8dfe01', '#92ff00', '#98ff01', '#9eff01', '#a2ff00', '#a6ff00'],
+                ['#92ff00', '#98ff01', '#9eff01', '#a2ff00', '#a6ff00', '#acff00'],
+                ['#98ff01', '#9eff01', '#a2ff00', '#a6ff00', '#acff00', '#b0ff00'],
+                ['#9eff01', '#a2ff00', '#a6ff00', '#acff00', '#b0ff00', '#b6ff00'],
+                ['#a2ff00', '#a6ff00', '#acff00', '#b0ff00', '#b6ff00', '#baff00'],
+                ['#a6ff00', '#acff00', '#b0ff00', '#b6ff00', '#baff00', '#c0ff00'],
+                ['#acff00', '#b0ff00', '#b6ff00', '#baff00', '#c0ff00', '#c3ff01'],
+                ['#b0ff00', '#b6ff00', '#baff00', '#c0ff00', '#c3ff01', '#c8ff00'],
+                ['#b6ff00', '#baff00', '#c0ff00', '#c3ff01', '#c8ff00', '#cdff00'],
+                ['#baff00', '#c0ff00', '#c3ff01', '#c8ff00', '#cdff00', '#d0ff00'],
+                ['#c0ff00', '#c3ff01', '#c8ff00', '#cdff00', '#d0ff00', '#d4ff00'],
+                ['#c3ff01', '#c8ff00', '#cdff00', '#d0ff00', '#d4ff00', '#d9ff00'],
+                ['#c8ff00', '#cdff00', '#d0ff00', '#d4ff00', '#d9ff00', '#dcff00'],
+                ['#cdff00', '#d0ff00', '#d4ff00', '#d9ff00', '#dcff00', '#e0ff01'],
+                ['#d0ff00', '#d4ff00', '#d9ff00', '#dcff00', '#e0ff01', '#e3ff02'],
+                ['#d4ff00', '#d9ff00', '#dcff00', '#e0ff01', '#e3ff02', '#e8ff00'],
+                ['#d9ff00', '#dcff00', '#e0ff01', '#e3ff02', '#e8ff00', '#ebff00'],
+                ['#dcff00', '#e0ff01', '#e3ff02', '#e8ff00', '#ebff00', '#eeff00'],
+                ['#e0ff01', '#e3ff02', '#e8ff00', '#ebff00', '#eeff00', '#f2ff00'],
+                ['#e3ff02', '#e8ff00', '#ebff00', '#eeff00', '#f2ff00', '#f4fe00'],
+                ['#e8ff00', '#ebff00', '#eeff00', '#f2ff00', '#f4fe00', '#f8ff01'],
+                ['#ebff00', '#eeff00', '#f2ff00', '#f4fe00', '#f8ff01', '#fbff01'],
+                ['#eeff00', '#f2ff00', '#f4fe00', '#f8ff01', '#fbff01', '#fcff00'],
+                ['#f2ff00', '#f4fe00', '#f8ff01', '#fbff01', '#fcff00', '#ffff01'],
+                ['#f4fe00', '#f8ff01', '#fbff01', '#fcff00', '#ffff01', '#fffd00'],
+                ['#f8ff01', '#fbff01', '#fcff00', '#ffff01', '#fffd00', '#fffa00'],
+                ['#fbff01', '#fcff00', '#ffff01', '#fffd00', '#fffa00', '#fff800'],
+                ['#fcff00', '#ffff01', '#fffd00', '#fffa00', '#fff800', '#fff500'],
+                ['#ffff01', '#fffd00', '#fffa00', '#fff800', '#fff500', '#fff200'],
+                ['#fffd00', '#fffa00', '#fff800', '#fff500', '#fff200', '#ffef01'],
+                ['#fffa00', '#fff800', '#fff500', '#fff200', '#ffef01', '#ffeb01'],
+                ['#fff800', '#fff500', '#fff200', '#ffef01', '#ffeb01', '#ffe700'],
+                ['#fff500', '#fff200', '#ffef01', '#ffeb01', '#ffe700', '#ffe300'],
+                ['#fff200', '#ffef01', '#ffeb01', '#ffe700', '#ffe300', '#ffdf00'],
+                ['#ffef01', '#ffeb01', '#ffe700', '#ffe300', '#ffdf00', '#fedb00'],
+                ['#ffeb01', '#ffe700', '#ffe300', '#ffdf00', '#fedb00', '#fed700'],
+                ['#ffe700', '#ffe300', '#ffdf00', '#fedb00', '#fed700', '#ffd300'],
+                ['#ffe300', '#ffdf00', '#fedb00', '#fed700', '#ffd300', '#ffce00'],
+                ['#ffdf00', '#fedb00', '#fed700', '#ffd300', '#ffce00', '#ffc900'],
+                ['#fedb00', '#fed700', '#ffd300', '#ffce00', '#ffc900', '#ffc501'],
+                ['#fed700', '#ffd300', '#ffce00', '#ffc900', '#ffc501', '#ffc000'],
+                ['#ffd300', '#ffce00', '#ffc900', '#ffc501', '#ffc000', '#ffba00'],
+                ['#ffce00', '#ffc900', '#ffc501', '#ffc000', '#ffba00', '#ffb600'],
+                ['#ffc900', '#ffc501', '#ffc000', '#ffba00', '#ffb600', '#ffb001'],
+                ['#ffc501', '#ffc000', '#ffba00', '#ffb600', '#ffb001', '#ffab01'],
+                ['#ffc000', '#ffba00', '#ffb600', '#ffb001', '#ffab01', '#fea600'],
+                ['#ffba00', '#ffb600', '#ffb001', '#ffab01', '#fea600', '#ffa100'],
+                ['#ffb600', '#ffb001', '#ffab01', '#fea600', '#ffa100', '#ff9b01'],
+                ['#ffb001', '#ffab01', '#fea600', '#ffa100', '#ff9b01', '#ff9500'],
+                ['#ffab01', '#fea600', '#ffa100', '#ff9b01', '#ff9500', '#ff9001'],
+                ['#fea600', '#ffa100', '#ff9b01', '#ff9500', '#ff9001', '#ff8b00'],
+                ['#ffa100', '#ff9b01', '#ff9500', '#ff9001', '#ff8b00', '#ff8601'],
+                ['#ff9b01', '#ff9500', '#ff9001', '#ff8b00', '#ff8601', '#ff8000'],
+                ['#ff9500', '#ff9001', '#ff8b00', '#ff8601', '#ff8000', '#ff7a01'],
+                ['#ff9001', '#ff8b00', '#ff8601', '#ff8000', '#ff7a01', '#fe7500'],
+                ['#ff8b00', '#ff8601', '#ff8000', '#ff7a01', '#fe7500', '#ff6f00'],
+                ['#ff8601', '#ff8000', '#ff7a01', '#fe7500', '#ff6f00', '#ff6a00'],
+                ['#ff8000', '#ff7a01', '#fe7500', '#ff6f00', '#ff6a00', '#ff6500'],
+                ['#ff7a01', '#fe7500', '#ff6f00', '#ff6a00', '#ff6500', '#ff5f00'],
+                ['#fe7500', '#ff6f00', '#ff6a00', '#ff6500', '#ff5f00', '#ff5900'],
+                ['#ff6f00', '#ff6a00', '#ff6500', '#ff5f00', '#ff5900', '#fe5401'],
+                ['#ff6a00', '#ff6500', '#ff5f00', '#ff5900', '#fe5401', '#ff4f02'],
+                ['#ff6500', '#ff5f00', '#ff5900', '#fe5401', '#ff4f02', '#ff4a01'],
+                ['#ff5f00', '#ff5900', '#fe5401', '#ff4f02', '#ff4a01', '#ff4500'],
+                ['#ff5900', '#fe5401', '#ff4f02', '#ff4a01', '#ff4500', '#ff4001'],
+                ['#fe5401', '#ff4f02', '#ff4a01', '#ff4500', '#ff4001', '#ff3c00'],
+                ['#ff4f02', '#ff4a01', '#ff4500', '#ff4001', '#ff3c00', '#ff3500'],
+                ['#ff4a01', '#ff4500', '#ff4001', '#ff3c00', '#ff3500', '#ff3100'],
+                ['#ff4500', '#ff4001', '#ff3c00', '#ff3500', '#ff3100', '#ff2e00'],
+                ['#ff4001', '#ff3c00', '#ff3500', '#ff3100', '#ff2e00', '#ff2801'],
+                ['#ff3c00', '#ff3500', '#ff3100', '#ff2e00', '#ff2801', '#ff2401'],
+                ['#ff3500', '#ff3100', '#ff2e00', '#ff2801', '#ff2401', '#ff2100'],
+                ['#ff3100', '#ff2e00', '#ff2801', '#ff2401', '#ff2100', '#ff1c00'],
+                ['#ff2e00', '#ff2801', '#ff2401', '#ff2100', '#ff1c00', '#ff1901'],
+                ['#ff2801', '#ff2401', '#ff2100', '#ff1c00', '#ff1901', '#fe1500'],
+                ['#ff2401', '#ff2100', '#ff1c00', '#ff1901', '#fe1500', '#fe1101'],
+                ['#ff2100', '#ff1c00', '#ff1901', '#fe1500', '#fe1101', '#fe0d00'],
+                ['#ff1c00', '#ff1901', '#fe1500', '#fe1101', '#fe0d00', '#ff0a00'],
+                ['#ff1901', '#fe1500', '#fe1101', '#fe0d00', '#ff0a00', '#ff0800'],
+                ['#fe1500', '#fe1101', '#fe0d00', '#ff0a00', '#ff0800', '#ff0500'],
+                ['#fe1101', '#fe0d00', '#ff0a00', '#ff0800', '#ff0500', '#ed0201'],
+                ['#fe0d00', '#ff0a00', '#ff0800', '#ff0500', '#ed0201', '#fe0004'],
+                ['#ff0a00', '#ff0800', '#ff0500', '#ed0201', '#fe0004', '#ff0006'],
+                ['#ff0800', '#ff0500', '#ed0201', '#fe0004', '#ff0006', '#ff0009'],
+                ['#ff0500', '#ed0201', '#fe0004', '#ff0006', '#ff0009', '#ff000d'],
+                ['#ed0201', '#fe0004', '#ff0006', '#ff0009', '#ff000d', '#ff0012'],
+            ]
+            return (cary)
+        }
+
+        if (i === 2) {
+            let cary = [
+                ['#fe0004','#ec00ff','#0106ff','#00fff4','#00ff01','#fbff01'],
+                ['#ff0006','#e901ff','#0008ff','#00fff2','#00ff01','#fcff00'],
+                ['#ff0009','#e500ff','#000bfe','#00ffef','#03ff00','#ffff01'],
+                ['#ff000d','#e200fe','#000ffe','#00ffec','#06ff00','#fffd00'],
+                ['#ff0012','#de00ff','#0013fe','#00ffe9','#08ff00','#fffa00'],
+                ['#ff0015','#da00ff','#0015fe','#00ffe6','#0bfe00','#fff800'],
+                ['#fe0018','#d601ff','#0119fe','#01ffe2','#0efe00','#fff500'],
+                ['#ff001e','#d200ff','#001dfe','#00ffde','#12fe01','#fff200'],
+                ['#fe0021','#cf00fe','#0021ff','#01ffda','#14fe01','#ffef01'],
+                ['#fe0027','#cb00fe','#0025ff','#00ffd7','#18ff00','#ffeb01'],
+                ['#fe002b','#c500ff','#012aff','#01ffd4','#1bff00','#ffe700'],
+                ['#fe0030','#c200fe','#002efe','#01fece','#20fe00','#ffe300'],
+                ['#fe0035','#bd00ff','#0033fe','#01ffc9','#24ff02','#ffdf00'],
+                ['#ff0039','#b900fe','#0138fe','#02ffc7','#26ff02','#fedb00'],
+                ['#ff003f','#b500ff','#013bfe','#01ffc2','#2aff00','#fed700'],
+                ['#ff0045','#b000ff','#0041ff','#00ffbd','#30ff00','#ffd300'],
+                ['#ff004a','#ac00ff','#0046fe','#00ffb7','#33ff00','#ffce00'],
+                ['#ff004f','#a700ff','#004cff','#01ffb5','#39ff00','#ffc900'],
+                ['#ff0055','#a300fe','#0051ff','#00ffaf','#3cfe00','#ffc501'],
+                ['#fe005a','#9d00ff','#0056ff','#01ffab','#42fe00','#ffc000'],
+                ['#ff005f','#9901fe','#005cff','#01ffa6','#46ff01','#ffba00'],
+                ['#ff0065','#9301ff','#0061ff','#00ffa1','#4cff01','#ffb600'],
+                ['#ff006c','#8f00ff','#0066ff','#01ff9d','#50ff00','#ffb001'],
+                ['#fe0071','#8a00fe','#016bfe','#00ff98','#55ff00','#ffab01'],
+                ['#fd0076','#8500ff','#0072fe','#02ff94','#5aff01','#fea600'],
+                ['#fe007c','#8101ff','#0076ff','#01ff8e','#5eff01','#ffa100'],
+                ['#fe0083','#7b00ff','#007bff','#01fe8a','#64ff01','#ff9b01'],
+                ['#ff0089','#7700fe','#0081fe','#01fe85','#68ff01','#ff9500'],
+                ['#ff008e','#7100fe','#0187fe','#01fe80','#6eff00','#ff9001'],
+                ['#ff0093','#6d01fe','#008cff','#01ff7b','#73ff00','#ff8b00'],
+                ['#ff009a','#6700ff','#0092fe','#01ff75','#79ff00','#ff8601'],
+                ['#ff00a0','#6300ff','#0097ff','#02fe72','#7eff00','#ff8000'],
+                ['#ff00a6','#5e00ff','#009dff','#01ff6c','#82ff00','#ff7a01'],
+                ['#ff00aa','#5900ff','#00a2ff','#01ff68','#87ff00','#fe7500'],
+                ['#ff00b1','#5400ff','#01a7ff','#00ff62','#8dfe01','#ff6f00'],
+                ['#fe00b6','#5000ff','#01adff','#01ff5f','#92ff00','#ff6a00'],
+                ['#ff00bb','#4b00ff','#00b2ff','#00ff5a','#98ff01','#ff6500'],
+                ['#fe00c1','#4600ff','#00b7ff','#00fe55','#9eff01','#ff5f00'],
+                ['#ff00c6','#4300ff','#00bcff','#01ff51','#a2ff00','#ff5900'],
+                ['#ff00cb','#3d00ff','#00c0ff','#00ff4b','#a6ff00','#fe5401'],
+                ['#fe01d0','#3a00fe','#01c5ff','#01fe47','#acff00','#ff4f02'],
+                ['#fe00d5','#3600fe','#00cbff','#00ff42','#b0ff00','#ff4a01'],
+                ['#fe00d8','#3100ff','#00d0ff','#01ff3e','#b6ff00','#ff4500'],
+                ['#ff00df','#2e00ff','#00d4ff','#00ff39','#baff00','#ff4001'],
+                ['#ff00e4','#2b00ff','#01d8ff','#00ff36','#c0ff00','#ff3c00'],
+                ['#ff00e7','#2500ff','#01dcff','#00ff31','#c3ff01','#ff3500'],
+                ['#ff00eb','#2200ff','#00e1ff','#01ff2c','#c8ff00','#ff3100'],
+                ['#ff00ee','#1e00ff','#00e5fe','#00ff2a','#cdff00','#ff2e00'],
+                ['#ff00f1','#1b00ff','#00e9ff','#00ff26','#d0ff00','#ff2801'],
+                ['#ff00f5','#1800ff','#00edff','#01ff22','#d4ff00','#ff2401'],
+                ['#ff00f8','#1400ff','#00f0ff','#00ff1f','#d9ff00','#ff2100'],
+                ['#ff00fb','#1100fe','#00f4ff','#02ff1a','#dcff00','#ff1c00'],
+                ['#ff00fe','#0e00ff','#00f6ff','#02ff17','#e0ff01','#ff1901'],
+                ['#ff00ff','#0b00fe','#00f9fe','#00fe13','#e3ff02','#fe1500'],
+                ['#fc00ff','#0900ff','#00fcfe','#00fe10','#e8ff00','#fe1101'],
+                ['#fa00ff','#0500fe','#00feff','#00ff0e','#ebff00','#fe0d00'],
+                ['#f800ff','#0300ff','#01fffd','#00ff0a','#eeff00','#ff0a00'],
+                ['#f500ff','#0100ff','#00fefc','#00ff07','#f2ff00','#ff0800'],
+                ['#f100ff','#0000ff','#00fffa','#01ff06','#f4fe00','#ff0500'],
+                ['#ef00fe','#0103ff','#00fff7','#01ff04','#f8ff01','#ed0201'],
+                ['#ec00ff','#0106ff','#00fff4','#00ff01','#fbff01','#fe0004'],
+                ['#e901ff','#0008ff','#00fff2','#00ff01','#fcff00','#ff0006'],
+                ['#e500ff','#000bfe','#00ffef','#03ff00','#ffff01','#ff0009'],
+                ['#e200fe','#000ffe','#00ffec','#06ff00','#fffd00','#ff000d'],
+                ['#de00ff','#0013fe','#00ffe9','#08ff00','#fffa00','#ff0012'],
+                ['#da00ff','#0015fe','#00ffe6','#0bfe00','#fff800','#ff0015'],
+                ['#d601ff','#0119fe','#01ffe2','#0efe00','#fff500','#fe0018'],
+                ['#d200ff','#001dfe','#00ffde','#12fe01','#fff200','#ff001e'],
+                ['#cf00fe','#0021ff','#01ffda','#14fe01','#ffef01','#fe0021'],
+                ['#cb00fe','#0025ff','#00ffd7','#18ff00','#ffeb01','#fe0027'],
+                ['#c500ff','#012aff','#01ffd4','#1bff00','#ffe700','#fe002b'],
+                ['#c200fe','#002efe','#01fece','#20fe00','#ffe300','#fe0030'],
+                ['#bd00ff','#0033fe','#01ffc9','#24ff02','#ffdf00','#fe0035'],
+                ['#b900fe','#0138fe','#02ffc7','#26ff02','#fedb00','#ff0039'],
+                ['#b500ff','#013bfe','#01ffc2','#2aff00','#fed700','#ff003f'],
+                ['#b000ff','#0041ff','#00ffbd','#30ff00','#ffd300','#ff0045'],
+                ['#ac00ff','#0046fe','#00ffb7','#33ff00','#ffce00','#ff004a'],
+                ['#a700ff','#004cff','#01ffb5','#39ff00','#ffc900','#ff004f'],
+                ['#a300fe','#0051ff','#00ffaf','#3cfe00','#ffc501','#ff0055'],
+                ['#9d00ff','#0056ff','#01ffab','#42fe00','#ffc000','#fe005a'],
+                ['#9901fe','#005cff','#01ffa6','#46ff01','#ffba00','#ff005f'],
+                ['#9301ff','#0061ff','#00ffa1','#4cff01','#ffb600','#ff0065'],
+                ['#8f00ff','#0066ff','#01ff9d','#50ff00','#ffb001','#ff006c'],
+                ['#8a00fe','#016bfe','#00ff98','#55ff00','#ffab01','#fe0071'],
+                ['#8500ff','#0072fe','#02ff94','#5aff01','#fea600','#fd0076'],
+                ['#8101ff','#0076ff','#01ff8e','#5eff01','#ffa100','#fe007c'],
+                ['#7b00ff','#007bff','#01fe8a','#64ff01','#ff9b01','#fe0083'],
+                ['#7700fe','#0081fe','#01fe85','#68ff01','#ff9500','#ff0089'],
+                ['#7100fe','#0187fe','#01fe80','#6eff00','#ff9001','#ff008e'],
+                ['#6d01fe','#008cff','#01ff7b','#73ff00','#ff8b00','#ff0093'],
+                ['#6700ff','#0092fe','#01ff75','#79ff00','#ff8601','#ff009a'],
+                ['#6300ff','#0097ff','#02fe72','#7eff00','#ff8000','#ff00a0'],
+                ['#5e00ff','#009dff','#01ff6c','#82ff00','#ff7a01','#ff00a6'],
+                ['#5900ff','#00a2ff','#01ff68','#87ff00','#fe7500','#ff00aa'],
+                ['#5400ff','#01a7ff','#00ff62','#8dfe01','#ff6f00','#ff00b1'],
+                ['#5000ff','#01adff','#01ff5f','#92ff00','#ff6a00','#fe00b6'],
+                ['#4b00ff','#00b2ff','#00ff5a','#98ff01','#ff6500','#ff00bb'],
+                ['#4600ff','#00b7ff','#00fe55','#9eff01','#ff5f00','#fe00c1'],
+                ['#4300ff','#00bcff','#01ff51','#a2ff00','#ff5900','#ff00c6'],
+                ['#3d00ff','#00c0ff','#00ff4b','#a6ff00','#fe5401','#ff00cb'],
+                ['#3a00fe','#01c5ff','#01fe47','#acff00','#ff4f02','#fe01d0'],
+                ['#3600fe','#00cbff','#00ff42','#b0ff00','#ff4a01','#fe00d5'],
+                ['#3100ff','#00d0ff','#01ff3e','#b6ff00','#ff4500','#fe00d8'],
+                ['#2e00ff','#00d4ff','#00ff39','#baff00','#ff4001','#ff00df'],
+                ['#2b00ff','#01d8ff','#00ff36','#c0ff00','#ff3c00','#ff00e4'],
+                ['#2500ff','#01dcff','#00ff31','#c3ff01','#ff3500','#ff00e7'],
+                ['#2200ff','#00e1ff','#01ff2c','#c8ff00','#ff3100','#ff00eb'],
+                ['#1e00ff','#00e5fe','#00ff2a','#cdff00','#ff2e00','#ff00ee'],
+                ['#1b00ff','#00e9ff','#00ff26','#d0ff00','#ff2801','#ff00f1'],
+                ['#1800ff','#00edff','#01ff22','#d4ff00','#ff2401','#ff00f5'],
+                ['#1400ff','#00f0ff','#00ff1f','#d9ff00','#ff2100','#ff00f8'],
+                ['#1100fe','#00f4ff','#02ff1a','#dcff00','#ff1c00','#ff00fb'],
+                ['#0e00ff','#00f6ff','#02ff17','#e0ff01','#ff1901','#ff00fe'],
+                ['#0b00fe','#00f9fe','#00fe13','#e3ff02','#fe1500','#ff00ff'],
+                ['#0900ff','#00fcfe','#00fe10','#e8ff00','#fe1101','#fc00ff'],
+                ['#0500fe','#00feff','#00ff0e','#ebff00','#fe0d00','#fa00ff'],
+                ['#0300ff','#01fffd','#00ff0a','#eeff00','#ff0a00','#f800ff'],
+                ['#0100ff','#00fefc','#00ff07','#f2ff00','#ff0800','#f500ff'],
+                ['#0000ff','#00fffa','#01ff06','#f4fe00','#ff0500','#f100ff'],
+                ['#0103ff','#00fff7','#01ff04','#f8ff01','#ed0201','#ef00fe'],
+                ['#0106ff','#00fff4','#00ff01','#fbff01','#fe0004','#ec00ff'],
+                ['#0008ff','#00fff2','#00ff01','#fcff00','#ff0006','#e901ff'],
+                ['#000bfe','#00ffef','#03ff00','#ffff01','#ff0009','#e500ff'],
+                ['#000ffe','#00ffec','#06ff00','#fffd00','#ff000d','#e200fe'],
+                ['#0013fe','#00ffe9','#08ff00','#fffa00','#ff0012','#de00ff'],
+                ['#0015fe','#00ffe6','#0bfe00','#fff800','#ff0015','#da00ff'],
+                ['#0119fe','#01ffe2','#0efe00','#fff500','#fe0018','#d601ff'],
+                ['#001dfe','#00ffde','#12fe01','#fff200','#ff001e','#d200ff'],
+                ['#0021ff','#01ffda','#14fe01','#ffef01','#fe0021','#cf00fe'],
+                ['#0025ff','#00ffd7','#18ff00','#ffeb01','#fe0027','#cb00fe'],
+                ['#012aff','#01ffd4','#1bff00','#ffe700','#fe002b','#c500ff'],
+                ['#002efe','#01fece','#20fe00','#ffe300','#fe0030','#c200fe'],
+                ['#0033fe','#01ffc9','#24ff02','#ffdf00','#fe0035','#bd00ff'],
+                ['#0138fe','#02ffc7','#26ff02','#fedb00','#ff0039','#b900fe'],
+                ['#013bfe','#01ffc2','#2aff00','#fed700','#ff003f','#b500ff'],
+                ['#0041ff','#00ffbd','#30ff00','#ffd300','#ff0045','#b000ff'],
+                ['#0046fe','#00ffb7','#33ff00','#ffce00','#ff004a','#ac00ff'],
+                ['#004cff','#01ffb5','#39ff00','#ffc900','#ff004f','#a700ff'],
+                ['#0051ff','#00ffaf','#3cfe00','#ffc501','#ff0055','#a300fe'],
+                ['#0056ff','#01ffab','#42fe00','#ffc000','#fe005a','#9d00ff'],
+                ['#005cff','#01ffa6','#46ff01','#ffba00','#ff005f','#9901fe'],
+                ['#0061ff','#00ffa1','#4cff01','#ffb600','#ff0065','#9301ff'],
+                ['#0066ff','#01ff9d','#50ff00','#ffb001','#ff006c','#8f00ff'],
+                ['#016bfe','#00ff98','#55ff00','#ffab01','#fe0071','#8a00fe'],
+                ['#0072fe','#02ff94','#5aff01','#fea600','#fd0076','#8500ff'],
+                ['#0076ff','#01ff8e','#5eff01','#ffa100','#fe007c','#8101ff'],
+                ['#007bff','#01fe8a','#64ff01','#ff9b01','#fe0083','#7b00ff'],
+                ['#0081fe','#01fe85','#68ff01','#ff9500','#ff0089','#7700fe'],
+                ['#0187fe','#01fe80','#6eff00','#ff9001','#ff008e','#7100fe'],
+                ['#008cff','#01ff7b','#73ff00','#ff8b00','#ff0093','#6d01fe'],
+                ['#0092fe','#01ff75','#79ff00','#ff8601','#ff009a','#6700ff'],
+                ['#0097ff','#02fe72','#7eff00','#ff8000','#ff00a0','#6300ff'],
+                ['#009dff','#01ff6c','#82ff00','#ff7a01','#ff00a6','#5e00ff'],
+                ['#00a2ff','#01ff68','#87ff00','#fe7500','#ff00aa','#5900ff'],
+                ['#01a7ff','#00ff62','#8dfe01','#ff6f00','#ff00b1','#5400ff'],
+                ['#01adff','#01ff5f','#92ff00','#ff6a00','#fe00b6','#5000ff'],
+                ['#00b2ff','#00ff5a','#98ff01','#ff6500','#ff00bb','#4b00ff'],
+                ['#00b7ff','#00fe55','#9eff01','#ff5f00','#fe00c1','#4600ff'],
+                ['#00bcff','#01ff51','#a2ff00','#ff5900','#ff00c6','#4300ff'],
+                ['#00c0ff','#00ff4b','#a6ff00','#fe5401','#ff00cb','#3d00ff'],
+                ['#01c5ff','#01fe47','#acff00','#ff4f02','#fe01d0','#3a00fe'],
+                ['#00cbff','#00ff42','#b0ff00','#ff4a01','#fe00d5','#3600fe'],
+                ['#00d0ff','#01ff3e','#b6ff00','#ff4500','#fe00d8','#3100ff'],
+                ['#00d4ff','#00ff39','#baff00','#ff4001','#ff00df','#2e00ff'],
+                ['#01d8ff','#00ff36','#c0ff00','#ff3c00','#ff00e4','#2b00ff'],
+                ['#01dcff','#00ff31','#c3ff01','#ff3500','#ff00e7','#2500ff'],
+                ['#00e1ff','#01ff2c','#c8ff00','#ff3100','#ff00eb','#2200ff'],
+                ['#00e5fe','#00ff2a','#cdff00','#ff2e00','#ff00ee','#1e00ff'],
+                ['#00e9ff','#00ff26','#d0ff00','#ff2801','#ff00f1','#1b00ff'],
+                ['#00edff','#01ff22','#d4ff00','#ff2401','#ff00f5','#1800ff'],
+                ['#00f0ff','#00ff1f','#d9ff00','#ff2100','#ff00f8','#1400ff'],
+                ['#00f4ff','#02ff1a','#dcff00','#ff1c00','#ff00fb','#1100fe'],
+                ['#00f6ff','#02ff17','#e0ff01','#ff1901','#ff00fe','#0e00ff'],
+                ['#00f9fe','#00fe13','#e3ff02','#fe1500','#ff00ff','#0b00fe'],
+                ['#00fcfe','#00fe10','#e8ff00','#fe1101','#fc00ff','#0900ff'],
+                ['#00feff','#00ff0e','#ebff00','#fe0d00','#fa00ff','#0500fe'],
+                ['#01fffd','#00ff0a','#eeff00','#ff0a00','#f800ff','#0300ff'],
+                ['#00fefc','#00ff07','#f2ff00','#ff0800','#f500ff','#0100ff'],
+                ['#00fffa','#01ff06','#f4fe00','#ff0500','#f100ff','#0000ff'],
+                ['#00fff7','#01ff04','#f8ff01','#ed0201','#ef00fe','#0103ff'],
+                ['#00fff4','#00ff01','#fbff01','#fe0004','#ec00ff','#0106ff'],
+                ['#00fff2','#00ff01','#fcff00','#ff0006','#e901ff','#0008ff'],
+                ['#00ffef','#03ff00','#ffff01','#ff0009','#e500ff','#000bfe'],
+                ['#00ffec','#06ff00','#fffd00','#ff000d','#e200fe','#000ffe'],
+                ['#00ffe9','#08ff00','#fffa00','#ff0012','#de00ff','#0013fe'],
+                ['#00ffe6','#0bfe00','#fff800','#ff0015','#da00ff','#0015fe'],
+                ['#01ffe2','#0efe00','#fff500','#fe0018','#d601ff','#0119fe'],
+                ['#00ffde','#12fe01','#fff200','#ff001e','#d200ff','#001dfe'],
+                ['#01ffda','#14fe01','#ffef01','#fe0021','#cf00fe','#0021ff'],
+                ['#00ffd7','#18ff00','#ffeb01','#fe0027','#cb00fe','#0025ff'],
+                ['#01ffd4','#1bff00','#ffe700','#fe002b','#c500ff','#012aff'],
+                ['#01fece','#20fe00','#ffe300','#fe0030','#c200fe','#002efe'],
+                ['#01ffc9','#24ff02','#ffdf00','#fe0035','#bd00ff','#0033fe'],
+                ['#02ffc7','#26ff02','#fedb00','#ff0039','#b900fe','#0138fe'],
+                ['#01ffc2','#2aff00','#fed700','#ff003f','#b500ff','#013bfe'],
+                ['#00ffbd','#30ff00','#ffd300','#ff0045','#b000ff','#0041ff'],
+                ['#00ffb7','#33ff00','#ffce00','#ff004a','#ac00ff','#0046fe'],
+                ['#01ffb5','#39ff00','#ffc900','#ff004f','#a700ff','#004cff'],
+                ['#00ffaf','#3cfe00','#ffc501','#ff0055','#a300fe','#0051ff'],
+                ['#01ffab','#42fe00','#ffc000','#fe005a','#9d00ff','#0056ff'],
+                ['#01ffa6','#46ff01','#ffba00','#ff005f','#9901fe','#005cff'],
+                ['#00ffa1','#4cff01','#ffb600','#ff0065','#9301ff','#0061ff'],
+                ['#01ff9d','#50ff00','#ffb001','#ff006c','#8f00ff','#0066ff'],
+                ['#00ff98','#55ff00','#ffab01','#fe0071','#8a00fe','#016bfe'],
+                ['#02ff94','#5aff01','#fea600','#fd0076','#8500ff','#0072fe'],
+                ['#01ff8e','#5eff01','#ffa100','#fe007c','#8101ff','#0076ff'],
+                ['#01fe8a','#64ff01','#ff9b01','#fe0083','#7b00ff','#007bff'],
+                ['#01fe85','#68ff01','#ff9500','#ff0089','#7700fe','#0081fe'],
+                ['#01fe80','#6eff00','#ff9001','#ff008e','#7100fe','#0187fe'],
+                ['#01ff7b','#73ff00','#ff8b00','#ff0093','#6d01fe','#008cff'],
+                ['#01ff75','#79ff00','#ff8601','#ff009a','#6700ff','#0092fe'],
+                ['#02fe72','#7eff00','#ff8000','#ff00a0','#6300ff','#0097ff'],
+                ['#01ff6c','#82ff00','#ff7a01','#ff00a6','#5e00ff','#009dff'],
+                ['#01ff68','#87ff00','#fe7500','#ff00aa','#5900ff','#00a2ff'],
+                ['#00ff62','#8dfe01','#ff6f00','#ff00b1','#5400ff','#01a7ff'],
+                ['#01ff5f','#92ff00','#ff6a00','#fe00b6','#5000ff','#01adff'],
+                ['#00ff5a','#98ff01','#ff6500','#ff00bb','#4b00ff','#00b2ff'],
+                ['#00fe55','#9eff01','#ff5f00','#fe00c1','#4600ff','#00b7ff'],
+                ['#01ff51','#a2ff00','#ff5900','#ff00c6','#4300ff','#00bcff'],
+                ['#00ff4b','#a6ff00','#fe5401','#ff00cb','#3d00ff','#00c0ff'],
+                ['#01fe47','#acff00','#ff4f02','#fe01d0','#3a00fe','#01c5ff'],
+                ['#00ff42','#b0ff00','#ff4a01','#fe00d5','#3600fe','#00cbff'],
+                ['#01ff3e','#b6ff00','#ff4500','#fe00d8','#3100ff','#00d0ff'],
+                ['#00ff39','#baff00','#ff4001','#ff00df','#2e00ff','#00d4ff'],
+                ['#00ff36','#c0ff00','#ff3c00','#ff00e4','#2b00ff','#01d8ff'],
+                ['#00ff31','#c3ff01','#ff3500','#ff00e7','#2500ff','#01dcff'],
+                ['#01ff2c','#c8ff00','#ff3100','#ff00eb','#2200ff','#00e1ff'],
+                ['#00ff2a','#cdff00','#ff2e00','#ff00ee','#1e00ff','#00e5fe'],
+                ['#00ff26','#d0ff00','#ff2801','#ff00f1','#1b00ff','#00e9ff'],
+                ['#01ff22','#d4ff00','#ff2401','#ff00f5','#1800ff','#00edff'],
+                ['#00ff1f','#d9ff00','#ff2100','#ff00f8','#1400ff','#00f0ff'],
+                ['#02ff1a','#dcff00','#ff1c00','#ff00fb','#1100fe','#00f4ff'],
+                ['#02ff17','#e0ff01','#ff1901','#ff00fe','#0e00ff','#00f6ff'],
+                ['#00fe13','#e3ff02','#fe1500','#ff00ff','#0b00fe','#00f9fe'],
+                ['#00fe10','#e8ff00','#fe1101','#fc00ff','#0900ff','#00fcfe'],
+                ['#00ff0e','#ebff00','#fe0d00','#fa00ff','#0500fe','#00feff'],
+                ['#00ff0a','#eeff00','#ff0a00','#f800ff','#0300ff','#01fffd'],
+                ['#00ff07','#f2ff00','#ff0800','#f500ff','#0100ff','#00fefc'],
+                ['#01ff06','#f4fe00','#ff0500','#f100ff','#0000ff','#00fffa'],
+                ['#01ff04','#f8ff01','#ed0201','#ef00fe','#0103ff','#00fff7'],
+                ['#00ff01','#fbff01','#fe0004','#ec00ff','#0106ff','#00fff4'],
+                ['#00ff01','#fcff00','#ff0006','#e901ff','#0008ff','#00fff2'],
+                ['#03ff00','#ffff01','#ff0009','#e500ff','#000bfe','#00ffef'],
+                ['#06ff00','#fffd00','#ff000d','#e200fe','#000ffe','#00ffec'],
+                ['#08ff00','#fffa00','#ff0012','#de00ff','#0013fe','#00ffe9'],
+                ['#0bfe00','#fff800','#ff0015','#da00ff','#0015fe','#00ffe6'],
+                ['#0efe00','#fff500','#fe0018','#d601ff','#0119fe','#01ffe2'],
+                ['#12fe01','#fff200','#ff001e','#d200ff','#001dfe','#00ffde'],
+                ['#14fe01','#ffef01','#fe0021','#cf00fe','#0021ff','#01ffda'],
+                ['#18ff00','#ffeb01','#fe0027','#cb00fe','#0025ff','#00ffd7'],
+                ['#1bff00','#ffe700','#fe002b','#c500ff','#012aff','#01ffd4'],
+                ['#20fe00','#ffe300','#fe0030','#c200fe','#002efe','#01fece'],
+                ['#24ff02','#ffdf00','#fe0035','#bd00ff','#0033fe','#01ffc9'],
+                ['#26ff02','#fedb00','#ff0039','#b900fe','#0138fe','#02ffc7'],
+                ['#2aff00','#fed700','#ff003f','#b500ff','#013bfe','#01ffc2'],
+                ['#30ff00','#ffd300','#ff0045','#b000ff','#0041ff','#00ffbd'],
+                ['#33ff00','#ffce00','#ff004a','#ac00ff','#0046fe','#00ffb7'],
+                ['#39ff00','#ffc900','#ff004f','#a700ff','#004cff','#01ffb5'],
+                ['#3cfe00','#ffc501','#ff0055','#a300fe','#0051ff','#00ffaf'],
+                ['#42fe00','#ffc000','#fe005a','#9d00ff','#0056ff','#01ffab'],
+                ['#46ff01','#ffba00','#ff005f','#9901fe','#005cff','#01ffa6'],
+                ['#4cff01','#ffb600','#ff0065','#9301ff','#0061ff','#00ffa1'],
+                ['#50ff00','#ffb001','#ff006c','#8f00ff','#0066ff','#01ff9d'],
+                ['#55ff00','#ffab01','#fe0071','#8a00fe','#016bfe','#00ff98'],
+                ['#5aff01','#fea600','#fd0076','#8500ff','#0072fe','#02ff94'],
+                ['#5eff01','#ffa100','#fe007c','#8101ff','#0076ff','#01ff8e'],
+                ['#64ff01','#ff9b01','#fe0083','#7b00ff','#007bff','#01fe8a'],
+                ['#68ff01','#ff9500','#ff0089','#7700fe','#0081fe','#01fe85'],
+                ['#6eff00','#ff9001','#ff008e','#7100fe','#0187fe','#01fe80'],
+                ['#73ff00','#ff8b00','#ff0093','#6d01fe','#008cff','#01ff7b'],
+                ['#79ff00','#ff8601','#ff009a','#6700ff','#0092fe','#01ff75'],
+                ['#7eff00','#ff8000','#ff00a0','#6300ff','#0097ff','#02fe72'],
+                ['#82ff00','#ff7a01','#ff00a6','#5e00ff','#009dff','#01ff6c'],
+                ['#87ff00','#fe7500','#ff00aa','#5900ff','#00a2ff','#01ff68'],
+                ['#8dfe01','#ff6f00','#ff00b1','#5400ff','#01a7ff','#00ff62'],
+                ['#92ff00','#ff6a00','#fe00b6','#5000ff','#01adff','#01ff5f'],
+                ['#98ff01','#ff6500','#ff00bb','#4b00ff','#00b2ff','#00ff5a'],
+                ['#9eff01','#ff5f00','#fe00c1','#4600ff','#00b7ff','#00fe55'],
+                ['#a2ff00','#ff5900','#ff00c6','#4300ff','#00bcff','#01ff51'],
+                ['#a6ff00','#fe5401','#ff00cb','#3d00ff','#00c0ff','#00ff4b'],
+                ['#acff00','#ff4f02','#fe01d0','#3a00fe','#01c5ff','#01fe47'],
+                ['#b0ff00','#ff4a01','#fe00d5','#3600fe','#00cbff','#00ff42'],
+                ['#b6ff00','#ff4500','#fe00d8','#3100ff','#00d0ff','#01ff3e'],
+                ['#baff00','#ff4001','#ff00df','#2e00ff','#00d4ff','#00ff39'],
+                ['#c0ff00','#ff3c00','#ff00e4','#2b00ff','#01d8ff','#00ff36'],
+                ['#c3ff01','#ff3500','#ff00e7','#2500ff','#01dcff','#00ff31'],
+                ['#c8ff00','#ff3100','#ff00eb','#2200ff','#00e1ff','#01ff2c'],
+                ['#cdff00','#ff2e00','#ff00ee','#1e00ff','#00e5fe','#00ff2a'],
+                ['#d0ff00','#ff2801','#ff00f1','#1b00ff','#00e9ff','#00ff26'],
+                ['#d4ff00','#ff2401','#ff00f5','#1800ff','#00edff','#01ff22'],
+                ['#d9ff00','#ff2100','#ff00f8','#1400ff','#00f0ff','#00ff1f'],
+                ['#dcff00','#ff1c00','#ff00fb','#1100fe','#00f4ff','#02ff1a'],
+                ['#e0ff01','#ff1901','#ff00fe','#0e00ff','#00f6ff','#02ff17'],
+                ['#e3ff02','#fe1500','#ff00ff','#0b00fe','#00f9fe','#00fe13'],
+                ['#e8ff00','#fe1101','#fc00ff','#0900ff','#00fcfe','#00fe10'],
+                ['#ebff00','#fe0d00','#fa00ff','#0500fe','#00feff','#00ff0e'],
+                ['#eeff00','#ff0a00','#f800ff','#0300ff','#01fffd','#00ff0a'],
+                ['#f2ff00','#ff0800','#f500ff','#0100ff','#00fefc','#00ff07'],
+                ['#f4fe00','#ff0500','#f100ff','#0000ff','#00fffa','#01ff06'],
+                ['#f8ff01','#ed0201','#ef00fe','#0103ff','#00fff7','#01ff04'],
+                ['#fbff01','#fe0004','#ec00ff','#0106ff','#00fff4','#00ff01'],
+                ['#fcff00','#ff0006','#e901ff','#0008ff','#00fff2','#00ff01'],
+                ['#ffff01','#ff0009','#e500ff','#000bfe','#00ffef','#03ff00'],
+                ['#fffd00','#ff000d','#e200fe','#000ffe','#00ffec','#06ff00'],
+                ['#fffa00','#ff0012','#de00ff','#0013fe','#00ffe9','#08ff00'],
+                ['#fff800','#ff0015','#da00ff','#0015fe','#00ffe6','#0bfe00'],
+                ['#fff500','#fe0018','#d601ff','#0119fe','#01ffe2','#0efe00'],
+                ['#fff200','#ff001e','#d200ff','#001dfe','#00ffde','#12fe01'],
+                ['#ffef01','#fe0021','#cf00fe','#0021ff','#01ffda','#14fe01'],
+                ['#ffeb01','#fe0027','#cb00fe','#0025ff','#00ffd7','#18ff00'],
+                ['#ffe700','#fe002b','#c500ff','#012aff','#01ffd4','#1bff00'],
+                ['#ffe300','#fe0030','#c200fe','#002efe','#01fece','#20fe00'],
+                ['#ffdf00','#fe0035','#bd00ff','#0033fe','#01ffc9','#24ff02'],
+                ['#fedb00','#ff0039','#b900fe','#0138fe','#02ffc7','#26ff02'],
+                ['#fed700','#ff003f','#b500ff','#013bfe','#01ffc2','#2aff00'],
+                ['#ffd300','#ff0045','#b000ff','#0041ff','#00ffbd','#30ff00'],
+                ['#ffce00','#ff004a','#ac00ff','#0046fe','#00ffb7','#33ff00'],
+                ['#ffc900','#ff004f','#a700ff','#004cff','#01ffb5','#39ff00'],
+                ['#ffc501','#ff0055','#a300fe','#0051ff','#00ffaf','#3cfe00'],
+                ['#ffc000','#fe005a','#9d00ff','#0056ff','#01ffab','#42fe00'],
+                ['#ffba00','#ff005f','#9901fe','#005cff','#01ffa6','#46ff01'],
+                ['#ffb600','#ff0065','#9301ff','#0061ff','#00ffa1','#4cff01'],
+                ['#ffb001','#ff006c','#8f00ff','#0066ff','#01ff9d','#50ff00'],
+                ['#ffab01','#fe0071','#8a00fe','#016bfe','#00ff98','#55ff00'],
+                ['#fea600','#fd0076','#8500ff','#0072fe','#02ff94','#5aff01'],
+                ['#ffa100','#fe007c','#8101ff','#0076ff','#01ff8e','#5eff01'],
+                ['#ff9b01','#fe0083','#7b00ff','#007bff','#01fe8a','#64ff01'],
+                ['#ff9500','#ff0089','#7700fe','#0081fe','#01fe85','#68ff01'],
+                ['#ff9001','#ff008e','#7100fe','#0187fe','#01fe80','#6eff00'],
+                ['#ff8b00','#ff0093','#6d01fe','#008cff','#01ff7b','#73ff00'],
+                ['#ff8601','#ff009a','#6700ff','#0092fe','#01ff75','#79ff00'],
+                ['#ff8000','#ff00a0','#6300ff','#0097ff','#02fe72','#7eff00'],
+                ['#ff7a01','#ff00a6','#5e00ff','#009dff','#01ff6c','#82ff00'],
+                ['#fe7500','#ff00aa','#5900ff','#00a2ff','#01ff68','#87ff00'],
+                ['#ff6f00','#ff00b1','#5400ff','#01a7ff','#00ff62','#8dfe01'],
+                ['#ff6a00','#fe00b6','#5000ff','#01adff','#01ff5f','#92ff00'],
+                ['#ff6500','#ff00bb','#4b00ff','#00b2ff','#00ff5a','#98ff01'],
+                ['#ff5f00','#fe00c1','#4600ff','#00b7ff','#00fe55','#9eff01'],
+                ['#ff5900','#ff00c6','#4300ff','#00bcff','#01ff51','#a2ff00'],
+                ['#fe5401','#ff00cb','#3d00ff','#00c0ff','#00ff4b','#a6ff00'],
+                ['#ff4f02','#fe01d0','#3a00fe','#01c5ff','#01fe47','#acff00'],
+                ['#ff4a01','#fe00d5','#3600fe','#00cbff','#00ff42','#b0ff00'],
+                ['#ff4500','#fe00d8','#3100ff','#00d0ff','#01ff3e','#b6ff00'],
+                ['#ff4001','#ff00df','#2e00ff','#00d4ff','#00ff39','#baff00'],
+                ['#ff3c00','#ff00e4','#2b00ff','#01d8ff','#00ff36','#c0ff00'],
+                ['#ff3500','#ff00e7','#2500ff','#01dcff','#00ff31','#c3ff01'],
+                ['#ff3100','#ff00eb','#2200ff','#00e1ff','#01ff2c','#c8ff00'],
+                ['#ff2e00','#ff00ee','#1e00ff','#00e5fe','#00ff2a','#cdff00'],
+                ['#ff2801','#ff00f1','#1b00ff','#00e9ff','#00ff26','#d0ff00'],
+                ['#ff2401','#ff00f5','#1800ff','#00edff','#01ff22','#d4ff00'],
+                ['#ff2100','#ff00f8','#1400ff','#00f0ff','#00ff1f','#d9ff00'],
+                ['#ff1c00','#ff00fb','#1100fe','#00f4ff','#02ff1a','#dcff00'],
+                ['#ff1901','#ff00fe','#0e00ff','#00f6ff','#02ff17','#e0ff01'],
+                ['#fe1500','#ff00ff','#0b00fe','#00f9fe','#00fe13','#e3ff02'],
+                ['#fe1101','#fc00ff','#0900ff','#00fcfe','#00fe10','#e8ff00'],
+                ['#fe0d00','#fa00ff','#0500fe','#00feff','#00ff0e','#ebff00'],
+                ['#ff0a00','#f800ff','#0300ff','#01fffd','#00ff0a','#eeff00'],
+                ['#ff0800','#f500ff','#0100ff','#00fefc','#00ff07','#f2ff00'],
+                ['#ff0500','#f100ff','#0000ff','#00fffa','#01ff06','#f4fe00'],
+                ['#ed0201','#ef00fe','#0103ff','#00fff7','#01ff04','#f8ff01'],
+            ]
+            return (cary)
+        }
+    }
+
+
+    ]]></script>
+</svg>

@@ -1,0 +1,24 @@
+---
+layout: page
+title: Material
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/material_home.html -->
+
+ {{page.content}}
+
+{% assign sorted_pages = site.material |sort: "date" %}
+
+{% for this_page in sorted_pages reversed %}
+    <div class="material">
+      <a href="{{ this_page.url }}"><img class="left-img-25" src="{{ this_page.image }}" alt="this_page.title"/></a>
+      <h2><a href="{{ this_page.url }}">{{ this_page.title }} </a></h2>
+      <div style="font-size: 1em">{{this_page.excerpt}}</div>
+      {% if this_page.purchase %}
+        <div class="purchase_notice">
+          Available at <a href='{{this_page.purchase.link}}'>{{this_page.purchase.vendor}}</a> {{this_page.purchase.price}} USD
+        </div>
+      {% endif %}
+    </div>
+    <div class="clearfix"></div>
+{% endfor %}
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/material_home.html -->

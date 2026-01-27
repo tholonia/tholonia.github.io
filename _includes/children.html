@@ -1,0 +1,18 @@
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv children.html -->
+
+<h3 class="alignright">Relevant Subprojects</h3>
+
+<!-- {page.weight|debug}} -->
+{% assign projname = page.slug %}
+{% assign imin = page.weight %}
+{% assign imax = page.weight|plus: 100 %}
+
+{% assign subpages = site.documents | where: 'subproject', projname and weight > imin and weight < imax %}
+
+{% for subpage in subpages %}
+  <div class="alignright">
+  <a href="{{ subpage.url }}">{{ subpage.title }}</a>
+  </div>
+{% endfor %}
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ children.html -->

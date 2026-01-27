@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#_layouts/compress.html
+	#_layouts/default.html
+		origin-type.html
+		lang.html
+		head.html
+			favicons.html
+			mode-toggle.html
+			metadata-hook.html
+		sidebar.html
+		topbar.html
+		refactor-content.html
+			#_layouts/post.html
+				lang.html
+				datetime.html
+				read-time.html
+				boo-notice.html
+				post-sharing.html
+		refactor-content.html
+		update-list.html
+		trending-tags.html
+		toc.html
+		related-posts.html
+		post-nav.html
+		comments.html
+		footer.html
+		search-results.html
+			trending-tags.html
+		notification.html
+		js-selector.html
+		search-loader.html

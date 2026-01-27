@@ -1,0 +1,174 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+    id="svg"
+    viewBox="0 0 1000 150"
+    style="font-size:10pt; outline: 0px solid red; overflow: visible; background:#1b1b1e"
+    xmlns="http://www.w3.org/2000/svg"
+    data-name="title"
+    >
+
+    <script type="text/javascript"><![CDATA[
+
+        svg = document.getElementById('svg');
+
+
+        function iRand(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function writeText(txt, x, y) {
+            var el = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            el.textContent = txt;
+            el.setAttributeNS(null, 'x', x);
+            el.setAttributeNS(null, 'y', y);
+            el.setAttributeNS(null, 'font-family', '"Times New Roman", Times, serif');
+            el.setAttributeNS(null, 'font-size', '0.2em');
+            document.getElementById('svg').appendChild(el);
+        };
+
+        function addText(C, n, x, y, color) {
+            var el = document.createElementNS("http://www.w3.org/2000/svg", "text");
+            el.textContent = C;
+            el.setAttributeNS(null, 'id', "t"+n);
+            el.setAttributeNS(null, 'x', x+100);
+            el.setAttributeNS(null, 'y', y+100);
+            el.setAttributeNS(null, 'font-family', '"Times New Roman", Times, serif');
+            el.setAttributeNS(null, 'font-size', '10em');
+            el.setAttributeNS(null, 'fill', color);
+            el.setAttributeNS(null, 'fill-opacity', "1");
+            el.setAttributeNS(null, 'stroke', "gray");
+            el.setAttributeNS(null, 'stroke-width', "1");
+            el.setAttributeNS(null, 'text-anchor', 'middle');
+            document.getElementById('svg').appendChild(el);
+        };
+
+        function slide(c, speed, startx, endx) {
+            // http://www.w3.org/TR/SVG/paths.html
+            moveto = "m0,0" //x,y coords.  M/m = abs/rel
+            curve1 = " c"+startx+",0 "+endx+",0 "+endx+",0" // (x1 y1 x2 y2 x y)+  C/c = abs/rel, 'S/s abs/rel (x2 y2 x y)+
+            curve2 = " C"+startx+",0 "+endx+",0 "+endx+",0"
+            type="z"
+            path = moveto+"    "+curve1+"    "+curve2+"    "+type
+
+//            console.log(path)
+
+            c_path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+//            c_path.setAttributeNS(null, 'stroke',"black");
+//            c_path.setAttributeNS(null, 'transform',"rotate(45 32 32)");
+            c_path.setAttributeNS(null, 'fill',"none");
+            c_path.setAttributeNS(null, 'd', path);
+            svg.appendChild(c_path);
+
+            c_anim = document.createElementNS("http://www.w3.org/2000/svg", "animateMotion");
+            c_anim.setAttributeNS(null, 'dur', speed+'s');
+    //        t2_anim.setAttributeNS(null, 'rotate', "0");
+            c_anim.setAttributeNS(null, 'repeatCount',"8");
+            c_anim.setAttributeNS(null, 'transform',"rotate(45 32 32)");
+            c_anim.setAttributeNS(null, 'path', path);
+            c.appendChild(c_anim);
+
+    //        t2.setAttribute("rotate","0")
+
+            return [c_path, c_anim]
+
+        }
+
+        // **********************************************************************
+        // **********  VARS *****************************************************
+        // **********************************************************************
+        var ofs = [20,18,21,20,17,20,15,15,18]
+        var cs = [
+            ["#000","#f00","#0f0","#ff0","#00f","#f0f","#0ff","#fff"],
+            ["#000000","#287ca1","#c77411","#567e37","#9e2829","#4a0da8","#fdc450","#4d8f8b"],
+            [
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
+                '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0')
+            ]
+
+        ]
+        var durs = [
+            [.01,.02,.03,.04,.05,.06,.07,.08],
+            [.2,.4,.6,.8,1,1.2,1.4,1.6],
+            [1,2,3,4,5,6,7,8],
+            [0.5,1,1.5,2,2.5,3,3.5,4],
+            [10,20,30,40,50,60,70,80],
+        ]
+//        var usecs = cs[iRand(0,1)];
+        var usecs = cs[2];
+
+//        var usedur = durs[iRand(0,2)];
+        var usedur = durs[1];
+
+        var arr = [
+                { 'text':"T",'offset':ofs[0],'color':usecs[0],'dur':usedur[0]}
+                ,{'text':"H",'offset':ofs[1],'color':usecs[1],'dur':usedur[1]}
+                ,{'text':"O",'offset':ofs[2],'color':usecs[2],'dur':usedur[2]}
+                ,{'text':"L",'offset':ofs[3],'color':usecs[3],'dur':usedur[3]}
+                ,{'text':"O",'offset':ofs[4],'color':usecs[4],'dur':usedur[4]}
+                ,{'text':"N",'offset':ofs[5],'color':usecs[5],'dur':usedur[5]}
+                ,{'text':"I",'offset':ofs[6],'color':usecs[6],'dur':usedur[6]}
+                ,{'text':"A",'offset':ofs[7],'color':usecs[7],'dur':usedur[7]}
+        ];
+        dx = -30;
+        amp = 5
+        yadj = 20
+        let i = 0
+
+        // **********************************************************************
+        // **********  MAIN *****************************************************
+        // **********************************************************************
+
+        for (let i=0; i< arr.length ;i++) {
+            dx = dx + (arr[i]['offset'] * amp);
+
+            addText(arr[i]['text'],
+                    i,
+                    dx,
+                    yadj,
+                    arr[i]['color']
+            );
+        }
+
+        t = new Array(8);
+        for (let i=0; i< 8 ;i++) {
+            tid = "t"+i;
+            t[i] = document.getElementById(tid);
+//            console.log(tid,t[i])
+        }
+        <!--console.log(t)-->
+
+        var animator;
+        var angle = 0;
+
+        let wmod = 160;
+        dx = 20;
+
+//                animator = setInterval(
+//                    function ()
+//                    {
+//                        angle += 5;
+//                        t[7].setAttribute("transform", "rotate(" +angle+ " "+dx+" 0)");
+//                        t[7].setAttribute("fill", "feeze");
+//                        t[7].setAttribute("type", "rotate");
+//                        t[7].setAttribute("from", "0 100 100");
+//                        t[7].setAttribute("to", "360 100 100");
+//                        t[7].setAttribute("repeatCount","1");
+//                    }, 100
+//                );
+
+            for (let i=0; i< arr.length ;i++) {
+                dx = dx + (arr[i]['offset'] * amp);
+                slide(  t[i], arr[i]['dur'], 0-dx, wmod-dx);
+
+            }
+    ]]></script>
+
+</svg>

@@ -1,0 +1,47 @@
+<button id="src1btn" onclick="toggleDiv1()">{{page.src1_title}}</button>
+
+<style>
+#src1btn {
+    color:white;
+    background: black;
+    border-radius:5px;
+    padding:10px;
+    display:inline-block;
+}
+
+#src1div {
+    display:none;
+    border:1px solid blue;
+    width:100%;
+    height:100%;
+    margin:10px
+}
+
+</style>
+
+<script>
+function toggleDiv1() {
+  var div = document.getElementById("src1div");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+</script>
+
+<div id="src1div" style="display: none;" >
+  <iframe src="{{ page.src1 }}" width="100%" height="1000">
+<!--   <object
+    data='{{page.src1_title}}'
+    width='100%'
+    height='1000'
+    type='application/pdf'>
+    <p>
+      It appears you don't have a PDF plugin for this browser.
+      No biggie... you can <a href='{{ page.src1 }}'> click here</a>
+      to download the PDF file.
+    </p>
+  </object>
+-->
+</div>

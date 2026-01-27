@@ -1,0 +1,97 @@
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache
+_site/*
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode
+.directory
+
+# Misc
+assets/js/dist
+PUSH
+SERVE
+*.ORG
+x
+xx
+*.zip
+SAVE
+Thumbs.db
+Thumbs.db:encryptable
+G
+G2
+.ZPROJECTS/
+model.safetensors
+youtube.rb
+__pycache__/
+TEST*
+*.txt
+*.log
+log*
+RUN
+EDIT
+DEADJOE
+.src/
+.archive/
+ssl/
+*psd
+docs/
+__pycache__
+.directory
+EX_*
+check_ext_links.sh
+check_links.sh
+x.md
+*wav
+*.mp3
+
+
+# these are all teh untracked files that in theory I should not need to
+# commit
+
+.megaignore
+Dockerfile
+_data/.editorconfig
+_data/.github/
+_data/.nojekyll
+_data/ADD_MAT
+_data/ADD_POST
+_data/CLEAN_GITHUB
+_data/CNAME
+_data/FINDFILE
+_data/FINDINFILE
+_data/Gemfile
+_data/JNOTES_dev_tholonia.md
+_data/LICENSE
+_data/README.md
+_data/README_chirpy.md
+_data/SPELLCHECK.py
+_data/_interactive/
+_data/_posts/
+_data/_projects/
+_data/_sass/
+_data/_transforms/
+_data/add_material.py
+_data/add_post.py
+_data/assets/
+_data/favicon.ico
+_data/header.svg
+_data/index.html
+_data/jday.py
+_data/list_cats.html
+_data/mindmap.json
+_data/reorder_yaml.py
+chirpy2_docker.tar
+twitter_post.py

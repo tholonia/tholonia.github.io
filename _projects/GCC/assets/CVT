@@ -1,0 +1,4 @@
+
+convert -density 100 ${1}.svg ${1}.png  
+mogrify  -channel RGB -negate ${1}.png
+convert ${1}.png  -fuzz 0% -transparent black x.png && mv x.png ${1}.png

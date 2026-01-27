@@ -1,0 +1,311 @@
+# The Site Configuration
+
+project_array: [[100,200],[200,300],[300,400],[400,500],[500,600],[600,700],[700,800],[800,900],[900,1000],[1000,1100],[1100,1200],[1200,1300],[1300,1400],[1400,1500]]
+nullarray: []
+
+
+# Import the theme
+theme: jekyll-theme-chirpy
+# local-theme: tholonia
+
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: en
+
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: America/Buenos_Aires
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: THOLONIA # the main title
+
+tagline: The Mechanics of Existential Awareness # it will display as the sub-title
+
+description: >- # used by seo meta and the atom feed
+  The THOLONIA Project files.
+
+# Fill in the protocol & hostname for your site.
+# e.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://tholonia.github.io"
+baseurl: "/"
+
+
+# include:
+  # - projects
+  # - projects/the_book
+ # - _transforms
+
+github:
+  username: tholonia # change to your github username
+
+twitter:
+  username: tholonia # change to your twitter username
+
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: tholonia
+  email: tholonia@mailfence.com # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/tholonia # change to your twitter homepage
+    - https://github.com/tholonia # change to your github homepage
+    # Uncomment below to add more social links
+    - https://www.youtube.com/@tholonia
+    # - https://discord.gg/aY4d7uzhJe  # doesn't work
+    # - https://www.linkedin.com/in/username
+
+google_site_verification: # fill in to your verification string
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
+google_analytics:
+  id: # fill in your Google Analytics ID
+
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+#     light  - Use the light color scheme
+#     dark   - Use the dark color scheme
+#
+theme_mode: # [light|dark]
+
+# The CDN endpoint for images.
+# Notice that once it is assigned, the CDN url
+# will be added to all image (site avatar & posts' images) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+img_cdn: #"https://chirpy-img.netlify.app"
+
+# the avatar on sidebar, support local or CORS resources
+avatar: "/commons/avatar.jpg"
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+comments:
+  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # The active options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo: # <gh-username>/<repo>
+    repo_id:
+    category:
+    category_id:
+    mapping: # optional, default to 'pathname'
+    input_position: # optional, default to 'bottom'
+    lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development|production]
+
+pwa:
+  enabled: true # the option for PWA feature
+
+paginate: 10
+
+categories: [BLOG]
+tags: [news]
+
+# The base URL of your site
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  syntax_highlighter: rouge
+  # auto_ids: true
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+  books:
+    output: true
+    permalink: /:collection/:name
+
+  the_book:
+    output: true
+    order:
+      - 000-Intro.md
+      - 010-CHAOS.md
+      - 020-ENERGY.md
+      - 030-ORDER.md
+      - 040-THE_LAWS.md
+      - 050-REASON.md
+      - 060-INFORMATION.md
+      - 070-STRUCTURE.md
+      - 075-The_Thologram.md
+      - 080-INSTANCES.md
+      - 090-MIND.md
+      - 100-FIELDS.md
+      - 110-APPLICATION_OF_AWARENESS.md
+      - 120-PREDETERMINISM.md
+      - 510-A-About_This_Book.md
+      - 520-C-Tholonic_Math.md
+      - 530-D-Greek_Gods.md
+      - 540-E-Hidden_Images.md
+      - 550-F-An_Unexpected_Pattern.md
+      - 580-I-Market_Data.md
+      - 590-J-Structured_Water.md
+      - pendix_K.md
+      - pendix_L.md
+
+#    permalink: /:collection
+    sort_by: name
+  # mindmap:
+  #   output: true
+  gallery:
+    output: true
+#    permalink: /:collection
+    sort_by: name
+  material:
+    output: true
+    sort_by: date
+#    permalink: /:collection
+# ------------------------------------gallery items
+  interactive:
+    output: true
+    sort_by: name
+#    permalink: /:collection
+  tholonic_coloring_book:
+    output: true
+    sort_by: name
+#    permalink: /:collection
+  notclock:
+    output: true
+    sort_by: name
+#    permalink: /:collection
+  transforms:
+    output: true
+    sort_by: name
+#    permalink: /:collection
+  videos:
+    output: true
+    sort_by: name
+#    permalink: /:collection
+  projects:
+    output: true
+    sort_by: name
+#    permalink: /:collection
+  docs:
+    output: true
+    sort_by: name
+#    permalink: /:collection
+
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - "EX_*"
+  - ".*"
+  # - docs/
+  - tools/
+  - README.md
+  - LICENSE
+  - rollup.config.js
+  - package*.json
+  - .ZPROJECTS/
+  - src
+  - "DEL_*"
+  - twitter_post.py
+
+# gems:
+  # - jekyll-inline-svg
+# svg:
+  # optimize: true
+
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+# Jekyll plugins OK'd by GitHub => https://pages.github.com/versions/
+plugins:
+  - jekyll-openmoji
+  - jekyll-youtube
+  - jekyll-feed
+  # - jekyll-inline-svg
+
+excerpt_separator: "<!--more-->"
+show_excerpts: true
+
+# can't get this to work
+blurbs:
+  pdf_viewer: <object data='{{ page.pdf }}#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object>
+

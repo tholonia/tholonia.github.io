@@ -1,0 +1,45 @@
+<button id="src2btn" onclick="toggleDiv2()">{{page.src2_title}}</button>
+
+<style>
+#src2btn {
+    color:white;
+    background: black;
+    border-radius:5px;
+    padding:10px;
+    display:inline-block;
+}
+
+#src2div {
+    display:none;
+    border:1px solid blue;
+    width:100%;
+    height:100%;
+    margin:10px
+}
+
+</style>
+
+<script>
+function toggleDiv2() {
+  var div = document.getElementById("src2div");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+</script>
+
+<div id="src2div" style="display: none;" >
+  <object 
+    data='{{page.src2_title}}' 
+    width='100%' 
+    height='1000' 
+    type='application/pdf'>
+    <p>
+      It appears you don't have a PDF plugin for this browser. 
+      No biggie... you can <a href='{{ page.src2 }}'> click here</a> 
+      to download the PDF file.
+    </p>
+  </object>
+</div>

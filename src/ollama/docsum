@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+	then
+		echo "Missing filename"
+		exit
+fi
+
+F=${1}
+
+
+cd /home/jw/store/sites/tholonia/chirpy2/src/ollama/
+
+Q="summarize this article in 75 words"
+./docsum.py -s ${F} -q "${Q}"
+
+Q="list the top 10 keywords in this article in order of importance in as few words as possible"
+./docsum.py -s ${F} -q "${Q}"
+
+Q="in as few words as possible, select the categories from the following list that describes the content: ASTRONOMY,BIOSCIENCE,COMMUNICATION,ECONOMICS,ENERGY,ESOTERIC,GEOMETRY,GEOSCIENCE,HEALTH,MATH,METAPHYSICS,NATURE,NEUROSCIENCE,PARAPSYCHOLOGY,PHILOSOPHY,PHYSICS,POLITICS,PSYCHOLOGY,REFERENCE,STRUCTURE,TECHNOLOGY"
+./docsum.py -s ${F} -q "${Q}" |./extract_cats.py
+
+
+echo "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"

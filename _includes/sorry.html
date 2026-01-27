@@ -1,0 +1,60 @@
+<!--object data='{{ page.pdf }}#zoom=100%' width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object-->
+
+
+
+<script>
+function downloadAndDisplayPDF(url) {
+    return new Promise((resolve, reject) => {
+        // Step 1: Download PDF file
+        fetch(url,{mode:'cors'})
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.blob();
+            })
+            .then(pdfBlob => {
+                // Step 2: Convert PDF to base64
+                const reader = new FileReader();
+                reader.onload = () => {
+                    const base64data = reader.result.split(',')[1]; // Extract base64 data
+                    // Step 3: Create HTML object to display PDF
+                    const objectElement = document.createElement('object');
+                    objectElement.type = 'application/pdf';
+                    objectElement.data = `data:application/pdf;base64,${base64data}`;
+                    objectElement.width = '100%';
+                    objectElement.height = '600px';
+                    // Append object to DOM for display
+                  	console.log("appending object")
+
+                    document.body.appendChild(objectElement);
+                    // Step 4: Resolve with base64 data
+                    resolve(base64data);
+                };
+                reader.onerror = error => reject(error);
+                reader.readAsDataURL(pdfBlob);
+            })
+            .catch(error => reject(error));
+    });
+}
+
+// Example usage:
+const xxpdfUrl = 'https://tholonia.com/material/assets/material_decoding-the-neural-representation-of-story-meanings-across-languages.pdf';
+const pdfUrl = 'https://raw.githubusercontent.com/tholonia/tholonia.github.io/main/_material/assets/material_surya-siddhanta.pdf';
+
+window.onload = function() {
+	console.log("calling function")
+    downloadAndDisplayPDF(pdfUrl)
+        .then(base64Data => {
+            console.log('Base64 encoded PDF:', base64Data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        }
+	);
+};
+</script>
+
+<div id="pdf"></div>
+<!--object id="pdf"  data="" width='100%' height='1000' type='application/pdf'><p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href='{{ page.pdf }}'> click here</a> to download the PDF file.</p></object-->
+

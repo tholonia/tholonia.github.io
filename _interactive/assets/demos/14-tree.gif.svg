@@ -1,0 +1,656 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--<div>-->
+<svg
+        id="svg"
+        class="svg"
+        viewBox="0 0 700 1600"
+        width="700"
+        height="1600"
+        fill="black"
+        style="border:1px solid red; background-color: #000;"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke="white"
+        stroke-width="3"
+        xml:space="preserve"
+        transform="translate(450 -400) rotate(-90) "
+>
+
+<!--        transform="rotate(-90 50 100)"-->
+<!--        <rect x="0" y="0" width="400" height="400"  style="stroke: #ffffff; fill:none;"/>-->
+<!--        width="400"-->
+<!--        height="400"-->
+<!--        version="1.1"-->
+<!--        fill-rule="evenodd"-->
+
+<!--        zoomAndPan="magnify" width="1150" height="767"-->
+
+    <!-- you must wrap scripts in CDATA tags as SVG should be valid XML -->
+
+
+    <script type="text/javascript"><![CDATA[
+
+
+<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------- -->
+
+<!-- ------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------- -->
+function getLevel(p) {
+    for (n = 12; n>=0; n--) {
+        if (p >= 2**n) {
+            return(n)
+        }
+    }
+}
+<!-- ------------------------------------------------------------- -->
+function deg2rad(degrees) {
+    var pi = Math.PI;
+    return degrees / (180/pi);
+}
+<!-- ------------------------------------------------------------- -->
+function rad2deg(radians) {
+  var pi = Math.PI;
+  return radians * (180/pi);
+}
+
+
+
+function getColorScheme(n,c=0) {
+    if (n == 1) {
+        offset_1 = "0%"
+        offset_2 = "50%"
+        offset_3 = "100%"
+
+<!--        objectBoundingBox vs userSpaceOnUse  -->
+
+        var colorscheme ={
+            0:{
+                'stops':[{"color": "#ED1C24","offset": offset_1},{"color": "#F2EC22","offset": "50%"},{"color": "#F6D163","offset": "100%"}],
+                'box': 'userSpaceOnUse'
+            },
+            1:{
+                'stops':[{"color": "#472976","offset": offset_1},{"color": "#D490BF","offset": offset_2},{"color": "#9E7BB8","offset": offset_3}],
+                'box': 'userSpaceOnUse'
+            },
+            2:{
+                'stops':[{"color": "#21205F","offset": offset_1},{"color": "#C2DB62","offset": offset_2},{"color": "#5FBD5A","offset": offset_3}],
+                'box': 'userSpaceOnUse'
+            },
+            3:{
+                'stops':[{"color": "#104373","offset": offset_1},{"color": "#B5E0D3","offset": offset_2},{"color": "#B5E0D3","offset": offset_3}],
+                'box': 'userSpaceOnUse'
+            },
+            4:{
+                'stops':[{"color": "#206700","offset": offset_1},{"color": "#EBA600","offset": offset_2},{"color": "#206700","offset": offset_3}],
+                'box': 'userSpaceOnUse'
+            },
+            5:{
+                'stops':[{"color": "#F8C900","offset": offset_1},{"color": "#D72F00","offset": offset_2},{"color": "#F8C900","offset": offset_3}],
+                'box': 'userSpaceOnUse'
+            },
+            6:{
+                'stops':[{"color": "#4CCDAF","offset": offset_1},{"color": "#0652E1","offset": offset_2},{"color": "#EA45B1","offset": offset_3}],
+                'box': 'userSpaceOnUse'
+            }
+        }
+    }
+    if (n == 2) {
+        offset_1 = "0%"
+        offset_2 = "100%"
+        var colorscheme ={
+            0:{
+                'stops':[{"color": "#ED1C24","offset": offset_1},{"color": "#F2EC22","offset": "50%"}],
+                'box': 'objectBoundingBox'
+            },
+            1:{
+                'stops':[{"color": "#472976","offset": offset_1},{"color": "#D490BF","offset": offset_2}],
+                'box': 'userSpaceOnUse'
+            },
+            2:{
+                'stops':[{"color": "#21205F","offset": offset_1},{"color": "#C2DB62","offset": offset_2}],
+                'box': 'objectBoundingBox'
+            },
+            3:{
+                'stops':[{"color": "#104373","offset": offset_1},{"color": "#B5E0D3","offset": offset_2}],
+                'box': 'userSpaceOnUse'
+            },
+            4:{
+                'stops':[{"color": "#206700","offset": offset_1},{"color": "#EBA600","offset": offset_2}],
+                'box': 'objectBoundingBox'
+            },
+            5:{
+                'stops':[{"color": "#F8C900","offset": offset_1},{"color": "#D72F00","offset": offset_2}],
+                'box': 'userSpaceOnUse'
+            },
+            6:{
+                'stops':[{"color": "#4CCDAF","offset": offset_1},{"color": "#0652E1","offset": offset_2}],
+                'box': 'objectBoundingBox'
+            }
+        }
+    }
+    if (n == 3) {
+        offset_1 = "0%"
+        offset_2 = "100%"
+        var colorscheme ={
+            0:{
+                'stops':[{"color": c[0],"offset": offset_1},{"color": c[1],"offset": offset_2}],
+                'box': 'objectBoundingBox'
+            },
+            1:{
+                'stops':[{"color": c[1],"offset": offset_1},{"color": c[2],"offset": offset_2}],
+                'box': 'userSpaceOnUse'
+            },
+            2:{
+                'stops':[{"color": c[2],"offset": offset_1},{"color": c[3],"offset": offset_2}],
+                'box': 'objectBoundingBox'
+            },
+            3:{
+                'stops':[{"color": c[3],"offset": offset_1},{"color": c[4],"offset": offset_2}],
+                'box': 'userSpaceOnUse'
+            },
+            4:{
+                'stops':[{"color": c[4],"offset": offset_1},{"color": c[5],"offset": offset_2}],
+                'box': 'objectBoundingBox'
+            },
+            5:{
+                'stops':[{"color": c[5],"offset": offset_1},{"color": c[6],"offset": offset_2}],
+                'box': 'userSpaceOnUse'
+            },
+            6:{
+                'stops':[{"color": c[6],"offset": offset_1},{"color": c[0],"offset": offset_2}],
+                'box': 'objectBoundingBox'
+            }
+        }
+    }
+    return(colorscheme)
+}
+    <!-- ------------------------------------------------------------- -->
+function drawLine(args) {
+    var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.id = args['idname']
+
+    line.setAttribute("x1", Math.round(args['x1']))
+    line.setAttribute("y1", Math.round(args['y1']))
+    line.setAttribute("x2", Math.round(args['x2']))
+    line.setAttribute("y2", Math.round(args['y2']))
+    line.setAttribute("stroke", args['color'])
+    console.log(args['color'])
+    line.setAttribute("stroke-width", args['width'])
+    line.setAttribute("style", args['style'])
+    line.setAttribute("class", args['classname'])
+
+    line.setAttribute("stroke-linecap", "round")
+
+    svg = document.getElementById("svg")
+    svg.appendChild(line);
+    return(document.getElementById(args['idname']))
+}
+<!-- ------------------------------------------------------------- -->
+function drawCircle(args) {
+    var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+
+    circle.id = args['idname']
+
+    circle.setAttribute("cx", Math.round(args['cx']))
+    circle.setAttribute("cy", Math.round(args['cy']))
+    circle.setAttribute("r", Math.round(args['radius']))
+    circle.setAttribute("fill", args['color'])
+    circle.setAttribute("stroke", args['bordercolor'])
+    circle.setAttribute("stroke-width", args['borderwidth'])
+    circle.setAttribute("style", args['style'])
+    circle.setAttribute("class", args['classname'])
+    circle.setAttribute("stroke-linecap", "round")
+
+    svg = document.getElementById("svg")
+    svg.appendChild(circle);
+    return(document.getElementById(args['idname']))
+}
+<!-- ------------------------------------------------------------- -->
+function drawPoly1_dots(args) {
+
+    var poly1 = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+
+    alength = Math.round(args['length']/2)
+    alength1 = alength
+    alength2 = alength
+
+<!--    level = args['level'] JWFIX-->
+
+    cxs = Math.round(args['cxs'])
+    cys = Math.round(args['cys'])
+    cxt = Math.round(args['cxt'])
+    cyt = Math.round(args['cyt'])
+
+    rangle = deg2rad(angle)
+
+<!--        drawCircle_end({-->
+<!--            'idname':      "p1",-->
+<!--            'classname':   "circleendclass",-->
+<!--            'cx':           cxt,-->
+<!--            'cy':           cyt,-->
+<!--            'radius':       4,-->
+<!--            'color':       "red",-->
+<!--            'borderwidth':  1,-->
+<!--            'bordercolor': "black",-->
+<!--            'style':    ""-->
+<!--        })-->
+
+    <!--    get the angle of the line-->
+    this_angle_rad = Math.atan2(cyt-cys,cxt-cxs)
+
+    p2x = Math.round(alength1 * (Math.cos(rangle+this_angle_rad)*+1) + cxs)
+    p2y = Math.round(alength1 * (Math.sin(rangle+this_angle_rad)*+1) + cys)
+
+<!--    p2x = p2x - ((p2x-cxt)/(6-level))-->
+<!--    p2y = p2y - ((p2y-cyt)/(6-level))-->
+    p2x = p2x - ((p2x-cxt) *(1-(level/10)))
+    p2y = p2y - ((p2y-cyt) *(1-(level/10)))
+
+
+<!--        drawCircle_end({-->
+<!--            'idname':      "p2",-->
+<!--            'classname':   "circleendclass",-->
+<!--            'cx':           p2x,-->
+<!--            'cy':           p2y,-->
+<!--            'radius':       4,-->
+<!--            'color':       "green",-->
+<!--            'borderwidth':  1,-->
+<!--            'bordercolor': "black",-->
+<!--            'style':    ""-->
+<!--        })-->
+
+    <!--    calc secondcorner point    -->
+    p3x = Math.round(alength2 * (Math.cos(rangle+this_angle_rad)*-1) + cxs)
+    p3y = Math.round(alength2 * (Math.sin(rangle+this_angle_rad)*-1) + cys)
+
+<!--        p3x = p3x - ((p3x-cxt)/(6-level))-->
+<!--        p3y = p3y - ((p3y-cyt)/(6-level))-->
+    p3x = p3x - ((p3x-cxt) *(1-(level/10)))
+    p3y = p3y - ((p3y-cyt) *(1-(level/10)))
+
+<!--        drawCircle_end({-->
+<!--            'idname':      "p3",-->
+<!--            'classname':   "circleendclass",-->
+<!--            'cx':           p3x,-->
+<!--            'cy':           p3y,-->
+<!--            'radius':       4,-->
+<!--            'color':       "blue",-->
+<!--            'borderwidth':  1,-->
+<!--            'bordercolor': "black",-->
+<!--            'style':    "#rect1 { fill: url(#Gradient1); } .stop1 { stop-color: red; } .stop2 { stop-color: black; stop-opacity: 0; } .stop3 { stop-color: blue; }"-->
+<!--        })-->
+
+    pp1 = ""+cxt+","+cyt
+    pp2 = ""+p2x+","+p2y
+    pp3 = ""+p3x+","+p3y
+
+    pts = pp1 + " " + pp2 + " " + pp3 + " " + pp1
+
+    poly1.id = args['idname']
+    poly1.setAttribute("points", pts)
+    poly1.setAttribute("opacity", "0.5")
+    poly1.setAttribute("stroke", args['bordercolor'])
+    poly1.setAttribute("stroke-width", args['borderwidth'])
+
+
+    poly1.setAttribute("fill", "url(#box-grad)")
+<!--    poly1.setAttribute("style"," fill: url(#box-grad);")-->
+
+    poly1.setAttribute("class", args['classname'])
+    poly1.setAttribute("stroke-linecap", "round")
+
+    svg = document.getElementById("svg")
+    svg.appendChild(poly1);
+    return(document.getElementById(args['idname']))
+}
+<!-- ------------------------------------------------------------- -->
+function drawPoly1(args) {
+
+    var poly1 = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+
+    alength = Math.round(args['length']/2)
+<!--    TO MAKE ONE SIDED = alength1 = 0-->
+    alength1 = alength
+    alength2 = alength
+
+    level = args['level']
+
+    cxs = Math.round(args['cxs'])
+    cys = Math.round(args['cys'])
+    cxt = Math.round(args['cxt'])
+    cyt = Math.round(args['cyt'])
+
+    rangle = deg2rad(angle)
+
+    <!--    get the angle of the line-->
+    this_angle_rad = Math.atan2(cyt-cys,cxt-cxs)
+
+    <!--    calc 1st corner point    -->
+
+    p2x = Math.round(alength1 * (Math.cos(rangle+this_angle_rad)*+1) + cxs)
+    p2y = Math.round(alength1 * (Math.sin(rangle+this_angle_rad)*+1) + cys)
+
+    p2x = p2x - ((p2x-cxt) *(1-(level/10)))
+    p2y = p2y - ((p2y-cyt) *(1-(level/10)))
+
+    <!--    calc 2nd corner point    -->
+
+    p3x = Math.round(alength2 * (Math.cos(rangle+this_angle_rad)*-1) + cxs)
+    p3y = Math.round(alength2 * (Math.sin(rangle+this_angle_rad)*-1) + cys)
+
+    p3x = p3x - ((p3x-cxt) *(1-(level/10)))
+    p3y = p3y - ((p3y-cyt) *(1-(level/10)))
+
+    <!--    create the pairs -->
+
+    pp1 = cxt+","+cyt
+    pp2 = p2x+","+p2y
+    pp3 = p3x+","+p3y
+    pts = pp1 + " " + pp2 + " " + pp3 + " " + pp1
+
+<!--xxxxxxxxxxxx-->
+
+
+
+    var svgns = 'http://www.w3.org/2000/svg';
+    var defs = document.createElementNS(svgns, 'defs');
+    var gradient = document.createElementNS(svgns, 'radialGradient');
+
+    stops=colorScheme[level]['stops']
+
+
+    for (var i = 0, length = stops.length; i < length; i++) {
+        var stop = document.createElementNS(svgns, 'stop');
+        stop.setAttribute('offset', stops[i].offset);
+        stop.setAttribute('stop-color', stops[i].color);
+        gradient.appendChild(stop);
+    }
+
+    idver = "radialGradient_"+level
+    idverurl = "url(#"+idver+")"
+    space = colorScheme[level]['box']
+
+    gradient.id = idver;
+    gradient.setAttribute('gradientUnits', space);
+    gradient.setAttribute('cx', cxt);
+    gradient.setAttribute('cy', cyt);
+<!--    gradient.setAttribute('r', "50%");-->
+<!--    gradient.setAttribute('fx', "50%");-->
+<!--    gradient.setAttribute('fy', "50%");-->
+    defs.appendChild(gradient);
+
+   svg = document.getElementById("svg")
+   svg.appendChild(defs);
+
+<!--xxxxxxxxxxxx-->
+
+    poly1.id = args['idname']
+    poly1.setAttribute("points", pts)
+    poly1.setAttribute("opacity", "0.5")
+    poly1.setAttribute("stroke", args['bordercolor'])
+    poly1.setAttribute("stroke-width", args['borderwidth'])
+    poly1.setAttribute("fill", idverurl)
+    poly1.setAttribute("class", args['classname'])
+    poly1.setAttribute("stroke-linecap", "round")
+
+    svg = document.getElementById("svg")
+    svg.appendChild(poly1);
+    return(document.getElementById(args['idname']))
+}
+<!-- ------------------------------------------------------------- -->
+function drawCircle_end(args) {
+    var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+
+    circle.id = args['idname']
+
+    circle.setAttribute("cx", Math.round(args['cx']))
+    circle.setAttribute("cy", Math.round(args['cy']))
+    circle.setAttribute("r", Math.round(args['radius']))
+    circle.setAttribute("fill", args['color'])
+    circle.setAttribute("stroke", args['bordercolor'])
+    circle.setAttribute("stroke-width", args['borderwidth'])
+    circle.setAttribute("style", args['style'])
+    circle.setAttribute("class", args['classname'])
+    circle.setAttribute("stroke-linecap", "round")
+
+    svg = document.getElementById("svg")
+    svg.appendChild(circle);
+    return(document.getElementById(args['idname']))
+}
+<!-- ------------------------------------------------------------- -->
+function bifurc(args) {
+    length = args['length']
+    x2 = args['x2']
+    y2 = args['y2']
+    angle=args['angle']
+    pos=args['pos']
+
+    count = count + 1
+    level = getLevel(count)
+    x1 = x2
+    y1 = y2
+
+<!--    angle = angle * level -->
+<!--    angle = angle + ((angle/2) * (level-1))-->
+    angle = (angle + ((angle/2) * (level-1)))%360
+
+    x2r = Math.round(length * Math.cos(deg2rad(angle)) + x1)
+    y2r = Math.round(length * Math.sin(deg2rad(angle)) + y1)
+
+    x2l = Math.round(length * Math.cos(deg2rad(angle*-1)) + x1)
+    y2l = Math.round(length * Math.sin(deg2rad(angle*-1)) + y1)
+
+    pos.push([x1,y1,x2r,y2r],[x1,y1,x2l,y2l])
+
+    return(pos)
+}
+<!-- ------------------------------------------------------------- -->
+<!--function rebuild(tlength,tangle,tpos) {-->
+<!--    npos = []-->
+<!--    npos.push(tpos[0])-->
+<!--    npos.push(tpos[1])-->
+<!--    npos.push(tpos[2])-->
+<!--    for (m=1;m<gens;m++) {-->
+<!--        fr = (npos.tlength)-(2**m)-->
+<!--        to = (npos.tlength)-->
+<!--        for (i=fr; i<to;i++) {-->
+<!--            npos = bifurc({'length':tlength, 'x2':npos[i][2], 'y2': npos[i][3], 'pos':npos, 'angle':tangle} )-->
+<!--        }-->
+<!--    };-->
+<!--    return(npos)-->
+<!--}-->
+<!-- ------------------------------------------------------------- -->
+function removeElement(id) {
+
+    try {
+        var elem = document.getElementById(id);
+        return elem.parentNode.removeChild(elem);
+    } catch {
+    }
+}
+<!-- ------------------------------------------------------------- -->
+function cycle_in_range(number, amin, amax, invert=0) {
+    try {
+        mod_num = number % amax
+    } catch {
+        mod_num = 0
+    }
+
+    try {
+        mod_num2 = number % (amax * 2)
+    } catch {
+        mod_num2 = 0
+    }
+
+    new_val1 = Math.abs(mod_num2 - (mod_num * 2))
+
+    old_min = 0
+    old_min = 0
+    old_max = amax
+    new_max = amax
+    new_min = amin
+
+    try {
+        new_value = ((new_val1 - old_min) / (old_max - old_min)) * (new_max - new_min) + new_min
+    } catch {
+        new_value = 0
+    }
+
+    if (invert == 1) {
+        new_value = amax - new_value
+    }
+
+    return (Math.round(new_value))
+}
+
+<!-- ┌───────────────────────────────────────────────────  -->
+<!-- │ 🟠 DRAW THW FORM -->
+<!-- └───────────────────────────────────────────────────  -->
+function drawForm(px,py, flowers=1) {
+    <!-- ┌───────────────────────────────────────────────────  -->
+    <!-- │ 🟠 SETUP VARS -->
+    <!-- └───────────────────────────────────────────────────  -->
+
+    count       = 0
+    height      = 1600
+    width       = 700
+    gens        = 6
+
+
+<!--    &lt;!&ndash;(20% from bottom when rotated)&ndash;&gt;-->
+<!--    var x1 = width * .2-->
+<!--    var y1 = height/2-->
+    var x1 = width * .5
+    var y1 = height/2
+
+    <!--starts with a dot-->
+    var x2 = x1
+    var y2 = y1
+
+    var pos = []
+    pos.push([x1,y1,x2,y2])
+
+    maxlength   = 180
+<!--    length = cycle_in_range(px,0,maxlength*10)/10-->
+    length = px*.2
+    baseangle = cycle_in_range(py,0,360)
+<!--    baseangle = py*0.1875-->
+
+
+    <!-- ┌───────────────────────────────────────────────────  -->
+    <!-- │ 🟠 NEED TO START WITH THE FIRST SPLIT WHIC IS OUTSUDE THE LOOP -->
+    <!-- └───────────────────────────────────────────────────  -->
+
+    pos = bifurc({'length':length, 'x2':pos[0][2], 'y2': pos[0][3], 'pos':pos, 'angle':baseangle} )
+
+    <!--pos = rebuild(length,py%360,pos)-->
+
+    <!-- ┌───────────────────────────────────────────────────  -->
+    <!-- │ 🟠 BUILD ALL THE COORDINATES FIRST -->
+    <!-- └───────────────────────────────────────────────────  -->
+
+    for (j=1;j<gens;j++) {
+        fr = (pos.length)-(2**j)
+        to = (pos.length)
+        for (i=fr; i<to;i++) {
+            pos = bifurc({'length':length, 'x2':pos[i][2], 'y2': pos[i][3], 'pos':pos, 'angle':baseangle} )
+        }
+    };
+
+    <!-- ┌───────────────────────────────────────────────────  -->
+    <!-- │ 🟠 DELETE EVERYTHING -->
+    <!-- └───────────────────────────────────────────────────  -->
+
+    const myNode = document.getElementById("svg");
+    while (myNode.firstChild) {
+       myNode.removeChild(myNode.lastChild);
+    }
+
+    <!-- ┌───────────────────────────────────────────────────  -->
+    <!-- │ 🟠 THEN DISPLAY THEM -->
+    <!-- └───────────────────────────────────────────────────  -->
+    for (i=1; i<pos.length;i++) {
+        level = getLevel(i+1)
+
+        console.log("i",i,"level:",level)
+        drawLine({
+           'idname':   "line"+i,
+           'classname':     "lineclass",
+           'x1':             pos[i][0],
+           'y1':             pos[i][1],
+           'x2':             pos[i][2],
+           'y2':             pos[i][3],
+           'width':          8-level,
+           'color':          colors[level],
+           'style':      ""
+         })
+        if (flowers == 1) {
+            drawPoly1({
+               'idname':        "poly1"+i,
+               'classname':     "poly1class",
+               'cxs':            pos[i][0],
+               'cys':            pos[i][1],
+               'cxt':            pos[i][2],
+               'cyt':            pos[i][3],
+               'radius':         3,
+               'color':         colors[level],
+               'borderwidth':    2,
+               'bordercolor':   colors2[level],
+               'style':         "",
+               'length':         length,
+               'level':         level
+            })
+        }
+<!--        drawCircle_end({-->
+<!--            'idname':      "circleend"+i,-->
+<!--            'classname':   "circleendclass",-->
+<!--            'cx':           pos[i][2],-->
+<!--            'cy':           pos[i][3],-->
+<!--            'radius':       4,-->
+<!--            'color':       "red",-->
+<!--            'borderwidth':  1,-->
+<!--            'bordercolor': "blue",-->
+<!--            'style':    ""-->
+<!--        })-->
+    }
+}
+
+<!-- ┌───────────────────────────────────────────────────  -->
+<!-- │ 🟠 MAIN  -->
+<!-- └───────────────────────────────────────────────────  -->
+
+<!-- ┌───────────────────────────────────────────────────  -->
+<!-- │ 🟠 SETUP SPECTRUMS  -->
+<!-- └───────────────────────────────────────────────────  -->
+
+colors=['red','orange','yellow','green','cyan','blue','magenta']
+colors2=['green','cyan','blue','magenta','red','orange','yellow']
+level = 0
+colorScheme = getColorScheme(3,colors)
+
+<!--px = 0-->
+<!--py = 0-->
+const eleSvg = document.querySelector('svg');
+
+last_pos = 0
+
+eleSvg.addEventListener('mousemove', ({clientX, clientY}) => {
+    let point = eleSvg.createSVGPoint();
+    point.x = clientX;
+    point.y = clientY;
+    this_pos =  point.x + point.y
+    SHOWLEAVES = 1
+    if (this_pos != last_pos) {
+        drawForm(point.x, point.y,  SHOWLEAVES )
+    }
+    last_pos = this_pos
+})
+
+
+
+]]></script>
+</svg>

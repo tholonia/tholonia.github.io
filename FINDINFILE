@@ -1,0 +1,6 @@
+clear
+find -type f -name "*md" -exec grep -F "${1}" /dev/null {} \; |grep -v _site |grep -v ZPROJECT
+find -type f -name "*ss" -exec grep -F "${1}" /dev/null {} \; |grep -v _site |grep -v ZPROJECT
+find -type f -name "*html" -exec grep -F "${1}" /dev/null {} \; |grep -v _site |grep -v ZPROJECT
+find -type f -name "*ORG" -exec grep -F "${1}" /dev/null {} \; |grep -v _site |grep -v ZPROJECT
+

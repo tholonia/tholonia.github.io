@@ -1,0 +1,174 @@
+---
+---
+
+@import 'main';
+
+
+/* append your custom style below */
+.left-img {
+  float:left;
+/*   border: 3px solid red; */
+  padding-right:2%;
+}
+.right-img {
+  float:right;;
+/*   border: 3px solid red; */
+  padding-left:2%;
+}
+.left-img-25 {
+  float: left;
+  /*   border: 3px solid red; */
+  padding-right: 2%;
+  width: 25%
+}
+
+.left-img-25bw {
+  filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  float: left;
+  /*   border: 3px solid red; */
+  padding-right: 2%;
+  width: 25%
+}
+
+.right-img-25 {
+  float: right;
+  ;
+  /*   border: 3px solid red; */
+  padding-left: 2%;
+  width: 25%
+}
+
+.right-img-25bw {
+  filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);/* Microsoft Edge and Firefox 35+ */  
+  float: right;
+  /*   border: 3px solid red; */
+  padding-left: 2%;
+  width: 25%
+}
+/*p {
+  border: 2px solid green;
+}
+.content {
+  border: 2px solid yellow;
+}*/
+
+.popup {
+/*   main p>a.popup:not(.normal):not(.left):not(.right) { */
+    position: relative  !important;
+    left: 0%  !important;
+    transform: translateX(0%) !important;
+
+/*   } */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ------------------------------------ for book images */
+#botoes li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+.dlimgs {
+  border: 2px solid red !important;
+  width:20px !important;
+}
+/* ------------------------------------  */
+
+
+// small blurb about illegality of downloading books 
+.book_notice {
+  font-size: 6pt;
+}
+// locatio and proce blurb for buying a book
+.purchase_notice {
+  font-size: 8pt;
+}
+
+/* -----------------------------for 2-col tags abd catagory page ---- */
+
+#tc_container {
+  // background: #ccc;
+  display: table
+}
+
+#tc_left,
+#tc_right {
+  display: table-cell
+}
+
+#tc_left {
+  width: 150px;
+  // border: 1px solid blue;
+}
+
+#tc_right {
+  // border: 1px solid green
+}
+
+#tc_width100PercentTest {
+  width: 100%;
+  height: 10px;
+  background: yellow
+}
+
+.tc_tagname {
+  font-weight:600;
+  text-transform: none;
+  text-align: right;
+}
+.tc_taglink {
+  font-size: smaller;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns 
+   stack on top of each other instead of next to each other */
+// @media screen and (max-width: 600px) {
+//   .tc_column {
+//     width: 100%;
+//   }
+// }
+
+/* ------------------------------------------------------------------------ */
+
+/* general purpose iframe */
+iframe {
+  border: none;
+  border-width: 0;
+}
+
+
+/* float-right at 30% - used mainly for images  */
+.fr-w30p {
+  float:right;
+  width:30%;
+}
+
+/* cente slightly larger test - typically for under an image ot video */
+.pctr-vsub {
+  font-weight: bold ;
+  text-align:center;
+  margin-bottom: 2em;
+}
+
+/* Align all text to teh right - under mainly in projects and  suprojects pages */
+.alignright {
+  text-align: right;
+  width: 100%;
+}
+
+
+/*override .img-link */
+.img-link {
+  color: rgba(0,0,0,0);
+  display: contents
+}

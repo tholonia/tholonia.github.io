@@ -1,0 +1,29 @@
+<script>
+
+const pdfUrl = 'https://raw.githubusercontent.com/tholonia/tholonia.github.io/main/_material/assets/material_surya-siddhanta.pdf';
+
+function prepareIframe( base64 ) {
+  const blob = base64ToBlob( base64, 'application/pdf' );
+  const url = URL.createObjectURL( blob );
+  frame.src = url;
+}
+function base64ToBlob( base64, type = "application/octet-stream" ) {
+  const binStr = atob( base64 );
+  const len = binStr.length;
+  const arr = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    arr[ i ] = binStr.charCodeAt( i );
+  }
+  return new Blob( [ arr ], { type: type } );
+}
+
+const frame = document.getElementById('frame');
+  fetch(pdfUrl)
+  	.then( r => r.blob() )
+    .then( blob => {
+    	const reader = new FileReader();
+      reader.onload = (e) => prepareIframe( reader.result.split(',')[ 1 ] );
+    	reader.readAsDataURL( blob );
+    });
+}
+</script>

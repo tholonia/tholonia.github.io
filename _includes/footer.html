@@ -1,0 +1,64 @@
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv footer.html -->
+<!-- The Footer -->
+
+<script src="https://giscus.app/client.js" 
+  data-repo="tholonia/tholonia_discuss" 
+  data-repo-id="737147008"
+  data-category="Tholonia"
+  data-category-id="[ENTER CATEGORY ID HERE]"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  crossorigin="anonymous" 
+  async>
+  </script>
+
+
+<footer
+  aria-label="Site Info"
+  class="
+    d-flex flex-column justify-content-center text-muted
+    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
+  "
+>
+  <p>
+    {{ '©' }}
+    <time>{{ 'now' | date: '%Y' }}</time>
+    <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+
+<!--     this is the "some righst reserved" string -->
+    {% if site.data.locales[include.lang].copyright.brief %}
+      <span
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ site.data.locales[include.lang].copyright.verbose }}"
+      >
+        {{- site.data.locales[include.lang].copyright.brief -}}
+      </span>
+    {% endif %}
+  </p>
+
+<p>
+  <a href="https://discord.gg/aY4d7uzhJe" target="_blank" rel="noopener">🟢 Tholonia Community Discord Server</a>
+</p>
+
+  <p>
+    {%- capture _platform -%}
+      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+    {%- endcapture -%}
+
+
+    {%- capture _theme -%}
+      <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
+    {%- endcapture -%}
+
+
+    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+
+  </p>
+</footer>
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ footer.html -->

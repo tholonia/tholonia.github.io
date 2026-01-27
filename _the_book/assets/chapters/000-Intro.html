@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+            <meta name="author" content="Duncan Stroud" />
+    
+    
+    
+    <title>
+                THOLONIA 8.0.18
+    </title>
+
+    <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+
+    
+    
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+            <style>
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+@page {
+border: 0px solid pink;
+
+@bottom-center {
+border: 0px solid pink;
+font-size: 8pt;
+content: "For Review Only v8 0.5 — Page " counter(page);
+text-align: center;
+font-family: serif;
+color: gray;
+font-style: italic;
+padding-bottom: 0.25in;
+}
+}
+}
+@page {
+border: 0px solid pink;
+size: 8.25in 11in;
+margin-top: 0.375in;
+
+margin-bottom: 0.375in;
+
+margin-left: 0.3in;
+margin-right: 0.3in;
+padding: 0px;
+
+bottom: 0px;
+top: 0px;
+left: 0px;
+right: 0px;
+}
+body {
+border: 0px solid pink;
+padding: 0px;
+size: 8.25in 11in;
+font-family: "Times New Roman", Times, serif;
+font-size: 8pt;
+background: inherit;
+tab-size: 2;
+line-height: 10.5pt;
+max-width: 180mm !important;
+
+
+margin-inside: 1in !important;
+
+margin-outside: 0.3in !important;
+
+counter-reset: page 1;
+
+}
+p {
+
+font-family: "Times New Roman", Times, serif;
+page-break-before: auto;
+text-align: justify;
+line-height: 10.5pt;
+margin: 0px;
+padding-top: 3pt;
+
+padding-bottom: 3pt;
+
+hyphens: auto;
+prince-hyphenate-lines: 2;
+prince-hyphenate-before: 3;
+prince-hyphenate-after: 2;
+orphans: 0;
+widows: 0;
+}
+
+
+
+h1 {
+font-size: 14pt;
+text-align: center;
+}
+h2 {
+font-size: 13pt;
+}
+h3 {
+font-size: 8pt;
+}
+h4 {
+
+font-family: Tahoma, Verdana, Segoe, sans-serif !important;
+border: 1px solid lightgrey !important;
+background-color: #ddd !important;
+font-size: 8pt !important;
+font-weight: 200 !important;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 5px;
+padding-right: 5px;
+margin-left: 10px;
+margin-right: 10px;
+}
+h5 {
+
+font-size: 8pt;
+font-weight: 100;
+font-style: italic;
+color: grey;
+text-align: center !important;
+right: 0 !important;
+margin-left: 6.4mm;
+
+
+margin-top: 0px;
+margin-bottom: 13px !important;
+
+position: relative !important;
+top: -15;
+}
+h6 {
+
+font-style: normal;
+font-family: Tahoma, Verdana, Segoe, sans-serif !important;
+text-align: center !important;
+color: black;
+font-size: 12pt;
+border-left: 0px solid white;
+border-right: 0px solid white;
+border-top: 1px solid black !important;
+border-bottom: 1px solid black !important;
+padding-bottom: 4px;
+padding-top: 4px;
+font-weight: 100;
+}
+
+
+
+
+blockquote {
+margin-left: 6.4mm;
+
+display: block;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+blockquote p {
+font-style: italic;
+color: grey;
+text-indent: 0px;
+}
+
+
+
+.break {
+page-break-before: never;
+}
+.title {
+display: hidden;
+}
+
+
+
+ol ul {
+list-style-position: inside;
+}
+ul {
+
+
+margin-top: 4pt;
+margin-bottom: 4pt;
+margin-left: 5%;
+}
+ul ul {
+
+
+margin-left: 5%;
+margin-top: 4pt;
+margin-bottom: 4pt;
+}
+li {
+
+display: list-item;
+text-align: -webkit-match-parent;
+margin-top: 4pt;
+margin-bottom: 4pt;
+}
+li ul li {
+
+text-align: -webkit-match-parent;
+margin-top: 4pt;
+margin-bottom: 4pt;
+}
+ol {
+margin-left: 5%;
+}
+ol ol {
+margin-left: 5%;
+}
+
+
+
+
+#TOC ul {
+list-style: none;
+}
+html body nav#TOC ul li ul li ul {
+display: none;
+}
+
+#TOC li {
+line-height: 9pt;
+margin-bottom: 0px;
+}
+#TOC li a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 9pt;
+line-height: 9pt;
+}
+#TOC li a::after {
+content: leader('.') target-counter(attr(href), page);
+font-weight: normal;
+}
+#TOC li li a {
+text-decoration: none;
+color: black;
+font-weight: 100;
+font-size: 9pt;
+}
+#TOC li li a::after {
+content: leader('.') target-counter(attr(href), page);
+}
+
+
+
+.footnotes {
+font-size: 8pt;
+padding-left: 0px !important;
+margin-left: 10px !important;
+}
+.footnotes ol li p {
+line-height: 11pt;
+text-align: left;
+margin: 0px;
+
+padding: 0px;
+
+}
+
+.footnote-ref {
+vertical-align: bottom;
+font-size: 8pt;
+text-decoration: none;
+font-style: normal;
+font-weight: 100;
+margin-left: 2px !important;
+}
+
+
+
+
+.unnumbered {
+visibility: hidden;
+}
+img {
+visibility: visible !important;
+
+}
+hr {
+opacity: 0;
+page-break-after: always;
+}
+
+a[name]:empty + .md-raw-inline {
+display: none;
+}
+a[name]:empty {
+text-decoration: none;
+}
+a[name]:empty:before {
+content: "⚓";
+}
+
+.md-expand .md-raw-inline {
+display: inline !important;
+}
+
+a {
+text-decoration: none;
+}
+</style>
+    
+</head>
+<body>
+    <header id="title-block-header">
+
+            <p class="title">
+            Tholonia - 000-Intro<br />
+            The Existential Mechanics of Awareness<br />
+            Duncan Stroud<br />
+            Published: January 15, 2020<br />
+            Updated: Updated: dom 30 abr 2023 20:03:56 v7.3.6<br />
+            Welkin Wall Publishing <br />
+            ISBN-10: <br />
+            ISBN-13: 978-1-6780-2532-8<br />
+            Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0<br />
+        </p>
+        <p>
+        This book is an open-sourced book.. This means that anyone can
+contribute changes or updates. Instructions and more information at <a href="https://tholonia.github.io/the-book" class="uri">https://tholonia.github.io/the-book</a> (or contact the
+author at duncan.stroud@gmail.com). This book and its online version are
+distributed under the terms of the Creative Commons
+Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+license, with the additional proviso that the right to publish it on
+paper for sale or other for-profit use is reserved to Duncan Stroud and
+authorized agents thereof. A reference copy of this license may be found
+at <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="uri">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>. The
+above terms include the following: Attribution - you must give
+appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in
+any way that suggests the licensor endorses you or your use.
+Noncommercial - You may not use the material for commercial purposes.
+Share Alike - If you remix, transform, or build upon the material, you
+must distribute your contributions under the same license as the
+original. No additional restrictions - you may not apply legal terms or
+technological measures that legally restrict others from doing anything
+the license permits. Notices - You do not have to comply with the
+license for elements of the material in the public domain or where your
+use is permitted by an applicable exception or limitation. No warranties
+are given. The license may not give you all of the permissions necessary
+for your intended use. For example, other rights such as publicity,
+privacy, or moral rights may limit how you use the material.<br />
+        </p>
+        <div style="page-break-after:always; break-after: page;"></div>
+        </header>
+
+    <nav id="TOC" role="doc-toc">
+            <h2 id="toc-title">Table of Contents</h2>
+        <ul>
+        <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+        </ul>
+    </nav>
+<h1 id="introduction">Introduction</h1>
+<p>What if the question is not <em>whether</em> reality is an illusion,
+but <em>how</em> it is constructed?</p>
+<p>From ancient creation myths to the modern Simulation Hypothesis,
+humanity has circled the same profound mystery. Something emerged from
+nothing. We have endlessly debated <em>why</em> and <em>what it
+means</em>, crafting theological, philosophical, and scientific
+narratives to satisfy our hunger for purpose. This book takes a
+different approach.</p>
+<p>Think of an architect’s blueprint. It reveals how a building stands,
+how forces distribute through its structure, how spaces relate to one
+another. It does not tell you who will live there, what dramas will
+unfold within its walls, or why it was commissioned. Yet without
+understanding the blueprint, you cannot truly comprehend the building
+itself.</p>
+<p>This book presents a <strong>blueprint of existence</strong>, a
+framework for understanding the fundamental mechanics that govern
+reality at every scale. The same structural principles that organize
+subatomic particles also shape human societies, ecosystems, and galactic
+formations. This is not metaphor. It is pattern recognition at the
+deepest level, the <strong>architecture of existence
+itself</strong>.</p>
+<p>The tholonic model applies equally to physics and philosophy, to
+economics and consciousness, to the evolution of stars and the evolution
+of ideas. Rather than offering yet another interpretation of ultimate
+meaning, it provides the structural foundations upon which all such
+meanings must rest. The mechanics precede the meaning.</p>
+<p>This book emerges from years of investigation across orthodox and
+unorthodox domains, synthesizing insights that conventional academic
+boundaries might keep separated. It integrates hypothesis with
+observation, deduction with speculation, established science with
+frontier questions. The work itself is transparently exploratory, not a
+final answer but a framework for asking better questions. Because of
+this exploratory nature, it remains open-source. The model benefits from
+challenge, refinement, and diverse perspectives.</p>
+<p>The conclusions I draw are my own, offered not as doctrine but as
+examples of what becomes visible through this lens. The patterns I
+identify may reveal themselves differently to you. You may trace
+connections I have missed, or dismiss connections I find compelling. The
+framework itself (the structural mechanics of how existence organizes
+itself) remains independent of any particular interpretation. Your task
+is not to accept my conclusions but to engage with the underlying
+architecture and see what it reveals.</p>
+<p>This work unfolds as an argumentative proposal, building its case
+systematically while acknowledging the exploratory nature of the
+territory. The progression follows a logical structure designed to
+introduce fundamental concepts before assembling them into more complex
+frameworks. Because this investigation crosses disciplinary boundaries
+and ventures into speculative terrain, the book remains open-source.
+This allows the integration of diverse insights and expert knowledge,
+enabling the tholonic model to evolve through collaborative refinement
+and critical examination.</p>
+<p>The book unfolds in three parts:</p>
+<p><strong>Part I</strong> establishes the foundational vocabulary of
+the tholonic model through an examination of fundamental scientific
+concepts: energy, chaos, order, waves, and Newton’s laws. These are not
+obscure or specialized ideas but the bedrock principles of physical
+reality. By reviewing and extending these concepts, we build the
+framework necessary to understand the role of awareness in existence,
+the evolutionary emergence of consciousness, and the nature of
+intelligence across all its manifestations, from artificial systems to
+human cognition and beyond.</p>
+<p><strong>Part II</strong> synthesizes the concepts from Part I into an
+integrated examination of reality’s structure and our understanding of
+its operations. This section reveals how these structures define the
+hierarchical relationship between data, information, knowledge, and
+understanding itself.</p>
+<p><strong>Part III</strong> applies the tholonic framework to practical
+questions, exploring how ideas and concepts shape our perception and
+comprehension of reality.</p>
+<p>Additional appendixes provide relevant supporting material that
+enriches the central narrative without disrupting its flow.</p>
+<p><strong>A Note on Technical Matters</strong></p>
+<p>Appendix A addresses technical formatting considerations for eBook
+readers and explains certain stylistic choices made throughout the
+text.</p>
+<p>The journey ahead demands intellectual engagement and openness to
+unfamiliar patterns. If you approach it with curiosity and critical
+thinking, you will find connections that illuminate not just the
+arguments presented here, but the very nature of how we understand
+anything at all.</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+---
+layout: page
+title: Videos
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/video_home.html -->
+
+
+{{content}}
+
+<!-- % assign sorted_pages = site.pages  |sort: "date" %} -->
+
+<!-- { sorted_pages|debug } -->
+
+{% for this_page in site.videos reversed %}
+    <div class="videos" style="margin-bottom:5%">
+        <a target="_blank" href="{{ this_page.url }}">
+            <img alt="t{{this_page.title}} IMAGE" target="_blank"
+                src="https://i.ytimg.com/vi/{{this_page.video_id}}/maxresdefault.jpg" class="left-img-25">
+        </a>
+        <a target="_blank" href="{{ this_page.url }}">{{this_page.title}}</a> {{this_page.excerpt}}
+        <div class="clearfix"></div>
+    </div>
+{% endfor %}
+
+{% include video_excuse_footer.html %}
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/video_home.html -->

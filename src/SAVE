@@ -1,0 +1,1 @@
+ rsync -avr --delete --exclude '.git' ../chirpy2 ../chirpy2_save/ 

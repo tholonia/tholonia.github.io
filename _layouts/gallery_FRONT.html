@@ -1,0 +1,15 @@
+---
+layout: page
+title: Gallery
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/gallery_home.html -->
+
+{% for gallery_item in site.gallery %}
+  <div><img class="right-img-25" src="{{ gallery_item.image }}" alt="gallery_item.title" /></div>
+  <div class="gallery">
+    <h2><a href="{{ gallery_item.url }}">{{ gallery_item.title }} </a></h2>
+    {{gallery_item.excerpt}}
+  </div>
+  <div class="clearfix"></div>
+{% endfor %}
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/gallery_home.html -->

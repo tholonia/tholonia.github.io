@@ -1,0 +1,10 @@
+_the_book/assets/latest/THOLONIA_THE_BOOK.md.zip filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.html.zip filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.pdf filter=lfs diff=lfs merge=lfs -text
+_the_book/assets/latest/THOLONIA_THE_BOOK.epub filter=lfs diff=lfs merge=lfs -text
+_material/assets/book_red_NOTFREE.zip filter=lfs diff=lfs merge=lfs -text
+_material/assets/book_ICHING_THE_BOOK.zip filter=lfs diff=lfs merge=lfs -text
+_material/assets/book_THOLONIA_COLORING_BOOK.zip filter=lfs diff=lfs merge=lfs -text
+_material/assets/book*.zip filter=lfs diff=lfs merge=lfs -text
+# **/*.m4a filter=lfs diff=lfs merge=lfs -text
+_tholonic_coloring_book/assets/THOLONIA_COLORING_BOOK.pdf filter=lfs diff=lfs merge=lfs -text

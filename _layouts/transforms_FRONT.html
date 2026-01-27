@@ -1,0 +1,21 @@
+---
+layout: page
+title: Video
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/transforms_home.html -->
+
+{{ page.content }} 
+
+Below are examples of this same process applied to a tholonic tree (click on images for full videos).
+
+{% for this_page in site.transforms %}
+ <div class="transforms">
+    <a target="_blank" href="{{this_page.url}}">
+      <img alt="t{{this_page.title}} IMAGE" src="/transforms/assets/{{this_page.slug}}.gif" class="left-img-25">
+    </a>
+    <B>{{this_page.title}}</B>
+  <div class="clearfix"></div>
+  </div>
+{% endfor %}
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/transforms_home.html -->

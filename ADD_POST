@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./add_post.py \
+--title "THIS is a TEST" \
+
+./reorder_yaml.py -x -f ./test.md

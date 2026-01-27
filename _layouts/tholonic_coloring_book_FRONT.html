@@ -1,0 +1,17 @@
+---
+layout: page
+title: Video
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/tholonic_coloring_book.html -->
+{{ content }}
+
+Below are examples of this same process applied to a tholonic tree (click on images for full videos).
+
+
+{% directory path: /_tholonic_coloring_book/assets/hex/ [reverse] [exclude] %}
+<A HREF="/tholonic_coloring_book/assets/hex/{{file.name}}" target=""_blank">
+    <img alt="{{file.name}}" target="_blank" src="/tholonic_coloring_book/assets/hex/{{file.name}}" style="margin:15px" class="left-img-25">
+</a>
+{% enddirectory %}
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/tholonic_coloring_book.html -->

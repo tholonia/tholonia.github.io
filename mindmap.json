@@ -1,0 +1,22 @@
+{ "class": "TreeModel",
+  "nodeDataArray": [
+{"key":0,"text":"THOLONIA","loc":"0 0"},
+{"key":1,"parent":0,"text":"Projects","brush":"skyblue","dir":"right","loc":"86.45361328125 -22"},
+  {"key":11,"parent":1,"text":"Water","brush":"skyblue","dir":"right","loc":"209.76806640625 -48"},
+  {"key":12,"parent":1,"text":"Unexpected Pattern","brush":"skyblue","dir":"right","loc":"209.76806640625 -22"},
+  {"key":13,"parent":1,"text":"Crosssum Analytics","brush":"skyblue","dir":"right","loc":"209.76806640625 4"},
+{"key":2,"parent":0,"text":"Gallery","brush":"darkseagreen","dir":"right","loc":"86.45361328125 43"},
+  {"key":21,"parent":2,"text":"Interactive","brush":"darkseagreen","dir":"right","loc":"212.43408203125 30"},
+    {"key":211,"parent":21,"text":"Notclock","brush":"darkseagreen","dir":"right","loc":"283.03125 17"},
+    {"key":212,"parent":21,"text":"Tholonic Tree","brush":"darkseagreen","dir":"right","loc":"283.03125 43"},
+  {"key":22,"parent":2,"text":"Goals","brush":"darkseagreen","dir":"right","loc":"212.43408203125 56"},
+{"key":3,"parent":0,"text":"Material","brush":"palevioletred","dir":"left","loc":"-20 -83.75"},
+  {"key":31,"parent":3,"text":"The Psychology of the Occult","brush":"palevioletred","dir":"left","loc":"-116.095703125 -220.25"},
+  {"key":32,"parent":3,"text":"Quantum Electrodynamics","brush":"palevioletred","dir":"left","loc":"-116.095703125 -181.25"},
+  {"key":33,"parent":3,"text":"What is (Schrodinger's) Negentropy?","brush":"palevioletred","dir":"left","loc":"-116.095703125 -155.25"},
+{"key":4,"parent":0,"text":"Videos","brush":"coral","dir":"left","loc":"-20 104.75"},
+  {"key":41,"parent":4,"text":"My tests with structured water (Part 1)","brush":"coral","dir":"left","loc":"-102.86083984375 78.75"},
+  {"key":42,"parent":4,"text":"What IS Energy?","brush":"coral","dir":"left","loc":"-102.86083984375 104.75"},
+  {"key":43,"parent":4,"text":"Introduction to Tholonia and the Tholonic Model","brush":"coral","dir":"left","loc":"-102.86083984375 130.75"}
+
+]}

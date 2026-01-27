@@ -1,0 +1,13 @@
+duncan:
+  name        : "Duncan Stroud"
+  bio         : "Retired writer, IT tech, OOBE-er, tango dancer."
+  picture     : "https://tholonia.github.io/assets/img/duncan.png"
+  email       : "duncan.stroud@gmail.com"
+  url         : "https://twitter.com/tholonia"
+  cta         : "Follow"
+  cta_url     : "https://twitter.com/tholonia"
+
+anon:
+  name        : "Anon"
+  bio         : "Unnamed contributor"
+  avatar      : "https://tholonia.github.io/assets/img/anon.png"

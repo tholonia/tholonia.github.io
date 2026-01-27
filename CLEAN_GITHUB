@@ -1,0 +1,5 @@
+#!/bin/bash
+#gh run list --workflow "$1" --json databaseId --jq ".[].databaseId" | xargs -n1 gh run delete
+
+gh run list  --json databaseId --jq ".[].databaseId" | xargs -n1 gh run delete
+gh cache delete --all  

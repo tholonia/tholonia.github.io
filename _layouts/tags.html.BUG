@@ -1,0 +1,28 @@
+---
+layout: page
+# All the Tags of posts.
+---
+<!-- INC START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv _layouts/tags.html -->
+
+<div id="tags" class="d-flex flex-wrap mx-xl-2">
+  {% comment %}based on https://github.com/mushishi78/jekyll-group-by-array{% endcomment %}
+
+  {% include group-by-array.html collection=site.documents field='tags' %}
+  {% for tag in group_names %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% if tag != blank %}
+      <div id="tc_container">
+        <div id="tc_left"><p class="tc_tagname">{{ tag }}</p></div>
+        <div id="tc_right">
+          <ul>
+          {% for post in posts %}
+            <li class = "tc_taglink"><a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- INC END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ _layouts/tags.html -->
