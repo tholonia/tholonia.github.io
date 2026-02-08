@@ -14,7 +14,7 @@ tags:
 title: Appx. K 📜- William Sidis (W.i.P.)
 ---
 
-I personally experienced similar results to those reviewed in the animal studies.  In my own experiments I created SW simply by spinning 1 liter of water with a chemical stirrer in a magnetic field made of 6 equidistant, and opposing, magnets glued to the outside of the water jar, which was about 6 inches at its widest part.  
+Exploring William James Sidis, entropy, and unconventional perspectives on physics and cosmology.
 
 <!--more-->
 

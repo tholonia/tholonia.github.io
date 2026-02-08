@@ -14,12 +14,11 @@ tags:
 title: Ch. 0 📜 Introduction
 ---
 
-<style>
-  iframe.chapter-content {
-    width: 100%;
-    min-height: 100vh;
-    border: none;
-  }
-</style>
 
-<iframe class="chapter-content" src="/the_book/assets/chapters/000-Intro.html"></iframe>
+
+Introduction of *Tholonic Model*, a model of reality built on both new and well-established concepts. All that exists between 0 and ∞ is an expression of energy. Numbers represent the distribution of that energy and describe order, and order is a function of perception and understanding. Order has scope and hierarchical dependence, and each scope has its own laws and natural measure. Chaos is the baseline state of existence, and the order that arises does so to more efficiently return to a state of chaos. David Bohm’s *implicate/explicate* theory sheds light on the relationship between the appearance, or "relativity" of order and chaos.
+
+<!--more-->
+
+{% include sorry.md %}
+

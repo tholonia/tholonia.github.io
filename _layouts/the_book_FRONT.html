@@ -96,29 +96,29 @@ This is the original book on the tholonic model, which was essentially a collect
 <ul id="botoes">
   <li>
     <a
-      href="https://secure.internxt.com/sh/file/lL-mpXDAT_6g8nsIDWeG3w/GQmb4RjP">
+      href="https://secure.eu.internxt.com/sh/file/uVbZzMgTTn2dO9VCPWxrNg/IjldIgJx">
       <img alt="Download PDF" src="/the_book/assets/latest/tholonia_the_book_PDF.jpg" class="chimg">
     </a>
   </li>
   <li>
     <a
-      href="https://share.ue.internxt.com/sh/file/wiAbNML2R6uroHqv93ISsA/hL8FqekQ">
+      href="https://secure.ue.internxt.com/sh/file/K2WHjaUdRSWsbTCQF52wPw/ESX_OY_e">
       <img alt="Download MD" src="/the_book/assets/latest/tholonia_the_book_MD.jpg" class="chimg">
     </a>
   </li>
   <li>
-    <a href="https://secure.internxt.com/sh/file/pwL7jUTtScaHZXTvtGg9bg/5RZJZpgz">
+    <a href="https://share.eu.internxt.com/sh/file/q49hJo0dSYa6zslCxMGsTw/gro0PKlG">
       <img alt="Download HTML" src="/the_book/assets/latest/tholonia_the_book_HTML.jpg" class="chimg">
     </a>
   </li>
   <li>
-    <a href="https://share.eu.internxt.com/sh/file/hM_sAU4TSQaKl1WbzvZc1w/aHjlkvQb">
+    <a href="https://secure.internxt.com/sh/file/OEcIbSbVQeq1T398x80o9A/H8z-bfTH">
       <img alt="Download ePub" src="/the_book/assets/latest/tholonia_the_book_ePub.jpg" class="chimg">
     </a>
   </li>
 </ul>
 
-<i>Current version 8.0.50</i>
+<i>Current version 8.0.77</i>
 
 <H2>Individual Chapters</H2>
 
@@ -130,7 +130,10 @@ This is the original book on the tholonic model, which was essentially a collect
       <img src="{{ chapter.image }}" alt="{{ chapter.title }}" class="chapter-thumb" />
       <div class="chapter-info">
         <h3 class="chapter-title">{{ chapter.title }}</h3>
-        <span class="open-icon">🔗 Open in new tab</span>
+        <div class="chapter-blurb">
+          {{ chapter.excerpt }}
+        </div>
+        <span class="open-icon">Open in new tab</span>
       </div>
     </a>
   </div>
@@ -139,9 +142,9 @@ This is the original book on the tholonic model, which was essentially a collect
 
 <style>
   .chapter-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
     margin: 30px 0;
   }
   
@@ -161,29 +164,42 @@ This is the original book on the tholonic model, which was essentially a collect
   
   .chapter-link {
     display: flex;
-    align-items: center;
-    padding: 15px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 18px;
     text-decoration: none;
     color: inherit;
   }
   
   .chapter-thumb {
-    width: 80px;
+    width: 96px;
     height: auto;
-    margin-right: 15px;
     border-radius: 4px;
     flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
   }
   
   .chapter-info {
     flex: 1;
+    min-width: 0;
   }
   
   .chapter-title {
     margin: 0 0 8px 0;
-    font-size: 1.1em;
+    font-size: 1.15em;
     font-weight: 600;
     color: var(--heading-color);
+  }
+
+  .chapter-blurb {
+    color: var(--text-color);
+    opacity: 0.95;
+    line-height: 1.55;
+    margin-bottom: 10px;
+  }
+
+  .chapter-blurb p {
+    margin: 0;
   }
   
   .open-icon {
@@ -192,8 +208,12 @@ This is the original book on the tholonic model, which was essentially a collect
   }
   
   @media (max-width: 768px) {
-    .chapter-list {
-      grid-template-columns: 1fr;
+    .chapter-link {
+      padding: 14px 14px;
+    }
+
+    .chapter-thumb {
+      width: 72px;
     }
   }
 </style>
