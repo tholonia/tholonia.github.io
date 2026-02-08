@@ -10,7 +10,9 @@ image: /assets/posts/2024-07-05-coherence/post_image.png
 jday: 8952
 layout: post
 tags:
-- kundalini chaos order
+- kundalini
+- chaos
+- order
 title: Coherence (CAI ch. 11)
 ---
 

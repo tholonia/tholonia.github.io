@@ -290,11 +290,22 @@ exclude:
 plugins:
   - jekyll-openmoji
   - jekyll-youtube
+  - jekyll-archives
   - jekyll-feed
   # - jekyll-inline-svg
 
 excerpt_separator: "<!--more-->"
 show_excerpts: true
+
+# Generate tag/category archive pages (required for /tags/<name>/ links)
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
 
 # can't get this to work
 blurbs:
