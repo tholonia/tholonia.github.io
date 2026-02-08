@@ -177,8 +177,8 @@ collections:
       - 550-F-An_Unexpected_Pattern.md
       - 580-I-Market_Data.md
       - 590-J-Structured_Water.md
-      - pendix_K.md
-      - pendix_L.md
+      - 600-K-Sidis.md
+      - 610-L-Thologram_and_Religion.md
 
 #    permalink: /:collection
     sort_by: name
