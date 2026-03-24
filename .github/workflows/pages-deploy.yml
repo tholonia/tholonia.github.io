@@ -45,6 +45,12 @@ jobs:
           ruby-version: 3.2
           bundler-cache: true
 
+      - name: Prepare book assets path
+        run: |
+          rm -rf the_book/assets
+          mkdir -p the_book
+          cp -a _the_book/assets the_book/assets
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:

@@ -288,8 +288,12 @@ exclude:
   - package*.json
   - .ZPROJECTS/
   - src
+  - _the_book/assets
   - "DEL_*"
   - twitter_post.py
+
+watch_exclude:
+  - the_book/assets
 
 # gems:
   # - jekyll-inline-svg
