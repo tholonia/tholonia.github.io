@@ -16,7 +16,7 @@ Why does the path of the sun create patterns that describe the refraction of lig
 
 It's more them remarkable that patterns in trees follow the same rules as the diffraction of light, and that both of these patterns can be determined by the Moon's relationship to the Sun... it's living proof of the idea that every that exists is the same expression of energy within different contexts.
 
-*(Most of this is from [Appendix F - An Unexpected Pattern](/the_book/550-F-An_Unexpected_Pattern.html) in the book [THOLONIA](/the_book))*
+*(Most of this is from [Appendix F - An Unexpected Pattern](/the_book/assets/chapters/029-F-An_Unexpected_Pattern.html) in the book [THOLONIA](/the_book))*
 
 # An Unexpected Pattern
 
