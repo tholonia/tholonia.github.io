@@ -8,7 +8,7 @@ categories:
 - BIOSCIENCE
 - HEALTH
 
-src1: https://drive.internxt.com/sh/file/da58b30a-3989-4290-9e07-ce309d955836/fe202966dbd7d8d37f08af76a2eed743638fc4453705bbefc9b9e89e48342354
+src1: https://143.198.128.147:8765/material/material_popstruct.pdf
 src1_title: View/Download 'Genetic Structure of Human Populations' (5 pages)
 ptags:
 - nokwgen-manual

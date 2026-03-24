@@ -9,7 +9,7 @@ categories:
 - PSYCHOLOGY
 - HEALTH
 
-src1: https://drive.internxt.com/sh/file/1c373640-6420-402d-8370-0330a2f10881/214ad19a9111b9ee370850e61ac3011ef5192e9a609c39de02af5c4aa0671a63
+src1: https://143.198.128.147:8765/material/material_EFFECT_OF_CONSCIOUS_INTENTION_ON_HUMAN_DNA.pdf
 src1_title: View/Download 'Effect of Conscious Intention on Human DNA' (12 pages)
 ptags:
 - nokwgen-manual

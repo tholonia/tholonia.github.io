@@ -8,7 +8,7 @@ categories:
 - PHYSICS
 - METAPHYSICS
 
-src1: https://drive.internxt.com/sh/file/03b10f54-39cd-441e-86a9-ff6022674583/b542614042de5da6d8b626c141443a30e3a51ec0478b5edb5b619ca13c2bf772
+src1: https://143.198.128.147:8765/material/material_QuantumGravityandtheRoleofConsciousnessinPhysics.pdf
 src1_title: View/Download 'Quantum Gravity and the Role of Consciousness in Physics'
     (596 pages)
 ptags:

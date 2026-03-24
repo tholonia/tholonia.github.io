@@ -13,8 +13,8 @@ categories:
 jday: 8944
 tags:
 - gravity
-- ' fields'
-- ' tetrahedron'
+- fields
+- tetrahedron
 ---
 
 The claim that energy is awareness, and by energy, we mean real energy, like electricity, the sun, batteries and combustion engines, has been mentioned previously.  This is a brief Q&A that outlines how the concept of awareness is better suited to describe the cause that is energy than our current model.  It does not address the mechanics of awareness, just its suitability.  The mechanics are touched on in [The Monad (CAI#1)](https://youtu.be/NlACKhppQRw) and will be addressed in later chapters as well.

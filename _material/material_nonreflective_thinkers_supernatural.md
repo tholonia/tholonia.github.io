@@ -10,7 +10,7 @@ categories:
 - PARAPSYCHOLOGY
 - POLITICS
 
-src1: https://drive.internxt.com/sh/file/f7f95a54-ee4c-4ac2-b006-6954f87ba615/4a60e6a9d9070db9c9bb921371146e9e1c631415ca53400c1d3de63307314375
+src1: https://143.198.128.147:8765/material/material_nonreflective_thinkers_supernatural.pdf
 src1_title: View/Download ' Non-Reflective Thinkers' (7 pages)
 ptags:
 - nokwgen-manual

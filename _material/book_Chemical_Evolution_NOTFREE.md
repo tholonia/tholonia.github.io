@@ -9,7 +9,7 @@ categories:
 - NATURE
 - BIOSCIENCE
 
-src1: https://drive.internxt.com/sh/file/9a16267f-ed59-4695-9d4b-df368cea251e/c1ac23f9aa2ef24117bbb1a304447fa65fab07886845c76a9e0e937e36435e90
+src1: https://143.198.128.147:8765/material/book_Chemical_Evolution_NOTFREE.pdf
 src1_title: View "Chemical Evolution" (397 pages)
 ptags:
 - nokwgen-manual

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+            <meta name="author" content="Duncan Stroud" />
+    
+    
+    
+    <title>
+                THOLONIA 8.0.18
+    </title>
+
+    <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+
+    
+    
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+            <style>
+
+
+
+
+
+
+
+
+
+
+
+@media print {
+@page {
+border: 0px solid pink;
+
+@bottom-center {
+border: 0px solid pink;
+font-size: 8pt;
+content: "For Review Only v8 0.86 — Page " counter(page);
+text-align: center;
+font-family: serif;
+color: gray;
+font-style: italic;
+padding-bottom: 0.25in;
+}
+}
+}
+@page {
+border: 0px solid pink;
+size: 8.25in 11in;
+margin-top: 0.375in;
+
+margin-bottom: 0.375in;
+
+margin-left: 0.3in;
+margin-right: 0.3in;
+padding: 0px;
+
+bottom: 0px;
+top: 0px;
+left: 0px;
+right: 0px;
+}
+body {
+border: 0px solid pink;
+padding: 0px;
+size: 8.25in 11in;
+font-family: "Times New Roman", Times, serif;
+font-size: 8pt;
+background: inherit;
+tab-size: 2;
+line-height: 10.5pt;
+max-width: 180mm !important;
+
+
+margin-inside: 1in !important;
+
+margin-outside: 0.3in !important;
+
+counter-reset: page 1;
+
+}
+p {
+
+font-family: "Times New Roman", Times, serif;
+page-break-before: auto;
+text-align: justify;
+line-height: 10.5pt;
+margin: 0px;
+padding-top: 3pt;
+
+padding-bottom: 3pt;
+
+hyphens: auto;
+prince-hyphenate-lines: 2;
+prince-hyphenate-before: 3;
+prince-hyphenate-after: 2;
+orphans: 0;
+widows: 0;
+}
+
+
+
+h1 {
+font-size: 14pt;
+text-align: center;
+}
+h2 {
+font-size: 13pt;
+}
+h3 {
+font-size: 8pt;
+}
+h4 {
+
+font-family: Tahoma, Verdana, Segoe, sans-serif !important;
+border: 1px solid lightgrey !important;
+background-color: #ddd !important;
+font-size: 8pt !important;
+font-weight: 200 !important;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 5px;
+padding-right: 5px;
+margin-left: 10px;
+margin-right: 10px;
+}
+h5 {
+
+font-size: 8pt;
+font-weight: 100;
+font-style: italic;
+color: grey;
+text-align: center !important;
+right: 0 !important;
+margin-left: 6.4mm;
+
+
+margin-top: 0px;
+margin-bottom: 13px !important;
+
+position: relative !important;
+top: -15;
+}
+h6 {
+
+font-style: normal;
+font-family: Tahoma, Verdana, Segoe, sans-serif !important;
+text-align: center !important;
+color: black;
+font-size: 12pt;
+border-left: 0px solid white;
+border-right: 0px solid white;
+border-top: 1px solid black !important;
+border-bottom: 1px solid black !important;
+padding-bottom: 4px;
+padding-top: 4px;
+font-weight: 100;
+}
+
+
+
+
+blockquote {
+margin-left: 6.4mm;
+
+display: block;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+blockquote p {
+font-style: italic;
+color: grey;
+text-indent: 0px;
+}
+
+
+
+.break {
+page-break-before: never;
+}
+.title {
+display: hidden;
+}
+
+
+
+ol ul {
+list-style-position: inside;
+}
+ul {
+
+
+margin-top: 4pt;
+margin-bottom: 4pt;
+margin-left: 5%;
+}
+ul ul {
+
+
+margin-left: 5%;
+margin-top: 4pt;
+margin-bottom: 4pt;
+}
+li {
+
+display: list-item;
+text-align: -webkit-match-parent;
+margin-top: 4pt;
+margin-bottom: 4pt;
+}
+li ul li {
+
+text-align: -webkit-match-parent;
+margin-top: 4pt;
+margin-bottom: 4pt;
+}
+ol {
+margin-left: 5%;
+}
+ol ol {
+margin-left: 5%;
+}
+
+
+
+
+#TOC ul {
+list-style: none;
+}
+html body nav#TOC ul li ul li ul {
+display: none;
+}
+
+#TOC li {
+line-height: 9pt;
+margin-bottom: 0px;
+}
+#TOC li a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 9pt;
+line-height: 9pt;
+}
+#TOC li a::after {
+content: leader('.') target-counter(attr(href), page);
+font-weight: normal;
+}
+#TOC li li a {
+text-decoration: none;
+color: black;
+font-weight: 100;
+font-size: 9pt;
+}
+#TOC li li a::after {
+content: leader('.') target-counter(attr(href), page);
+}
+
+
+
+.footnotes {
+font-size: 8pt;
+padding-left: 0px !important;
+margin-left: 10px !important;
+}
+.footnotes ol li p {
+line-height: 11pt;
+text-align: left;
+margin: 0px;
+
+padding: 0px;
+
+}
+
+.footnote-ref {
+vertical-align: super;
+font-size: 70%;
+line-height: 0;
+text-decoration: none;
+font-style: normal;
+font-weight: 100;
+margin-left: 2px !important;
+}
+
+
+
+
+.unnumbered {
+visibility: hidden;
+}
+img {
+visibility: visible !important;
+
+}
+hr {
+opacity: 0;
+page-break-after: always;
+}
+
+a[name]:empty + .md-raw-inline {
+display: none;
+}
+a[name]:empty {
+text-decoration: none;
+}
+a[name]:empty:before {
+content: "⚓";
+}
+
+.md-expand .md-raw-inline {
+display: inline !important;
+}
+
+a {
+text-decoration: none;
+}
+</style>
+    
+</head>
+<body>
+    <header id="title-block-header">
+
+            <p class="title">
+            Tholonia - 001-INTRO<br />
+            The Existential Mechanics of Awareness<br />
+            Duncan Stroud<br />
+            Published: January 15, 2020<br />
+            Updated: Updated: dom 30 abr 2023 20:03:56 v7.3.6<br />
+            Welkin Wall Publishing <br />
+            ISBN-10: <br />
+            ISBN-13: 978-1-6780-2532-8<br />
+            Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0<br />
+        </p>
+        <p>
+        This book is an open-sourced book. This means that anyone can
+contribute changes or updates. Instructions and more information at <a href="https://tholonia.github.io/the-book" class="uri">https://tholonia.github.io/the-book</a> (or contact the
+author at duncan.stroud@gmail.com). This book and its online version are
+distributed under the terms of the Creative Commons
+Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+license, with the additional proviso that the right to publish it on
+paper for sale or other for-profit use is reserved to Duncan Stroud and
+authorized agents thereof. A reference copy of this license may be found
+at <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="uri">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>. The
+above terms include the following: Attribution - you must give
+appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in
+any way that suggests the licensor endorses you or your use.
+Noncommercial - You may not use the material for commercial purposes.
+Share Alike - If you remix, transform, or build upon the material, you
+must distribute your contributions under the same license as the
+original. No additional restrictions - you may not apply legal terms or
+technological measures that legally restrict others from doing anything
+the license permits. Notices - You do not have to comply with the
+license for elements of the material in the public domain or where your
+use is permitted by an applicable exception or limitation. No warranties
+are given. The license may not give you all of the permissions necessary
+for your intended use. For example, other rights such as publicity,
+privacy, or moral rights may limit how you use the material.<br />
+        </p>
+        <div style="page-break-after:always; break-after: page;"></div>
+        </header>
+
+    <nav id="TOC" role="doc-toc">
+            <h2 id="toc-title">Table of Contents</h2>
+        <ul>
+        <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+        </ul>
+    </nav>
+<div style="page-break-after: always; break-after: always;">
+
+</div>
+<h1 id="introduction">Introduction</h1>
+<p>There is a question older than philosophy and more persistent than
+religion: <em>how did something come from nothing?</em></p>
+<p>Every civilization has taken a swing at it. The ancient myths dressed
+the answer in gods and primordial waters. The theologians wrapped it in
+providence. The physicists reached for quantum fluctuations and
+inflationary cosmology. And still the question stands, patient and
+undefeated, waiting for us to ask it differently.</p>
+<p>This book proposes that we have been asking it wrong, not because our
+answers are bad, but because we have been looking for the wrong kind of
+answer. The question is not <em>why</em> something emerged from nothing.
+The question is <em>how existence organizes itself once it does</em>,
+and this book does engage with the emergence itself, but through a
+different lens than the one most of us have been handed. That lens
+begins with something that may seem strange: <strong>before energy,
+before matter, before space or time, there is Awareness and
+Intention.</strong></p>
+<p>Not in a mystical sense. In a structural one.</p>
+<p>Consider an architect’s blueprint. It will not tell you who will fall
+in love in the third-floor apartment, or what arguments will echo
+through the kitchen, or whether the family that lives there will be
+happy. What it <em>will</em> tell you is how the load distributes
+through the walls, how the spaces relate to one another, why the
+building stands instead of falls. The blueprint is not the story of the
+building. It is the grammar that makes any story possible at all.
+Awareness and Intention, in the tholonic model, are not ingredients
+written into the blueprint. They are the reason blueprints are possible
+at all.</p>
+<p>What follows is a blueprint of existence.</p>
+<p>That blueprint, it turns out, is fundamentally
+<strong>triadic</strong>. Every stable structure in reality, from a
+subatomic particle to a civilization, fulfills three functional roles
+simultaneously: it has a generative source, a limiting definition, and a
+contribution to the larger whole it belongs to. The tholonic model calls
+these <strong>Negotiation</strong>, <strong>Definition</strong>, and
+<strong>Contribution</strong> (N-D-C). This is not an analogy. It is a
+structural identity, the same repeating grammar found underneath Ohm’s
+Law, Newton’s Second Law, the organization of a living cell, and the
+dynamics of a society.</p>
+<p>The basic unit of this framework is the <strong>tholon</strong>, a
+self-sustaining, self-replicating pattern of A&amp;I expressed as
+organized energy, simultaneously a whole in itself and a part of
+something larger. Tholons nest inside tholons inside tholons, producing
+a fractal hierarchy called the <strong>thologram</strong> that the model
+proposes as the actual structural template of reality at every scale.
+The patterns that organize hydrogen atoms are the same patterns that
+organize ecosystems and galaxies, not poetically but geometrically, with
+the same ratios, the same triadic logic, and the same tendency toward
+self-similar structure.</p>
+<p>The thologram also distinguishes between <strong>archetypes</strong>,
+the fundamental, uninstantiated patterns that persist in an underlying
+implicate order, and <strong>instances</strong>, the material
+expressions of those archetypes in the observable world. This
+distinction, which connects to Plato’s Forms and Jung’s collective
+unconscious, carries structural and physical consequences that extend
+well beyond philosophy.</p>
+<p>These are bold claims, and they deserve to be held to a high
+standard. This book builds its case systematically, crossing between
+physics and philosophy, between established science and speculative
+frontier, between what we know and what we are only beginning to ask. It
+is transparently exploratory, not a final verdict but a framework for
+asking better questions. The conclusions offered here are the author’s
+own, and you are not required to share them. You may find, looking
+through this same lens, that you see connections that were missed, or
+that some connections seem unconvincing. That is precisely the point.
+The framework stands independent of any particular interpretation. It is
+the architecture, not the interior decoration.</p>
+<p>The book moves through three phases.</p>
+<p><strong>The first phase</strong> examines the raw materials: chaos,
+energy, order, entropy, patterns, reason, cycles, information, and
+structure. These are concepts you have likely encountered before, but
+the tholonic lens reframes them, revealing how they are not independent
+phenomena but successive layers of the same organizing process, each one
+setting the conditions for the next.</p>
+<p><strong>The second phase</strong> assembles those foundations into
+the framework itself: the tholon, the thologram, the nature of
+instances, and the practical applications of the N-D-C pattern. This is
+where the blueprint becomes a working analytical tool, demonstrated
+across physics, biology, economics, and psychology.</p>
+<p><strong>The third phase</strong> turns the framework toward its most
+consequential questions, examining how the tholonic model accounts for
+mind, consciousness, cooperation, fields, memory, intention, archetypes,
+and the relationship between predeterminism and genuine novelty.</p>
+<p>Supporting material is gathered in appendices that apply the tholonic
+model to mathematics, the I Ching, Greek mythology, market dynamics,
+structured water, and several other domains, available when you want
+them without interrupting the main current of argument. Appendix A
+covers the technical and stylistic choices that multi-format publishing
+makes necessary.</p>
+<p>What this journey asks of you is not belief. It asks only curiosity
+and the willingness to follow a line of reasoning wherever it leads,
+even if it leads somewhere unexpected. Do that, and you will find that
+the patterns illuminated here do not simply explain the arguments in
+this book. They begin to illuminate the very process by which anything
+is understood at all.</p>
+<p>That, in the end, is what a good blueprint does. It does not just
+show you one building. It shows you the logic that makes all buildings
+possible, and once you have seen it, you cannot help but see it
+everywhere.</p>
+</body>
+</html>

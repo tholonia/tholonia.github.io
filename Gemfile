@@ -33,7 +33,6 @@ gem 'jekyll-include-cache'
 
 # gem "jekyll-inline-svg"
 gem 'jekyll-openmoji'
-
 gem 'jekyll-feed'
 
 # gem 'jekyll-inline-svg'

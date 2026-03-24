@@ -7,7 +7,7 @@ image: /material/assets/material_language_self_awareness.png
 categories:
 - COMMUNICATION
 
-src1: https://drive.internxt.com/sh/file/fd3c4d42-46ab-471a-9ca3-168b1069fcc8/b083050dacd2d42f8685de737a030df1e04f7036a2a551354b229b981be9dee7
+src1: https://143.198.128.147:8765/material/material_language_self_awareness.pdf
 src1_title: View/Download "Language and Consciousness; How Language Implies Self-awareness"
     (11 pages)
 ptags:

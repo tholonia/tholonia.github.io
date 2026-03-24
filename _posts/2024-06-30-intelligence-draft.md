@@ -12,7 +12,7 @@ categories:
 - SCIENCE
 jday: 8947
 tags:
-- 'energy '
+- energy
 ---
 
 The premise is: Intelligence in a byproduct of interaction, which is itself of separation, which originated in Awareness.  It also suggests that there are countless forms non-material willful intelligence that affect and control our lives. This is a record of a live Q&A in the topic of intelligence.  While the content is a bit rough, it's quite good, but need serious cleaning up and editing, hence, the "draft' status.

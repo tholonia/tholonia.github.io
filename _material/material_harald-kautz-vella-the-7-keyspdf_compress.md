@@ -8,7 +8,7 @@ categories:
 - POLITICS
 - TECHNOLOGY
 
-src1: https://drive.internxt.com/sh/file/988a17c2-92b9-4138-a183-e247355c6b99/1ed05695273c1168ba7406fb8050ea82eff66726d209a5d69cb7985aac5ff778
+src1: https://143.198.128.147:8765/material/material_harald-kautz-vella-the-7-keyspdf_compress.pdf
 src1_title: View/Download "The 7 Keys to the Friendly Takeover of the Planet by its Inhabitants"
     (70 pages)
 ptags:

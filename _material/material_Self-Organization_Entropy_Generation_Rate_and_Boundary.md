@@ -8,7 +8,7 @@ categories:
 - GEOMETRY
 - NATURE
 
-src1: https://drive.internxt.com/sh/file/0e767c6e-5ca7-46f6-9289-7cd35e547a6a/4dff1a8ffbb44ddc385988151baf6e883e07a2523a8c044802256f59215b17e3
+src1: https://143.198.128.147:8765/material/material_Self-Organization_Entropy_Generation_Rate_and_Boundary.pdf
 src1_title: View/Download 'Self-Organization, Entropy Generation Rate' (24 pages)
 ptags:
 - nokwgen-manual

@@ -16,7 +16,6 @@ tags:
 - thologram
 - holons
 - partons
-- thologram
 - energy
 ---
 

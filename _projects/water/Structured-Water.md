@@ -16,7 +16,7 @@ Exploring the various attributes and types of water: Structured water, water mem
 
 ## *Structured Water*
 
-*(Most of this is from [Appendix J - Structured Water]({{ site.baseurl }}{% link _the_book/590-J-Structured_Water.md %}) in the book [THOLONIA](/the_book))*
+*(Most of this is from [Appendix J - Structured Water]({{ site.baseurl }}{% link _the_book/031-J-Structured_Water.md %}) in the book [THOLONIA](/the_book))*
 
 Given how water seems to be such an excellent tholonic medium, can we lower the entropy of water by increasing its order, adding structure in a way that matches and/or enhances the patterns of the thologram and see some differences in how it transmits or interacts with energy? If we notice any differences, we have another piece of potential evidence supporting the tholonic model.
 
@@ -26,7 +26,7 @@ OK, I know I probably lost some readers with this last sentence. If you do an In
 
 To the dogmatically skeptical, structured water is just more “swarming” of those heretically perverse “worms”. However, unless one suffers from a severe case of *scoleciheretiperviphobia* (fear of heretically perverse worms), they can easily find hundreds of papers, dozens of books, and scientific research from highly accredited pioneering professionals and leaders online [^1] supporting the structured water phenomena. Skepticism has its place and serves a critical purpose, but regarding the extreme skepticism of structured water, that purpose does not seem to be moving understanding forward or seeking new solutions to real-world problems, such as solving global water shortages and increasing crop production, as has been well documented by some of Australia’s largest produce farms.
 
-To see the result of my own tests and how to make structured water, see  [Appendix J - Structured Water]({{ site.baseurl }}{% link  _the_book/590-J-Structured_Water.md %}) in the book [THOLONIA](/the_book ).
+To see the result of my own tests and how to make structured water, see  [Appendix J - Structured Water]({{ site.baseurl }}{% link _the_book/031-J-Structured_Water.md %}) in the book [THOLONIA](/the_book ).
 
 There is quite a lot of good research on the subject that we won’t detail here. However, we will look at Fabian Ptok’s Master’s thesis [Alternative Irrigation Methods: Structured Water in the context of a Growing Global Food Crisis due to Water Shortages]({{ site.baseurl }}{% link _material/material_Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.md %}) [^2] . He covers the subject well from an agricultural and food security perspective and provides several references to the research and work in this area. One of the often cited studies showed dramatic results in decreasing blood and DNA damage in diabetic rats, but this study is also criticized as it was small [^3]. There is also a book by Professor Gerald Pollack, who has an impressive list of credentials [^4] and is available online for free[^5]. I have not read this book, so this is not an endorsement or recommendation, however, some of his experiments and patents487 look very interesting. Dr. Pollack has made no claims about his work, but is raising funding to test his hypothesis that SW can have positive effect on health.
 

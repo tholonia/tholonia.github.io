@@ -9,8 +9,6 @@ date: '2024-08-08'
 image: /assets/posts/2024-08-08-reason-vs-logic/post_image.png
 jday: 8986
 layout: post
-tags:
-- ''
 title: Reason vs Logic (CAI ch. 17)
 ---
 

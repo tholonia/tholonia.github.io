@@ -8,7 +8,7 @@ categories:
 - BIOSCIENCE
 - NATURE
 
-src1: https://drive.internxt.com/sh/file/ade05f60-a7ed-456e-9494-eab560086ebb/708ed630ce28c60ec2964b1aca7ad0e930ba19649a2aab29593be1103a9a19cf
+src1: https://143.198.128.147:8765/material/material_Structured_Water_effects_on_animals.pdf
 src1_title: View/Download 'Structured Water - effects on animals' (42 pages)
 ptags:
 - nokwgen-manual

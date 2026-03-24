@@ -8,7 +8,7 @@ categories:
 - METAPHYSICS
 - POLITICS
 
-src1: https://drive.internxt.com/sh/file/a17d68d3-41d5-4327-a4ea-8586c83e70ea/2bad866e6989519411db1d25e47c3649b00e2a8ebfbab426bbc63ad34a714d54
+src1: https://143.198.128.147:8765/material/material_The_Unexpected_Side_of_the_CIA.pdf
 src1_title: View/Download 'Between Remote Viewing and the OBE - The Unexpected Side of
     the CIA (Part 2)' (7 pages)
 ptags:

@@ -8,7 +8,7 @@ categories:
 - METAPHYSICS
 - PHYSICS
 
-src1: https://drive.internxt.com/sh/file/a40b7ee6-11ef-4fe5-8010-fc4850edab8c/5c0c8918afd491f16582c837d8bbcaf2376060dc17d865a27d8e6a4c55a06e56
+src1: https://143.198.128.147:8765/material/book_meta_newton_NOTFREE.pdf
 src1_title: View 'The Metaphysical World of Isaac Newton' (499 pages)
 ptags:
 - nokwgen-manual

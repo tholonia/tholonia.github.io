@@ -9,7 +9,7 @@ categories:
 - POLITICS
 - ASTRONOMY
 
-src1: https://drive.internxt.com/sh/file/eb0fb512-29dd-48cb-b755-e03cc6dcf090/a3660aa0711ae791192340bc98e0bc48be90fd65ae24ff85c3f80a6c5259a856
+src1: https://143.198.128.147:8765/material/book_ringmakers.pdf
 src1_title: View/Download 'Ringmakers of Saturn' (125 pages)
 ptags:
 - nokwgen-manual

@@ -8,7 +8,7 @@ categories:
 - ENERGY
 - COMMUNICATION
 
-src1: https://drive.internxt.com/sh/file/20525e53-dc26-4041-8ef4-2b2d10fbfa02/2f547997b10a6b17a34d066536c710db898219886a12c446382a3fec89456fc1
+src1: https://143.198.128.147:8765/material/material_Modeling_Extended_Intelligence.pdf
 src1_title: View/Download 'Modeling the Extended Living Intelligence Field' (7 pages)
 ptags:
 - nokwgen-manual

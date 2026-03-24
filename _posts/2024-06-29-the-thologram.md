@@ -14,10 +14,10 @@ categories:
 jday: 8947
 tags:
 - tholon
-- ' tholonia'
-- ' thologram'
-- ' Newton'
-- ' physics'
+- tholonia
+- thologram
+- Newton
+- physics
 ---
 
 This attempts to describe the concept of the Thologram.  It starts outs showing how  classical physics, such as Newton' 2nd Law of Motion, are instances of a metaphysical or non-material reality, and then applies those same concepts to the non-material instances of Awareness, consciousness, and intention, as well as concepts like society and psychology. 

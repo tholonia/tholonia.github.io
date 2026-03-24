@@ -8,7 +8,7 @@ categories:
 - ESOTERIC
 - METAPHYSICS
 
-src1: https://drive.internxt.com/sh/file/8cd04c9e-3a85-454f-83b6-2c1f78ac2473/e1fd570261e6a4f76f978c9eb366b388791f7935fc2cde987969aba427a2b723
+src1: https://143.198.128.147:8765/material/material_Elyon_in_Genesis.pdf
 src1_title: View/Download 'Elyon -a Canaanite god - in Genesis' (10 pages)
 ptags:
 - nokwgen-manual

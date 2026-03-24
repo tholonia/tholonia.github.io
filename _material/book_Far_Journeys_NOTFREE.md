@@ -9,7 +9,7 @@ categories:
 - COMMUNICATION
 - METAPHYSICS
 
-src1: https://drive.internxt.com/sh/file/2aed170f-9927-4596-81d3-e5b6181bc5ee/1749f245c61bf4b472608d90e4c3cbe8790d4a516faa96fb9aa47029390196e9
+src1: https://143.198.128.147:8765/material/book_Far_Journeys_NOTFREE.pdf
 src1_title: View "Far Journeys" (432 pages)
 ptags:
 - nokwgen-manual

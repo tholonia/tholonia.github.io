@@ -8,7 +8,7 @@ categories:
 - PHILOSOPHY
 - PHYSICS
 
-src1: https://drive.internxt.com/sh/file/97b2e7dd-7d77-459f-971f-353de6139b00/1c0f8ed303884f183978a7d6709f604d47caae9f678b549ae27cada9e195ed09
+src1: https://143.198.128.147:8765/material/book_What_is_Life.pdf
 src1_title: View/Download "What is Life?" (31 pages)
 ptags:
 - nokwgen-manual

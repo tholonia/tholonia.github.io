@@ -8,7 +8,7 @@ categories:
 - GEOMETRY
 - MATH
 
-src1: https://drive.internxt.com/sh/file/576d4428-f4a4-4e78-8bca-8dec0970de45/f5d2f42133e832b74ae6ba16c15a5f1ffe45e333fb98022d26242cc3751a51b4
+src1: https://143.198.128.147:8765/material/material_Brownian_Motion.pdf
 src1_title: View/Download 'Brownian Motion' (13 pages)
 ptags:
 - nokwgen-manual

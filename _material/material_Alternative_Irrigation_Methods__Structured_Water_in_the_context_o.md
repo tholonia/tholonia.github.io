@@ -11,7 +11,7 @@ categories:
 - BIOSCIENCE
 - GEOSCIENCE
 
-src1: https://drive.internxt.com/sh/file/4e3ee86e-78e8-4fce-b910-1e98e08ab6b5/24cd30195280a2f90389cf5f70f3891134436a6c0f498210eb3066488cce8784
+src1: https://143.198.128.147:8765/material/material_Alternative_Irrigation_Methods__Structured_Water_in_the_context_o.pdf
 src1_title: View/Download 'Structured Water and Alternative Irrigation Methods' (43 pages)
 ptags:
 - nokwgen-manual

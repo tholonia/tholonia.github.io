@@ -8,7 +8,7 @@ categories:
 - TECHNOLOGY
 - REFERENCE
 
-src1: https://drive.internxt.com/sh/file/eb55085a-53d6-48e6-bac6-f902e6400db3/4499c4410215738b12aabbed922057745be0f1d45ba5de0873f525152255b0ce
+src1: https://143.198.128.147:8765/material/material_BecomingHumanCheatSheets.pdf
 src1_title: View/Download 'Becoming Human Cheat Sheets' (25 pages)
 ptags:
 - nokwgen-manual

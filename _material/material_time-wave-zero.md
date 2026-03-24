@@ -8,7 +8,7 @@ categories:
 - NATURE
 - METAPHYSICS
 
-src1: https://drive.internxt.com/sh/file/d4a73796-6030-42c0-8b96-cb6c4b8e2bcc/6e8d6424a3e815704245f6374a9cc65db04ec505a6050c7a11ccfdc888837752
+src1: https://143.198.128.147:8765/material/material_time-wave-zero.pdf
 src1_title: View/Download 'Time Wave Zero' (6 pages)
 ptags:
 - nokwgen-manual

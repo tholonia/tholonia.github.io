@@ -8,7 +8,7 @@ categories:
 - PARAPSYCHOLOGY
 - ENERGY
 
-src1: https://drive.internxt.com/sh/file/dd192027-28fa-4b1b-b673-3c3826e93fef/1d8df4f1e8b63aedbd27a80e1c473d8d740036c0bec26c65ed3d993d5512833f
+src1: https://143.198.128.147:8765/material/book_intention_NOTFREE.pdf
 src1_title: View "The Intention Experiment" (343 pages)
 ptags:
 - nokwgen-manual

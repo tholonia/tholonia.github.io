@@ -7,7 +7,7 @@ image: /material/assets/material_Zero_Divided_by_Zero_Equals_One.png
 categories:
 - MATH
 
-src1: https://drive.internxt.com/sh/file/a9d1a45a-1401-404e-8cbf-1513f8a88ffc/eb9c18eed02a729ff964472bac5e1de8165d32526a98f0f0a750ef160f8dbfa7
+src1: https://143.198.128.147:8765/material/material_Zero_Divided_by_Zero_Equals_One.pdf
 src1_title: View/Download 'Zero Divided by Zero Equals One' (18 pages)
 ptags:
 - nokwgen-manual

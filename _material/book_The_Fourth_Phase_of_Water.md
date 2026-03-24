@@ -8,7 +8,7 @@ categories:
 - ENERGY
 - GEOSCIENCE
 
-src1: https://drive.internxt.com/sh/file/3b231f50-0ac8-40d8-b4b9-532e4d758fa4/ded8cbd82226e289bf42010900317e4708eea970e3ccc3c5240c8852b8503c80
+src1: https://143.198.128.147:8765/material/book_The_Fourth_Phase_of_Water.pdf
 src1_title: View/Download "The Fourth Phase of Water" (714 pages)
 ptags:
 - nokwgen-manual

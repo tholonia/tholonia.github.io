@@ -156,29 +156,40 @@ collections:
   the_book:
     output: true
     order:
-      - 000-Intro.md
-      - 010-CHAOS.md
-      - 020-ENERGY.md
-      - 030-ORDER.md
-      - 040-THE_LAWS.md
-      - 050-REASON.md
-      - 060-INFORMATION.md
-      - 070-STRUCTURE.md
-      - 075-The_Thologram.md
-      - 080-INSTANCES.md
-      - 090-MIND.md
-      - 100-FIELDS.md
-      - 110-APPLICATION_OF_AWARENESS.md
-      - 120-PREDETERMINISM.md
-      - 510-A-About_This_Book.md
-      - 520-C-Tholonic_Math.md
-      - 530-D-Greek_Gods.md
-      - 540-E-Hidden_Images.md
-      - 550-F-An_Unexpected_Pattern.md
-      - 580-I-Market_Data.md
-      - 590-J-Structured_Water.md
-      - 600-K-Sidis.md
-      - 610-L-Thologram_and_Religion.md
+      - 001-INTRO.md
+      - 002-CHAOS.md
+      - 003-ENERGY.md
+      - 004-ORDER.md
+      - 005-ENTROPY.md
+      - 006-PATTERNS.md
+      - 007-REASON.md
+      - 008-CYCLES.md
+      - 009-INFORMATION.md
+      - 010-STRUCTURE.md
+      - 011-THOLON.md
+      - 012-THOLOGRAM.md
+      - 013-INSTANCES.md
+      - 014-APPLICATIONS.md
+      - 015-MIND.md
+      - 016-COOPERATION.md
+      - 017-FIELDS.md
+      - 018-MEMORY.md
+      - 019-INTENTION.md
+      - 020-ARCHETYPES.md
+      - 021-PREDETERMINISM.md
+      - 022-A-About_This_Book.md
+      - 023-C1-Tholonic_Math.md
+      - 024-C2-Squares_Primes.md
+      - 025-C3-Constants_Entropy.md
+      - 026-C4-IChing.md
+      - 027-D-Greek_Gods.md
+      - 028-E-Hidden_Images.md
+      - 029-F-An_Unexpected_Pattern.md
+      - 030-I-Market_Data.md
+      - 031-J-Structured_Water.md
+      - 032-K-Sidis.md
+      - 033-L-Thologram_and_Religion.md
+      - 034-M-Laws-for-All.md
 
 #    permalink: /:collection
     sort_by: name
@@ -306,6 +317,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+feed:
+  path: atom.xml
 
 # can't get this to work
 blurbs:

@@ -8,7 +8,7 @@ categories:
 - HEALTH
 - BIOSCIENCE
 
-src1: https://drive.internxt.com/sh/file/1f085e16-cb90-42b8-b3d3-64f5d263af52/225fa68ae8d2eb28e4592ffb6a1c5c368761c3a988577198750e9c8da85ceb5e
+src1: https://143.198.128.147:8765/material/material_Effects_of_Changes_in_Water_Intake_on_Mood.pdf
 src1_title: View/Download 'Effects of Changes in_Water Intake on Mood' (7 pages)
 ptags:
 - nokwgen-manual

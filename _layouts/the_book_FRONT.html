@@ -72,7 +72,7 @@ title: Book
       <img src="/assets/img/frontcover-tiching.jpg" alt="The Tholonic I Ching" class="new-book-cover">
       <h3 class="new-book-title">The Tholonic I Ching</h3>
     </a>
-    <p><a href="https://secure.ue.internxt.com/sh/file/5pEFCzkPSgqQiu9TK-7q0w/dT0hZAcN" target="_blank" style="color: #007bff;">📥 Download PDF</a></p>
+    <p><a href="https://143.198.128.147:8765/material/book_THOLONIC_ICHING.pdf" target="_blank" style="color: #007bff;">📥 Download PDF</a></p>
     <p><a href="https://www.amazon.com/Tholonic-Ching-Integrating-Ancient-Thought/dp/B0G7QT846Z/ref=sr_1_1?sr=8-1" target="_blank" style="color: #007bff;">🛒 Available on Amazon</a></p>
   </div>
   
@@ -81,7 +81,7 @@ title: Book
       <img src="/assets/img/frontcover_intro.jpg" alt="Introduction to the Tholonic I Ching" class="new-book-cover">
       <h3 class="new-book-title">Introduction to the Tholonic I Ching</h3>
     </a>
-    <p><a href="https://secure.eu.internxt.com/sh/file/P5FW8fI-RQeEkOnUcaZEcw/5JiN2yvz" target="_blank" style="color: #007bff;">📥 Download PDF</a></p>
+    <p><a href="https://143.198.128.147:8765/material/book_INTRO_THOLONIC_ICHING.pdf" target="_blank" style="color: #007bff;">📥 Download PDF</a></p>
     <p><a href="https://www.amazon.com/Introduction-Tholonic-Ching-Duncan-Stroud/dp/B0G7QX838S/ref=sr_1_2?sr=8-2" target="_blank" style="color: #007bff;">🛒 Available on Amazon</a></p>
   </div>
 </div>
@@ -96,42 +96,43 @@ This is the original book on the tholonic model, which was essentially a collect
 <ul id="botoes">
   <li>
     <a
-      href="https://secure.eu.internxt.com/sh/file/uVbZzMgTTn2dO9VCPWxrNg/IjldIgJx">
+      href="https://143.198.128.147:8765/THOLONIA_THE_BOOK_print-only.pdf">
       <img alt="Download PDF" src="/the_book/assets/latest/tholonia_the_book_PDF.jpg" class="chimg">
     </a>
   </li>
   <li>
     <a
-      href="https://secure.ue.internxt.com/sh/file/K2WHjaUdRSWsbTCQF52wPw/ESX_OY_e">
+      href="https://143.198.128.147:8765/THOLONIA_THE_BOOK.md.zip">
       <img alt="Download MD" src="/the_book/assets/latest/tholonia_the_book_MD.jpg" class="chimg">
     </a>
   </li>
   <li>
-    <a href="https://share.eu.internxt.com/sh/file/q49hJo0dSYa6zslCxMGsTw/gro0PKlG">
+    <a href="https://143.198.128.147:8765/THOLONIA_THE_BOOK.html.zip">
       <img alt="Download HTML" src="/the_book/assets/latest/tholonia_the_book_HTML.jpg" class="chimg">
     </a>
   </li>
   <li>
-    <a href="https://secure.internxt.com/sh/file/OEcIbSbVQeq1T398x80o9A/H8z-bfTH">
+    <a href="https://143.198.128.147:8765/THOLONIA_THE_BOOK.epub">
       <img alt="Download ePub" src="/the_book/assets/latest/tholonia_the_book_ePub.jpg" class="chimg">
     </a>
   </li>
 </ul>
 
-<i>Current version 8.0.77</i>
+<i>Current version 8.0.86</i>
 
 <H2>Individual Chapters</H2>
 
 <div class="chapter-list">
 {% for chapter in site.the_book %}
   {% assign filename = chapter.path | split: '/' | last | replace: '.md', '' %}
+  {% assign chapter_image = chapter.image | split: '/' | last %}
   <div class="chapter-item">
     <a href="/the_book/assets/chapters/{{ filename }}.html" target="_blank" class="chapter-link">
-      <img src="{{ chapter.image }}" alt="{{ chapter.title }}" class="chapter-thumb" />
+      <img src="/the_book/assets/chapters/images/{{ chapter_image }}" alt="{{ chapter.title }}" class="chapter-thumb" />
       <div class="chapter-info">
         <h3 class="chapter-title">{{ chapter.title }}</h3>
         <div class="chapter-blurb">
-          {{ chapter.excerpt }}
+          {{ chapter.content | markdownify | strip_html | replace: "  ", " " | truncatewords: 40 }}
         </div>
         <span class="open-icon">Open in new tab</span>
       </div>
@@ -196,6 +197,7 @@ This is the original book on the tholonic model, which was essentially a collect
     opacity: 0.95;
     line-height: 1.55;
     margin-bottom: 10px;
+    white-space: pre-line;
   }
 
   .chapter-blurb p {

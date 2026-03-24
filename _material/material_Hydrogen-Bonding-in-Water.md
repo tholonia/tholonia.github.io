@@ -8,7 +8,7 @@ categories:
 - ENERGY
 - BIOSCIENCE
 
-src1: https://drive.internxt.com/sh/file/20c60a2a-c523-400b-8b11-f8c7b6c15613/25d7047b5a59ac08afd864d839a9cbc380645b84ea8af556b00760e5c0b44e4d
+src1: https://143.198.128.147:8765/material/material_Hydrogen-Bonding-in-Water.pdf
 src1_title: View/Download 'Hydrogen Bonding in Water' (9 pages)
 ptags:
 - nokwgen-manual

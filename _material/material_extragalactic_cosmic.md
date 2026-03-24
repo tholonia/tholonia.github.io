@@ -8,7 +8,7 @@ categories:
 - GEOSCIENCE
 - ASTRONOMY
 
-src1: https://drive.internxt.com/sh/file/d4147b2b-f52a-4cd8-9029-495b7dc7f7a6/69d935520f06b76e7e1b6070157a79e7f567687d6e96070ba525c734f516660d
+src1: https://143.198.128.147:8765/material/material_extragalactic_cosmic.pdf
 src1_title: View/Download " Do Extragalactic Cosmic Rays Induce Cycles in Fossil Diversity?"
     ( pages)
 ptags:

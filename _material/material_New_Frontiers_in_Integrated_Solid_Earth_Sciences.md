@@ -9,7 +9,7 @@ categories:
 - POLITICS
 - ECONOMICS
 
-src1: https://drive.internxt.com/sh/file/a71f9385-474d-4095-b3c1-1908f4e25edf/712bdca37066f677346cb929f24febe14a1d300f4381ab5a361f0e54656af4fb
+src1: https://143.198.128.147:8765/material/material_New_Frontiers_in_Integrated_Solid_Earth_Sciences.pdf
 src1_title: View/Download 'New Frontiers in Integrated Solid Earth Sciences' (424 pages)
 ptags:
 - nokwgen-manual

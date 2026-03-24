@@ -8,7 +8,7 @@ categories:
 - PHYSICS
 - METAPHYSICS
 
-src1: https://drive.internxt.com/sh/file/6b172972-f59e-43e5-ab01-d0305d4f2418/c7134c4f063947e49675e32ef153d97ff1b78f53dcd3cb64a713304d2d826198
+src1: https://143.198.128.147:8765/material/material_THE_ANIMATE.pdf
 src1_title: View/Download 'The Animate and the Inanimate' (145 pages)
 ptags:
 - nokwgen-manual

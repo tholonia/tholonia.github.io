@@ -8,7 +8,7 @@ categories:
 - GEOSCIENCE
 - NATURE
 
-src1: https://drive.internxt.com/sh/file/334aee72-46b9-40aa-83a3-8718bdb61b72/164ffbf37279c18c558b386444c0a4ea3a5177504b2e3ec6e177d3bedccae685
+src1: https://143.198.128.147:8765/material/material_3d_nonlin_tim_anal_siesmic.pdf
 src1_title: View/Download 'Seismic Site and Structure Response' (106 pages)
 ptags:
 - nokwgen-manual

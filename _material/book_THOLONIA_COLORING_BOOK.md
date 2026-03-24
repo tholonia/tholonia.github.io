@@ -7,7 +7,7 @@ image: /material/assets/book_THOLONIA_COLORING_BOOK.jpg
 categories:
 - NATURE
 
-src1: https://drive.internxt.com/sh/file/c8a5901a-8235-4121-aba3-40abb0509dde/5b8a92f47f1bcf8ad881783f77e6e226bd8db3b514ad5128e34aceeaa5f6828f
+src1: https://143.198.128.147:8765/material/book_THOLONIA_COLORING_BOOK.pdf
 src1_title: View/Download 'The Tholonic Coloring book' (71 pages)
 ptags:
 - nokwgen-manual

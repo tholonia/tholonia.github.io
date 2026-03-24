@@ -8,7 +8,7 @@ categories:
 - NEUROSCIENCE
 - PSYCHOLOGY
 
-src1: https://drive.internxt.com/sh/file/86087b78-07ec-4b0f-8565-744818a0e839/0e5629260531beb3b715e92282d86a1cd8897382e5c01a6efab1a1a0e88e5be1
+src1: https://143.198.128.147:8765/material/material_neural_correlates.pdf
 src1_title: View/Download 'The Neural Correlates of Consciousness and Attention' (17
     pages)
 ptags:

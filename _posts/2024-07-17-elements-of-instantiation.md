@@ -11,7 +11,7 @@ categories:
 - SCIENCE
 jday: 8964
 tags:
-- 'quantum newtonian '
+- quantum newtonian
 ---
 
 The elements that cause a wave function to collapse into a particle, which is the basis of the wave-particle duality paradox, are the same as what causes an idea to become a manifest reality, but in a different context.
