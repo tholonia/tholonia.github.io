@@ -20,7 +20,7 @@ p.s. This bot worked remarkably well, financially speaking.
 
 {% youtube "https://www.youtube.com/watch?v=H_DB_LvNFMo" %}
 
-More at [Appx. I - Market Data]({{ site.baseurl }}{% link _the_book/030-I-Market_Data.md %}) from [THOLONIA, the book](/the_book)
+More at [Appx. I - Market Data]({{ site.baseurl }}/the_book/assets/chapters/030-I-Market_Data.html) from [THOLONIA, the book](/the_book)
 
 
 
