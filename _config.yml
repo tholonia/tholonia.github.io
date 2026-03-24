@@ -154,7 +154,7 @@ collections:
     permalink: /:collection/:name
 
   the_book:
-    output: true
+    output: false
     order:
       - 001-INTRO.md
       - 002-CHAOS.md
