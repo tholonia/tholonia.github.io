@@ -1,8 +1,30 @@
 ---
-sitemap: false
-title: "Ch. 10 - Structure"
+creator:
+- role: author
+  text: Duncan Stroud
+contributor:
+- role: author
+  text: Jeff Milton
+subtitle: The Existential Mechanics of Awareness
+pubdate: January 15, 2020
+title: THOLONIA
+author: Duncan Stroud
+ISBN-13: 978-1-6780-2532-8
+rights: Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0
+rights-desc: 'This book is an open sourced book. This means that anyone can contribute changes or updates. Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com). This book and its on-line version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof. A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>. The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Noncommercial - You may not use the material for commercial purposes. Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
+publisher: Welkin Wall Publishing
+lang: en-US
+cover-image: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+cover: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+series: 1
+chapter_title: STRUCTURE
+chapter_file: 010-STRUCTURE.md
+version: 8.0.89
+status: 'Updated: Mar 26, 2026 v8.0.89'
+subject: philosphy, geometry, mathematics, physics, consciousness, energy, chaos, order, reason, creation, evolution, structure, tetrahedron, E8 crystal, dimensions, holarchy, Kabbalah, I-Ching, Leibniz, binary, supply chain, Newton's laws, Pacioli, music, Tonnetz, drama, Freytag, trinitarian pattern
 image: /the_book/assets/chapters/images/010-STRUCTURE.jpg
 ---
+
 <div style='page-break-after: always; break-after: always;'></div>
 # Part II
 

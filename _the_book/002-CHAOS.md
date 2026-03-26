@@ -1,8 +1,30 @@
 ---
-sitemap: false
-title: "Ch. 2 - Chaos"
+creator:
+- role: author
+  text: Duncan Stroud
+contributor:
+- role: author
+  text: Jeff Milton
+subtitle: The Existential Mechanics of Awareness
+pubdate: January 15, 2020
+title: THOLONIA
+author: Duncan Stroud
+ISBN-13: 978-1-6780-2532-8
+rights: Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0
+rights-desc: 'This book is an open sourced book. This means that anyone can contribute changes or updates. Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com). This book and its on-line version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof. A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>. The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Noncommercial - You may not use the material for commercial purposes. Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
+publisher: Welkin Wall Publishing
+lang: en-US
+cover-image: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+cover: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+series: 1
+chapter_title: CHAOS
+chapter_file: 002-CHAOS.md
+version: 8.0.89
+status: 'Updated: Mar 26, 2026 v8.0.89'
+subject: philosphy, geometry, mathematics, physics, consciousness, energy, chaos, order, reason, creation, evolution, randomness, pattern, duality, zero, infinity
 image: /the_book/assets/chapters/images/002-CHAOS.jpg
 ---
+
 <div style='page-break-after: always; break-after: always;'></div>
 # Part I
 <div style='page-break-after: always; break-after: always;'></div>
@@ -108,29 +130,13 @@ Just as nothing must precede something, zero precedes one. Everything begins wit
 
 ### Zero
 
-We represent the general concept of nothingness with the number 0, yet this seemingly simple symbol emerged surprisingly late in human intellectual history. Even after its appearance, acceptance took thousands of years and provoked intense debate.
+We represent the general concept of nothingness with the number 0, yet this seemingly simple symbol emerged remarkably late in human intellectual history.  The historical record shows zero first appearing around the 3rd century B.C., spreading gradually across cultures over the following millennium, and reaching Western Europe only in the 12th century, where scholars resisted accepting it as a legitimate number for centuries more.
 
-The historical record shows 0 first appearing in Mesopotamia around the 3rd century B.C. However, the ancient Indian *Bakshali manuscript*, whose dating remains contested but may extend back several centuries BC based on some scholarly estimates, appears to use a dot symbol (•) to represent zero. From these origins, zero spread gradually across civilizations. It appeared in Mayan Meso-America in the 4th century A.D., then again in the same region during the 5th century. Cambodia adopted it in the 7th century. By the 8th century, China and Islamic cultures had integrated it into their mathematical systems. Remarkably, Western Europe did not encounter the concept until the 12th century, and even then, European scholars resisted accepting zero as a legitimate number for hundreds of years.
+The resistance becomes striking when set against the fact that honeybees,[^397] various monkey species,[^378][^379][^380] and crows[^381] all demonstrate a clear understanding of zero in controlled experiments, suggesting the concept is not cognitively difficult so much as culturally invisible until the right conditions force its articulation.  Animal physiologist Andreas Nieder identified four developmental stages in humanity's adoption of zero,[^377] and noted that they mirror, perhaps aptly, the psychological progression through grief that Elisabeth Kübler-Ross described.  The parallel is not merely clever.  On an existential level, confronting nothingness does resemble confronting death: first comes the recognition of absence, the awareness that something expected is simply not there; then the conceptual distinction between nothing and something (5th century BC, Greece); then the understanding that zero precedes one in numerical order (7th century AD, India); and finally the development of formal mathematical rules for zero as a symbolic entity (13th century AD, North Africa).  Humanity moved through denial, then recognition, then acceptance, then mastery, and it took thousands of years.
 
-This resistance becomes particularly striking when we consider that honeybees,[^397] various monkey species,[^378][^379][^380] and crows[^381] all demonstrate a clear understanding of zero in controlled experiments. Human exceptionalism takes a blow when corvids grasp what took our species millennia to formalize.
+This protracted timeline has prompted some researchers to propose external catalysts for these cognitive leaps, including alien intervention[^387] and the cognitive effects of psychoactive compounds.[^388] These remain fringe hypotheses, but they underscore the genuine puzzle the timeline presents.
 
-Animal physiologist Andreas Nieder identified four developmental stages in humanity's adoption of zero,[^377] stages that mirror the psychological progression through grief described by Elisabeth Kübler-Ross. This parallel seems apt. On an existential level, confronting nothingness resembles confronting death.
-
-**Stage 1:** Recognition of absence. The awareness that something expected is missing.
-
-**Stage 2:** Conceptual distinction between nothing and something (5th century BC, Greece).
-
-**Stage 3:** Understanding that zero precedes one in the numerical order (7th century AD, India).
-
-**Stage 4:** Development of mathematical rules and properties for zero as a symbolic entity (13th century AD, North Africa).
-
-*Note: These dates represent best-guess estimates based on documented references.*
-
-The puzzle deepens when we consider the timeline. Humans had achieved remarkable cognitive sophistication long before formalizing the concept of zero. Anatomically modern humans emerged roughly 300,000 years ago. Complex language likely developed 50,000 to 100,000 years ago. Yet the mathematical concept of nothing arrived only in the last few thousand years. The discontinuity suggests something unusual about zero itself, or about the conceptual leap it requires. Some researchers have proposed external catalysts for human cognitive leaps, such as genetic mutations, alien intervention,[^387] or psychoactive compounds.[^388] While these remain fringe theories, they highlight the genuine puzzle presented by the timeline.
-
-Zero's arrival coincided with the emergence of the modern world. This timing is not coincidental. Zero enabled modern mathematics and calculus. Without zero, the scientific revolution could not have occurred. As zero's practical utility became undeniable, it began to erode philosophical objections grounded in the ancient principle *ex nihilo nihil fit* (from nothing, nothing comes).
-
-This created considerable discomfort for medieval Christian authorities. The concept arrived in Europe through Islamic mathematicians, which alone created ideological resistance. More troubling still, if something could come from nothing mathematically, what did this imply about divine creation? The theological implications of zero threatened established doctrine.[^366]
+Zero's eventual acceptance coincided with the emergence of the modern world, and not by coincidence.  Zero enabled calculus and modern mathematics; without it, the scientific revolution could not have occurred.  Its arrival in Europe through Islamic mathematicians created ideological resistance from the outset, and the theological implications ran deeper still: if something could arise from nothing mathematically, what did that imply about divine creation?  The concept threatened established doctrine[^366] precisely because it worked.
 
 [^366]: Seife, Charles. "**Zero: The Biography of a Dangerous Idea**". London: Souvenir Press, 2019.
 [^397]: Howard, Scarlett R., Aurore Avarguès-Weber, Jair E. Garcia, Andrew D. Greentree, and Adrian G. Dyer. "**Numerical Ordering of Zero in Honey Bees.**" *Science* 360, no. 6393 (2018): 1124–26. https://doi.org/10.1126/science.aar4975.
@@ -147,20 +153,12 @@ Zero presents mathematical puzzles that challenge intuition. Consider the expres
 
 The reasoning is simple enough. X^0^ = X^(1-1)^ = X^1^/X^1^ = X/X = 1. The proof reveals something deeper about zero. Beyond representing the absence of something, zero also describes a nothingness that *results from* something. The equation 1 - 1 = 0 makes this concrete; something minus something equals nothing. Zero functions as both the womb from which all numbers emerge and the abyss to which they return when they cancel. This dual nature connects directly to the tholonic model: zero is the mathematical signature of the state from which A&I first stirs, the ground of pure potential before any distinction has been drawn.
 
-Lao Tzu's *Tao Te Ching* may address this dual nature when it states the following:
+Lao Tzu's *Tao Te Ching* may address this dual nature when it states:
 
 > Yet mystery and reality  
 > emerge from the same source.  
 > This source is called darkness.  
 > Darkness born from darkness.  
-> The beginning of all understanding.
-
-We might reinterpret this passage through the lens of nothingness:
-
-> Yet the unknown and the known  
-> emerge from the same source.  
-> This source is called nothingness.  
-> Somethingness born from nothingness.  
 > The beginning of all understanding.
 
 The number 0 stands as the antithesis of all other numbers. Everything that ever existed, exists, or will exist does so because of a paradox, namely that the "existence of nothingness" contains within it the seeds of all being. Mathematicians and philosophers have written countless conjectures and proofs about zero's relationship to other values. Some argue 0 equals 1, or the sum of all numbers, or infinity (∞), or 1/∞, or many other values, or even all values simultaneously. These are not abstract academic puzzles. These concepts generate genuine debate in mathematics and philosophy.
@@ -180,29 +178,19 @@ Order cannot exist in absolute nothingness, because nothing exists to be ordered
 
 ## Order and the Chaos of 0 and ∞
 
-The claim that 0 and ∞ are both forms of chaos receives unexpected support from mathematics itself. Newton's work with infinitesimals and limiting processes, which involve ratios approaching forms like 0/0, contributed significantly to his development of calculus. We learn in school that equations involving 0 or ∞ require careful treatment. Calculus recognizes several distinct *indeterminate* forms, including 0/0, ∞/∞, 0×∞, ∞-∞, 0^0^, 1^∞^, and ∞^∞^. Many of these can be transformed by algebraic manipulation into forms amenable to techniques such as L'Hôpital's rule, which resolves indeterminate fractions by replacing their numerator and denominator with their respective derivatives until a definite limit emerges. The expression 0/0 is particularly significant, because it represents pure indeterminacy, capable of yielding different values depending on how the zeros are approached.
+The claim that 0 and ∞ are both forms of chaos receives unexpected support from mathematics itself.  Calculus recognizes several *indeterminate* forms, including 0/0, ∞/∞, 0×∞, ∞-∞, 0^0^, 1^∞^, and ∞^∞^, expressions whose value cannot be determined from their form alone but depends entirely on the path taken to arrive at them.  Consider x/x as x approaches zero: at every point before zero the ratio equals 1, so the limit is 1.  Now consider 2x/x approaching zero: the limit is 2.  Both arrive at the form 0/0, yet resolve to different values.  The indeterminacy is not a failure of mathematics; it is an honest acknowledgment that different roads to the same destination can arrive at completely different places.
 
-A simple example makes this concrete. Consider the expression x/x as x approaches zero. At every value of x other than zero, x/x = 1, so as x shrinks toward zero the ratio holds steadily at 1, and the limit is 1. Now consider 2x/x as x approaches zero. At every point before zero, 2x/x = 2, so the limit is 2. Finally, consider x²/x as x approaches zero. Because squaring a small number makes it smaller still, the numerator shrinks *faster* than the denominator, and the ratio approaches 0. All three expressions arrive at the form 0/0 at the point of zero, yet they resolve to three entirely different values: 1, 2, and 0. The indeterminacy of 0/0 is not a failure of mathematics; it is an honest acknowledgment that the answer depends entirely on the *path* taken to get there. Different roads to the same destination can arrive at completely different places.
-
-Current research continues to grapple with this fundamental question. Ilija Barukčić, Chief Editor of the publication *Causation*, authored a paper titled "Zero Divided by Zero Equals One."[^367] The paper opens with careful language:
-
-> Objective: Accumulating evidence **indicates** that zero divided by zero equals 1
-
-It concludes with equal caution:
-
-> Conclusion: The findings of this study **suggest** that zero divided by zero equals one.
-
-Another paper co-authored by Barukčić, published in the *Journal of Applied Mathematics and Physics*, states the matter more plainly.[^368]
+Current research has not resolved this.  A paper co-authored by Barukčić, published in the *Journal of Applied Mathematics and Physics*, states the situation plainly:[^368]
 
 > A solution of the philosophically, logically, mathematically, and physically far-reaching problem of the division of zero by zero (0/0) is still not in sight.
+
+A separate paper by the same author later proposed the provocative answer that 0/0 = 1,[^367] a claim that remains unresolved by consensus but illustrates how seriously the problem continues to be taken.
 
 [^367]: Barukčić, Ilija. "**Zero Divided by Zero Equals One.**" Journal of Applied Mathematics and Physics 06, no. 04 (2018): 836–53. https://doi.org/10.4236/jamp.2018.64072.
 [^368]: Barukčić, J. and Barukčić, I. (2016) "**Anti Aristotle—The Division of Zero by Zero**". Journal of Applied Mathematics and Physics, 4, 749-761. doi: 10.4236/jamp.2016.44085.
 [^381]: Kirschhock, Maximilian E.; Ditz, Helen M.; Nieder, Andreas, "**Behavioral and Neuronal Representation of Numerosity Zero in the Crow**" Journal of Neuroscience 2 June 2021, 41 (22) 4889-4896; DOI: https://doi.org/10.1523/JNEUROSCI.0090-21.2021, https://www.jneurosci.org/content/41/22/4889
 
-The indeterminacy of expressions like 0/0 runs deeper than it first appears, as such an expression carries no fixed value of its own. Depending on the specific functions that produce it, it can resolve to 1, or 2, or 0, or any other number, as the previous examples show. The same principle applies to the other standard indeterminate forms: ∞/∞, 0×∞, ∞−∞, 0^0^, 1^∞^, and ∞^0^. In each case, the form alone tells you nothing; the path of approach determines everything.
-
-Indeterminacy functions as the mathematical equivalent of chaos. This supports the claim that 0 and ∞ serve as a qualitative representation of chaos. They stand apart as the only mathematical symbols representing concepts without determinate value. Zero explicitly denotes the absence of value. Infinity denotes the opposite of zero, yet manifests in many different forms.
+Indeterminacy is the mathematical equivalent of chaos.  Zero and infinity stand apart as the only mathematical symbols representing concepts without determinate value, and in each of the standard indeterminate forms, the path of approach determines everything.  This supports the claim that 0 and ∞ serve as a qualitative representation of chaos itself.
 
 The mathematical argument for 0 and ∞ representing states of chaos is further supported by empirical definitions of chaos itself. We can characterize nothingness as chaotic because it possesses no order or periodicity. Yet chaos carries another definition that means precisely the opposite, echoing the ∞ = 0 equivalence.
 
@@ -250,17 +238,11 @@ This definition leaves considerable room for interpretation. Many cases exist wh
 
 [^392]: Lorenz, Edward N. "**The Essence of Chaos**". Seattle: Univ. of Washington Press, 2008. Appendix 1 "**The Butterfly Effect**", http://climate.envsci.rutgers.edu/climdyn2017/LorenzButterfly.pdf. Lorenz was the founder of chaos theory which began with his 1963 paper "**Deterministic Nonperiodic Flow**", https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml
 
-In 1896, a chance meeting at a ball in Prague set in motion a chain of events that would contribute to the deaths of tens of millions of people. The butterfly effect has no more vivid illustration in human history.
-
-<img src='../Images/sophie.png' style='float:right;width:20%'/>Archduke Franz Ferdinand and Sophie Chotek, a duchess and daughter of a Bohemian Count, met at this ball, fell in love, and married. The problem arose from Sophie's status. As a duchess rather than royalty, Habsburg protocol forbade her from appearing beside the Archduke in official royal ceremonies. Franz Ferdinand loved Sophie but obeyed the rules of his position. However, protocol permitted her presence at non-royal military ceremonies when he acted as Inspector-General of the Austro-Hungarian Army. Seizing this loophole, Franz Ferdinand organized a public inspection of the Bosnian army with Sophie by his side. To ensure visibility, they traveled in an open car. During this public demonstration, Serbian nationalist Gavrilo Princip approached the vehicle and shot both of them at point-blank range, killing them instantly.
-
-Austria demanded an apology from Serbia. Serbia denounced the assassinations but refused to apologize, maintaining they had no involvement in the plot. Austria declared war on Serbia, which triggered treaty obligations. Russia allied with Serbia. Germany, bound by treaty to Austria, declared war on Russia. France and Great Britain came to Russia's aid. World War I devastated Germany, creating conditions that enabled the rise of nationalism and Hitler, culminating in World War II.
-
-The death and destruction of these wars stemmed from a chance meeting at a ball, combined with countless other butterfly effects. Gavrilo Princip stopped to buy a sandwich, placing him at precisely the right location at the right moment. Every interaction since the beginning of existence contributed to that convergence. Stories like these carry a risk, as they can obscure a profound realization. Every trivial act results from everything that has ever happened. Yes, World War I might have occurred regardless, but in this timeline, these specific events unfolded. You might not have spilled your drink had you not turned your head at a particular sound, but you did, because the entire history of the Universe led to that moment. This sounds like determinism overriding free will, a topic we address toward the book's end.
+In 1896, a chance meeting at a ball in Prague set in motion a chain of events that would contribute to the deaths of tens of millions of people.  <img src='../Images/sophie.png' style='float:right;width:20%'/>Archduke Franz Ferdinand and Sophie Chotek met there, fell in love, and married.  Habsburg protocol forbade Sophie, a duchess rather than royalty, from appearing beside the Archduke at official ceremonies, but permitted her presence at military inspections where he served as Inspector-General.  To give Sophie a public role, he organized an army inspection in an open car.  Serbian nationalist Gavrilo Princip, who had stopped to buy a sandwich and found himself at the right corner at the right moment, shot them both.  Austria declared war on Serbia; treaty obligations cascaded; Russia, Germany, France, and Britain were drawn in; World War I devastated Germany and created the conditions for Hitler; World War II followed.  Every link in that chain was deterministic.  None was predictable.  The sandwich placed Princip at the corner.  The protocol determined the route.  The entire prior history of existence converged on that moment, which is precisely what the butterfly effect means and precisely what distinguishes chaos from randomness.  This sounds uncomfortably like determinism overriding free will, a topic we address toward the book's end.
 
 Radioactive decay represents a classic candidate for "truly random" events, but only at the level of individual atoms. As a group, decay becomes entirely predictable, which is how we calculate half-lives. The same asymmetry governs car accidents. Insurance companies compile extensive data on accident probabilities involving driver age, weather, speeding, impairment, and distraction. This narrows the aggregate probability range for any given profile of driver and conditions, but it cannot predict the who, when, or where of any specific accident.
 
-Individual accidents are not random. Suppose Sally gets drunk after being fired for aggressive behavior. She drives home from a bar in a snowstorm while arguing with her husband on her cell phone and driving 30 miles per hour over the speed limit. She crashes into Bob. Nothing random characterizes this scenario. Sally's path and Bob's path both resulted from chaotic event sequences. Each event adjusted the accident probability. Sally's events created a high-probability accident scenario. Bob, a careful driver who paid attention and drove slowly, had a very low accident probability, yet he still got hit. We might call this a random event ("bad luck") for Bob, but a predictable one for Sally. In this scenario, "random" describes an unpredictable yet deterministic chaotic system (Bob's life) intersecting another unpredictable yet deterministic chaotic system (Sally's life). Because neither system is individually predictable, predicting their intersection becomes impossible. Thus, "random" often means "theoretically unpredictable." This accident resulted from the intersection of two chaotic systems, each deterministic on its own, unpredictable in combination.
+Individual accidents are not random in any fundamental sense.  A drunk, distracted driver who crashes into a careful one is not a random event; it is the intersection of two deterministic chaotic systems, each individually unpredictable, collectively impossible to forecast.  What we call randomness at the macro scale is almost always this: the unforeseeable convergence of systems that each follow their own rules faithfully.
 
 We should clarify that this discussion of randomness and determinism applies to macro-scale events, not to quantum-level phenomena. At quantum scales, genuine randomness may exist as a fundamental property of nature. Different scopes of reality operate according to different patterns and laws. This concept of scopes, and how patterns manifest differently at various scales of existence, will be addressed more thoroughly later in this work. For now, we focus on the macro-scale realm of everyday experience, where chaotic determinism provides a useful framework.
 
@@ -274,9 +256,7 @@ The following diagrams help clarify these concepts through visual examples.
 
 **Row A** demonstrates how identical patterns manifest across vastly different contexts. The top-left image shows a simple recursive form where each line generates a child line at 20° that is half its length. This pattern repeats through successive generations. The top-right image uses the same algorithm but with 90° angles instead of 20°. Placing these side by side reveals a striking correspondence. The 20° pattern resembles natural plant growth, while the 90° pattern appears in crystalline lattices, the structural arrangement of atoms in many solids.
 
-That same 90° grid does not confine itself to crystals. It dominates modern urban planning as well. Thomas Jefferson pioneered its application in the 1700s to systematically organize territorial expansion across North America. City planners adopted it because it proved far more efficient than the organic layouts of European cities, and financial incentives drove rapid proliferation. This efficient development pattern emerged and spread precisely during the Industrial Revolution, when city populations exploded. London, for example, grew 600% between 1775 and 1885.
-
-The pattern does not stop at city blocks. The same underlying geometry appears in biological systems, where grid cells in the brain enable spatial navigation via triangular grids of neural impulses. Tissue growth, zebrafish skin patterning, suburban road networks, and crystalline atomic lattices all express the same archetypal structure. Context and available resources differ across every one of these systems, yet the pattern persists. The evidence for this cross-domain consistency is well-documented.[^330]
+The same underlying geometry appears in biological systems, where grid cells in the brain enable spatial navigation via triangular grids of neural impulses. Tissue growth, zebrafish skin patterning, suburban road networks, and crystalline atomic lattices all express the same archetypal structure. Context and available resources differ across every one of these systems, yet the pattern persists. The evidence for this cross-domain consistency is well-documented.[^330]
 
 [^330]: Heller, E., & Fuchs, E. (2015). "**Tissue patterning and cellular mechanics**". *The Journal of cell biology*, *211*(2), 219–231. https://doi.org/10.1083/jcb.201506106, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4621832/
 
@@ -293,5 +273,4 @@ These diagrams show only two-dimensional patterns extending fewer than ten gener
 One of the most accessible "laboratory proofs" of deterministic chaos is the double pendulum. Because it functions as a clean mechanical example of recursive negotiation under constraint, we will revisit it later in *Chapter 13, Instances*.
 
 So what do we mean when we say everything begins and ends in chaos? We mean that existence is bounded on both sides by states where order cannot form and patterns cannot persist. At the zero extreme, there is nothing to order. At the infinite extreme, everything exists simultaneously and no structure can take hold. Between these two faces of chaos lies the narrow corridor where the Universe we experience happens to occur. Order is not chaos's opposite. It is chaos's middle, a temporary and always partial arrangement borrowed from the boundless disorder on either side. The next question is what emerges within it.
-
 

@@ -1,8 +1,30 @@
 ---
-sitemap: false
-title: "Ch. 5 - Entropy"
+creator:
+- role: author
+  text: Duncan Stroud
+contributor:
+- role: author
+  text: Jeff Milton
+subtitle: The Existential Mechanics of Awareness
+pubdate: January 15, 2020
+title: THOLONIA
+author: Duncan Stroud
+ISBN-13: 978-1-6780-2532-8
+rights: Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0
+rights-desc: 'This book is an open sourced book. This means that anyone can contribute changes or updates. Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com). This book and its on-line version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof. A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>. The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Noncommercial - You may not use the material for commercial purposes. Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
+publisher: Welkin Wall Publishing
+lang: en-US
+cover-image: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+cover: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+series: 1
+chapter_title: ENTROPY
+chapter_file: 005-ENTROPY.md
+version: 8.0.89
+status: 'Updated: Mar 26, 2026 v8.0.89'
+subject: philosphy, geometry, mathematics, physics, consciousness, energy, chaos, order, reason, creation, evolution, entropy, balance, inertia, pattern, oscillation, Fourier, self-organization
 image: /the_book/assets/chapters/images/005-ENTROPY.jpg
 ---
+
 <div style='page-break-after: always; break-after: always;'></div>
 
 # 5: ENTROPY
@@ -13,7 +35,7 @@ image: /the_book/assets/chapters/images/005-ENTROPY.jpg
 
 ##### **Keywords:** entropy, chaos, order, balance, inertia, pattern, oscillation, Fourier, self-organization
 
-<center><img src='../Images/psolids-3.png' style='width:100%'/></center>
+<center><img src='../Images/050-ENTROPY.jpg' style='width:100%'/></center>
 
 ## Entropy
 
@@ -248,11 +270,29 @@ According to Jeremy England, an assistant professor at the Massachusetts Institu
 
 > You start with a random clump of atoms, and if you shine light on it for long enough, it should not be so surprising that you get a plant.
 
+
+
+What England's observation implies goes beyond a historical coincidence.  If thermodynamics reliably produces life-like structures from random starting ingredients, the universe is not treating all molecular arrangements as equally accessible.  We have seen this principle throughout the chapter: some outcomes have vastly more microstates supporting them than others, and the probability of any configuration is simply a count of the pathways that lead to it.  Applied to chemistry, this means that certain molecular patterns form more readily than alternatives, and those patterns, by a consistent and reproducible bias, are the very ones biology recognizes as its raw materials.
+
+Stanley Miller and Harold Urey demonstrated this in 1953.  They filled a sealed flask with methane, ammonia, hydrogen, and water, the gases believed to represent early Earth's atmosphere, applied electrical sparks to simulate lightning, and within days produced amino acids.[^541]  The chemistry did not wander randomly through the enormous space of possible molecular configurations.  It converged on the same small set of biologically relevant forms, and that convergence has been reproduced across dozens of variations of the experiment since.
+
+The same preferential chemistry appears far beyond Earth.  Over 200 organic molecules have been detected in interstellar space,[^542] and glycine, an amino acid central to protein synthesis, has been found in meteorites that predate our solar system[^543] and in comet samples returned by NASA's Stardust mission.[^544]  The universe keeps generating the same patterns from the same elements, regardless of location or context.
+
+This is not coincidence but consequence.  The probability landscape of molecular chemistry is not flat.  Some patterns have many more available formation pathways than others, for the same reason that a balanced coin flip has exponentially more supporting microstates than all heads.  And the patterns the universe statistically favors turn out to be those that absorb energy efficiently, organize it into stable structures, and dissipate it at sustainable rates: the functional signature of life.  The universe does not create life deliberately, but it creates the conditions for life preferentially, which may ultimately amount to the same thing.
+
 This principle applies not only to organic molecules but also to inorganic systems, such as self-assembling crystals and quasicrystals.
 
 #### **Key 30:** Life is a self-organizing consequence of the movement of energy for the purpose of moving energy.
 
 [^374]: Jeremy L.  England, "**Statistical physics of self-replication**", J.  Chem.  Phys. 139, 121923 (2013) https://doi.org/10.1063/1.4818538
+
+[^541]: Miller, S. L. "**A Production of Amino Acids Under Possible Primitive Earth Conditions.**" *Science* 117, no. 3046 (1953): 528–529. https://doi.org/10.1126/science.117.3046.528
+
+[^542]: Herbst, E., and E. F. van Dishoeck. "**Complex Organic Interstellar Molecules.**" *Annual Review of Astronomy and Astrophysics* 47 (2009): 427–480. https://doi.org/10.1146/annurev-astro-082708-101654
+
+[^543]: Kvenvolden, K., J. Lawless, K. Pering, E. Peterson, J. Flores, C. Ponnamperuma, I. R. Kaplan, and C. Moore. "**Evidence for Extraterrestrial Amino-acids and Hydrocarbons in the Murchison Meteorite.**" *Nature* 228 (1970): 923–926. https://doi.org/10.1038/228923a0
+
+[^544]: Elsila, J. E., D. P. Glavin, and J. P. Dworkin. "**Cometary Glycine Detected in Samples Returned by Stardust.**" *Meteoritics and Planetary Science* 44, no. 9 (2009): 1323–1330. https://doi.org/10.1111/j.1945-5100.2009.tb01224.x
 
 Wherever energy exists in the material realm, there is some degree of imbalance seeking equilibrium.  We say that things are "balanced" when the net energy difference between any two states is zero.  Before reaching zero difference, there is balancing, which is the movement of energy, and this movement creates order.
 

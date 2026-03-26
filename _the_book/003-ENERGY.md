@@ -1,8 +1,30 @@
 ---
-sitemap: false
-title: "Ch. 3 - Energy"
+creator:
+- role: author
+  text: Duncan Stroud
+contributor:
+- role: author
+  text: Jeff Milton
+subtitle: The Existential Mechanics of Awareness
+pubdate: January 15, 2020
+title: THOLONIA
+author: Duncan Stroud
+ISBN-13: 978-1-6780-2532-8
+rights: Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0
+rights-desc: 'This book is an open sourced book. This means that anyone can contribute changes or updates. Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com). This book and its on-line version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof. A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>. The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Noncommercial - You may not use the material for commercial purposes. Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
+publisher: Welkin Wall Publishing
+lang: en-US
+cover-image: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+cover: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+series: 1
+chapter_title: ENERGY
+chapter_file: 003-ENERGY.md
+version: 8.0.89
+status: 'Updated: Mar 26, 2026 v8.0.89'
+subject: philosphy, geometry, mathematics, physics, consciousness, energy, chaos, order, reason, creation, evolution, archetypes, reality, material
 image: /the_book/assets/chapters/images/003-ENERGY.jpg
 ---
+
 <div style='page-break-after: always; break-after: always;'></div>
 
 # 3: ENERGY
@@ -15,13 +37,13 @@ image: /the_book/assets/chapters/images/003-ENERGY.jpg
 
 <center><img src='../Images/newtoncradle.png' style='width:80%'/></center>
 
-The previous chapter established that chaos is the primal state of existence, the condition in which no pattern or order can take hold.  It also traced the first structural event within that void: the appearance of a 0-dimensional point of somethingness, and the chain of acts that followed from it.  But the universe we inhabit is demonstrably not chaos.  Something changed.  That something is energy.
+The previous chapter established that chaos is the primal state of existence, the condition in which no pattern or order can take hold.  It also traced the first structural event within that void: the appearance of a 0-dimensional point of conceptual somethingness, and the chain of acts that followed from it.  But the growth of the Universe, or at least the scope of the Universe we exist within, most definitely has order.  Something changed.  That something is energy.
 
 Energy comes in two fundamental forms.  *Kinetic energy* is energy in motion, the kind capable of causing change through movement, such as water passing through a turbine in a dam.  *Potential energy* is energy held in reserve, not yet moving but available, such as all the water in the dam that has not yet reached the turbine.  The key point is that potential energy always moves when given the opportunity.  It is energy that is waiting to act, constrained only within its current context.
 
 Science, mythology, and religion each offer their own narratives and theories.  Not surprisingly, many of these theories are not conceptually distant from each other.  If we accept the first law of thermodynamics, which states that energy cannot be destroyed or created, then the energy that generated this Universe must have existed before the Universe was created.  Where this primal energy originated remains unanswered, and likely will remain so, at least by modern science.  Still, prior to the kinetic energy of the Big Bang, there must have been the potential energy of the Big Bang, which was energy that "wanted" to move.
 
-For our purposes at this moment, the details of these theories or stories do not matter.  What matters is the general principle.  Once that primal potential stirred within the void, something happened.  That "something" was movement, and movement is the undeniable expression of energy.  Energy moves to resolve an imbalance, an active process of transformation.  Once balance is achieved, energy's function shifts to maintaining it, a state of passive persistence.  Although it is a bit anthropomorphic, we can say that the purpose of energy is to create and maintain balance.  What drives this tendency toward balance, and whether energy itself has a more fundamental source, is a question this book returns to once the structural tools are in place.  This energy operates according to certain laws and within the context of duality.  This duality can manifest as somethingness/nothingness, one/or zero, any polarity, or any difference between two things that can potentially interact.
+For our purposes at this moment, the details of these theories or stories do not matter.  What matters is the general principle.  Once that primal potential stirred within the void there was movement, and movement is the undeniable expression of energy.  Energy moves to resolve an imbalance, an active process of transformation.  Once balance is achieved, energy's function shifts to maintaining it, a state of passive persistence.  It may be a bit anthropomorphic to say that the purpose of energy is to create and maintain balance, but it is scientifically accurate to that that is the cause of its movement.  What drives this tendency toward balance, and whether energy itself has a more fundamental source, is a question this book returns to once the structural tools are in place.  This energy operates according to certain laws and within the context of duality.  This duality can manifest as somethingness/nothingness, one/or zero, any polarity, or any difference between two things that can potentially interact.
 
 #### **Key 5:** Everything exists in a state of duality.
 
@@ -35,7 +57,7 @@ In quantum physics, waves with higher probabilities are more likely to reach the
 
 ## Modern Concept, Ancient History
 
-Without delving too deeply into philosophy here, the idea of archetypal forms is profoundly Platonic.  Plato's *Theory of Ideas* proposes that everything that exists is a material instance of an ideal version, or perfect idea, of that thing.  But Plato was not the first to sense this.  Anaximander (~610 B.C.) proposed that the origin of all things was the *apeiron*, the boundless and indefinite source from which all opposites and all forms emerge and to which they return.  It was not water, fire, or any other identifiable substance, but pure undifferentiated potential.  The resonance with the tholonic model's primal void is direct.  In Daoist philosophy, the *Tao* occupies the same structural position: the unnameable source that precedes all things, from which the ten thousand things arise and to which they return.  The Tao is not a thing among things but the condition that makes things possible, which is precisely the role energy plays in the tholonic framework at this stage of the account.
+Without delving too deeply into philosophy here, the idea of archetypal forms is profoundly Platonic.  Plato's *Theory of Ideas* proposes that everything that exists is a material instance of an ideal version, or perfect idea, of that thing.  But Plato was not the first to sense this.  Anaximander (~610 B.C.) proposed that the origin of all things was the *apeiron*, the boundless and indefinite source from which all opposites and all forms emerge and to which they return.  It was not water, fire, or any other identifiable substance, but pure undifferentiated potential.  The resonance with the tholonic model's primal void is direct.  In Taoist philosophy, the *Tao* occupies the same structural position: the unnameable source that precedes all things, from which the ten thousand things arise and to which they return.  The Tao is not a thing among things but the condition that makes things possible, which is precisely the role energy plays in the tholonic framework at this stage of the account.
 
 Kant argued that perception itself is organized by pre-existing mental structures; Descartes held that thought is more certain than matter; Hume traced all knowledge back to prior impressions.  Each arrived, by a different route, at the shared conviction that ideas precede material reality in the order of things.  Not all philosophers and scientists of old agreed, and historically, the debate usually boiled down to some form of "is there a god?"[^7] Today, science tends to avoid the concept of a god but asks equally impossible questions, such as "is reality a hologram?" or "is existence a simulation?" This book addresses these questions, but the answer is as maddening as it is enlightening, and words like "yes" or "no" become meaningless.
 
@@ -45,7 +67,7 @@ Throughout most of human history, there has been an archetypal, theoretical, spi
 
 This concept that unmanifest forms are the same as ideas, existing in a non-physical, non-manifest, non-instantiated state, provides an elegant explanation for the origin and nature of the laws of physics.  Just as physical forms like the ball and the cube have their ideal archetypes, the laws of physics and nature also possess their archetypal forms.
 
-The laws of a form and the form itself are not separate things.  They are the same thing expressed in two different forms.  Form itself is simply the result of a function, or by-product, of the law (or laws) as it is expressed within some material context.  The form *is* the instantiation of the law.  A circle's circumference is expressed by the formula 2πr, and every physical circle we encounter is an instance of that relationship.  Archetypes can also have archetypes, which we might refer to as *meta-archetypes* or *meta-types*.  The meta-archetype of a circle, for example, is the concept of a point, a 0-dimensional location with no length, width, or depth.  A circle is defined as the set of all points equidistant from a given center, so the point is the more fundamental idea from which the circle's archetype is constructed.
+The laws of a form and the form itself are not separate things.  They are the same thing expressed in two different contexts and scopes.  Form itself is simply the result of a function, or by-product, of the law (or laws) as it is expressed within some material context.  The form *is* the instantiation of the law.  A circle's circumference is expressed by the formula 2πr, and every physical circle we encounter is an instance of that relationship.  Archetypes can also have archetypes, which we might refer to as *meta-archetypes* or *meta-types*.  The meta-archetype of a circle, for example, is the concept of a point, a 0-dimensional location with no length, width, or depth.  A circle is defined as the set of all points equidistant from a given center, so the point is the more fundamental idea from which the circle's archetype is constructed.
 
 #### **Key 6:** Theories and ideas are archetypes in their own right, but like forms, they also have their archetypes.
 
@@ -65,5 +87,5 @@ Although today we tend to think of Plato's *Theory of Ideas* as an abstraction, 
 
 #### **Key 9:** Everything that exists is an instance of archetypes.
 
-Archetypes of form and the laws of those archetypes are the same thing.  What we call archetypes of form are the results of these laws.  What we see in our reality are the instantiations of those archetypes.  Energy, as this chapter has traced, is not simply the force that moves things.  It is the condition that makes archetypes real, the bridge between the potential and the instantiated.  But energy does not act alone.  It acts within, and in accordance with, the structures of order.  That is where we turn next.
+What we call archetypes of form are the results of these laws.  What we see in our reality are the instantiations of those archetypes.  Energy, as this chapter has traced, is not simply the force that moves things.  It is the condition that allows for the creation of archetypes as well as the bridge between the potential and the instantiated.  While energy exists within chaos, it also exists within, and expands upon, the structures of order.  That is where we turn next.
 

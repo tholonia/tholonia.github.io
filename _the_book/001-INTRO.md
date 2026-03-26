@@ -1,23 +1,30 @@
 ---
-sitemap: false
-titlepage: false
-subtitle: 'The Existential Mechanics of Awareness'
-pubdate: 'January 15, 2020'
-title: 'THOLONIA'
+creator:
+- role: author
+  text: Duncan Stroud
+contributor:
+- role: author
+  text: Jeff Milton
+subtitle: The Existential Mechanics of Awareness
+pubdate: January 15, 2020
+title: THOLONIA
 author: Duncan Stroud
 ISBN-13: 978-1-6780-2532-8
-rights: 'Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0'
-rights-desc: 'This book is an open-sourced book.  This means that anyone can contribute changes or updates.  Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com).  This book and its online version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof.  A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>.  The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made.  You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.  Noncommercial - You may not use the material for commercial purposes.  Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.  No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.  Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.  No warranties are given.  The license may not give you all of the permissions necessary for your intended use.  For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
-status: 'Updated: dom 30 abr 2023 20:03:56 v7.3.6'
-publisher: 'Welkin Wall Publishing'
-toc: true
-toc-title: 'Table of Contents'
-version:  7.3.6
+rights: Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0
+rights-desc: 'This book is an open sourced book. This means that anyone can contribute changes or updates. Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com). This book and its on-line version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof. A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>. The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Noncommercial - You may not use the material for commercial purposes. Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
+publisher: Welkin Wall Publishing
 lang: en-US
-coverpage: true
-subject: philosophy,consciousness,energy,chaos,order,reason,creation,evolution
+cover-image: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+cover: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+series: 1
+chapter_title: Introduction
+chapter_file: 001-INTRO.md
+version: 8.0.89
+status: 'Updated: Mar 26, 2026 v8.0.89'
+subject: philosphy, geometry, mathematics, physics, consciousness, energy, chaos, order, reason, creation, evolution
 image: /the_book/assets/chapters/images/001-INTRO.jpg
 ---
+
 <div style='page-break-after: always; break-after: always;'></div>
 # Introduction
 
@@ -25,7 +32,7 @@ There is a question older than philosophy and more persistent than religion: *ho
 
 Every civilization has taken a swing at it. The ancient myths dressed the answer in gods and primordial waters. The theologians wrapped it in providence. The physicists reached for quantum fluctuations and inflationary cosmology. And still the question stands, patient and undefeated, waiting for us to ask it differently.
 
-This book proposes that we have been asking it wrong, not because our answers are bad, but because we have been looking for the wrong kind of answer. The question is not *why* something emerged from nothing. The question is *how existence organizes itself once it does*, and this book does engage with the emergence itself, but through a different lens than the one most of us have been handed. That lens begins with something that may seem strange: **before energy, before matter, before space or time, there is Awareness and Intention.**
+This book proposes that we have been asking it wrong, not because our answers are bad, but because we have been looking for the wrong kind of answer. The question is not *why* something emerged from nothing. The question is *how existence organizes itself once it does*, and this book does engage with the emergence itself, but through a different lens than the one most of us have been handed. That lens begins with something that may seem strange: **before energy, before matter, before space or time, there is Awareness and Intention (A&I).**
 
 Not in a mystical sense. In a structural one.
 
@@ -54,5 +61,4 @@ Supporting material is gathered in appendices that apply the tholonic model to m
 What this journey asks of you is not belief. It asks only curiosity and the willingness to follow a line of reasoning wherever it leads, even if it leads somewhere unexpected. Do that, and you will find that the patterns illuminated here do not simply explain the arguments in this book. They begin to illuminate the very process by which anything is understood at all.
 
 That, in the end, is what a good blueprint does. It does not just show you one building. It shows you the logic that makes all buildings possible, and once you have seen it, you cannot help but see it everywhere.
-
 

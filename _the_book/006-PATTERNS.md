@@ -1,8 +1,30 @@
 ---
-sitemap: false
-title: "Ch. 6 - Patterns"
+creator:
+- role: author
+  text: Duncan Stroud
+contributor:
+- role: author
+  text: Jeff Milton
+subtitle: The Existential Mechanics of Awareness
+pubdate: January 15, 2020
+title: THOLONIA
+author: Duncan Stroud
+ISBN-13: 978-1-6780-2532-8
+rights: Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0
+rights-desc: 'This book is an open sourced book. This means that anyone can contribute changes or updates. Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com). This book and its on-line version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof. A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>. The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Noncommercial - You may not use the material for commercial purposes. Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
+publisher: Welkin Wall Publishing
+lang: en-US
+cover-image: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+cover: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+series: 1
+chapter_title: PATTERNS
+chapter_file: 006-PATTERNS.md
+version: 8.0.89
+status: 'Updated: Mar 26, 2026 v8.0.89'
+subject: philosphy, geometry, mathematics, physics, consciousness, energy, chaos, order, reason, creation, evolution, Newton's 2nd law, Ohm's law, E=mc², archetypal patterns, cause-medium-effect, hexagonal model, alchemy, quality of numbers, self-similarity, redundancy, fractal laws
 image: /the_book/assets/chapters/images/006-PATTERNS.jpg
 ---
+
 <div style='page-break-after: always; break-after: always;'></div>
 
 # 6: PATTERNS
@@ -12,6 +34,8 @@ image: /the_book/assets/chapters/images/006-PATTERNS.jpg
 ##### **Synopsis:** The same fundamental pattern — 2-3-6-18 — that underlies Newton's 2nd law of motion is shown to manifest identically in Ohm's law, E=mc², and alchemical archetypes, revealing a universal trinity of cause, medium, and effect — the N-D-C pattern that runs throughout this book.  The hexagonal model of these six relationships is explored, showing its self-similar and fractal properties.  Newton's alchemical roots are examined to demonstrate how ancient archetypal thinking laid the foundation for modern physics.  The chapter concludes by exploring the qualitative properties of numbers and the self-similar redundancy of universal laws across scales — from atoms to solar systems to the Universe itself — suggesting that reality is a structured hierarchy in which simple foundational principles manifest in increasingly complex forms.
 
 ##### **Keywords:** Newton's 2nd law, Ohm's law, E=mc², archetypal patterns, cause-medium-effect, hexagonal model, alchemy, quality of numbers, self-similarity, redundancy, fractal laws
+
+<center><img src='../Images/psolids-3.png' style='width:100%'/></center>
 
 ## Newton's 2^nd^ law of motion
 
@@ -293,5 +317,4 @@ For purposes of this book, I am going to define a *scope* or *order of creation*
 What this chapter has established is that there is one underlying structural pattern, expressed in the simplest arithmetic of 2, 3, and 6, and that this pattern appears without modification in the laws of motion, of electricity, of energy-mass equivalence, in the qualitative logic of ancient alchemy, and in the self-similar architecture of reality from the subatomic to the cosmological.  The pattern is not an analogy or a metaphor.  It is the same structure seen from different vantage points, which is precisely what self-similar redundancy predicts.
 
 That raises a question the pattern alone cannot answer.  If the same law governs everything from electrons to galaxies, what navigates within it? What determines which path through all those possible relationships a given system actually takes? That question is the subject of the next chapter, which examines reason, not as a purely human faculty invented by cultures, but as a structural property of reality itself, the capacity of any system to find the most sustainable path available to it.
-
 

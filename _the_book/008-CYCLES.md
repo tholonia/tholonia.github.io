@@ -1,8 +1,30 @@
 ---
-sitemap: false
-title: "Ch. 8 - Cycles"
+creator:
+- role: author
+  text: Duncan Stroud
+contributor:
+- role: author
+  text: Jeff Milton
+subtitle: The Existential Mechanics of Awareness
+pubdate: January 15, 2020
+title: THOLONIA
+author: Duncan Stroud
+ISBN-13: 978-1-6780-2532-8
+rights: Copyright ©2020 Duncan Stroud CC BY-NC-SA 4.0
+rights-desc: 'This book is an open sourced book. This means that anyone can contribute changes or updates. Instructions and more information at <https://tholonia.github.io/the-book> (or contact the author at duncan.stroud@gmail.com). This book and its on-line version are distributed under the terms of the Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Duncan Stroud and authorized agents thereof. A reference copy of this license may be found at <https://creativecommons.org/licenses/by-nc-sa/4.0/>. The above terms include the following: Attribution - you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. Noncommercial - You may not use the material for commercial purposes. Share Alike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No additional restrictions - you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. Notices - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.'
+publisher: Welkin Wall Publishing
+lang: en-US
+cover-image: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+cover: /home/jw/books/tholonia/Images/publish/6.69x9.61_Front-Only.jpg
+series: 1
+chapter_title: CYCLES
+chapter_file: 008-CYCLES.md
+version: 8.0.89
+status: 'Updated: Mar 26, 2026 v8.0.89'
+subject: philosphy, geometry, mathematics, physics, consciousness, energy, chaos, order, reason, creation, evolution, cycles, waves, oscillations, holographic theory, simulation hypothesis, work, predator-prey, Ohm's law, ecological cycles, archetypes, self-similarity
 image: /the_book/assets/chapters/images/008-CYCLES.jpg
 ---
+
 <div style='page-break-after: always; break-after: always;'></div>
 
 # 8: CYCLES
@@ -124,7 +146,15 @@ An excellent example of contextual evolution was found in the Movile Caves in Ro
 
 The oscillations between two states, whether chaos and order, movement and stillness, or any two points that differ yet can form an interaction, represent the most basic form of energetic expression in all the orders of creation.  On this point, metaphysics, spirituality, and science all happily converge.  Everything exists in some form of duality, or at least that is how we can describe it.
 
-Were imbalance and difference were to cease existing, the cycles of creation, nature, and the movements of the Universe would also cease.  Nature is the balancing of imbalances between systems across all scales, extending all the way down (or up) to the first act of imbalance and its balancing.
+Were imbalance and difference to cease existing, the cycles of creation, nature, and the movements of the Universe would also cease.  Nature is the balancing of imbalances between systems across all scales, extending all the way down (or up) to the first act of imbalance and its balancing.
+
+### N as an Implicit Attractor
+
+This balancing does not always require explicit negotiation.  In game theory, a *Schelling point*[^546] (named after economist Thomas Schelling) is a solution that individuals converge on naturally, without prior communication, simply because it feels salient, obvious, or structurally inevitable within a given context.  Consider two strangers told to meet in New York City at noon, with no further instruction.  The constraints, a specific city and a specific time, constitute the D-state: they draw the walls of the problem without specifying any solution within them.  A remarkable number of people will independently choose Grand Central Terminal as their meeting place, not because they were told to, but because the location carries an implicit weight of coordination that the shared cultural context makes feel inevitable.  That convergence point is the N-state, a pre-resolved attractor that emerges from the constraints without being dictated by them.  The C-state is not merely the effort of traveling there but the successful coordination itself, the fact that two people who never spoke actually meet, producing a real outcome contributed back to the world.
+
+Within the tholonic model, this is precisely how N functions: not as an externally imposed rule (D) nor as the final outcome (C), but as the mediating condition that makes the transition from constraint to result coherent and non-arbitrary.  Schelling points reveal that the N-state need not be an active process of negotiation at all; it can equally be a latent structural condition already embedded in context, a basin of convergence that the system moves toward because the geometry of the situation makes it the path of least resistance.  The cycle that follows is not random; it is shaped from its very beginning by the attractor at its center.
+
+The same pattern appears at every scale.  At the atomic level, a displaced electron does not deliberate about where to return: the ground state orbital is the implicit attractor, the N-state made structurally inevitable by the constraints of nuclear charge and electromagnetic force (D), and the stable atom with all its chemical potential is the resulting C-state.  At the ecological level, no honeybee calculates that a hexagonal lattice minimizes wax while maximizing storage; the bees construct rough circles, and the physical constraints of surface tension and equal pressure among neighboring cells converge on the hexagon as their Schelling point, with the finished comb and the colony it sustains as the C-state.  At the cosmic level, the Lagrange points of any two-body gravitational system, such as the Earth and Sun, are locations where competing forces balance so precisely that objects drifting through the solar system accumulate there over billions of years without being directed to do so.  Jupiter's Trojan asteroids, massed at its L4 and L5 points, are the C-state of a gravitational Schelling point written into the geometry of the solar system itself.  In each case, the N-state is not imposed from outside the system; it is latent within the structure of the constraints, waiting to be found.
 
 ### Waves
 
@@ -349,6 +379,8 @@ We keep bumping into the same universal constants and concepts in humanity's que
 What the predator-prey demonstration makes undeniable is that this recurrence is not the result of human pattern-seeking.  The same structure, N as the driving pressure, D as the constraining medium, C as the expression moving through it, appears without modification at the subatomic scale, the ecological scale, the electromagnetic scale, and the cosmological scale.  It is not that these domains are analogous to each other.  They are all instances of the same underlying pattern, operating within the constraints available at each level.  Cycles are how that pattern sustains itself through time: the predator rises, the prey falls, the system restores, and the cycle begins again, just as voltage drives current, current builds resistance, and resistance shapes the next pulse of voltage.
 
 That pattern, however, is only part of the story.  Every cycle described in this chapter depends on something that has not yet been fully examined: information.  The coyote does not merely chase the rabbit; it responds to a signal, a density gradient encoded in the environment, that tells it where the prey is and how available it is.  The cycle runs because information flows.  What information is, how it is structured, how it moves and decays, and why it is subject to the same tholonic logic as energy and matter is the subject of the next chapter.
+
+[^546]: Schelling, Thomas C., *The Strategy of Conflict*, Harvard University Press, 1960.  The concept of focal points (Schelling points) is introduced in Chapter 3: "Focal Points for Pure Coordination Games," where Schelling demonstrates through experiment that individuals converge on salient solutions without communication.
 
 
 
