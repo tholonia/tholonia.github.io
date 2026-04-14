@@ -8,7 +8,7 @@ categories:
 - NEUROSCIENCE
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/material_SharedDeathExperiences-AMulticulturalSurvey.pdf
+src1: https://files.tholonia.com:8765/material/material_SharedDeathExperiences-AMulticulturalSurvey.pdf
 src1_title: View/Download 'Shared Death Experiences' (17 pages)
 ptags:
 - nokwgen-manual

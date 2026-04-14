@@ -8,7 +8,7 @@ categories:
 - NATURE
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/material_time-wave-zero.pdf
+src1: https://files.tholonia.com:8765/material/material_time-wave-zero.pdf
 src1_title: View/Download 'Time Wave Zero' (6 pages)
 ptags:
 - nokwgen-manual

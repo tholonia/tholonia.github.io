@@ -7,7 +7,7 @@ image: /material/assets/material_probability_models_for_complex_systems.png
 categories:
 - GEOMETRY
 
-src1: https://143.198.128.147:8765/material/material_probability_models_for_complex_systems.pdf
+src1: https://files.tholonia.com:8765/material/material_probability_models_for_complex_systems.pdf
 src1_title: View/Download 'Probability Models for Complex Systems' (151 pages)
 ptags:
 - nokwgen-manual

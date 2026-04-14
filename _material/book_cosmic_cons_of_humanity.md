@@ -7,7 +7,7 @@ image: /material/assets/book_cosmic_cons_of_humanity.jpg
 categories:
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/book_cosmic_cons_of_humanity.pdf
+src1: https://files.tholonia.com:8765/material/book_cosmic_cons_of_humanity.pdf
 src1_title: View/Download "The Cosmic Consciousness of Humanity" (212 pages)
 ptags:
 - nokwgen-manual

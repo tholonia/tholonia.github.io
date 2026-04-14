@@ -8,7 +8,7 @@ categories:
 - GEOMETRY
 - NATURE
 
-src1: https://143.198.128.147:8765/material/material_Molecular_dynamics_study_of_tridymite.pdf
+src1: https://files.tholonia.com:8765/material/material_Molecular_dynamics_study_of_tridymite.pdf
 src1_title: View/Download 'Molecular dynamics study of tridymite' ( pages)
 ptags:
 - nokwgen-manual

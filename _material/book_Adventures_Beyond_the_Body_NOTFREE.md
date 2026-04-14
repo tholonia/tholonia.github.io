@@ -8,7 +8,7 @@ categories:
 - BIOSCIENCE
 - ENERGY
 
-src1: https://143.198.128.147:8765/material/book_Adventures_Beyond_the_Body_NOTFREE.pdf
+src1: https://files.tholonia.com:8765/material/book_Adventures_Beyond_the_Body_NOTFREE.pdf
 src1_title: View "Adventures_Beyond_the_Body (140 pages)"
 ptags:
 - nokwgen-manual

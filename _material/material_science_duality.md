@@ -8,7 +8,7 @@ categories:
 - METAPHYSICS
 - PHILOSOPHY
 
-src1: https://143.198.128.147:8765/material/material_science_duality.pdf
+src1: https://files.tholonia.com:8765/material/material_science_duality.pdf
 src1_title: View/Download 'Science, Dualities and the Phenomenological Map' (28 pages)
 ptags:
 - nokwgen-manual

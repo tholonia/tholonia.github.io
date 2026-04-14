@@ -9,7 +9,7 @@ categories:
 - METAPHYSICS
 - PHILOSOPHY
 
-src1: https://143.198.128.147:8765/material/book_The_Matter_With_Things_NOTFREE.pdf
+src1: https://files.tholonia.com:8765/material/book_The_Matter_With_Things_NOTFREE.pdf
 src1_title: View "The Matter With Things" (2,616 pages)
 ptags:
 - nokwgen-manual

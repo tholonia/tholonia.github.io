@@ -8,7 +8,7 @@ categories:
 - ECONOMICS
 - TECHNOLOGY
 
-src1: https://143.198.128.147:8765/material/material_TrueValue_overview_v1.pdf
+src1: https://files.tholonia.com:8765/material/material_TrueValue_overview_v1.pdf
 src1_title: View/Download 'True-Value Framework for Sustainability' (26 pages)
 ptags:
 - nokwgen-manual

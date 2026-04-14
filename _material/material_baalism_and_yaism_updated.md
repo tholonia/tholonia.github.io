@@ -7,7 +7,7 @@ image: /material/assets/material_baalism_and_yaism_updated.png
 categories:
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/material_baalism_and_yaism_updated.pdf
+src1: https://files.tholonia.com:8765/material/material_baalism_and_yaism_updated.pdf
 src1_title: View/Download 'Baalism and Yahwism Updated UPDATED' (6 pages)
 ptags:
 - nokwgen-manual

@@ -8,7 +8,7 @@ categories:
 - PSYCHOLOGY
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/book_red_NOTFREE.pdf
+src1: https://files.tholonia.com:8765/material/book_red_NOTFREE.pdf
 src1_title: View ' The Red Book (Liber Novus)' (404 pages)
 ptags:
 - nokwgen-manual

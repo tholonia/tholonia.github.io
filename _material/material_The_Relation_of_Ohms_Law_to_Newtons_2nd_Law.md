@@ -7,7 +7,7 @@ image: /material/assets/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.png
 categories:
 - ENERGY
 
-src1: https://143.198.128.147:8765/material/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.pdf
+src1: https://files.tholonia.com:8765/material/material_The_Relation_of_Ohms_Law_to_Newtons_2nd_Law.pdf
 src1_title: "View/Download 'The Relation of Ohm\u2019s Law to Newton\u2019s 2nd Law'\
     \ (6 pages)"
 ptags:

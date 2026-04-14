@@ -8,7 +8,7 @@ categories:
 - COMMUNICATION
 - TECHNOLOGY
 
-src1: https://143.198.128.147:8765/material/material_Univ_intel_and_def_of_machine_intel.pdf
+src1: https://files.tholonia.com:8765/material/material_Univ_intel_and_def_of_machine_intel.pdf
 src1_title: View/Download 'Universal Intelligence - A Definition of Machine Intelligence'
     (50 pages)
 ptags:

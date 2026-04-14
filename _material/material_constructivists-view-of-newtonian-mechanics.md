@@ -9,7 +9,7 @@ categories:
 - PHILOSOPHY
 - NATURE
 
-src1: https://143.198.128.147:8765/material/material_constructivists-view-of-newtonian-mechanics.pdf
+src1: https://files.tholonia.com:8765/material/material_constructivists-view-of-newtonian-mechanics.pdf
 src1_title: "View/Download \"A Constructivist View of Newton\u2019s Mechanics\" (35 pages)"
 ptags:
 - nokwgen-manual

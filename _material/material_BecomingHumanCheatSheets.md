@@ -8,7 +8,7 @@ categories:
 - TECHNOLOGY
 - REFERENCE
 
-src1: https://143.198.128.147:8765/material/material_BecomingHumanCheatSheets.pdf
+src1: https://files.tholonia.com:8765/material/material_BecomingHumanCheatSheets.pdf
 src1_title: View/Download 'Becoming Human Cheat Sheets' (25 pages)
 ptags:
 - nokwgen-manual

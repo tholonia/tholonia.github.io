@@ -7,7 +7,7 @@ image: /material/assets/material_symmetry-11-00391.png
 categories:
 - GEOMETRY
 
-src1: https://143.198.128.147:8765/material/material_symmetry-11-00391.pdf
+src1: https://files.tholonia.com:8765/material/material_symmetry-11-00391.pdf
 src1_title: View/Download 'Stereographic Visualization of 5-Dimensional Regular Polytopes'
     (12 pages)
 ptags:

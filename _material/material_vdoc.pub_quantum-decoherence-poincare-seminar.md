@@ -7,7 +7,7 @@ image: /material/assets/material_vdoc.pub_quantum-decoherence-poincare-seminar.p
 categories:
 - PHYSICS
 
-src1: https://143.198.128.147:8765/material/material_vdoc.pub_quantum-decoherence-poincare-seminar.pdf
+src1: https://files.tholonia.com:8765/material/material_vdoc.pub_quantum-decoherence-poincare-seminar.pdf
 src1_title: View/Download 'Quantum Decoherence - Poincare Seminar 2005' (196 pages)
 ptags:
 - nokwgen-manual

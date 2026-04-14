@@ -8,7 +8,7 @@ categories:
 - ESOTERIC
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/material_El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.pdf
+src1: https://files.tholonia.com:8765/material/material_El_Yahweh_and_Elohim_The_Evolution_of_God_in_Israel_and_its_Theological_Implications.pdf
 src1_title: View/Download 'The Evolution of God in Israel' (7 pages)
 ptags:
 - nokwgen-manual

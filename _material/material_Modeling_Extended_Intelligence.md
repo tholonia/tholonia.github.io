@@ -8,7 +8,7 @@ categories:
 - ENERGY
 - COMMUNICATION
 
-src1: https://143.198.128.147:8765/material/material_Modeling_Extended_Intelligence.pdf
+src1: https://files.tholonia.com:8765/material/material_Modeling_Extended_Intelligence.pdf
 src1_title: View/Download 'Modeling the Extended Living Intelligence Field' (7 pages)
 ptags:
 - nokwgen-manual

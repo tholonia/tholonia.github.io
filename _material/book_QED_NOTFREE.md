@@ -8,7 +8,7 @@ categories:
 - PHYSICS
 - NEUROSCIENCE
 
-src1: https://143.198.128.147:8765/material/book_QED_NOTFREE.pdf
+src1: https://files.tholonia.com:8765/material/book_QED_NOTFREE.pdf
 src1_title: View 'Quantum Electrodynamics' (209 pages)
 ptags:
 - nokwgen-manual

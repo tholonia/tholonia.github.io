@@ -8,7 +8,7 @@ categories:
 - METAPHYSICS
 - PARAPSYCHOLOGY
 
-src1: https://143.198.128.147:8765/material/book_The_Projection_Of_The_Astral_Body_NOTFREE.pdf
+src1: https://files.tholonia.com:8765/material/book_The_Projection_Of_The_Astral_Body_NOTFREE.pdf
 src1_title: View/Download 'The Projection of the Astral Body' (356 pages)
 ptags:
 - nokwgen-manual

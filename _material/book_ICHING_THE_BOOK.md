@@ -8,7 +8,7 @@ categories:
 - GEOMETRY
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/book_THOLONIC_ICHING.pdf
+src1: https://files.tholonia.com:8765/material/book_THOLONIC_ICHING.pdf
 src1_title: View/Download "The Tholonic I-Ching" (450 pages)
 ptags:
 - nokwgen-manual

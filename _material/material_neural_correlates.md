@@ -8,7 +8,7 @@ categories:
 - NEUROSCIENCE
 - PSYCHOLOGY
 
-src1: https://143.198.128.147:8765/material/material_neural_correlates.pdf
+src1: https://files.tholonia.com:8765/material/material_neural_correlates.pdf
 src1_title: View/Download 'The Neural Correlates of Consciousness and Attention' (17
     pages)
 ptags:

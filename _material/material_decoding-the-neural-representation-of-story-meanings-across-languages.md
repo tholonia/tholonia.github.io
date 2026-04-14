@@ -7,7 +7,7 @@ image: /material/assets/material_decoding-the-neural-representation-of-story-mea
 categories:
 - NEUROSCIENCE
 - COMMUNICATION
-src1: https://143.198.128.147:8765/material/material_decoding-the-neural-representation-of-story-meanings-across-languages.pdf
+src1: https://files.tholonia.com:8765/material/material_decoding-the-neural-representation-of-story-meanings-across-languages.pdf
 src1_title: View/Download "Decoding the Neural Representation of Story Meanings across Languages" (11 pages)
 ptags:
 - nokwgen-manual

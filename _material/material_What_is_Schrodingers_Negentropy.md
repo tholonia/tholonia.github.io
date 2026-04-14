@@ -8,7 +8,7 @@ categories:
 - ENERGY
 - PHYSICS
 
-src1: https://143.198.128.147:8765/material/material_What_is_Schrodingers_Negentropy.pdf
+src1: https://files.tholonia.com:8765/material/material_What_is_Schrodingers_Negentropy.pdf
 src1_title: View/Download 'What is (Schrodinger's) Negentropy?' (15 pages)
 ptags:
 - nokwgen-manual

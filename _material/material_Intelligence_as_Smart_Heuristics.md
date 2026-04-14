@@ -8,7 +8,7 @@ categories:
 - COMMUNICATION
 - NEUROSCIENCE
 
-src1: https://143.198.128.147:8765/material/material_Intelligence_as_Smart_Heuristics.pdf
+src1: https://files.tholonia.com:8765/material/material_Intelligence_as_Smart_Heuristics.pdf
 src1_title: View/Download 'Intelligence as Smart Heuristics' (35 pages)
 ptags:
 - nokwgen-manual

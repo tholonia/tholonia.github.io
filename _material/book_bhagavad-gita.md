@@ -7,7 +7,7 @@ image: /material/assets/book_bhagavad-gita.jpg
 categories:
 - PHILOSOPHY
 
-src1: https://143.198.128.147:8765/material/book_bhagavad-gita.pdf
+src1: https://files.tholonia.com:8765/material/book_bhagavad-gita.pdf
 src1_title: View/Download "Bhagavad Gita (1029 pages)"
 ptags:
 - nokwgen-manual

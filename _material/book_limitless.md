@@ -8,7 +8,7 @@ categories:
 - METAPHYSICS
 - PHILOSOPHY
 
-src1: https://143.198.128.147:8765/material/book_limitless.pdf
+src1: https://files.tholonia.com:8765/material/book_limitless.pdf
 src1_title: View/Download "Limitless Mind" (56 pages)
 ptags:
 - nokwgen-manual

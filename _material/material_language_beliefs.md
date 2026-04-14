@@ -7,7 +7,7 @@ image: /material/assets/material_language_beliefs.png
 categories:
 - COMMUNICATION
 
-src1: https://143.198.128.147:8765/material/material_language_beliefs.pdf
+src1: https://files.tholonia.com:8765/material/material_language_beliefs.pdf
 src1_title: View/Download "Language, Beliefs and Concepts" (17 pages)
 ptags:
 - nokwgen-manual

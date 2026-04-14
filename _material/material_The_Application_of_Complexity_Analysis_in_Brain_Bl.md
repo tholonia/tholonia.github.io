@@ -8,7 +8,7 @@ categories:
 - NEUROSCIENCE
 - BIOSCIENCE
 
-src1: https://143.198.128.147:8765/material/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.pdf
+src1: https://files.tholonia.com:8765/material/material_The_Application_of_Complexity_Analysis_in_Brain_Bl.pdf
 src1_title: View/Download '' (14 pages)
 ptags:
 - nokwgen-manual

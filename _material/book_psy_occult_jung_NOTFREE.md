@@ -8,7 +8,7 @@ categories:
 - METAPHYSICS
 - NATURE
 
-src1: https://143.198.128.147:8765/material/book_psy_occult_jung_NOTFREE.pdf
+src1: https://files.tholonia.com:8765/material/book_psy_occult_jung_NOTFREE.pdf
 src1_title: View "Psychology and the Occult" (210 pages)
 ptags:
 - nokwgen-manual

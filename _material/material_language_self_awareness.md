@@ -7,7 +7,7 @@ image: /material/assets/material_language_self_awareness.png
 categories:
 - COMMUNICATION
 
-src1: https://143.198.128.147:8765/material/material_language_self_awareness.pdf
+src1: https://files.tholonia.com:8765/material/material_language_self_awareness.pdf
 src1_title: View/Download "Language and Consciousness; How Language Implies Self-awareness"
     (11 pages)
 ptags:

@@ -8,7 +8,7 @@ categories:
 - NEUROSCIENCE
 - PARAPSYCHOLOGY
 
-src1: https://143.198.128.147:8765/material/material_pattern_processing.pdf
+src1: https://files.tholonia.com:8765/material/material_pattern_processing.pdf
 src1_title: View/Download 'Superior pattern processing' ( pages)
 ptags:
 - kwnogen-manual

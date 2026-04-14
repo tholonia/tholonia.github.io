@@ -8,7 +8,7 @@ categories:
 - PHILOSOPHY
 - PHYSICS
 
-src1: https://143.198.128.147:8765/material/book_What_is_Life.pdf
+src1: https://files.tholonia.com:8765/material/book_What_is_Life.pdf
 src1_title: View/Download "What is Life?" (31 pages)
 ptags:
 - nokwgen-manual

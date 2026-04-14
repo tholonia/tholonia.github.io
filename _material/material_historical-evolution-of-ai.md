@@ -13,7 +13,7 @@ categories:
 - TECHNOLOGY
 - REFERENCE
 
-src1: https://143.198.128.147:8765/material/material_historical-evolution-of-ai.pdf
+src1: https://files.tholonia.com:8765/material/material_historical-evolution-of-ai.pdf
 src1_title: View/Download 'Historical Evolution of AI' ( pages)
 ptags:
 - nokwgen-manual

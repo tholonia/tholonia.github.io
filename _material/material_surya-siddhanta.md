@@ -10,7 +10,7 @@ categories:
 - SCIENCE
 - HISTORY
 
-src1: https://143.198.128.147:8765/material/material_surya-siddhanta.pdf
+src1: https://files.tholonia.com:8765/material/material_surya-siddhanta.pdf
 src1_title: View/Download 'Surya Siddhanta' (306 pages)
 ptags:
 - nokwgen-manual

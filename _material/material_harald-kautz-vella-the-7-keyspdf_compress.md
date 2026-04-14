@@ -8,7 +8,7 @@ categories:
 - POLITICS
 - TECHNOLOGY
 
-src1: https://143.198.128.147:8765/material/material_harald-kautz-vella-the-7-keyspdf_compress.pdf
+src1: https://files.tholonia.com:8765/material/material_harald-kautz-vella-the-7-keyspdf_compress.pdf
 src1_title: View/Download "The 7 Keys to the Friendly Takeover of the Planet by its Inhabitants"
     (70 pages)
 ptags:

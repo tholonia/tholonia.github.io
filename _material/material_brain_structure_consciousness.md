@@ -7,7 +7,7 @@ image: /material/assets/material_brain_structure_consciousness.png
 categories:
 - NEUROSCIENCE
 
-src1: https://143.198.128.147:8765/material/material_brain_structure_consciousness.pdf
+src1: https://files.tholonia.com:8765/material/material_brain_structure_consciousness.pdf
 src1_title: View/Download "Brain Structural Complexity and Consciousness" (27 pages)
 ptags:
 - nokwgen-manual

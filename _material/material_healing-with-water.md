@@ -9,7 +9,7 @@ categories:
 - NATURE
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/material_healing-with-water.md.pdf
+src1: https://files.tholonia.com:8765/material/material_healing-with-water.md.pdf
 src1_title: View/Download 'Healing with Water' (3 pages)
 ptags:
 - nokwgen-manual

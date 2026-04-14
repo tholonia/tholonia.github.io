@@ -8,7 +8,7 @@ categories:
 - GEOMETRY
 - NATURE
 
-src1: https://143.198.128.147:8765/material/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
+src1: https://files.tholonia.com:8765/material/material_Fractal_Dimension_in_Architecture_An_Exploration_of_Spatial_Dimension.pdf
 src1_title: View/Download ' Fractal Dimension in Architecture' (107 pages)
 ptags:
 - nokwgen-manual

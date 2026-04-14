@@ -7,7 +7,7 @@ image: /material/assets/material_quantum_decoherence.png
 categories:
 - PHYSICS
 
-src1: https://143.198.128.147:8765/material/material_quantum_decoherence.pdf
+src1: https://files.tholonia.com:8765/material/material_quantum_decoherence.pdf
 src1_title: View/Download 'Roots and Fruits of Decoherence' ( pages)
 ptags:
 - nokwgen-manual

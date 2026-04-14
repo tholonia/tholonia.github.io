@@ -9,7 +9,7 @@ categories:
 - NATURE
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/material_effects-of-distant-intention-on-water.pdf
+src1: https://files.tholonia.com:8765/material/material_effects-of-distant-intention-on-water.pdf
 src1_title: View/Download 'Effects of Distant Intention on Water' (4 pages)
 ptags:
 - nokwgen-manual

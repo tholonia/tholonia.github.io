@@ -8,7 +8,7 @@ categories:
 - GEOSCIENCE
 - ASTRONOMY
 
-src1: https://143.198.128.147:8765/material/material_MARS_EXPLORATION_MAY_22_1984.pdf
+src1: https://files.tholonia.com:8765/material/material_MARS_EXPLORATION_MAY_22_1984.pdf
 src1_title: View/Download 'Mars Exploration, May 22, 1984 (CIA FOIA)' (3 pages)
 ptags:
 - nokwgen-manual

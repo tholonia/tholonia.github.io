@@ -7,7 +7,7 @@ image: /material/assets/material_Zero_Divided_by_Zero_Equals_One.png
 categories:
 - MATH
 
-src1: https://143.198.128.147:8765/material/material_Zero_Divided_by_Zero_Equals_One.pdf
+src1: https://files.tholonia.com:8765/material/material_Zero_Divided_by_Zero_Equals_One.pdf
 src1_title: View/Download 'Zero Divided by Zero Equals One' (18 pages)
 ptags:
 - nokwgen-manual

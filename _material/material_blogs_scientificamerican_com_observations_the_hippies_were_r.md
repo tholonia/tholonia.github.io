@@ -8,7 +8,7 @@ categories:
 - PHILOSOPHY
 - METAPHYSICS
 
-src1: https://143.198.128.147:8765/material/material_sciam_observations_the_hippies_were_r.pdf
+src1: https://files.tholonia.com:8765/material/material_sciam_observations_the_hippies_were_r.pdf
 src1_title: View/Download 'The Hippies Were Right - It's All about Vibrations, Man!'
     (6 pages)
 ptags:
