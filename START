@@ -1,33 +1,42 @@
 #!/bin/bash
 
-# Startup script for chirpy2 Docker container
+# Startup script for chirpy2 Podman container
 
 CONTAINER_NAME="chirpyRun"
 IMAGE_NAME="chirpy2:updated"
+HOST_PORT=4322
 
-echo "🔍 Checking Docker environment..."
+echo "🔍 Checking Podman environment..."
 
 # Check if container exists
-if docker ps -a --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
+if podman ps -a --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
     echo "📦 Container '${CONTAINER_NAME}' exists."
-    
-    # Check if container is running
-    if docker ps --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
+
+    # Check if container is already running
+    if podman ps --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
         echo "✅ Container is already running."
         echo "🔗 Attaching to container..."
-        docker exec -it ${CONTAINER_NAME} /bin/bash
+        podman exec -it ${CONTAINER_NAME} /bin/bash
     else
         echo "▶️  Starting existing container..."
-        docker start -ai ${CONTAINER_NAME}
+        if ! podman start -ai ${CONTAINER_NAME} 2>/dev/null; then
+            echo "⚠️  Port conflict — removing old container and recreating on port ${HOST_PORT}..."
+            podman rm ${CONTAINER_NAME}
+            podman run -it -p ${HOST_PORT}:${HOST_PORT} -p 35729:35729 \
+                --mount type=bind,src=$(pwd),target=$(pwd) \
+                --workdir $(pwd) \
+                --name ${CONTAINER_NAME} \
+                ${IMAGE_NAME} /bin/bash
+        fi
     fi
 else
     echo "📦 Container '${CONTAINER_NAME}' does not exist."
-    
+
     # Check if image exists
-    if ! docker images --format '{{.Repository}}:{{.Tag}}' | grep -q "^${IMAGE_NAME}$"; then
+    if ! podman images --format '{{.Repository}}:{{.Tag}}' | grep -q "^${IMAGE_NAME}$"; then
         echo "🔨 Image '${IMAGE_NAME}' not found. Building..."
-        docker build -t ${IMAGE_NAME} .
-        
+        podman build -t ${IMAGE_NAME} .
+
         if [ $? -ne 0 ]; then
             echo "❌ Failed to build image."
             exit 1
@@ -36,12 +45,11 @@ else
     else
         echo "✅ Image '${IMAGE_NAME}' exists."
     fi
-    
+
     echo "🚀 Creating and running new container..."
-    docker run -it -p 4321:4321 -p 35729:35729 \
-        --mount src=$(pwd),target=$(pwd),type=bind \
+    podman run -it -p ${HOST_PORT}:${HOST_PORT} -p 35729:35729 \
+        --mount type=bind,src=$(pwd),target=$(pwd) \
         --workdir $(pwd) \
         --name ${CONTAINER_NAME} \
         ${IMAGE_NAME} /bin/bash
 fi
-
